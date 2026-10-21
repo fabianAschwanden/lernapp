@@ -1,7 +1,7 @@
 name: Test und Deploy auf Fly.io
 
 # Testet (Lektionen, Unit, E2E) und deployt nach Fly (fly.toml).
-# Voraussetzung: Repo-Secret FLY_API_TOKEN (fly tokens create deploy -a lernapp).
+# Voraussetzung: Repo-Secret FLY_API_TOKEN (fly tokens create deploy -a lernapp-fa).
 
 on:
   push:
@@ -57,7 +57,7 @@ jobs:
 
       - name: Prüfen
         run: |
-          url=https://lernapp.fly.dev
+          url=https://lernapp-fa.fly.dev
           for i in $(seq 1 12); do
             code=$(curl -s -o /dev/null -w '%{http_code}' $url/lektion/informatik-pruefung-1) && [ "$code" = 200 ] && break
             sleep 5

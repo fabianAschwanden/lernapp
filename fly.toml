@@ -1,6 +1,6 @@
 # Lernapp auf Fly.io: statische PWA hinter nginx (Dockerfile). Keine Secrets, keine Volumes.
 # Deploy nur über GitHub Actions (.github/workflows/fly-deploy.yml).
-app = "lernapp"
+app = "lernapp-fa"
 primary_region = "fra"
 
 [build]
