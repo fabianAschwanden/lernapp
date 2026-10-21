@@ -1,0 +1,162 @@
+:host {
+  display: block;
+}
+.fragetext {
+  font-size: 1.08rem;
+  font-weight: 600;
+}
+.hinweis-mehr {
+  margin: 0;
+}
+.option-text {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.option[aria-pressed='true'] .marke,
+.option.richtig .marke,
+.option.falsch .marke {
+  background: var(--flaeche);
+  color: var(--text);
+}
+/* Richtig, aber nicht gewählt: gestrichelt, ohne Fläche — anders als «richtig gewählt» */
+.option.fehlte {
+  border-style: dashed;
+  background: var(--flaeche);
+}
+.option.richtig .marke {
+  color: var(--gut-text);
+}
+.option.falsch .marke {
+  color: var(--schlecht-text);
+}
+.zusatz {
+  flex: none;
+  align-self: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--gut-text);
+}
+.wahrfalsch {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.option.gross {
+  justify-content: center;
+  align-items: center;
+  min-height: 64px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+@media (min-width: 600px) {
+  .zuordnen .zuordnung {
+    display: grid;
+    grid-template-columns: 1fr minmax(160px, 280px);
+    align-items: center;
+    gap: 4px 12px;
+  }
+  .zuordnung > span {
+    grid-column: 2;
+  }
+}
+.zuordnung.ok select {
+  border-color: var(--gut);
+}
+.zuordnung.nok select {
+  border-color: var(--schlecht);
+}
+.text-gut {
+  color: var(--gut-text);
+}
+.text-schlecht {
+  color: var(--schlecht-text);
+}
+.ohne-abstand {
+  margin: 0;
+}
+.loesung-liste {
+  margin: 4px 0 0;
+  padding-left: 1.4em;
+}
+.reihenfolge {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.reihenfolge .option {
+  align-items: center;
+  cursor: default;
+}
+.pfeile {
+  display: flex;
+  gap: 6px;
+  flex: none;
+}
+.pfeile .knopf {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+  font-size: 1.1rem;
+}
+.zahl {
+  flex-wrap: nowrap;
+}
+.zahl .eingabe {
+  flex: 1;
+  min-width: 0;
+}
+.einheit {
+  font-weight: 600;
+  color: var(--text-2);
+}
+.eigener-text {
+  white-space: pre-wrap;
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: var(--radius-klein);
+  background: var(--flaeche-2);
+}
+.loesung .ueberschrift-klein {
+  margin: 0;
+}
+.selbst {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+.selbst .knopf {
+  padding-inline: 6px;
+}
+.rueckmeldung {
+  border-radius: var(--radius-klein);
+  padding: 12px 14px;
+  border-left: 4px solid var(--schlecht);
+  background: var(--schlecht-weich);
+  gap: 6px;
+}
+.rueckmeldung.richtig {
+  border-left-color: var(--gut);
+  background: var(--gut-weich);
+}
+.rueckmeldung.teilweise {
+  border-left-color: var(--mittel);
+  background: var(--mittel-weich);
+}
+.rueckmeldung .kopf {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.rueckmeldung.richtig .kopf {
+  color: var(--gut-text);
+}
+.rueckmeldung.teilweise .kopf {
+  color: var(--mittel-text);
+}
+.rueckmeldung.falsch .kopf {
+  color: var(--schlecht-text);
+}

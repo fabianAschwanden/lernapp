@@ -1,0 +1,1303 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-hardware-software",
+      "zusammenfassung": "Ein Computer besteht aus zwei Bestandteilen: **Hardware** und **Software**.\n\n### Hardware\nAlle **physisch greifbaren** Bestandteile: Prozessor, Speicher, Festplatte, Tastatur, Bildschirm, Kabel usw. Faustregel: **Alles, was man anfassen kann, ist Hardware.**\n\n### Software\nSoftware besteht aus **Programmen**. Sie ist nicht materiell, sondern eine **Folge von Anweisungen**, die der Computer ausführt. Ohne Software wäre die Hardware zwar vorhanden, hätte aber **keine sinnvolle Funktion**.\n- **Anwendungssoftware:** Programme für bestimmte Aufgaben, z. B. Textverarbeitung (Word), Spiele, Webbrowser, Teams.\n- **Betriebssystem:** das grundlegende Steuerprogramm des Computers – auch Software!\n\n### Betriebssystem – der Vermittler\nDas Betriebssystem **vermittelt zwischen der Hardware und den Programmen**. Es\n- sorgt dafür, dass Programme gestartet werden können,\n- verwaltet den Speicher,\n- organisiert die Dateien auf dem Massenspeicher (Festplatte/SSD),\n- steuert angeschlossene Geräte (z. B. Drucker, Maus).\n\nSchichten: **Nutzer → Anwendungssoftware → Betriebssystem → Hardware**\n\n| Gerät | Bekannte Betriebssysteme |\n|---|---|\n| PC, Laptop | Windows, macOS, Linux |\n| Smartphone | iOS (iPhone), Android |\n\n### Achtung\n**Die Cloud ist kein Programm und kein Betriebssystem – die Cloud ist ein Speicherplatz** (auf Servern im Internet).",
+      "merksaetze": [
+        "Hardware kann man anfassen, Software nicht.",
+        "Software = Programme = eine Folge von Anweisungen, die der Computer ausführt.",
+        "Das Betriebssystem vermittelt zwischen Hardware und Anwendungssoftware.",
+        "Betriebssysteme: Windows, macOS, Linux – auf dem Handy iOS und Android.",
+        "Die Cloud ist ein Speicherplatz, kein Betriebssystem."
+      ]
+    },
+    {
+      "id": "lz-bauteile",
+      "zusammenfassung": "Die wichtigsten Hardware-Komponenten und ihre **Hauptaufgabe**. Achtung: Manche Bauteile haben **zwei Namen** – beide bedeuten **dasselbe**! (Was die Abkürzungen ausgeschrieben heissen, musst du nicht wissen.)\n\n| Bauteil (beide Namen) | Hauptaufgabe |\n|---|---|\n| **Prozessor = CPU** | «Gehirn» des Computers: führt Befehle und Berechnungen aus |\n| **Arbeitsspeicher = RAM** | merkt sich schnell, was **gerade** gebraucht wird (flüchtig) |\n| **Mainboard = Motherboard** | verbindet alle Bauteile miteinander |\n| **Festplatte** (HDD) | speichert dauerhaft, mit drehenden Scheiben |\n| **SSD** | speichert dauerhaft, ohne bewegliche Teile, schneller |\n| **SD-Karte** | kleine Speicherkarte, z. B. für Kamera |\n| **Grafikkarte** | berechnet das Bild für den Bildschirm |\n\n### Prozessor = CPU\nDie zentrale Einheit, das **«Gehirn»** des Computers: Er entscheidet, welche Operation als Nächstes ausgeführt wird, führt **Berechnungen** durch und verarbeitet **logische Verknüpfungen**.\n\n### Arbeitsspeicher = RAM\nSpeichert die Daten und Programme, die **gerade verwendet** werden. Er ist **sehr schnell**, aber beim Ausschalten gehen seine Inhalte **verloren**. Bild aus dem Skript: der **temporäre Notizzettel** des Prozessors für Zwischenergebnisse.\n\n### Mainboard = Motherboard\nDie grosse Hauptplatine. Über feine Leitungen und Steckverbindungen **verbindet** es alle Komponenten: Prozessor, Arbeitsspeicher, Speicher, Grafikkarte und Anschlüsse. Es ist die **zentrale Infrastruktur**, die das Zusammenspiel ermöglicht.\n\n### Massenspeicher: Festplatte, SSD, SD-Karte\nSpeichern Daten **dauerhaft**: Programme, Dokumente, Bilder und das Betriebssystem.\n- **Festplatte (HDD):** mechanisch – darin drehen sich kleine Scheiben. Vor allem in älteren Computern.\n- **SSD:** ohne bewegliche Teile, deshalb deutlich schneller. Standard in modernen Computern.\n- **SD-Karte:** kleine, flache Speicherkarte (als microSD noch kleiner), z. B. in Fotokameras, Drohnen, Spielkonsolen oder manchen Handys. Behält die Daten auch ohne Strom.\n\n**Achtung, Verwechslungsgefahr:** **SSD** und **SD-Karte** klingen ähnlich, sind aber verschiedene Dinge. Die **SSD** ist der grosse, fest eingebaute Massenspeicher im Laptop oder PC (Betriebssystem, Programme, Dateien). Die **SD-Karte** ist eine kleine Speicherkarte, die man herausnehmen und in ein anderes Gerät stecken kann.\n\n### Grafikkarte\nBerechnet die **Bilder**, die auf dem **Bildschirm** erscheinen. Besonders wichtig für 3D-Spiele, Videoschnitt und Grafik. Der Bildschirm wird oft direkt an der Grafikkarte angeschlossen. In vielen Laptops ist die Grafik im Prozessor eingebaut.\n\n### Ein- und Ausgabegeräte\nGehören auch zur Hardware: **Eingabegeräte** (Tastatur, Maus, Mikrofon) liefern Daten an den Computer, **Ausgabegeräte** (Bildschirm, Lautsprecher, Drucker) geben verarbeitete Informationen wieder aus. Sie sind die Schnittstelle zwischen Mensch und Maschine.\n\n*Nicht aus dem Skript, sondern ergänzt: Grafikkarte und SD-Karte. Frag bei Unklarheiten deine Lehrperson.*",
+      "merksaetze": [
+        "Prozessor = CPU: das «Gehirn», führt Befehle und Berechnungen aus.",
+        "Arbeitsspeicher = RAM: schneller Notizzettel für das, was gerade läuft.",
+        "Mainboard = Motherboard: verbindet alle Bauteile miteinander.",
+        "Festplatte, SSD und SD-Karte speichern dauerhaft – die Grafikkarte berechnet das Bild für den Bildschirm.",
+        "SSD ≠ SD-Karte: Die SSD ist der eingebaute Massenspeicher im Computer, die SD-Karte eine kleine, wechselbare Speicherkarte z. B. für die Kamera."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/informatik/bauteil-cpu.svg",
+          "alt": "Prozessor (CPU): quadratischer Chip mit vielen Kontakten",
+          "legende": "Prozessor = CPU"
+        },
+        {
+          "src": "bilder/informatik/bauteil-ram.svg",
+          "alt": "Arbeitsspeicher (RAM): länglicher Riegel mit mehreren Speicherchips",
+          "legende": "Arbeitsspeicher = RAM"
+        },
+        {
+          "src": "bilder/informatik/bauteil-mainboard.svg",
+          "alt": "Mainboard (Motherboard): grosse Platine mit Steckplätzen für Prozessor und Arbeitsspeicher",
+          "legende": "Mainboard = Motherboard"
+        },
+        {
+          "src": "bilder/informatik/bauteil-grafikkarte.svg",
+          "alt": "Grafikkarte: Steckkarte mit Lüfter und Bildschirmanschlüssen",
+          "legende": "Grafikkarte"
+        },
+        {
+          "src": "bilder/informatik/bauteil-ssd.svg",
+          "alt": "SSD in zwei Bauformen: oben ein flaches Gehäuse mit Steckanschlüssen, unten ein schmaler M.2-Riegel mit wenigen Speicherchips – ohne bewegliche Teile",
+          "legende": "SSD (als Gehäuse und als M.2-Riegel)"
+        },
+        {
+          "src": "bilder/informatik/bauteil-hdd.svg",
+          "alt": "Geöffnete Festplatte: runde, glänzende Scheibe mit einem Lesearm darüber",
+          "legende": "Festplatte (HDD), geöffnet"
+        },
+        {
+          "src": "bilder/informatik/bauteil-sd-karte.svg",
+          "alt": "SD-Karte: kleine, flache Karte mit abgeschrägter Ecke und goldenen Kontakten",
+          "legende": "SD-Karte"
+        }
+      ]
+    },
+    {
+      "id": "lz-speicherarten",
+      "zusammenfassung": "Im Computer gibt es zwei grundlegend verschiedene Arten von Speicher:\n\n| | Arbeitsspeicher (RAM) | Speichermedien (Massenspeicher) |\n|---|---|---|\n| Aufgabe | hält bereit, was **gerade** gebraucht wird | speichert **dauerhaft** |\n| Strom aus | Inhalt ist **weg** → **flüchtig** | Inhalt bleibt → **nicht-flüchtig** |\n| Tempo | **sehr schnell** | langsamer |\n| Grösse (Beispiel Laptop) | eher klein, z. B. 16 GB | gross, z. B. 512 GB oder 1 TB |\n| Beispiele | RAM-Riegel | SSD, Festplatte, SD-Karte, USB-Stick |\n\n### Flüchtig\n**Flüchtig** heisst: Der Speicher braucht Strom, um sich etwas zu merken. Wird der Computer ausgeschaltet oder fällt der Strom aus, **gehen die Inhalte verloren**. Das gilt für den **Arbeitsspeicher**.\n\n### Nicht-flüchtig\nSpeichermedien behalten die Daten **auch ohne Strom**: Programme, Dokumente, Bilder und das Betriebssystem selbst. Im Skript heissen sie **Massenspeicher** – das bedeutet dasselbe wie Speichermedium.\n\n### Zusammenspiel\n- Du öffnest eine Datei: Sie wird vom Speichermedium (z. B. SSD) in den **Arbeitsspeicher** geladen.\n- Der **Prozessor** arbeitet damit – der Arbeitsspeicher ist sein schneller **Notizzettel** für Zwischenergebnisse.\n- Beim **Speichern** wird die Datei wieder dauerhaft auf das Speichermedium geschrieben.\n\nDarum: **Speichern nicht vergessen!** Was du nicht gespeichert hast, liegt nur im Arbeitsspeicher und ist beim Ausschalten weg – ausser das Programm speichert automatisch (wie Word mit AutoWiederherstellen).\n\n### Typischer Denkfehler\nMehr Arbeitsspeicher heisst **nicht** mehr Platz für Fotos und Dateien. Dafür braucht es ein grösseres Speichermedium.\n\n*Nicht aus dem Skript, sondern ergänzt: die Beispielgrössen, USB-Stick und SD-Karte. Frag bei Unklarheiten deine Lehrperson.*",
+      "merksaetze": [
+        "Arbeitsspeicher (RAM) ist flüchtig: Strom aus → Inhalt weg.",
+        "Speichermedien wie SSD, Festplatte, SD-Karte und USB-Stick sind nicht-flüchtig: Die Daten bleiben ohne Strom erhalten.",
+        "Arbeitsspeicher = schnell und für das, was gerade läuft; Speichermedium = gross und dauerhaft.",
+        "Nicht gespeichert = nur im Arbeitsspeicher = beim Ausschalten verloren – sofern das Programm nicht automatisch speichert."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/informatik/speicher-vergleich.svg",
+          "alt": "Arbeitsspeicher, Festplatte/SSD und Cloud im Vergleich: flüchtig, dauerhaft, online",
+          "legende": "Arbeitsspeicher (flüchtig), Massenspeicher und Cloud (dauerhaft)"
+        }
+      ]
+    },
+    {
+      "id": "lz-festplatte-ssd-cloud",
+      "zusammenfassung": "Drei Möglichkeiten, Daten **dauerhaft** zu speichern: **Festplatte (HDD)** und **SSD** stecken im oder am Gerät, die **Cloud** liegt im Internet.\n\n| | Festplatte (HDD) | SSD |\n|---|---|---|\n| Technik | **drehende Scheiben** | **keine beweg­lichen Teile** |\n| Tempo | langsamer | **sehr schnell** |\n| Preis pro GB | **günstig** | **teurer** |\n| Robustheit | **stoss­empfindlich** | **robust**, leise |\n| Zugriff | lokal, ohne Internet | lokal, ohne Internet |\n\nDie **Cloud** im Vergleich dazu:\n- liegt auf **Servern im Internet** bei einem Anbieter\n- Tempo hängt von der **Internetverbindung** ab\n- wenig Platz gratis, mehr meist im **Abo**\n- Daten bleiben, auch wenn dein Gerät kaputtgeht\n- Zugriff **überall und von mehreren Geräten** – aber nur mit **Internet**\n\n### Festplatte (HDD)\nDarin drehen sich tatsächlich kleine Scheiben, ein Arm liest und schreibt die Daten. Darum ist sie langsamer und empfindlich gegen Stösse. Heute vor allem dort, wo viel Platz günstig sein soll (z. B. externe Backup-Festplatte).\n\n### SSD\nArbeitet **ohne bewegliche Teile** und ist deshalb deutlich **schneller**: Der Computer startet in Sekunden, Programme laden rasch. Standard in modernen Laptops und PCs.\n\n### Cloud\n**Die Cloud ist ein Speicherplatz!** Kein Bauteil in deinem Computer und kein Programm, sondern Speicherplatz auf Servern eines Anbieters (z. B. OneDrive, iCloud, Google Drive, Dropbox), den du über das Internet nutzt. Auch die Dateien in **MS Teams** liegen in der Cloud.\n- **Vorteile:** überall und auf allen Geräten verfügbar, einfach teilen und gemeinsam bearbeiten, Daten sind nicht verloren, wenn das eigene Gerät kaputtgeht.\n- **Nachteile:** braucht **Internet**, Daten liegen **bei einem fremden Anbieter** (Datenschutz), für mehr Platz meist **Abo-Kosten**.\n\n*Nicht aus dem Skript, sondern ergänzt: Kosten, Robustheit und die Details zur Cloud. Frag bei Unklarheiten deine Lehrperson.*",
+      "merksaetze": [
+        "Festplatte: drehende Scheiben – günstig pro GB, aber langsamer und stossempfindlich.",
+        "SSD: keine beweglichen Teile – schnell, leise und robust, aber teurer pro GB.",
+        "Cloud ist ein Speicherplatz auf Servern im Internet – überall verfügbar, aber nur mit Internet und bei einem fremden Anbieter."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/informatik/speicher-hdd-ssd-cloud.svg",
+          "alt": "Festplatte, SSD und Cloud im Vergleich: Tempo, Preis pro GB, Robustheit und Zugriff",
+          "legende": "Festplatte, SSD und Cloud im Vergleich"
+        }
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-hardware-software-02",
+      "lernzielId": "lz-hardware-software",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 1,
+      "frage": "Ein Webbrowser (z. B. Chrome oder Safari) gehört zur Hardware.",
+      "richtig": false,
+      "erklaerung": "Ein Webbrowser ist ein **Programm** und damit **Software** (genauer: Anwendungssoftware). Man kann ihn nicht anfassen."
+    },
+    {
+      "id": "f-hardware-software-03",
+      "lernzielId": "lz-hardware-software",
+      "typ": "zuordnen",
+      "schwierigkeit": 1,
+      "frage": "Ordne zu: Hardware oder Software?",
+      "paare": [
+        {
+          "links": "Tastatur",
+          "rechts": "Hardware"
+        },
+        {
+          "links": "Webbrowser",
+          "rechts": "Software"
+        },
+        {
+          "links": "Prozessor",
+          "rechts": "Hardware"
+        },
+        {
+          "links": "Windows",
+          "rechts": "Software"
+        },
+        {
+          "links": "Kabel",
+          "rechts": "Hardware"
+        },
+        {
+          "links": "Computerspiel",
+          "rechts": "Software"
+        }
+      ],
+      "erklaerung": "Faustregel: **Was man anfassen kann, ist Hardware** (Tastatur, Prozessor, Kabel). Programme wie Webbrowser, Spiele und auch das Betriebssystem Windows sind **Software**."
+    },
+    {
+      "id": "f-hardware-software-04",
+      "lernzielId": "lz-hardware-software",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Welche Hauptaufgabe hat das **Betriebssystem**?",
+      "optionen": [
+        "Es vermittelt zwischen Hardware und Programmen",
+        "Es berechnet das Bild für den Bildschirm",
+        "Es speichert Fotos dauerhaft ohne Strom",
+        "Es verbindet die Bauteile mit feinen Leitungen"
+      ],
+      "richtig": 0,
+      "erklaerung": "Das Betriebssystem ist das grundlegende Steuerprogramm und **vermittelt zwischen Hardware und Anwendungsprogrammen**. Das Bild berechnet die Grafikkarte, dauerhaft speichert die SSD/Festplatte, und die Bauteile verbindet das Mainboard – das sind alles Hardware-Aufgaben."
+    },
+    {
+      "id": "f-hardware-software-06",
+      "lernzielId": "lz-hardware-software",
+      "typ": "kurzantwort",
+      "schwierigkeit": 1,
+      "frage": "Wie heisst das Betriebssystem auf einem **iPhone**?",
+      "akzeptiert": [
+        "iOS",
+        "i OS",
+        "Apple iOS"
+      ],
+      "erklaerung": "Auf dem iPhone läuft **iOS** von Apple. Das zweite grosse Handy-Betriebssystem ist **Android**. Auf Apple-Computern heisst es dagegen macOS."
+    },
+    {
+      "id": "f-hardware-software-08",
+      "lernzielId": "lz-hardware-software",
+      "typ": "reihenfolge",
+      "schwierigkeit": 2,
+      "frage": "Bringe die Schichten eines Computers in die richtige Reihenfolge – von oben nach unten.",
+      "elemente": [
+        "Nutzer",
+        "Anwendungssoftware",
+        "Betriebssystem",
+        "Hardware"
+      ],
+      "erklaerung": "Der Nutzer bedient die **Anwendungssoftware** (z. B. Word). Diese nutzt das **Betriebssystem**, und das Betriebssystem steuert die **Hardware**. Das Betriebssystem steht also als Vermittler zwischen Programm und Hardware."
+    },
+    {
+      "id": "f-hardware-software-09",
+      "lernzielId": "lz-hardware-software",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Lena klickt in Word auf «Drucken». Welche Software sorgt dafür, dass der angeschlossene **Drucker angesteuert** wird?",
+      "optionen": [
+        "Das Betriebssystem",
+        "Der Webbrowser",
+        "Ein Antivirenprogramm",
+        "Die Rechtschreibprüfung von Word"
+      ],
+      "richtig": 0,
+      "erklaerung": "Das **Betriebssystem steuert angeschlossene Geräte** wie Drucker oder Maus. Word gibt den Druckauftrag nur weiter. Webbrowser, Antivirenprogramm und Rechtschreibprüfung sind Anwendungssoftware bzw. Funktionen davon – sie steuern keine Geräte."
+    },
+    {
+      "id": "f-hardware-software-10",
+      "lernzielId": "lz-hardware-software",
+      "typ": "mehrfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Welche Aufgaben übernimmt laut Skript das **Betriebssystem**?",
+      "optionen": [
+        "Texte auf Rechtschreibfehler prüfen",
+        "Programme starten",
+        "Dateien auf der Festplatte organisieren",
+        "Das Bild für den Bildschirm berechnen",
+        "Angeschlossene Geräte steuern"
+      ],
+      "richtig": [
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Das Betriebssystem startet Programme, verwaltet den Speicher, organisiert Dateien und steuert Geräte. Die Rechtschreibprüfung ist eine Funktion eines **Anwendungsprogramms** (z. B. Word), und das Bild für den Bildschirm berechnet die **Grafikkarte** (Hardware)."
+    },
+    {
+      "id": "f-hardware-software-11",
+      "lernzielId": "lz-hardware-software",
+      "typ": "zuordnen",
+      "schwierigkeit": 2,
+      "frage": "Ordne zu: Betriebssystem oder Anwendungssoftware?",
+      "paare": [
+        {
+          "links": "Windows",
+          "rechts": "Betriebssystem"
+        },
+        {
+          "links": "Word",
+          "rechts": "Anwendungssoftware"
+        },
+        {
+          "links": "Android",
+          "rechts": "Betriebssystem"
+        },
+        {
+          "links": "Minecraft",
+          "rechts": "Anwendungssoftware"
+        },
+        {
+          "links": "macOS",
+          "rechts": "Betriebssystem"
+        },
+        {
+          "links": "MS Teams",
+          "rechts": "Anwendungssoftware"
+        }
+      ],
+      "erklaerung": "Betriebssysteme sind die Grundprogramme eines Geräts: **Windows, macOS, Linux, iOS, Android**. Programme für eine bestimmte Aufgabe – Word, Spiele, Teams, Webbrowser – sind **Anwendungssoftware**."
+    },
+    {
+      "id": "f-hardware-software-12",
+      "lernzielId": "lz-hardware-software",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 2,
+      "frage": "Ein Laptop mit einwandfreier Hardware, aber **ganz ohne Software**, ist für dich praktisch nutzlos.",
+      "richtig": true,
+      "erklaerung": "Ohne Software wäre die Hardware zwar vorhanden, hätte aber keine sinnvolle Funktion: Erst die Software (eine Folge von Anweisungen) sagt der Hardware, was sie tun soll. Ohne Betriebssystem und Programme könntest du weder Texte schreiben noch surfen."
+    },
+    {
+      "id": "f-hardware-software-13",
+      "lernzielId": "lz-hardware-software",
+      "typ": "kurzantwort",
+      "schwierigkeit": 2,
+      "frage": "Mit welchem Fachbegriff fasst man Programme wie eine **Textverarbeitung**, ein **Spiel** oder einen **Webbrowser** zusammen?",
+      "akzeptiert": [
+        "Anwendungssoftware",
+        "Anwendungsprogramme",
+        "Anwendungsprogramm",
+        "Anwendersoftware",
+        "Anwendungen",
+        "Anwendung",
+        "Applikationen",
+        "Applikation",
+        "Apps",
+        "App",
+        "Applikationssoftware",
+        "Anwenderprogramme",
+        "Anwenderprogramm"
+      ],
+      "erklaerung": "Solche Programme heissen **Anwendungssoftware** (auch Anwendungen, Apps). Sie erledigen eine bestimmte Aufgabe für den Nutzer – im Unterschied zum Betriebssystem, das den Computer grundlegend steuert."
+    },
+    {
+      "id": "f-hardware-software-14",
+      "lernzielId": "lz-hardware-software",
+      "typ": "einfachwahl",
+      "schwierigkeit": 3,
+      "frage": "Auf einem USB-Stick ist ein Foto gespeichert. Was davon ist **Hardware**?",
+      "optionen": [
+        "Das Foto auf dem Stick",
+        "Die Fotos-App zum Anschauen",
+        "Das Betriebssystem, das den Stick erkennt",
+        "Der USB-Stick selbst"
+      ],
+      "richtig": 3,
+      "erklaerung": "Nur den **USB-Stick** kann man anfassen – er ist Hardware. Das Foto ist gespeicherte Information (Daten), die Fotos-App und das Betriebssystem sind Software."
+    },
+    {
+      "id": "f-hardware-software-16",
+      "lernzielId": "lz-hardware-software",
+      "typ": "offen",
+      "schwierigkeit": 1,
+      "frage": "Erkläre den Unterschied zwischen **Hardware** und **Software** und nenne je **zwei Beispiele**.",
+      "musterloesung": "Hardware sind alle physisch greifbaren Bestandteile eines Computers – alles, was man anfassen kann, z. B. Prozessor, Tastatur, Bildschirm. Software besteht aus Programmen, also einer Folge von Anweisungen, die der Computer ausführt; man kann sie nicht anfassen, z. B. Word, ein Webbrowser oder das Betriebssystem Windows.",
+      "stichworte": [
+        "anfassen / physisch greifbar",
+        "Programme",
+        "Folge von Anweisungen",
+        "je zwei passende Beispiele"
+      ],
+      "erklaerung": "Wichtig ist das Unterscheidungsmerkmal (greifbar vs. Programm/Anweisungen) und je zwei korrekte Beispiele. Achtung: Das Betriebssystem ist Software, nicht Hardware."
+    },
+    {
+      "id": "f-hardware-software-17",
+      "lernzielId": "lz-hardware-software",
+      "typ": "offen",
+      "schwierigkeit": 2,
+      "frage": "Erkläre, welche Rolle das **Betriebssystem** in einem Computer spielt, und nenne **drei** Betriebssysteme.",
+      "musterloesung": "Das Betriebssystem ist das grundlegende Steuerprogramm eines Computers. Es vermittelt zwischen der Hardware und den Programmen: Es sorgt dafür, dass Programme gestartet werden können, verwaltet den Speicher, organisiert die Dateien auf der Festplatte bzw. SSD und steuert angeschlossene Geräte. Beispiele: Windows, macOS, Linux (auf Handys iOS und Android).",
+      "stichworte": [
+        "Vermittler zwischen Hardware und Programmen",
+        "Programme starten",
+        "Speicher / Dateien verwalten",
+        "Geräte steuern",
+        "drei Beispiele"
+      ],
+      "erklaerung": "Das Schlüsselwort ist **Vermittler** zwischen Hardware und Anwendungssoftware. Mindestens zwei konkrete Aufgaben und drei korrekte Namen gehören in eine vollständige Antwort."
+    },
+    {
+      "id": "f-bauteile-01",
+      "lernzielId": "lz-bauteile",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Welches Bauteil ist abgebildet?",
+      "bild": {
+        "src": "bilder/informatik/bauteil-cpu.svg",
+        "alt": "Abbildung eines Bauteils aus einem Computer"
+      },
+      "optionen": [
+        "Prozessor",
+        "Arbeitsspeicher",
+        "SD-Karte",
+        "Grafikkarte"
+      ],
+      "richtig": 0,
+      "erklaerung": "Das ist der **Prozessor** (= CPU): ein quadratischer Chip mit sehr vielen Kontakten auf der Unterseite. Er sitzt in einem Sockel auf dem Mainboard."
+    },
+    {
+      "id": "f-bauteile-02",
+      "lernzielId": "lz-bauteile",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Welches Bauteil siehst du auf der Abbildung?",
+      "bild": {
+        "src": "bilder/informatik/bauteil-ram.svg",
+        "alt": "Abbildung eines Bauteils aus einem Computer"
+      },
+      "optionen": [
+        "Mainboard (Motherboard)",
+        "Arbeitsspeicher (RAM)",
+        "SSD",
+        "Prozessor (CPU)"
+      ],
+      "richtig": 1,
+      "erklaerung": "Ein länglicher Riegel mit mehreren gleichen Chips nebeneinander ist ein **Arbeitsspeicher-Riegel** (= RAM). Er wird in einen Steckplatz auf dem Mainboard gesteckt."
+    },
+    {
+      "id": "f-bauteile-03",
+      "lernzielId": "lz-bauteile",
+      "typ": "kurzantwort",
+      "schwierigkeit": 2,
+      "frage": "Benenne das abgebildete Bauteil.",
+      "bild": {
+        "src": "bilder/informatik/bauteil-mainboard.svg",
+        "alt": "Abbildung eines Bauteils aus einem Computer"
+      },
+      "akzeptiert": [
+        "Mainboard",
+        "Motherboard",
+        "Main Board",
+        "Mother Board",
+        "Hauptplatine",
+        "das Mainboard",
+        "das Motherboard",
+        "Mainboard (Motherboard)",
+        "Motherboard (Mainboard)"
+      ],
+      "erklaerung": "Das ist das **Mainboard** (= Motherboard): die grosse Platine mit dem Sockel für den Prozessor, Steckplätzen für den Arbeitsspeicher und Anschlüssen. Es verbindet alle Bauteile miteinander."
+    },
+    {
+      "id": "f-bauteile-04",
+      "lernzielId": "lz-bauteile",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Wie heisst dieses Speicher-Bauteil?",
+      "bild": {
+        "src": "bilder/informatik/bauteil-ssd.svg",
+        "alt": "Abbildung eines Bauteils aus einem Computer"
+      },
+      "optionen": [
+        "SSD",
+        "Festplatte (HDD)",
+        "Arbeitsspeicher",
+        "SD-Karte"
+      ],
+      "richtig": 0,
+      "erklaerung": "Das ist eine **SSD**, gezeigt in zwei Bauformen: als flaches Gehäuse und als schmaler **M.2-Riegel** mit wenigen grossen Speicherchips – beide **ohne bewegliche Teile**. Ein Arbeitsspeicher-Riegel ist länger und hat eine Reihe gleicher Chips, eine geöffnete Festplatte zeigt eine runde Scheibe mit Lesearm, und eine SD-Karte ist eine kleine Karte mit abgeschrägter Ecke."
+    },
+    {
+      "id": "f-bauteile-05",
+      "lernzielId": "lz-bauteile",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Welches Bauteil zeigt die Abbildung?",
+      "bild": {
+        "src": "bilder/informatik/bauteil-hdd.svg",
+        "alt": "Abbildung eines Bauteils aus einem Computer"
+      },
+      "optionen": [
+        "Grafikkarte",
+        "Mainboard (Motherboard)",
+        "SSD",
+        "Festplatte (HDD)"
+      ],
+      "richtig": 3,
+      "erklaerung": "Typisch für die **Festplatte** sind die runde, drehende Scheibe und der Arm, der die Daten liest und schreibt. Eine SSD hat keine beweglichen Teile."
+    },
+    {
+      "id": "f-bauteile-06",
+      "lernzielId": "lz-bauteile",
+      "typ": "kurzantwort",
+      "schwierigkeit": 2,
+      "frage": "Wie heisst dieses kleine Speichermedium?",
+      "bild": {
+        "src": "bilder/informatik/bauteil-sd-karte.svg",
+        "alt": "Abbildung eines Bauteils aus einem Computer"
+      },
+      "akzeptiert": [
+        "SD-Karte",
+        "SD",
+        "SD-Speicherkarte",
+        "Speicherkarte",
+        "SDHC-Karte",
+        "SDXC-Karte",
+        "eine SD-Karte",
+        "die SD-Karte"
+      ],
+      "erklaerung": "Das ist eine **SD-Karte**: eine kleine, flache Speicherkarte mit abgeschrägter Ecke, z. B. für Fotokameras oder Drohnen. Sie speichert Daten dauerhaft."
+    },
+    {
+      "id": "f-bauteile-07",
+      "lernzielId": "lz-bauteile",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Welches Bauteil ist hier zu sehen?",
+      "bild": {
+        "src": "bilder/informatik/bauteil-grafikkarte.svg",
+        "alt": "Abbildung eines Bauteils aus einem Computer"
+      },
+      "optionen": [
+        "Arbeitsspeicher",
+        "Festplatte",
+        "Prozessor",
+        "Grafikkarte"
+      ],
+      "richtig": 3,
+      "erklaerung": "Eine **Grafikkarte** ist eine Steckkarte, meist mit Lüfter und mit Anschlüssen für den Bildschirm (z. B. HDMI, DisplayPort). Sie berechnet das Bild für den Bildschirm."
+    },
+    {
+      "id": "f-bauteile-08",
+      "lernzielId": "lz-bauteile",
+      "typ": "zuordnen",
+      "schwierigkeit": 1,
+      "frage": "Ordne jedem Bauteil seine **Hauptaufgabe** zu.",
+      "paare": [
+        {
+          "links": "Prozessor",
+          "rechts": "rechnet, führt Befehle aus"
+        },
+        {
+          "links": "Arbeitsspeicher",
+          "rechts": "merkt sich, was gerade läuft"
+        },
+        {
+          "links": "Mainboard",
+          "rechts": "verbindet alle Bauteile"
+        },
+        {
+          "links": "SSD",
+          "rechts": "speichert Daten dauerhaft"
+        },
+        {
+          "links": "Grafikkarte",
+          "rechts": "berechnet das Bild"
+        }
+      ],
+      "erklaerung": "Prozessor = «Gehirn» (rechnet), Arbeitsspeicher = schneller Notizzettel, Mainboard = verbindet alles, SSD = dauerhafter Speicher, Grafikkarte = Bild für den Bildschirm."
+    },
+    {
+      "id": "f-bauteile-09",
+      "lernzielId": "lz-bauteile",
+      "typ": "zuordnen",
+      "schwierigkeit": 1,
+      "frage": "Gleiches Bauteil, anderer Name: Ordne jeden Begriff dem Bauteil zu, das **dasselbe** bedeutet.",
+      "paare": [
+        {
+          "links": "CPU",
+          "rechts": "Prozessor"
+        },
+        {
+          "links": "RAM",
+          "rechts": "Arbeitsspeicher"
+        },
+        {
+          "links": "Motherboard",
+          "rechts": "Mainboard"
+        },
+        {
+          "links": "HDD",
+          "rechts": "Festplatte"
+        }
+      ],
+      "erklaerung": "**CPU = Prozessor**, **RAM = Arbeitsspeicher**, **Motherboard = Mainboard**, **HDD = Festplatte**. Es sind jeweils zwei Namen für dasselbe Bauteil – was die Abkürzungen ausgeschrieben heissen, musst du nicht wissen. (HDD steht nicht im Lernziel, ist aber die übliche Abkürzung für die Festplatte.)"
+    },
+    {
+      "id": "f-bauteile-10",
+      "lernzielId": "lz-bauteile",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 1,
+      "frage": "Prozessor und CPU sind zwei Namen für **dasselbe** Bauteil.",
+      "richtig": true,
+      "erklaerung": "**CPU ist nur ein anderer Name für den Prozessor** – es ist dasselbe Bauteil. Genauso: RAM = Arbeitsspeicher, Motherboard = Mainboard."
+    },
+    {
+      "id": "f-bauteile-11",
+      "lernzielId": "lz-bauteile",
+      "typ": "kurzantwort",
+      "schwierigkeit": 1,
+      "frage": "Welches Bauteil wird als **«Gehirn» des Computers** bezeichnet?",
+      "akzeptiert": [
+        "Prozessor",
+        "CPU",
+        "der Prozessor",
+        "die CPU",
+        "Hauptprozessor",
+        "Prozessor (CPU)",
+        "CPU (Prozessor)"
+      ],
+      "erklaerung": "Der **Prozessor** (= CPU) ist das «Gehirn»: Er entscheidet, welche Operation als Nächstes ausgeführt wird, rechnet und verarbeitet logische Verknüpfungen."
+    },
+    {
+      "id": "f-bauteile-12",
+      "lernzielId": "lz-bauteile",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Welches Bauteil **verbindet** alle Komponenten des Computers miteinander?",
+      "optionen": [
+        "Mainboard",
+        "Grafikkarte",
+        "Prozessor",
+        "Arbeitsspeicher"
+      ],
+      "richtig": 0,
+      "erklaerung": "Das **Mainboard** (= Motherboard) verbindet über feine Leitungen und Steckverbindungen Prozessor, Speicher und alle weiteren Bauteile. Der Prozessor rechnet zwar, aber er braucht das Mainboard, um mit den anderen Teilen zu kommunizieren."
+    },
+    {
+      "id": "f-bauteile-13",
+      "lernzielId": "lz-bauteile",
+      "typ": "mehrfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Welche Aussagen über den **Prozessor** stimmen?",
+      "optionen": [
+        "Er speichert Fotos dauerhaft",
+        "Er führt Berechnungen durch",
+        "Er wird auch CPU genannt",
+        "Er verbindet alle Bauteile miteinander",
+        "Er entscheidet, welche Operation als Nächstes kommt"
+      ],
+      "richtig": [
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Der Prozessor (= CPU) rechnet, verarbeitet logische Verknüpfungen und entscheidet, welche Operation als Nächstes vollzogen wird. Dauerhaft speichern tun **Massenspeicher** wie SSD oder Festplatte, und alle Bauteile verbindet das **Mainboard**."
+    },
+    {
+      "id": "f-bauteile-14",
+      "lernzielId": "lz-bauteile",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Wo **sitzen** Prozessor und Arbeitsspeicher im Computer?",
+      "optionen": [
+        "Auf der Grafikkarte",
+        "In der SSD",
+        "Auf dem Mainboard",
+        "Im Bildschirm"
+      ],
+      "richtig": 2,
+      "erklaerung": "Prozessor und Arbeitsspeicher sitzen in Sockeln bzw. Steckplätzen auf dem **Mainboard**. Darüber sind sie mit allen anderen Bauteilen verbunden."
+    },
+    {
+      "id": "f-bauteile-15",
+      "lernzielId": "lz-bauteile",
+      "typ": "mehrfachwahl",
+      "schwierigkeit": 2,
+      "frage": "In welchen Geräten steckt typischerweise eine **SD-Karte** (oder microSD-Karte)?",
+      "optionen": [
+        "Fotokamera",
+        "Kopfhörer",
+        "Drohne",
+        "Bildschirm"
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "SD-Karten sind kleine, wechselbare Speicherkarten für Geräte, die Fotos und Videos aufnehmen – z. B. **Fotokameras**, **Drohnen**, Actionkameras oder manche Handys. Kopfhörer und Bildschirm sind Ausgabegeräte und speichern typischerweise keine Fotos."
+    },
+    {
+      "id": "f-bauteile-21",
+      "lernzielId": "lz-bauteile",
+      "typ": "zuordnen",
+      "frage": "**SSD** oder **SD-Karte**? Ordne jede Beschreibung zu.",
+      "paare": [
+        {
+          "links": "fest im Laptop eingebaut, enthält Betriebssystem und Programme",
+          "rechts": "SSD"
+        },
+        {
+          "links": "kleine Karte, die man aus der Kamera nimmt",
+          "rechts": "SD-Karte"
+        },
+        {
+          "links": "ersetzt in modernen PCs die Festplatte",
+          "rechts": "SSD"
+        },
+        {
+          "links": "speichert die Fotos einer Drohne",
+          "rechts": "SD-Karte"
+        }
+      ],
+      "erklaerung": "Die **SSD** ist der grosse, fest eingebaute Massenspeicher im Computer – darauf liegen Betriebssystem, Programme und Dateien. Die **SD-Karte** ist eine kleine, wechselbare Speicherkarte, z. B. für Kamera oder Drohne. Beide speichern dauerhaft, aber die Namen bezeichnen ganz verschiedene Bauteile.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bauteile-22",
+      "lernzielId": "lz-bauteile",
+      "typ": "einfachwahl",
+      "frage": "Leo sagt: «SSD und SD-Karte – das ist doch dasselbe, nur anders geschrieben.» Was stimmt?",
+      "optionen": [
+        "Leo hat recht, beide Namen meinen dasselbe Bauteil",
+        "Die SSD ist eingebaut, die SD-Karte ist eine wechselbare Karte",
+        "Die SSD ist flüchtig wie der Arbeitsspeicher, die SD-Karte nicht",
+        "Die SD-Karte ist ein kleiner Teil des Arbeitsspeichers"
+      ],
+      "richtig": 1,
+      "erklaerung": "Leo verwechselt zwei Bauteile. Die **SSD** ist der fest eingebaute, schnelle Massenspeicher im Laptop oder PC. Die **SD-Karte** ist eine kleine Speicherkarte, die man z. B. aus der Kamera nimmt. Beide sind **nicht-flüchtig**, und keine von beiden gehört zum Arbeitsspeicher.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-bauteile-16",
+      "lernzielId": "lz-bauteile",
+      "typ": "einfachwahl",
+      "schwierigkeit": 3,
+      "frage": "Jonas’ Computer startet schnell und Programme laden flott. Nur in einem aufwendigen 3D-Spiel **ruckeln die Bilder**. Welches Bauteil ist am ehesten zu schwach?",
+      "optionen": [
+        "Die SSD",
+        "Die Grafikkarte",
+        "Das Mainboard",
+        "Die SD-Speicherkarte"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die **Grafikkarte** berechnet die Bilder für den Bildschirm – bei 3D-Spielen ist sie meist der Engpass. Die SSD ist offensichtlich schnell genug (Start und Laden sind flott), und die SD-Karte hat mit dem Spiel nichts zu tun."
+    },
+    {
+      "id": "f-bauteile-17",
+      "lernzielId": "lz-bauteile",
+      "typ": "reihenfolge",
+      "schwierigkeit": 3,
+      "frage": "Du startest ein Spiel. Bringe die Schritte in die richtige Reihenfolge.",
+      "elemente": [
+        "Das Spiel wird von der SSD gelesen",
+        "Es wird in den Arbeitsspeicher geladen",
+        "Der Prozessor verarbeitet die Befehle",
+        "Die Grafikkarte berechnet das Bild",
+        "Der Bildschirm zeigt das Bild an"
+      ],
+      "erklaerung": "Programme liegen dauerhaft auf der **SSD**, werden zum Arbeiten in den schnellen **Arbeitsspeicher** geladen, der **Prozessor** verarbeitet sie Schritt für Schritt, die **Grafikkarte** berechnet daraus das Bild, und der **Bildschirm** (Ausgabegerät) zeigt es an."
+    },
+    {
+      "id": "f-bauteile-18",
+      "lernzielId": "lz-bauteile",
+      "typ": "offen",
+      "schwierigkeit": 1,
+      "frage": "Nenne **drei** Bauteile eines Computers und beschreibe jeweils ihre **Hauptaufgabe** in einem Satz.",
+      "musterloesung": "Prozessor (CPU): das «Gehirn» des Computers, führt Befehle und Berechnungen aus. Arbeitsspeicher (RAM): speichert schnell die Daten und Programme, die gerade gebraucht werden; beim Ausschalten ist der Inhalt weg. Mainboard (Motherboard): verbindet alle Bauteile miteinander. (Auch möglich: SSD/Festplatte speichert dauerhaft; Grafikkarte berechnet das Bild für den Bildschirm; SD-Karte ist eine kleine Speicherkarte z. B. für Kameras.)",
+      "stichworte": [
+        "Prozessor – rechnen / Befehle",
+        "Arbeitsspeicher – gerade gebrauchte Daten",
+        "Mainboard – verbindet",
+        "SSD/Festplatte – dauerhaft speichern",
+        "Grafikkarte – Bild"
+      ],
+      "erklaerung": "Für jedes Bauteil braucht es den richtigen Namen **und** die passende Hauptaufgabe. Achte darauf, Prozessor (rechnet) und Arbeitsspeicher (merkt sich kurzfristig) nicht zu verwechseln."
+    },
+    {
+      "id": "f-bauteile-19",
+      "lernzielId": "lz-bauteile",
+      "typ": "offen",
+      "schwierigkeit": 2,
+      "frage": "Erkläre, wie **Prozessor**, **Arbeitsspeicher** und **Mainboard** zusammenarbeiten.",
+      "musterloesung": "Das Mainboard verbindet alle Bauteile über Leitungen und Steckverbindungen, sodass sie miteinander kommunizieren können. Der Arbeitsspeicher hält die Daten und Programme bereit, die gerade gebraucht werden. Der Prozessor liest diese Daten aus dem Arbeitsspeicher, verarbeitet sie (rechnet, entscheidet den nächsten Schritt) und legt Zwischenergebnisse wieder im Arbeitsspeicher ab – wie auf einem Notizzettel.",
+      "stichworte": [
+        "Mainboard verbindet",
+        "Arbeitsspeicher hält Daten bereit / Notizzettel",
+        "Prozessor verarbeitet / rechnet",
+        "Zwischenergebnisse zurück in den Arbeitsspeicher"
+      ],
+      "erklaerung": "Eine gute Antwort zeigt die Rolle jedes Bauteils **und** wie sie zusammenspielen: Mainboard als Verbindung, Arbeitsspeicher als Notizzettel, Prozessor als Rechner."
+    },
+    {
+      "id": "f-bauteile-20",
+      "lernzielId": "lz-bauteile",
+      "typ": "offen",
+      "schwierigkeit": 3,
+      "frage": "Dein alter Computer startet sehr langsam und Programme brauchen lange zum Laden. Ein Freund rät: «Bau eine **SSD** statt der Festplatte ein.» Ein anderer sagt: «Kauf eine neue **Grafikkarte**.» Wer hat eher recht? Begründe.",
+      "musterloesung": "Eher der erste Freund. Beim Starten und beim Laden von Programmen werden Daten vom Massenspeicher gelesen. Eine Festplatte ist mechanisch (drehende Scheiben) und darum langsam; eine SSD hat keine beweglichen Teile und ist deutlich schneller. Die Grafikkarte berechnet nur das Bild für den Bildschirm – sie hilft beim Laden kaum, eher bei aufwendigen 3D-Spielen.",
+      "stichworte": [
+        "SSD",
+        "Laden = Lesen vom Massenspeicher",
+        "Festplatte mechanisch, langsam",
+        "SSD ohne bewegliche Teile, schneller",
+        "Grafikkarte nur für das Bild"
+      ],
+      "erklaerung": "Hier muss man die Hauptaufgaben der Bauteile auf ein Problem anwenden: Langsames Starten/Laden → Massenspeicher; ruckelnde Bilder → Grafikkarte."
+    },
+    {
+      "id": "f-speicherarten-01",
+      "lernzielId": "lz-speicherarten",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 1,
+      "frage": "Wenn man den Computer ausschaltet, bleibt der Inhalt des Arbeitsspeichers erhalten.",
+      "richtig": false,
+      "erklaerung": "Der Arbeitsspeicher ist **flüchtig**: Wird der Computer ausgeschaltet, gehen seine Inhalte verloren. Dauerhaft speichern nur Speichermedien wie SSD oder Festplatte."
+    },
+    {
+      "id": "f-speicherarten-02",
+      "lernzielId": "lz-speicherarten",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Was bedeutet **«flüchtiger Speicher»**?",
+      "optionen": [
+        "Der Speicher ist besonders klein und leicht",
+        "Die Daten werden automatisch ins Internet geladen",
+        "Der Inhalt geht verloren, wenn der Strom weg ist",
+        "Der Speicher kann nur gelesen werden"
+      ],
+      "richtig": 2,
+      "erklaerung": "**Flüchtig** heisst: Ohne Strom vergisst der Speicher alles. Das gilt für den **Arbeitsspeicher (RAM)**. Mit Grösse, Gewicht oder Internet hat der Begriff nichts zu tun."
+    },
+    {
+      "id": "f-speicherarten-03",
+      "lernzielId": "lz-speicherarten",
+      "typ": "zuordnen",
+      "schwierigkeit": 1,
+      "frage": "Ordne zu: flüchtig oder nicht-flüchtig?",
+      "paare": [
+        {
+          "links": "Arbeitsspeicher",
+          "rechts": "flüchtig"
+        },
+        {
+          "links": "SSD",
+          "rechts": "nicht-flüchtig"
+        },
+        {
+          "links": "Festplatte",
+          "rechts": "nicht-flüchtig"
+        },
+        {
+          "links": "RAM",
+          "rechts": "flüchtig"
+        },
+        {
+          "links": "SD-Karte",
+          "rechts": "nicht-flüchtig"
+        },
+        {
+          "links": "USB-Stick",
+          "rechts": "nicht-flüchtig"
+        }
+      ],
+      "erklaerung": "Nur der **Arbeitsspeicher (= RAM)** ist flüchtig. Alle **Speichermedien** – SSD, Festplatte, SD-Karte, USB-Stick – behalten die Daten auch ohne Strom."
+    },
+    {
+      "id": "f-speicherarten-04",
+      "lernzielId": "lz-speicherarten",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Wo werden Programme, Dokumente, Bilder und das Betriebssystem **dauerhaft** gespeichert?",
+      "optionen": [
+        "Im Prozessor (CPU)",
+        "Auf dem Massenspeicher",
+        "Im Arbeitsspeicher (RAM)",
+        "Auf der Grafikkarte"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der **Massenspeicher** (heute meist eine SSD, früher die Festplatte) dient der dauerhaften Speicherung. Der Arbeitsspeicher hält nur, was gerade gebraucht wird, und ist flüchtig."
+    },
+    {
+      "id": "f-speicherarten-05",
+      "lernzielId": "lz-speicherarten",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Mia schreibt eine Stunde lang an einem Aufsatz – in einem Programm **ohne automatisches Speichern** – und hat **nie gespeichert**. Dann fällt der Strom aus. Was ist mit dem Aufsatz?",
+      "optionen": [
+        "Er ist weg, weil er nur im Arbeitsspeicher lag",
+        "Er ist sicher, weil die SSD nicht-flüchtig ist",
+        "Er steckt im Prozessor und kommt zurück",
+        "Er wurde automatisch auf das Mainboard kopiert"
+      ],
+      "richtig": 0,
+      "erklaerung": "Ungespeicherte Arbeit liegt nur im **Arbeitsspeicher** – und der ist flüchtig. Auf die SSD kommt der Aufsatz erst beim **Speichern**. Darum: regelmässig speichern!"
+    },
+    {
+      "id": "f-speicherarten-06",
+      "lernzielId": "lz-speicherarten",
+      "typ": "mehrfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Welche dieser Speicher sind **flüchtig**?",
+      "optionen": [
+        "SSD",
+        "Arbeitsspeicher (RAM)",
+        "SD-Karte",
+        "Festplatte",
+        "USB-Stick"
+      ],
+      "richtig": [
+        1
+      ],
+      "erklaerung": "Nur der **Arbeitsspeicher (RAM)** ist flüchtig: Strom aus → Inhalt weg. SSD, SD-Karte, Festplatte und USB-Stick sind **Speichermedien** und behalten ihre Daten auch ohne Strom."
+    },
+    {
+      "id": "f-speicherarten-07",
+      "lernzielId": "lz-speicherarten",
+      "typ": "mehrfachwahl",
+      "schwierigkeit": 3,
+      "frage": "Welche Aussagen über den **Arbeitsspeicher** stimmen?",
+      "optionen": [
+        "Er speichert Fotos dauerhaft",
+        "Er ist schneller als eine SSD",
+        "Mehr davon gibt mehr Platz für Fotos und Videos",
+        "Er enthält die Programme, die gerade laufen"
+      ],
+      "richtig": [
+        1,
+        3
+      ],
+      "erklaerung": "Der Arbeitsspeicher ist **sehr schnell** und enthält, was **gerade verwendet** wird. Er speichert nicht dauerhaft – und mehr Arbeitsspeicher bringt **keinen** zusätzlichen Platz für Fotos; dafür braucht es ein grösseres Speichermedium."
+    },
+    {
+      "id": "f-speicherarten-08",
+      "lernzielId": "lz-speicherarten",
+      "typ": "reihenfolge",
+      "schwierigkeit": 2,
+      "frage": "Du öffnest eine Datei, bearbeitest sie und speicherst sie. Bringe die Schritte in die richtige Reihenfolge.",
+      "elemente": [
+        "Die Datei liegt dauerhaft auf der SSD",
+        "Die Datei wird in den Arbeitsspeicher geladen",
+        "Der Prozessor verarbeitet deine Änderungen",
+        "Beim Speichern wird sie auf die SSD zurückgeschrieben"
+      ],
+      "erklaerung": "Dauerhaft liegt die Datei auf dem Speichermedium. Zum Bearbeiten kommt sie in den schnellen, flüchtigen **Arbeitsspeicher**, wo der **Prozessor** damit arbeitet. Erst beim **Speichern** landen die Änderungen wieder dauerhaft auf der SSD."
+    },
+    {
+      "id": "f-speicherarten-09",
+      "lernzielId": "lz-speicherarten",
+      "typ": "kurzantwort",
+      "schwierigkeit": 1,
+      "frage": "Mit welchem **Eigenschaftswort** beschreibt man einen Speicher, dessen Inhalt beim Ausschalten verloren geht?",
+      "akzeptiert": [
+        "flüchtig",
+        "flüchtiger",
+        "flüchtiger Speicher",
+        "volatil",
+        "volatile"
+      ],
+      "erklaerung": "Ein solcher Speicher heisst **flüchtig** – das Paradebeispiel ist der Arbeitsspeicher (RAM). Das Gegenteil ist **nicht-flüchtig** (SSD, Festplatte, SD-Karte, USB-Stick)."
+    },
+    {
+      "id": "f-speicherarten-10",
+      "lernzielId": "lz-speicherarten",
+      "typ": "zahl",
+      "schwierigkeit": 2,
+      "frage": "Ein Laptop hat **16 GB** Arbeitsspeicher und eine SSD mit **512 GB**. Wie viel Mal so gross wie der Arbeitsspeicher ist die SSD?",
+      "richtig": 32,
+      "einheit": "mal",
+      "erklaerung": "512 : 16 = **32**. Kopfrechnen: 16 · 30 = 480, dazu 16 · 2 = 32 → 512. Der Arbeitsspeicher ist viel kleiner als das Speichermedium – er muss nur halten, was gerade läuft.",
+      "tipp": "Wie oft passt 16 in 512?"
+    },
+    {
+      "id": "f-speicherarten-11",
+      "lernzielId": "lz-speicherarten",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 2,
+      "frage": "Nimmt man eine SD-Karte aus der Kamera, bleiben die Fotos darauf erhalten, obwohl die Karte keinen Strom mehr hat.",
+      "richtig": true,
+      "erklaerung": "Die SD-Karte ist ein **nicht-flüchtiges** Speichermedium: Die Fotos bleiben auch ohne Strom erhalten. Man kann die Karte z. B. in einen Computer stecken und die Fotos kopieren."
+    },
+    {
+      "id": "f-speicherarten-12",
+      "lernzielId": "lz-speicherarten",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Welcher dieser Speicher ist am **schnellsten**?",
+      "optionen": [
+        "Arbeitsspeicher (RAM)",
+        "Festplatte (HDD)",
+        "SSD",
+        "SD-Karte (Speicherkarte)"
+      ],
+      "richtig": 0,
+      "erklaerung": "Der **Arbeitsspeicher** arbeitet besonders schnell – darum legt der Prozessor dort alles ab, was er gerade braucht. Der Preis dafür: Er ist flüchtig und eher klein."
+    },
+    {
+      "id": "f-speicherarten-13",
+      "lernzielId": "lz-speicherarten",
+      "typ": "einfachwahl",
+      "schwierigkeit": 3,
+      "frage": "Du schreibst einen Text in einem Programm **ohne automatisches Speichern** und speicherst ihn nie. Dann stürzt der Computer ab und startet neu. Was ist danach **nicht mehr** vorhanden?",
+      "optionen": [
+        "Das installierte Betriebssystem",
+        "Die gespeicherten Fotos auf der SSD",
+        "Der ungespeicherte Text",
+        "Die installierten Programme"
+      ],
+      "richtig": 2,
+      "erklaerung": "Bei einem Absturz und Neustart wird der Arbeitsspeicher geleert – **ungespeicherte** Inhalte sind weg, wenn das Programm nicht selbst automatisch gespeichert hat. Betriebssystem, Programme und gespeicherte Fotos liegen dauerhaft auf der SSD und bleiben erhalten."
+    },
+    {
+      "id": "f-speicherarten-14",
+      "lernzielId": "lz-speicherarten",
+      "typ": "offen",
+      "schwierigkeit": 1,
+      "frage": "Erkläre den Unterschied zwischen **Arbeitsspeicher** und **nicht-flüchtigem Speicher** (Speichermedien). Nenne zwei Beispiele für Speichermedien.",
+      "musterloesung": "Der Arbeitsspeicher (RAM) speichert die Daten und Programme, die gerade verwendet werden. Er ist sehr schnell, aber flüchtig: Wird der Strom abgeschaltet, ist der Inhalt weg. Nicht-flüchtige Speichermedien speichern Daten dauerhaft, auch ohne Strom – z. B. SSD, Festplatte, SD-Karte oder USB-Stick. Sie sind grösser, aber langsamer.",
+      "stichworte": [
+        "Arbeitsspeicher: gerade gebraucht",
+        "flüchtig: ohne Strom weg",
+        "Speichermedium: dauerhaft",
+        "schnell vs. gross",
+        "zwei Beispiele (SSD, Festplatte, SD-Karte, USB-Stick)"
+      ],
+      "erklaerung": "Der Kern ist **flüchtig vs. dauerhaft**: Strom aus → RAM leer, Speichermedien behalten die Daten."
+    },
+    {
+      "id": "f-speicherarten-15",
+      "lernzielId": "lz-speicherarten",
+      "typ": "offen",
+      "schwierigkeit": 2,
+      "frage": "Erkläre, warum man ein Dokument **speichern** muss, obwohl man es doch schon auf dem Bildschirm sieht.",
+      "musterloesung": "Während man arbeitet, liegt das Dokument im Arbeitsspeicher. Dieser ist flüchtig: Beim Ausschalten, bei einem Absturz oder Stromausfall geht sein Inhalt verloren. Erst beim Speichern wird das Dokument auf ein nicht-flüchtiges Speichermedium (z. B. SSD) geschrieben, wo es dauerhaft erhalten bleibt.",
+      "stichworte": [
+        "Dokument liegt im Arbeitsspeicher",
+        "flüchtig",
+        "Speichern schreibt auf SSD/Festplatte",
+        "dauerhaft"
+      ],
+      "erklaerung": "Was man sieht, liegt im Arbeitsspeicher – nicht automatisch auf dem Speichermedium. Speichern = vom flüchtigen in den nicht-flüchtigen Speicher."
+    },
+    {
+      "id": "f-speicherarten-16",
+      "lernzielId": "lz-speicherarten",
+      "typ": "offen",
+      "schwierigkeit": 3,
+      "frage": "Ein Verkäufer sagt: «Nimm den Laptop mit **32 GB RAM**, dann hast du genug Platz für all deine Fotos.» Was ist an dieser Aussage falsch? Begründe.",
+      "musterloesung": "RAM ist der Arbeitsspeicher. Er ist flüchtig und speichert nur, was gerade gebraucht wird – beim Ausschalten ist er leer. Fotos werden dauerhaft auf einem Speichermedium wie der SSD gespeichert. Für viele Fotos braucht es also eine grosse SSD (z. B. 1 TB) oder Cloud-Speicher, nicht mehr RAM. Mehr RAM macht den Computer vor allem flüssiger, wenn viele Programme oder grosse Dateien gleichzeitig offen sind.",
+      "stichworte": [
+        "RAM = Arbeitsspeicher",
+        "flüchtig, nicht dauerhaft",
+        "Fotos auf SSD / Speichermedium",
+        "grössere SSD nötig"
+      ],
+      "erklaerung": "Typische Verwechslung von Arbeitsspeicher und Speichermedium. Beide werden in GB angegeben, haben aber ganz verschiedene Aufgaben."
+    },
+    {
+      "id": "f-festplatte-ssd-cloud-01",
+      "lernzielId": "lz-festplatte-ssd-cloud",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Was unterscheidet eine **SSD** von einer **Festplatte (HDD)**?",
+      "optionen": [
+        "Die SSD ist flüchtig wie der Arbeitsspeicher",
+        "Die SSD hat keine beweglichen Teile",
+        "Die SSD speichert alles im Internet",
+        "Die SSD hat drehende Scheiben im Innern"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Skript arbeiten SSDs **ohne bewegliche Teile** und sind deshalb deutlich schneller. Drehende Scheiben gibt es in der Festplatte. Beide sind nicht-flüchtig und speichern lokal, nicht im Internet."
+    },
+    {
+      "id": "f-festplatte-ssd-cloud-02",
+      "lernzielId": "lz-festplatte-ssd-cloud",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Was ist die **Cloud**?",
+      "optionen": [
+        "Ein Betriebssystem für Smartphones und Tablets",
+        "Ein Bauteil auf dem Mainboard des Computers",
+        "Eine besonders schnelle Art von Arbeitsspeicher",
+        "Ein Speicherplatz auf Servern im Internet"
+      ],
+      "richtig": 3,
+      "erklaerung": "**Cloud ist ein Speicherplatz!** Die Daten liegen auf Servern eines Anbieters (z. B. OneDrive, iCloud, Google Drive) und man greift über das Internet darauf zu. Sie ist weder ein Betriebssystem noch ein Bauteil im eigenen Computer."
+    },
+    {
+      "id": "f-festplatte-ssd-cloud-03",
+      "lernzielId": "lz-festplatte-ssd-cloud",
+      "typ": "zuordnen",
+      "schwierigkeit": 1,
+      "frage": "Ordne jede Eigenschaft der passenden Speicherart zu.",
+      "paare": [
+        {
+          "links": "drehende Scheiben im Innern",
+          "rechts": "Festplatte (HDD)"
+        },
+        {
+          "links": "keine beweglichen Teile",
+          "rechts": "SSD"
+        },
+        {
+          "links": "braucht eine Internetverbindung",
+          "rechts": "Cloud"
+        },
+        {
+          "links": "am günstigsten pro GB",
+          "rechts": "Festplatte (HDD)"
+        },
+        {
+          "links": "von überall und mehreren Geräten erreichbar",
+          "rechts": "Cloud"
+        },
+        {
+          "links": "sehr schnell, leise und stossfest",
+          "rechts": "SSD"
+        }
+      ],
+      "erklaerung": "Festplatte: mechanisch, günstig pro GB. SSD: ohne bewegliche Teile, schnell, leise, robust. Cloud: Speicherplatz im Internet – überall erreichbar, aber nur mit Internet."
+    },
+    {
+      "id": "f-festplatte-ssd-cloud-04",
+      "lernzielId": "lz-festplatte-ssd-cloud",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 1,
+      "frage": "Eine SSD ist in der Regel schneller als eine Festplatte, weil sie keine beweglichen Teile hat.",
+      "richtig": true,
+      "erklaerung": "In der Festplatte muss sich erst die Scheibe drehen und der Lesearm an die richtige Stelle fahren. Die SSD hat keine beweglichen Teile und ist deshalb deutlich schneller."
+    },
+    {
+      "id": "f-festplatte-ssd-cloud-05",
+      "lernzielId": "lz-festplatte-ssd-cloud",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 2,
+      "frage": "Auf Daten, die nur in der Cloud liegen, kann man auch ohne Internetverbindung zugreifen.",
+      "richtig": false,
+      "erklaerung": "Die Cloud ist Speicherplatz auf Servern im Internet – ohne Internet kommt man nicht heran. Offline verfügbar ist nur, was vorher als Kopie aufs eigene Gerät geladen (synchronisiert) wurde."
+    },
+    {
+      "id": "f-festplatte-ssd-cloud-06",
+      "lernzielId": "lz-festplatte-ssd-cloud",
+      "typ": "mehrfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Welche Aussagen über die **Festplatte (HDD)** stimmen?",
+      "optionen": [
+        "Sie ist pro GB günstiger als eine SSD",
+        "Sie ist schneller als eine SSD",
+        "In ihr drehen sich Scheiben",
+        "Sie ist empfindlich gegen Stösse",
+        "Sie behält die Daten auch ohne Strom"
+      ],
+      "richtig": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Die Festplatte ist mechanisch (drehende Scheiben) – darum günstig pro GB, aber **langsamer** als eine SSD und empfindlich gegen Stösse. Wie alle Speichermedien ist sie **nicht-flüchtig**: Die Daten bleiben ohne Strom erhalten."
+    },
+    {
+      "id": "f-festplatte-ssd-cloud-07",
+      "lernzielId": "lz-festplatte-ssd-cloud",
+      "typ": "mehrfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Welche **Nachteile** hat die Cloud?",
+      "optionen": [
+        "Die Daten sind weg, wenn das Handy kaputtgeht",
+        "Ohne Internet hat man keinen Zugriff",
+        "Die Daten liegen bei einem fremden Anbieter",
+        "Man kann Dateien mit anderen teilen",
+        "Für viel Speicherplatz zahlt man meist ein Abo"
+      ],
+      "richtig": [
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Die Cloud braucht **Internet**, die Daten liegen **bei einem Anbieter** (Datenschutz) und mehr Platz kostet meist ein **Abo**. Dass die Daten bei einem kaputten Handy erhalten bleiben und man Dateien einfach teilen kann, sind gerade **Vorteile** der Cloud."
+    },
+    {
+      "id": "f-festplatte-ssd-cloud-08",
+      "lernzielId": "lz-festplatte-ssd-cloud",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Lara trägt ihren Laptop täglich im Rucksack mit dem Velo zur Schule; dabei bekommt er oft Schläge ab. Welcher eingebaute Speicher ist für sie am besten?",
+      "optionen": [
+        "Eine Festplatte (HDD)",
+        "Mehr Arbeitsspeicher",
+        "Eine SSD",
+        "Eine zweite Festplatte"
+      ],
+      "richtig": 2,
+      "erklaerung": "Eine **SSD** hat keine beweglichen Teile und ist darum **robust** gegen Stösse (und erst noch schneller). Eine Festplatte mit drehenden Scheiben ist stossempfindlich. Arbeitsspeicher ist kein dauerhafter Speicher."
+    },
+    {
+      "id": "f-festplatte-ssd-cloud-09",
+      "lernzielId": "lz-festplatte-ssd-cloud",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Dein Vater will **8 TB** Familienvideos möglichst **günstig** zu Hause als Kopie aufbewahren. Tempo ist egal. Was passt am besten?",
+      "optionen": [
+        "Eine SD-Karte",
+        "Eine externe Festplatte",
+        "Eine externe SSD",
+        "Mehr Arbeitsspeicher (RAM)"
+      ],
+      "richtig": 1,
+      "erklaerung": "Für **viel Platz zu tiefem Preis** ist die **Festplatte** ideal – sie ist pro GB am günstigsten. Eine SSD wäre schneller, aber für 8 TB deutlich teurer. SD-Karten sind dafür zu klein, und Arbeitsspeicher ist flüchtig."
+    },
+    {
+      "id": "f-festplatte-ssd-cloud-10",
+      "lernzielId": "lz-festplatte-ssd-cloud",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Für eine Gruppenarbeit wollt ihr alle **von zu Hause aus** an derselben Präsentation arbeiten. Wo speichert ihr sie am besten?",
+      "optionen": [
+        "Auf der SSD eines Laptops",
+        "Auf einer SD-Karte",
+        "Im Arbeitsspeicher eines PCs",
+        "In der Cloud, z. B. OneDrive"
+      ],
+      "richtig": 3,
+      "erklaerung": "Die **Cloud** ist von überall und von mehreren Geräten erreichbar – ideal zum gemeinsamen Arbeiten. Auf einer SSD oder SD-Karte hätte nur die Person mit diesem Gerät Zugriff. Der Arbeitsspeicher ist flüchtig. Auch die Dateien in MS Teams liegen in der Cloud – Teams selbst ist aber ein Programm, die Cloud ist der Speicherplatz."
+    },
+    {
+      "id": "f-festplatte-ssd-cloud-11",
+      "lernzielId": "lz-festplatte-ssd-cloud",
+      "typ": "zahl",
+      "schwierigkeit": 2,
+      "frage": "Beispielpreise: Eine externe Festplatte mit **2 TB** kostet **80 Fr.**, eine externe SSD mit **1 TB** ebenfalls **80 Fr.** Wie viele Franken kostet **1 TB** bei der Festplatte?",
+      "richtig": 40,
+      "einheit": "Fr.",
+      "erklaerung": "80 Fr. : 2 TB = **40 Fr. pro TB**. Bei der SSD sind es 80 Fr. pro TB – also doppelt so viel. Das zeigt: Festplatten sind pro GB bzw. TB günstiger."
+    },
+    {
+      "id": "f-festplatte-ssd-cloud-12",
+      "lernzielId": "lz-festplatte-ssd-cloud",
+      "typ": "zahl",
+      "schwierigkeit": 3,
+      "frage": "Ein Cloud-Abo mit 2 TB kostet **10 Fr. pro Monat**. Eine externe Festplatte mit 2 TB kostet einmalig **80 Fr.** Nach wie vielen Monaten hast du für das Abo gleich viel bezahlt wie für die Festplatte?",
+      "richtig": 8,
+      "einheit": "Monaten",
+      "erklaerung": "80 Fr. : 10 Fr. pro Monat = **8 Monate**. Danach ist die Cloud teurer. Dafür bietet sie Zugriff von überall und schützt die Daten, wenn die Festplatte kaputtgeht oder gestohlen wird."
+    },
+    {
+      "id": "f-festplatte-ssd-cloud-13",
+      "lernzielId": "lz-festplatte-ssd-cloud",
+      "typ": "kurzantwort",
+      "schwierigkeit": 1,
+      "frage": "Ergänze die Notiz aus dem Skript: «Cloud ist ein …!»",
+      "akzeptiert": [
+        "Speicherplatz",
+        "Speicher",
+        "Speicherort",
+        "Speicherplatz im Internet",
+        "Onlinespeicher",
+        "Online-Speicher",
+        "Online-Speicherplatz"
+      ],
+      "erklaerung": "«Cloud ist ein **Speicherplatz**!» – genauer: Speicherplatz auf Servern eines Anbieters im Internet. Kein Programm und kein Betriebssystem."
+    },
+    {
+      "id": "f-festplatte-ssd-cloud-14",
+      "lernzielId": "lz-festplatte-ssd-cloud",
+      "typ": "reihenfolge",
+      "schwierigkeit": 2,
+      "frage": "Ordne nach **Geschwindigkeit** im Computer – vom schnellsten zum langsamsten Speicher.",
+      "elemente": [
+        "Arbeitsspeicher (RAM)",
+        "SSD",
+        "Festplatte (HDD)"
+      ],
+      "erklaerung": "Der **Arbeitsspeicher** ist am schnellsten (aber flüchtig). Die **SSD** ist ohne bewegliche Teile deutlich schneller als die mechanische **Festplatte**."
+    },
+    {
+      "id": "f-festplatte-ssd-cloud-15",
+      "lernzielId": "lz-festplatte-ssd-cloud",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 3,
+      "frage": "Daten in der Cloud schweben irgendwo im Internet – sie sind auf keiner Festplatte und keiner SSD gespeichert.",
+      "richtig": false,
+      "erklaerung": "Die Cloud ist Speicherplatz auf **Servern** in Rechenzentren eines Anbieters – und diese Server speichern die Daten auf ganz normalen **Festplatten und SSDs**. «Cloud» heisst nur: Es ist nicht dein Gerät, du greifst über das Internet zu."
+    },
+    {
+      "id": "f-festplatte-ssd-cloud-16",
+      "lernzielId": "lz-festplatte-ssd-cloud",
+      "typ": "offen",
+      "schwierigkeit": 1,
+      "frage": "Nenne je einen **Vorteil** und einen **Nachteil** von Festplatte, SSD und Cloud.",
+      "musterloesung": "Festplatte: Vorteil – günstig pro GB, grosse Kapazität; Nachteil – langsamer, stossempfindlich, laut. SSD: Vorteil – sehr schnell, leise, robust (keine beweglichen Teile); Nachteil – teurer pro GB. Cloud: Vorteil – von überall und von mehreren Geräten erreichbar, Daten bleiben bei einem defekten Gerät erhalten; Nachteil – braucht Internet, Daten liegen bei einem fremden Anbieter, meist Abo-Kosten.",
+      "stichworte": [
+        "Festplatte: günstig / langsam, stossempfindlich",
+        "SSD: schnell, robust / teurer",
+        "Cloud: überall verfügbar / Internet nötig, Anbieter, Abo"
+      ],
+      "erklaerung": "Pro Speicherart ein passender Vor- und Nachteil. Achtung: «schnell» ist ein Vorteil der SSD, nicht der Festplatte."
+    },
+    {
+      "id": "f-festplatte-ssd-cloud-17",
+      "lernzielId": "lz-festplatte-ssd-cloud",
+      "typ": "offen",
+      "schwierigkeit": 2,
+      "frage": "Erkläre, warum eine **SSD** schneller und robuster ist als eine **Festplatte**.",
+      "musterloesung": "In einer Festplatte drehen sich Scheiben, und ein Arm muss an die richtige Stelle fahren, um Daten zu lesen oder zu schreiben – das braucht Zeit, und bei Stössen können die mechanischen Teile beschädigt werden. Eine SSD hat keine beweglichen Teile, sie speichert elektronisch (Flash-Speicher). Darum findet sie Daten viel schneller und ist unempfindlich gegen Stösse.",
+      "stichworte": [
+        "Festplatte mechanisch: drehende Scheiben, Arm",
+        "SSD ohne bewegliche Teile",
+        "schneller Zugriff",
+        "stossunempfindlich"
+      ],
+      "erklaerung": "Der Schlüssel liegt in der Bauweise: **beweglich (mechanisch) vs. ohne bewegliche Teile**."
+    },
+    {
+      "id": "f-festplatte-ssd-cloud-18",
+      "lernzielId": "lz-festplatte-ssd-cloud",
+      "typ": "offen",
+      "schwierigkeit": 3,
+      "frage": "Lina speichert ihre wichtige Semesterarbeit **nur auf der SSD** ihres Laptops. Ihr Kollege speichert alles **nur in der Cloud**. Beurteile beide Lösungen und schlage vor, wie man wichtige Daten sicherer aufbewahrt.",
+      "musterloesung": "Linas Lösung: schneller Zugriff auch ohne Internet, aber wenn der Laptop kaputtgeht, gestohlen wird oder verloren geht, ist die Arbeit weg. Lösung des Kollegen: von überall erreichbar und bei einem defekten Gerät nicht verloren, aber ohne Internet kein Zugriff, die Daten liegen bei einem fremden Anbieter, und bei einem Problem mit dem Konto kommt man evtl. nicht mehr heran. Am sichersten: wichtige Daten an mindestens zwei Orten speichern (Kopie/Backup), z. B. auf der SSD und zusätzlich in der Cloud oder auf einer externen Festplatte.",
+      "stichworte": [
+        "SSD: Gerät kann kaputtgehen / verloren gehen",
+        "Cloud: Internet nötig, Anbieter",
+        "Backup / Kopie",
+        "an zwei Orten speichern"
+      ],
+      "erklaerung": "Jede Speicherart hat Schwächen. Eine gute Antwort wägt beide ab und kommt zum Schluss: **Kopien an mehreren Orten** (Backup)."
+    },
+    {
+      "id": "f-festplatte-ssd-cloud-19",
+      "lernzielId": "lz-festplatte-ssd-cloud",
+      "typ": "offen",
+      "schwierigkeit": 3,
+      "frage": "Dein Kollege sagt: «Meine Fotos sind in der Cloud – die Cloud ist also ein Programm auf meinem Handy.» Stimmt das? Begründe.",
+      "musterloesung": "Nein. Die Cloud ist kein Programm, sondern ein Speicherplatz auf Servern eines Anbieters im Internet. Die Fotos liegen also nicht (nur) auf dem Handy, sondern in einem Rechenzentrum. Auf dem Handy ist höchstens eine App (Anwendungssoftware, z. B. iCloud Fotos, OneDrive oder Google Fotos) installiert, mit der man auf diesen Speicherplatz zugreift.",
+      "stichworte": [
+        "Cloud = Speicherplatz",
+        "Server im Internet / Anbieter",
+        "App ist nur der Zugang",
+        "kein Programm, kein Betriebssystem"
+      ],
+      "erklaerung": "Die Notiz der Lehrperson lautet: «Cloud ist ein Speicherplatz!» Man muss die Cloud (Speicherplatz) von der App unterscheiden, mit der man sie nutzt."
+    },
+    {
+      "id": "f-hardware-software-18",
+      "lernzielId": "lz-hardware-software",
+      "typ": "einfachwahl",
+      "schwierigkeit": 3,
+      "frage": "Eine Lern-App gibt es nur für **iOS**. Deine Kollegin hat ein Android-Handy mit einwandfreier Hardware. Kann sie die App nutzen?",
+      "optionen": [
+        "Ja – die Hardware ist gut genug für die App.",
+        "Ja – nach einem Neustart des Handys lässt sie sich installieren.",
+        "Nein – die App ist für ein anderes Betriebssystem gemacht.",
+        "Ja – mit mehr Arbeitsspeicher läuft die App auch auf Android."
+      ],
+      "richtig": 2,
+      "erklaerung": "Anwendungssoftware läuft nicht direkt auf der Hardware, sondern **über das Betriebssystem** – das vermittelt zwischen Hardware und Programmen. Eine App für iOS ist für das Betriebssystem des iPhones geschrieben und läuft darum nicht auf Android, egal wie gut die Hardware ist."
+    },
+    {
+      "id": "f-hardware-software-19",
+      "lernzielId": "lz-hardware-software",
+      "typ": "offen",
+      "schwierigkeit": 3,
+      "frage": "Auf einem neuen Laptop ist noch **kein Betriebssystem** installiert. Kannst du direkt Word benutzen? Begründe mit den Schichten Nutzer – Anwendungssoftware – Betriebssystem – Hardware.",
+      "musterloesung": "**Nein.** Word ist **Anwendungssoftware**. Es braucht das **Betriebssystem** als Vermittler zur Hardware: Das Betriebssystem startet Programme, verwaltet den Speicher, organisiert die Dateien und steuert Geräte wie Tastatur, Bildschirm oder Drucker. Ohne Betriebssystem fehlt die Schicht zwischen Word und der Hardware – zuerst muss z. B. Windows installiert werden, dann Word.",
+      "stichworte": [
+        "Word = Anwendungssoftware",
+        "Betriebssystem vermittelt",
+        "startet Programme",
+        "zuerst Betriebssystem installieren"
+      ],
+      "erklaerung": "Die Schichten bauen aufeinander auf: Die Anwendungssoftware nutzt das Betriebssystem, und erst das Betriebssystem spricht die Hardware an (Skript S. 9–10)."
+    }
+  ]
+}

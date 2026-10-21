@@ -1,0 +1,654 @@
+<div class="seite stapel">
+  <a class="knopf text zurueck" [routerLink]="['/lektion', id()]">← Zur Lektion</a>
+
+  @if (entwurf(); as l) {
+    <h1>Lektion bearbeiten</h1>
+    <p class="leise untertitel">{{ l.fach }} · {{ l.titel }}</p>
+
+    @if (istMitgeliefert()) {
+      <p class="hinweis klein">
+        Deine Änderungen gelten auf diesem Gerät; «Original wiederherstellen» in der Lektionsübersicht macht sie
+        rückgängig.
+      </p>
+    }
+
+    <!-- Speicherleiste -->
+    <section class="karte flach leiste" aria-label="Speichern">
+      <div class="zeile zwischen">
+        <p class="status" aria-live="polite">
+          @if (meldung(); as m) {
+            <span class="chip" [class.gut]="m.art === 'erfolg'" [class.schlecht]="m.art === 'fehler'">{{
+              m.text
+            }}</span>
+          } @else if (geaendert()) {
+            <span class="chip mittel">Ungespeichert</span>
+          } @else {
+            <span class="chip">Keine Änderungen</span>
+          }
+          @if (fehler().length) {
+            <span class="chip schlecht">{{ fehler().length }} Fehler</span>
+          }
+        </p>
+        <button
+          type="button"
+          class="knopf primaer"
+          [disabled]="!geaendert() || fehler().length > 0 || speichertGerade()"
+          (click)="speichern()"
+        >
+          {{ speichertGerade() ? 'Speichert …' : 'Speichern' }}
+        </button>
+      </div>
+      @if (geaendert()) {
+        <p class="hinweis warnung klein">Du hast ungespeicherte Änderungen. Speichere, bevor du die Seite verlässt.</p>
+      }
+      @if (fehler().length) {
+        <details class="fehlerliste">
+          <summary>Was muss noch korrigiert werden?</summary>
+          <ul>
+            @for (m of fehler(); track $index) {
+              <li>
+                <button type="button" class="knopf text klein links" (click)="zeigeFehler(m)">{{ m }}</button>
+              </li>
+            }
+          </ul>
+        </details>
+      }
+    </section>
+
+    <!-- Abschnitte -->
+    <div class="tabs" role="tablist" aria-label="Abschnitte">
+      <button
+        type="button"
+        role="tab"
+        id="tab-grunddaten"
+        aria-controls="panel"
+        [attr.aria-selected]="abschnitt() === 'grunddaten'"
+        (click)="abschnitt.set('grunddaten')"
+      >
+        Grunddaten
+      </button>
+      <button
+        type="button"
+        role="tab"
+        id="tab-lernziele"
+        aria-controls="panel"
+        [attr.aria-selected]="abschnitt() === 'lernziele'"
+        (click)="abschnitt.set('lernziele')"
+      >
+        Lernziele <span class="chip">{{ l.lernziele.length }}</span>
+      </button>
+      <button
+        type="button"
+        role="tab"
+        id="tab-fragen"
+        aria-controls="panel"
+        [attr.aria-selected]="abschnitt() === 'fragen'"
+        (click)="abschnitt.set('fragen')"
+      >
+        Fragen <span class="chip">{{ l.fragen.length }}</span>
+      </button>
+    </div>
+
+    <div id="panel" role="tabpanel" [attr.aria-labelledby]="'tab-' + abschnitt()" class="stapel">
+      @switch (abschnitt()) {
+        <!-- ---------- Grunddaten ---------- -->
+        @case ('grunddaten') {
+          <div class="karte stapel">
+            <div class="feld">
+              <label for="titel">Titel</label>
+              <input id="titel" class="eingabe" [value]="l.titel" (input)="setze(l, 'titel', text($event))" />
+            </div>
+            <div class="feld">
+              <label for="fach">Fach</label>
+              <input
+                id="fach"
+                class="eingabe"
+                list="faecher"
+                [value]="l.fach"
+                (input)="setze(l, 'fach', text($event))"
+              />
+              <datalist id="faecher">
+                @for (f of faecher(); track f) {
+                  <option [value]="f"></option>
+                }
+              </datalist>
+            </div>
+            <div class="feld">
+              <label for="beschreibung">Beschreibung</label>
+              <textarea
+                id="beschreibung"
+                class="eingabe kurz"
+                [value]="l.beschreibung"
+                (input)="setze(l, 'beschreibung', text($event))"
+              ></textarea>
+            </div>
+            <div class="zwei">
+              <div class="feld">
+                <label for="klasse">Klasse</label>
+                <input
+                  id="klasse"
+                  class="eingabe"
+                  [value]="l.klasse ?? ''"
+                  (input)="setze(l, 'klasse', text($event))"
+                />
+              </div>
+              <div class="feld">
+                <label for="datum">Prüfungsdatum</label>
+                <input
+                  id="datum"
+                  type="date"
+                  class="eingabe"
+                  [value]="l.pruefungsdatum ?? ''"
+                  (change)="setze(l, 'pruefungsdatum', text($event))"
+                />
+              </div>
+            </div>
+            <div class="feld">
+              <span class="label" id="hinweise-label">Hinweise zur Prüfung</span>
+              <p class="leise klein">Zum Beispiel erlaubte Hilfsmittel oder Dauer.</p>
+              <app-text-liste
+                bezeichnung="Hinweis"
+                [mehrzeilig]="true"
+                [werte]="l.hinweise ?? []"
+                (aenderung)="setzeHinweise(l, $event)"
+              />
+            </div>
+          </div>
+        }
+
+        <!-- ---------- Lernziele ---------- -->
+        @case ('lernziele') {
+          <datalist id="themen">
+            @for (t of themen(); track t) {
+              <option [value]="t"></option>
+            }
+          </datalist>
+          @for (lz of l.lernziele; track lz; let i = $index, erstes = $first, letztes = $last) {
+            <article class="karte stapel" [attr.aria-label]="'Lernziel ' + (i + 1)">
+              <div class="zeile zwischen">
+                <h2 class="lz-titel" [id]="'lz-' + i" tabindex="-1">Lernziel {{ i + 1 }}</h2>
+                <div class="zeile knopfgruppe">
+                  <button
+                    type="button"
+                    class="knopf klein"
+                    [disabled]="erstes"
+                    (click)="lernzielVerschieben(i, -1)"
+                    [attr.aria-label]="'Lernziel ' + (i + 1) + ' nach oben'"
+                  >
+                    ↑
+                  </button>
+                  <button
+                    type="button"
+                    class="knopf klein"
+                    [disabled]="letztes"
+                    (click)="lernzielVerschieben(i, 1)"
+                    [attr.aria-label]="'Lernziel ' + (i + 1) + ' nach unten'"
+                  >
+                    ↓
+                  </button>
+                  <button type="button" class="knopf klein gefahr" (click)="lernzielLoeschen(lz)">Löschen</button>
+                </div>
+              </div>
+              <p class="leise klein">{{ fragenZu(lz) }} Fragen</p>
+              <div class="feld">
+                <label [for]="'lz-thema-' + i">Thema</label>
+                <input
+                  [id]="'lz-thema-' + i"
+                  class="eingabe"
+                  list="themen"
+                  [value]="lz.thema"
+                  (input)="setze(lz, 'thema', text($event))"
+                />
+              </div>
+              <div class="feld">
+                <label [for]="'lz-text-' + i">Lernziel</label>
+                <textarea
+                  [id]="'lz-text-' + i"
+                  class="eingabe kurz"
+                  [value]="lz.text"
+                  (input)="setze(lz, 'text', text($event))"
+                  (change)="lernzielTextFertig(lz)"
+                ></textarea>
+              </div>
+              <div class="feld">
+                <div class="zeile zwischen">
+                  <label [for]="'lz-zf-' + i">Zusammenfassung (Lernzettel)</label>
+                  <button
+                    type="button"
+                    class="knopf text klein"
+                    [attr.aria-expanded]="vorschauLz().has(lz)"
+                    (click)="schalteVorschauLz(lz)"
+                  >
+                    {{ vorschauLz().has(lz) ? 'Vorschau ausblenden' : 'Vorschau zeigen' }}
+                  </button>
+                </div>
+                <textarea
+                  [id]="'lz-zf-' + i"
+                  class="eingabe lang"
+                  [value]="lz.zusammenfassung"
+                  (input)="setze(lz, 'zusammenfassung', text($event))"
+                ></textarea>
+                <p class="leise sehr-klein">
+                  Formatierung: Leerzeile = neuer Absatz, <code>- </code> Liste, <code>**fett**</code>,
+                  <code>`code`</code>, <code>### Zwischentitel</code>.
+                </p>
+                @if (vorschauLz().has(lz)) {
+                  <div class="vorschau md" [innerHTML]="lz.zusammenfassung | md"></div>
+                }
+              </div>
+              <div class="feld">
+                <span class="label">Merksätze</span>
+                <app-text-liste
+                  bezeichnung="Merksatz"
+                  [mehrzeilig]="true"
+                  [werte]="lz.merksaetze ?? []"
+                  (aenderung)="setzeMerksaetze(lz, $event)"
+                />
+              </div>
+              <div class="feld">
+                <label [for]="'lz-quelle-' + i">Quellenhinweis</label>
+                <input
+                  [id]="'lz-quelle-' + i"
+                  class="eingabe"
+                  placeholder="z. B. Skript 1.1, S. 11"
+                  [value]="lz.quellenhinweis ?? ''"
+                  (input)="setze(lz, 'quellenhinweis', text($event))"
+                />
+              </div>
+              <label class="ankreuzen">
+                <input type="checkbox" [checked]="!!lz.ergaenzt" (change)="setze(lz, 'ergaenzt', !lz.ergaenzt)" />
+                Ergänzt (steht nicht im Material)
+              </label>
+            </article>
+          } @empty {
+            <p class="hinweis warnung">Die Lektion braucht mindestens ein Lernziel.</p>
+          }
+          <button type="button" class="knopf breit" (click)="lernzielHinzufuegen()">+ Lernziel hinzufügen</button>
+        }
+
+        <!-- ---------- Fragen ---------- -->
+        @case ('fragen') {
+          @if (gewaehlteFrage(); as f) {
+            <section id="frage-formular" class="stapel" tabindex="-1" aria-label="Frage bearbeiten">
+              <div class="zeile zwischen">
+                <button type="button" class="knopf text" (click)="zurListe()">← Alle Fragen</button>
+                <span class="chip primaer">{{ typLabel[f.typ] }}</span>
+              </div>
+
+              @if (gewaehlteFrageFehler().length) {
+                <div class="hinweis fehler klein" role="status">
+                  <ul class="kompakt">
+                    @for (m of gewaehlteFrageFehler(); track $index) {
+                      <li>{{ m }}</li>
+                    }
+                  </ul>
+                </div>
+              }
+
+              <div class="karte stapel">
+                <div class="feld">
+                  <label for="f-lz">Lernziel</label>
+                  <select
+                    id="f-lz"
+                    class="eingabe"
+                    [value]="f.lernzielId"
+                    (change)="setze(f, 'lernzielId', text($event))"
+                  >
+                    @for (lz of l.lernziele; track lz.id; let i = $index) {
+                      <option [value]="lz.id" [selected]="lz.id === f.lernzielId">
+                        {{ i + 1 }}. {{ kurztext(lz.text, 70) }}
+                      </option>
+                    }
+                  </select>
+                </div>
+                <div class="feld">
+                  <label for="f-text">Fragetext</label>
+                  <textarea
+                    id="f-text"
+                    class="eingabe"
+                    [value]="f.frage"
+                    (input)="setze(f, 'frage', text($event))"
+                  ></textarea>
+                </div>
+
+                <!-- Bild -->
+                <div class="feld">
+                  <span class="label">Bild (optional)</span>
+                  @if (f.bild; as b) {
+                    <figure class="abbildung">
+                      <img [src]="b.src" [alt]="b.alt" />
+                    </figure>
+                    <label for="f-bild-alt" class="klein">Bildbeschreibung (für Screenreader)</label>
+                    <input
+                      id="f-bild-alt"
+                      class="eingabe"
+                      [value]="b.alt"
+                      (input)="setze(b, 'alt', text($event))"
+                    />
+                    <button type="button" class="knopf klein gefahr" (click)="bildEntfernen(f)">Bild entfernen</button>
+                  } @else {
+                    <div class="zeile">
+                      <label class="knopf klein datei">
+                        Bild wählen
+                        <input type="file" accept="image/*" class="nur-screenreader" (change)="bildGewaehlt(f, $event)" />
+                      </label>
+                      <label class="knopf klein datei">
+                        Foto aufnehmen
+                        <input
+                          type="file"
+                          accept="image/*"
+                          capture="environment"
+                          class="nur-screenreader"
+                          (change)="bildGewaehlt(f, $event)"
+                        />
+                      </label>
+                    </div>
+                  }
+                  @if (bildFehler(); as bf) {
+                    <p class="hinweis fehler klein" role="alert">{{ bf }}</p>
+                  }
+                </div>
+              </div>
+
+              <!-- Antwort je Typ -->
+              <div class="karte stapel">
+                <h2 class="klein-titel">Lösung</h2>
+                @if (f.typ === 'einfachwahl' || f.typ === 'mehrfachwahl') {
+                  <fieldset class="optionen">
+                    <legend class="klein leise">
+                      {{
+                        f.typ === 'einfachwahl'
+                          ? 'Markiere die richtige Antwort.'
+                          : 'Markiere alle richtigen Antworten.'
+                      }}
+                    </legend>
+                    @for (o of f.optionen; track $index; let i = $index) {
+                      <div class="option-zeile">
+                        <input
+                          [type]="f.typ === 'einfachwahl' ? 'radio' : 'checkbox'"
+                          name="richtig"
+                          [checked]="istRichtig(f, i)"
+                          (change)="markiereRichtig(f, i, $any($event.target).checked)"
+                          [attr.aria-label]="'Option ' + (i + 1) + ' ist richtig'"
+                        />
+                        <input
+                          class="eingabe"
+                          [value]="o"
+                          [attr.aria-label]="'Option ' + (i + 1)"
+                          (input)="setzeOption(f, i, text($event))"
+                        />
+                        <button
+                          type="button"
+                          class="knopf klein gefahr quadrat"
+                          (click)="optionEntfernen(f, i)"
+                          [attr.aria-label]="'Option ' + (i + 1) + ' entfernen'"
+                        >
+                          ✕
+                        </button>
+                      </div>
+                    }
+                  </fieldset>
+                  <button type="button" class="knopf klein" (click)="optionHinzufuegen(f)">+ Option</button>
+                } @else if (f.typ === 'wahrfalsch') {
+                  <fieldset class="optionen">
+                    <legend class="klein leise">Die Aussage ist …</legend>
+                    <label class="ankreuzen">
+                      <input type="radio" name="wf" [checked]="f.richtig" (change)="setze(f, 'richtig', true)" />
+                      wahr
+                    </label>
+                    <label class="ankreuzen">
+                      <input type="radio" name="wf" [checked]="!f.richtig" (change)="setze(f, 'richtig', false)" />
+                      falsch
+                    </label>
+                  </fieldset>
+                } @else if (f.typ === 'zuordnen') {
+                  <p class="leise klein">
+                    Links die Begriffe, rechts die passende Zuordnung. Rechts dürfen sich Werte wiederholen
+                    (Kategorien).
+                  </p>
+                  <datalist id="rechts-werte">
+                    @for (r of rechtsWerte(); track r) {
+                      <option [value]="r"></option>
+                    }
+                  </datalist>
+                  @for (p of f.paare; track $index; let i = $index) {
+                    <div class="paar">
+                      <input
+                        class="eingabe"
+                        [value]="p.links"
+                        placeholder="links"
+                        [attr.aria-label]="'Paar ' + (i + 1) + ' links'"
+                        (input)="setzePaar(f, i, 'links', text($event))"
+                      />
+                      <span aria-hidden="true">→</span>
+                      <input
+                        class="eingabe"
+                        list="rechts-werte"
+                        [value]="p.rechts"
+                        placeholder="rechts"
+                        [attr.aria-label]="'Paar ' + (i + 1) + ' rechts'"
+                        (input)="setzePaar(f, i, 'rechts', text($event))"
+                      />
+                      <button
+                        type="button"
+                        class="knopf klein gefahr quadrat"
+                        (click)="paarEntfernen(f, i)"
+                        [attr.aria-label]="'Paar ' + (i + 1) + ' entfernen'"
+                      >
+                        ✕
+                      </button>
+                    </div>
+                  }
+                  <button type="button" class="knopf klein" (click)="paarHinzufuegen(f)">+ Paar</button>
+                } @else if (f.typ === 'reihenfolge') {
+                  <p class="leise klein">Gib die Elemente in der richtigen Reihenfolge ein; die App mischt sie.</p>
+                  <app-text-liste
+                    bezeichnung="Element"
+                    [sortierbar]="true"
+                    [werte]="f.elemente"
+                    (aenderung)="setzeListe(f, 'elemente', $event)"
+                  />
+                } @else if (f.typ === 'zahl') {
+                  <div class="drei">
+                    <div class="feld">
+                      <label for="f-zahl">Richtige Zahl</label>
+                      <input
+                        id="f-zahl"
+                        class="eingabe"
+                        inputmode="decimal"
+                        [value]="zahlAnzeige(f.richtig)"
+                        (change)="setze(f, 'richtig', zahl($event))"
+                      />
+                    </div>
+                    <div class="feld">
+                      <label for="f-tol">Toleranz ±</label>
+                      <input
+                        id="f-tol"
+                        class="eingabe"
+                        inputmode="decimal"
+                        [value]="zahlAnzeige(f.toleranz)"
+                        (change)="setze(f, 'toleranz', zahlOderUndefined($event))"
+                      />
+                    </div>
+                    <div class="feld">
+                      <label for="f-einheit">Einheit</label>
+                      <input
+                        id="f-einheit"
+                        class="eingabe"
+                        [value]="f.einheit ?? ''"
+                        (input)="setze(f, 'einheit', text($event))"
+                      />
+                    </div>
+                  </div>
+                } @else if (f.typ === 'kurzantwort') {
+                  <p class="leise klein">Verglichen wird ohne Gross-/Kleinschreibung und Sonderzeichen.</p>
+                  <app-text-liste
+                    bezeichnung="Akzeptierte Antwort"
+                    [werte]="f.akzeptiert"
+                    (aenderung)="setzeListe(f, 'akzeptiert', $event)"
+                  />
+                } @else if (f.typ === 'offen') {
+                  <div class="feld">
+                    <label for="f-muster">Musterlösung</label>
+                    <textarea
+                      id="f-muster"
+                      class="eingabe"
+                      [value]="f.musterloesung"
+                      (input)="setze(f, 'musterloesung', text($event))"
+                    ></textarea>
+                  </div>
+                  <div class="feld">
+                    <span class="label">Stichworte für eine gute Antwort</span>
+                    <app-text-liste
+                      bezeichnung="Stichwort"
+                      [werte]="f.stichworte ?? []"
+                      (aenderung)="setzeListe(f, 'stichworte', $event)"
+                    />
+                  </div>
+                }
+              </div>
+
+              <div class="karte stapel">
+                <div class="feld">
+                  <label for="f-erkl">Erklärung (warum die Lösung stimmt)</label>
+                  <textarea
+                    id="f-erkl"
+                    class="eingabe kurz"
+                    [value]="f.erklaerung"
+                    (input)="setze(f, 'erklaerung', text($event))"
+                  ></textarea>
+                </div>
+                <div class="feld">
+                  <label for="f-tipp">Tipp (optional)</label>
+                  <input id="f-tipp" class="eingabe" [value]="f.tipp ?? ''" (input)="setze(f, 'tipp', text($event))" />
+                </div>
+                <fieldset class="optionen">
+                  <legend class="label">Schwierigkeit</legend>
+                  <div class="zeile">
+                    @for (s of schwierigkeiten; track s.wert) {
+                      <label class="ankreuzen">
+                        <input
+                          type="radio"
+                          name="schwierigkeit"
+                          [checked]="f.schwierigkeit === s.wert"
+                          (change)="setzeSchwierigkeit(f, s.wert)"
+                        />
+                        {{ s.wert }} – {{ s.label }}
+                      </label>
+                    }
+                  </div>
+                </fieldset>
+              </div>
+
+              <div class="zeile">
+                <button
+                  type="button"
+                  class="knopf"
+                  [attr.aria-expanded]="frageVorschau()"
+                  (click)="frageVorschau.set(!frageVorschau())"
+                >
+                  {{ frageVorschau() ? 'Vorschau ausblenden' : 'Vorschau' }}
+                </button>
+                <button type="button" class="knopf" (click)="duplizieren(f)">Duplizieren</button>
+                <button type="button" class="knopf gefahr" (click)="frageLoeschen(f)">Löschen</button>
+              </div>
+
+              @if (frageVorschau()) {
+                <section class="stapel" aria-label="Vorschau der Frage">
+                  <p class="ueberschrift-klein">Vorschau</p>
+                  @if (gewaehlteFrageFehler().length) {
+                    <p class="hinweis warnung klein">Die Vorschau ist erst zuverlässig, wenn die Frage keine Fehler mehr hat.</p>
+                  }
+                  @if (vorschauFrage(); as vf) {
+                    @for (k of [vf]; track k) {
+                      <app-frage-karte [frage]="k" modus="ueben" />
+                    }
+                  }
+                </section>
+              }
+            </section>
+          } @else {
+            <div class="karte stapel">
+              <div class="feld">
+                <label for="filter-lz">Fragen zu Lernziel</label>
+                <select id="filter-lz" class="eingabe" [value]="filterLz()" (change)="filterLz.set(text($event))">
+                  <option value="" [selected]="filterLz() === ''">Alle Lernziele</option>
+                  @for (lz of l.lernziele; track lz.id; let i = $index) {
+                    <option [value]="lz.id" [selected]="filterLz() === lz.id">
+                      {{ i + 1 }}. {{ kurztext(lz.text, 70) }} ({{ fragenZu(lz) }})
+                    </option>
+                  }
+                </select>
+              </div>
+              <div class="neu">
+                <div class="feld">
+                  <label for="neuer-typ">Fragetyp</label>
+                  <select
+                    id="neuer-typ"
+                    class="eingabe"
+                    [value]="neuerTyp()"
+                    (change)="neuerTyp.set($any(text($event)))"
+                  >
+                    @for (t of typen; track t) {
+                      <option [value]="t" [selected]="neuerTyp() === t">{{ typLabel[t] }}</option>
+                    }
+                  </select>
+                </div>
+                <button type="button" class="knopf primaer" [disabled]="!l.lernziele.length" (click)="neueFrage()">
+                  + Neue Frage
+                </button>
+              </div>
+            </div>
+
+            <ul class="fragenliste" aria-label="Fragen">
+              @for (x of gefilterteFragen(); track x.frage.id) {
+                <li>
+                  <button
+                    type="button"
+                    class="karte flach frage-eintrag"
+                    [attr.data-frage]="x.frage.id"
+                    (click)="waehleFrage(x.frage.id)"
+                  >
+                    <span class="zeile">
+                      <span class="chip primaer">{{ typLabel[x.frage.typ] }}</span>
+                      <span class="chip">Stufe {{ x.frage.schwierigkeit }}</span>
+                      @if (fehlerProFrage().get(x.index); as n) {
+                        <span class="chip schlecht">{{ n }} Fehler</span>
+                      }
+                    </span>
+                    <span class="frage-text">{{ x.index + 1 }}. {{ kurztext(x.frage.frage) }}</span>
+                    @if (!filterLz()) {
+                      <span class="leise sehr-klein">{{ lernzielText(x.frage.lernzielId) }}</span>
+                    }
+                  </button>
+                </li>
+              } @empty {
+                <li class="leise">Noch keine Fragen{{ filterLz() ? ' zu diesem Lernziel' : '' }}.</li>
+              }
+            </ul>
+          }
+        }
+      }
+    </div>
+
+    @if (geaendert()) {
+      <div class="zeile ende">
+        <button
+          type="button"
+          class="knopf primaer"
+          [disabled]="fehler().length > 0 || speichertGerade()"
+          (click)="speichern()"
+        >
+          Speichern
+        </button>
+        @if (fehler().length) {
+          <span class="leise klein">Erst speicherbar, wenn alle Fehler behoben sind.</span>
+        }
+      </div>
+    }
+  } @else {
+    <h1>Lektion nicht gefunden</h1>
+    <p class="hinweis fehler">Die Lektion «{{ id() }}» gibt es auf diesem Gerät nicht.</p>
+    <a class="knopf" routerLink="/">Zu den Lektionen</a>
+  }
+</div>

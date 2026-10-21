@@ -1,0 +1,114 @@
+.kopfbereich h1 {
+  margin: 10px 0 6px;
+}
+.chips {
+  gap: 6px;
+}
+.pruefung {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.hinweis-titel {
+  font-size: 0.95rem;
+  margin: 0 0 4px;
+}
+.hinweis ul,
+.quellen ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.quellen {
+  margin: 12px 0;
+}
+.quellen summary {
+  cursor: pointer;
+  font-weight: 600;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  color: var(--text-2);
+}
+
+.stand-karte {
+  margin: 16px 0 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ohne-abstand {
+  margin: 0;
+}
+
+.aktionen {
+  display: grid;
+  gap: 10px;
+}
+.aktion {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+  min-height: 64px;
+  padding: 12px 16px;
+  text-align: left;
+}
+.aktion-titel {
+  font-size: 1.05rem;
+}
+.aktion-unter {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.knopf.primaer .aktion-unter {
+  opacity: 0.9;
+}
+@media (min-width: 560px) {
+  .aktionen {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.thema-titel {
+  margin: 16px 0 8px;
+}
+.liste {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.lernziel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.lz-text {
+  margin: 0;
+  font-weight: 600;
+}
+.lz-knoepfe .knopf {
+  flex: 1 1 120px;
+}
+
+.verlauf {
+  list-style: none;
+  margin: 0;
+  padding: 4px 16px;
+}
+.verlauf li {
+  padding: 10px 0;
+}
+.verlauf li + li {
+  border-top: 1px solid var(--rand);
+}
+
+.verwalten {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.meldung {
+  margin-top: 12px;
+}

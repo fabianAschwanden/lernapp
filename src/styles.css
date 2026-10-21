@@ -1,0 +1,594 @@
+/*
+ * Design-System der Lernapp. Farben angelehnt an das Informatik-Lehrmittel
+ * (Tannengrün, Petrol, Limette). Komponenten verwenden nur diese Tokens und
+ * die Klassen unten — keine eigenen Farbwerte.
+ */
+
+:root {
+  color-scheme: light;
+  --bg: #f4f6f3;
+  --flaeche: #ffffff;
+  --flaeche-2: #eef2ee;
+  --rand: #d8dfd9;
+  --text: #17231f;
+  --text-2: #4d5c56;
+  --text-3: #5f6d67;
+  --primaer: #0b5d4b;
+  --primaer-hover: #094c3e;
+  --primaer-text: #ffffff;
+  --primaer-weich: #dcefe8;
+  --akzent: #0b7590;
+  --akzent-weich: #ddf0f5;
+  --limette: #b9c934;
+  --gut: #1f8a4c;
+  --gut-weich: #e1f4e8;
+  --mittel: #b7791f;
+  --mittel-weich: #fbf0dc;
+  --schlecht: #c0392b;
+  --schlecht-weich: #fbe5e2;
+  /* Textfarben für Status (auch auf den -weich-Flächen mind. 4.5:1) */
+  --gut-text: #17703d;
+  --mittel-text: #8a5a12;
+  --schlecht-text: #a8321f;
+  --fokus: #0b7590;
+  --schatten: 0 1px 2px rgb(16 32 26 / 6%), 0 4px 16px rgb(16 32 26 / 6%);
+  --radius: 14px;
+  --radius-klein: 9px;
+  --schrift: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  --breite: 780px;
+  /* Höhe des fixen App-Kopfs (app.css: .kopf-inhalt) bzw. der unteren Navigation auf dem Handy */
+  --kopf-hoehe: calc(59px + env(safe-area-inset-top));
+  --nav-unten-hoehe: 0px;
+}
+@media (max-width: 640px) {
+  :root {
+    --nav-unten-hoehe: calc(61px + env(safe-area-inset-bottom));
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --bg: #0f1614;
+    --flaeche: #17211e;
+    --flaeche-2: #1e2a26;
+    --rand: #2c3a35;
+    --text: #e7eeea;
+    --text-2: #a9b8b1;
+    --text-3: #81918a;
+    --primaer: #3fbf98;
+    --primaer-hover: #5dd0ac;
+    --primaer-text: #06231b;
+    --primaer-weich: #173a30;
+    --akzent: #4fb8d2;
+    --akzent-weich: #16343d;
+    --gut: #4cc47d;
+    --gut-weich: #173322;
+    --mittel: #e0a647;
+    --mittel-weich: #3a2e17;
+    --schlecht: #f0776a;
+    --schlecht-weich: #3d1d1a;
+    --gut-text: #4cc47d;
+    --mittel-text: #e0a647;
+    --schlecht-text: #f0776a;
+    --fokus: #4fb8d2;
+    --schatten: 0 1px 2px rgb(0 0 0 / 30%), 0 4px 16px rgb(0 0 0 / 25%);
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #0f1614;
+  --flaeche: #17211e;
+  --flaeche-2: #1e2a26;
+  --rand: #2c3a35;
+  --text: #e7eeea;
+  --text-2: #a9b8b1;
+  --text-3: #81918a;
+  --primaer: #3fbf98;
+  --primaer-hover: #5dd0ac;
+  --primaer-text: #06231b;
+  --primaer-weich: #173a30;
+  --akzent: #4fb8d2;
+  --akzent-weich: #16343d;
+  --gut: #4cc47d;
+  --gut-weich: #173322;
+  --mittel: #e0a647;
+  --mittel-weich: #3a2e17;
+  --schlecht: #f0776a;
+  --schlecht-weich: #3d1d1a;
+  --gut-text: #4cc47d;
+  --mittel-text: #e0a647;
+  --schlecht-text: #f0776a;
+  --fokus: #4fb8d2;
+  --schatten: 0 1px 2px rgb(0 0 0 / 30%), 0 4px 16px rgb(0 0 0 / 25%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  /* Fokussierte und angesprungene Elemente nicht unter Kopf bzw. unterer Navigation verstecken */
+  scroll-padding-top: calc(var(--kopf-hoehe) + 8px);
+  scroll-padding-bottom: calc(var(--nav-unten-hoehe) + 8px);
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--schrift);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.25;
+  margin: 0 0 0.5em;
+  letter-spacing: -0.01em;
+}
+h1 {
+  font-size: 1.6rem;
+}
+h2 {
+  font-size: 1.25rem;
+}
+h3 {
+  font-size: 1.05rem;
+}
+p {
+  margin: 0 0 0.75em;
+}
+a {
+  color: var(--akzent);
+}
+code {
+  font-family: var(--mono);
+  font-size: 0.92em;
+  background: var(--flaeche-2);
+  padding: 0.05em 0.35em;
+  border-radius: 5px;
+}
+img,
+svg {
+  max-width: 100%;
+}
+
+:focus-visible {
+  outline: 3px solid var(--fokus);
+  outline-offset: 2px;
+}
+
+/* ---------- Layout ---------- */
+
+.seite {
+  max-width: var(--breite);
+  margin: 0 auto;
+  padding: 16px 16px 96px;
+}
+
+.stapel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.zeile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.zeile.zwischen {
+  justify-content: space-between;
+}
+.raster {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+.leise {
+  color: var(--text-2);
+}
+.klein {
+  font-size: 0.875rem;
+}
+.sehr-klein {
+  font-size: 0.78rem;
+}
+.ueberschrift-klein {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  margin: 20px 0 8px;
+}
+.nur-screenreader {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* ---------- Karten ---------- */
+
+.karte {
+  background: var(--flaeche);
+  border: 1px solid var(--rand);
+  border-radius: var(--radius);
+  padding: 16px;
+  box-shadow: var(--schatten);
+}
+.karte.klickbar {
+  cursor: pointer;
+  transition:
+    transform 0.12s ease,
+    border-color 0.12s ease;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.karte.klickbar:hover {
+  border-color: var(--primaer);
+  transform: translateY(-1px);
+}
+.karte.flach {
+  box-shadow: none;
+}
+.hinweis {
+  border-radius: var(--radius-klein);
+  padding: 12px 14px;
+  background: var(--akzent-weich);
+  color: var(--text);
+  border-left: 4px solid var(--akzent);
+}
+.hinweis.warnung {
+  background: var(--mittel-weich);
+  border-left-color: var(--mittel);
+}
+.hinweis.fehler {
+  background: var(--schlecht-weich);
+  border-left-color: var(--schlecht);
+}
+.hinweis.erfolg {
+  background: var(--gut-weich);
+  border-left-color: var(--gut);
+}
+
+/* ---------- Knöpfe ---------- */
+
+.knopf {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 10px 16px;
+  border-radius: var(--radius-klein);
+  border: 1px solid var(--rand);
+  background: var(--flaeche);
+  color: var(--text);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition:
+    background 0.12s ease,
+    border-color 0.12s ease;
+}
+.knopf:hover:not(:disabled) {
+  border-color: var(--primaer);
+}
+.knopf:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.knopf.primaer {
+  background: var(--primaer);
+  border-color: var(--primaer);
+  color: var(--primaer-text);
+}
+.knopf.primaer:hover:not(:disabled) {
+  background: var(--primaer-hover);
+}
+.knopf.gefahr {
+  color: var(--schlecht);
+}
+.knopf.gefahr:hover:not(:disabled) {
+  border-color: var(--schlecht);
+}
+.knopf.text {
+  border-color: transparent;
+  background: transparent;
+  color: var(--akzent);
+  padding-inline: 8px;
+}
+.knopf.klein {
+  min-height: 34px;
+  padding: 6px 12px;
+  font-size: 0.875rem;
+}
+/* Auf Touch-Geräten auch kleine Knöpfe mit mind. 44 px Höhe */
+@media (pointer: coarse) {
+  .knopf.klein {
+    min-height: 44px;
+  }
+}
+.knopf.breit {
+  width: 100%;
+}
+
+/* ---------- Chips & Abzeichen ---------- */
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  background: var(--flaeche-2);
+  color: var(--text-2);
+  border: 1px solid var(--rand);
+  white-space: nowrap;
+}
+.chip.gut {
+  background: var(--gut-weich);
+  color: var(--gut-text);
+  border-color: transparent;
+}
+.chip.mittel {
+  background: var(--mittel-weich);
+  color: var(--mittel-text);
+  border-color: transparent;
+}
+.chip.schlecht {
+  background: var(--schlecht-weich);
+  color: var(--schlecht-text);
+  border-color: transparent;
+}
+.chip.primaer {
+  background: var(--primaer-weich);
+  color: var(--primaer);
+  border-color: transparent;
+}
+
+/* ---------- Fortschrittsbalken ---------- */
+
+.balken {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--flaeche-2);
+  overflow: hidden;
+}
+.balken > span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--primaer);
+  transition: width 0.3s ease;
+}
+.balken.gut > span {
+  background: var(--gut);
+}
+.balken.mittel > span {
+  background: var(--mittel);
+}
+.balken.schlecht > span {
+  background: var(--schlecht);
+}
+
+/* ---------- Formulare ---------- */
+
+.feld {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.feld > label,
+.feld > .label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.eingabe,
+textarea.eingabe,
+select.eingabe {
+  font: inherit;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  border-radius: var(--radius-klein);
+  border: 1px solid var(--rand);
+  background: var(--flaeche);
+  color: var(--text);
+}
+textarea.eingabe {
+  min-height: 110px;
+  resize: vertical;
+}
+.eingabe:focus {
+  border-color: var(--fokus);
+}
+/* Gleicher, gut sichtbarer Fokusrahmen wie bei Knöpfen */
+.eingabe:focus-visible {
+  outline: 3px solid var(--fokus);
+  outline-offset: 1px;
+}
+
+/* ---------- Aufklappbare Bereiche ---------- */
+
+summary {
+  list-style: none;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+summary::before {
+  content: '▸';
+  flex: none;
+  display: inline-block;
+  width: 1.1em;
+  color: var(--text-2);
+  transition: transform 0.15s ease;
+}
+details[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+/* ---------- Antwortoptionen (Quiz) ---------- */
+
+.option {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  text-align: left;
+  padding: 12px 14px;
+  min-height: 48px;
+  border-radius: var(--radius-klein);
+  border: 2px solid var(--rand);
+  background: var(--flaeche);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+.option:hover:not(:disabled) {
+  border-color: var(--akzent);
+}
+.option.gewaehlt {
+  border-color: var(--akzent);
+  background: var(--akzent-weich);
+}
+.option.richtig {
+  border-color: var(--gut);
+  background: var(--gut-weich);
+}
+.option.falsch {
+  border-color: var(--schlecht);
+  background: var(--schlecht-weich);
+}
+.option:disabled {
+  cursor: default;
+}
+.option .marke {
+  flex: none;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  font-size: 0.8rem;
+  background: var(--flaeche-2);
+  color: var(--text-2);
+}
+
+/* ---------- Mini-Markdown ---------- */
+
+.md p:last-child {
+  margin-bottom: 0;
+}
+.md ul,
+.md ol {
+  margin: 0 0 0.75em;
+  padding-left: 1.3em;
+}
+.md li {
+  margin: 0.15em 0;
+}
+.md h4 {
+  margin: 1em 0 0.4em;
+  font-size: 1rem;
+  color: var(--primaer);
+}
+.md .tabelle {
+  overflow-x: auto;
+  margin: 0 0 0.75em;
+}
+/* Lernzettel (Karte mit --flaeche): Schatten am Rand, solange seitlich noch Spalten folgen */
+.lernziel .md .tabelle {
+  background:
+    linear-gradient(to right, var(--flaeche), var(--flaeche)) left / 16px 100% no-repeat local,
+    linear-gradient(to left, var(--flaeche), var(--flaeche)) right / 16px 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, rgb(0 0 0 / 18%), transparent) left / 10px 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, rgb(0 0 0 / 18%), transparent) right / 10px 100% no-repeat scroll;
+}
+.md table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.92rem;
+}
+.md th,
+.md td {
+  border-bottom: 1px solid var(--rand);
+  padding: 6px 8px;
+  text-align: left;
+  vertical-align: top;
+}
+.md th {
+  background: var(--flaeche-2);
+}
+
+/* Bilder in Fragen und Lernzetteln: SVGs auf hellem Grund, auch im Dunkelmodus */
+.abbildung {
+  margin: 8px 0;
+  text-align: center;
+}
+.abbildung img {
+  background: #fff;
+  border-radius: var(--radius-klein);
+  border: 1px solid var(--rand);
+  padding: 8px;
+  max-height: 260px;
+  object-fit: contain;
+}
+.abbildung figcaption {
+  font-size: 0.82rem;
+  color: var(--text-2);
+  margin-top: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+.balken.primaer > span {
+  background: var(--primaer);
+}
+
+/* Druck (z. B. Lernzettel): App-Navigation und Knöpfe weg, schlichter Hintergrund */
+@media print {
+  .kopf,
+  .nav-unten,
+  .knopf {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+    color: #000;
+  }
+  .seite {
+    padding: 0;
+    max-width: none;
+  }
+  .karte {
+    box-shadow: none;
+    break-inside: avoid;
+  }
+}

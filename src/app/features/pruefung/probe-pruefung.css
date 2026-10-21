@@ -1,0 +1,149 @@
+.kopf {
+  gap: 4px;
+}
+h1 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+.zurueck {
+  align-self: flex-start;
+  margin-left: -8px;
+  max-width: 100%;
+}
+.ellipse {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.regeln {
+  margin: 0;
+  padding-left: 1.2em;
+}
+.regeln li {
+  margin: 0.3em 0;
+}
+/* Fragenposition und Restzeit bleiben beim Scrollen unter dem App-Kopf sichtbar */
+.laufkopf {
+  position: sticky;
+  top: var(--kopf-hoehe);
+  z-index: 5;
+  margin: -6px -16px 0;
+  padding: 6px 16px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--rand);
+}
+.position {
+  margin: 0;
+  font-weight: 600;
+}
+.countdown {
+  font-size: 0.95rem;
+  font-variant-numeric: tabular-nums;
+  padding: 4px 12px;
+}
+.uebersicht {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(44px, 1fr));
+  gap: 6px;
+}
+.nummer {
+  min-height: 44px;
+  border-radius: var(--radius-klein);
+  border: 1px solid var(--rand);
+  background: var(--flaeche);
+  color: var(--text);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+.nummer.beantwortet {
+  background: var(--primaer-weich);
+  color: var(--primaer);
+  border-color: transparent;
+}
+.nummer[aria-current] {
+  border: 2px solid var(--akzent);
+}
+.haken {
+  margin-left: 2px;
+  font-size: 0.75em;
+}
+.hinweise {
+  padding: 0 14px;
+}
+.hinweise summary {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+.hinweise ul {
+  margin-bottom: 12px;
+}
+.ohne-abstand {
+  margin: -4px 0 0;
+}
+.abgabe {
+  margin-top: 8px;
+}
+.note-zeile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.note {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 84px;
+  padding: 8px;
+  border-radius: var(--radius);
+  background: var(--flaeche-2);
+}
+.note strong {
+  font-size: 2.2rem;
+  line-height: 1.1;
+}
+.note-info {
+  gap: 4px;
+  align-items: flex-start;
+}
+.liste {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.lz {
+  gap: 8px;
+}
+.lz-text {
+  flex: 1;
+  min-width: 0;
+}
+.frage {
+  padding: 0;
+}
+.frage summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+.frage-titel {
+  flex: 1;
+  min-width: 0;
+}
+.nr {
+  font-weight: 700;
+  color: var(--text-2);
+}
+.detail {
+  padding: 0 14px 14px;
+}
+.knoepfe .knopf {
+  flex: 1 1 auto;
+}

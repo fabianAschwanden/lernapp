@@ -1,0 +1,389 @@
+<div class="seite stapel">
+  <h1>Einstellungen</h1>
+
+  <nav class="inhalt" aria-label="Abschnitte">
+    <a href="#lernen" (click)="$event.preventDefault(); springe('lernen')">Lernen</a>
+    <a href="#darstellung" (click)="$event.preventDefault(); springe('darstellung')">Darstellung</a>
+    <a href="#ki" (click)="$event.preventDefault(); springe('ki')">KI-Erstellung</a>
+    <a href="#daten" (click)="$event.preventDefault(); springe('daten')">Daten & Geräte</a>
+    <a href="#installieren" (click)="$event.preventDefault(); springe('installieren')">Installieren</a>
+    <a href="#so-gehts" (click)="$event.preventDefault(); springe('so-gehts')">So funktioniert's</a>
+  </nav>
+
+  <!-- ---------- Lernen ---------- -->
+  <section class="karte stapel" aria-labelledby="lernen">
+    <h2 id="lernen" tabindex="-1">Lernen</h2>
+    <div class="feld">
+      <label for="runde">Fragen pro Lernrunde</label>
+      <input
+        id="runde"
+        class="eingabe zahl"
+        type="number"
+        inputmode="numeric"
+        min="5"
+        max="30"
+        [value]="werte().rundenGroesse"
+        (change)="setzeZahl('rundenGroesse', $event, 5, 30)"
+        aria-describedby="runde-hilfe"
+      />
+      <span id="runde-hilfe" class="leise klein">5 bis 30 Fragen</span>
+    </div>
+    <h3>Probeprüfung</h3>
+    <div class="zwei">
+      <div class="feld">
+        <label for="p-anzahl">Anzahl Fragen</label>
+        <input
+          id="p-anzahl"
+          class="eingabe zahl"
+          type="number"
+          inputmode="numeric"
+          min="5"
+          max="60"
+          [value]="werte().pruefungAnzahl"
+          (change)="setzeZahl('pruefungAnzahl', $event, 5, 60)"
+          aria-describedby="p-anzahl-hilfe"
+        />
+        <span id="p-anzahl-hilfe" class="leise klein">5 bis 60 Fragen</span>
+      </div>
+      <div class="feld">
+        <label for="p-zeit">Zeit in Minuten</label>
+        <input
+          id="p-zeit"
+          class="eingabe zahl"
+          type="number"
+          inputmode="numeric"
+          min="0"
+          max="300"
+          [value]="werte().pruefungMinuten"
+          (change)="setzeZahl('pruefungMinuten', $event, 0, 300)"
+          aria-describedby="p-zeit-hilfe"
+        />
+        <span id="p-zeit-hilfe" class="leise klein">0 = ohne Zeitlimit</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- Darstellung ---------- -->
+  <section class="karte stapel" aria-labelledby="darstellung">
+    <h2 id="darstellung" tabindex="-1">Darstellung</h2>
+    <fieldset class="gruppe">
+      <legend class="label">Farbschema</legend>
+      <div class="segmente">
+        @for (s of farbschemata; track s.w) {
+          <label class="segment" [class.aktiv]="werte().farbschema === s.w">
+            <input
+              type="radio"
+              name="farbschema"
+              class="nur-screenreader"
+              [checked]="werte().farbschema === s.w"
+              (change)="setzeFarbschema(s.w)"
+            />
+            {{ s.t }}
+          </label>
+        }
+      </div>
+    </fieldset>
+  </section>
+
+  <!-- ---------- KI ---------- -->
+  <section class="karte stapel" aria-labelledby="ki">
+    <h2 id="ki" tabindex="-1">KI-Erstellung</h2>
+    <p class="klein">
+      Mit einem eigenen API-Schlüssel erstellt die App Lektionen direkt aus deinem Material. Den Schlüssel erstellst
+      du unter
+      <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">console.anthropic.com</a>
+      — setze dort am besten ein <strong>monatliches Ausgabenlimit</strong>. Der Schlüssel bleibt nur auf diesem
+      Gerät und geht ausschliesslich an <code>api.anthropic.com</code>. Beim Erstellen werden die gewählten
+      PDF-Seiten, Fotos und Texte zur Verarbeitung ebenfalls dorthin gesendet.
+    </p>
+    <p class="hinweis klein">
+      Ohne Schlüssel geht es auch: Bei «Neue Lektion» kannst du den Auftrag mit <strong>«Prompt kopieren»</strong>
+      in Claude einfügen und das Ergebnis als JSON importieren.
+    </p>
+
+    <p class="zeile">
+      Status:
+      @if (hatSchluessel()) {
+        <span class="chip gut">Schlüssel gespeichert</span>
+      } @else {
+        <span class="chip">Kein Schlüssel</span>
+      }
+    </p>
+
+    <div class="feld">
+      <label for="schluessel">{{ hatSchluessel() ? 'Neuen Schlüssel eintragen' : 'API-Schlüssel' }}</label>
+      <div class="schluessel-zeile">
+        <input
+          id="schluessel"
+          class="eingabe"
+          [type]="schluesselZeigen() ? 'text' : 'password'"
+          autocomplete="off"
+          autocapitalize="off"
+          spellcheck="false"
+          placeholder="sk-ant-…"
+          [value]="schluesselEingabe()"
+          (input)="schluesselEingabe.set(text($event))"
+          (keydown.enter)="schluesselSpeichern()"
+        />
+        <button
+          type="button"
+          class="knopf"
+          [attr.aria-pressed]="schluesselZeigen()"
+          (click)="schluesselZeigen.set(!schluesselZeigen())"
+        >
+          {{ schluesselZeigen() ? 'Verbergen' : 'Anzeigen' }}
+        </button>
+      </div>
+    </div>
+    <div class="zeile">
+      <button
+        type="button"
+        class="knopf primaer"
+        [disabled]="!schluesselEingabe().trim()"
+        (click)="schluesselSpeichern()"
+      >
+        Speichern
+      </button>
+      <button
+        type="button"
+        class="knopf"
+        [disabled]="prueftGerade() || (!schluesselEingabe().trim() && !hatSchluessel())"
+        (click)="schluesselPruefen()"
+      >
+        Schlüssel prüfen
+      </button>
+      @if (hatSchluessel()) {
+        <button type="button" class="knopf gefahr" (click)="schluesselEntfernen()">Entfernen</button>
+      }
+    </div>
+    <div aria-live="polite">
+      @if (schluesselMeldung(); as m) {
+        <p
+          class="hinweis klein"
+          [class.erfolg]="m.art === 'erfolg'"
+          [class.fehler]="m.art === 'fehler'"
+        >
+          {{ m.text }}
+        </p>
+      }
+    </div>
+
+    <fieldset class="gruppe">
+      <legend class="label">Modell</legend>
+      @for (m of modelle; track m.id) {
+        <label class="option" [class.gewaehlt]="werte().kiModell === m.id">
+          <input
+            type="radio"
+            name="modell"
+            [checked]="werte().kiModell === m.id"
+            (change)="setzeModell(m.id)"
+          />
+          <span>
+            <strong>{{ m.name }}</strong>
+            <span class="leise klein"> — {{ m.text }}</span>
+          </span>
+        </label>
+      }
+    </fieldset>
+  </section>
+
+  <!-- ---------- Daten & Geräte ---------- -->
+  <section class="karte stapel" aria-labelledby="daten">
+    <h2 id="daten" tabindex="-1">Daten &amp; Geräte</h2>
+    <p class="klein">
+      Lektionen, Lernstand und Einstellungen liegen nur auf diesem Gerät. Nur wenn du eine Lektion mit
+      Claude erstellst, gehen das gewählte Material und die Lernziele an Anthropic. Für einen Gerätewechsel exportierst du ein Backup (eigene Lektionen,
+      Lernstand, Probeprüfungen, Einstellungen — ohne API-Schlüssel) und importierst es auf dem anderen Gerät.
+    </p>
+    <div class="zeile">
+      <button type="button" class="knopf" [disabled]="backupLaeuft()" (click)="exportieren()">
+        Backup exportieren
+      </button>
+      <label class="knopf datei" [class.gesperrt]="backupLaeuft()">
+        Backup importieren
+        <input
+          type="file"
+          accept=".json,application/json"
+          class="nur-screenreader"
+          [disabled]="backupLaeuft()"
+          (change)="importieren($event)"
+        />
+      </label>
+    </div>
+    <div aria-live="polite">
+      @if (backupLaeuft()) {
+        <p class="leise klein">Einen Moment …</p>
+      }
+      @if (backupFehler(); as f) {
+        <p class="hinweis fehler klein">{{ f }}</p>
+      }
+      @if (importErgebnis(); as r) {
+        <div class="hinweis erfolg klein">
+          <p><strong>Backup importiert.</strong></p>
+          <ul class="kompakt">
+            @if (r.neu.length) {
+              <li>Neu: {{ r.neu.join(', ') }}</li>
+            }
+            @if (r.ersetzt.length) {
+              <li>Aktualisiert: {{ r.ersetzt.join(', ') }}</li>
+            }
+            @if (r.uebersprungen.length) {
+              <li>Unverändert (hier gleich neu oder neuer): {{ r.uebersprungen.join(', ') }}</li>
+            }
+            @if (!r.neu.length && !r.ersetzt.length && !r.uebersprungen.length && !r.ungueltig.length) {
+              <li>Keine eigenen Lektionen im Backup.</li>
+            }
+            <li>Lernstand: {{ r.fortschritte }} Einträge, Probeprüfungen: {{ r.pruefungen }}</li>
+            <li>Einstellungen: {{ r.einstellungen ? 'übernommen' : 'keine im Backup' }}</li>
+          </ul>
+        </div>
+        @if (r.ungueltig.length) {
+          <div class="hinweis warnung klein">
+            <p><strong>Nicht übernommen (ungültig):</strong></p>
+            <ul class="kompakt">
+              @for (u of r.ungueltig; track $index) {
+                <li>
+                  {{ u.titel }}: {{ u.fehler.slice(0, 3).join(' ') }}
+                  @if (u.fehler.length > 3) {
+                    (und {{ u.fehler.length - 3 }} weitere)
+                  }
+                </li>
+              }
+            </ul>
+          </div>
+        }
+      }
+    </div>
+
+    <h3>Speicher</h3>
+    @if (speicher(); as s) {
+      @if (s.belegt !== undefined) {
+        <p class="klein">
+          Belegt: {{ mb(s.belegt) | number: '1.1-1' }} MB
+          @if (s.verfuegbar) {
+            von {{ mb(s.verfuegbar) | number: '1.0-0' }} MB
+          }
+        </p>
+        @if (speicherAnteil() !== null) {
+          <div
+            class="balken"
+            role="progressbar"
+            aria-label="Speicherbelegung"
+            [attr.aria-valuenow]="speicherAnteil()! | number: '1.0-0'"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <span [style.width.%]="speicherAnteil()! < 1 ? 1 : speicherAnteil()"></span>
+          </div>
+        }
+      } @else {
+        <p class="leise klein">Die Speicherbelegung lässt sich in diesem Browser nicht anzeigen.</p>
+      }
+      <p class="zeile klein">
+        Dauerhaft gespeichert:
+        @if (s.dauerhaft === true) {
+          <span class="chip gut">Ja</span>
+        } @else if (s.dauerhaft === false) {
+          <span class="chip mittel">Nein</span>
+        } @else {
+          <span class="chip">Unbekannt</span>
+        }
+      </p>
+      @if (s.dauerhaft !== true) {
+        <p class="leise klein">
+          Ohne dauerhafte Speicherung darf der Browser die Daten bei Platzmangel löschen. Installierte Apps erhalten
+          die Erlaubnis meist automatisch.
+        </p>
+        <button type="button" class="knopf" (click)="dauerhaftSpeichern()">Daten dauerhaft speichern</button>
+      }
+    }
+
+    <h3>Alle Daten löschen</h3>
+    @if (loeschenSchritt() === 0) {
+      <button type="button" class="knopf gefahr" (click)="loeschenSchritt.set(1)">Alle Daten löschen …</button>
+    } @else {
+      <div class="hinweis fehler stapel" role="alert">
+        <p>
+          Das löscht <strong>alle eigenen Lektionen, deinen Lernstand, die Probeprüfungen, die Einstellungen und den
+          API-Schlüssel</strong> auf diesem Gerät. Das lässt sich nicht rückgängig machen — exportiere vorher ein
+          Backup.
+        </p>
+        <div class="zeile">
+          <button type="button" class="knopf gefahr" (click)="allesLoeschen()">Ja, endgültig löschen</button>
+          <button type="button" class="knopf" (click)="loeschenSchritt.set(0)">Abbrechen</button>
+        </div>
+      </div>
+    }
+  </section>
+
+  <!-- ---------- Installieren ---------- -->
+  <section class="karte stapel" aria-labelledby="installieren">
+    <h2 id="installieren" tabindex="-1">Als App installieren</h2>
+    @if (istInstalliert()) {
+      <p class="hinweis erfolg klein">Die Lernapp läuft bereits als installierte App.</p>
+    } @else {
+      <p class="klein">
+        Installiert startet die Lernapp wie eine normale App vom Home-Bildschirm und funktioniert auch offline.
+      </p>
+      @if (kannInstallieren()) {
+        <button type="button" class="knopf primaer" (click)="installieren()">Jetzt installieren</button>
+      }
+      <dl class="anleitung">
+        <dt>iPhone / iPad</dt>
+        <dd>In Safari öffnen → <strong>Teilen</strong> (Quadrat mit Pfeil) → <strong>Zum Home-Bildschirm</strong>.</dd>
+        <dt>Android</dt>
+        <dd>In Chrome öffnen → Menü <strong>⋮</strong> → <strong>App installieren</strong>.</dd>
+        <dt>PC / Mac</dt>
+        <dd>
+          In Chrome oder Edge auf das <strong>Installieren-Symbol</strong> rechts in der Adressleiste klicken.
+        </dd>
+      </dl>
+    }
+    @if (installMeldung(); as m) {
+      <p class="leise klein" aria-live="polite">{{ m }}</p>
+    }
+  </section>
+
+  <!-- ---------- So funktioniert's ---------- -->
+  <section class="karte stapel" aria-labelledby="so-gehts">
+    <h2 id="so-gehts" tabindex="-1">So funktioniert's</h2>
+
+    <h3>Lernen mit dem Karteikasten (Leitner-Prinzip)</h3>
+    <p class="klein">
+      Jede Frage liegt in einem von fünf Fächern. Beantwortest du sie richtig, rückt sie ein Fach weiter und kommt
+      später wieder. Eine falsche Antwort schickt sie zurück in Fach 1. Eine neue Frage, die du auf Anhieb richtig
+      beantwortest, springt direkt in Fach 2.
+    </p>
+    <table class="tabelle klein">
+      <thead>
+        <tr>
+          <th scope="col">Fach</th>
+          <th scope="col">Wieder fällig</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (z of leitner; track z.fach) {
+          <tr>
+            <td>{{ z.fach }}</td>
+            <td>{{ z.abstand }}</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+    <p class="klein">
+      Kurz vor der Prüfung rückt die App alles zusammen: Am Tag vor dem Prüfungsdatum ist jede Frage nochmals fällig.
+    </p>
+
+    <h3>Note der Probeprüfung</h3>
+    <p class="klein">
+      Note = 1 + 5 × erreichte Punkte ÷ maximale Punkte. Volle Punktzahl ergibt eine 6, die Hälfte eine 3,5; ab 4 ist
+      die Prüfung genügend.
+    </p>
+
+    <h3>Lernstand pro Lernziel</h3>
+    <p class="klein">
+      Jede Frage gehört zu einem Lernziel. In der Lektionsübersicht siehst du pro Lernziel, wie viele Fragen schon
+      sitzen — so erkennst du, wo du noch üben musst, und kannst gezielt dieses Lernziel lernen.
+    </p>
+  </section>
+</div>

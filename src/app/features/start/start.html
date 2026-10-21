@@ -1,0 +1,87 @@
+<div class="seite">
+  <header class="einleitung">
+    <h1>Was lernst du heute?</h1>
+    <p class="leise">
+      Stell deinen Lernstoff aus Skripten, Fotos und Büchern zusammen und übe ihn Lernziel für
+      Lernziel mit passenden Fragen.
+    </p>
+  </header>
+
+  @if (ladefehler(); as fehler) {
+    <p class="hinweis fehler" role="alert">{{ fehler }}</p>
+  }
+
+  @if (weiterlernen(); as w) {
+    <a class="karte klickbar weiter" [routerLink]="['/lektion', w.kopf.id, 'lernen']">
+      <span class="weiter-label">Weiterlernen</span>
+      <span class="weiter-titel">{{ w.kopf.titel }}</span>
+      <span class="weiter-info">
+        @if (w.neu) {
+          <span>{{ w.neu }} neu</span>
+        }
+        @if (w.neu && w.faellig) {
+          <span aria-hidden="true">·</span>
+        }
+        @if (w.faellig) {
+          <span>{{ w.faellig }} fällig</span>
+        }
+        @if (w.countdown) {
+          <span aria-hidden="true">·</span>
+          <span>{{ w.countdown }}</span>
+        }
+      </span>
+      <span class="weiter-pfeil" aria-hidden="true">→</span>
+    </a>
+  }
+
+  @for (f of faecher(); track f.fach) {
+    <section [attr.aria-labelledby]="'fach-' + $index">
+      <h2 class="ueberschrift-klein" [id]="'fach-' + $index">{{ f.fach }}</h2>
+      <div class="raster">
+        @for (k of f.lektionen; track k.kopf.id) {
+          <a class="karte klickbar lektion" [routerLink]="['/lektion', k.kopf.id]">
+            <h3>{{ k.kopf.titel }}</h3>
+            @if (k.kopf.beschreibung) {
+              <p class="beschreibung leise klein">{{ k.kopf.beschreibung }}</p>
+            }
+            <div class="stand">
+              <div
+                class="balken"
+                role="progressbar"
+                aria-label="Gesamtstand"
+                [attr.aria-valuenow]="k.prozent"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <span [style.width.%]="k.prozent"></span>
+              </div>
+              <span class="klein leise">{{ k.prozent }} %</span>
+            </div>
+            <div class="zeile chips">
+              <span class="chip">{{ k.kopf.anzahlLernziele }} Lernziele</span>
+              <span class="chip">{{ k.kopf.anzahlFragen }} Fragen</span>
+              @if (k.faellig) {
+                <span class="chip mittel">{{ k.faellig }} fällig</span>
+              }
+              @if (k.countdown) {
+                <span class="chip primaer" [attr.title]="k.datum">{{ k.countdown }}</span>
+              }
+              @if (k.herkunft) {
+                <span class="chip">{{ k.herkunft }}</span>
+              }
+            </div>
+          </a>
+        }
+      </div>
+    </section>
+  }
+
+  <h2 class="ueberschrift-klein">{{ hatLektionen() ? 'Mehr Stoff' : 'Leg los' }}</h2>
+  <a class="karte klickbar neu" routerLink="/neu">
+    <span class="neu-plus" aria-hidden="true">+</span>
+    <span>
+      <strong>Neue Lektion erstellen</strong>
+      <span class="leise klein neu-text">aus Skript, Fotos oder Buchseiten</span>
+    </span>
+  </a>
+</div>

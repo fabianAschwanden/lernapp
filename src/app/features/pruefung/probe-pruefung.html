@@ -1,0 +1,248 @@
+@let l = lektion();
+
+<div class="seite stapel">
+  @if (!l) {
+    @if (geladen()) {
+      <div class="hinweis fehler" role="alert">
+        <p><strong>Diese Lektion gibt es nicht (mehr).</strong></p>
+        <p class="klein">Vielleicht wurde sie gelöscht oder der Link ist veraltet.</p>
+      </div>
+      <a routerLink="/" class="knopf primaer">Zur Startseite</a>
+    } @else {
+      <p class="leise" aria-live="polite">Lektion wird geladen …</p>
+    }
+  } @else {
+    @switch (phase()) {
+      @case ('start') {
+        <!-- Startbildschirm -->
+        <header class="stapel kopf">
+          <a [routerLink]="['/lektion', l.id]" class="knopf text zurueck"><span aria-hidden="true">←</span><span class="ellipse">{{ l.titel }}</span></a>
+          <h1 #fragenKopf tabindex="-1">Probeprüfung</h1>
+        </header>
+
+        @if (!anzahl()) {
+          <div class="hinweis warnung">Diese Lektion hat noch keine Fragen. Ergänze zuerst Fragen, dann kannst du eine Probeprüfung machen.</div>
+          <a [routerLink]="['/lektion', l.id]" class="knopf">Zur Lektion</a>
+        } @else {
+          <section class="karte stapel" aria-labelledby="regeln-titel">
+            <h2 id="regeln-titel">So läuft die Probeprüfung</h2>
+            <ul class="regeln">
+              <li><strong>{{ anzahl() }} Fragen</strong> aus allen Lernzielen der Lektion.</li>
+              <li>
+                @if (minuten() > 0) {
+                  <strong>Zeitlimit {{ minuten() }} Minuten.</strong> Wenn die Zeit abläuft, wird automatisch abgegeben.
+                } @else {
+                  <strong>Ohne Zeitlimit.</strong>
+                }
+              </li>
+              <li>Du bekommst <strong>keine Rückmeldung bis zur Abgabe</strong>. Du kannst frei vor- und zurückblättern.</li>
+              <li>Bei Erklärfragen schreibst du deine Antwort auf und bewertest sie nach der Abgabe selbst mit der Musterlösung.</li>
+              <li>Am Schluss erhältst du eine Note (Schweizer Skala 1–6, ab 4 genügend).</li>
+            </ul>
+            <p class="leise klein">Anzahl und Zeitlimit kannst du in den <a routerLink="/einstellungen">Einstellungen</a> ändern.</p>
+          </section>
+
+          <button type="button" class="knopf primaer breit" (click)="starten()">Probeprüfung starten</button>
+
+          @let hinweise = l.hinweise ?? [];
+          @if (hinweise.length) {
+            <details class="karte flach hinweise">
+              <summary>Hinweise zur Prüfung ({{ hinweise.length }})</summary>
+              <ul class="regeln">
+                @for (h of hinweise; track $index) {
+                  <li>{{ h }}</li>
+                }
+              </ul>
+            </details>
+          }
+        }
+      }
+
+      @case ('laeuft') {
+        <!-- Durchführung -->
+        <header class="zeile zwischen laufkopf">
+          <h1 class="nur-screenreader">Probeprüfung {{ l.titel }}</h1>
+          <p #fragenKopf tabindex="-1" class="position">Frage {{ index() + 1 }} von {{ fragen().length }}</p>
+          @if (restSekunden(); as rest) {
+            <span class="chip countdown" [class.schlecht]="zeitKnapp()" role="timer" [attr.aria-label]="'Restzeit ' + zeit(rest)">
+              <span aria-hidden="true">⏱</span> {{ zeit(rest) }}
+            </span>
+          }
+        </header>
+
+        <nav class="uebersicht" aria-label="Fragenübersicht (Pfeiltasten wechseln die Nummer)" (keydown)="nummernTaste($event)">
+          @for (f of fragen(); track f.id; let i = $index) {
+            <button
+              type="button"
+              class="nummer"
+              [class.beantwortet]="beantwortetIds().has(f.id)"
+              [attr.aria-current]="i === index() ? 'step' : null"
+              [attr.aria-label]="'Frage ' + (i + 1) + (beantwortetIds().has(f.id) ? ', beantwortet' : ', offen')"
+              [tabindex]="i === index() ? 0 : -1"
+              (click)="gehe(i)"
+            >
+              {{ i + 1 }}@if (beantwortetIds().has(f.id)) {<span class="haken" aria-hidden="true">✓</span>}
+            </button>
+          }
+        </nav>
+
+        @if (aktuelle(); as f) {
+          <article class="karte">
+            <app-frage-karte
+              [frage]="f"
+              modus="pruefung"
+              [mischungen]="mischungen"
+              [antwort]="antworten().get(f.id) ?? null"
+              [eigenerText]="texte().get(f.id) ?? ''"
+              (beantwortet)="setzeAntwort(f, $event)"
+              (eigenerTextAenderung)="setzeText(f, $event)"
+            />
+          </article>
+        }
+
+        @let letzte = index() >= fragen().length - 1;
+        <div class="zeile zwischen">
+          <button type="button" class="knopf" [disabled]="index() === 0" (click)="gehe(index() - 1)">← Zurück</button>
+          <button type="button" class="knopf" [class.primaer]="!letzte" [disabled]="letzte" (click)="gehe(index() + 1)">Weiter →</button>
+        </div>
+
+        <div class="stapel abgabe">
+          <p class="leise klein" aria-live="polite">
+            {{ fragen().length - unbeantwortet() }} von {{ fragen().length }} Fragen beantwortet
+          </p>
+          @if (bestaetigen()) {
+            <div class="hinweis warnung stapel" role="alertdialog" aria-labelledby="bestaetigen-text">
+              <p id="bestaetigen-text">
+                <strong>{{ unbeantwortet() === 1 ? 'Eine Frage ist' : unbeantwortet() + ' Fragen sind' }} noch nicht beantwortet.</strong>
+                Unbeantwortete Fragen geben 0 Punkte. Trotzdem abgeben?
+              </p>
+              <div class="zeile">
+                <button type="button" class="knopf primaer" (click)="abgeben(false)">Ja, abgeben</button>
+                <button type="button" class="knopf" (click)="bestaetigen.set(false)">Weiter bearbeiten</button>
+              </div>
+            </div>
+          } @else {
+            <!-- Erst bei der letzten Frage Hauptaktion, damit niemand versehentlich zu früh abgibt -->
+            <button type="button" class="knopf breit" [class.primaer]="letzte" (click)="abgebenKlick()">Abgeben</button>
+          }
+        </div>
+      }
+
+      @case ('korrektur') {
+        <!-- Selbstkorrektur -->
+        <header class="stapel">
+          <h1 #fragenKopf tabindex="-1">Selbstkorrektur</h1>
+          @if (zeitAbgelaufen()) {
+            <div class="hinweis warnung" role="status">Die Zeit ist abgelaufen — deine Prüfung wurde automatisch abgegeben.</div>
+          }
+          <p class="leise">
+            Vergleiche deine Antworten auf die Erklärfragen mit der Musterlösung und bewerte dich ehrlich. «Teilweise» gibt einen halben
+            Punkt.
+          </p>
+        </header>
+        @for (f of zuKorrigieren(); track f.id) {
+          <article class="karte">
+            <app-frage-karte
+              [frage]="f"
+              modus="pruefung"
+              [mischungen]="mischungen"
+              [selbstkorrektur]="true"
+              [antwort]="antworten().get(f.id) ?? null"
+              [eigenerText]="texte().get(f.id) ?? ''"
+              (beantwortet)="setzeAntwort(f, $event)"
+            />
+          </article>
+        }
+        <button type="button" class="knopf primaer breit" [disabled]="!korrekturFertig()" (click)="auswerten()">Auswertung anzeigen</button>
+        @if (!korrekturFertig()) {
+          <p class="leise klein">Bewerte zuerst alle Erklärfragen.</p>
+        }
+      }
+
+      @case ('auswertung') {
+        <!-- Auswertung -->
+        @let r = resultat();
+        <header class="stapel kopf">
+          <a [routerLink]="['/lektion', l.id]" class="knopf text zurueck"><span aria-hidden="true">←</span><span class="ellipse">{{ l.titel }}</span></a>
+          <h1 #fragenKopf tabindex="-1">Auswertung</h1>
+        </header>
+
+        @if (zeitAbgelaufen() && !zuKorrigieren().length) {
+          <div class="hinweis warnung" role="status">Die Zeit ist abgelaufen — deine Prüfung wurde automatisch abgegeben.</div>
+        }
+        @if (speicherFehler()) {
+          <div class="hinweis fehler" role="alert">Das Ergebnis konnte nicht gespeichert werden.</div>
+        }
+
+        <section class="karte stapel resultat" aria-label="Ergebnis">
+          <div class="note-zeile">
+            <div class="note">
+              <span class="sehr-klein leise">Note</span>
+              <strong>{{ note(r.gerundet) }}</strong>
+            </div>
+            <div class="stapel note-info">
+              <span class="chip" [class.gut]="r.genuegend" [class.schlecht]="!r.genuegend">
+                {{ r.genuegend ? 'Genügend' : 'Ungenügend' }}
+              </span>
+              <span class="klein">{{ punkte(r.punkte) }} von {{ r.max }} Punkten</span>
+              <span class="sehr-klein leise">Genaue Note {{ note(r.note) }} · Dauer {{ dauerText(dauerSekunden()) }}</span>
+            </div>
+          </div>
+        </section>
+
+        <h2 class="ueberschrift-klein">Punkte pro Lernziel</h2>
+        <ul class="liste stapel">
+          @for (z of lernzielZeilen(); track z.lernziel.id) {
+            <li class="karte flach stapel lz">
+              <div class="zeile zwischen">
+                <span class="klein lz-text">{{ z.lernziel.text }}</span>
+                <span class="klein"><strong>{{ punkte(z.punkte) }}</strong> / {{ z.max }}</span>
+              </div>
+              <div class="balken" [class]="z.klasse" role="img" [attr.aria-label]="z.prozent + ' Prozent der Punkte'">
+                <span [style.width.%]="z.prozent"></span>
+              </div>
+            </li>
+          }
+        </ul>
+
+        <h2 class="ueberschrift-klein">Alle Fragen</h2>
+        <p class="leise klein ohne-abstand">Tippe auf eine Frage, um deine Antwort, die Lösung und die Erklärung zu sehen.</p>
+        <ul class="liste stapel">
+          @for (x of auswertung(); track x.frage.id) {
+            <li>
+              <details class="karte flach frage" (toggle)="umschalten(x.frage.id, $event)">
+                <summary>
+                  <span class="nr">{{ x.nr }}.</span>
+                  <span class="klein frage-titel">{{ kurzText(x.frage.frage) }}</span>
+                  @if (x.beantwortet) {
+                    <span class="chip" [class]="bewertungChip[x.ergebnis.bewertung]">{{ bewertungLabel[x.ergebnis.bewertung] }}</span>
+                  } @else {
+                    <span class="chip">Nicht beantwortet</span>
+                  }
+                </summary>
+                @if (istOffen(x.frage.id)) {
+                  <div class="detail">
+                    <app-frage-karte
+                      [frage]="x.frage"
+                      modus="pruefung"
+                      [mischungen]="mischungen"
+                      [antwort]="x.antwort"
+                      [eigenerText]="texte().get(x.frage.id) ?? ''"
+                      [ergebnis]="x.ergebnis"
+                    />
+                  </div>
+                }
+              </details>
+            </li>
+          }
+        </ul>
+
+        <div class="zeile knoepfe">
+          <button type="button" class="knopf primaer" (click)="neuePruefung()">Neue Probeprüfung</button>
+          <a [routerLink]="['/lektion', l.id, 'lernen']" [queryParams]="{ modus: 'fehler' }" class="knopf">Fehler üben</a>
+          <a [routerLink]="['/lektion', l.id]" class="knopf">Zur Lektion</a>
+        </div>
+      }
+    }
+  }
+</div>

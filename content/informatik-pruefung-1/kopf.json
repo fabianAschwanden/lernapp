@@ -1,0 +1,131 @@
+{
+  "id": "informatik-pruefung-1",
+  "format": 1,
+  "version": 2,
+  "fach": "Informatik",
+  "titel": "Prüfung 1: Computer-Grundlagen",
+  "beschreibung": "Bauteile, Speicher, Anschlüsse, EVA-Prinzip, Bits und Bytes sowie MS Teams, Klassennotizbuch und sichere Passwörter.",
+  "klasse": "FMS1A",
+  "hinweise": [
+    "Papierprüfung: erlaubt sind Schreibstifte, Tipp-Ex, Lineal und Ähnliches.",
+    "Nicht erlaubt: eigene Notizen, Taschenrechner, Computer, Smartphone und Ähnliches — Umrechnungen also im Kopf oder schriftlich üben.",
+    "Abkürzungen müssen nicht ausgeschrieben werden können (z. B. was «CPU» heisst)."
+  ],
+  "quellen": [
+    {
+      "id": "skript-1-1",
+      "titel": "Skript 1.1 Informatik (Teil I «Wie denkt ein Computer?»)",
+      "umfang": "S. 9–11 (Hardware, Bauteile, EVA) und S. 21–24 (Bits und Bytes)"
+    },
+    {
+      "id": "lernziele-p1",
+      "titel": "1.5 Lernziele Prüfung 1 (FMS1A)"
+    },
+    {
+      "id": "ergaenzt",
+      "titel": "Ergänzt aus Allgemeinwissen — die PDFs 1.2 (PDF bearbeiten), 1.3 (Bauteile) und 1.4 (Anschlüsse) lagen nicht vor. Bitte mit den Unterlagen abgleichen."
+    }
+  ],
+  "lernziele": [
+    {
+      "id": "lz-bauteile",
+      "thema": "Bauteile im Computer",
+      "text": "Bezeichnungen der folgenden Bauteile und deren Hauptaufgaben verstehen: Arbeitsspeicher, RAM, Motherboard, Festplatte, SSD, SD, Prozessor, CPU, Grafikkarte (jedoch nicht nötig, was die Abkürzungen ausgeschrieben heissen).",
+      "zusammenfassung": "",
+      "quellenhinweis": "Skript 1.1, S. 10–11 und PDF 1.3"
+    },
+    {
+      "id": "lz-speicherarten",
+      "thema": "Bauteile im Computer",
+      "text": "Unterschied zwischen Arbeitsspeicher und nicht-flüchtigem Speicher (Speichermedien).",
+      "zusammenfassung": "",
+      "quellenhinweis": "Skript 1.1, S. 10"
+    },
+    {
+      "id": "lz-festplatte-ssd-cloud",
+      "thema": "Bauteile im Computer",
+      "text": "Unterschiede zwischen Festplatte und SSD und Cloud.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Skript 1.1, S. 9–10 (Notiz «Cloud ist ein Speicherplatz!») und PDF 1.3"
+    },
+    {
+      "id": "lz-anschluesse",
+      "thema": "Anschlüsse",
+      "text": "Die häufigen Stecker- und Anschluss-Formen auf Foto erkennen und benennen können: USB-A (normale Form, nicht Mini-/Micro), USB-C, Netzwerk-Stecker, Klinkenstecker, Hohlstecker, HDMI, DisplayPort, VGA und wissen, welche Hauptaufgaben diese Anschlüsse haben.",
+      "zusammenfassung": "",
+      "quellenhinweis": "PDF 1.4",
+      "ergaenzt": true
+    },
+    {
+      "id": "lz-eva",
+      "thema": "Funktionsweise des Computers",
+      "text": "EVA-Prinzip erklären und Geräte entsprechend zuordnen können.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Skript 1.1, S. 11"
+    },
+    {
+      "id": "lz-einheiten",
+      "thema": "Funktionsweise des Computers",
+      "text": "Begriffe Bit, Byte, Kilo, Mega, Giga, Tera, Abkürzungen b, B, K, M, G, T und Umrechnungen zwischen diesen Grössen.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Skript 1.1, S. 21–24"
+    },
+    {
+      "id": "lz-varianten",
+      "thema": "Funktionsweise des Computers",
+      "text": "Formel für die Anzahl Varianten von Null/Eins-Kombinationen.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Skript 1.1, S. 22–24 (Notiz «Anzahl Varianten = 2 hoch Anzahl Positionen»)"
+    },
+    {
+      "id": "lz-usb-a-c",
+      "thema": "Anschlüsse",
+      "text": "Vor- und Nachteile von USB-A und USB-C.",
+      "zusammenfassung": "",
+      "quellenhinweis": "PDF 1.4",
+      "ergaenzt": true
+    },
+    {
+      "id": "lz-pdf-bearbeiten",
+      "thema": "MS Teams, Klassennotizbuch und Sicherheit",
+      "text": "Du weisst, wie man PDF-Dateien bearbeiten kann (PDF 1.2).",
+      "zusammenfassung": "",
+      "quellenhinweis": "PDF 1.2",
+      "ergaenzt": true
+    },
+    {
+      "id": "lz-ablageorte",
+      "thema": "MS Teams, Klassennotizbuch und Sicherheit",
+      "text": "Du kennst die beiden typischen Ablageorte für digitale Unterlagen (Teams / Freigegeben und Klassennotizbuch).",
+      "zusammenfassung": "",
+      "quellenhinweis": "Unterricht",
+      "ergaenzt": true
+    },
+    {
+      "id": "lz-klassennotizbuch",
+      "thema": "MS Teams, Klassennotizbuch und Sicherheit",
+      "text": "Du hast Übung mit dem Klassennotizbuch (in MS Teams) und weisst, wo was zu finden ist, und kennst die Unterschiede zwischen «Collaboration Space», «Inhaltsbibliothek» und deinem persönlichen Abschnitt. Du weisst, wie man Dateien in Notizen einbinden kann.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Unterricht",
+      "ergaenzt": true
+    },
+    {
+      "id": "lz-passwort",
+      "thema": "MS Teams, Klassennotizbuch und Sicherheit",
+      "text": "Wie sollte ein gutes Passwort gewählt werden.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Unterricht",
+      "ergaenzt": true
+    },
+    {
+      "id": "lz-hardware-software",
+      "thema": "Bauteile im Computer",
+      "text": "Hardware, Software und Betriebssystem unterscheiden (Skript S. 9–10, ergänzend zu den Lernzielen).",
+      "zusammenfassung": "",
+      "quellenhinweis": "Skript 1.1, S. 9–10"
+    }
+  ],
+  "fragen": [],
+  "herkunft": "mitgeliefert",
+  "erstelltAm": "2026-10-20T20:00:00.000Z"
+}

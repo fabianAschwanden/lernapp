@@ -1,0 +1,51 @@
+<header class="kopf">
+  <div class="kopf-inhalt">
+    <a routerLink="/" class="marke" aria-label="Lernapp – zur Startseite">
+      <img src="icons/icon.svg" alt="" width="28" height="28" />
+      <span>Lernapp</span>
+    </a>
+    <nav class="nav-oben" aria-label="Hauptnavigation">
+      <a routerLink="/" routerLinkActive="aktiv" ariaCurrentWhenActive="page" [routerLinkActiveOptions]="{ exact: true }">Lektionen</a>
+      <a routerLink="/neu" routerLinkActive="aktiv" ariaCurrentWhenActive="page">Neue Lektion</a>
+      <a routerLink="/einstellungen" routerLinkActive="aktiv" ariaCurrentWhenActive="page">Einstellungen</a>
+    </nav>
+  </div>
+</header>
+
+@if (update.neueVersion() || update.defekt()) {
+  <div class="update" role="status">
+    <p class="hinweis update-inhalt">
+      <span>
+        {{
+          update.defekt()
+            ? 'Die Lernapp muss neu geladen werden, damit sie wieder richtig funktioniert.'
+            : 'Eine neue Version der Lernapp ist bereit.'
+        }}
+      </span>
+      <button type="button" class="knopf klein" (click)="update.neuLaden()">Neu laden</button>
+    </p>
+  </div>
+}
+
+<main>
+  <router-outlet />
+</main>
+
+<nav class="nav-unten" aria-label="Hauptnavigation">
+  <a routerLink="/" routerLinkActive="aktiv" ariaCurrentWhenActive="page" [routerLinkActiveOptions]="{ exact: true }">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v3H4zM4 10.5h16v3H4zM4 16h10v3H4z" /></svg>
+    Lektionen
+  </a>
+  <a routerLink="/neu" routerLinkActive="aktiv" ariaCurrentWhenActive="page">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4h2v7h7v2h-7v7h-2v-7H4v-2h7z" /></svg>
+    Neu
+  </a>
+  <a routerLink="/einstellungen" routerLinkActive="aktiv" ariaCurrentWhenActive="page">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path
+        d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm8.6 4.6-.1-2.2 2-1.6-2-3.4-2.4.9-1.8-1.1L15.9 3h-3.9l-.4 2.6-1.9 1.1-2.4-.9-2 3.4 2 1.6v2.2l-2 1.6 2 3.4 2.4-.9 1.9 1.1.4 2.6h3.9l.4-2.6 1.8-1.1 2.4.9 2-3.4z"
+      />
+    </svg>
+    Einstellungen
+  </a>
+</nav>

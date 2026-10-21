@@ -1,0 +1,9 @@
+node_modules
+dist
+.angular
+material
+test-results
+playwright-report
+.git
+.claude
+*.log

@@ -1,0 +1,781 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-eva",
+      "zusammenfassung": "Nahezu jeder Computer arbeitet nach dem gleichen Grundschema, dem **EVA-Prinzip**: **E**ingabe – **V**erarbeitung – **A**usgabe. Dazu gehört die **Speichereinheit**, in der Daten und Resultate abgelegt werden.\n\n### Ablauf (Skript S. 11)\n1. **Eingabe:** Daten werden über Eingabegeräte erfasst (Tastendruck, Mausklick, Ton, Bild).\n2. **Speichern:** Die Daten werden im Speicher abgelegt.\n3. **Verarbeitung:** Der Prozessor (CPU) liest die Daten aus dem Speicher, verarbeitet sie Schritt für Schritt und legt die Resultate wieder im Speicher ab.\n4. **Ausgabe:** Ausgabegeräte machen die Ergebnisse sichtbar, hörbar oder anderweitig wahrnehmbar.\n\nEin- und Ausgabegeräte bilden die **Schnittstelle zwischen Mensch und Maschine**.\n\n### Geräte zuordnen\n| Teil | Aufgabe | Beispiele |\n|---|---|---|\n| Eingabe | Daten in den Computer bringen | Tastatur, Maus, Mikrofon, Scanner, Barcode-Scanner, Webcam, Joystick, Touchscreen (Berührung) |\n| Verarbeitung | Daten berechnen, Befehle ausführen | Prozessor (CPU); dazu die Grafikkarte, die die Bilder berechnet |\n| Speicher | Daten ablegen und aufbewahren | Arbeitsspeicher (RAM), Festplatte, SSD, USB-Stick, SD-Karte |\n| Ausgabe | Ergebnisse wahrnehmbar machen | Bildschirm, Drucker, Lautsprecher, Kopfhörer, Beamer |\n\n### Grenzfälle\n- **Touchscreen:** Eingabe (Berührung) **und** Ausgabe (Bild) zugleich.\n- **Headset:** Kopfhörer = Ausgabe, Mikrofon = Eingabe – also beides.\n- **Multifunktionsgerät:** Scanner = Eingabe, Drucker = Ausgabe.\n- **USB-Stick, SD-Karte:** keine Eingabegeräte, sondern **Speicher** – auch wenn man sie einsteckt.\n- **RAM:** gehört zum **Speicher**, nicht zur Verarbeitung – er hält die Daten nur bereit, verarbeitet werden sie im Prozessor.\n- **Grafikkarte:** berechnet die Bilder (Verarbeitung) und schickt sie an den Bildschirm – **ausgegeben** wird das Bild erst vom Bildschirm. Manche Lehrmittel zählen die Grafikkarte zur Ausgabe; in der Prüfung deshalb mit Begründung antworten («berechnet die Bilder»). Im Skript-Schema (Abb. 1.8) steht bei der Verarbeitung nur die **CPU**.\n\n### Beispiel Taschenrechner\nDu tippst `12 + 30` (Eingabe) → die Zahlen landen im Speicher → der Prozessor rechnet (Verarbeitung) → das Resultat wird im Speicher abgelegt → die Anzeige zeigt `42` (Ausgabe).\n\n### Tipp für die Prüfung\nFrag dich bei jedem Gerät: **In welche Richtung fliessen die Daten?** Vom Menschen in den Computer = Eingabe. Vom Computer zum Menschen = Ausgabe. Wird berechnet = Verarbeitung. Wird aufbewahrt = Speicher.\n\n*Nicht aus dem Skript, sondern ergänzt: Grafikkarte, Touchscreen, Headset, Multifunktionsgerät, Beamer und die SSD als Beispiel. Frag bei Unklarheiten deine Lehrperson.*",
+      "merksaetze": [
+        "EVA = Eingabe – Verarbeitung – Ausgabe; dazu kommt der Speicher, in dem Daten und Resultate abgelegt werden.",
+        "Eingabegeräte bringen Daten in den Computer, Ausgabegeräte machen Ergebnisse sichtbar oder hörbar.",
+        "Die Verarbeitung übernimmt der Prozessor (CPU), Bilder berechnet zusätzlich die Grafikkarte – RAM, Festplatte, SSD, USB-Stick und SD-Karte sind Speicher.",
+        "Touchscreen und Headset sind Ein- und Ausgabegerät zugleich."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/informatik/eva-prinzip.svg",
+          "alt": "Schema des EVA-Prinzips: Eingabe, Verarbeitung und Ausgabe nebeneinander, darunter die Speichereinheit (Arbeitsspeicher, Festplatte, SSD), jeweils mit Beispielgeräten",
+          "legende": "EVA-Prinzip: Eingabe → Verarbeitung → Ausgabe, mit Speicher (vgl. Skript 1.1, Abb. 1.8)"
+        }
+      ]
+    },
+    {
+      "id": "lz-varianten",
+      "zusammenfassung": "Ein **Bit** kann genau zwei Zustände annehmen: **0** oder **1** (z. B. Schalter aus/ein, Tor zu/offen, Münze Kopf/Zahl, Strom blockiert/fliesst). Reichen zwei Zustände nicht, braucht man mehrere Bits – eine **Bitfolge**.\n\n### Die Formel\n**Anzahl Varianten = 2 hoch Anzahl Positionen.** Mit n Bits gibt es also **2ⁿ** verschiedene Kombinationen.\n\nJedes zusätzliche Bit **verdoppelt** die Anzahl: Die neue Stelle kann 0 oder 1 sein, und zu jeder davon passen alle bisherigen Kombinationen (2 · 2 · 2 … ).\n\n| Bits | Varianten | Beispiel |\n|---|---|---|\n| 1 | 2^1 = 2 | `0`, `1` |\n| 2 | 2^2 = 4 | `00`, `01`, `10`, `11` |\n| 3 | 2^3 = 8 | `000` bis `111` |\n| 4 | 2^4 = 16 | – |\n| 5 | 2^5 = 32 | – |\n| 6 | 2^6 = 64 | – |\n| 7 | 2^7 = 128 | – |\n| 8 = 1 Byte | 2^8 = 256 | Aufgabe 2.1 |\n| 9 | 2^9 = 512 | – |\n| 10 | 2^10 = 1024 | – |\n\n### Beispiel Ampel (Skript S. 22–23)\nEine Verkehrsampel hat **3** Zustände: rot, gelb, grün. 1 Bit (2 Varianten) reicht nicht, 2 Bits (4 Varianten) reichen. Im Skript gilt: rot = `00`, gelb = `11`, grün = `10`.\n- Welche Farbe welche Bitfolge bekommt, ist egal – wichtig ist, dass jeder Zustand eine **eigene** Bitfolge hat.\n- Eine Kombination (`01`) bleibt ungenutzt.\n- `00 10 11 10 00` bedeutet: rot, grün, gelb, grün, rot.\n\n### Umgekehrt: Wie viele Bits brauche ich?\nGesucht ist die **kleinste** Anzahl Bits n, für die 2ⁿ **mindestens so gross** ist wie die Anzahl Zustände.\n1. Anzahl Zustände bestimmen (bei Kombinationen multiplizieren, z. B. 12 · 60).\n2. Zweierpotenzen hochzählen: 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024.\n3. Die erste Potenz, die gross genug ist: Ihr Exponent ist die Anzahl Bits.\n\n| Situation | Zustände | Rechnung | Bits |\n|---|---|---|---|\n| Wochentage | 7 | 2^2 = 4 zu wenig, 2^3 = 8 reicht | **3** |\n| Genau 8 Zustände | 8 | 2^3 = 8 reicht genau | **3** |\n| Buchstaben A–Z | 26 | 2^4 = 16 zu wenig, 2^5 = 32 reicht | **5** |\n| Taschenuhr mit Stunden- und Minutenzeiger (Aufgabe 2.5) | 12 · 60 = 720 | 2^9 = 512 zu wenig, 2^10 = 1024 reicht | **10** |\n\n*Die Tabelle der Zweierpotenzen und das Vorgehen «Wie viele Bits brauche ich?» sind aus den Aufgaben 2.1 und 2.5 im Skript abgeleitet.*",
+      "merksaetze": [
+        "Anzahl Varianten = 2 hoch Anzahl Positionen: mit n Bits gibt es 2ⁿ Kombinationen.",
+        "Jedes zusätzliche Bit verdoppelt die Anzahl Kombinationen.",
+        "1 Byte = 8 Bit → 2^8 = 256 Varianten; 10 Bit → 2^10 = 1024 Varianten.",
+        "Für N Zustände brauchst du das kleinste n mit 2ⁿ ≥ N – Ampel 2 Bit, A–Z 5 Bit, Taschenuhr 10 Bit."
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-eva-01",
+      "lernzielId": "lz-eva",
+      "typ": "einfachwahl",
+      "frage": "Wofür stehen die drei Buchstaben im **EVA-Prinzip**?",
+      "optionen": [
+        "Eingabe – Verwaltung – Anzeige",
+        "Erfassung – Verarbeitung – Archivierung",
+        "Eingabe – Verarbeitung – Ausgabe",
+        "Empfang – Vernetzung – Ausgabe"
+      ],
+      "richtig": 2,
+      "erklaerung": "EVA steht für **Eingabe – Verarbeitung – Ausgabe**. Dieses Grundschema ist so wichtig für die Datenverarbeitung, dass es einen eigenen Namen bekommen hat. Die anderen Varianten klingen ähnlich, kommen im Skript aber nicht vor.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-eva-02",
+      "lernzielId": "lz-eva",
+      "typ": "zuordnen",
+      "frage": "Ordne jedes Gerät dem passenden Teil des EVA-Prinzips zu.",
+      "paare": [
+        {
+          "links": "Tastatur",
+          "rechts": "Eingabe"
+        },
+        {
+          "links": "Bildschirm",
+          "rechts": "Ausgabe"
+        },
+        {
+          "links": "Prozessor (CPU)",
+          "rechts": "Verarbeitung"
+        },
+        {
+          "links": "Festplatte",
+          "rechts": "Speicher"
+        },
+        {
+          "links": "Maus",
+          "rechts": "Eingabe"
+        },
+        {
+          "links": "Lautsprecher",
+          "rechts": "Ausgabe"
+        },
+        {
+          "links": "Mikrofon",
+          "rechts": "Eingabe"
+        },
+        {
+          "links": "Drucker",
+          "rechts": "Ausgabe"
+        }
+      ],
+      "erklaerung": "Tastatur, Maus und Mikrofon liefern Daten **an** den Computer (Eingabe). Bildschirm, Lautsprecher und Drucker geben verarbeitete Informationen wieder aus (Ausgabe). Der Prozessor verarbeitet die Daten, die Festplatte bewahrt sie auf (Speicher). Die Ein- und Ausgabegeräte nennt das Skript auf S. 11 als Beispiele, Prozessor und Festplatte findest du bei den Bauteilen (S. 10) und im Schema Abb. 1.8.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-eva-03",
+      "lernzielId": "lz-eva",
+      "typ": "zuordnen",
+      "frage": "Ordne auch diese Geräte und Bauteile dem EVA-Prinzip zu.",
+      "paare": [
+        {
+          "links": "Scanner",
+          "rechts": "Eingabe"
+        },
+        {
+          "links": "Beamer",
+          "rechts": "Ausgabe"
+        },
+        {
+          "links": "SSD",
+          "rechts": "Speicher"
+        },
+        {
+          "links": "Webcam",
+          "rechts": "Eingabe"
+        },
+        {
+          "links": "Prozessor im Smartphone",
+          "rechts": "Verarbeitung"
+        },
+        {
+          "links": "Kopfhörer",
+          "rechts": "Ausgabe"
+        },
+        {
+          "links": "USB-Stick",
+          "rechts": "Speicher"
+        },
+        {
+          "links": "Touchpad am Laptop",
+          "rechts": "Eingabe"
+        },
+        {
+          "links": "Barcode-Scanner an der Kasse",
+          "rechts": "Eingabe"
+        },
+        {
+          "links": "Joystick",
+          "rechts": "Eingabe"
+        },
+        {
+          "links": "SD-Karte",
+          "rechts": "Speicher"
+        }
+      ],
+      "erklaerung": "Scanner, Webcam, Touchpad, Barcode-Scanner und Joystick erfassen Daten (Eingabe). Beamer und Kopfhörer machen Ergebnisse sicht- bzw. hörbar (Ausgabe). SSD, USB-Stick und SD-Karte bewahren Daten auf (Speicher) – sie sind **keine** Eingabegeräte, auch wenn man sie einsteckt. Der Prozessor verarbeitet die Daten – auch im Smartphone, das ebenfalls nach dem EVA-Prinzip arbeitet.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-eva-04",
+      "lernzielId": "lz-eva",
+      "typ": "mehrfachwahl",
+      "frage": "Welche dieser Geräte sind **Eingabegeräte**? Wähle alle richtigen.",
+      "optionen": [
+        "Mikrofon",
+        "Drucker",
+        "Webcam",
+        "Beamer"
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Mikrofon (Ton) und Webcam (Bild) erfassen Daten und liefern sie an den Computer. Drucker und Beamer geben dagegen Ergebnisse aus – sie sind Ausgabegeräte.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-eva-05",
+      "lernzielId": "lz-eva",
+      "typ": "mehrfachwahl",
+      "frage": "Welche dieser Geräte sind **Ausgabegeräte**? Wähle alle richtigen.",
+      "optionen": [
+        "Scanner",
+        "Kopfhörer",
+        "Maus",
+        "Beamer"
+      ],
+      "richtig": [
+        1,
+        3
+      ],
+      "erklaerung": "Kopfhörer machen Ergebnisse hörbar, der Beamer macht sie sichtbar – beides Ausgabe. Scanner und Maus liefern Daten an den Computer und sind damit Eingabegeräte. Typischer Fehler: Den Scanner wegen des Druckers im Multifunktionsgerät für ein Ausgabegerät halten.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-eva-06",
+      "lernzielId": "lz-eva",
+      "typ": "wahrfalsch",
+      "frage": "Der Prozessor liest die benötigten Daten aus dem Speicher, verarbeitet sie Schritt für Schritt und legt die Resultate wieder im Speicher ab.",
+      "richtig": true,
+      "erklaerung": "Genau so beschreibt es das Skript (S. 11): Eingegebene Daten werden im Speicher deponiert, der Prozessor holt sie dort, verarbeitet sie Schritt für Schritt und legt die Resultate wieder ab. Danach machen die Ausgabegeräte sie wahrnehmbar.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-eva-07",
+      "lernzielId": "lz-eva",
+      "typ": "wahrfalsch",
+      "frage": "Der Arbeitsspeicher (RAM) gehört im EVA-Prinzip zur Verarbeitung, weil der Computer dort rechnet.",
+      "richtig": false,
+      "erklaerung": "Gerechnet wird im **Prozessor (CPU)**. Der Arbeitsspeicher gehört zum **Speicher** – er hält die Daten bereit, die der Prozessor gerade braucht, und nimmt seine Resultate auf.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-eva-08",
+      "lernzielId": "lz-eva",
+      "typ": "reihenfolge",
+      "frage": "Bringe den Ablauf der Datenverarbeitung nach dem EVA-Prinzip in die richtige Reihenfolge.",
+      "elemente": [
+        "Daten werden über Eingabegeräte erfasst",
+        "Die Daten werden im Speicher abgelegt",
+        "Der Prozessor verarbeitet die Daten Schritt für Schritt",
+        "Die Resultate werden wieder im Speicher abgelegt",
+        "Ausgabegeräte machen die Ergebnisse sichtbar oder hörbar"
+      ],
+      "erklaerung": "Das Skript beschreibt diesen Ablauf: erfassen (Eingabe) → im Speicher deponieren → Prozessor verarbeitet → Resultate ablegen → über Ausgabegeräte wahrnehmbar machen (Ausgabe). Der Speicher kommt zweimal vor: vor und nach der Verarbeitung.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-eva-09",
+      "lernzielId": "lz-eva",
+      "typ": "reihenfolge",
+      "frage": "Du rechnest mit dem Taschenrechner `12 + 30`. Bringe die Schritte in die richtige Reihenfolge.",
+      "elemente": [
+        "Du tippst 12 + 30 auf den Tasten ein",
+        "Die Zahlen werden im Speicher abgelegt",
+        "Der Prozessor rechnet 12 + 30",
+        "Das Resultat 42 wird im Speicher abgelegt",
+        "Die Anzeige zeigt 42"
+      ],
+      "erklaerung": "Auch ein Taschenrechner arbeitet nach dem EVA-Prinzip: Tasten = Eingabe, Speicher nimmt die Zahlen auf, Prozessor = Verarbeitung, Resultat in den Speicher, Anzeige = Ausgabe.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-eva-10",
+      "lernzielId": "lz-eva",
+      "typ": "zuordnen",
+      "frage": "Du hebst am Bancomaten Geld ab. Ordne jeden Schritt dem passenden Teil des EVA-Prinzips zu.",
+      "paare": [
+        {
+          "links": "Der Kartenleser liest den Chip deiner Karte",
+          "rechts": "Eingabe"
+        },
+        {
+          "links": "Du tippst die PIN auf dem Tastenfeld ein",
+          "rechts": "Eingabe"
+        },
+        {
+          "links": "Der Rechner prüft, ob die PIN stimmt",
+          "rechts": "Verarbeitung"
+        },
+        {
+          "links": "Die Abhebung wird für den Kontoauszug festgehalten",
+          "rechts": "Speicher"
+        },
+        {
+          "links": "Der Bildschirm zeigt «Bitte Karte entnehmen»",
+          "rechts": "Ausgabe"
+        },
+        {
+          "links": "Der Automat gibt die Banknoten aus",
+          "rechts": "Ausgabe"
+        }
+      ],
+      "erklaerung": "Kartenleser und Tastenfeld bringen Daten in das System (Eingabe). Das Prüfen der PIN ist eine Berechnung (Verarbeitung). Das Festhalten der Abhebung bewahrt Daten auf (Speicher). Bildschirmmeldung und Geldausgabe sind Ergebnisse, die du wahrnimmst (Ausgabe) – Ausgabe muss also nicht immer Bild oder Ton sein.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-eva-11",
+      "lernzielId": "lz-eva",
+      "typ": "einfachwahl",
+      "frage": "Zu welchem Teil bzw. welchen Teilen des EVA-Prinzips gehört der **Touchscreen** eines Smartphones?",
+      "optionen": [
+        "Zur Eingabe und zur Ausgabe, weil er Berührungen erfasst und Bilder anzeigt",
+        "Nur zur Eingabe, weil man mit dem Finger darauf tippt und wischt",
+        "Nur zur Ausgabe, weil er Bilder, Texte und Videos für dich anzeigt",
+        "Zur Verarbeitung, weil er die Berührungen selbst auswertet und in Befehle umsetzt"
+      ],
+      "richtig": 0,
+      "erklaerung": "Ein Touchscreen ist zwei Geräte in einem: Die berührungsempfindliche Schicht erfasst deine Fingerbewegungen (Eingabe), der Bildschirm darunter zeigt Bilder an (Ausgabe). Ausgewertet werden die Berührungen aber vom Prozessor – deshalb ist «Verarbeitung» falsch.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-eva-12",
+      "lernzielId": "lz-eva",
+      "typ": "einfachwahl",
+      "frage": "Zu welchem Teil des EVA-Prinzips gehört das abgebildete Bauteil?",
+      "bild": {
+        "src": "bilder/informatik/bauteil-ram.svg",
+        "alt": "Längliche Platine mit einer Reihe gleicher schwarzer Chips und einer Kontaktleiste mit Kerbe an der Unterkante"
+      },
+      "optionen": [
+        "Eingabe",
+        "Verarbeitung",
+        "Ausgabe",
+        "Speicher"
+      ],
+      "richtig": 3,
+      "erklaerung": "Abgebildet ist ein **Arbeitsspeicher-Riegel (RAM)** – länglich, mit mehreren gleichen Chips und einer Kontaktleiste (vgl. Skript Abb. 1.4). Er gehört zum **Speicher**: Er hält Programme und Daten bereit, mit denen der Prozessor gerade arbeitet. Typischer Fehler: «Verarbeitung» wählen, weil der RAM eng mit dem Prozessor zusammenarbeitet – verarbeitet werden die Daten aber im Prozessor, der RAM hält sie nur bereit.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-eva-13",
+      "lernzielId": "lz-eva",
+      "typ": "kurzantwort",
+      "frage": "Ergänze den Satz aus dem Skript: «Der Prozessor liest die benötigten Daten aus dem …, verarbeitet sie Schritt für Schritt und legt die Resultate wieder ab.»",
+      "akzeptiert": [
+        "Speicher",
+        "Arbeitsspeicher",
+        "RAM",
+        "Speichereinheit",
+        "Hauptspeicher",
+        "Arbeitsspeicher (RAM)",
+        "RAM (Arbeitsspeicher)",
+        "dem Speicher",
+        "dem Arbeitsspeicher",
+        "dem RAM"
+      ],
+      "erklaerung": "Die Daten liegen im **Speicher** (im Betrieb im Arbeitsspeicher, RAM). Der Prozessor holt sie dort ab, verarbeitet sie und legt die Resultate wieder im Speicher ab.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-eva-14",
+      "lernzielId": "lz-eva",
+      "typ": "kurzantwort",
+      "frage": "Welches Bauteil ist die **zentrale Verarbeitungseinheit** des Computers und führt die Befehle aus? Im Skript-Schema (Abb. 1.8) ist es über der Verarbeitungseinheit eingezeichnet. (ein Begriff)",
+      "akzeptiert": [
+        "Prozessor",
+        "CPU",
+        "Hauptprozessor",
+        "Mikroprozessor",
+        "Prozessor (CPU)",
+        "CPU (Prozessor)",
+        "Prozessor/CPU",
+        "Zentraleinheit",
+        "zentrale Einheit"
+      ],
+      "erklaerung": "Die zentrale Verarbeitung übernimmt der **Prozessor (CPU)** – das Skript nennt ihn «die zentrale Einheit» und das «Gehirn» des Computers (S. 10); im Schema Abb. 1.8 steht die CPU über der Verarbeitungseinheit. Die Grafikkarte berechnet zwar auch, aber nur die Bilder. Arbeitsspeicher oder Festplatte verarbeiten nichts, sie speichern nur.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-eva-15",
+      "lernzielId": "lz-eva",
+      "typ": "wahrfalsch",
+      "frage": "Ein USB-Stick ist ein Eingabegerät, weil man ihn in den Computer einsteckt.",
+      "richtig": false,
+      "erklaerung": "Ein USB-Stick **bewahrt Daten auf** und gehört deshalb zum **Speicher** (im Skript-Schema ist er bei der Speichereinheit abgebildet). Ob man ein Gerät einsteckt, sagt nichts über seine Aufgabe – auch Drucker oder Lautsprecher werden eingesteckt.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-eva-16",
+      "lernzielId": "lz-eva",
+      "typ": "einfachwahl",
+      "frage": "Welche Rolle haben Ein- und Ausgabegeräte laut Skript?",
+      "optionen": [
+        "Sie speichern Daten dauerhaft, auch ohne Strom",
+        "Sie bilden die Schnittstelle zwischen Mensch und Maschine",
+        "Sie verbinden über feine Leitungen alle Bauteile auf dem Mainboard",
+        "Sie führen die Befehle eines Programms aus"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Skript (S. 11) bilden Ein- und Ausgabegeräte die **Schnittstelle zwischen Mensch und Maschine**: Über sie gibst du Daten ein und erhältst Ergebnisse. Dauerhaft speichern die Speichermedien, die Bauteile verbindet das Mainboard, die Befehle führt der Prozessor aus.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-eva-17",
+      "lernzielId": "lz-eva",
+      "typ": "offen",
+      "frage": "Erkläre das **EVA-Prinzip** in eigenen Worten und nenne zu Eingabe, Verarbeitung, Ausgabe und Speicher je ein Beispielgerät.",
+      "musterloesung": "Das EVA-Prinzip beschreibt, wie fast jeder Computer arbeitet: **Eingabe – Verarbeitung – Ausgabe**. Zuerst werden Daten über Eingabegeräte erfasst (z. B. Tastatur) und im Speicher abgelegt (z. B. Arbeitsspeicher, Festplatte). Dann liest der Prozessor (CPU) die Daten, verarbeitet sie Schritt für Schritt und legt die Resultate wieder im Speicher ab. Zum Schluss machen Ausgabegeräte (z. B. Bildschirm) die Ergebnisse sichtbar oder hörbar. Ein- und Ausgabegeräte bilden die Schnittstelle zwischen Mensch und Maschine; nahezu jeder Computer arbeitet nach diesem Schema.",
+      "stichworte": [
+        "Eingabe",
+        "Verarbeitung",
+        "Ausgabe",
+        "Speicher",
+        "Prozessor/CPU",
+        "je ein Gerät",
+        "Schnittstelle Mensch–Maschine (optional)"
+      ],
+      "erklaerung": "Eine vollständige Antwort nennt alle drei Teile in der richtigen Reihenfolge, erwähnt den Speicher (Daten werden vor und nach der Verarbeitung abgelegt) und gibt zu jedem Teil ein passendes Gerät an.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-eva-18",
+      "lernzielId": "lz-eva",
+      "typ": "offen",
+      "frage": "Du machst mit dem Smartphone ein Foto und schaust es danach an. Beschreibe, was dabei bei **Eingabe, Verarbeitung, Speicherung und Ausgabe** passiert und welche Bauteile beteiligt sind.",
+      "musterloesung": "- **Eingabe:** Du tippst auf dem Touchscreen auf den Auslöser; die Kamera erfasst das Bild.\n- **Speicher:** Die Bilddaten werden zuerst im Arbeitsspeicher abgelegt.\n- **Verarbeitung:** Der Prozessor berechnet daraus das fertige Foto (z. B. Farben, Helligkeit, Bilddatei).\n- **Speicher:** Das Foto wird als Datei dauerhaft im internen Speicher (oder auf der SD-Karte) gespeichert.\n- **Ausgabe:** Der Bildschirm zeigt das Foto in der Galerie an.",
+      "stichworte": [
+        "Kamera/Touchscreen = Eingabe",
+        "Prozessor = Verarbeitung",
+        "Arbeitsspeicher und interner Speicher",
+        "Bildschirm = Ausgabe"
+      ],
+      "erklaerung": "Das Smartphone ist ein vollwertiger Computer und arbeitet ebenfalls nach dem EVA-Prinzip. Wichtig: Der Touchscreen ist beim Auslösen Eingabe, beim Anzeigen des Fotos Ausgabe.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-eva-19",
+      "lernzielId": "lz-eva",
+      "typ": "offen",
+      "frage": "Nenne zwei Geräte, die **gleichzeitig Eingabe- und Ausgabegerät** sind, und begründe jeweils.",
+      "musterloesung": "- **Touchscreen:** Er erfasst Berührungen (Eingabe) und zeigt Bilder an (Ausgabe).\n- **Headset:** Das Mikrofon nimmt die Stimme auf (Eingabe), die Kopfhörer geben Ton wieder (Ausgabe).\n- Ebenfalls möglich: **Multifunktionsgerät** – Scanner (Eingabe) und Drucker (Ausgabe) in einem Gerät.",
+      "stichworte": [
+        "Touchscreen",
+        "Headset",
+        "Multifunktionsgerät",
+        "Begründung mit Eingabe-Teil und Ausgabe-Teil"
+      ],
+      "erklaerung": "Bei solchen Geräten zählt die Begründung: Du musst zeigen, welcher Teil Daten erfasst (Eingabe) und welcher Teil Ergebnisse wahrnehmbar macht (Ausgabe).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-eva-20",
+      "lernzielId": "lz-eva",
+      "typ": "zuordnen",
+      "frage": "Grenzfälle: Ordne jedes Gerät zu. Manche Geräte sind beides.",
+      "paare": [
+        {
+          "links": "Touchscreen",
+          "rechts": "Ein- und Ausgabe"
+        },
+        {
+          "links": "Webcam",
+          "rechts": "Eingabe"
+        },
+        {
+          "links": "Headset mit Mikrofon",
+          "rechts": "Ein- und Ausgabe"
+        },
+        {
+          "links": "Beamer",
+          "rechts": "Ausgabe"
+        },
+        {
+          "links": "Multifunktionsgerät (Drucker und Scanner)",
+          "rechts": "Ein- und Ausgabe"
+        },
+        {
+          "links": "Joystick",
+          "rechts": "Eingabe"
+        },
+        {
+          "links": "Kopfhörer ohne Mikrofon",
+          "rechts": "Ausgabe"
+        }
+      ],
+      "erklaerung": "Touchscreen (Berühren + Anzeigen), Headset (Mikrofon + Kopfhörer) und Multifunktionsgerät (Scanner + Drucker) vereinen Eingabe und Ausgabe. Webcam und Joystick liefern nur Daten, Beamer und Kopfhörer ohne Mikrofon geben nur aus.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-eva-21",
+      "lernzielId": "lz-eva",
+      "typ": "offen",
+      "frage": "Zeichne das **EVA-Schema** aus dem Skript (Abb. 1.8) mit allen vier Einheiten. Verbinde sie mit Pfeilen, beschrifte sie und zeichne ein, wo die **CPU** hingehört. Nenne zu jeder Einheit ein Beispielgerät.",
+      "musterloesung": "- Oben in einer Reihe, mit Pfeilen von links nach rechts: **Eingabeeinheit → Verarbeitungseinheit → Ausgabeeinheit**.\n- Unter der Verarbeitungseinheit die **Speichereinheit**, mit ihr durch einen Pfeil verbunden (Daten werden dort abgelegt und wieder gelesen).\n- Die **CPU** gehört zur Verarbeitungseinheit (im Skript darüber gezeichnet).\n- Beispiele: Eingabe = Tastatur, Maus, Scanner; Speicher = USB-Stick, Festplatte; Ausgabe = Bildschirm, Drucker, Lautsprecher.",
+      "stichworte": [
+        "Eingabeeinheit",
+        "Verarbeitungseinheit",
+        "Ausgabeeinheit",
+        "Speichereinheit",
+        "Pfeile in Richtung E → V → A",
+        "CPU bei der Verarbeitung",
+        "je ein Gerät"
+      ],
+      "erklaerung": "Ein beschriftetes Schema ist eine typische Prüfungsaufgabe. Wichtig sind die Richtung der Pfeile (die Daten fliessen von der Eingabe über die Verarbeitung zur Ausgabe) und dass die Speichereinheit an die Verarbeitung angeschlossen ist.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-eva-22",
+      "lernzielId": "lz-eva",
+      "typ": "einfachwahl",
+      "frage": "«EVA» hat nur drei Buchstaben. Warum gehört die **Speichereinheit** trotzdem zum Schema?",
+      "optionen": [
+        "Weil der Speicher die Daten selbst berechnet, wenn der Prozessor ausgelastet ist",
+        "Weil der Speicher die Ergebnisse direkt auf dem Bildschirm sichtbar macht",
+        "Weil ohne Speicher keine Eingabegeräte am Computer angeschlossen werden können",
+        "Weil Daten vor und nach der Verarbeitung im Speicher abgelegt werden"
+      ],
+      "richtig": 3,
+      "erklaerung": "Laut Skript (S. 11) werden die eingegebenen Daten im Speicher deponiert; der Prozessor liest sie dort, verarbeitet sie und legt die Resultate wieder ab. Ohne Speicher hätte der Prozessor nichts, womit er arbeiten kann. Berechnen tut der Speicher nichts, anzeigen auch nicht, und Geräte werden über Anschlüsse am Mainboard verbunden.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-varianten-01",
+      "lernzielId": "lz-varianten",
+      "typ": "zahl",
+      "frage": "Wie viele verschiedene Kombinationen lassen sich mit **2 Bits** bilden?",
+      "richtig": 4,
+      "einheit": "Varianten",
+      "erklaerung": "2^2 = 2 · 2 = **4**: `00`, `01`, `10`, `11`. Genau deshalb reichen 2 Bits für die Ampel mit drei Farben.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-varianten-02",
+      "lernzielId": "lz-varianten",
+      "typ": "zahl",
+      "frage": "Wie viele verschiedene Kombinationen lassen sich mit **3 Bits** bilden?",
+      "richtig": 8,
+      "einheit": "Varianten",
+      "erklaerung": "2^3 = 2 · 2 · 2 = **8** (`000` bis `111`). Typischer Fehler: 2 · 3 = 6 rechnen – die Formel ist aber «2 **hoch** Anzahl Positionen».",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-varianten-03",
+      "lernzielId": "lz-varianten",
+      "typ": "zahl",
+      "frage": "Wie viele verschiedene Zustände lassen sich mit **einem Byte** unterscheiden? (Aufgabe 2.1)",
+      "richtig": 256,
+      "einheit": "Zustände",
+      "erklaerung": "Ein Byte besteht aus **8 Bits**, also 2^8 = **256** Zustände. Zum Nachrechnen ohne Taschenrechner: 2, 4, 8, 16, 32, 64, 128, 256 – achtmal verdoppeln.",
+      "schwierigkeit": 1,
+      "tipp": "Wie viele Bits hat ein Byte?"
+    },
+    {
+      "id": "f-varianten-04",
+      "lernzielId": "lz-varianten",
+      "typ": "zahl",
+      "frage": "Eine Verkehrsampel kann rot, gelb oder grün leuchten. Wie viele Bits brauchst du **mindestens**, um jeden dieser Zustände darzustellen?",
+      "richtig": 2,
+      "einheit": "Bit",
+      "erklaerung": "3 Zustände: 1 Bit ergibt nur 2^1 = 2 Varianten – zu wenig. 2 Bits ergeben 2^2 = 4 Varianten – das reicht (eine Kombination bleibt frei). Also **2 Bit**, wie im Skript.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-varianten-05",
+      "lernzielId": "lz-varianten",
+      "typ": "zahl",
+      "frage": "Du willst die **7 Wochentage** als Bitfolgen speichern. Wie viele Bits brauchst du mindestens?",
+      "richtig": 3,
+      "einheit": "Bit",
+      "erklaerung": "2^2 = 4 ist kleiner als 7, 2^3 = 8 ist gross genug. Also **3 Bit**; eine der 8 Kombinationen bleibt ungenutzt.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-varianten-06",
+      "lernzielId": "lz-varianten",
+      "typ": "zahl",
+      "frage": "Schulnoten von 1 bis 6 in **halben Schritten** (1; 1,5; 2; … ; 6) sollen als Bitfolgen gespeichert werden. Wie viele Bits brauchst du mindestens?",
+      "richtig": 4,
+      "einheit": "Bit",
+      "erklaerung": "Zuerst die Zustände zählen: 1; 1,5; 2; 2,5; 3; 3,5; 4; 4,5; 5; 5,5; 6 = **11** Noten. 2^3 = 8 reicht nicht, 2^4 = 16 reicht → **4 Bit**. Typischer Fehler: nur die 6 ganzen Noten zählen und auf 3 Bit kommen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-varianten-07",
+      "lernzielId": "lz-varianten",
+      "typ": "zahl",
+      "frage": "Eine alte Taschenuhr hat nur einen **Stunden- und einen Minutenzeiger**. Wie viele Bits brauchst du mindestens, um die angezeigte Uhrzeit digital zu speichern? (Aufgabe 2.5)",
+      "richtig": 10,
+      "einheit": "Bit",
+      "erklaerung": "Die Uhr zeigt 12 Stunden mal 60 Minuten = **720** verschiedene Uhrzeiten (keine 24 Stunden – das Zifferblatt hat nur 12). 2^9 = 512 ist zu wenig, 2^10 = 1024 reicht → **10 Bit**. Getrennt gerechnet (Stunden 4 Bit, da 16 ≥ 12, plus Minuten 6 Bit, da 64 ≥ 60) ergibt hier **zufällig** auch 10 Bit. Getrennt rechnen kann aber mehr Bits brauchen als nötig: 5 · 5 = 25 Zustände brauchen zusammen 5 Bit, getrennt 3 + 3 = 6 Bit. Für «mindestens» deshalb immer zuerst alle Zustände multiplizieren.",
+      "schwierigkeit": 3,
+      "tipp": "Zuerst ausrechnen, wie viele verschiedene Zeigerstellungen es gibt."
+    },
+    {
+      "id": "f-varianten-08",
+      "lernzielId": "lz-varianten",
+      "typ": "zahl",
+      "frage": "Mindestens wie viele Bits brauchst du, um **1000** verschiedene Zustände zu unterscheiden?",
+      "richtig": 10,
+      "einheit": "Bit",
+      "erklaerung": "2^9 = 512 ist kleiner als 1000, 2^10 = 1024 ist grösser → **10 Bit**. Es reicht nicht, «ungefähr» zu passen: 2ⁿ muss mindestens so gross sein wie die Anzahl Zustände.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-varianten-09",
+      "lernzielId": "lz-varianten",
+      "typ": "kurzantwort",
+      "frage": "Wie nennt man mehrere aneinandergereihte Bits wie `0110`? (ein Wort)",
+      "akzeptiert": [
+        "Bitfolge",
+        "Bitfolgen",
+        "Bitkette",
+        "Bitmuster",
+        "Bitreihe",
+        "Bitsequenz",
+        "Bitstring",
+        "Bitkombination",
+        "Binärfolge"
+      ],
+      "erklaerung": "Mehrere Bits hintereinander heissen **Bitfolge** (Skript S. 22). `0110` ist eine Bitfolge der Länge 4. Ein **Byte** ist eine Bitfolge mit genau 8 Bits – `0110` hat nur 4 und ist deshalb kein Byte.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-varianten-10",
+      "lernzielId": "lz-varianten",
+      "typ": "einfachwahl",
+      "frage": "Mit welcher Formel berechnest du die Anzahl Varianten bei **n Bits**?",
+      "optionen": [
+        "2ⁿ",
+        "2 · n",
+        "n²",
+        "n + 2"
+      ],
+      "richtig": 0,
+      "erklaerung": "Anzahl Varianten = **2 hoch Anzahl Positionen**, also 2ⁿ. Prüfe mit 3 Bits: 2^3 = 8 Kombinationen (`000` bis `111`). 2 · n ergäbe 6, n² ergäbe 9, n + 2 ergäbe 5 – alles falsch.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-varianten-11",
+      "lernzielId": "lz-varianten",
+      "typ": "wahrfalsch",
+      "frage": "Fügt man einer Bitfolge ein weiteres Bit hinzu, **verdoppelt** sich die Anzahl möglicher Kombinationen.",
+      "richtig": true,
+      "erklaerung": "Das neue Bit kann 0 oder 1 sein, und zu beiden Werten passen alle bisherigen Kombinationen. Darum: 2 → 4 → 8 → 16 … (z. B. 2^3 = 8, 2^4 = 16).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-varianten-12",
+      "lernzielId": "lz-varianten",
+      "typ": "wahrfalsch",
+      "frage": "Mit 4 Bits lassen sich **doppelt** so viele Zustände darstellen wie mit 2 Bits.",
+      "richtig": false,
+      "erklaerung": "2 Bits ergeben 2^2 = 4, 4 Bits ergeben 2^4 = 16 Zustände – das ist **viermal** so viel. Jedes zusätzliche Bit verdoppelt; zwei zusätzliche Bits vervierfachen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-varianten-13",
+      "lernzielId": "lz-varianten",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Situationen lassen sich mit **einem einzigen Bit** vollständig darstellen? Wähle alle richtigen.",
+      "optionen": [
+        "Ein Tor: offen oder geschlossen",
+        "Eine Verkehrsampel: rot, gelb oder grün",
+        "Eine Münze: Kopf oder Zahl",
+        "Ein Würfel: Augenzahl 1 bis 6"
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Ein Bit unterscheidet genau **zwei** Zustände (0 oder 1) – wie Tor offen/zu oder Münze Kopf/Zahl (Beispiele aus dem Skript). Die Ampel hat 3 Zustände (braucht 2 Bit), der Würfel 6 (braucht 3 Bit).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-varianten-14",
+      "lernzielId": "lz-varianten",
+      "typ": "reihenfolge",
+      "frage": "Ordne nach der Anzahl möglicher Varianten – von **wenig** nach **viel**.",
+      "elemente": [
+        "2 Bits",
+        "3 Bits",
+        "5 Bits",
+        "1 Byte",
+        "10 Bits"
+      ],
+      "erklaerung": "2 Bits = 4, 3 Bits = 8, 5 Bits = 32, 1 Byte = 8 Bits = 256, 10 Bits = 1024 Varianten. Achtung beim Byte: Es zählt 8 Bits, nicht 1.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-varianten-15",
+      "lernzielId": "lz-varianten",
+      "typ": "einfachwahl",
+      "frage": "Im Skript wird die Ampel so codiert: rot = `00`, gelb = `11`, grün = `10`. Welche Farbfolge bedeutet `10 11 00`?",
+      "optionen": [
+        "gelb – grün – rot",
+        "rot – gelb – grün",
+        "grün – gelb – rot",
+        "grün – rot – gelb"
+      ],
+      "richtig": 2,
+      "erklaerung": "`10` = grün, `11` = gelb, `00` = rot – also **grün – gelb – rot**. Die Bitfolge wird in Zweiergruppen gelesen, weil jede Farbe genau 2 Bits braucht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-varianten-16",
+      "lernzielId": "lz-varianten",
+      "typ": "zuordnen",
+      "frage": "Wie viele Bits braucht man **mindestens**? Ordne jeder Situation die passende Anzahl Bits zu.",
+      "paare": [
+        {
+          "links": "Monate eines Jahres (12)",
+          "rechts": "4 Bit"
+        },
+        {
+          "links": "Wochentage (7)",
+          "rechts": "3 Bit"
+        },
+        {
+          "links": "Lichtschalter (ein/aus)",
+          "rechts": "1 Bit"
+        },
+        {
+          "links": "Genau 33 Zustände",
+          "rechts": "6 Bit"
+        },
+        {
+          "links": "Würfelergebnis (1 bis 6)",
+          "rechts": "3 Bit"
+        },
+        {
+          "links": "Jahreszeiten (4)",
+          "rechts": "2 Bit"
+        },
+        {
+          "links": "Genau 32 Zustände",
+          "rechts": "5 Bit"
+        },
+        {
+          "links": "Minuten einer Stunde (0 bis 59)",
+          "rechts": "6 Bit"
+        },
+        {
+          "links": "Tage eines Monats (1 bis 31)",
+          "rechts": "5 Bit"
+        }
+      ],
+      "erklaerung": "Jeweils das kleinste n mit 2ⁿ ≥ Anzahl Zustände: 2 → 1 Bit; 4 → 2 Bit (passt genau); 6 und 7 → 3 Bit (8); 12 → 4 Bit (16); 31 und 32 → 5 Bit (32, bei 32 passt es genau); 33 und 60 → 6 Bit (64). Achtung bei 33: Schon ein Zustand mehr als 32 braucht ein ganzes zusätzliches Bit.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-varianten-17",
+      "lernzielId": "lz-varianten",
+      "typ": "offen",
+      "frage": "Eine Verkehrsampel kann rot, gelb oder grün leuchten. Erkläre, wie viele Bits man **mindestens** braucht, um die drei Farben darzustellen, und begründe deine Antwort.",
+      "musterloesung": "Die Ampel hat **3 Zustände** (rot, gelb, grün). Mit **1 Bit** gibt es nur 2^1 = **2** Varianten (0 und 1) – das reicht nicht. Mit **2 Bits** gibt es 2^2 = **4** Varianten (`00`, `01`, `10`, `11`) – das reicht, eine Kombination bleibt sogar frei. Jede Farbe bekommt eine eigene Bitfolge, z. B. rot = `00`, gelb = `11`, grün = `10`.",
+      "stichworte": [
+        "3 Zustände",
+        "1 Bit = 2 Varianten",
+        "2 Bit = 4 Varianten",
+        "jede Farbe eigene Bitfolge"
+      ],
+      "erklaerung": "Die Begründung braucht beide Seiten: warum 1 Bit **nicht** reicht und warum 2 Bits **reichen**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-varianten-18",
+      "lernzielId": "lz-varianten",
+      "typ": "offen",
+      "frage": "Erkläre die Formel «Anzahl Varianten = 2 hoch Anzahl Positionen» und zeige an **3 Bits**, dass sie stimmt.",
+      "musterloesung": "Jede Position (jedes Bit) kann **2** Werte haben: 0 oder 1. Bei mehreren Positionen multipliziert man die Möglichkeiten: 2 · 2 · 2 … – also 2 hoch Anzahl Positionen. Bei 3 Bits: 2^3 = 2 · 2 · 2 = **8**. Alle Kombinationen: `000`, `001`, `010`, `011`, `100`, `101`, `110`, `111` – genau 8.",
+      "stichworte": [
+        "jedes Bit 2 Werte (0/1)",
+        "multiplizieren",
+        "2³ = 8",
+        "alle 8 Kombinationen aufgelistet"
+      ],
+      "erklaerung": "Tipp zum vollständigen Auflisten: Schreib die Kombinationen geordnet auf (wie Zählen im Zweiersystem), dann vergisst du keine und hast keine doppelt.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-varianten-19",
+      "lernzielId": "lz-varianten",
+      "typ": "offen",
+      "frage": "Die 26 Grossbuchstaben A–Z sollen als Bitfolgen gespeichert werden. Bestimme, wie viele Bits mindestens nötig sind, und begründe, warum **eins weniger nicht reicht**.",
+      "musterloesung": "Es gibt **26** Zustände. Mit **4 Bits** gibt es nur 2^4 = **16** Varianten – zu wenig für 26 Buchstaben. Mit **5 Bits** gibt es 2^5 = **32** Varianten – das reicht (6 Kombinationen bleiben frei). Also braucht man mindestens **5 Bit**.",
+      "stichworte": [
+        "26 Zustände",
+        "2⁴ = 16 zu wenig",
+        "2⁵ = 32 reicht",
+        "5 Bit"
+      ],
+      "erklaerung": "Bei «mindestens»-Fragen immer beide Nachbarn prüfen: Die gewählte Anzahl Bits muss reichen, eine weniger darf nicht reichen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-varianten-20",
+      "lernzielId": "lz-varianten",
+      "typ": "einfachwahl",
+      "frage": "Bei der Ampel im Skript gilt rot = `00`, gelb = `11`, grün = `10`. Was gilt für die Bitfolge `01`?",
+      "optionen": [
+        "Sie bedeutet dasselbe wie «10», nur rückwärts gelesen",
+        "Sie bleibt ungenutzt, weil die Ampel nur drei Zustände hat",
+        "Sie zeigt, dass 2 Bits nicht reichen und man eigentlich 3 Bits braucht",
+        "Sie muss trotzdem einer Farbe zugeordnet werden, sonst ist die Codierung ungültig"
+      ],
+      "richtig": 1,
+      "erklaerung": "2 Bits ergeben 4 Kombinationen, die Ampel braucht aber nur 3. Eine Kombination – hier `01` – bleibt **ungenutzt**; das ist erlaubt, wichtig ist nur, dass jede Farbe eine **eigene** Bitfolge hat. 3 Bits wären unnötig, weil 2 Bits schon reichen. Und `01` ist eine andere Bitfolge als `10` – eine Bedeutung bekommt eine Bitfolge nur, wenn man sie festlegt.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-varianten-21",
+      "lernzielId": "lz-varianten",
+      "typ": "offen",
+      "frage": "Lege für die **4 Jahreszeiten** eine Codierung mit möglichst wenigen Bits fest. Schreibe dann die Folge **Sommer – Winter – Frühling** als Bitfolge.",
+      "musterloesung": "Es gibt **4** Zustände. 1 Bit (2 Varianten) reicht nicht, **2 Bits** ergeben 2^2 = 4 Varianten – das passt genau. Beispiel: Frühling = `00`, Sommer = `01`, Herbst = `10`, Winter = `11`. Dann ist Sommer – Winter – Frühling = `01 11 00`. Jede andere Zuordnung ist ebenso richtig, solange jede Jahreszeit eine **eigene** Bitfolge hat und die Bitfolge dazu passt.",
+      "stichworte": [
+        "4 Zustände",
+        "2 Bit reichen (2² = 4)",
+        "jede Jahreszeit eigene Bitfolge",
+        "Bitfolge passt zur eigenen Codierung"
+      ],
+      "erklaerung": "Wie bei der Ampel im Skript ist die Zuordnung frei wählbar. Prüfe deine Lösung: Kommt jede Bitfolge nur einmal vor, und lässt sich deine Folge in Zweiergruppen eindeutig zurückübersetzen?",
+      "schwierigkeit": 2
+    }
+  ]
+}

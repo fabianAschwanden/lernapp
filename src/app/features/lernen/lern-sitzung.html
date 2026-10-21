@@ -1,0 +1,129 @@
+@let l = lektion();
+
+<div class="seite stapel">
+  @if (!l) {
+    @if (geladen()) {
+      <div class="hinweis fehler" role="alert">
+        <p><strong>Diese Lektion gibt es nicht (mehr).</strong></p>
+        <p class="klein">Vielleicht wurde sie gelöscht oder der Link ist veraltet.</p>
+      </div>
+      <a routerLink="/" class="knopf primaer">Zur Startseite</a>
+    } @else {
+      <p class="leise" aria-live="polite">Lektion wird geladen …</p>
+    }
+  } @else {
+    <header class="stapel kopf">
+      <a [routerLink]="['/lektion', l.id]" class="knopf text zurueck"><span aria-hidden="true">←</span><span class="ellipse">{{ l.titel }}</span></a>
+      <h1>{{ titel() }}</h1>
+      @if (lernziel(); as lzKopf) {
+        <p class="leise klein lz-voll">{{ lzKopf.text }}</p>
+      }
+    </header>
+
+    @if (gestartet() && !schritte().length) {
+      <!-- Leere Auswahl -->
+      <div class="karte stapel">
+        @if (modusNorm() === 'fehler') {
+          <p><strong>Super, gerade gibt es keine Fehler zu wiederholen.</strong></p>
+          <p class="leise klein">Alle Fragen, die du zuletzt beantwortet hast, sassen. Übe weiter, um neue Fragen kennenzulernen.</p>
+          <div class="zeile">
+            <a [routerLink]="['/lektion', l.id, 'lernen']" [queryParams]="lz() ? { lz: lz() } : {}" class="knopf primaer">Normal lernen</a>
+            <a [routerLink]="['/lektion', l.id]" class="knopf">Zur Lektion</a>
+          </div>
+        } @else {
+          <p><strong>Zu {{ lernziel() ? 'diesem Lernziel' : 'dieser Lektion' }} gibt es noch keine Fragen.</strong></p>
+          <p class="leise klein">Ergänze Fragen im Editor oder lass sie von der KI erstellen.</p>
+          <div class="zeile">
+            <a [routerLink]="['/lektion', l.id, 'bearbeiten']" class="knopf">Lektion bearbeiten</a>
+            <a [routerLink]="['/lektion', l.id]" class="knopf primaer">Zur Lektion</a>
+          </div>
+        }
+      </div>
+    } @else if (fertig()) {
+      <!-- Zusammenfassung -->
+      @let s = zusammenfassung();
+      <section class="karte stapel" aria-labelledby="ende-titel">
+        <h2 #fortschrittKopf tabindex="-1" id="ende-titel">Runde geschafft!</h2>
+        <div class="zahlen">
+          <div class="zahl gut"><strong>{{ s.richtig }}</strong><span>richtig</span></div>
+          <div class="zahl mittel"><strong>{{ s.teilweise }}</strong><span>teilweise</span></div>
+          <div class="zahl schlecht"><strong>{{ s.falsch }}</strong><span>falsch</span></div>
+        </div>
+        <div class="balken" role="img" [attr.aria-label]="s.richtig + ' von ' + s.gesamt + ' auf Anhieb richtig'">
+          <span [style.width.%]="s.gesamt ? (s.richtig / s.gesamt) * 100 : 0"></span>
+        </div>
+        @if (s.wiederholt) {
+          <p class="leise klein">In der Wiederholung: {{ s.wiederholtRichtig }} von {{ s.wiederholt }} richtig.</p>
+        }
+      </section>
+
+      @if (betroffeneLernziele().length) {
+        <h2 class="ueberschrift-klein">Dein Stand bei den Lernzielen</h2>
+        <ul class="lz-liste stapel">
+          @for (st of betroffeneLernziele(); track st.lernziel.id) {
+            <li class="karte flach stapel">
+              <div class="zeile zwischen">
+                <span class="klein lz-text">{{ st.lernziel.text }}</span>
+                <span class="chip" [class]="standChip[st.stufe]">{{ standLabel[st.stufe] }}</span>
+              </div>
+              <div class="balken" role="img" [attr.aria-label]="'Stand ' + prozent(st.anteil) + ' Prozent'">
+                <span [style.width.%]="prozent(st.anteil)"></span>
+              </div>
+            </li>
+          }
+        </ul>
+      }
+
+      <div class="zeile knoepfe">
+        <button type="button" class="knopf primaer" (click)="naechsteRunde()">Nächste Runde</button>
+        @if (hatFehler()) {
+          <button type="button" class="knopf" (click)="fehlerWiederholen()">Fehler wiederholen</button>
+        }
+        <a [routerLink]="['/lektion', l.id]" class="knopf">Zur Lektion</a>
+      </div>
+    } @else if (aktuell(); as schritt) {
+      <!-- Laufende Runde -->
+      <div class="stapel fortschritt">
+        <div class="zeile zwischen">
+          <p #fortschrittKopf tabindex="-1" class="klein leise position">{{ positionText() }}</p>
+          @if (schritt.wiederholung) {
+            <span class="chip mittel">Wiederholung</span>
+          }
+        </div>
+        <div
+          class="balken"
+          role="progressbar"
+          aria-label="Fortschritt der Runde"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          [attr.aria-valuenow]="prozent(anteil())"
+        >
+          <span [style.width.%]="prozent(anteil())"></span>
+        </div>
+      </div>
+
+      @for (s of [schritt]; track s.nr) {
+        <article class="karte">
+          <app-frage-karte [frage]="s.frage" modus="ueben" [ergebnis]="ergebnis()" (beantwortet)="beantwortet($event)" />
+        </article>
+      }
+
+      @if (ergebnis()) {
+        <div class="zeile zwischen">
+          @if (aktuellesLernziel(); as lz) {
+            <a [routerLink]="['/lektion', l.id, 'lernzettel']" [queryParams]="{ lz: lz.id }" class="knopf text">
+              Im Lernzettel nachlesen
+            </a>
+          } @else {
+            <span></span>
+          }
+          <button #weiterKnopf type="button" class="knopf primaer weiter" (click)="weiter()">Weiter →</button>
+        </div>
+      }
+
+      @if (aktuellesLernziel(); as lz) {
+        <p class="sehr-klein leise">Lernziel: {{ lz.text }}</p>
+      }
+    }
+  }
+</div>

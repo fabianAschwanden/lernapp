@@ -1,0 +1,264 @@
+@let f = frage();
+@let z = zustand();
+@let e = ergebnis();
+
+<form class="frage-karte stapel" (submit)="absenden($event)" [attr.aria-labelledby]="uid + '-text'">
+  <div class="zeile chips">
+    <span class="chip primaer">{{ typLabel[f.typ] }}</span>
+    <span class="chip" [attr.aria-label]="'Schwierigkeit: ' + schwierigkeitLabel[f.schwierigkeit]">
+      <span aria-hidden="true">{{ '●'.repeat(f.schwierigkeit) }}{{ '○'.repeat(3 - f.schwierigkeit) }}</span>
+      {{ schwierigkeitLabel[f.schwierigkeit] }}
+    </span>
+  </div>
+
+  <div class="md fragetext" [id]="uid + '-text'" [innerHTML]="f.frage | md"></div>
+
+  @if (f.bild) {
+    <figure class="abbildung">
+      <img [src]="f.bild.src" [alt]="f.bild.alt" loading="lazy" />
+      @if (f.bild.legende) {
+        <figcaption>{{ f.bild.legende }}</figcaption>
+      }
+    </figure>
+  }
+
+  @if (f.tipp && ueben() && !e) {
+    <div>
+      <button type="button" class="knopf text tipp" [attr.aria-expanded]="z.tipp" [attr.aria-controls]="uid + '-tipp'" (click)="zeigeTipp()">
+        {{ z.tipp ? 'Tipp ausblenden' : 'Tipp anzeigen' }}
+      </button>
+      @if (z.tipp) {
+        <div class="hinweis md" [id]="uid + '-tipp'" [innerHTML]="f.tipp | md"></div>
+      }
+    </div>
+  }
+
+  <!-- Einfach- und Mehrfachwahl -->
+  @if (f.typ === 'einfachwahl' || f.typ === 'mehrfachwahl') {
+    @if (f.typ === 'mehrfachwahl') {
+      <p class="leise klein hinweis-mehr">Mehrere Antworten möglich</p>
+    }
+    <div class="stapel optionen" role="group" [attr.aria-labelledby]="uid + '-text'">
+      @for (o of optionen(); track o.index) {
+        <button
+          type="button"
+          class="option"
+          [class]="o.klasse"
+          [attr.aria-pressed]="o.gewaehlt"
+          [disabled]="gesperrt()"
+          (click)="waehleOption(o.index)"
+        >
+          <span class="marke" aria-hidden="true">{{ o.marke }}</span>
+          <span class="option-text">{{ o.text }}</span>
+          @if (o.zusatz) {
+            <span class="zusatz" aria-hidden="true">{{ o.zusatz }}</span>
+          }
+          @if (o.sr) {
+            <span class="nur-screenreader">{{ o.sr }}</span>
+          }
+        </button>
+      }
+    </div>
+  }
+
+  <!-- Wahr / falsch -->
+  @if (f.typ === 'wahrfalsch') {
+    <div class="wahrfalsch" role="group" [attr.aria-labelledby]="uid + '-text'">
+      @for (o of wahrFalsch(); track o.wert) {
+        <button
+          type="button"
+          class="option gross"
+          [class]="o.klasse"
+          [attr.aria-pressed]="o.gewaehlt"
+          [disabled]="gesperrt()"
+          (click)="waehleWahrFalsch(o.wert)"
+        >
+          <span aria-hidden="true">{{ o.wert ? '✓' : '✗' }}</span> {{ o.text }}
+          @if (o.sr) {
+            <span class="nur-screenreader">{{ o.sr }}</span>
+          }
+        </button>
+      }
+    </div>
+  }
+
+  <!-- Zuordnen -->
+  @if (f.typ === 'zuordnen') {
+    <div class="stapel zuordnen">
+      @for (p of f.paare; track $index; let i = $index) {
+        @let gewaehlt = z.zuordnung[i] ?? '';
+        <div class="feld zuordnung" [class.ok]="e && gewaehlt === p.rechts" [class.nok]="e && gewaehlt !== p.rechts">
+          <label [for]="uid + '-z' + i">{{ p.links }}</label>
+          <select class="eingabe" [id]="uid + '-z' + i" [disabled]="gesperrt()" (change)="ordneZu(i, $any($event.target).value)">
+            <option value="" [selected]="!gewaehlt">– bitte wählen –</option>
+            @for (w of rechtsWerte(); track w) {
+              <option [value]="w" [selected]="w === gewaehlt">{{ w }}</option>
+            }
+          </select>
+          @if (e) {
+            <span class="klein" [class.text-gut]="gewaehlt === p.rechts" [class.text-schlecht]="gewaehlt !== p.rechts">
+              @if (gewaehlt === p.rechts) {
+                ✓ richtig
+              } @else {
+                ✗ richtig wäre: <strong>{{ p.rechts }}</strong>
+              }
+            </span>
+          }
+        </div>
+      }
+    </div>
+  }
+
+  <!-- Reihenfolge -->
+  @if (f.typ === 'reihenfolge') {
+    <p class="leise klein">Bringe die Elemente mit den Pfeilen in die richtige Reihenfolge.</p>
+    <ol class="reihenfolge">
+      @for (el of z.reihenfolge; track el; let i = $index, erstes = $first, letztes = $last) {
+        <li class="option" [class.richtig]="e && f.elemente[i] === el" [class.falsch]="e && f.elemente[i] !== el">
+          <span class="marke" aria-hidden="true">{{ i + 1 }}</span>
+          <span class="option-text">{{ el }}</span>
+          @if (!gesperrt()) {
+            <span class="pfeile">
+              <button type="button" class="knopf klein" [disabled]="erstes" [attr.aria-label]="'«' + el + '» nach oben verschieben'" (click)="verschiebe(i, -1)">↑</button>
+              <button type="button" class="knopf klein" [disabled]="letztes" [attr.aria-label]="'«' + el + '» nach unten verschieben'" (click)="verschiebe(i, 1)">↓</button>
+            </span>
+          } @else if (e && f.elemente[i] !== el) {
+            <span class="nur-screenreader">(falsche Position)</span>
+          }
+        </li>
+      }
+    </ol>
+    <p class="nur-screenreader" aria-live="polite">{{ ansage() }}</p>
+  }
+
+  <!-- Zahl -->
+  @if (f.typ === 'zahl') {
+    <div class="feld">
+      <label [for]="uid + '-zahl'">Deine Antwort</label>
+      <div class="zeile zahl">
+        <input
+          class="eingabe"
+          [id]="uid + '-zahl'"
+          type="text"
+          inputmode="decimal"
+          autocomplete="off"
+          [value]="z.eingabe"
+          [disabled]="gesperrt()"
+          (input)="tippe($any($event.target).value)"
+        />
+        @if (f.einheit) {
+          <span class="einheit">{{ f.einheit }}</span>
+        }
+      </div>
+    </div>
+  }
+
+  <!-- Kurzantwort -->
+  @if (f.typ === 'kurzantwort') {
+    <div class="feld">
+      <label [for]="uid + '-kurz'">Deine Antwort</label>
+      <input
+        class="eingabe"
+        [id]="uid + '-kurz'"
+        type="text"
+        autocomplete="off"
+        autocapitalize="off"
+        spellcheck="false"
+        [value]="z.eingabe"
+        [disabled]="gesperrt()"
+        (input)="tippe($any($event.target).value)"
+      />
+    </div>
+  }
+
+  <!-- Offene Frage -->
+  @if (f.typ === 'offen') {
+    @if (gesperrt()) {
+      <div class="stapel">
+        <span class="ueberschrift-klein">Deine Antwort</span>
+        @if (z.eingabe.trim()) {
+          <p class="eigener-text">{{ z.eingabe }}</p>
+        } @else {
+          <p class="leise klein">Keine schriftliche Antwort.</p>
+        }
+      </div>
+    } @else {
+      <div class="feld">
+        <label [for]="uid + '-offen'">Deine Antwort{{ ueben() ? ' (optional)' : '' }}</label>
+        <textarea class="eingabe" [id]="uid + '-offen'" [value]="z.eingabe" (input)="tippe($any($event.target).value)"></textarea>
+      </div>
+    }
+
+    @if (ueben() && !z.loesung && !e) {
+      <button type="button" class="knopf primaer" (click)="zeigeLoesung()">Lösung zeigen</button>
+    }
+
+    @if (z.loesung || selbstkorrektur() || e) {
+      <div class="karte flach loesung stapel">
+        <span class="ueberschrift-klein">Musterlösung</span>
+        <div class="md" [innerHTML]="f.musterloesung | md"></div>
+        @if (f.stichworte?.length) {
+          <div class="zeile" aria-label="Stichworte">
+            @for (s of f.stichworte; track s) {
+              <span class="chip">{{ s }}</span>
+            }
+          </div>
+        }
+      </div>
+      @if (!e) {
+        <div class="stapel">
+          <p class="klein"><strong>Wie gut hast du es gewusst?</strong></p>
+          <div class="selbst" role="group" aria-label="Selbsteinschätzung">
+            <button type="button" class="knopf" [class.primaer]="z.selbst === 'richtig'" [attr.aria-pressed]="z.selbst === 'richtig'" (click)="bewerteSelbst('richtig')">Gewusst</button>
+            <button type="button" class="knopf" [class.primaer]="z.selbst === 'teilweise'" [attr.aria-pressed]="z.selbst === 'teilweise'" (click)="bewerteSelbst('teilweise')">Teilweise</button>
+            <button type="button" class="knopf" [class.primaer]="z.selbst === 'falsch'" [attr.aria-pressed]="z.selbst === 'falsch'" (click)="bewerteSelbst('falsch')">Nicht gewusst</button>
+          </div>
+        </div>
+      }
+    }
+  }
+
+  @if (ueben() && !e && f.typ !== 'offen') {
+    <button
+      type="submit"
+      class="knopf primaer breit"
+      [disabled]="!vollstaendig()"
+      [attr.aria-describedby]="offeneZuordnungen() ? uid + '-offen-hinweis' : null"
+    >
+      Prüfen
+    </button>
+    @if (offeneZuordnungen(); as n) {
+      <p class="leise klein ohne-abstand" [id]="uid + '-offen-hinweis'">
+        Noch {{ n }} {{ n === 1 ? 'Feld' : 'Felder' }} offen.
+      </p>
+    }
+  }
+
+  <!-- Rückmeldung (Live-Region ist immer da, damit Screenreader die Änderung ansagen) -->
+  <div aria-live="polite">
+    @if (e) {
+      <div class="rueckmeldung stapel" [class]="e.bewertung">
+        <p class="kopf">
+          <span aria-hidden="true">{{ e.bewertung === 'richtig' ? '✓' : e.bewertung === 'teilweise' ? '◐' : '✗' }}</span>
+          {{ kopfText() }}
+        </p>
+        @if (e.bewertung !== 'richtig') {
+          <!-- Zuordnen zeigt die Lösung schon unter jedem Feld, offene Fragen in der Musterlösung -->
+          @if (f.typ === 'reihenfolge') {
+            <div class="klein">
+              <strong>Richtige Reihenfolge:</strong>
+              <ol class="loesung-liste">
+                @for (el of f.elemente; track el) {
+                  <li>{{ el }}</li>
+                }
+              </ol>
+            </div>
+          } @else if (f.typ !== 'zuordnen' && f.typ !== 'offen') {
+            <p class="klein"><strong>Richtige Lösung:</strong> {{ loesungAlsText(f) }}</p>
+          }
+        }
+        <div class="md klein" [innerHTML]="erklaerung() | md"></div>
+      </div>
+    }
+  </div>
+</form>

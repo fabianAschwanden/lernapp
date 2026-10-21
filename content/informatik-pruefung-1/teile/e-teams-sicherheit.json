@@ -1,0 +1,1203 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-pdf-bearbeiten",
+      "zusammenfassung": "**PDF** ist ein Dateiformat zum **Weitergeben, Anzeigen und Drucken**: Ein PDF sieht auf jedem Gerät gleich aus (Schrift, Bilder, Seitenaufteilung). Es ist ein **Endformat**: Zum Umschreiben ist es nicht gedacht. Mit den üblichen Gratis-Programmen änderst du den Originaltext nicht, sondern legst **Anmerkungen** darüber.\n\n### Was man mit einem PDF machen kann\nAnmerkungen, die über den Seiten liegen:\n- Text **markieren** (Textmarker) oder unterstreichen\n- **Zeichnen** bzw. von Hand schreiben (Maus, Finger, Stift)\n- **Text hinzufügen**, z. B. Antworten in ein Arbeitsblatt tippen\n- **Kommentare** (Notizzettel) anbringen\n- Formulare **ausfüllen und unterschreiben**\n\n### Womit?\n| Gerät / Programm | So geht es |\n| --- | --- |\n| **Microsoft Edge** (Windows) | PDF öffnen → Zeichnen, Markieren, Text hinzufügen → speichern |\n| **Adobe Acrobat Reader** (gratis) | «Ausfüllen & Unterschreiben», Kommentare, Markieren |\n| **iPad / iPhone** | PDF in «Dateien» öffnen → **Markierungen** (Stiftsymbol) |\n| **Mac** | App **Vorschau** → Markierungswerkzeuge |\n| **OneNote** | PDF als **Ausdruck** einfügen und mit Stift darauf schreiben |\n\n### Den Originaltext ändern?\nDas geht nur mit **speziellen Programmen**:\n- PDF **in Word öffnen**: Word wandelt es in ein bearbeitbares Dokument um – das **Layout kann sich dabei verschieben**. Danach wieder als PDF speichern.\n- **Adobe Acrobat Pro** (kostenpflichtig) oder Online-PDF-Editoren.\n\nFür ein Arbeitsblatt reichen Anmerkungen.\n\n### Vorgehen bei einem Arbeitsblatt\n1. PDF öffnen bzw. herunterladen (z. B. aus Teams)\n2. Mit einem PDF-Programm Anmerkungen machen\n3. **Speichern** – am besten mit **«Speichern unter»** als neue Datei, damit das **Original erhalten bleibt**\n4. Die Datei am **richtigen Ort ablegen bzw. abgeben** (z. B. Klassennotizbuch oder Teams-Aufgabe)\n\nTypischer Fehler: bearbeiten, aber nicht speichern – dann sind die Anmerkungen weg. Viele PDF-Programme am PC (z. B. Edge, Acrobat Reader) speichern **nicht automatisch**; die Vorschau am Mac und die Markierungen auf dem iPad («Fertig») speichern dagegen selbst.\n\n### Gut zu wissen\n- Ein eigenes Dokument wird zum PDF mit **«Speichern unter» → PDF** oder **«Drucken» → «Als PDF speichern»**.\n- Gespeicherte Anmerkungen sind **Teil der Datei** – wer das PDF öffnet, sieht sie auch.",
+      "merksaetze": [
+        "PDF ist ein Endformat zum Weitergeben und Drucken: Du legst Anmerkungen darüber. Den Originaltext ändern geht nur mit speziellen Programmen (z. B. PDF in Word öffnen, Acrobat Pro).",
+        "Markieren, Zeichnen, Kommentieren und Text hinzufügen geht z. B. mit Edge, Acrobat Reader, Vorschau am Mac, den Markierungen auf dem iPad oder als Ausdruck in OneNote.",
+        "Nach dem Bearbeiten immer speichern – mit «Speichern unter» bleibt das Original erhalten – und am richtigen Ort abgeben."
+      ]
+    },
+    {
+      "id": "lz-ablageorte",
+      "zusammenfassung": "Digitale Unterlagen findest du an **zwei typischen Orten** – beide in **MS Teams**.\n\n### 1. Teams → «Freigegeben»\nWeg: **Teams** → **Klassenteam** (z. B. «FMS1A Informatik») → **Kanal** (z. B. «Allgemein») → Registerkarte **«Freigegeben»** (in älteren Teams-Versionen hiess sie **«Dateien»**)\n- Hier liegen die **Dateien des Kanals**: Die Lehrperson stellt Skripte, PDFs, Arbeitsblätter und Präsentationen bereit, in Klassenteams oft im Ordner **«Kursmaterialien»**.\n- Du kannst sie **ansehen und herunterladen**.\n- **Achtung:** Für Lernende schreibgeschützt ist nur der Ordner «Kursmaterialien». Andere Dateien dort kannst du oft bearbeiten. Öffnest du ein Word- oder PowerPoint-Dokument direkt in Teams und tippst darin, änderst du durch das **automatische Speichern** die Datei **für alle**. Darum zuerst **herunterladen oder eine Kopie speichern** und die Kopie bearbeiten.\n- Sehen können die Dateien nur die **Mitglieder des Teams**, nicht alle im Internet.\n\n### 2. Klassennotizbuch (OneNote in Teams)\n- Registerkarte **«Klassennotizbuch»** im Kanal\n- Ein **digitales Heft** mit Inhaltsbibliothek, Collaboration Space und deinem persönlichen Abschnitt\n- Für **Notizen, Aufträge, Abgaben** und **Gruppenarbeiten**\n\n### Vergleich\n| | Teams: «Freigegeben» | Klassennotizbuch |\n| --- | --- | --- |\n| Was liegt dort? | **Dateien** (PDF, Word, PowerPoint …) | **Notizseiten** mit Text, Bildern, eingefügten Dateien |\n| Wofür? | Unterlagen ansehen und herunterladen | Notizen machen, Aufträge bearbeiten, zusammenarbeiten |\n| Programm | Datei öffnet sich in Word, PowerPoint oder der PDF-Anzeige | OneNote |\n\n### Gut zu wissen\nBeide Orte liegen **in der Cloud** (Microsoft 365): Du erreichst sie mit deinem Schulkonto von jedem Gerät aus, und alle sehen dieselbe aktuelle Version.\n\n*Die Bezeichnungen hängen von der Teams-Version und vom Klassenteam ab («Freigegeben» bzw. «Dateien», Ordnernamen).*",
+      "merksaetze": [
+        "Die zwei Ablageorte: Teams → Kanal → Registerkarte «Freigegeben» (früher «Dateien») und das Klassennotizbuch.",
+        "Unter «Freigegeben» stellt die Lehrperson Dateien zum Ansehen und Herunterladen bereit – bearbeite eine eigene Kopie, sonst änderst du die Datei für alle.",
+        "Das Klassennotizbuch ist dein digitales Heft in OneNote – direkt in Teams."
+      ]
+    },
+    {
+      "id": "lz-klassennotizbuch",
+      "zusammenfassung": "Das **Klassennotizbuch** ist ein **OneNote-Notizbuch**, das die Lehrperson für die Klasse in **MS Teams** anlegt (Registerkarte «Klassennotizbuch»). Aufbau: **Notizbuch → Abschnitte (Register) → Seiten**. OneNote **speichert automatisch** – es gibt keinen Speichern-Knopf.\n\n### Die Bereiche\n- **Inhaltsbibliothek:** Die ganze Klasse sieht sie, nur die Lehrperson bearbeitet sie – du kannst **lesen und kopieren**. Für Material, Skripte, Aufträge.\n- **Collaboration Space:** Die ganze Klasse sieht ihn, und **alle** bearbeiten. Für Gruppenarbeiten und gemeinsame Sammlungen.\n- **Persönlicher Abschnitt** (dein Schülernotizbuch, mit deinem Namen): **nur du und die Lehrperson** sehen ihn. Du bearbeitest, die Lehrperson kann Rückmeldungen schreiben. Für Notizen, Aufträge, Abgaben.\n- **Nur für Lehrpersonen** (falls vorhanden): Vorbereitung der Lehrpersonen – **für dich unsichtbar**.\n\n### Wichtig im Alltag\n- Eine Seite aus der **Inhaltsbibliothek** willst du ausfüllen? → Seite **in deinen persönlichen Abschnitt kopieren** und dort bearbeiten.\n- Im **Collaboration Space** sieht **die ganze Klasse alles**: nichts Privates hineinschreiben, Beiträge anderer nicht löschen.\n- Was nur die Lehrperson sehen soll (Abgaben, eigene Notizen), gehört in den **persönlichen Abschnitt**.\n- **Rückmeldungen** der Lehrperson zu deinen Aufträgen findest du ebenfalls im **persönlichen Abschnitt** – direkt auf deiner Seite.\n\n### Dateien in Notizen einbinden\n- **Einfügen → Datei → als Anlage**: Ein **Dateisymbol** erscheint auf der Seite; Doppelklick öffnet die Datei.\n- **Einfügen → Datei → als Ausdruck** (Dateiausdruck): Die Seiten eines PDFs oder Word-Dokuments erscheinen als **Bilder** auf der Seite – darauf kannst du mit dem Register **«Zeichnen»** schreiben und markieren.\n- **Einfügen → Datei → in die Cloud hochladen**: Die Datei wird in **OneDrive** gespeichert und als **Link mit Vorschau** eingebunden – praktisch für Word- oder PowerPoint-Dateien, die sich noch ändern.\n- **Einfügen → Bilder**: Fotos, z. B. von der Wandtafel oder einer Heftseite.\n- **Drag & Drop**: Datei auf die Seite ziehen – OneNote fragt, wie sie eingefügt werden soll.\n\nJe nach OneNote-Version heissen die Knöpfe etwas anders, z. B. direkt **«Dateianlage»** und **«Dateiausdruck»** im Register «Einfügen».\n\n*Die Bereichsnamen können je nach Version leicht abweichen.*",
+      "merksaetze": [
+        "Inhaltsbibliothek: Die Lehrperson stellt bereit – du kannst nur lesen und kopieren.",
+        "Collaboration Space: Alle können lesen und schreiben – alles ist für die ganze Klasse sichtbar.",
+        "Persönlicher Abschnitt: Nur du und die Lehrperson sehen ihn.",
+        "Dateien einbinden: Einfügen → Datei als Anlage (Symbol), als Ausdruck (zum Daraufschreiben) oder in die Cloud hochladen (Link mit Vorschau); OneNote speichert automatisch."
+      ]
+    },
+    {
+      "id": "lz-passwort",
+      "zusammenfassung": "Ein gutes Passwort ist **lang, gemischt, nicht erratbar, einzigartig und geheim**.\n\n### Die Regeln\n- **Lang**: mindestens **12 Zeichen** (gängige Empfehlung; manche Stellen raten zu 15 und mehr) – Länge ist der wichtigste Faktor. Noch besser: eine **Passphrase** aus mehreren Wörtern, z. B. `Kiwi-Turm-Nebel-Gabel-81`. Die Wörter **zufällig** wählen und **ohne Zusammenhang** aneinanderreihen – kein bekanntes Zitat, kein Liedtext, kein sinnvoller Satz (solche probieren Angreifer mit Wortlisten aus).\n- **Gemischt**: Gross- und Kleinbuchstaben, Ziffern und Sonderzeichen.\n- **Nicht erratbar**: **keine persönlichen Daten** (Name, Geburtstag, Haustier, Lieblingsclub), keine bekannten Wörter wie «Passwort» und keine Muster wie `123456` oder `qwertz`. Auch `P@ssw0rt` ist schwach: Solche Ersetzungen kennen Angreifer.\n- **Einzigartig**: für **jeden Dienst ein anderes Passwort**. Sonst sind nach einem Datenleck bei einem Dienst gleich alle Konten offen.\n- **Geheim**: **nie weitergeben** (auch nicht an Freunde), nicht auf einen Zettel am Bildschirm schreiben. Seriöse Dienste fragen **nie per E-Mail** nach deinem Passwort (Phishing!).\n- Wenn jemand dein Passwort kennen könnte: **sofort ändern**.\n\n### Hilfsmittel\n- **Passwort-Manager**: speichert alle Passwörter verschlüsselt und erzeugt zufällige, lange Passwörter. Du merkst dir nur **ein starkes Hauptpasswort**.\n- **Zwei-Faktor-Authentifizierung (2FA)**: Zusätzlich zum Passwort braucht es einen **zweiten Nachweis**, z. B. einen Code aus einer App oder per SMS. Ein gestohlenes Passwort allein reicht dann nicht.\n- **Satz-Methode**: Aus einem Satz die Anfangsbuchstaben nehmen: «Mein Bruder Tim spielt seit 2019 jeden Samstag Fussball!» → `MBTss2019jSF!`\n\n### Warum Länge so viel bringt\nJede zusätzliche Stelle **vervielfacht** die Anzahl Möglichkeiten (wie bei Bits: 2ⁿ). Bei Ziffern 0–9 gibt es pro Stelle 10 Möglichkeiten:\n| PIN-Länge | Möglichkeiten |\n| --- | --- |\n| 4 Ziffern | 10 · 10 · 10 · 10 = 10 000 |\n| 6 Ziffern | 1 000 000 |\nMit Buchstaben, Ziffern und Sonderzeichen gibt es pro Stelle sogar rund 90 Möglichkeiten.\n\nEin Buchstabe, der nach bekanntem Muster durch ein Sonderzeichen ersetzt wird (a→@, o→0), macht das Passwort dagegen **nicht länger** – und solche Ersetzungen probieren Angreifer automatisch aus.",
+      "merksaetze": [
+        "Lang schlägt kompliziert: mindestens 12 Zeichen, am besten eine Passphrase aus mehreren zufälligen Wörtern ohne Zusammenhang.",
+        "Keine persönlichen Daten, keine bekannten Wörter und keine Muster wie «123456».",
+        "Für jeden Dienst ein eigenes Passwort – ein Passwort-Manager hilft dabei.",
+        "Passwort nie weitergeben und wo möglich die Zwei-Faktor-Authentifizierung einschalten."
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-pdf-bearbeiten-01",
+      "lernzielId": "lz-pdf-bearbeiten",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Wofür ist das Dateiformat **PDF** vor allem gedacht?",
+      "optionen": [
+        "Zum Weitergeben und Drucken",
+        "Zum gleichzeitigen Schreiben eines Textes durch mehrere Personen",
+        "Zum Rechnen mit Formeln in Tabellen",
+        "Zum Abspielen von Videos und Musik"
+      ],
+      "richtig": 0,
+      "erklaerung": "Ein PDF sieht auf jedem Gerät gleich aus (Schrift, Bilder, Seitenaufteilung) – ideal zum Weitergeben und Drucken. Gemeinsames Schreiben geht z. B. in Word Online oder OneNote, Formeln in Excel."
+    },
+    {
+      "id": "f-pdf-bearbeiten-02",
+      "lernzielId": "lz-pdf-bearbeiten",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 1,
+      "frage": "Ein PDF kann man mit jedem PDF-Programm genauso frei umschreiben wie ein Word-Dokument.",
+      "richtig": false,
+      "erklaerung": "Mit Anzeigeprogrammen wie Edge oder Acrobat Reader fügst du nur **Anmerkungen** hinzu (markieren, zeichnen, Text hinzufügen), den Originaltext änderst du nicht. Dafür braucht es spezielle Programme (z. B. PDF in Word öffnen oder Acrobat Pro) – und das Layout kann sich dabei verschieben."
+    },
+    {
+      "id": "f-pdf-bearbeiten-03",
+      "lernzielId": "lz-pdf-bearbeiten",
+      "typ": "mehrfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Welche Anmerkungen kannst du z. B. in **Microsoft Edge** in einem PDF machen?",
+      "optionen": [
+        "Textstellen markieren",
+        "Einen Satz im Originaltext direkt umformulieren",
+        "Mit Maus, Finger oder Stift zeichnen",
+        "Das PDF in eine Excel-Tabelle umwandeln"
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Markieren und Zeichnen (wie auch Text hinzufügen) sind Anmerkungen, die über das PDF gelegt werden. Den Originaltext umformulieren oder das PDF in eine Tabelle umwandeln kann ein PDF-Anzeigeprogramm wie Edge nicht."
+    },
+    {
+      "id": "f-pdf-bearbeiten-04",
+      "lernzielId": "lz-pdf-bearbeiten",
+      "typ": "reihenfolge",
+      "schwierigkeit": 2,
+      "frage": "Du erhältst ein Arbeitsblatt als PDF in Teams und sollst es ausgefüllt abgeben. Bringe die Schritte in die richtige Reihenfolge.",
+      "elemente": [
+        "PDF in Teams öffnen bzw. herunterladen",
+        "PDF in einem PDF-Programm (z. B. Edge) öffnen",
+        "Antworten als Text oder Zeichnung hinzufügen",
+        "Datei mit «Speichern unter» als neue Datei speichern",
+        "Datei am richtigen Ort abgeben"
+      ],
+      "erklaerung": "Erst holst du dir die Datei, dann bearbeitest du sie mit einem PDF-Programm. Wichtig ist das Speichern vor dem Abgeben – sonst gibst du ein leeres Arbeitsblatt ab."
+    },
+    {
+      "id": "f-pdf-bearbeiten-05",
+      "lernzielId": "lz-pdf-bearbeiten",
+      "typ": "einfachwahl",
+      "schwierigkeit": 3,
+      "frage": "Du hast im Browser Antworten in ein PDF geschrieben und schliesst das Fenster mit «Nicht speichern». Was passiert?",
+      "optionen": [
+        "Die Antworten sind automatisch in Teams abgegeben.",
+        "Die Lehrperson sieht die Antworten trotzdem im Klassennotizbuch.",
+        "Die Antworten sind weg, die Datei ist wie vorher.",
+        "Das PDF wird automatisch in ein Word-Dokument umgewandelt."
+      ],
+      "richtig": 2,
+      "erklaerung": "Anmerkungen in einem PDF bleiben nur erhalten, wenn du die Datei speicherst. Viele PDF-Programme am PC, z. B. Edge oder Acrobat Reader, speichern nicht automatisch – anders als OneNote."
+    },
+    {
+      "id": "f-pdf-bearbeiten-06",
+      "lernzielId": "lz-pdf-bearbeiten",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Warum ist beim Bearbeiten eines PDFs oft **«Speichern unter»** besser als «Speichern»?",
+      "optionen": [
+        "Weil «Speichern» bei PDFs nie funktioniert",
+        "Damit die Datei automatisch kleiner wird",
+        "Damit das PDF zu einem Word-Dokument wird",
+        "Damit das Original erhalten bleibt"
+      ],
+      "richtig": 3,
+      "erklaerung": "Mit «Speichern unter» entsteht eine neue Datei mit deinen Anmerkungen; das unbearbeitete Original bleibt erhalten – praktisch, wenn du nochmals neu beginnen willst. «Speichern» funktioniert auch, überschreibt aber die Datei."
+    },
+    {
+      "id": "f-pdf-bearbeiten-07",
+      "lernzielId": "lz-pdf-bearbeiten",
+      "typ": "zuordnen",
+      "schwierigkeit": 2,
+      "frage": "Ordne jedem Programm bzw. Gerät zu, wie du dort ein PDF beschriftest.",
+      "paare": [
+        {
+          "links": "Microsoft Edge",
+          "rechts": "«Zeichnen» / «Text hinzufügen»"
+        },
+        {
+          "links": "Adobe Acrobat Reader",
+          "rechts": "«Ausfüllen & Unterschreiben»"
+        },
+        {
+          "links": "iPad (App «Dateien»)",
+          "rechts": "«Markierungen» mit dem Stift"
+        },
+        {
+          "links": "OneNote",
+          "rechts": "Seiten als Bilder einfügen"
+        }
+      ],
+      "erklaerung": "Edge: PDF öffnen, dann «Zeichnen» oder «Text hinzufügen». Acrobat Reader: «Ausfüllen & Unterschreiben». iPad: «Markierungen» mit Stift oder Finger. OneNote: das PDF als Ausdruck einfügen – die Seiten erscheinen als Bilder, auf die du schreibst. Alle vier Wege fügen Anmerkungen hinzu, ohne den Originalinhalt zu verändern. Welches Programm du nimmst, hängt vom Gerät ab."
+    },
+    {
+      "id": "f-pdf-bearbeiten-08",
+      "lernzielId": "lz-pdf-bearbeiten",
+      "typ": "kurzantwort",
+      "schwierigkeit": 2,
+      "frage": "Du fügst ein PDF in OneNote so ein, dass die Seiten als Bilder erscheinen und du direkt darauf schreiben kannst. Wie heisst diese Art des Einfügens? (als …)",
+      "akzeptiert": [
+        "Ausdruck",
+        "als Ausdruck",
+        "Dateiausdruck",
+        "als Dateiausdruck",
+        "Datei-Ausdruck",
+        "Ausdruck einfügen",
+        "als Ausdruck einfügen",
+        "Dateiausdruck einfügen",
+        "PDF-Ausdruck",
+        "Ausdrucke",
+        "Printout",
+        "File Printout",
+        "as Printout"
+      ],
+      "erklaerung": "Beim **Ausdruck** «druckt» OneNote die Seiten als Bilder auf die Notizseite. Bei der Dateianlage erscheint nur ein Dateisymbol, auf das du nicht schreiben kannst."
+    },
+    {
+      "id": "f-pdf-bearbeiten-09",
+      "lernzielId": "lz-pdf-bearbeiten",
+      "typ": "offen",
+      "schwierigkeit": 2,
+      "frage": "Erkläre, wofür das PDF-Format gedacht ist und warum du ein PDF-Arbeitsblatt nicht wie ein Word-Dokument bearbeitest. Nenne **zwei** Möglichkeiten, wie du trotzdem Antworten hineinschreiben kannst.",
+      "musterloesung": "PDF ist ein Endformat zum Weitergeben und Drucken: Es sieht auf jedem Gerät gleich aus. Den Originaltext ändern geht nur mit speziellen Programmen (z. B. PDF in Word öffnen, Acrobat Pro), und das Layout kann sich dabei verschieben. Mit Gratis-Anzeigeprogrammen legt man Anmerkungen darüber, z. B.\n- in Microsoft Edge mit «Text hinzufügen» oder «Zeichnen» und danach speichern\n- in Adobe Acrobat Reader mit «Ausfüllen & Unterschreiben»\n- auf dem iPad mit «Markierungen» oder am Mac in der Vorschau\n- das PDF als Ausdruck in OneNote einfügen und darauf schreiben",
+      "stichworte": [
+        "Weitergeben/Drucken",
+        "Endformat",
+        "Textänderung nur mit Spezialprogramm",
+        "Anmerkungen",
+        "Edge",
+        "Acrobat Reader",
+        "OneNote-Ausdruck",
+        "speichern"
+      ],
+      "erklaerung": "Für die volle Punktzahl braucht es den Zweck (Endformat zum Weitergeben und Drucken), den Hinweis auf Anmerkungen statt Umschreiben und zwei konkrete Wege mit Programmnamen."
+    },
+    {
+      "id": "f-pdf-bearbeiten-10",
+      "lernzielId": "lz-pdf-bearbeiten",
+      "typ": "offen",
+      "schwierigkeit": 3,
+      "frage": "Deine Lehrperson stellt ein Arbeitsblatt als PDF in Teams bereit. Beschreibe Schritt für Schritt, wie du es auf deinem Laptop ausfüllst und abgibst, **ohne das Original zu verlieren**.",
+      "musterloesung": "1. In Teams im Kanal unter «Freigegeben» das PDF herunterladen.\n2. Das PDF z. B. mit Microsoft Edge öffnen.\n3. Mit «Text hinzufügen» oder «Zeichnen» die Antworten eintragen.\n4. Mit «Speichern unter» als neue Datei speichern (z. B. mit deinem Namen im Dateinamen) – so bleibt das Original unverändert.\n5. Die bearbeitete Datei am verlangten Ort abgeben, z. B. im persönlichen Abschnitt des Klassennotizbuchs oder als Teams-Aufgabe.",
+      "stichworte": [
+        "herunterladen",
+        "Edge / PDF-Programm",
+        "Text hinzufügen",
+        "Speichern unter",
+        "Original bleibt",
+        "abgeben"
+      ],
+      "erklaerung": "Entscheidend sind das Speichern unter einem neuen Namen und die Abgabe am richtigen Ort – das sind die typischen Fehlerquellen."
+    },
+    {
+      "id": "f-pdf-bearbeiten-11",
+      "lernzielId": "lz-pdf-bearbeiten",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 1,
+      "frage": "Auf dem iPad kann man ein PDF mit der Funktion «Markierungen» direkt beschriften, ohne eine zusätzliche App zu installieren.",
+      "richtig": true,
+      "erklaerung": "In der App «Dateien» (und z. B. in Mail) gibt es das Stiftsymbol «Markierungen» zum Schreiben, Zeichnen und Markieren."
+    },
+    {
+      "id": "f-pdf-bearbeiten-12",
+      "lernzielId": "lz-pdf-bearbeiten",
+      "typ": "einfachwahl",
+      "schwierigkeit": 3,
+      "frage": "Lina schreibt in Edge ihre Antworten ins PDF und speichert. Ihre Kollegin öffnet die Datei später auf einem anderen Computer. Was sieht sie?",
+      "optionen": [
+        "Das PDF mit Linas Anmerkungen",
+        "Nur das leere Original, weil Anmerkungen auf Linas Gerät bleiben",
+        "Eine Fehlermeldung, weil bearbeitete PDFs nur am selben Gerät gehen",
+        "Nur Linas Anmerkungen, ohne das Arbeitsblatt dahinter"
+      ],
+      "richtig": 0,
+      "erklaerung": "Gespeicherte Anmerkungen sind Teil der PDF-Datei. Darum sieht sie jede Person, die die Datei öffnet – auf jedem Gerät."
+    },
+    {
+      "id": "f-pdf-bearbeiten-13",
+      "lernzielId": "lz-pdf-bearbeiten",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 2,
+      "frage": "Ein PDF-Formular (z. B. eine Anmeldung) kann man mit dem kostenlosen Adobe Acrobat Reader ausfüllen und unterschreiben.",
+      "richtig": true,
+      "erklaerung": "Dafür gibt es im Acrobat Reader «Ausfüllen & Unterschreiben». Für das Ändern des Originaltexts bräuchte man dagegen ein spezielles Programm, z. B. die kostenpflichtige Version Acrobat Pro."
+    },
+    {
+      "id": "f-pdf-bearbeiten-14",
+      "lernzielId": "lz-pdf-bearbeiten",
+      "typ": "mehrfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Mit welchen Programmen kannst du ein PDF beschriften?",
+      "optionen": [
+        "Datei-Explorer von Windows",
+        "Microsoft Edge",
+        "Vorschau (Mac)",
+        "Editor (Notepad) von Windows",
+        "OneNote (PDF-Seiten als Bilder eingefügt)"
+      ],
+      "richtig": [
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Edge, die Vorschau am Mac und OneNote (mit dem PDF als Ausdruck) können Anmerkungen auf PDFs anbringen. Der Datei-Explorer verwaltet Dateien nur (kopieren, verschieben), und der Editor ist ein Programm für reinen Text – ein PDF zeigt er nur als Zeichensalat an."
+    },
+    {
+      "id": "f-pdf-bearbeiten-15",
+      "lernzielId": "lz-pdf-bearbeiten",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Du willst deinen eigenen Word-Text so weitergeben, dass er auf jedem Gerät genau gleich aussieht. Was tust du?",
+      "optionen": [
+        "Die Datei mit einem Passwort schützen",
+        "Die Schrift grösser machen",
+        "Den Text als PDF speichern",
+        "Die Datei in «.txt» umbenennen"
+      ],
+      "richtig": 2,
+      "erklaerung": "Mit «Speichern unter» → PDF (oder «Drucken» → «Als PDF speichern») entsteht eine Datei, die überall gleich aussieht. Ein Passwort oder eine grössere Schrift ändern daran nichts."
+    },
+    {
+      "id": "f-pdf-bearbeiten-16",
+      "lernzielId": "lz-pdf-bearbeiten",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Im PDF deiner Projektbeschreibung steht ein Tippfehler im **Originaltext**. Welcher Weg funktioniert, um ihn zu korrigieren?",
+      "optionen": [
+        "Im Edge den Originaltext anklicken und direkt umtippen",
+        "Die Datei im Datei-Explorer umbenennen",
+        "Das PDF mit «Speichern unter» neu speichern",
+        "PDF in Word öffnen, korrigieren, wieder als PDF speichern"
+      ],
+      "richtig": 3,
+      "erklaerung": "Word wandelt das PDF in ein bearbeitbares Dokument um; danach speicherst du es wieder als PDF (Achtung: Das Layout kann sich verschieben). Alternativ ginge es mit Acrobat Pro. In Edge legst du nur Anmerkungen über den Text, und Umbenennen oder neu Speichern ändert den Inhalt nicht."
+    },
+    {
+      "id": "f-pdf-bearbeiten-17",
+      "lernzielId": "lz-pdf-bearbeiten",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Du willst neben eine Aufgabe im PDF eine Frage an die Lehrperson schreiben, **ohne das Arbeitsblatt zu überdecken**. Welche Anmerkung passt am besten?",
+      "optionen": [
+        "Ein Kommentar (Notizzettel)",
+        "Die Textstelle gelb markieren",
+        "Die Frage mit dem Stift quer darüber schreiben",
+        "Die Textstelle unterstreichen"
+      ],
+      "richtig": 0,
+      "erklaerung": "Ein Kommentar erscheint als kleiner Notizzettel; der Text klappt erst beim Anklicken auf und überdeckt das Blatt nicht. Markieren und Unterstreichen heben nur hervor – eine Frage kannst du damit nicht aufschreiben."
+    },
+    {
+      "id": "f-ablageorte-01",
+      "lernzielId": "lz-ablageorte",
+      "typ": "kurzantwort",
+      "schwierigkeit": 1,
+      "frage": "Wie heisst die Registerkarte in einem Teams-Kanal, unter der du die Dateien der Lehrperson findest?",
+      "akzeptiert": [
+        "Freigegeben",
+        "Registerkarte Freigegeben",
+        "Shared",
+        "Dateien",
+        "Registerkarte Dateien",
+        "Files"
+      ],
+      "erklaerung": "Im aktuellen Teams heisst die Registerkarte **«Freigegeben»** (englisch «Shared»), in älteren Versionen **«Dateien»**. Dort legt die Lehrperson Skripte, PDFs und Arbeitsblätter zum Ansehen und Herunterladen ab."
+    },
+    {
+      "id": "f-ablageorte-02",
+      "lernzielId": "lz-ablageorte",
+      "typ": "reihenfolge",
+      "schwierigkeit": 1,
+      "frage": "Bringe den Weg zu den Unterlagen der Lehrperson in die richtige Reihenfolge.",
+      "elemente": [
+        "MS Teams öffnen",
+        "Klassenteam auswählen",
+        "Kanal auswählen (z. B. «Allgemein»)",
+        "Registerkarte «Freigegeben» öffnen",
+        "Ordner bzw. Datei öffnen (z. B. «Kursmaterialien»)"
+      ],
+      "erklaerung": "Vom Grossen ins Kleine: Teams → Team → Kanal → Registerkarte «Freigegeben» (früher «Dateien») → Ordner bzw. Datei."
+    },
+    {
+      "id": "f-ablageorte-03",
+      "lernzielId": "lz-ablageorte",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Welches sind die **zwei typischen Ablageorte** für digitale Unterlagen in deiner Klasse?",
+      "optionen": [
+        "USB-Stick und E-Mail-Postfach",
+        "Teams-Chat und OneDrive",
+        "Teams («Freigegeben») und Klassennotizbuch",
+        "WhatsApp-Gruppe und Teams-Chat"
+      ],
+      "richtig": 2,
+      "erklaerung": "Die Unterlagen liegen in Teams unter «Freigegeben» und im Klassennotizbuch. Im Chat gehen Dateien schnell unter, und dein OneDrive ist dein persönlicher Speicher – dort legt die Lehrperson nichts für die Klasse ab."
+    },
+    {
+      "id": "f-ablageorte-04",
+      "lernzielId": "lz-ablageorte",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 2,
+      "frage": "Den Ordner «Kursmaterialien» unter «Freigegeben» können Lernende öffnen und lesen, aber nicht verändern.",
+      "richtig": true,
+      "erklaerung": "In Klassenteams ist «Kursmaterialien» schreibgeschützt: Die Lehrperson legt dort Unterlagen ab, du kannst sie lesen und herunterladen. Willst du etwas bearbeiten, speicherst du eine eigene Kopie. Andere Dateien unter «Freigegeben» sind oft nicht geschützt – dort veränderst du beim Bearbeiten die Datei für alle."
+    },
+    {
+      "id": "f-ablageorte-05",
+      "lernzielId": "lz-ablageorte",
+      "typ": "zuordnen",
+      "schwierigkeit": 2,
+      "frage": "Wo findest bzw. machst du was? Ordne zu.",
+      "paare": [
+        {
+          "links": "Skript als PDF zum Herunterladen",
+          "rechts": "Teams: «Freigegeben»"
+        },
+        {
+          "links": "Deine Notizen zur Lektion",
+          "rechts": "Klassennotizbuch"
+        },
+        {
+          "links": "Präsentation der Lehrperson als PowerPoint-Datei",
+          "rechts": "Teams: «Freigegeben»"
+        },
+        {
+          "links": "Gemeinsame Seite für eine Gruppenarbeit",
+          "rechts": "Klassennotizbuch"
+        },
+        {
+          "links": "Auftrag, den du direkt auf einer Notizseite bearbeitest",
+          "rechts": "Klassennotizbuch"
+        }
+      ],
+      "erklaerung": "Unter «Freigegeben» liegen Dateien der Lehrperson zum Herunterladen. Alles, was du selbst schreibst, bearbeitest oder mit anderen zusammen machst, gehört ins Klassennotizbuch."
+    },
+    {
+      "id": "f-ablageorte-06",
+      "lernzielId": "lz-ablageorte",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Die Lehrperson hat das Skript 1.1 als PDF-Datei für die Klasse bereitgestellt. Wo schaust du zuerst nach?",
+      "optionen": [
+        "Im Kanal unter der Registerkarte «Freigegeben»",
+        "In deinem OneDrive unter «Meine Dateien»",
+        "Im Collaboration Space des Klassennotizbuchs",
+        "Im Teams-Chat mit deinen Kolleginnen und Kollegen"
+      ],
+      "richtig": 0,
+      "erklaerung": "Dateien der Lehrperson findest du in Teams im Kanal unter «Freigegeben». «Meine Dateien» in OneDrive ist dein persönlicher Speicher, der Collaboration Space ist für Gruppenarbeiten der Klasse, und im Chat landen höchstens Links oder Kopien."
+    },
+    {
+      "id": "f-ablageorte-07",
+      "lernzielId": "lz-ablageorte",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 2,
+      "frage": "Willst du eine Datei aus «Freigegeben» bearbeiten, speicherst du am besten eine eigene Kopie, statt die Datei für alle zu verändern.",
+      "richtig": true,
+      "erklaerung": "Die Dateien unter «Freigegeben» sind für die ganze Klasse da. Oft können alle darin schreiben – deine Änderungen sähe dann die ganze Klasse (schreibgeschützt ist meist nur der Ordner «Kursmaterialien»). Darum lädst du die Datei herunter oder speicherst eine Kopie und bearbeitest diese."
+    },
+    {
+      "id": "f-ablageorte-08",
+      "lernzielId": "lz-ablageorte",
+      "typ": "mehrfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Welche Aussagen zu **«Freigegeben»** in Teams stimmen?",
+      "optionen": [
+        "Die Lehrperson stellt dort Dateien bereit.",
+        "Nur du und die Lehrperson sehen die Dateien dort.",
+        "Alle Mitglieder des Klassenteams sehen die Dateien.",
+        "Es ist ein Abschnitt im Klassennotizbuch."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "«Freigegeben» ist eine Registerkarte im Kanal des Klassenteams: Die Lehrperson stellt dort Dateien bereit, und alle Mitglieder sehen sie. Einen Bereich, den nur du und die Lehrperson sehen, gibt es im Klassennotizbuch – den persönlichen Abschnitt."
+    },
+    {
+      "id": "f-ablageorte-09",
+      "lernzielId": "lz-ablageorte",
+      "typ": "offen",
+      "schwierigkeit": 1,
+      "frage": "Nenne die **zwei typischen Ablageorte** für digitale Unterlagen und gib je ein Beispiel, was du dort findest.",
+      "musterloesung": "1. MS Teams → Klassenteam → Kanal → Registerkarte «Freigegeben» (früher «Dateien»): z. B. Skripte als PDF oder Präsentationen der Lehrperson zum Herunterladen.\n2. Klassennotizbuch (OneNote in Teams): z. B. Material in der Inhaltsbibliothek, eigene Notizen im persönlichen Abschnitt, Gruppenarbeiten im Collaboration Space.",
+      "stichworte": [
+        "Teams",
+        "Freigegeben",
+        "Klassennotizbuch",
+        "OneNote",
+        "Beispiel"
+      ],
+      "erklaerung": "Wichtig ist, beide Orte genau zu benennen (inklusive «Freigegeben») und je ein passendes Beispiel zu geben."
+    },
+    {
+      "id": "f-ablageorte-10",
+      "lernzielId": "lz-ablageorte",
+      "typ": "offen",
+      "schwierigkeit": 3,
+      "frage": "Erkläre den Unterschied zwischen «Freigegeben» in Teams und dem Klassennotizbuch.",
+      "musterloesung": "Unter «Freigegeben» liegen **Dateien** (PDF, Word, PowerPoint), die die Lehrperson bereitstellt. Man kann sie ansehen und herunterladen; bearbeitet wird eine eigene Kopie.\nDas Klassennotizbuch ist ein **digitales Heft in OneNote** mit Notizseiten. Dort schreibt man Notizen, bearbeitet Aufträge, gibt ab (persönlicher Abschnitt) und arbeitet zusammen (Collaboration Space).",
+      "stichworte": [
+        "Dateien bereitstellen",
+        "herunterladen",
+        "digitales Heft",
+        "OneNote",
+        "Notizen/Aufträge",
+        "zusammenarbeiten"
+      ],
+      "erklaerung": "Kurz gesagt: «Freigegeben» = Dateiablage der Lehrperson; Klassennotizbuch = Heft zum Selberschreiben und Zusammenarbeiten."
+    },
+    {
+      "id": "f-ablageorte-11",
+      "lernzielId": "lz-ablageorte",
+      "typ": "einfachwahl",
+      "schwierigkeit": 3,
+      "frage": "Sara war krank. Die Lehrperson hat das Skript als PDF unter «Freigegeben» abgelegt. Sara will es lesen und ihre eigenen Notizen dazu machen, die niemand aus der Klasse sieht. Was ist richtig?",
+      "optionen": [
+        "Skript im Collaboration Space suchen und dort die Notizen schreiben",
+        "Notizen unter «Freigegeben» hochladen",
+        "Sich das Skript im Klassenchat schicken lassen und dort Notizen posten",
+        "Skript aus «Freigegeben» holen, Notizen im persönlichen Abschnitt"
+      ],
+      "richtig": 3,
+      "erklaerung": "Das Skript liegt unter «Freigegeben». Private Notizen gehören in den persönlichen Abschnitt des Klassennotizbuchs – den sehen nur Sara und die Lehrperson. Collaboration Space, «Freigegeben» und Klassenchat sieht die ganze Klasse."
+    },
+    {
+      "id": "f-ablageorte-12",
+      "lernzielId": "lz-ablageorte",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 2,
+      "frage": "«Freigegeben» bedeutet, dass alle Menschen im Internet die Dateien unter dieser Registerkarte sehen können.",
+      "richtig": false,
+      "erklaerung": "«Freigegeben» heisst: für die Mitglieder des Teams (deine Klasse und die Lehrperson) bereitgestellt. Wer nicht im Team ist, hat keinen Zugriff."
+    },
+    {
+      "id": "f-ablageorte-13",
+      "lernzielId": "lz-ablageorte",
+      "typ": "einfachwahl",
+      "schwierigkeit": 3,
+      "frage": "Unter «Freigegeben» liegt ein Word-Arbeitsblatt, das nicht schreibgeschützt ist. Du öffnest es **direkt in Teams** und tippst deine Antworten hinein. Was passiert?",
+      "optionen": [
+        "Nichts – ohne Klick auf «Speichern» bleibt die Datei, wie sie war.",
+        "Teams legt automatisch eine private Kopie nur für dich an.",
+        "Nur du siehst deine Antworten, die Klasse sieht das Original.",
+        "Teams speichert automatisch – die Datei ist für alle geändert."
+      ],
+      "richtig": 3,
+      "erklaerung": "Word in Teams speichert automatisch in die gemeinsame Datei. Deine Antworten stehen dann im Arbeitsblatt der ganzen Klasse. Darum zuerst herunterladen oder eine Kopie speichern und erst dann ausfüllen."
+    },
+    {
+      "id": "f-ablageorte-14",
+      "lernzielId": "lz-ablageorte",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Was ist das **Klassennotizbuch**?",
+      "optionen": [
+        "Eine Liste mit den Noten der ganzen Klasse",
+        "Ein OneNote-Heft der Klasse in Teams",
+        "Der Chat-Verlauf eines Teams-Kanals",
+        "Ein Word-Dokument unter «Freigegeben»"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das Klassennotizbuch ist ein OneNote-Notizbuch, das in Teams eingebunden ist – mit Inhaltsbibliothek, Collaboration Space und persönlichen Abschnitten. Es ist keine einzelne Datei unter «Freigegeben», und mit Noten hat der Name nichts zu tun."
+    },
+    {
+      "id": "f-ablageorte-15",
+      "lernzielId": "lz-ablageorte",
+      "typ": "mehrfachwahl",
+      "schwierigkeit": 3,
+      "frage": "Welche Vorteile hat es, dass Unterlagen zentral in Teams und im Klassennotizbuch liegen statt verstreut in E-Mails und auf USB-Sticks?",
+      "optionen": [
+        "Alle haben dieselbe, aktuelle Version.",
+        "Du erreichst sie mit deinem Schulkonto von jedem Gerät aus.",
+        "Ein gutes Passwort ist weniger wichtig, weil Microsoft alles schützt.",
+        "Wenn dein Laptop kaputt geht, sind die Unterlagen nicht verloren."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Teams und Klassennotizbuch liegen in der Cloud: aktuell, überall erreichbar und nicht an ein Gerät gebunden. Gerade deshalb ist ein gutes Passwort wichtig – wer es kennt, kommt von überall an deine Daten."
+    },
+    {
+      "id": "f-klassennotizbuch-01",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "zuordnen",
+      "schwierigkeit": 1,
+      "frage": "Wer sieht bzw. bearbeitet welchen Bereich des Klassennotizbuchs? Ordne zu.",
+      "paare": [
+        {
+          "links": "Inhaltsbibliothek",
+          "rechts": "alle sehen, Lehrperson schreibt"
+        },
+        {
+          "links": "Collaboration Space",
+          "rechts": "alle sehen und schreiben"
+        },
+        {
+          "links": "Persönlicher Abschnitt",
+          "rechts": "nur du und die Lehrperson"
+        },
+        {
+          "links": "Nur für Lehrpersonen",
+          "rechts": "für Lernende unsichtbar"
+        }
+      ],
+      "erklaerung": "Die Bereiche unterscheiden sich in den Rechten: Inhaltsbibliothek = lesen, Collaboration Space = alle schreiben, persönlicher Abschnitt = privat mit der Lehrperson, «Nur für Lehrpersonen» = für dich gar nicht sichtbar."
+    },
+    {
+      "id": "f-klassennotizbuch-02",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "zuordnen",
+      "schwierigkeit": 2,
+      "frage": "In welchen Bereich des Klassennotizbuchs gehört das? Ordne jede Situation zu.",
+      "paare": [
+        {
+          "links": "Eure Gruppe sammelt Ideen für eine Präsentation.",
+          "rechts": "Collaboration Space"
+        },
+        {
+          "links": "Die Lehrperson stellt das Arbeitsblatt zur neuen Lektion bereit.",
+          "rechts": "Inhaltsbibliothek"
+        },
+        {
+          "links": "Du schreibst deine eigenen Notizen zum Unterricht.",
+          "rechts": "Persönlicher Abschnitt"
+        },
+        {
+          "links": "Du gibst einen Auftrag ab, den nur die Lehrperson sehen soll.",
+          "rechts": "Persönlicher Abschnitt"
+        },
+        {
+          "links": "Die ganze Klasse trägt Beispiele für Eingabegeräte auf einer Seite zusammen.",
+          "rechts": "Collaboration Space"
+        }
+      ],
+      "erklaerung": "Gemeinsame Arbeit → Collaboration Space; Material der Lehrperson → Inhaltsbibliothek; alles Eigene und Abgaben → persönlicher Abschnitt."
+    },
+    {
+      "id": "f-klassennotizbuch-03",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Wo findest du im Klassennotizbuch Material, das die Lehrperson bereitstellt und das du nicht verändern kannst?",
+      "optionen": [
+        "Im Collaboration Space",
+        "In deinem persönlichen Abschnitt",
+        "In der Inhaltsbibliothek",
+        "Im Abschnitt «Nur für Lehrpersonen»"
+      ],
+      "richtig": 2,
+      "erklaerung": "In der Inhaltsbibliothek kann nur die Lehrperson schreiben; du kannst lesen und kopieren. «Nur für Lehrpersonen» siehst du gar nicht."
+    },
+    {
+      "id": "f-klassennotizbuch-04",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 1,
+      "frage": "Was du im Collaboration Space schreibst, kann die ganze Klasse sehen.",
+      "richtig": true,
+      "erklaerung": "Im Collaboration Space können alle lesen und bearbeiten – darum nichts Privates hineinschreiben."
+    },
+    {
+      "id": "f-klassennotizbuch-05",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 2,
+      "frage": "Die Lehrperson kann den Collaboration Space **sperren**. Dann kann die Klasse dort nur noch lesen, aber nichts mehr ändern.",
+      "richtig": true,
+      "erklaerung": "Die Lehrperson kann den Collaboration Space sperren, z. B. nach einer abgeschlossenen Gruppenarbeit. Die Seiten bleiben sichtbar, aber niemand aus der Klasse kann sie mehr bearbeiten."
+    },
+    {
+      "id": "f-klassennotizbuch-06",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Du willst eine Seite aus der Inhaltsbibliothek ausfüllen. Wie gehst du vor?",
+      "optionen": [
+        "Direkt in der Inhaltsbibliothek hineinschreiben",
+        "Die Seite in deinen persönlichen Abschnitt kopieren",
+        "Die Seite in den Collaboration Space kopieren und dort ausfüllen",
+        "Die Seite löschen und selbst neu erstellen"
+      ],
+      "richtig": 1,
+      "erklaerung": "In der Inhaltsbibliothek hast du nur Leserechte. Du kopierst die Seite (z. B. Rechtsklick → «Verschieben oder kopieren») in deinen persönlichen Abschnitt und bearbeitest sie dort. Im Collaboration Space sähe die ganze Klasse deine Lösung, und löschen kannst du in der Inhaltsbibliothek nichts."
+    },
+    {
+      "id": "f-klassennotizbuch-07",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "mehrfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Auf welchen Wegen kannst du eine PDF-Datei in eine OneNote-Seite einbinden?",
+      "optionen": [
+        "Einfügen → Datei → als Anlage",
+        "Einfügen → Datei → als Ausdruck",
+        "Einfügen → Datei → in die Cloud hochladen (Link)",
+        "Die Datei per Drag & Drop auf die Seite ziehen",
+        "Einfügen → Tabelle"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Über «Einfügen» → «Datei» wählst du Anlage, Ausdruck oder Hochladen in die Cloud; beim Hineinziehen fragt OneNote dasselbe. Eine Tabelle fügt keine Datei ein. Je nach Version heissen die Knöpfe direkt «Dateianlage» und «Dateiausdruck»."
+    },
+    {
+      "id": "f-klassennotizbuch-08",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Die Lehrperson hat deinen abgegebenen Auftrag im Klassennotizbuch kommentiert. Wo findest du die Rückmeldung?",
+      "optionen": [
+        "Im Collaboration Space",
+        "Auf deiner Seite im persönlichen Abschnitt",
+        "In der Inhaltsbibliothek",
+        "Im Abschnitt «Nur für Lehrpersonen»"
+      ],
+      "richtig": 1,
+      "erklaerung": "Rückmeldungen schreibt die Lehrperson direkt auf deine Seite im persönlichen Abschnitt – den sehen nur du und sie. Im Collaboration Space und in der Inhaltsbibliothek würde die ganze Klasse mitlesen, und «Nur für Lehrpersonen» siehst du gar nicht."
+    },
+    {
+      "id": "f-klassennotizbuch-09",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Wo öffnest du das Klassennotizbuch in MS Teams?",
+      "optionen": [
+        "Als PDF-Datei im Ordner «Kursmaterialien» unter «Freigegeben»",
+        "Im Teams-Chat, den dir die Lehrperson geschickt hat",
+        "Im Klassenteam über die Registerkarte «Klassennotizbuch»",
+        "Unter «Aktivität» bei deinen Benachrichtigungen"
+      ],
+      "richtig": 2,
+      "erklaerung": "Das Klassennotizbuch hat im Klassenteam eine eigene **Registerkarte «Klassennotizbuch»** (meist im Kanal «Allgemein»). Es ist keine Datei unter «Freigegeben», die du herunterladen musst – du öffnest es direkt in Teams oder in der OneNote-App."
+    },
+    {
+      "id": "f-klassennotizbuch-10",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "reihenfolge",
+      "schwierigkeit": 2,
+      "frage": "Ordne den Aufbau eines OneNote-Notizbuchs vom Grössten zum Kleinsten.",
+      "elemente": [
+        "Notizbuch (z. B. Klassennotizbuch Informatik)",
+        "Abschnitt (Register, z. B. «Notizen»)",
+        "Seite",
+        "Inhalt auf der Seite (Text, Bild, Ausdruck)"
+      ],
+      "erklaerung": "Wie ein Ordner mit Registern: Das Notizbuch enthält Abschnitte, ein Abschnitt enthält Seiten, und auf einer Seite stehen die Inhalte."
+    },
+    {
+      "id": "f-klassennotizbuch-11",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 2,
+      "frage": "In OneNote musst du jede Änderung mit «Speichern» sichern, sonst geht sie verloren.",
+      "richtig": false,
+      "erklaerung": "OneNote speichert automatisch – es gibt keinen Speichern-Knopf. Anders bei vielen PDF-Programmen am PC (z. B. Edge): Dort musst du selbst speichern."
+    },
+    {
+      "id": "f-klassennotizbuch-12",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "einfachwahl",
+      "schwierigkeit": 3,
+      "frage": "Eure Gruppe erstellt gemeinsam eine Seite. Danach soll jedes Mitglied eine eigene Reflexion schreiben, die die anderen nicht lesen. Wo gehört was hin?",
+      "optionen": [
+        "Beides in den Collaboration Space",
+        "Gruppenseite in die Inhaltsbibliothek, Reflexion in den Collaboration Space",
+        "Gruppenseite in den Collaboration Space, Reflexion in den persönlichen Abschnitt",
+        "Beides in den persönlichen Abschnitt eines Gruppenmitglieds"
+      ],
+      "richtig": 2,
+      "erklaerung": "Gemeinsam bearbeiten geht nur im Collaboration Space. Die Reflexion soll privat sein → persönlicher Abschnitt (nur du und die Lehrperson). In die Inhaltsbibliothek können Lernende nicht schreiben, und den persönlichen Abschnitt eines anderen kannst du nicht bearbeiten."
+    },
+    {
+      "id": "f-klassennotizbuch-13",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "offen",
+      "schwierigkeit": 1,
+      "frage": "Erkläre die Unterschiede zwischen **Inhaltsbibliothek**, **Collaboration Space** und deinem **persönlichen Abschnitt**.",
+      "musterloesung": "- Inhaltsbibliothek: Hier stellt die Lehrperson Material bereit. Alle können lesen und kopieren, aber nur die Lehrperson kann bearbeiten.\n- Collaboration Space: Alle in der Klasse können lesen und bearbeiten, z. B. für Gruppenarbeiten. Alles ist für alle sichtbar.\n- Persönlicher Abschnitt: Nur du und die Lehrperson sehen ihn – für Notizen, Aufträge und Abgaben.",
+      "stichworte": [
+        "Lehrperson stellt bereit",
+        "nur lesen",
+        "alle bearbeiten",
+        "Gruppenarbeit",
+        "nur du und Lehrperson",
+        "Abgaben"
+      ],
+      "erklaerung": "Für jeden Bereich gehört dazu: wer ihn sieht, wer ihn bearbeiten kann und wofür man ihn braucht."
+    },
+    {
+      "id": "f-klassennotizbuch-14",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "offen",
+      "schwierigkeit": 2,
+      "frage": "Erkläre, wie du ein PDF-Arbeitsblatt so in eine OneNote-Seite einfügst, dass du darauf schreiben kannst. Was ist der Unterschied zur **Dateianlage**?",
+      "musterloesung": "Seite öffnen → «Einfügen» → «Datei» → PDF auswählen → «Als Ausdruck einfügen» (in älteren Versionen direkt «Einfügen» → «Dateiausdruck»). Die PDF-Seiten erscheinen als Bilder auf der Notizseite; mit dem Register «Zeichnen» kann ich darauf schreiben und markieren. Bei der Dateianlage erscheint nur ein Dateisymbol; mit Doppelklick öffnet sich die Datei in einem anderen Programm – direkt auf der Notizseite schreiben kann ich darauf nicht.",
+      "stichworte": [
+        "Einfügen",
+        "Datei",
+        "Ausdruck",
+        "Seiten als Bilder",
+        "Zeichnen",
+        "Anlage = Symbol"
+      ],
+      "erklaerung": "Kern der Antwort: Ausdruck = Seiten als Bilder zum Daraufschreiben; Anlage = nur ein Symbol zum Öffnen der Datei."
+    },
+    {
+      "id": "f-klassennotizbuch-15",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "mehrfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Welche Regeln sind im **Collaboration Space** sinnvoll?",
+      "optionen": [
+        "Beiträge anderer nicht löschen oder verändern",
+        "Persönliche Prüfungsnotizen ablegen, die niemand sehen soll",
+        "Keine privaten Daten wie Adresse oder Passwort hineinschreiben",
+        "Abgaben, die nur die Lehrperson sehen soll, hier ablegen"
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Im Collaboration Space sieht und bearbeitet die ganze Klasse alles. Darum: Beiträge anderer stehen lassen und nichts Privates hineinschreiben. Private Notizen und Abgaben gehören in den persönlichen Abschnitt."
+    },
+    {
+      "id": "f-klassennotizbuch-16",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Du hast die Wandtafel mit dem Handy fotografiert. Wie kommt das Foto so auf deine Notizseite, dass es **direkt sichtbar** ist?",
+      "optionen": [
+        "Mit «Einfügen» → «Bilder» oder durch Hineinziehen",
+        "Mit «Einfügen» → «Datei» → «als Anlage»",
+        "Mit «Einfügen» → «Tabelle»",
+        "Den Dateinamen des Fotos als Seitentitel eintippen"
+      ],
+      "richtig": 0,
+      "erklaerung": "Fotos fügst du über «Einfügen» → «Bilder» ein oder ziehst sie auf die Seite. Als Anlage erschiene nur ein Dateisymbol, das Foto wäre erst nach einem Doppelklick zu sehen. In der OneNote-App auf dem Handy kannst du auch direkt ein Foto aufnehmen."
+    },
+    {
+      "id": "f-klassennotizbuch-17",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 2,
+      "frage": "Weil die Lehrperson deinen persönlichen Abschnitt sehen kann, eignet er sich für Abgaben.",
+      "richtig": true,
+      "erklaerung": "Den persönlichen Abschnitt sehen nur du und die Lehrperson – ideal für Abgaben und Rückmeldungen, ohne dass die Klasse mitliest."
+    },
+    {
+      "id": "f-klassennotizbuch-18",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "kurzantwort",
+      "schwierigkeit": 1,
+      "frage": "Wie heisst der Bereich im Klassennotizbuch, in dem die **ganze Klasse gemeinsam** schreiben kann?",
+      "akzeptiert": [
+        "Collaboration Space",
+        "Collaborationspace",
+        "Collaboration-Space",
+        "Platz für Zusammenarbeit",
+        "Zusammenarbeitsbereich",
+        "Kollaborationsbereich",
+        "Collab Space"
+      ],
+      "erklaerung": "Im **Collaboration Space** (Platz für Zusammenarbeit) können alle lesen und bearbeiten."
+    },
+    {
+      "id": "f-klassennotizbuch-19",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 1,
+      "frage": "Den Abschnitt «Nur für Lehrpersonen» kannst du als Lernende oder Lernender sehen, aber nicht bearbeiten.",
+      "richtig": false,
+      "erklaerung": "Dieser Bereich ist für Lernende **unsichtbar**. «Sehen, aber nicht bearbeiten» gilt für die Inhaltsbibliothek."
+    },
+    {
+      "id": "f-klassennotizbuch-20",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "einfachwahl",
+      "schwierigkeit": 3,
+      "frage": "Nino hat Ferienfotos und seine Wohnadresse in den Collaboration Space gestellt, «damit die Lehrperson sie sieht». Was ist die beste Rückmeldung?",
+      "optionen": [
+        "Gut so – die Lehrperson sieht den Collaboration Space ja.",
+        "Besser in die Inhaltsbibliothek stellen.",
+        "Das ganze Klassennotizbuch löschen lassen.",
+        "Besser in den persönlichen Abschnitt stellen."
+      ],
+      "richtig": 3,
+      "erklaerung": "Im Collaboration Space sieht die ganze Klasse alles – private Daten wie die Adresse gehören nicht dorthin. Für Dinge nur für die Lehrperson ist der persönliche Abschnitt da. In die Inhaltsbibliothek können Lernende nicht schreiben."
+    },
+    {
+      "id": "f-klassennotizbuch-21",
+      "lernzielId": "lz-klassennotizbuch",
+      "typ": "einfachwahl",
+      "schwierigkeit": 3,
+      "frage": "Eure Gruppe arbeitet noch an einer Word-Datei. Auf der OneNote-Seite soll ein Verweis darauf stehen, der **immer die aktuelle Fassung** zeigt. Welche Option wählst du bei «Einfügen → Datei»?",
+      "optionen": [
+        "Als Ausdruck einfügen",
+        "In die Cloud hochladen",
+        "Als Anlage einfügen",
+        "Als Bild einfügen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Beim Hochladen in die Cloud liegt die Datei in OneDrive, und auf der Seite erscheint ein Link mit Vorschau – alle öffnen dieselbe, aktuelle Datei. Ein Ausdruck (oder ein Bild) ist eine Momentaufnahme, und eine Anlage ist eine Kopie, die sich nicht mitändert."
+    },
+    {
+      "id": "f-passwort-01",
+      "lernzielId": "lz-passwort",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Welches Passwort ist am **sichersten**?",
+      "optionen": [
+        "«MeinHundBello12052010»",
+        "«Passwort123!»",
+        "«Kaktus!Velo7Regen»",
+        "«123456789»"
+      ],
+      "richtig": 2,
+      "erklaerung": "`Kaktus!Velo7Regen` ist lang, gemischt und hat keinen persönlichen Bezug. Das längste Passwort ist hier nicht das beste: Hundename und Geburtsdatum lassen sich erraten. «Passwort123!» und «123456789» stehen in jeder Liste häufiger Passwörter."
+    },
+    {
+      "id": "f-passwort-02",
+      "lernzielId": "lz-passwort",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Welches Passwort ist am **schwächsten**?",
+      "optionen": [
+        "«Fabienne2009»",
+        "«Tg7#mK2pQz9!vR»",
+        "«Mond.Zebra.Geige.42»",
+        "«Hx8!Velo&Turm3»"
+      ],
+      "richtig": 0,
+      "erklaerung": "`Fabienne2009` besteht aus einem Vornamen und einem Geburtsjahr – persönliche Daten, die man leicht herausfindet. Die anderen sind lang, gemischt und ohne persönlichen Bezug."
+    },
+    {
+      "id": "f-passwort-03",
+      "lernzielId": "lz-passwort",
+      "typ": "mehrfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Welche Merkmale hat ein **gutes** Passwort?",
+      "optionen": [
+        "Mindestens 12 Zeichen lang",
+        "Ein bekanntes Wort, bei dem a durch @ ersetzt ist",
+        "Wird nur für einen einzigen Dienst verwendet",
+        "Enthält den Namen deines Haustiers als Merkhilfe",
+        "Eine Passphrase aus zufälligen Wörtern"
+      ],
+      "richtig": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "Lang, einzigartig und nicht erratbar sind die Grundregeln – eine Passphrase aus zufälligen Wörtern erfüllt sie gut. Ersetzungen wie a→@ probieren Angreifer automatisch aus, und persönliche Daten wie der Name des Haustiers lassen sich herausfinden (z. B. über Social Media)."
+    },
+    {
+      "id": "f-passwort-04",
+      "lernzielId": "lz-passwort",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 1,
+      "frage": "Es ist in Ordnung, für Instagram, Teams und E-Mail dasselbe starke Passwort zu verwenden.",
+      "richtig": false,
+      "erklaerung": "Wird ein Dienst gehackt (Datenleck), probieren Angreifer das Passwort sofort bei anderen Diensten aus. Darum für jeden Dienst ein eigenes Passwort."
+    },
+    {
+      "id": "f-passwort-05",
+      "lernzielId": "lz-passwort",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 1,
+      "frage": "Ein seriöser Dienst (z. B. die Informatik der Schule) fragt dich nie per E-Mail nach deinem Passwort.",
+      "richtig": true,
+      "erklaerung": "Solche E-Mails sind Phishing – Betrüger wollen an dein Passwort. Nicht antworten, keinen Link anklicken, sondern melden."
+    },
+    {
+      "id": "f-passwort-06",
+      "lernzielId": "lz-passwort",
+      "typ": "zahl",
+      "schwierigkeit": 2,
+      "frage": "Ein PIN-Code hat **4 Stellen**, jede Stelle ist eine Ziffer von 0 bis 9. Wie viele verschiedene PINs gibt es?",
+      "richtig": 10000,
+      "einheit": "Möglichkeiten",
+      "tipp": "Überlege zuerst, wie viele Möglichkeiten es für eine einzelne Stelle gibt.",
+      "erklaerung": "10 · 10 · 10 · 10 = 10 000. Das ist wie bei den Bits (2 Möglichkeiten pro Stelle → 2ⁿ), nur mit 10 Möglichkeiten pro Stelle → 10^4."
+    },
+    {
+      "id": "f-passwort-07",
+      "lernzielId": "lz-passwort",
+      "typ": "zahl",
+      "schwierigkeit": 3,
+      "frage": "Wie viele Varianten hat ein **6-stelliger** PIN aus den Ziffern 0–9? Überlege, wie du bei Bits die Anzahl Varianten berechnest.",
+      "richtig": 1000000,
+      "einheit": "Varianten",
+      "erklaerung": "Gleiches Prinzip wie bei den Bits: Anzahl Möglichkeiten pro Stelle hoch Anzahl Stellen = 10^6 = 1 000 000. Zwei Stellen mehr als beim 4-stelligen PIN ergeben 100-mal mehr Möglichkeiten – darum ist Länge so wichtig."
+    },
+    {
+      "id": "f-passwort-08",
+      "lernzielId": "lz-passwort",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Wie lang sollte ein Passwort nach gängiger Empfehlung **mindestens** sein?",
+      "optionen": [
+        "4 Zeichen, wie ein PIN",
+        "6 Zeichen",
+        "12 Zeichen oder mehr",
+        "Egal – Hauptsache, ein Sonderzeichen"
+      ],
+      "richtig": 2,
+      "erklaerung": "Empfohlen sind mindestens 12 Zeichen – manche Stellen raten sogar zu 15 und mehr. Je länger, desto besser. Passphrasen aus mehreren Wörtern sind lang und trotzdem gut zu merken. Kurze Passwörter lassen sich schnell durchprobieren, daran ändert auch ein Sonderzeichen wenig."
+    },
+    {
+      "id": "f-passwort-09",
+      "lernzielId": "lz-passwort",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Was bedeutet **Zwei-Faktor-Authentifizierung** (2FA)?",
+      "optionen": [
+        "Man muss zwei verschiedene Passwörter nacheinander eingeben.",
+        "Zum Passwort kommt ein zweiter Nachweis dazu.",
+        "Das Passwort muss zweimal pro Jahr geändert werden.",
+        "Zwei Personen teilen sich ein gemeinsames Konto."
+      ],
+      "richtig": 1,
+      "erklaerung": "Bei 2FA kommt zum Wissen (Passwort) ein zweiter Faktor dazu: etwas, das du besitzt (Handy mit Code-App, SMS) oder bist (Fingerabdruck). Ein gestohlenes Passwort allein reicht dann nicht."
+    },
+    {
+      "id": "f-passwort-10",
+      "lernzielId": "lz-passwort",
+      "typ": "zuordnen",
+      "schwierigkeit": 2,
+      "frage": "Was ist das Hauptproblem des jeweiligen Passworts? Ordne zu.",
+      "paare": [
+        {
+          "links": "«Bello2015»",
+          "rechts": "persönliche Daten"
+        },
+        {
+          "links": "«qwertz123»",
+          "rechts": "Tastaturmuster"
+        },
+        {
+          "links": "«X7!a»",
+          "rechts": "viel zu kurz"
+        },
+        {
+          "links": "«Passwort»",
+          "rechts": "bekanntes Wort"
+        }
+      ],
+      "erklaerung": "«Bello2015» besteht aus Haustiername und Jahreszahl (persönliche Daten), «qwertz123» ist ein Muster auf der Tastatur, «X7!a» hat nur 4 Zeichen, und «Passwort» steht in jeder Liste häufiger Passwörter. Angreifer probieren zuerst Listen mit häufigen Wörtern und Mustern sowie persönliche Daten aus. Sehr kurze Passwörter lassen sich in kurzer Zeit komplett durchprobieren."
+    },
+    {
+      "id": "f-passwort-11",
+      "lernzielId": "lz-passwort",
+      "typ": "zuordnen",
+      "schwierigkeit": 1,
+      "frage": "Sicher oder unsicher? Ordne jedes Verhalten zu.",
+      "paare": [
+        {
+          "links": "Einen Passwort-Manager verwenden",
+          "rechts": "sicher"
+        },
+        {
+          "links": "Passwort auf einem Zettel am Bildschirm",
+          "rechts": "unsicher"
+        },
+        {
+          "links": "Zwei-Faktor-Authentifizierung einschalten",
+          "rechts": "sicher"
+        },
+        {
+          "links": "Der besten Freundin dein Passwort verraten",
+          "rechts": "unsicher"
+        },
+        {
+          "links": "Überall dasselbe Passwort benutzen",
+          "rechts": "unsicher"
+        },
+        {
+          "links": "Nach einem Datenleck das Passwort sofort ändern",
+          "rechts": "sicher"
+        }
+      ],
+      "erklaerung": "Sicher ist, was das Passwort geheim und einzigartig hält oder zusätzlich schützt. Weitergeben, offen notieren und mehrfach verwenden sind die häufigsten Fehler."
+    },
+    {
+      "id": "f-passwort-12",
+      "lernzielId": "lz-passwort",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Wozu dient ein **Passwort-Manager**?",
+      "optionen": [
+        "Er macht die Zwei-Faktor-Authentifizierung überflüssig.",
+        "Er schickt deine Passwörter sicher an Freunde weiter.",
+        "Er macht auch kurze Passwörter sicher.",
+        "Er speichert alle Passwörter verschlüsselt."
+      ],
+      "richtig": 3,
+      "erklaerung": "Ein Passwort-Manager speichert alle Passwörter verschlüsselt und kann lange Zufallspasswörter erzeugen. Du merkst dir nur ein starkes Hauptpasswort. Ein kurzes Passwort bleibt kurz – und 2FA ist zusätzlich weiterhin sinnvoll."
+    },
+    {
+      "id": "f-passwort-13",
+      "lernzielId": "lz-passwort",
+      "typ": "kurzantwort",
+      "schwierigkeit": 2,
+      "frage": "Wie nennt man ein langes Passwort, das aus **mehreren Wörtern** zusammengesetzt ist?",
+      "akzeptiert": [
+        "Passphrase",
+        "Pass-Phrase",
+        "Passphrasen",
+        "Passsatz",
+        "Passwortsatz",
+        "Kennwortsatz",
+        "Passwort-Satz"
+      ],
+      "erklaerung": "Eine **Passphrase** wie `Kiwi-Turm-Nebel-Gabel-81` ist lang und damit schwer zu knacken, aber trotzdem gut zu merken. Wichtig: zufällige Wörter ohne Zusammenhang, kein bekanntes Zitat."
+    },
+    {
+      "id": "f-passwort-14",
+      "lernzielId": "lz-passwort",
+      "typ": "offen",
+      "schwierigkeit": 1,
+      "frage": "Nenne **vier** Regeln für ein gutes Passwort.",
+      "musterloesung": "- lang: mindestens 12 Zeichen, besser eine Passphrase aus mehreren Wörtern\n- gemischt: Gross- und Kleinbuchstaben, Ziffern, Sonderzeichen\n- keine persönlichen Daten (Name, Geburtstag, Haustier) und keine Wörter oder Muster wie «123456»\n- für jeden Dienst ein anderes Passwort\n- nie weitergeben\n- zusätzlich Zwei-Faktor-Authentifizierung oder einen Passwort-Manager verwenden",
+      "stichworte": [
+        "mind. 12 Zeichen",
+        "gemischt",
+        "keine persönlichen Daten",
+        "keine Muster",
+        "jeder Dienst eigenes",
+        "nicht weitergeben"
+      ],
+      "erklaerung": "Vier beliebige dieser Regeln geben die volle Punktzahl. Am wichtigsten sind Länge und Einzigartigkeit."
+    },
+    {
+      "id": "f-passwort-15",
+      "lernzielId": "lz-passwort",
+      "typ": "offen",
+      "schwierigkeit": 3,
+      "frage": "Deine Kollegin verwendet «Lara2010» für alle ihre Konten. Erkläre **zwei Probleme** und mach einen **Verbesserungsvorschlag**.",
+      "musterloesung": "Problem 1: Das Passwort besteht aus ihrem Vornamen und vermutlich ihrem Geburtsjahr – persönliche Daten, die man erraten oder auf Social Media finden kann. Es ist zudem mit 8 Zeichen zu kurz.\nProblem 2: Sie braucht es für alle Konten. Wird ein Dienst gehackt, können Angreifer damit in alle anderen Konten.\nVorschlag: Für jeden Dienst ein eigenes, langes Passwort (mind. 12 Zeichen, z. B. eine Passphrase wie «Kiwi-Turm-Nebel-Gabel-81»), am besten mit einem Passwort-Manager verwalten und 2FA einschalten.",
+      "stichworte": [
+        "persönliche Daten",
+        "zu kurz",
+        "überall gleich",
+        "Datenleck",
+        "eigenes Passwort pro Dienst",
+        "Passphrase / Passwort-Manager / 2FA"
+      ],
+      "erklaerung": "Gute Antworten verbinden das Problem mit der Folge (z. B. Datenleck → alle Konten offen) und machen einen konkreten Vorschlag."
+    },
+    {
+      "id": "f-passwort-16",
+      "lernzielId": "lz-passwort",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 2,
+      "frage": "`P@ssw0rt` ist ein sicheres Passwort, weil es ein Sonderzeichen und eine Ziffer enthält.",
+      "richtig": false,
+      "erklaerung": "Es ist nur das Wort «Passwort», bei dem a durch @ und o durch 0 ersetzt wurde. Solche Ersetzungen probieren Angreifer automatisch aus – und mit 8 Zeichen ist es ausserdem zu kurz."
+    },
+    {
+      "id": "f-passwort-17",
+      "lernzielId": "lz-passwort",
+      "typ": "einfachwahl",
+      "schwierigkeit": 3,
+      "frage": "Lea will ihr Passwort `Sonnenblume` verbessern. Welche Änderung bringt **am meisten**?",
+      "optionen": [
+        "«S0nnenblum3» – o durch 0 und e durch 3 ersetzen",
+        "«Sonnenblume-Kiwi-Turm» – zufällige Wörter anhängen",
+        "«SONNENBLUME» – alles in Grossbuchstaben",
+        "«Sonnenblume!» – ein Ausrufezeichen anhängen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Jedes zusätzliche Zeichen vervielfacht die Anzahl Möglichkeiten (bei rund 90 möglichen Zeichen mit etwa 90). Zwei zufällige Wörter machen das Passwort fast doppelt so lang. Ersetzungen wie o→0, alles gross oder ein «!» am Ende machen es kaum oder gar nicht länger, und genau solche Muster probieren Angreifer automatisch aus."
+    },
+    {
+      "id": "f-passwort-18",
+      "lernzielId": "lz-passwort",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Du erhältst eine E-Mail: «Dein Teams-Konto wird gesperrt! Gib hier sofort dein Passwort ein.» Was tust du?",
+      "optionen": [
+        "Auf den Link klicken und das Passwort eingeben",
+        "Mit deinem Passwort auf die E-Mail antworten",
+        "Kein Passwort eingeben, die E-Mail melden oder löschen",
+        "Die E-Mail an die Klasse weiterleiten, damit alle reagieren"
+      ],
+      "richtig": 2,
+      "erklaerung": "Das ist typisches Phishing: Zeitdruck und ein Link zur Passworteingabe. Seriöse Dienste fragen nie per E-Mail nach dem Passwort. Melde die E-Mail (Lehrperson, Schul-Informatik) oder lösche sie."
+    },
+    {
+      "id": "f-passwort-19",
+      "lernzielId": "lz-passwort",
+      "typ": "reihenfolge",
+      "schwierigkeit": 2,
+      "frage": "Ordne die Passwörter von **am schwächsten** bis **am stärksten**.",
+      "elemente": [
+        "«123456»",
+        "«Sonne2009»",
+        "«Sonne!2009x»",
+        "«Kiwi-Turm-Nebel-Gabel-81»"
+      ],
+      "erklaerung": "`123456` ist das häufigste Passwort überhaupt. `Sonne2009` ist ein Wort mit Jahreszahl, `Sonne!2009x` etwas länger und gemischter. Die Passphrase mit 24 Zeichen ist mit Abstand am stärksten."
+    },
+    {
+      "id": "f-passwort-20",
+      "lernzielId": "lz-passwort",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Welches Passwort entsteht nach der **Satz-Methode** aus «Unsere Katze Mia frisst jeden Morgen um 7 Uhr Thunfisch!»?",
+      "optionen": [
+        "«UKMfjMu7UT!»",
+        "«UnsereKatzeMia7»",
+        "«ukmfjmuut»",
+        "«Mia7Thunfisch!»"
+      ],
+      "richtig": 0,
+      "erklaerung": "Bei der Satz-Methode nimmst du von jedem Wort den Anfangsbuchstaben (mit Gross-/Kleinschreibung) und übernimmst Zahlen und Satzzeichen: U-K-M-f-j-M-u-7-U-T-!. So entsteht ein gemischtes Passwort, das du dir über den Satz merken kannst."
+    },
+    {
+      "id": "f-passwort-21",
+      "lernzielId": "lz-passwort",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 1,
+      "frage": "Mit einem Passwort-Manager musst du dir nur noch **ein** starkes Hauptpasswort merken.",
+      "richtig": true,
+      "erklaerung": "Der Passwort-Manager speichert alle anderen Passwörter verschlüsselt und kann lange Zufallspasswörter erzeugen. Darum muss das Hauptpasswort besonders stark sein und darf nirgends sonst verwendet werden."
+    },
+    {
+      "id": "f-passwort-22",
+      "lernzielId": "lz-passwort",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 2,
+      "frage": "Eine Passphrase aus einer bekannten Liedzeile ist besonders sicher, weil sie lang ist und man sie sich gut merken kann.",
+      "richtig": false,
+      "erklaerung": "Bekannte Zitate, Liedzeilen und sinnvolle Sätze stehen in den Wortlisten der Angreifer. Eine gute Passphrase besteht aus zufällig gewählten Wörtern ohne Zusammenhang, z. B. `Kiwi-Turm-Nebel-Gabel-81`."
+    }
+  ]
+}

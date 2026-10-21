@@ -1,0 +1,73 @@
+.kopf {
+  gap: 4px;
+}
+.kopf h1 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+.zurueck {
+  align-self: flex-start;
+  margin-left: -8px;
+  max-width: 100%;
+}
+.ellipse {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.fortschritt {
+  gap: 6px;
+}
+.position {
+  margin: 0;
+}
+.weiter {
+  min-width: 140px;
+  /* Bricht die Zeile auf schmalen Bildschirmen um, bleibt «Weiter» rechts */
+  margin-left: auto;
+}
+.lz-voll {
+  margin: 0;
+}
+.zahlen {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  text-align: center;
+}
+.zahl {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 4px;
+  border-radius: var(--radius-klein);
+  background: var(--flaeche-2);
+}
+.zahl strong {
+  font-size: 1.6rem;
+  line-height: 1.1;
+}
+.zahl.gut strong {
+  color: var(--gut-text);
+}
+.zahl.mittel strong {
+  color: var(--mittel-text);
+}
+.zahl.schlecht strong {
+  color: var(--schlecht-text);
+}
+.lz-liste {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.lz-liste .karte {
+  gap: 8px;
+}
+.lz-text {
+  flex: 1;
+  min-width: 0;
+}
+.knoepfe .knopf {
+  flex: 1 1 auto;
+}

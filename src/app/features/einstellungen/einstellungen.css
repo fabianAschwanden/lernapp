@@ -1,0 +1,143 @@
+h1 {
+  margin-bottom: 0;
+}
+h2 {
+  margin: 0;
+  scroll-margin-top: 72px;
+}
+h2:focus {
+  outline: none;
+}
+h3 {
+  margin: 8px 0 0;
+}
+.inhalt {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.inhalt a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 12px;
+  border-radius: 999px;
+  border: 1px solid var(--rand);
+  background: var(--flaeche);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-2);
+}
+.inhalt a:hover {
+  border-color: var(--primaer);
+  color: var(--primaer);
+}
+.zwei {
+  display: grid;
+  gap: 12px;
+}
+@media (min-width: 520px) {
+  .zwei {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.eingabe.zahl {
+  max-width: 160px;
+}
+.gruppe {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.gruppe legend {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.segmente {
+  display: flex;
+  border: 1px solid var(--rand);
+  border-radius: var(--radius-klein);
+  overflow: hidden;
+}
+.segment {
+  flex: 1;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 6px 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text-2);
+  background: var(--flaeche);
+}
+.segment + .segment {
+  border-left: 1px solid var(--rand);
+}
+.segment.aktiv {
+  background: var(--primaer-weich);
+  color: var(--primaer);
+}
+.segment:focus-within,
+.datei:focus-within {
+  outline: 3px solid var(--fokus);
+  outline-offset: -3px;
+}
+.option input {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  accent-color: var(--primaer);
+  flex: none;
+}
+.schluessel-zeile {
+  display: flex;
+  gap: 8px;
+}
+.schluessel-zeile .eingabe {
+  flex: 1;
+  min-width: 0;
+}
+.datei.gesperrt {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.hinweis p:last-child,
+.kompakt {
+  margin-bottom: 0;
+}
+.kompakt {
+  margin-top: 0;
+  padding-left: 1.2em;
+}
+.anleitung {
+  margin: 0;
+}
+.anleitung dt {
+  font-weight: 700;
+  margin-top: 8px;
+}
+.anleitung dd {
+  margin: 2px 0 0;
+  color: var(--text-2);
+}
+.tabelle {
+  border-collapse: collapse;
+  width: 100%;
+}
+.tabelle th,
+.tabelle td {
+  border-bottom: 1px solid var(--rand);
+  padding: 6px 8px;
+  text-align: left;
+}
+.tabelle th {
+  background: var(--flaeche-2);
+}

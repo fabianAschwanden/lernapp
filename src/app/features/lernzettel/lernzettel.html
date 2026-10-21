@@ -1,0 +1,90 @@
+<div class="seite">
+  @if (lektion(); as l) {
+    <a class="knopf text zurueck" [routerLink]="['/lektion', l.id]">← Zur Lektion</a>
+
+    <header class="zettel-kopf">
+      <h1>Lernzettel – {{ l.titel }}</h1>
+      <p class="leise klein nur-druck">
+        {{ l.fach }}
+        @if (l.klasse) {
+          · {{ l.klasse }}
+        }
+      </p>
+      <button type="button" class="knopf" (click)="drucken()">Drucken</button>
+    </header>
+
+    @if (themen().length > 1) {
+      <nav class="sprungmarken" aria-label="Themen">
+        @for (t of themen(); track t.thema) {
+          <button type="button" class="chip sprung" (click)="springeZu('thema-' + $index)">
+            {{ t.thema }}
+          </button>
+        }
+      </nav>
+    }
+
+    @for (t of themen(); track t.thema; let ti = $index) {
+      <section class="thema" [attr.aria-labelledby]="'thema-' + ti">
+        <h2 class="thema-titel" [id]="'thema-' + ti" tabindex="-1">{{ t.thema }}</h2>
+
+        @for (lz of t.lernziele; track lz.id) {
+          <section
+            class="karte flach lernziel"
+            [id]="'lz-' + lz.id"
+            tabindex="-1"
+            [attr.aria-labelledby]="'lz-titel-' + lz.id"
+          >
+            <h3 [id]="'lz-titel-' + lz.id">{{ lz.text }}</h3>
+
+            @if (lz.ergaenzt) {
+              <p class="hinweis klein">
+                Dieser Teil stammt nicht aus deinen Unterlagen, sondern wurde ergänzt. Frag bei
+                Unklarheiten deine Lehrperson.
+              </p>
+            }
+
+            <div class="md" [innerHTML]="lz.zusammenfassung | md"></div>
+
+            @if (lz.merksaetze?.length) {
+              <div class="merke">
+                <h4 class="merke-titel">Merke</h4>
+                <ul>
+                  @for (m of lz.merksaetze; track $index) {
+                    <li class="md" [innerHTML]="m | md"></li>
+                  }
+                </ul>
+              </div>
+            }
+
+            @for (b of lz.bilder ?? []; track $index) {
+              <figure class="abbildung">
+                <img [src]="b.src" [alt]="b.alt" loading="lazy" />
+                @if (b.legende) {
+                  <figcaption>{{ b.legende }}</figcaption>
+                }
+              </figure>
+            }
+
+            @if (lz.quellenhinweis) {
+              <p class="sehr-klein leise quelle">Quelle: {{ lz.quellenhinweis }}</p>
+            }
+
+            @if (mitFragen().has(lz.id)) {
+              <a
+                class="knopf ueben"
+                [routerLink]="['/lektion', l.id, 'lernen']"
+                [queryParams]="{ modus: 'lernziel', lz: lz.id }"
+                [attr.aria-label]="'Dazu üben: ' + lz.text"
+                >Dazu üben</a
+              >
+            }
+          </section>
+        }
+      </section>
+    }
+  } @else {
+    <h1>Lernzettel nicht gefunden</h1>
+    <p class="leise">Diese Lektion gibt es nicht (mehr).</p>
+    <a class="knopf primaer" routerLink="/">Zur Startseite</a>
+  }
+</div>

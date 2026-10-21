@@ -1,0 +1,100 @@
+.zurueck {
+  margin-left: -8px;
+}
+.zettel-kopf {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 12px;
+  margin: 4px 0 12px;
+}
+.zettel-kopf h1 {
+  margin: 0;
+  flex: 1 1 240px;
+}
+.nur-druck {
+  display: none;
+}
+
+.sprungmarken {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.sprung {
+  min-height: 44px;
+  padding: 0 14px;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: normal;
+  text-align: left;
+}
+.sprung:hover {
+  border-color: var(--primaer);
+}
+
+.thema-titel {
+  margin: 24px 0 10px;
+  color: var(--primaer);
+}
+.lernziel {
+  margin-bottom: 12px;
+}
+.lernziel h3 {
+  margin-bottom: 10px;
+}
+.lernziel .hinweis {
+  margin: 0 0 10px;
+}
+
+.merke {
+  margin: 12px 0;
+  padding: 10px 14px;
+  border-radius: var(--radius-klein);
+  background: var(--primaer-weich);
+  border-left: 4px solid var(--primaer);
+}
+.merke-titel {
+  margin: 0 0 4px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primaer);
+}
+.merke ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.quelle {
+  margin: 8px 0 0;
+}
+.ueben {
+  margin-top: 12px;
+}
+
+@media print {
+  .knopf,
+  .sprungmarken {
+    display: none !important;
+  }
+  .nur-druck {
+    display: block;
+  }
+  .lernziel {
+    border: none;
+    padding: 0;
+    margin-bottom: 16px;
+  }
+  .thema-titel,
+  .lernziel h3 {
+    break-after: avoid;
+  }
+  .merke,
+  .abbildung {
+    break-inside: avoid;
+  }
+}

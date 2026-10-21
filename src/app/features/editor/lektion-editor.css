@@ -1,0 +1,208 @@
+.zurueck {
+  align-self: flex-start;
+  padding-inline: 0;
+}
+h1 {
+  margin-bottom: 0;
+}
+.untertitel {
+  margin: -6px 0 0;
+}
+.leiste {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.leiste .hinweis {
+  margin: 0;
+}
+.status {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+}
+.fehlerliste summary {
+  cursor: pointer;
+  font-weight: 600;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+.fehlerliste ul,
+.kompakt {
+  margin: 0;
+  padding-left: 1.2em;
+}
+.knopf.links {
+  text-align: left;
+  justify-content: flex-start;
+  color: var(--schlecht);
+  min-height: 44px;
+}
+
+.tabs {
+  display: flex;
+  gap: 4px;
+  border-bottom: 1px solid var(--rand);
+  position: sticky;
+  top: var(--kopf-hoehe);
+  z-index: 5;
+  background: var(--bg);
+}
+.tabs button {
+  flex: 1;
+  min-height: 48px;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  background: none;
+  color: var(--text-2);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 0 4px;
+}
+.tabs button[aria-selected='true'] {
+  color: var(--primaer);
+  border-bottom-color: var(--primaer);
+}
+
+.zwei,
+.drei {
+  display: grid;
+  gap: 12px;
+}
+@media (min-width: 560px) {
+  .zwei {
+    grid-template-columns: 1fr 1fr;
+  }
+  .drei {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+textarea.kurz {
+  min-height: 72px;
+}
+textarea.lang {
+  min-height: 180px;
+}
+.vorschau {
+  border: 1px dashed var(--rand);
+  border-radius: var(--radius-klein);
+  padding: 12px;
+  background: var(--flaeche-2);
+}
+.lz-titel,
+.klein-titel {
+  font-size: 1rem;
+  margin: 0;
+}
+.knopfgruppe {
+  gap: 6px;
+}
+.knopfgruppe .knopf,
+.quadrat {
+  min-width: 44px;
+  min-height: 44px;
+}
+.quadrat {
+  padding-inline: 0;
+}
+.ankreuzen {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  cursor: pointer;
+}
+input[type='checkbox'],
+input[type='radio'] {
+  width: 22px;
+  height: 22px;
+  accent-color: var(--primaer);
+  flex: none;
+}
+.optionen {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.option-zeile,
+.paar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.option-zeile .eingabe,
+.paar .eingabe {
+  flex: 1;
+  min-width: 0;
+}
+/* Schmal: Paar zweizeilig (links oben, rechts darunter), damit beide Felder lesbar breit sind */
+@media (max-width: 520px) {
+  .paar {
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
+  .paar > span {
+    display: none;
+  }
+  .paar .knopf {
+    grid-area: 1 / 2 / 3;
+  }
+}
+.datei {
+  position: relative;
+}
+.datei:focus-within {
+  outline: 3px solid var(--fokus);
+  outline-offset: 2px;
+}
+
+.neu {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.neu .feld {
+  flex: 1 1 180px;
+}
+.fragenliste {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.frage-eintrag {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  padding: 12px 14px;
+}
+.frage-eintrag:hover {
+  border-color: var(--primaer);
+}
+.frage-text {
+  font-weight: 600;
+}
+#frage-formular:focus {
+  outline: none;
+}
+.ende {
+  margin-top: 8px;
+}

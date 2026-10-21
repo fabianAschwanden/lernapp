@@ -1,0 +1,57 @@
+<ul class="liste" [attr.aria-label]="bezeichnung()">
+  @for (wert of werte(); track $index; let i = $index, erstes = $first, letztes = $last) {
+    <li class="eintrag">
+      @if (sortierbar()) {
+        <span class="nummer" aria-hidden="true">{{ i + 1 }}.</span>
+      }
+      @if (mehrzeilig()) {
+        <textarea
+          class="eingabe mitwachsend"
+          rows="2"
+          [value]="wert"
+          [placeholder]="platzhalter()"
+          [attr.aria-label]="bezeichnung() + ' ' + (i + 1)"
+          (input)="setze(i, $event)"
+        ></textarea>
+      } @else {
+        <input
+          class="eingabe"
+          type="text"
+          [value]="wert"
+          [placeholder]="platzhalter()"
+          [attr.aria-label]="bezeichnung() + ' ' + (i + 1)"
+          (input)="setze(i, $event)"
+        />
+      }
+      @if (sortierbar()) {
+        <button
+          type="button"
+          class="knopf klein"
+          [disabled]="erstes"
+          (click)="verschieben(i, -1)"
+          [attr.aria-label]="'Eintrag ' + (i + 1) + ' nach oben'"
+        >
+          ↑
+        </button>
+        <button
+          type="button"
+          class="knopf klein"
+          [disabled]="letztes"
+          (click)="verschieben(i, 1)"
+          [attr.aria-label]="'Eintrag ' + (i + 1) + ' nach unten'"
+        >
+          ↓
+        </button>
+      }
+      <button
+        type="button"
+        class="knopf klein gefahr"
+        (click)="entfernen(i)"
+        [attr.aria-label]="'Eintrag ' + (i + 1) + ' entfernen'"
+      >
+        ✕
+      </button>
+    </li>
+  }
+</ul>
+<button type="button" class="knopf klein" (click)="hinzufuegen()">+ {{ bezeichnung() }} hinzufügen</button>

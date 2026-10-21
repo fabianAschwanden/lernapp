@@ -1,0 +1,763 @@
+<div class="seite stapel">
+  <h1 id="seiten-titel" tabindex="-1">Neue Lektion</h1>
+
+  @switch (weg()) {
+    <!-- ==================== Einstieg ==================== -->
+    @case ('auswahl') {
+      <p class="leise">Wie möchtest du die Lektion erstellen?</p>
+      <div class="stapel">
+        <button type="button" class="karte klickbar weg" (click)="waehle('ki')">
+          <strong>Aus Material erstellen (KI)</strong>
+          <span class="leise klein"
+            >Skript-PDF, Fotos von Buchseiten oder Text plus Lernziele → Claude schreibt Lernzettel
+            und Fragen.</span
+          >
+        </button>
+        <button type="button" class="karte klickbar weg" (click)="waehle('import')">
+          <strong>Lektion importieren (JSON-Datei)</strong>
+          <span class="leise klein"
+            >Eine exportierte oder von Claude erzeugte Lektion übernehmen.</span
+          >
+        </button>
+        <button type="button" class="karte klickbar weg" (click)="waehle('leer')">
+          <strong>Leere Lektion anlegen</strong>
+          <span class="leise klein">Lernziele und Fragen selbst im Editor erfassen.</span>
+        </button>
+      </div>
+    }
+
+    <!-- ==================== Aus Material (KI) ==================== -->
+    @case ('ki') {
+      <nav aria-label="Schritte">
+        <ol class="schritte">
+          @for (s of schritte; track s; let i = $index) {
+            <li [class.aktiv]="i === schritt()" [class.erledigt]="i < schritt()">
+              <button
+                type="button"
+                [attr.aria-current]="i === schritt() ? 'step' : null"
+                [attr.aria-label]="'Schritt ' + (i + 1) + ': ' + s"
+                [disabled]="i >= schritt() || ki.laeuft()"
+                (click)="geheZu(i)"
+              >
+                <span class="nr" aria-hidden="true">{{ i + 1 }}</span>
+                <span class="name">{{ s }}</span>
+              </button>
+            </li>
+          }
+        </ol>
+      </nav>
+
+      <h2 id="schritt-titel" tabindex="-1">{{ schritt() + 1 }}. {{ schritte[schritt()] }}</h2>
+
+      @switch (schritt()) {
+        <!-- (1) Grunddaten -->
+        @case (0) {
+          <div class="karte stapel">
+            <div class="feld">
+              <label for="fach">Fach *</label>
+              <input
+                id="fach"
+                class="eingabe"
+                list="faecher"
+                autocomplete="off"
+                [value]="fach()"
+                (input)="fach.set(wert($event))"
+              />
+              <datalist id="faecher">
+                @for (f of faecher(); track f) {
+                  <option [value]="f"></option>
+                }
+              </datalist>
+            </div>
+            <div class="feld">
+              <label for="titel">Titel</label>
+              <input
+                id="titel"
+                class="eingabe"
+                placeholder="z. B. Prüfung 1: Grundlagen"
+                [value]="titel()"
+                (input)="titel.set(wert($event))"
+              />
+              <span class="leise sehr-klein">Leer lassen: Claude schlägt einen Titel vor.</span>
+            </div>
+            <div class="zwei">
+              <div class="feld">
+                <label for="klasse">Klasse</label>
+                <input
+                  id="klasse"
+                  class="eingabe"
+                  placeholder="z. B. 1a"
+                  [value]="klasse()"
+                  (input)="klasse.set(wert($event))"
+                />
+              </div>
+              <div class="feld">
+                <label for="datum">Prüfungsdatum</label>
+                <input
+                  id="datum"
+                  type="date"
+                  class="eingabe"
+                  [value]="pruefungsdatum()"
+                  (input)="pruefungsdatum.set(wert($event))"
+                />
+              </div>
+            </div>
+            <div class="feld">
+              <label for="hinweise">Hinweise zur Prüfung</label>
+              <textarea
+                id="hinweise"
+                class="eingabe"
+                rows="3"
+                placeholder="Eine Zeile pro Hinweis, z. B. «Hilfsmittel: keine»"
+                [value]="hinweiseText()"
+                (input)="hinweiseText.set(wert($event))"
+              ></textarea>
+            </div>
+            <label class="check">
+              <input
+                type="checkbox"
+                [checked]="taschenrechner()"
+                (change)="taschenrechner.set(checked($event))"
+              />
+              Taschenrechner erlaubt
+            </label>
+          </div>
+        }
+
+        <!-- (2) Material -->
+        @case (1) {
+          <div class="karte stapel">
+            <p class="klein leise">
+              Füge das Skript als PDF, Fotos von Buchseiten oder Text hinzu. Das Material bleibt nur
+              in diesem Fenster und wird nicht gespeichert.
+            </p>
+            <div class="zeile">
+              <button
+                type="button"
+                class="knopf"
+                (click)="pdfInput.click()"
+                [disabled]="ladeMaterial()"
+              >
+                PDF hinzufügen
+              </button>
+              <button
+                type="button"
+                class="knopf"
+                (click)="fotoInput.click()"
+                [disabled]="ladeMaterial()"
+              >
+                Fotos wählen
+              </button>
+              <button
+                type="button"
+                class="knopf"
+                (click)="kameraInput.click()"
+                [disabled]="ladeMaterial()"
+              >
+                Foto aufnehmen
+              </button>
+              <input
+                #pdfInput
+                type="file"
+                accept="application/pdf,.pdf"
+                multiple
+                hidden
+                (change)="pdfHinzufuegen(pdfInput)"
+              />
+              <input
+                #fotoInput
+                type="file"
+                accept="image/*"
+                multiple
+                hidden
+                (change)="fotosHinzufuegen(fotoInput)"
+              />
+              <input
+                #kameraInput
+                type="file"
+                accept="image/*"
+                capture="environment"
+                hidden
+                (change)="fotosHinzufuegen(kameraInput)"
+              />
+            </div>
+            <div aria-live="polite">
+              @if (ladeMaterial()) {
+                <p class="leise klein">Material wird geladen …</p>
+              }
+              @if (materialMeldung(); as m) {
+                <p class="hinweis fehler">{{ m }}</p>
+              }
+            </div>
+
+            <details class="text-einfuegen">
+              <summary>Text einfügen</summary>
+              <div class="stapel">
+                <div class="feld">
+                  <label for="text-titel">Bezeichnung</label>
+                  <input
+                    id="text-titel"
+                    class="eingabe"
+                    placeholder="z. B. Notizen"
+                    [value]="neuerTextTitel()"
+                    (input)="neuerTextTitel.set(wert($event))"
+                  />
+                </div>
+                <div class="feld">
+                  <label for="text-inhalt">Text</label>
+                  <textarea
+                    id="text-inhalt"
+                    class="eingabe"
+                    rows="5"
+                    [value]="neuerText()"
+                    (input)="neuerText.set(wert($event))"
+                  ></textarea>
+                </div>
+                <button
+                  type="button"
+                  class="knopf"
+                  [disabled]="!neuerText().trim()"
+                  (click)="textHinzufuegen()"
+                >
+                  Text hinzufügen
+                </button>
+              </div>
+            </details>
+          </div>
+
+          @for (e of eintraege(); track e.id) {
+            <section
+              class="karte stapel"
+              [attr.aria-label]="
+                e.art === 'pdf' ? e.dok.name : e.art === 'foto' ? e.name : e.titel || 'Text'
+              "
+            >
+              <div class="zeile zwischen">
+                <div class="zeile">
+                  <span class="chip primaer">{{
+                    e.art === 'pdf' ? 'PDF' : e.art === 'foto' ? 'Foto' : 'Text'
+                  }}</span>
+                  <strong class="umbruch">
+                    {{
+                      e.art === 'pdf'
+                        ? e.dok.name
+                        : e.art === 'foto'
+                          ? e.name
+                          : e.titel || 'Eingefügter Text'
+                    }}
+                  </strong>
+                </div>
+                <button type="button" class="knopf klein gefahr" (click)="entfernen(e)">
+                  Entfernen
+                </button>
+              </div>
+
+              @if (e.art === 'pdf') {
+                <p class="klein leise">{{ e.dok.seitenzahl }} Seiten · {{ auswahlText(e) }}</p>
+                <p class="hinweis klein">
+                  Gemeint sind <strong>PDF-Seiten</strong> (1 = erste Seite der Datei), nicht die
+                  gedruckten Buchseiten. Die Vorschaubilder helfen beim Finden.
+                </p>
+                <div class="zeile bereich">
+                  <div class="feld">
+                    <label [for]="'bereich-' + e.id">Seitenbereich</label>
+                    <input
+                      [id]="'bereich-' + e.id"
+                      class="eingabe"
+                      inputmode="numeric"
+                      placeholder="z. B. 9-11, 21-24"
+                      [value]="e.bereich()"
+                      (input)="e.bereich.set(wert($event))"
+                      (keydown.enter)="bereichUebernehmen(e)"
+                    />
+                  </div>
+                  <button type="button" class="knopf" (click)="bereichUebernehmen(e)">
+                    Übernehmen
+                  </button>
+                  <button type="button" class="knopf text" (click)="alleSeiten(e, true)">
+                    alle
+                  </button>
+                  <button type="button" class="knopf text" (click)="alleSeiten(e, false)">
+                    keine
+                  </button>
+                </div>
+                @if (e.bereichFehler(); as f) {
+                  <p class="hinweis fehler klein" role="alert">{{ f }}</p>
+                }
+                <div class="seiten" role="group" [attr.aria-label]="'Seiten von ' + e.dok.name">
+                  @for (s of seitenNummern(e); track s) {
+                    <button
+                      type="button"
+                      class="seite-knopf"
+                      [class.gewaehlt]="e.auswahl().has(s)"
+                      [attr.aria-pressed]="e.auswahl().has(s)"
+                      [attr.aria-label]="'Seite ' + s"
+                      (click)="seiteUmschalten(e, s)"
+                    >
+                      @if (e.vorschau()[s - 1]; as url) {
+                        <img [src]="url" alt="" loading="lazy" />
+                      } @else {
+                        <span class="platz" aria-hidden="true"></span>
+                      }
+                      <span class="nummer">{{ s }}</span>
+                    </button>
+                  }
+                </div>
+              } @else if (e.art === 'foto') {
+                <img class="foto" [src]="e.dataUrl" [alt]="'Foto ' + e.name" />
+              } @else {
+                <p class="klein leise text-vorschau">
+                  {{ e.text.slice(0, 240) }}{{ e.text.length > 240 ? ' …' : '' }}
+                </p>
+              }
+            </section>
+          }
+          <p class="klein leise" aria-live="polite">
+            {{ anzahlBilder() }} von höchstens {{ maxBilder }} Bildern (PDF-Seiten + Fotos).
+          </p>
+        }
+
+        <!-- (3) Lernziele -->
+        @case (2) {
+          <div class="karte stapel">
+            <div class="feld">
+              <label for="lernziele">Lernziele (eine Zeile pro Lernziel)</label>
+              <textarea
+                id="lernziele"
+                class="eingabe"
+                rows="8"
+                placeholder="Du kannst das EVA-Prinzip erklären.&#10;Du kannst Speichereinheiten umrechnen."
+                [value]="lernzieleText()"
+                (input)="lernzieleText.set(wert($event))"
+              ></textarea>
+              <span class="leise sehr-klein">{{ lernziele().length }} Lernziele erkannt.</span>
+            </div>
+            <label class="check">
+              <input
+                type="checkbox"
+                [checked]="lernzieleImMaterial()"
+                (change)="lernzieleImMaterial.set(checked($event))"
+              />
+              Lernziele stehen im Material (z. B. Foto des Lernziel-Blatts)
+            </label>
+          </div>
+        }
+
+        <!-- (4) Optionen -->
+        @case (3) {
+          <div class="karte stapel">
+            <div class="feld">
+              <label for="anzahl">Fragen pro Lernziel (4–25)</label>
+              <input
+                id="anzahl"
+                type="number"
+                min="4"
+                max="25"
+                class="eingabe kurz"
+                [value]="fragenProLernziel()"
+                (change)="setzeFragenProLernziel(wert($event))"
+              />
+              @if (fragenGesamt(); as n) {
+                <span class="leise sehr-klein">Insgesamt etwa {{ n }} Fragen.</span>
+              }
+            </div>
+            @if (zuVieleFragen()) {
+              <p class="hinweis warnung klein" role="status">
+                {{ fragenGesamt() }} Fragen sind sehr viele für eine Lektion: Die Antwort von Claude
+                kann zu lang werden und abbrechen. Wähle weniger Fragen pro Lernziel oder teile den
+                Stoff auf zwei Lektionen auf.
+              </p>
+            }
+            <div class="feld">
+              <label for="niveau">Niveau</label>
+              <input
+                id="niveau"
+                class="eingabe"
+                placeholder="z. B. FMS, 1. Jahr"
+                [value]="niveau()"
+                (input)="niveau.set(wert($event))"
+              />
+            </div>
+            <fieldset class="typen">
+              <legend>Fragetypen</legend>
+              @for (t of fragetypenAlle; track t) {
+                <label class="check">
+                  <input
+                    type="checkbox"
+                    [checked]="fragetypen().has(t)"
+                    (change)="typUmschalten(t)"
+                  />
+                  {{ typLabel[t] }}
+                </label>
+              }
+            </fieldset>
+          </div>
+        }
+
+        <!-- (5) Erstellen -->
+        @case (4) {
+          <div class="karte stapel">
+            <h3>Mit Claude erstellen</h3>
+            @if (hatApiSchluessel()) {
+              <p class="klein leise">
+                {{ anzahlBilder() }} Bilder,
+                {{ lernziele().length || 'Lernziele aus dem Material' }}
+                {{ lernziele().length ? 'Lernziele' : '' }}, {{ fragenProLernziel() }} Fragen pro
+                Lernziel. Das dauert einige Minuten und kostet je nach Umfang etwa 0.20 bis 2
+                Franken API-Guthaben.
+              </p>
+              <p class="klein leise">
+                Die gewählten PDF-Seiten, Fotos und Texte werden dazu an Anthropic
+                (<code>api.anthropic.com</code>) gesendet. Lade keine Fotos mit persönlichen Daten
+                hoch.
+              </p>
+              @if (zuVieleFragen()) {
+                <p class="hinweis warnung klein">
+                  {{ fragenGesamt() }} Fragen sind sehr viele: Die Antwort kann zu lang werden und
+                  abbrechen. Geh besser zurück und wähle weniger Fragen pro Lernziel.
+                </p>
+              }
+              @if (!ki.laeuft()) {
+                <button type="button" class="knopf primaer" (click)="mitClaudeErstellen()">
+                  Mit Claude erstellen
+                </button>
+              }
+              <div aria-live="polite" class="stapel">
+                @if (ki.laeuft()) {
+                  <p>{{ ki.fortschritt().text }}</p>
+                  <div
+                    class="balken"
+                    role="progressbar"
+                    [attr.aria-valuenow]="fortschrittProzent()"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    aria-label="Fortschritt"
+                  >
+                    @if (fortschrittProzent() !== null) {
+                      <span [style.width.%]="fortschrittProzent()"></span>
+                    } @else {
+                      <span class="unbestimmt"></span>
+                    }
+                  </div>
+                  @if (ki.fortschritt().zeichen) {
+                    <p class="sehr-klein leise">
+                      {{ ki.fortschritt().zeichen | number }} Zeichen empfangen
+                    </p>
+                  }
+                  <button type="button" class="knopf" (click)="ki.abbrechen()">Abbrechen</button>
+                }
+                @if (kiFehler(); as f) {
+                  <p class="hinweis fehler" role="alert">{{ f }}</p>
+                }
+              </div>
+            } @else {
+              <p class="hinweis">
+                Für die direkte Erstellung braucht es einen API-Schlüssel von Anthropic.
+                <a routerLink="/einstellungen">In den Einstellungen eintragen</a>
+              </p>
+            }
+          </div>
+
+          <div class="karte stapel">
+            <h3>Ohne API-Schlüssel: Prompt kopieren</h3>
+            <ol class="klein anleitung">
+              <li>Prompt kopieren.</li>
+              <li>
+                In
+                <a href="https://claude.ai/new" target="_blank" rel="noopener">claude.ai</a> einen
+                neuen Chat öffnen.
+              </li>
+              <li>Material (PDF, Fotos) an die Nachricht anhängen und den Prompt einfügen.</li>
+              <li>Die Antwort von Claude kopieren und unten einfügen.</li>
+            </ol>
+            <button type="button" class="knopf" [disabled]="ki.laeuft()" (click)="promptKopieren()">
+              Prompt kopieren
+            </button>
+            <p class="klein" aria-live="polite">
+              @if (kopiert()) {
+                <span class="chip gut">Prompt kopiert</span>
+              }
+            </p>
+            <div class="feld">
+              <label for="antwort">Antwort von Claude einfügen</label>
+              <textarea
+                id="antwort"
+                class="eingabe mono"
+                rows="6"
+                [value]="antwortText()"
+                (input)="antwortText.set(wert($event))"
+              ></textarea>
+            </div>
+            <button
+              type="button"
+              class="knopf"
+              [disabled]="!antwortText().trim() || ki.laeuft()"
+              (click)="antwortUebernehmen()"
+            >
+              Antwort übernehmen
+            </button>
+            @if (antwortFehler(); as f) {
+              <p class="hinweis fehler" role="alert">{{ f }}</p>
+            }
+          </div>
+        }
+
+        <!-- (6) Vorschau -->
+        @case (5) {
+          @if (ergebnis(); as erg) {
+            @if (erg.lektion; as l) {
+              <div class="karte stapel">
+                <div>
+                  <span class="chip">{{ l.fach }}</span>
+                  <h3 class="mt">{{ l.titel }}</h3>
+                  @if (l.beschreibung) {
+                    <p class="leise">{{ l.beschreibung }}</p>
+                  }
+                  <p class="klein">
+                    {{ anzahl(l.lernziele.length, 'Lernziel', 'Lernziele') }} ·
+                    {{ anzahl(l.fragen.length, 'Frage', 'Fragen') }}
+                  </p>
+                </div>
+                <ul class="liste">
+                  @for (z of lernzielUebersicht(); track z.lz.id) {
+                    <li class="zeile zwischen">
+                      <span class="umbruch">
+                        {{ z.lz.text }}
+                        @if (z.lz.ergaenzt) {
+                          <span class="chip mittel">ergänzt</span>
+                        }
+                      </span>
+                      <span class="chip" [class.schlecht]="z.anzahl === 0">{{
+                        anzahl(z.anzahl, 'Frage', 'Fragen')
+                      }}</span>
+                    </li>
+                  }
+                </ul>
+              </div>
+            }
+
+            @if (erg.verworfen.length) {
+              <details class="hinweis warnung">
+                <summary>
+                  {{
+                    anzahl(erg.verworfen.length, 'ungültige Frage wurde', 'ungültige Fragen wurden')
+                  }}
+                  verworfen
+                </summary>
+                <ul class="klein">
+                  @for (v of erg.verworfen; track v.nummer) {
+                    <li>
+                      Frage {{ v.nummer }}{{ v.frage ? ' («' + v.frage.slice(0, 60) + '»)' : '' }}:
+                      {{ v.gruende.join(' ') }}
+                    </li>
+                  }
+                </ul>
+              </details>
+            }
+            @if (erg.hinweise.length) {
+              <div class="hinweis klein">
+                <ul>
+                  @for (h of erg.hinweise; track $index) {
+                    <li>{{ h }}</li>
+                  }
+                </ul>
+              </div>
+            }
+            @if (erg.fehler.length) {
+              <div class="hinweis fehler" role="alert">
+                <strong>Die Lektion ist noch nicht gültig:</strong>
+                <ul class="klein">
+                  @for (f of erg.fehler; track $index) {
+                    <li>{{ f }}</li>
+                  }
+                </ul>
+              </div>
+            }
+
+            @if (erg.lektion && !erg.fehler.length) {
+              <div class="zeile">
+                <button
+                  type="button"
+                  class="knopf primaer"
+                  [disabled]="speichert()"
+                  (click)="speichern(false)"
+                >
+                  Speichern
+                </button>
+                <button
+                  type="button"
+                  class="knopf"
+                  [disabled]="speichert()"
+                  (click)="speichern(true)"
+                >
+                  Im Editor öffnen
+                </button>
+              </div>
+            }
+            @if (speicherFehler(); as f) {
+              <p class="hinweis fehler" role="alert">{{ f }}</p>
+            }
+          }
+        }
+      }
+
+      @if (schrittFehler(); as f) {
+        @if (schritt() < 4) {
+          <p class="klein leise" aria-live="polite">{{ f }}</p>
+        }
+      }
+      <div class="zeile zwischen fuss">
+        @if (schritt() === 0) {
+          <button type="button" class="knopf text" (click)="zurueckZurAuswahl()">
+            ← Andere Art wählen
+          </button>
+        } @else {
+          <button type="button" class="knopf" [disabled]="ki.laeuft()" (click)="zurueck()">
+            Zurück
+          </button>
+        }
+        @if (schritt() < 4) {
+          <button
+            type="button"
+            class="knopf primaer"
+            [disabled]="!!schrittFehler()"
+            (click)="weiter()"
+          >
+            Weiter
+          </button>
+        }
+      </div>
+    }
+
+    <!-- ==================== Import ==================== -->
+    @case ('import') {
+      <div class="karte stapel">
+        <h2 id="weg-titel" tabindex="-1">Lektion importieren</h2>
+        <p class="klein leise">Wähle eine Lektion als JSON-Datei (z. B. aus einem Export).</p>
+        <button type="button" class="knopf" (click)="importInput.click()">JSON-Datei wählen</button>
+        <input
+          #importInput
+          type="file"
+          accept="application/json,.json"
+          hidden
+          (change)="importDatei(importInput)"
+        />
+
+        @if (importFehler().length) {
+          <div class="hinweis fehler" role="alert">
+            <strong>Die Datei ist keine gültige Lektion:</strong>
+            <ul class="klein">
+              @for (f of importFehler(); track $index) {
+                <li>{{ f }}</li>
+              }
+            </ul>
+          </div>
+        }
+
+        @if (importLektion(); as l) {
+          <div class="karte flach stapel">
+            <div>
+              <span class="chip">{{ l.fach }}</span>
+              <h3 class="mt">{{ l.titel }}</h3>
+              <p class="klein leise">
+                {{ anzahl(l.lernziele.length, 'Lernziel', 'Lernziele') }} ·
+                {{ anzahl(l.fragen.length, 'Frage', 'Fragen') }}
+              </p>
+            </div>
+            @if (importExistiert()) {
+              <fieldset class="typen">
+                <legend>Diese Lektion hast du schon.</legend>
+                <label class="check">
+                  <input
+                    type="radio"
+                    name="modus"
+                    [checked]="importModus() === 'ersetzen'"
+                    (change)="importModus.set('ersetzen')"
+                  />
+                  Ersetzen (der Lernstand bleibt erhalten)
+                </label>
+                <label class="check">
+                  <input
+                    type="radio"
+                    name="modus"
+                    [checked]="importModus() === 'kopie'"
+                    (change)="importModus.set('kopie')"
+                  />
+                  Als Kopie importieren
+                </label>
+              </fieldset>
+            }
+            <button
+              type="button"
+              class="knopf primaer"
+              [disabled]="speichert()"
+              (click)="importSpeichern()"
+            >
+              Importieren
+            </button>
+            @if (speicherFehler(); as f) {
+              <p class="hinweis fehler" role="alert">{{ f }}</p>
+            }
+          </div>
+        }
+      </div>
+      <div>
+        <button type="button" class="knopf text" (click)="zurueckZurAuswahl()">
+          ← Andere Art wählen
+        </button>
+      </div>
+    }
+
+    <!-- ==================== Leere Lektion ==================== -->
+    @case ('leer') {
+      <div class="karte stapel">
+        <h2 id="weg-titel" tabindex="-1">Leere Lektion anlegen</h2>
+        <div class="feld">
+          <label for="leer-fach">Fach</label>
+          <input
+            id="leer-fach"
+            class="eingabe"
+            list="faecher-leer"
+            autocomplete="off"
+            [value]="fach()"
+            (input)="fach.set(wert($event))"
+          />
+          <datalist id="faecher-leer">
+            @for (f of faecher(); track f) {
+              <option [value]="f"></option>
+            }
+          </datalist>
+        </div>
+        <div class="feld">
+          <label for="leer-titel">Titel</label>
+          <input
+            id="leer-titel"
+            class="eingabe"
+            [value]="titel()"
+            (input)="titel.set(wert($event))"
+            (keydown.enter)="leerAnlegen()"
+          />
+        </div>
+        @if (leerFehler(); as f) {
+          <p class="hinweis fehler" role="alert">{{ f }}</p>
+        }
+        <button
+          type="button"
+          class="knopf primaer"
+          [disabled]="speichert()"
+          (click)="leerAnlegen()"
+        >
+          Anlegen und bearbeiten
+        </button>
+        @if (speicherFehler(); as f) {
+          <p class="hinweis fehler" role="alert">{{ f }}</p>
+        }
+      </div>
+      <div>
+        <button type="button" class="knopf text" (click)="zurueckZurAuswahl()">
+          ← Andere Art wählen
+        </button>
+      </div>
+    }
+  }
+</div>

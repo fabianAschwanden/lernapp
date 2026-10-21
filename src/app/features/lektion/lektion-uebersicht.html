@@ -1,0 +1,207 @@
+<div class="seite">
+  @if (lektion(); as l) {
+    <header class="kopfbereich">
+      <div class="zeile chips">
+        <span class="chip primaer">{{ l.fach }}</span>
+        @if (l.klasse) {
+          <span class="chip">{{ l.klasse }}</span>
+        }
+        @if (herkunft(); as h) {
+          <span class="chip">{{ h }}</span>
+        }
+      </div>
+      <h1>{{ l.titel }}</h1>
+      @if (l.beschreibung) {
+        <p class="leise">{{ l.beschreibung }}</p>
+      }
+      @if (pruefung(); as p) {
+        <p class="pruefung">
+          <strong>Prüfung:</strong> {{ p.datum }}
+          @if (p.countdown) {
+            <span class="chip primaer">{{ p.countdown }}</span>
+          }
+        </p>
+      }
+    </header>
+
+    @if (l.hinweise?.length) {
+      <aside class="hinweis" aria-labelledby="zur-pruefung">
+        <h2 id="zur-pruefung" class="hinweis-titel">Zur Prüfung</h2>
+        <ul>
+          @for (h of l.hinweise; track $index) {
+            <li>{{ h }}</li>
+          }
+        </ul>
+      </aside>
+    }
+
+    @if (quellen().length) {
+      <details class="quellen">
+        <summary>Quellen ({{ quellen().length }})</summary>
+        <ul>
+          @for (q of quellen(); track q.id) {
+            <li>
+              {{ q.titel }}
+              @if (q.umfang) {
+                <span class="leise">, {{ q.umfang }}</span>
+              }
+            </li>
+          }
+        </ul>
+      </details>
+    }
+
+    <section class="karte stand-karte" aria-labelledby="gesamtstand">
+      <div class="zeile zwischen">
+        <h2 id="gesamtstand" class="ueberschrift-klein ohne-abstand">Gesamtstand</h2>
+        <strong>{{ prozent() }} %</strong>
+      </div>
+      <div
+        class="balken"
+        role="progressbar"
+        aria-labelledby="gesamtstand"
+        [attr.aria-valuenow]="prozent()"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      >
+        <span [style.width.%]="prozent()"></span>
+      </div>
+    </section>
+
+    @if (l.fragen.length) {
+      <nav class="aktionen" aria-label="Lernen">
+        <a class="knopf primaer aktion" [routerLink]="['/lektion', l.id, 'lernen']">
+          <span class="aktion-titel">Lernen</span>
+          <span class="aktion-unter">{{ summe().neu }} neu · {{ summe().faellig }} fällig</span>
+        </a>
+        <a class="knopf aktion" [routerLink]="['/lektion', l.id, 'pruefung']">
+          <span class="aktion-titel">Probeprüfung</span>
+          <span class="aktion-unter leise">Note nach Schweizer Skala</span>
+        </a>
+        <a class="knopf aktion" [routerLink]="['/lektion', l.id, 'lernzettel']">
+          <span class="aktion-titel">Lernzettel</span>
+          <span class="aktion-unter leise">Stoff zum Nachlesen</span>
+        </a>
+        @if (summe().fehler) {
+          <a
+            class="knopf aktion"
+            [routerLink]="['/lektion', l.id, 'lernen']"
+            [queryParams]="{ modus: 'fehler' }"
+          >
+            <span class="aktion-titel">Fehler wiederholen ({{ summe().fehler }})</span>
+            <span class="aktion-unter leise">Zuletzt falsch beantwortet</span>
+          </a>
+        }
+      </nav>
+    } @else {
+      <p class="hinweis warnung">
+        Diese Lektion hat noch keine Fragen.
+        <a [routerLink]="['/lektion', l.id, 'bearbeiten']">Fragen ergänzen</a>
+      </p>
+      <a class="knopf breit" [routerLink]="['/lektion', l.id, 'lernzettel']">Lernzettel öffnen</a>
+    }
+
+    <h2 class="ueberschrift-klein">Lernziele</h2>
+    @for (t of themen(); track t.thema) {
+      <section class="thema" [attr.aria-label]="t.thema">
+        <h3 class="thema-titel">{{ t.thema }}</h3>
+        <ul class="stapel liste">
+          @for (s of t.staende; track s.lernziel.id) {
+            <li class="karte flach lernziel">
+              <p class="lz-text">{{ s.lernziel.text }}</p>
+              <div
+                [class]="'balken ' + stufeKlasse[s.stufe]"
+                role="progressbar"
+                [attr.aria-label]="'Stand: ' + standLabel[s.stufe]"
+                [attr.aria-valuenow]="prozentVon(s.anteil)"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <span [style.width.%]="prozentVon(s.anteil)"></span>
+              </div>
+              <div class="zeile chips">
+                <span [class]="'chip ' + stufeKlasse[s.stufe]">{{ standLabel[s.stufe] }}</span>
+                <span class="chip"
+                  >{{ s.anzahlFragen }} {{ s.anzahlFragen === 1 ? 'Frage' : 'Fragen' }}</span
+                >
+                @if (s.lernziel.ergaenzt) {
+                  <!-- Sichtbar erklärt statt nur im title (Touch, Screenreader) -->
+                  <span class="chip mittel">nicht in deinen Unterlagen</span>
+                }
+              </div>
+              <div class="zeile lz-knoepfe">
+                @if (s.anzahlFragen) {
+                  <a
+                    class="knopf"
+                    [routerLink]="['/lektion', l.id, 'lernen']"
+                    [queryParams]="{ modus: 'lernziel', lz: s.lernziel.id }"
+                    [attr.aria-label]="'Üben: ' + s.lernziel.text"
+                    >Üben</a
+                  >
+                }
+                <a
+                  class="knopf"
+                  [routerLink]="['/lektion', l.id, 'lernzettel']"
+                  [queryParams]="{ lz: s.lernziel.id }"
+                  [attr.aria-label]="'Lernzettel: ' + s.lernziel.text"
+                  >Lernzettel</a
+                >
+              </div>
+            </li>
+          }
+        </ul>
+      </section>
+    }
+
+    @if (pruefungen().length) {
+      <h2 class="ueberschrift-klein">Probeprüfungen</h2>
+      <ul class="karte flach verlauf">
+        @for (p of pruefungen(); track p.id) {
+          <li class="zeile zwischen">
+            <span>{{ p.am | date: 'd.M.yyyy, HH:mm' }}</span>
+            <span class="zeile">
+              <span class="leise klein"
+                >{{ p.punkte | number: '1.0-1' }} / {{ p.maxPunkte | number: '1.0-1' }} Punkte</span
+              >
+              <span [class]="'chip ' + (istGenuegend(p.note) ? 'gut' : 'schlecht')">
+                Note {{ halbeNote(p.note) | number: '1.1-1' }}
+              </span>
+            </span>
+          </li>
+        }
+      </ul>
+    }
+
+    <h2 class="ueberschrift-klein">Verwalten</h2>
+    <div class="verwalten">
+      <a class="knopf" [routerLink]="['/lektion', l.id, 'bearbeiten']">Bearbeiten</a>
+      <button type="button" class="knopf" (click)="exportieren()">Exportieren</button>
+      <button type="button" class="knopf" (click)="zuruecksetzen()" [disabled]="beschaeftigt()">
+        Lernstand zurücksetzen
+      </button>
+      @if (!istMitgeliefert()) {
+        <button type="button" class="knopf gefahr" (click)="loeschen()" [disabled]="beschaeftigt()">
+          Löschen
+        </button>
+      } @else if (istBearbeiteteKopie()) {
+        <button
+          type="button"
+          class="knopf gefahr"
+          (click)="originalWiederherstellen()"
+          [disabled]="beschaeftigt()"
+        >
+          Original wiederherstellen
+        </button>
+      }
+    </div>
+    <div aria-live="polite" class="meldung">
+      @if (meldung(); as m) {
+        <p [class]="'hinweis ' + m.art">{{ m.text }}</p>
+      }
+    </div>
+  } @else {
+    <h1>Lektion nicht gefunden</h1>
+    <p class="leise">Diese Lektion gibt es nicht (mehr). Vielleicht wurde sie gelöscht.</p>
+    <a class="knopf primaer" routerLink="/">Zur Startseite</a>
+  }
+</div>

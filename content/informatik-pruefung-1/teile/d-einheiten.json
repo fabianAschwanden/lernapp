@@ -1,0 +1,478 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-einheiten",
+      "zusammenfassung": "### Information und Daten\nInformation ist alles, was wir mit unseren Sinnen Neues wahrnehmen (eine Geschichte, eine Landschaft, Musik). Damit man Information **speichern oder weitergeben** kann, braucht sie eine darstellbare Form: **Daten** (z. B. Buchstaben auf Papier, Farben auf einer Leinwand, Noten). Die Menge an Information misst man in **Bit**.\n\n### Bit und Bitfolge\n- **Bit** (Abkürzung **b**) = kleinste Informationseinheit. Ein Bit unterscheidet genau **2 Zustände**: **0 oder 1** (z. B. Lampe aus/an; Transistor: Strom blockiert = 0, Strom fliesst = 1).\n- Reichen 2 Zustände nicht (Ampel: rot, gelb, grün), nimmt man mehrere Bits hintereinander: eine **Bitfolge**, z. B. `00`, `01`, `10`, `11`.\n- Den Speicher eines Computers kann man sich als sehr lange Bitfolge aus Nullen und Einsen vorstellen.\n\n### Byte\n- **1 Byte (B) = 8 Bit (b)**\n- Bit → Byte: **durch 8** teilen. Byte → Bit: **mal 8** rechnen.\n\n### Vorsilben im SI-System (wie im Skript)\n| Vorsilbe | Abkürzung | bedeutet | Beispiel |\n|---|---|---|---|\n| Kilo | k (auch K) | 1000 | 1 kB = 1000 Byte |\n| Mega | M | 1 000 000 | 1 MB = 1000 kB |\n| Giga | G | 1 000 000 000 (10^9) | 1 GB = 1000 MB |\n| Tera | T | 1 000 000 000 000 (10^12) | 1 TB = 1000 GB |\n\nJede Stufe auf der Treppe ist **Faktor 1000** (drei Nullen). Zur **kleineren** Einheit: **mal 1000**. Zur **grösseren** Einheit: **durch 1000**. Über zwei Stufen also Faktor 1 000 000, z. B. 1 TB = 1 000 000 MB.\n\n### Grosses B oder kleines b?\n- **B = Byte**, **b = Bit**. **MB** = Megabyte, **Mb** bzw. **Mbit** = Megabit. Dazwischen liegt der **Faktor 8**!\n- Beim Kilo ist beides üblich: **kB** und **KB** bedeuten beide Kilobyte. Wichtig ist nur das B bzw. b.\n- Internetgeschwindigkeiten werden in **Mbit/s** angegeben: 100 Mbit/s = 100 : 8 = **12,5 MB/s**.\n\n### Umrechnen Schritt für Schritt\n1. Geht es um Bit und Byte? Dann **: 8** (Bit → Byte) oder **· 8** (Byte → Bit).\n2. Dann Stufe für Stufe: pro Stufe **: 1000** oder **· 1000** (drei Nullen streichen oder anhängen).\n\nBeispiel (Aufgabe 2.3c): 3 000 000 000 Bit : 8 = 375 000 000 Byte = 375 000 kB = **375 MB**.\nAnderer Weg: 3 000 000 000 Bit = 3 000 000 kbit = 3000 Mbit, dann 3000 : 8 = **375 MB**.\n\n### Beispiele aus dem Skript\n| Beispiel | Grösse in Bit | umgerechnet |\n|---|---|---|\n| Textnachricht (ca. 1000 Zeichen) | ca. 8000 Bit | 1000 Byte = 1 kB |\n| Foto | ca. 40 000 000 Bit | 5 MB |\n| Lied (3 Minuten) | ca. 25 000 000 Bit | 3,125 MB |\n| Video (1 Minute) | ca. 3 000 000 000 Bit | 375 MB |\n| Kinofilm (2 Stunden, HD) | ca. 300 000 000 000 Bit | 37,5 GB |\n\n### Wie viel passt darauf? (Aufgabe 2.4)\nZuerst **die gleiche Einheit herstellen**, dann teilen.\n- Fotos à 5 MB: 512 GB = 512 000 MB → 512 000 : 5 = **102 400 Fotos**; 2 TB = 2 000 000 MB → 2 000 000 : 5 = **400 000 Fotos**\n- Filme à 4 GB: 512 : 4 = **128 Filme**; 2 TB = 2000 GB → 2000 : 4 = **500 Filme**\n\n### 1000 oder 1024?\nManche Programme (z. B. Windows) rechnen mit **1024** statt 1000 (genau genommen heisst das dann KiB, MiB, GiB). Darum zeigt der Computer bei einer neuen 512-GB-Festplatte etwas weniger an. **Für die Prüfung gilt das SI-System aus dem Skript: immer Faktor 1000.**\n\n*Zusatzwissen (nicht im Skript): die Internetgeschwindigkeit in Mbit/s und die Rechnung mit 1024.*",
+      "merksaetze": [
+        "1 Byte = 8 Bit: von Bit zu Byte durch 8, von Byte zu Bit mal 8.",
+        "Kilo, Mega, Giga, Tera: jede Stufe ist Faktor 1000 (SI-System).",
+        "Grosses B = Byte, kleines b = Bit: 100 Mbit/s sind nur 12,5 MB/s.",
+        "Vor dem Teilen immer zuerst die gleiche Einheit herstellen."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/informatik/einheiten-treppe.svg",
+          "alt": "Treppe der Speichereinheiten von Bit über Byte, Kilobyte, Megabyte und Gigabyte bis Terabyte mit den Umrechnungsfaktoren zwischen den Stufen",
+          "legende": "Zwischen Bit und Byte liegt der Faktor 8, zwischen allen weiteren Stufen der Faktor 1000. Zur kleineren Einheit mal rechnen, zur grösseren durch."
+        }
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-einheiten-01",
+      "lernzielId": "lz-einheiten",
+      "typ": "einfachwahl",
+      "frage": "Aus wie vielen Bit besteht ein Byte?",
+      "optionen": ["2 Bit", "8 Bit", "10 Bit", "1000 Bit"],
+      "richtig": 1,
+      "erklaerung": "Ein Byte besteht aus **8 Bit** (Skript S. 24). 2 ist die Anzahl Zustände eines einzelnen Bits, 1000 ist der Faktor zwischen den Stufen Kilo, Mega, Giga und Tera.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-einheiten-02",
+      "lernzielId": "lz-einheiten",
+      "typ": "kurzantwort",
+      "frage": "Eine Lampe ist entweder **an** oder **aus**. Wie heisst die Einheit für die Informationsmenge, mit der man festhält, welcher der beiden Zustände gerade vorliegt? (Schreibe das Wort aus.)",
+      "akzeptiert": ["Bit", "ein Bit", "1 Bit", "Bits"],
+      "erklaerung": "Ein **Bit** ist die Informationsmenge, die nötig ist, um zwischen zwei möglichen Zuständen zu unterscheiden (Skript S. 22): an/aus, 0/1. Abgekürzt wird es mit kleinem **b**. Ein Byte ist bereits eine grössere Einheit (8 Bit).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-einheiten-03",
+      "lernzielId": "lz-einheiten",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aussagen über das **Bit** stimmen?",
+      "optionen": [
+        "Ein Bit kann genau zwei Zustände unterscheiden: 0 oder 1",
+        "Ein Bit besteht aus 8 Byte",
+        "Ein Bit ist die kleinste Informationseinheit",
+        "Ein Bit wird mit grossem «B» abgekürzt"
+      ],
+      "richtig": [0, 2],
+      "erklaerung": "Ein Bit ist die kleinste Informationseinheit und unterscheidet zwei Zustände (0/1). Umgekehrt stimmt es: Ein **Byte** besteht aus 8 Bit. Das grosse «B» steht für Byte, Bit kürzt man mit kleinem «b» ab.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-einheiten-04",
+      "lernzielId": "lz-einheiten",
+      "typ": "einfachwahl",
+      "frage": "Was sind **Daten** im Sinne des Skripts?",
+      "optionen": [
+        "Alles Neue, was wir mit den Sinnen wahrnehmen, z. B. eine Geschichte oder Musik",
+        "Die Masseinheit, mit der man Information misst, z. B. Bit oder Byte",
+        "Die Geräte, auf denen man Information speichert, z. B. Festplatten",
+        "Information in einer darstellbaren Form, z. B. Buchstaben oder Noten"
+      ],
+      "richtig": 3,
+      "erklaerung": "Damit Information gespeichert oder weitergegeben werden kann, muss sie in eine darstellbare Form gebracht werden – das sind **Daten** (Schriftzeichen, Farben auf der Leinwand, Notensymbole; Skript S. 21). Was wir mit den Sinnen Neues wahrnehmen, ist die **Information** selbst. Bit und Byte sind Masseinheiten, Festplatten sind Speichergeräte.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-einheiten-05",
+      "lernzielId": "lz-einheiten",
+      "typ": "kurzantwort",
+      "frage": "Auf einer externen Festplatte steht «1000 GB». Wie heisst die nächstgrössere Einheit, mit der man dieselbe Menge als **1 …** angeben kann? (Schreib das Wort aus.)",
+      "akzeptiert": [
+        "Terabyte",
+        "Terabytes",
+        "1 Terabyte",
+        "ein Terabyte"
+      ],
+      "erklaerung": "Jede Stufe ist Faktor 1000: 1000 GB = **1 Terabyte** (TB). Die Reihenfolge lautet Byte → Kilobyte → Megabyte → Gigabyte → Terabyte.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-einheiten-06",
+      "lernzielId": "lz-einheiten",
+      "typ": "zuordnen",
+      "frage": "Ordne jeder Abkürzung die ausgeschriebene Einheit zu.",
+      "paare": [
+        { "links": "KB", "rechts": "Kilobyte" },
+        { "links": "Mb", "rechts": "Megabit" },
+        { "links": "MB", "rechts": "Megabyte" },
+        { "links": "Gb", "rechts": "Gigabit" },
+        { "links": "TB", "rechts": "Terabyte" }
+      ],
+      "erklaerung": "Grosses **B** = Byte, kleines **b** = Bit – darum ist Mb ein Megabit und MB ein Megabyte (Faktor 8 dazwischen). Die Vorsilben: **K** bzw. k = Kilo, **M** = Mega, **G** = Giga, **T** = Tera. Beim Kilo sind beide Schreibweisen üblich: KB = kB = Kilobyte.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-einheiten-07",
+      "lernzielId": "lz-einheiten",
+      "typ": "reihenfolge",
+      "frage": "Ordne die Einheiten von der **kleinsten** zur **grössten**.",
+      "elemente": ["Bit", "Byte", "Kilobyte", "Megabyte", "Gigabyte", "Terabyte"],
+      "erklaerung": "Bit ist die kleinste Einheit, 8 Bit sind ein Byte. Danach folgen Kilo, Mega, Giga, Tera – jede Stufe ist 1000-mal so gross wie die vorherige.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-einheiten-08",
+      "lernzielId": "lz-einheiten",
+      "typ": "kurzantwort",
+      "frage": "Welche Vorsilbe bedeutet **1000**? (Beispiel: 1000 Byte = 1 …byte)",
+      "akzeptiert": ["Kilo", "Kilo-", "k", "Kilobyte", "kB"],
+      "erklaerung": "**Kilo** (Abkürzung k bzw. K) bedeutet 1000 – wie bei 1 Kilometer = 1000 Meter. 1 kB = 1000 Byte. Mega wäre schon 1 000 000.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-einheiten-09",
+      "lernzielId": "lz-einheiten",
+      "typ": "einfachwahl",
+      "frage": "Wie viele Byte sind **1 kB** nach dem SI-System, das im Skript verwendet wird?",
+      "optionen": ["1000 Byte", "1024 Byte", "100 Byte", "8000 Byte"],
+      "richtig": 0,
+      "erklaerung": "Im SI-System gilt **1 kB = 1000 Byte**. Manche Programme rechnen mit 1024 – für die Prüfung gilt aber das SI-System des Skripts. 8000 wäre die Anzahl **Bit** in 1 kB.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-einheiten-10",
+      "lernzielId": "lz-einheiten",
+      "typ": "wahrfalsch",
+      "frage": "Um eine Angabe von **Bit in Byte** umzurechnen, rechnet man **mal 8**, weil ein Byte aus 8 Bit besteht.",
+      "richtig": false,
+      "erklaerung": "Von Bit in Byte rechnet man **durch 8**. Ein Byte ist grösser als ein Bit, also braucht man weniger Byte als Bit: 8000 Bit = 1000 Byte. Mal 8 rechnet man in die andere Richtung (Byte → Bit).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-einheiten-11",
+      "lernzielId": "lz-einheiten",
+      "typ": "einfachwahl",
+      "frage": "Was ist der Unterschied zwischen **Mb** und **MB**?",
+      "optionen": [
+        "Mb = Megabyte, MB = Megabit",
+        "Beides bedeutet dasselbe, nur anders geschrieben",
+        "Mb = Millibyte, MB = Megabyte",
+        "Mb = Megabit, MB = Megabyte"
+      ],
+      "richtig": 3,
+      "erklaerung": "Kleines **b** steht für **Bit**, grosses **B** für **Byte**. Mb (oder Mbit) = Megabit, MB = Megabyte. Der Unterschied ist der Faktor 8 – Gross- und Kleinschreibung ist hier also wichtig!",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-einheiten-12",
+      "lernzielId": "lz-einheiten",
+      "typ": "offen",
+      "frage": "Erkläre den Unterschied zwischen **Bit** und **Byte**. Nenne auch die Abkürzungen und wie man zwischen den beiden umrechnet.",
+      "musterloesung": "Ein **Bit** (Abkürzung b) ist die kleinste Informationseinheit: Es unterscheidet genau zwei Zustände, 0 oder 1. Ein **Byte** (Abkürzung B) ist eine grössere Einheit und besteht aus **8 Bit**. Von Bit in Byte rechnet man durch 8, von Byte in Bit mal 8 (z. B. 8000 Bit = 1000 Byte).",
+      "stichworte": ["kleinste Informationseinheit", "0 oder 1", "zwei Zustände", "1 Byte = 8 Bit", "b und B", "durch 8 / mal 8"],
+      "erklaerung": "Eine vollständige Antwort nennt beide Definitionen (Bit = 2 Zustände, Byte = 8 Bit), die Abkürzungen (kleines b, grosses B) und die Umrechnung mit dem Faktor 8.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-einheiten-13",
+      "lernzielId": "lz-einheiten",
+      "typ": "zahl",
+      "frage": "Wie viele Megabyte sind in **1 Gigabyte** enthalten (SI-System)?",
+      "richtig": 1000,
+      "einheit": "MB",
+      "erklaerung": "Giga ist eine Stufe grösser als Mega, also Faktor 1000: **1 GB = 1000 MB** (Aufgabe 2.2).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-einheiten-14",
+      "lernzielId": "lz-einheiten",
+      "typ": "zahl",
+      "frage": "Wie viele Megabyte sind in **1 Terabyte** enthalten (SI-System)?",
+      "richtig": 1000000,
+      "einheit": "MB",
+      "erklaerung": "Von Tera zu Mega sind es zwei Stufen: 1 TB = 1000 GB = 1000 · 1000 MB = **1 000 000 MB** (Aufgabe 2.2). Wer nur 1000 MB rechnet, hat eine Stufe vergessen.",
+      "tipp": "Zuerst TB in GB, dann GB in MB.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-einheiten-15",
+      "lernzielId": "lz-einheiten",
+      "typ": "wahrfalsch",
+      "frage": "Im SI-System ist **1 GB** gleich viel wie **1 000 000 kB**.",
+      "richtig": true,
+      "erklaerung": "1 GB = 1000 MB und 1 MB = 1000 kB, also 1 GB = 1000 · 1000 kB = 1 000 000 kB. Zwischen Giga und Kilo liegen zwei Stufen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-einheiten-16",
+      "lernzielId": "lz-einheiten",
+      "typ": "zahl",
+      "frage": "Wie viele Bit sind **3 Byte**?",
+      "richtig": 24,
+      "einheit": "Bit",
+      "erklaerung": "Byte → Bit: mal 8. 3 · 8 = **24 Bit**.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-einheiten-17",
+      "lernzielId": "lz-einheiten",
+      "typ": "zahl",
+      "frage": "Eine kurze Textnachricht (ca. 1000 Zeichen) braucht ca. **8000 Bit**. Wie viele **Kilobyte** sind das?",
+      "richtig": 1,
+      "einheit": "kB",
+      "erklaerung": "8000 Bit : 8 = 1000 Byte, und 1000 Byte = **1 kB**. Für jedes Zeichen braucht es hier also etwa 1 Byte.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-einheiten-18",
+      "lernzielId": "lz-einheiten",
+      "typ": "zahl",
+      "frage": "Ein Foto belegt **40 000 000 Bit**. Wie viele **Megabyte** sind das?",
+      "richtig": 5,
+      "einheit": "MB",
+      "erklaerung": "40 000 000 Bit : 8 = 5 000 000 Byte = 5000 kB = **5 MB** (Aufgabe 2.3a). Oder: 40 000 000 Bit = 40 Mbit, 40 : 8 = 5 MB.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-einheiten-19",
+      "lernzielId": "lz-einheiten",
+      "typ": "zahl",
+      "frage": "Ein Video von einer Minute hat ca. **3 000 000 000 Bit**. Wie viele **Megabyte** sind das?",
+      "richtig": 375,
+      "einheit": "MB",
+      "erklaerung": "3 000 000 000 Bit : 8 = 375 000 000 Byte = 375 000 kB = **375 MB** (Aufgabe 2.3c). Anderer Weg: 3 000 000 000 Bit = 3 000 000 kbit = 3000 Mbit, dann 3000 : 8 = 375 MB. Achtung: Das Ergebnis sind **Megabyte** (MB, grosses B) – 375 Mb (kleines b) wären Megabit und nur ein Achtel davon. In der Prüfung auf die Gross-/Kleinschreibung achten.",
+      "tipp": "Erst in Mbit umrechnen (Nullen streichen), dann durch 8.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-einheiten-20",
+      "lernzielId": "lz-einheiten",
+      "typ": "zahl",
+      "frage": "Ein Lied von drei Minuten hat ca. **25 000 000 Bit**. Wie viele **Megabyte** sind das?",
+      "richtig": 3.125,
+      "einheit": "MB",
+      "erklaerung": "25 000 000 Bit = 25 Mbit. 25 : 8 = 3 Rest 1, und 1 : 8 = 0,125. Also **3,125 MB** (Aufgabe 2.3b).",
+      "tipp": "1 : 8 = 0,125",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-einheiten-21",
+      "lernzielId": "lz-einheiten",
+      "typ": "einfachwahl",
+      "frage": "Was ist grösser: **2 GB** oder **1500 MB**?",
+      "optionen": ["2 GB", "1500 MB", "Beide sind gleich gross"],
+      "richtig": 0,
+      "erklaerung": "2 GB = 2000 MB, und 2000 MB ist mehr als 1500 MB. Die grössere Zahl allein sagt nichts – man muss zuerst in die gleiche Einheit umrechnen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-einheiten-22",
+      "lernzielId": "lz-einheiten",
+      "typ": "einfachwahl",
+      "frage": "Welche Angabe ist genau gleich gross wie **4000 kB**?",
+      "optionen": ["4 GB", "40 MB", "4 MB", "400 MB"],
+      "richtig": 2,
+      "erklaerung": "kB → MB: durch 1000. 4000 kB : 1000 = **4 MB**. 4 GB wären 4 000 000 kB, also tausendmal mehr.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-einheiten-23",
+      "lernzielId": "lz-einheiten",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Angaben sind **genau gleich gross wie 1 MB**?",
+      "optionen": ["1000 kB", "1000 Byte", "8 000 000 Bit", "0,1 GB"],
+      "richtig": [0, 2],
+      "erklaerung": "1 MB = 1000 kB = 1 000 000 Byte = 8 000 000 Bit (mal 8). 1000 Byte sind nur 1 kB, und 0,1 GB wären 100 MB (richtig wäre 0,001 GB).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-einheiten-24",
+      "lernzielId": "lz-einheiten",
+      "typ": "reihenfolge",
+      "frage": "Ordne die Datenmengen von der **kleinsten** zur **grössten**.",
+      "elemente": ["7000 Bit", "1 kB", "1500 Byte", "0,5 MB", "2 000 000 Byte", "1 GB"],
+      "erklaerung": "Alles in Byte umrechnen: 7000 Bit = 875 Byte, 1 kB = 1000 Byte, 1500 Byte, 0,5 MB = 500 000 Byte, 2 000 000 Byte (= 2 MB), 1 GB = 1 000 000 000 Byte.",
+      "tipp": "Rechne alles in Byte um.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-einheiten-25",
+      "lernzielId": "lz-einheiten",
+      "typ": "zuordnen",
+      "frage": "Rechne jede Datenmenge um und ordne ihr den gleich grossen Wert zu.",
+      "paare": [
+        { "links": "800 Bit", "rechts": "100 Byte" },
+        { "links": "16 000 Bit", "rechts": "2 kB" },
+        { "links": "24 000 000 Bit", "rechts": "3 MB" },
+        { "links": "4 000 000 000 Bit", "rechts": "500 MB" },
+        { "links": "8 000 000 000 000 Bit", "rechts": "1 TB" }
+      ],
+      "erklaerung": "Immer zuerst durch 8 (Bit → Byte), dann pro Stufe durch 1000: 800 : 8 = 100 Byte. 16 000 : 8 = 2000 Byte = 2 kB. 24 000 000 : 8 = 3 000 000 Byte = 3 MB. 4 000 000 000 : 8 = 500 000 000 Byte = 500 MB. 8 000 000 000 000 : 8 = 1 000 000 000 000 Byte = 1 TB.",
+      "tipp": "Zuerst durch 8, dann drei Nullen pro Stufe streichen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-einheiten-26",
+      "lernzielId": "lz-einheiten",
+      "typ": "zahl",
+      "frage": "Die Festplatte bzw. SSD eines Laptops fasst **512 GB**. Ein Smartphone-Foto belegt ca. **5 MB**. Wie viele Fotos passen darauf?",
+      "richtig": 102400,
+      "einheit": "Fotos",
+      "erklaerung": "Zuerst gleiche Einheit: 512 GB = 512 000 MB. Dann teilen: 512 000 : 5 = **102 400 Fotos** (Aufgabe 2.4a). Rechentrick: 512 000 : 10 = 51 200, mal 2 = 102 400.",
+      "tipp": "Durch 5 teilen = durch 10 teilen und mal 2 nehmen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-einheiten-27",
+      "lernzielId": "lz-einheiten",
+      "typ": "zahl",
+      "frage": "Wie viele Fotos à **5 MB** passen auf eine Festplatte mit **2 TB**?",
+      "richtig": 400000,
+      "einheit": "Fotos",
+      "erklaerung": "2 TB = 2000 GB = 2 000 000 MB. 2 000 000 : 5 = **400 000 Fotos** (Aufgabe 2.4a).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-einheiten-28",
+      "lernzielId": "lz-einheiten",
+      "typ": "zahl",
+      "frage": "Ein zweistündiger Film in sehr hoher Qualität belegt ca. **4 GB**. Wie viele solche Filme passen auf eine Festplatte mit **512 GB**?",
+      "richtig": 128,
+      "einheit": "Filme",
+      "erklaerung": "Beide Angaben sind schon in GB: 512 : 4 = **128 Filme** (Aufgabe 2.4b). Auf 2 TB = 2000 GB hätten 2000 : 4 = 500 Filme Platz. Dass die Tabelle im Skript für einen Kinofilm 37,5 GB nennt, ist kein Widerspruch: Wie gross eine Filmdatei ist, hängt stark davon ab, wie sie gespeichert (komprimiert) wird. Rechne hier mit den 4 GB aus der Aufgabe.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-einheiten-29",
+      "lernzielId": "lz-einheiten",
+      "typ": "offen",
+      "frage": "Ein Videospiel-Update umfasst **16 000 000 000 Bit**. Rechne in **Gigabyte** um und schreibe den Rechenweg auf.",
+      "musterloesung": "Zuerst Bit in Byte: 16 000 000 000 Bit : 8 = 2 000 000 000 Byte. Dann stufenweise durch 1000: 2 000 000 kB = 2000 MB = **2 GB**. (Alternativ: 16 000 000 000 Bit = 16 Gbit, 16 : 8 = 2 GB.)",
+      "stichworte": ["durch 8", "2 000 000 000 Byte", "durch 1000 pro Stufe", "2 GB"],
+      "erklaerung": "Wichtig sind beide Schritte: einmal durch 8 (Bit → Byte) und dann pro Stufe durch 1000 (Byte → kB → MB → GB). Die Reihenfolge der Schritte spielt keine Rolle.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-einheiten-30",
+      "lernzielId": "lz-einheiten",
+      "typ": "zahl",
+      "frage": "Dein Internetanbieter verspricht **100 Mbit/s**. Wie viele **Megabyte** pro Sekunde kannst du damit höchstens herunterladen?",
+      "richtig": 12.5,
+      "einheit": "MB/s",
+      "erklaerung": "Mbit → MB: durch 8. 100 : 8 = **12,5 MB/s**. Typischer Fehler: 100 MB/s – dabei wird das kleine b (Bit) mit dem grossen B (Byte) verwechselt. (Transferaufgabe: Internetgeschwindigkeiten stehen nicht im Skript.)",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-einheiten-31",
+      "lernzielId": "lz-einheiten",
+      "typ": "einfachwahl",
+      "frage": "Was ist mehr: **8 Mb** oder **2 MB**?",
+      "optionen": ["8 Mb", "2 MB", "Beide sind gleich gross"],
+      "richtig": 1,
+      "erklaerung": "Kleines b = Bit, grosses B = Byte. 2 MB = 2 · 8 = **16 Mb**, also doppelt so viel wie 8 Mb. Umgekehrt gerechnet: 8 Mb : 8 = 1 MB. Wer nur auf die Zahlen schaut, hält fälschlich 8 Mb für mehr.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-einheiten-32",
+      "lernzielId": "lz-einheiten",
+      "typ": "einfachwahl",
+      "frage": "Mit welcher Rechnung wandelst du **2 GB** richtig in **Bit** um?",
+      "optionen": ["2 · 1 000 000 000 : 8", "2 · 1 000 000 · 8", "2 · 1 000 000 000 · 8", "2 · 1000 · 8"],
+      "richtig": 2,
+      "erklaerung": "2 GB = 2 · 1 000 000 000 Byte. Byte → Bit: **mal 8**. Ergebnis: 16 000 000 000 Bit. Durch 8 wäre die falsche Richtung, und 1 000 000 bzw. 1000 sind die Faktoren für Mega bzw. Kilo, nicht für Giga.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-einheiten-33",
+      "lernzielId": "lz-einheiten",
+      "typ": "offen",
+      "frage": "Lena hat Internet mit **80 Mbit/s**. Ihr Kollege sagt: «Dann lädt ein Update von 80 MB in einer Sekunde herunter.» Erkläre, warum das nicht stimmt, und berechne, wie lange der Download mindestens dauert.",
+      "musterloesung": "Der Kollege verwechselt **Mbit** (Megabit, kleines b) mit **MB** (Megabyte, grosses B). 1 Byte = 8 Bit, also sind 80 MB = 80 · 8 = 640 Mbit. Bei 80 Mbit/s dauert der Download 640 : 80 = **8 Sekunden**. (Anderer Weg: 80 Mbit/s : 8 = 10 MB/s; 80 MB : 10 MB/s = 8 s.)",
+      "stichworte": ["Mbit ist nicht MB", "kleines b = Bit, grosses B = Byte", "1 Byte = 8 Bit", "640 Mbit", "8 Sekunden"],
+      "erklaerung": "Internetgeschwindigkeiten werden in Bit pro Sekunde angegeben, Dateigrössen in Byte. Darum muss man vor dem Rechnen mit dem Faktor 8 auf die gleiche Einheit umrechnen. (Transferaufgabe: Internetgeschwindigkeiten stehen nicht im Skript.)",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-einheiten-34",
+      "lernzielId": "lz-einheiten",
+      "typ": "zuordnen",
+      "frage": "Ordne jeder Vorsilbe ihren Zahlenwert zu (SI-System).",
+      "paare": [
+        { "links": "Kilo", "rechts": "1000" },
+        { "links": "Mega", "rechts": "1 000 000" },
+        { "links": "Giga", "rechts": "1 000 000 000" },
+        { "links": "Tera", "rechts": "1 000 000 000 000" }
+      ],
+      "erklaerung": "Jede Vorsilbe ist 1000-mal so gross wie die vorherige, also kommen pro Stufe **drei Nullen** dazu: Kilo = 1000, Mega = 1 000 000, Giga = 1 000 000 000, Tera = 1 000 000 000 000 (Skript S. 24).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-einheiten-35",
+      "lernzielId": "lz-einheiten",
+      "typ": "zahl",
+      "frage": "Wie viele Byte sind **3 KB** (SI-System)?",
+      "richtig": 3000,
+      "einheit": "Byte",
+      "erklaerung": "Das grosse **K** bedeutet wie das kleine k **Kilo** = 1000 (im Skript steht kB). 3 KB = 3 · 1000 = **3000 Byte**. Beim K spielt die Schreibweise keine Rolle, beim B schon: KB = Kilobyte, Kb = Kilobit.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-einheiten-36",
+      "lernzielId": "lz-einheiten",
+      "typ": "zahl",
+      "frage": "Wie viele **Terabyte** sind **2500 GB** (SI-System)?",
+      "richtig": 2.5,
+      "einheit": "TB",
+      "erklaerung": "GB → TB ist eine Stufe zur grösseren Einheit: **durch 1000**. 2500 : 1000 = **2,5 TB** (das Komma rückt drei Stellen nach links).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-einheiten-37",
+      "lernzielId": "lz-einheiten",
+      "typ": "zahl",
+      "frage": "Ein Kinofilm (2 Stunden, HD) hat ca. **300 000 000 000 Bit**. Wie viele **Gigabyte** sind das?",
+      "richtig": 37.5,
+      "einheit": "GB",
+      "erklaerung": "300 000 000 000 Bit = 300 Gbit (neun Nullen = drei Stufen). Dann Bit → Byte: 300 : 8 = **37,5 GB**. Oder: 300 000 000 000 Bit : 8 = 37 500 000 000 Byte = 37,5 GB (Beispiel-Tabelle im Skript S. 23).",
+      "tipp": "Zuerst in Gbit umrechnen, dann durch 8.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-einheiten-38",
+      "lernzielId": "lz-einheiten",
+      "typ": "zahl",
+      "frage": "Wie viele **Megabyte** sind **0,25 GB** (SI-System)?",
+      "richtig": 250,
+      "einheit": "MB",
+      "erklaerung": "GB → MB ist eine Stufe zur kleineren Einheit: **mal 1000**. 0,25 · 1000 = **250 MB** (das Komma rückt drei Stellen nach rechts).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-einheiten-39",
+      "lernzielId": "lz-einheiten",
+      "typ": "zahl",
+      "frage": "Ein Video hat **2 000 000 000 Bit**. Wie viele solche Videos passen auf einen USB-Stick mit **64 GB**?",
+      "richtig": 256,
+      "einheit": "Videos",
+      "erklaerung": "2 000 000 000 Bit = 2000 Mbit, durch 8 = **250 MB** pro Video. 64 GB = 64 000 MB. 64 000 : 250 = **256 Videos** (64 000 : 1000 · 4 = 64 · 4).",
+      "tipp": "Zuerst die Grösse eines Videos in MB ausrechnen, dann den Stick in MB umrechnen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-einheiten-40",
+      "lernzielId": "lz-einheiten",
+      "typ": "einfachwahl",
+      "frage": "Welche Datenmenge ist am **grössten**?",
+      "optionen": [
+        "4 000 000 kB",
+        "3 GB",
+        "0,005 TB",
+        "32 000 000 000 Bit"
+      ],
+      "richtig": 2,
+      "erklaerung": "Alles in GB umrechnen: 4 000 000 kB = 4000 MB = 4 GB. 0,005 TB = 0,005 · 1000 GB = **5 GB**. 32 000 000 000 Bit = 32 Gbit, durch 8 = 4 GB. Am grössten sind also die 0,005 TB.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-einheiten-41",
+      "lernzielId": "lz-einheiten",
+      "typ": "offen",
+      "frage": "Tim sagt: «Mein USB-Stick hat 16 GB. Das sind 128 Gb.» Stimmt das? Erkläre, was die beiden Angaben bedeuten.",
+      "musterloesung": "**Ja, das stimmt.** 16 **GB** sind 16 Gigabyte, 128 **Gb** sind 128 Gigabit. Ein Byte besteht aus 8 Bit, also gilt 16 GB · 8 = 128 Gbit – es ist dieselbe Datenmenge, nur in einer anderen Einheit. Üblich ist bei Speicherplatz die Angabe in **Byte** (GB), Bit (Gb, Gbit) braucht man vor allem bei Übertragungsraten wie 100 Mbit/s.",
+      "stichworte": [
+        "GB = Gigabyte, Gb = Gigabit",
+        "1 Byte = 8 Bit",
+        "16 · 8 = 128",
+        "dieselbe Datenmenge"
+      ],
+      "erklaerung": "Grosses B = Byte, kleines b = Bit. Von Byte zu Bit rechnet man mal 8 – die Datenmenge bleibt gleich, nur die Zahl wird grösser.",
+      "schwierigkeit": 3
+    }
+  ]
+}

@@ -1,0 +1,1105 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-anschluesse",
+      "zusammenfassung": "Am Computer, Laptop, Fernseher oder Smartphone gibt es verschiedene **Stecker und Anschlüsse**. Jede Form hat eine **Hauptaufgabe**: Daten, Strom, Netzwerk, Ton oder Bild. In der Prüfung musst du die Stecker **auf einem Foto erkennen**, **benennen** und ihre **Hauptaufgabe** kennen.\n\n### Die acht wichtigen Stecker\n- **USB-A:** flach, rechteckig, Metallrahmen mit Kunststoffzunge auf einer Seite; passt nur in einer Richtung. **Aufgabe:** Daten und Strom für Zubehör wie Maus, Tastatur, USB-Stick.\n- **USB-C:** klein, flach-oval, symmetrisch – **verdrehsicher** (egal, wie herum). **Aufgabe:** Daten und Laden (auch Laptops), oft auch Bild.\n- **Netzwerk-Stecker (RJ45):** durchsichtiger Kunststoff, 8 goldene Kontakte, **Rastnase** (Clip), rastet mit «Klick» ein. **Aufgabe:** Netzwerk und Internet per Kabel (LAN-/Ethernet-Kabel).\n- **Klinkenstecker:** runder Metallstift (meist **3,5 mm**) mit schwarzen Trennringen. **Aufgabe:** Ton (Audio) für Kopfhörer, Lautsprecher, Mikrofon.\n- **Hohlstecker:** runder Stecker, vorne **hohl** (Loch in der Mitte), am Kabel des Netzteils. **Aufgabe:** Stromversorgung vom Netzteil.\n- **HDMI:** flach und breit, **beide** unteren Ecken abgeschrägt. **Aufgabe:** digitales Bild **und** Ton zu Fernseher, Monitor, Beamer.\n- **DisplayPort:** ähnlich wie HDMI, aber nur **eine** Ecke abgeschrägt. **Aufgabe:** digitales Bild und Ton, vor allem zu Computermonitoren.\n- **VGA:** trapezförmig, meist **blau**, 15 Stifte in 3 Reihen, 2 Schrauben. **Aufgabe:** **alter**, **analoger** Bildanschluss – nur Bild, kein Ton.\n\n**Nicht verwechseln:** **Micro-USB** (älterer Handy-Stecker, nicht prüfungsrelevant) ist ebenfalls klein, aber **trapezförmig** – auf einer Seite breiter – und passt nur in einer Richtung. **USB-C** ist **oval** und symmetrisch.\n\n### So sehen die Buchsen am Gerät aus\nAuf einem Foto von einem Laptop, PC oder Fernseher siehst du oft nur die **Buchse** (das Gegenstück zum Stecker).:\n- **USB-A:** flache, rechteckige Öffnung mit einer Kunststoffzunge auf einer Seite\n- **USB-C:** kleine, ovale Öffnung mit einer dünnen Zunge genau in der Mitte\n- **Netzwerk (RJ45):** fast quadratische Öffnung mit einer **Kerbe** für die Rastnase, oft mit kleinen Lämpchen daneben\n- **Klinke:** kleines rundes Loch, oft mit Kopfhörer-Symbol\n- **Hohlstecker-Buchse:** rundes Loch mit einem **Stift in der Mitte** (der Stift steckt im hohlen Stecker)\n- **HDMI:** flache, breite Öffnung mit **zwei** schrägen Ecken\n- **DisplayPort:** ähnlich wie HDMI, aber nur **eine** schräge Ecke\n- **VGA:** trapezförmig, meist blau, **15 Löcher** in drei Reihen, links und rechts ein Gewinde für die Schrauben\n\n### Bild-Anschlüsse unterscheiden\n- **HDMI** und **DisplayPort** übertragen Bild **und** Ton **digital**. HDMI findest du vor allem an Fernsehern, Spielkonsolen und Beamern, DisplayPort vor allem an Computermonitoren und Grafikkarten.\n- **VGA** ist der **alte, analoge** Bildanschluss: nur Bild, kein Ton. Man findet ihn noch an älteren Beamern und Monitoren.\n- **USB-C** kann bei vielen Laptops und Smartphones ebenfalls ein Bild an einen Monitor senden – aber nicht bei allen Geräten.\n- Für Ton allein (ohne Bild) nimmt man den **Klinkenstecker**.\n\n### Eselsbrücken\n- **Klinke** = Kopfhörer, **Hohl**stecker = hohl und Strom.\n- **D**isplayPort: **eine** schräge Ecke – HDMI: zwei schräge Ecken.\n- **V**GA = **v**eraltet: blau, Schrauben, nur Bild.\n- Der **Netzwerk-Stecker** hat einen Plastik-Clip (Rastnase): zum Herausziehen musst du die Rastnase zum Stecker hin eindrücken.",
+      "merksaetze": [
+        "HDMI und DisplayPort: digitales Bild und Ton – VGA: alter, analoger Anschluss nur für Bild.",
+        "Netzwerk-Stecker (RJ45) = Internet per Kabel, Klinkenstecker = Ton, Hohlstecker = Strom vom Netzteil.",
+        "USB-A und USB-C übertragen Daten und Strom; USB-C kann zusätzlich oft ein Bild übertragen.",
+        "DisplayPort erkennst du an der einen abgeschrägten Ecke, HDMI an den zwei abgeschrägten Ecken."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/informatik/anschluss-usb-a.svg",
+          "alt": "Flacher, rechteckiger USB-A-Stecker mit Metallrahmen und Kunststoffzunge auf einer Seite",
+          "legende": "USB-A"
+        },
+        {
+          "src": "bilder/informatik/anschluss-usb-c.svg",
+          "alt": "Kleiner, flach-ovaler USB-C-Stecker mit abgerundeten Enden",
+          "legende": "USB-C"
+        },
+        {
+          "src": "bilder/informatik/anschluss-rj45.svg",
+          "alt": "Durchsichtiger Netzwerk-Stecker mit acht goldenen Kontakten und Rastnase",
+          "legende": "Netzwerk-Stecker (RJ45)"
+        },
+        {
+          "src": "bilder/informatik/anschluss-klinke.svg",
+          "alt": "Runder Klinkenstecker aus Metall mit schwarzen Trennringen",
+          "legende": "Klinkenstecker (3,5 mm)"
+        },
+        {
+          "src": "bilder/informatik/anschluss-hohlstecker.svg",
+          "alt": "Runder Hohlstecker eines Netzteils mit Loch in der Mitte",
+          "legende": "Hohlstecker"
+        },
+        {
+          "src": "bilder/informatik/anschluss-hdmi.svg",
+          "alt": "Flacher, breiter HDMI-Stecker mit zwei abgeschrägten unteren Ecken",
+          "legende": "HDMI"
+        },
+        {
+          "src": "bilder/informatik/anschluss-displayport.svg",
+          "alt": "DisplayPort-Stecker, ähnlich wie HDMI, aber nur mit einer abgeschrägten Ecke",
+          "legende": "DisplayPort"
+        },
+        {
+          "src": "bilder/informatik/anschluss-vga.svg",
+          "alt": "Blauer, trapezförmiger VGA-Stecker mit 15 Stiften in drei Reihen und zwei Schrauben",
+          "legende": "VGA"
+        }
+      ]
+    },
+    {
+      "id": "lz-usb-a-c",
+      "zusammenfassung": "**USB** ist der Standard-Anschluss für Zubehör und zum Laden. Die beiden wichtigsten Steckerformen sind **USB-A** (der klassische, rechteckige Stecker) und **USB-C** (der kleine, ovale Stecker an Smartphones und neuen Laptops). Beide übertragen **Daten und Strom**.\n\n### Vergleich\n| Merkmal | USB-A | USB-C |\n|---|---|---|\n| Form | rechteckig, relativ gross | klein, flach-oval |\n| Einstecken | nur in **einer** Richtung | **verdrehsicher** (beide Richtungen) |\n| Verbreitung | sehr verbreitet, an vielen älteren Geräten | Standard bei neuen Smartphones, Tablets und Laptops |\n| Strom | deutlich weniger Leistung (reicht für Maus, USB-Stick oder Handy laden – aber nicht für Laptops) | viel Leistung möglich (bis 100 W und mehr) – lädt auch Laptops |\n| Bild | kein Bildsignal (höchstens über spezielle Adapter) | kann ein Bild an einen Monitor senden (wenn Gerät und Kabel es können) |\n| Tempo | meist langsamer | meist schneller |\n\n### Vorteile und Nachteile\n**USB-A**\n- Vorteile: sehr verbreitet, passt an viele ältere Geräte (PCs, Fernseher, Autoradios …); vorhandenes Zubehör (Maus, Tastatur, USB-Stick) und Ladegeräte funktionieren ohne Adapter\n- Nachteile: gross, nur in einer Richtung einsteckbar, meist langsamer, weniger Leistung (kein Laptop laden), kein Bild\n\n**USB-C**\n- Vorteile: klein und flach (passt in dünne Geräte), verdrehsicher, schnell, lädt Geräte bis zum Laptop, kann Bild übertragen – **ein Anschluss für vieles**\n- Nachteile: **Nicht jedes USB-C-Kabel und nicht jede USB-C-Buchse kann alles** (manche Kabel laden nur oder sind langsam) – das sieht man dem Stecker nicht an, das ist verwirrend. Ältere Geräte mit USB-A brauchen einen **Adapter**.\n\n**Verdrehsicher** heisst hier: Es ist egal, wie herum du den Stecker einsteckst – er passt in beide Richtungen (auch: beidseitig einsteckbar).\n\n### Gut zu wissen\nIn der EU ist USB-C seit Ende 2024 der einheitliche Ladeanschluss für neue Smartphones, Tablets, Kopfhörer und Ähnliches, seit 2026 auch für neue Laptops. Darum verschwinden andere Ladestecker nach und nach.",
+      "merksaetze": [
+        "USB-A: sehr verbreitet, vorhandenes Zubehör passt ohne Adapter – aber gross und nur in einer Richtung einsteckbar.",
+        "USB-C: klein, verdrehsicher, schnell, lädt auch Laptops und kann ein Bild übertragen.",
+        "Nachteil USB-C: Nicht jedes Kabel kann alles – und ältere Geräte brauchen einen Adapter."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/informatik/anschluss-usb-a.svg",
+          "alt": "Klassischer, rechteckiger USB-A-Stecker, der nur in einer Richtung passt",
+          "legende": "USB-A"
+        },
+        {
+          "src": "bilder/informatik/anschluss-usb-c.svg",
+          "alt": "Kleiner, ovaler USB-C-Stecker, der in beide Richtungen passt",
+          "legende": "USB-C"
+        }
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-anschluesse-01",
+      "lernzielId": "lz-anschluesse",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Wie heisst dieser Stecker?",
+      "bild": {
+        "src": "bilder/informatik/anschluss-usb-a.svg",
+        "alt": "Abbildung eines Steckers"
+      },
+      "optionen": [
+        "USB-C",
+        "USB-A",
+        "HDMI",
+        "Netzwerk-Stecker"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das ist ein **USB-A**-Stecker: flach und rechteckig, mit einer Kunststoffzunge auf einer Seite im Inneren. Darum passt er nur in einer Richtung. USB-C wäre deutlich kleiner und oval, HDMI hat abgeschrägte Ecken."
+    },
+    {
+      "id": "f-anschluesse-02",
+      "lernzielId": "lz-anschluesse",
+      "typ": "kurzantwort",
+      "schwierigkeit": 1,
+      "frage": "Benenne den abgebildeten Stecker.",
+      "bild": {
+        "src": "bilder/informatik/anschluss-usb-c.svg",
+        "alt": "Abbildung eines Steckers"
+      },
+      "akzeptiert": [
+        "USB-C",
+        "USB C",
+        "USB Typ C",
+        "USB-Typ-C",
+        "USB Type C",
+        "USB Type-C",
+        "Typ C",
+        "Type C",
+        "USB-C-Stecker",
+        "USB-C-Kabel",
+        "USB-C-Anschluss",
+        "USB-C-Buchse",
+        "USB-Typ-C-Stecker",
+        "USB Type-C Stecker"
+      ],
+      "erklaerung": "Das ist ein **USB-C**-Stecker: klein, flach-oval und symmetrisch – deshalb passt er in beide Richtungen (verdrehsicher). Du findest ihn an Smartphones, Tablets und neuen Laptops."
+    },
+    {
+      "id": "f-anschluesse-03",
+      "lernzielId": "lz-anschluesse",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Welcher Stecker ist hier abgebildet?",
+      "bild": {
+        "src": "bilder/informatik/anschluss-rj45.svg",
+        "alt": "Abbildung eines Steckers"
+      },
+      "optionen": [
+        "Klinkenstecker",
+        "HDMI",
+        "Netzwerk-Stecker",
+        "DisplayPort-Stecker"
+      ],
+      "richtig": 2,
+      "erklaerung": "Der durchsichtige Kunststoffstecker mit acht goldenen Kontakten und einer **Rastnase** (Clip) ist der **Netzwerk-Stecker (RJ45)** am LAN- bzw. Ethernet-Kabel. Der Klinkenstecker ist dagegen ein runder Metallstift."
+    },
+    {
+      "id": "f-anschluesse-04",
+      "lernzielId": "lz-anschluesse",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Wofür wird dieser Stecker hauptsächlich verwendet?",
+      "bild": {
+        "src": "bilder/informatik/anschluss-klinke.svg",
+        "alt": "Abbildung eines Steckers"
+      },
+      "optionen": [
+        "Für Ton: Kopfhörer, Lautsprecher, Mikrofon",
+        "Für den Strom vom Netzteil zum Gerät",
+        "Für das Bild vom Computer zum Monitor",
+        "Für die Verbindung zum Internet per Kabel"
+      ],
+      "richtig": 0,
+      "erklaerung": "Das ist ein **Klinkenstecker** (meist 3,5 mm). Er überträgt **Ton (Audio)** – z. B. zu Kopfhörern oder Lautsprechern oder von einem Mikrofon. Der runde Hohlstecker sieht ähnlich aus, ist aber vorne hohl und liefert Strom."
+    },
+    {
+      "id": "f-anschluesse-05",
+      "lernzielId": "lz-anschluesse",
+      "typ": "kurzantwort",
+      "schwierigkeit": 2,
+      "frage": "Schreibe den Namen dieses Steckers auf.",
+      "bild": {
+        "src": "bilder/informatik/anschluss-hohlstecker.svg",
+        "alt": "Abbildung eines Steckers"
+      },
+      "tipp": "Dieser Stecker sitzt am Kabel eines Netzteils.",
+      "akzeptiert": [
+        "Hohlstecker",
+        "Hohl-Stecker",
+        "DC-Hohlstecker",
+        "Hohlsteckerkabel"
+      ],
+      "erklaerung": "Das ist ein **Hohlstecker**: rund und vorne **hohl** (ein Loch in der Mitte). Er sitzt am Kabel eines Netzteils und versorgt Geräte wie Router, Monitore oder Lautsprecher mit **Strom**. Verwechsle ihn nicht mit dem Klinkenstecker – der ist ein voller Metallstift mit Ringen. Achtung: In der Prüfung ist der Fachbegriff **Hohlstecker** gefragt – Umschreibungen wie «Netzteilstecker» oder «Stromstecker» reichen nicht."
+    },
+    {
+      "id": "f-anschluesse-06",
+      "lernzielId": "lz-anschluesse",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Wie nennt man diesen Stecker?",
+      "bild": {
+        "src": "bilder/informatik/anschluss-hdmi.svg",
+        "alt": "Abbildung eines Steckers"
+      },
+      "optionen": [
+        "DisplayPort",
+        "VGA",
+        "HDMI",
+        "USB-A"
+      ],
+      "richtig": 2,
+      "erklaerung": "Flach, breit und mit **zwei** abgeschrägten unteren Ecken: Das ist **HDMI**. DisplayPort sieht ähnlich aus, hat aber nur **eine** abgeschrägte Ecke. VGA ist blau und hat Schrauben."
+    },
+    {
+      "id": "f-anschluesse-07",
+      "lernzielId": "lz-anschluesse",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Um welchen Stecker handelt es sich?",
+      "bild": {
+        "src": "bilder/informatik/anschluss-displayport.svg",
+        "alt": "Abbildung eines Steckers"
+      },
+      "tipp": "Achte auf die Ecken des Steckers.",
+      "optionen": [
+        "HDMI",
+        "Klinkenstecker",
+        "VGA",
+        "DisplayPort"
+      ],
+      "richtig": 3,
+      "erklaerung": "Nur **eine** Ecke ist abgeschrägt – das ist der **DisplayPort**-Stecker. Bei HDMI sind beide unteren Ecken abgeschrägt, der Stecker ist symmetrisch. Beide übertragen digitales Bild und Ton."
+    },
+    {
+      "id": "f-anschluesse-08",
+      "lernzielId": "lz-anschluesse",
+      "typ": "kurzantwort",
+      "schwierigkeit": 1,
+      "frage": "Welchen Namen hat dieser Stecker?",
+      "bild": {
+        "src": "bilder/informatik/anschluss-vga.svg",
+        "alt": "Abbildung eines Steckers"
+      },
+      "akzeptiert": [
+        "VGA",
+        "VGA-Stecker",
+        "VGA Stecker",
+        "VGA-Anschluss",
+        "VGA-Kabel",
+        "D-Sub",
+        "D-Sub 15"
+      ],
+      "erklaerung": "Der blaue, trapezförmige Stecker mit 15 Stiften in drei Reihen und zwei Schrauben ist **VGA** – der alte, analoge Bildanschluss für Monitore und Beamer."
+    },
+    {
+      "id": "f-anschluesse-09",
+      "lernzielId": "lz-anschluesse",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Wofür wird dieser Anschluss hauptsächlich verwendet?",
+      "bild": {
+        "src": "bilder/informatik/anschluss-vga.svg",
+        "alt": "Abbildung eines Steckers"
+      },
+      "optionen": [
+        "Digitales Bild und Ton zu einem Fernseher",
+        "Strom vom Netzteil zu einem Laptop",
+        "Ton zu einem Lautsprecher oder zu Kopfhörern",
+        "Analoges Bild zu einem Monitor oder Beamer"
+      ],
+      "richtig": 3,
+      "erklaerung": "Das ist **VGA**. VGA überträgt **nur Bild** und das **analog** – es ist ein alter Anschluss, den man noch an älteren Beamern und Monitoren findet. Digitales Bild **und** Ton überträgt HDMI (oder DisplayPort)."
+    },
+    {
+      "id": "f-anschluesse-10",
+      "lernzielId": "lz-anschluesse",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Welche Hauptaufgabe hat dieser Stecker?",
+      "bild": {
+        "src": "bilder/informatik/anschluss-hohlstecker.svg",
+        "alt": "Abbildung eines Steckers"
+      },
+      "optionen": [
+        "Ton zu Kopfhörern übertragen",
+        "Gerät mit Strom vom Netzteil versorgen",
+        "Bild zum Beamer übertragen",
+        "Daten zwischen Computer und USB-Stick austauschen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das ist ein **Hohlstecker**. Er bringt den **Strom vom Netzteil** ins Gerät, z. B. bei Routern, Monitoren oder älteren Laptops. Für Ton zu Kopfhörern nimmt man den Klinkenstecker – der ist vorne nicht hohl, sondern ein Metallstift."
+    },
+    {
+      "id": "f-anschluesse-11",
+      "lernzielId": "lz-anschluesse",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 2,
+      "frage": "Dieser Stecker überträgt nur das Bild, aber keinen Ton.",
+      "bild": {
+        "src": "bilder/informatik/anschluss-hdmi.svg",
+        "alt": "Abbildung eines Steckers"
+      },
+      "richtig": false,
+      "erklaerung": "Das ist **HDMI** – es überträgt **Bild und Ton** digital über ein einziges Kabel. Darum hörst du den Ton einer Spielkonsole aus den Fernseher-Lautsprechern. Nur Bild (ohne Ton) überträgt der alte VGA-Anschluss."
+    },
+    {
+      "id": "f-anschluesse-12",
+      "lernzielId": "lz-anschluesse",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 1,
+      "frage": "Mit diesem Stecker verbindest du einen Computer per Kabel mit dem Netzwerk bzw. dem Internet.",
+      "bild": {
+        "src": "bilder/informatik/anschluss-rj45.svg",
+        "alt": "Abbildung eines Steckers"
+      },
+      "richtig": true,
+      "erklaerung": "Das ist der **Netzwerk-Stecker (RJ45)** am LAN- bzw. Ethernet-Kabel. Damit verbindest du z. B. einen PC mit dem Router – die Verbindung ist oft stabiler und schneller als WLAN."
+    },
+    {
+      "id": "f-anschluesse-13",
+      "lernzielId": "lz-anschluesse",
+      "typ": "kurzantwort",
+      "schwierigkeit": 1,
+      "frage": "Wie heisst dieser Stecker? Schreibe den Namen auf.",
+      "bild": {
+        "src": "bilder/informatik/anschluss-klinke.svg",
+        "alt": "Abbildung eines Steckers"
+      },
+      "akzeptiert": [
+        "Klinkenstecker",
+        "Klinke",
+        "Klinken-Stecker",
+        "Klinkenstecker 3,5 mm",
+        "3,5-mm-Klinke",
+        "3,5-mm-Klinkenstecker",
+        "Miniklinke",
+        "Mini-Klinkenstecker",
+        "Audio-Klinke",
+        "Klinkenkabel"
+      ],
+      "erklaerung": "Das ist ein **Klinkenstecker** (meist 3,5 mm). Typisch sind der runde Metallstift und die schwarzen Trennringe. Er überträgt Ton zu Kopfhörern, Lautsprechern oder von einem Mikrofon. Umschreibungen wie «Kopfhörerstecker» oder «Audiostecker» genügen in der Prüfung nicht – der Name **Klinke** muss vorkommen. Am sichersten schreibst du den vollen Fachbegriff **Klinkenstecker**."
+    },
+    {
+      "id": "f-anschluesse-14",
+      "lernzielId": "lz-anschluesse",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Was trifft auf diesen Stecker zu?",
+      "bild": {
+        "src": "bilder/informatik/anschluss-usb-c.svg",
+        "alt": "Abbildung eines Steckers"
+      },
+      "optionen": [
+        "Er passt in beiden Richtungen und überträgt Daten und Strom.",
+        "Er hat die Kunststoffzunge auf einer Seite und muss richtig herum hinein.",
+        "Er ist ein alter Anschluss für analoges Bild ohne Ton.",
+        "Er ist der typische Stecker am Netzwerkkabel zum Router."
+      ],
+      "richtig": 0,
+      "erklaerung": "Das ist **USB-C**. Er ist klein, symmetrisch und darum **verdrehsicher**. Er überträgt Daten und Strom (lädt sogar Laptops) und bei vielen Geräten auch ein Bild. Die Kunststoffzunge auf einer Seite hat USB-A, «analoges Bild» gilt für VGA, das Netzwerkkabel hat den RJ45-Stecker."
+    },
+    {
+      "id": "f-anschluesse-15",
+      "lernzielId": "lz-anschluesse",
+      "typ": "mehrfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Welche Geräte schliesst du typischerweise an diesen Anschluss an? Wähle alle passenden.",
+      "bild": {
+        "src": "bilder/informatik/anschluss-usb-a.svg",
+        "alt": "Abbildung eines Steckers"
+      },
+      "optionen": [
+        "Maus",
+        "Fernseher als Bildschirm",
+        "USB-Stick",
+        "Tastatur",
+        "Internet-Router per Netzwerkkabel"
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Das ist **USB-A**: Daten und Strom für Zubehör (Peripherie) wie **Maus**, **Tastatur** und **USB-Stick**. Einen Fernseher als Bildschirm schliesst man mit HDMI an, den Router mit dem Netzwerk-Stecker (RJ45)."
+    },
+    {
+      "id": "f-anschluesse-16",
+      "lernzielId": "lz-anschluesse",
+      "typ": "kurzantwort",
+      "schwierigkeit": 2,
+      "frage": "Notiere den Namen dieses Steckers.",
+      "bild": {
+        "src": "bilder/informatik/anschluss-displayport.svg",
+        "alt": "Abbildung eines Steckers"
+      },
+      "tipp": "Es ist ein Bildanschluss, den man vor allem an Computermonitoren findet.",
+      "akzeptiert": [
+        "DisplayPort",
+        "Display Port",
+        "Display-Port",
+        "DP",
+        "DisplayPort-Stecker",
+        "DP-Stecker",
+        "DP-Kabel",
+        "DisplayPort-Kabel",
+        "DisplayPort-Anschluss"
+      ],
+      "erklaerung": "Das ist **DisplayPort**: ähnlich wie HDMI, aber nur **eine** Ecke ist abgeschrägt. Er überträgt digitales Bild und Ton und wird vor allem für Computermonitore verwendet."
+    },
+    {
+      "id": "f-anschluesse-17",
+      "lernzielId": "lz-anschluesse",
+      "typ": "zuordnen",
+      "schwierigkeit": 2,
+      "frage": "Ordne jedem Stecker seine Hauptaufgabe zu.",
+      "paare": [
+        {
+          "links": "USB-A",
+          "rechts": "Daten und Strom für Zubehör"
+        },
+        {
+          "links": "USB-C",
+          "rechts": "Daten, Laden und oft auch Bild"
+        },
+        {
+          "links": "Netzwerk-Stecker (RJ45)",
+          "rechts": "Netzwerk und Internet per Kabel"
+        },
+        {
+          "links": "Klinkenstecker",
+          "rechts": "Ton (Audio)"
+        },
+        {
+          "links": "Hohlstecker",
+          "rechts": "Strom vom Netzteil"
+        },
+        {
+          "links": "HDMI",
+          "rechts": "digitales Bild und Ton"
+        },
+        {
+          "links": "DisplayPort",
+          "rechts": "digitales Bild und Ton"
+        },
+        {
+          "links": "VGA",
+          "rechts": "analoges Bild (ohne Ton)"
+        }
+      ],
+      "erklaerung": "HDMI und DisplayPort haben dieselbe Hauptaufgabe (digitales Bild und Ton); DisplayPort findet man eher an Computermonitoren, HDMI an Fernsehern und Beamern. VGA ist der alte, analoge Bildanschluss ohne Ton. USB-C kann mehr als USB-A: zusätzlich Laptops laden und oft Bild übertragen."
+    },
+    {
+      "id": "f-anschluesse-18",
+      "lernzielId": "lz-anschluesse",
+      "typ": "zuordnen",
+      "schwierigkeit": 3,
+      "frage": "Welchen Anschluss brauchst du in welcher Situation?",
+      "paare": [
+        {
+          "links": "Klassische Kabel-Kopfhörer in die Kopfhörerbuchse des Laptops stecken",
+          "rechts": "Klinkenstecker"
+        },
+        {
+          "links": "Den PC per Kabel mit dem Router verbinden",
+          "rechts": "Netzwerk-Stecker (RJ45)"
+        },
+        {
+          "links": "Die Spielkonsole an den Fernseher anschliessen",
+          "rechts": "HDMI"
+        },
+        {
+          "links": "Einen sehr alten Beamer mit blauer Buchse und Schraublöchern anschliessen",
+          "rechts": "VGA"
+        },
+        {
+          "links": "Den WLAN-Router mit seinem Steckernetzteil verbinden",
+          "rechts": "Hohlstecker"
+        },
+        {
+          "links": "Ein aktuelles Smartphone laden",
+          "rechts": "USB-C"
+        }
+      ],
+      "erklaerung": "Ton über die Kopfhörerbuchse → Klinkenstecker (es gibt auch USB-C-Kopfhörer, aber die Kopfhörerbuchse ist für den Klinkenstecker); Netzwerk per Kabel → RJ45; Bild und Ton zum Fernseher → HDMI; blaue Buchse mit Schrauben → VGA (alt, analog); Strom vom Netzteil → Hohlstecker; aktuelle Smartphones laden über USB-C."
+    },
+    {
+      "id": "f-anschluesse-19",
+      "lernzielId": "lz-anschluesse",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "HDMI und DisplayPort sehen ähnlich aus. Woran erkennst du den **DisplayPort**-Stecker?",
+      "optionen": [
+        "Beide unteren Ecken sind abgeschrägt, bei HDMI nur eine.",
+        "Er hat gar keine abgeschrägten Ecken, HDMI dagegen zwei.",
+        "Nur eine Ecke ist abgeschrägt, bei HDMI sind es zwei.",
+        "Er ist oval und symmetrisch, HDMI dagegen eckig."
+      ],
+      "richtig": 2,
+      "erklaerung": "DisplayPort hat nur **eine** abgeschrägte Ecke, HDMI ist auf **beiden** Seiten abgeschrägt (symmetrisch). Oval und symmetrisch ist USB-C, nicht DisplayPort."
+    },
+    {
+      "id": "f-anschluesse-20",
+      "lernzielId": "lz-anschluesse",
+      "typ": "mehrfachwahl",
+      "schwierigkeit": 3,
+      "frage": "Über welche Anschlüsse kann ein Computer ein **Bild** an einen Monitor senden? Wähle alle passenden.",
+      "optionen": [
+        "HDMI",
+        "Klinkenstecker",
+        "DisplayPort",
+        "VGA",
+        "Hohlstecker",
+        "USB-C"
+      ],
+      "richtig": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "erklaerung": "Bild übertragen **HDMI**, **DisplayPort** (beide digital), **VGA** (alt, analog) und bei vielen Geräten auch **USB-C**. Achtung: Nicht jede USB-C-Buchse kann Bild ausgeben – das hängt vom Gerät ab. Der Klinkenstecker überträgt nur Ton, der Hohlstecker nur Strom."
+    },
+    {
+      "id": "f-anschluesse-21",
+      "lernzielId": "lz-anschluesse",
+      "typ": "einfachwahl",
+      "schwierigkeit": 3,
+      "frage": "Dein Laptop hat nur einen HDMI-Ausgang, der alte Beamer im Schulzimmer nur eine VGA-Buchse. Was brauchst du?",
+      "optionen": [
+        "Ein HDMI-Kabel – es passt auch in die VGA-Buchse",
+        "Einen Adapter von HDMI auf VGA",
+        "Ein VGA-Kabel – es passt auch in die HDMI-Buchse",
+        "Ein Kabel mit HDMI- und DisplayPort-Stecker"
+      ],
+      "richtig": 1,
+      "erklaerung": "HDMI ist **digital**, VGA **analog**, und die Stecker haben völlig verschiedene Formen. Ein **Adapter (Konverter) von HDMI auf VGA** wandelt das Signal um. Achtung: Der Ton geht dabei nicht über VGA – dafür braucht es z. B. ein separates Audiokabel (Klinke). Ein Kabel mit DisplayPort-Stecker hilft nicht, weil der Beamer nur VGA hat."
+    },
+    {
+      "id": "f-anschluesse-22",
+      "lernzielId": "lz-anschluesse",
+      "typ": "mehrfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Woran erkennst du einen **VGA**-Stecker auf einem Foto? Wähle alle passenden.",
+      "optionen": [
+        "Trapezförmiger Stecker mit Stiften in drei Reihen",
+        "Zwei Schrauben links und rechts",
+        "Durchsichtiger Kunststoff mit Rastnase",
+        "Meist blau gefärbt",
+        "Nur eine abgeschrägte Ecke"
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "VGA ist **trapezförmig**, meist **blau**, hat **15 Stifte in drei Reihen** und wird mit **zwei Schrauben** festgedreht. Durchsichtig mit Rastnase ist der Netzwerk-Stecker, nur eine abgeschrägte Ecke hat DisplayPort."
+    },
+    {
+      "id": "f-anschluesse-23",
+      "lernzielId": "lz-anschluesse",
+      "typ": "offen",
+      "schwierigkeit": 3,
+      "frage": "Erkläre **zwei** Unterschiede zwischen **VGA** und **HDMI**.",
+      "musterloesung": "1. **Signal:** VGA überträgt das Bild **analog**, HDMI **digital**.\n2. **Ton:** VGA überträgt **nur Bild**, HDMI Bild **und Ton** über ein Kabel.\n\nWeitere mögliche Punkte: VGA ist ein **alter** Anschluss (blau, 15 Stifte, Schrauben) und nur noch an älteren Beamern und Monitoren zu finden; HDMI ist heute Standard an Fernsehern, Monitoren und Beamern.",
+      "stichworte": [
+        "analog",
+        "digital",
+        "Ton",
+        "alt"
+      ],
+      "erklaerung": "Für die volle Punktzahl brauchst du beide Kernunterschiede: analog ↔ digital und nur Bild ↔ Bild und Ton."
+    },
+    {
+      "id": "f-anschluesse-24",
+      "lernzielId": "lz-anschluesse",
+      "typ": "offen",
+      "schwierigkeit": 2,
+      "frage": "Erkläre, wofür man den **Netzwerk-Stecker**, den **Klinkenstecker** und den **Hohlstecker** verwendet, und nenne je ein Erkennungsmerkmal.",
+      "musterloesung": "**Netzwerk-Stecker (RJ45):** verbindet ein Gerät per Kabel mit dem Netzwerk bzw. Internet (LAN/Ethernet); durchsichtiger Kunststoff mit Rastnase (Clip). **Klinkenstecker:** überträgt Ton (Kopfhörer, Lautsprecher, Mikrofon); runder Metallstift (meist 3,5 mm) mit schwarzen Ringen. **Hohlstecker:** versorgt ein Gerät mit Strom vom Netzteil; runder Stecker, vorne hohl.",
+      "stichworte": [
+        "Netzwerk",
+        "Internet",
+        "Rastnase",
+        "Ton",
+        "Kopfhörer",
+        "3,5 mm",
+        "Strom",
+        "Netzteil",
+        "hohl"
+      ],
+      "erklaerung": "Pro Stecker gehören zwei Dinge in die Antwort: die Hauptaufgabe (Netzwerk, Ton, Strom) und ein Merkmal, an dem du ihn auf einem Foto erkennst."
+    },
+    {
+      "id": "f-anschluesse-25",
+      "lernzielId": "lz-anschluesse",
+      "typ": "kurzantwort",
+      "schwierigkeit": 1,
+      "frage": "Schreibe auf, wie dieser Stecker heisst.",
+      "bild": {
+        "src": "bilder/informatik/anschluss-usb-a.svg",
+        "alt": "Abbildung eines Steckers"
+      },
+      "akzeptiert": [
+        "USB-A",
+        "USB A",
+        "USB Typ A",
+        "USB-Typ-A",
+        "USB Type A",
+        "USB Type-A",
+        "USB-A-Stecker",
+        "USB-A-Kabel",
+        "USB-A-Anschluss"
+      ],
+      "erklaerung": "Das ist ein **USB-A**-Stecker: flach und rechteckig, mit einer Kunststoffzunge auf einer Seite. Nur «USB» genügt nicht – es gibt mehrere USB-Steckerformen (USB-A, USB-C, Micro-USB)."
+    },
+    {
+      "id": "f-anschluesse-26",
+      "lernzielId": "lz-anschluesse",
+      "typ": "kurzantwort",
+      "schwierigkeit": 1,
+      "frage": "Wie heisst dieser Stecker? Notiere den Fachbegriff.",
+      "bild": {
+        "src": "bilder/informatik/anschluss-rj45.svg",
+        "alt": "Abbildung eines Steckers"
+      },
+      "akzeptiert": [
+        "Netzwerkstecker",
+        "Netzwerk-Stecker",
+        "RJ45",
+        "RJ-45",
+        "RJ45-Stecker",
+        "Netzwerk-Stecker RJ45",
+        "LAN-Stecker",
+        "Ethernet-Stecker",
+        "Netzwerkkabel",
+        "LAN-Kabel",
+        "Ethernet-Kabel"
+      ],
+      "erklaerung": "Das ist der **Netzwerk-Stecker (RJ45)**: durchsichtiger Kunststoff, acht goldene Kontakte und eine **Rastnase**. Er sitzt am LAN- bzw. Ethernet-Kabel und verbindet ein Gerät per Kabel mit dem Netzwerk. Gefragt ist der **Stecker**: Am sichersten schreibst du «Netzwerk-Stecker» oder «RJ45» – «Netzwerkkabel» meint streng genommen das ganze Kabel."
+    },
+    {
+      "id": "f-anschluesse-27",
+      "lernzielId": "lz-anschluesse",
+      "typ": "kurzantwort",
+      "schwierigkeit": 1,
+      "frage": "Benenne diesen Stecker.",
+      "bild": {
+        "src": "bilder/informatik/anschluss-hdmi.svg",
+        "alt": "Abbildung eines Steckers"
+      },
+      "akzeptiert": [
+        "HDMI",
+        "HDMI-Stecker",
+        "HDMI Stecker",
+        "HDMI-Kabel",
+        "HDMI-Anschluss"
+      ],
+      "erklaerung": "Flach, breit und mit **zwei** abgeschrägten unteren Ecken: Das ist **HDMI**. Er überträgt digitales Bild und Ton, z. B. zum Fernseher. DisplayPort hätte nur **eine** abgeschrägte Ecke."
+    },
+    {
+      "id": "f-anschluesse-28",
+      "lernzielId": "lz-anschluesse",
+      "typ": "zuordnen",
+      "schwierigkeit": 2,
+      "frage": "Auf dem Foto einer Laptop- oder PC-Rückseite siehst du nur die **Buchsen**. Ordne jeder Buchse den passenden Anschluss zu.",
+      "paare": [
+        {
+          "links": "Kleines rundes Loch, oft mit Kopfhörer-Symbol",
+          "rechts": "Klinkenstecker"
+        },
+        {
+          "links": "Rundes Loch mit einem Stift in der Mitte",
+          "rechts": "Hohlstecker"
+        },
+        {
+          "links": "Flache, rechteckige Öffnung mit Kunststoffzunge auf einer Seite",
+          "rechts": "USB-A"
+        },
+        {
+          "links": "Kleine, ovale Öffnung mit dünner Zunge in der Mitte",
+          "rechts": "USB-C"
+        },
+        {
+          "links": "Fast quadratische Öffnung mit Kerbe für eine Rastnase",
+          "rechts": "Netzwerk-Stecker (RJ45)"
+        },
+        {
+          "links": "Breite, flache Öffnung mit zwei schrägen Ecken",
+          "rechts": "HDMI"
+        },
+        {
+          "links": "Flache Öffnung mit nur einer schrägen Ecke",
+          "rechts": "DisplayPort"
+        },
+        {
+          "links": "Blaues Trapez mit 15 Löchern und zwei Gewinden",
+          "rechts": "VGA"
+        }
+      ],
+      "erklaerung": "Die Buchse ist das Gegenstück zum Stecker: Klinke = kleines rundes Loch; Hohlstecker-Buchse = rund mit Stift in der Mitte (der Stift steckt im hohlen Stecker); USB-A = rechteckig mit Zunge auf einer Seite; USB-C = oval mit Zunge in der Mitte; RJ45 = Kerbe für die Rastnase; HDMI = zwei schräge Ecken, DisplayPort = eine; VGA = blaues Trapez mit Gewinden für die Schrauben."
+    },
+    {
+      "id": "f-anschluesse-29",
+      "lernzielId": "lz-anschluesse",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "An der Seite eines Laptops siehst du eine fast quadratische Buchse mit einer Kerbe auf einer Seite. Daneben leuchten zwei kleine Lämpchen. Was steckst du dort hinein?",
+      "optionen": [
+        "Den Hohlstecker des Netzteils",
+        "Ein Netzwerkkabel (RJ45)",
+        "Einen HDMI-Stecker",
+        "Einen USB-Stick"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Kerbe ist für die **Rastnase** des **Netzwerk-Steckers (RJ45)** da. Die Lämpchen zeigen oft an, ob eine Netzwerkverbindung besteht. Die Hohlstecker-Buchse ist rund, HDMI ist flach mit zwei schrägen Ecken, USB-A flach und rechteckig."
+    },
+    {
+      "id": "f-anschluesse-30",
+      "lernzielId": "lz-anschluesse",
+      "typ": "offen",
+      "schwierigkeit": 2,
+      "frage": "Im Schulzimmer hat der Beamer eine **HDMI**- und eine **VGA**-Buchse, dein Laptop hat beide Ausgänge. Ihr wollt einen Film **mit Ton** zeigen. Welchen Anschluss wählst du? Begründe.",
+      "musterloesung": "**HDMI.** HDMI überträgt Bild **und Ton** digital über ein einziges Kabel. **VGA** ist ein alter, analoger Bildanschluss und überträgt **nur das Bild** – für den Ton bräuchte es zusätzlich ein Kabel mit Klinkenstecker zu den Lautsprechern.",
+      "stichworte": [
+        "HDMI",
+        "Bild und Ton",
+        "VGA nur Bild",
+        "VGA analog/alt"
+      ],
+      "erklaerung": "Entscheidend ist der Ton: HDMI (und DisplayPort) übertragen Bild und Ton, VGA nur das Bild."
+    },
+    {
+      "id": "f-anschluesse-31",
+      "lernzielId": "lz-anschluesse",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 2,
+      "frage": "DisplayPort findet man vor allem an Fernsehern und Spielkonsolen.",
+      "richtig": false,
+      "erklaerung": "An Fernsehern und Spielkonsolen findest du **HDMI**. **DisplayPort** findet man vor allem an **Computermonitoren** und Grafikkarten. Beide übertragen digitales Bild und Ton."
+    },
+    {
+      "id": "f-anschluesse-32",
+      "lernzielId": "lz-anschluesse",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Auf einem Foto siehst du einen sehr kleinen Handy-Stecker. Er ist auf einer Seite breiter als auf der anderen und passt nur in einer Richtung. Ist das USB-C?",
+      "optionen": [
+        "Ja – alle kleinen Handy-Stecker sind USB-C.",
+        "Ja – USB-C passt nur in einer Richtung.",
+        "Nein – das ist ein Klinkenstecker.",
+        "Nein – USB-C ist oval und symmetrisch."
+      ],
+      "richtig": 3,
+      "erklaerung": "USB-C ist **oval und symmetrisch** und passt in beide Richtungen. Ein kleiner Stecker, der auf einer Seite breiter ist und nur in einer Richtung passt, kann also kein USB-C sein (es ist ein älterer Handy-Stecker, den du nicht benennen musst). Der Klinkenstecker ist rund."
+    },
+    {
+      "id": "f-usb-a-c-01",
+      "lernzielId": "lz-usb-a-c",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Welchen Vorteil hat USB-C gegenüber USB-A?",
+      "optionen": [
+        "USB-C ist grösser als USB-A und darum leichter zu greifen.",
+        "USB-C passt ohne Adapter in ältere USB-A-Buchsen.",
+        "USB-C ist an älteren Geräten verbreiteter als USB-A.",
+        "USB-C passt in beiden Richtungen in die Buchse."
+      ],
+      "richtig": 3,
+      "erklaerung": "USB-C ist **verdrehsicher**: Der Stecker ist symmetrisch und passt in beide Richtungen. USB-C ist kleiner (nicht grösser) als USB-A, passt ohne Adapter nicht in eine USB-A-Buchse, und an älteren Geräten ist USB-A verbreiteter."
+    },
+    {
+      "id": "f-usb-a-c-02",
+      "lernzielId": "lz-usb-a-c",
+      "typ": "mehrfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Welches sind Vorteile von **USB-C**? Wähle alle passenden.",
+      "optionen": [
+        "Klein und flach – passt auch in dünne Geräte",
+        "Man sieht dem Stecker an, was das Kabel kann",
+        "Kann sogar Laptops laden",
+        "Passt in beide Richtungen",
+        "Passt ohne Adapter in USB-A-Buchsen"
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "USB-C ist **klein**, **verdrehsicher** und liefert so viel Leistung, dass es **Laptops laden** kann. Falsch: Alle USB-C-Stecker sehen gleich aus, man sieht ihnen also **nicht** an, was das Kabel kann (das ist sogar ein Nachteil), und für USB-A-Buchsen braucht es einen Adapter."
+    },
+    {
+      "id": "f-usb-a-c-03",
+      "lernzielId": "lz-usb-a-c",
+      "typ": "mehrfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Welches sind Vorteile von **USB-A**? Wähle alle passenden.",
+      "optionen": [
+        "Kann in beide Richtungen eingesteckt werden",
+        "Sehr verbreitet – viele ältere Geräte haben USB-A",
+        "Überträgt das Bild an einen Monitor",
+        "Vorhandene Mäuse, Tastaturen und USB-Sticks passen ohne Adapter",
+        "Kleiner als USB-C – passt gut in dünne Geräte"
+      ],
+      "richtig": [
+        1,
+        3
+      ],
+      "erklaerung": "USB-A ist **sehr verbreitet** (PCs, Fernseher, Autos, Ladegeräte …), darum passt **vorhandenes Zubehör ohne Adapter**. Er passt aber nur in **einer** Richtung, gibt **kein Bild** aus und ist **grösser** als USB-C – beim Einstecken, beim Bild und bei der Grösse ist USB-C im Vorteil."
+    },
+    {
+      "id": "f-usb-a-c-04",
+      "lernzielId": "lz-usb-a-c",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 2,
+      "frage": "Jedes USB-C-Kabel kann Daten schnell übertragen, einen Laptop laden und ein Bild an einen Monitor senden.",
+      "richtig": false,
+      "erklaerung": "Alle USB-C-Stecker sehen gleich aus, aber **nicht jedes Kabel und nicht jede Buchse kann alles**: Manche Kabel sind nur zum Laden gedacht oder langsam, manche Buchsen geben kein Bild aus. Das ist ein typischer **Nachteil** von USB-C, weil man es dem Stecker nicht ansieht."
+    },
+    {
+      "id": "f-usb-a-c-05",
+      "lernzielId": "lz-usb-a-c",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 1,
+      "frage": "Einen USB-A-Stecker kann man nur in einer Richtung in die Buchse stecken.",
+      "richtig": true,
+      "erklaerung": "Der USB-A-Stecker hat die Kunststoffzunge nur auf einer Seite – er passt nur in einer Richtung. Darum muss man ihn oft drehen, bis er passt. USB-C ist dagegen verdrehsicher."
+    },
+    {
+      "id": "f-usb-a-c-06",
+      "lernzielId": "lz-usb-a-c",
+      "typ": "zuordnen",
+      "schwierigkeit": 2,
+      "frage": "Gilt die Eigenschaft für USB-A, für USB-C oder für beide?",
+      "paare": [
+        {
+          "links": "in beide Richtungen einsteckbar",
+          "rechts": "USB-C"
+        },
+        {
+          "links": "nur in einer Richtung einsteckbar",
+          "rechts": "USB-A"
+        },
+        {
+          "links": "kann ein Bild an einen Monitor senden",
+          "rechts": "USB-C"
+        },
+        {
+          "links": "an fast allen älteren PCs vorhanden",
+          "rechts": "USB-A"
+        },
+        {
+          "links": "überträgt Daten und Strom",
+          "rechts": "beide"
+        },
+        {
+          "links": "kann einen Laptop laden",
+          "rechts": "USB-C"
+        },
+        {
+          "links": "rechteckig und relativ gross",
+          "rechts": "USB-A"
+        }
+      ],
+      "erklaerung": "Daten und Strom übertragen **beide**. USB-A ist gross, rechteckig, nur in einer Richtung einsteckbar und weit verbreitet. USB-C ist verdrehsicher, liefert genug Leistung für Laptops und kann Bild übertragen."
+    },
+    {
+      "id": "f-usb-a-c-07",
+      "lernzielId": "lz-usb-a-c",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Was ist ein typischer **Nachteil** von USB-C?",
+      "optionen": [
+        "Man sieht einem USB-C-Kabel nicht an, ob es Laptops laden oder ein Bild übertragen kann.",
+        "Man muss den Stecker meistens mehrmals umdrehen, bis er endlich richtig in die Buchse passt.",
+        "Der Stecker ist zu gross für Smartphones und dünne Laptops von heute.",
+        "USB-C kann überhaupt keine Daten übertragen, sondern liefert nur Strom."
+      ],
+      "richtig": 0,
+      "erklaerung": "USB-C-Kabel und -Buchsen sehen alle gleich aus, können aber **unterschiedlich viel** (manche nur laden, manche langsam, manche ohne Bild) – das ist verwirrend. Drehen muss man ihn nicht (er ist verdrehsicher), er ist klein und überträgt sehr wohl Daten."
+    },
+    {
+      "id": "f-usb-a-c-08",
+      "lernzielId": "lz-usb-a-c",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Was ist ein **Nachteil** von USB-A?",
+      "optionen": [
+        "Er ist kleiner als USB-C und darum schwer zu greifen.",
+        "Er überträgt die Daten analog statt digital.",
+        "Er ist relativ gross und passt nur in einer Richtung.",
+        "An älteren Geräten braucht man dafür meist einen Adapter."
+      ],
+      "richtig": 2,
+      "erklaerung": "USB-A ist **gross** (passt nicht in dünne Geräte) und nur in **einer Richtung** einsteckbar. Er ist grösser (nicht kleiner) als USB-C, überträgt digitale Daten und ist gerade an älteren Geräten sehr verbreitet – dort braucht man keinen Adapter."
+    },
+    {
+      "id": "f-usb-a-c-09",
+      "lernzielId": "lz-usb-a-c",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Dein neuer Laptop hat nur noch USB-C-Buchsen. Du willst deinen alten USB-Stick mit USB-A-Stecker verwenden. Was tust du?",
+      "optionen": [
+        "Den USB-Stick über den HDMI-Ausgang anschliessen",
+        "Einen Adapter (oder Hub) von USB-C auf USB-A verwenden",
+        "Gar nichts – USB-A-Geräte funktionieren nie an USB-C",
+        "Den USB-A-Stecker mit etwas Druck in die Buchse stecken"
+      ],
+      "richtig": 1,
+      "erklaerung": "Mit einem **Adapter oder Hub von USB-C auf USB-A** funktioniert der alte Stick problemlos – USB-A und USB-C gehören zum gleichen USB-Standard. Genau das ist der Nachteil beim Umstieg: Ältere Geräte brauchen einen Adapter. HDMI ist ein Bildanschluss und passt nicht."
+    },
+    {
+      "id": "f-usb-a-c-10",
+      "lernzielId": "lz-usb-a-c",
+      "typ": "einfachwahl",
+      "schwierigkeit": 3,
+      "frage": "Warum haben neue Smartphones und Laptops heute fast nur noch USB-C-Anschlüsse?",
+      "optionen": [
+        "Ein kleiner, verdrehsicherer Anschluss übernimmt Laden, Daten und Bild.",
+        "USB-A ist in Europa seit 2024 gesetzlich verboten und darf nicht mehr verkauft werden.",
+        "USB-C ist der einzige Anschluss, der Daten übertragen kann.",
+        "USB-C liefert nur wenig Strom und schont so den Akku."
+      ],
+      "richtig": 0,
+      "erklaerung": "USB-C ist klein, verdrehsicher und **ein Anschluss für vieles**: Laden (bis zum Laptop), Daten und Bild. Zudem ist USB-C in der EU seit Ende 2024 der einheitliche Ladeanschluss für Smartphones (seit 2026 auch für Laptops). USB-A ist aber **nicht verboten** – es gibt ihn weiterhin, z. B. an PCs."
+    },
+    {
+      "id": "f-usb-a-c-11",
+      "lernzielId": "lz-usb-a-c",
+      "typ": "mehrfachwahl",
+      "schwierigkeit": 3,
+      "frage": "Du möchtest deinen Laptop mit **einem einzigen Kabel** an einen Monitor anschliessen: Der Monitor soll das Bild zeigen und gleichzeitig den Laptop laden. Welche Aussagen stimmen?",
+      "optionen": [
+        "Das geht mit USB-C, wenn Laptop, Monitor und Kabel das unterstützen.",
+        "Es reicht das USB-C-Ladekabel, das beim Smartphone dabei war.",
+        "Mit einem USB-A-Kabel geht das nicht.",
+        "Das geht mit einem VGA-Kabel, weil VGA auch Strom überträgt."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "USB-C kann Bild und viel Strom **gleichzeitig** über ein Kabel übertragen – aber nur, wenn **alle** Teile (Laptop-Buchse, Monitor, Kabel) das können. Ein einfaches Handy-Ladekabel kann oft kein Bild übertragen. USB-A liefert zu wenig Leistung für einen Laptop und gibt kein direktes Bildsignal aus (Bild geht höchstens über spezielle Adapter). VGA überträgt weder Strom noch Ton."
+    },
+    {
+      "id": "f-usb-a-c-12",
+      "lernzielId": "lz-usb-a-c",
+      "typ": "kurzantwort",
+      "schwierigkeit": 1,
+      "frage": "USB-C kann man in beide Richtungen einstecken. Wie nennt man diese Eigenschaft mit einem Wort?",
+      "akzeptiert": [
+        "verdrehsicher",
+        "Verdrehsicherheit",
+        "drehsicher",
+        "beidseitig",
+        "beidseitig einsteckbar",
+        "reversibel",
+        "umdrehbar",
+        "symmetrisch",
+        "wendbar",
+        "beidseitig steckbar",
+        "beidseitig nutzbar",
+        "punktsymmetrisch",
+        "umkehrbar",
+        "verdrehungssicher"
+      ],
+      "erklaerung": "Man sagt, USB-C ist **verdrehsicher** (auch: beidseitig einsteckbar). Der Stecker ist symmetrisch aufgebaut, darum ist es egal, wie herum du ihn einsteckst – anders als bei USB-A."
+    },
+    {
+      "id": "f-usb-a-c-13",
+      "lernzielId": "lz-usb-a-c",
+      "typ": "offen",
+      "schwierigkeit": 3,
+      "frage": "Deine Familie kauft einen neuen Laptop, der **nur noch USB-C-Buchsen** hat. Welche **zwei Probleme** können beim Umstieg auftreten, und wie löst du sie?",
+      "musterloesung": "1. **Altes Zubehör mit USB-A** (Maus, USB-Stick, Drucker) passt nicht mehr direkt → **Adapter oder Hub** von USB-C auf USB-A verwenden oder Geräte mit USB-C-Kabel nutzen.\n2. **Nicht jedes USB-C-Kabel kann alles:** Ein billiges Ladekabel lädt den Laptop vielleicht nicht oder überträgt kein Bild → ein **passendes Kabel** wählen (Angaben zu Leistung und Bild beachten).\n\nAuch möglich: Der Monitor hat nur HDMI → Adapter von USB-C auf HDMI (wenn der Laptop über USB-C ein Bild ausgeben kann).",
+      "stichworte": [
+        "USB-A-Zubehör passt nicht",
+        "Adapter/Hub",
+        "nicht jedes Kabel kann alles",
+        "passendes Kabel wählen"
+      ],
+      "erklaerung": "Die Nachteile von USB-C zeigen sich vor allem beim Umstieg: Vorhandenes USB-A-Zubehör braucht einen Adapter, und man sieht einem USB-C-Kabel nicht an, was es kann."
+    },
+    {
+      "id": "f-usb-a-c-14",
+      "lernzielId": "lz-usb-a-c",
+      "typ": "offen",
+      "schwierigkeit": 3,
+      "frage": "Man sagt oft: «USB-C ist ein Anschluss für vieles.» Erkläre, was damit gemeint ist, und warum genau das auch **verwirrend** sein kann.",
+      "musterloesung": "Über die gleiche kleine USB-C-Buchse kann man **Daten** übertragen, Geräte **laden** (vom Kopfhörer bis zum Laptop) und bei vielen Geräten auch ein **Bild** an einen Monitor senden. Man braucht also weniger verschiedene Kabel und Anschlüsse. Verwirrend ist, dass **nicht jedes USB-C-Kabel und nicht jede Buchse alles kann**: Manche Kabel laden nur oder sind langsam, manche Buchsen geben kein Bild aus – obwohl alle Stecker gleich aussehen.",
+      "stichworte": [
+        "Daten",
+        "Laden",
+        "Bild",
+        "gleich aussehen",
+        "nicht jedes Kabel kann alles"
+      ],
+      "erklaerung": "Eine gute Antwort nennt die drei Aufgaben (Daten, Strom, Bild) und den Nachteil: gleiche Form, aber unterschiedliche Fähigkeiten."
+    },
+    {
+      "id": "f-usb-a-c-15",
+      "lernzielId": "lz-usb-a-c",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 2,
+      "frage": "Über diesen Anschluss lädt man typischerweise einen modernen Laptop mit hoher Leistung.",
+      "bild": {
+        "src": "bilder/informatik/anschluss-usb-a.svg",
+        "alt": "Abbildung eines Steckers"
+      },
+      "richtig": false,
+      "erklaerung": "Das ist **USB-A** – er liefert deutlich weniger Leistung: genug für Maus, USB-Stick oder um ein Handy zu laden, aber nicht für einen Laptop. Laptops lädt man heute über **USB-C**, das viel mehr Leistung übertragen kann (bis 100 W und mehr)."
+    },
+    {
+      "id": "f-usb-a-c-16",
+      "lernzielId": "lz-usb-a-c",
+      "typ": "offen",
+      "schwierigkeit": 2,
+      "frage": "Vergleiche USB-A und USB-C: Nenne für **jeden** der beiden Stecker einen Vorteil und einen Nachteil.",
+      "musterloesung": "**USB-A** – Vorteil: sehr verbreitet, vorhandenes Zubehör (Maus, Tastatur, USB-Stick) passt ohne Adapter. Nachteil: gross, nur in einer Richtung einsteckbar, meist langsamer, weniger Leistung (kein Laptop laden), kein Bild.\n\n**USB-C** – Vorteil: klein, verdrehsicher, schnell, lädt auch Laptops, kann Bild übertragen. Nachteil: Nicht jedes Kabel bzw. jede Buchse kann alles (sieht man nicht an); ältere Geräte brauchen einen Adapter.",
+      "stichworte": [
+        "verbreitet",
+        "gross",
+        "eine Richtung",
+        "verdrehsicher",
+        "Laptop laden",
+        "Adapter",
+        "nicht jedes Kabel"
+      ],
+      "erklaerung": "Die Vorteile des einen Steckers sind oft die Nachteile des anderen: USB-A ist verbreitet, USB-C braucht dafür manchmal Adapter; USB-C ist klein und verdrehsicher, USB-A gross und nur in einer Richtung einsteckbar."
+    },
+    {
+      "id": "f-anschluesse-33",
+      "lernzielId": "lz-anschluesse",
+      "typ": "zuordnen",
+      "schwierigkeit": 2,
+      "frage": "Das Bild zeigt die Seite eines Laptops. Welcher Anschluss gehört zu welcher **Buchse**?",
+      "bild": {
+        "src": "bilder/informatik/buchsen-laptop.svg",
+        "alt": "Seite eines Laptops mit fünf nummerierten Buchsen"
+      },
+      "paare": [
+        {
+          "links": "Buchse 1",
+          "rechts": "Hohlstecker"
+        },
+        {
+          "links": "Buchse 2",
+          "rechts": "USB-C"
+        },
+        {
+          "links": "Buchse 3",
+          "rechts": "USB-A"
+        },
+        {
+          "links": "Buchse 4",
+          "rechts": "HDMI"
+        },
+        {
+          "links": "Buchse 5",
+          "rechts": "Klinkenstecker"
+        }
+      ],
+      "erklaerung": "1 = rundes Loch mit Stift in der Mitte (Hohlstecker-Buchse für das Netzteil), 2 = kleine ovale Öffnung mit Zunge in der Mitte (USB-C), 3 = rechteckig mit Zunge auf einer Seite (USB-A), 4 = breit mit zwei schrägen Ecken (HDMI), 5 = kleines rundes Loch mit Kopfhörer-Symbol (Klinke)."
+    },
+    {
+      "id": "f-anschluesse-34",
+      "lernzielId": "lz-anschluesse",
+      "typ": "zuordnen",
+      "schwierigkeit": 2,
+      "frage": "Das Bild zeigt die Anschlussleiste auf der Rückseite eines PCs. Welcher Anschluss gehört zu welcher **Buchse**?",
+      "bild": {
+        "src": "bilder/informatik/buchsen-pc.svg",
+        "alt": "Anschlussleiste einer PC-Rückseite mit fünf nummerierten Buchsen"
+      },
+      "paare": [
+        {
+          "links": "Buchse 1",
+          "rechts": "USB-A"
+        },
+        {
+          "links": "Buchse 2",
+          "rechts": "Netzwerk-Stecker (RJ45)"
+        },
+        {
+          "links": "Buchse 3",
+          "rechts": "HDMI"
+        },
+        {
+          "links": "Buchse 4",
+          "rechts": "DisplayPort"
+        },
+        {
+          "links": "Buchse 5",
+          "rechts": "VGA"
+        }
+      ],
+      "erklaerung": "1 = rechteckig mit Zunge auf einer Seite (USB-A), 2 = fast quadratisch mit Kerbe für die Rastnase und zwei Lämpchen (Netzwerk, RJ45), 3 = **zwei** schräge Ecken (HDMI), 4 = nur **eine** schräge Ecke (DisplayPort), 5 = blaues Trapez mit 15 Löchern und zwei Gewinden für die Schrauben (VGA)."
+    },
+    {
+      "id": "f-anschluesse-35",
+      "lernzielId": "lz-anschluesse",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Ein alter Beamer liefert nur ein Kabel für ein **analoges** Bildsignal. In welche Buchse dieser PC-Rückseite gehört es?",
+      "bild": {
+        "src": "bilder/informatik/buchsen-pc.svg",
+        "alt": "Anschlussleiste einer PC-Rückseite mit fünf nummerierten Buchsen"
+      },
+      "optionen": [
+        "Buchse 2",
+        "Buchse 3",
+        "Buchse 4",
+        "Buchse 5"
+      ],
+      "richtig": 3,
+      "erklaerung": "Analog überträgt nur **VGA** – das ist Buchse 5: blaues Trapez mit 15 Löchern und zwei Schraubgewinden. Buchse 3 (HDMI) und Buchse 4 (DisplayPort) übertragen das Bild digital, Buchse 2 ist der Netzwerk-Anschluss."
+    }
+  ]
+}

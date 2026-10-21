@@ -1,0 +1,93 @@
+.einleitung p {
+  margin-bottom: 4px;
+}
+
+.weiter {
+  position: relative;
+  margin-top: 16px;
+  padding: 18px 52px 18px 18px;
+  background: var(--primaer);
+  border-color: var(--primaer);
+  color: var(--primaer-text);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.weiter-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+.weiter-titel {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.weiter-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+.weiter-pfeil {
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+}
+
+.lektion {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.lektion h3,
+.lektion p {
+  margin: 0;
+}
+.beschreibung {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+.stand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.stand .balken {
+  flex: 1;
+}
+.chips {
+  gap: 6px;
+  margin-top: auto;
+}
+
+.neu {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-style: dashed;
+  box-shadow: none;
+}
+.neu-plus {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  background: var(--primaer-weich);
+  color: var(--primaer);
+}
+.neu-text {
+  display: block;
+}

@@ -1,0 +1,215 @@
+.weg {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: left;
+  font: inherit;
+  width: 100%;
+  min-height: 44px;
+}
+
+.schritte {
+  display: flex;
+  gap: 4px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.schritte li {
+  flex: 1;
+  min-width: 0;
+}
+.schritte button {
+  width: 100%;
+  min-height: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 4px 0;
+  background: none;
+  border: 0;
+  border-top: 4px solid var(--rand);
+  color: var(--text-3);
+  font: inherit;
+  font-size: 0.72rem;
+  cursor: pointer;
+}
+.schritte button:disabled {
+  cursor: default;
+}
+.schritte .erledigt button {
+  border-top-color: var(--primaer);
+  color: var(--text-2);
+}
+.schritte .aktiv button {
+  border-top-color: var(--akzent);
+  color: var(--text);
+  font-weight: 700;
+}
+.schritte .nr {
+  font-weight: 700;
+}
+.schritte .name {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* Auf dem Handy nur die Nummern; der Name des aktiven Schritts steht als Überschrift darunter. */
+@media (max-width: 480px) {
+  .schritte .name {
+    display: none;
+  }
+}
+
+h1[tabindex='-1']:focus,
+h2[tabindex='-1']:focus {
+  outline: none;
+}
+
+.zwei {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  cursor: pointer;
+}
+.check input {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--primaer);
+}
+
+.typen {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.typen legend {
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0;
+}
+
+.kurz {
+  max-width: 120px;
+}
+.mono {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+}
+.umbruch {
+  overflow-wrap: anywhere;
+}
+.mt {
+  margin-top: 8px;
+}
+
+.text-einfuegen summary,
+details summary {
+  cursor: pointer;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.bereich {
+  align-items: flex-end;
+}
+.bereich .feld {
+  flex: 1 1 160px;
+}
+
+.seiten {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+  max-height: 420px;
+  overflow-y: auto;
+  padding: 2px;
+}
+.seite-knopf {
+  position: relative;
+  padding: 0;
+  border: 2px solid var(--rand);
+  border-radius: var(--radius-klein);
+  background: var(--flaeche-2);
+  cursor: pointer;
+  overflow: hidden;
+  aspect-ratio: 3 / 4;
+}
+.seite-knopf img,
+.seite-knopf .platz {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.seite-knopf.gewaehlt {
+  border-color: var(--primaer);
+  box-shadow: 0 0 0 2px var(--primaer);
+}
+.seite-knopf .nummer {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  padding: 0 6px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: var(--flaeche);
+  color: var(--text);
+}
+.seite-knopf.gewaehlt .nummer {
+  background: var(--primaer);
+  color: var(--primaer-text);
+}
+
+.foto {
+  max-height: 220px;
+  width: auto;
+  border-radius: var(--radius-klein);
+  border: 1px solid var(--rand);
+}
+.text-vorschau {
+  white-space: pre-line;
+}
+
+.unbestimmt {
+  width: 35%;
+  animation: hin-her 1.4s ease-in-out infinite;
+}
+@keyframes hin-her {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(300%);
+  }
+}
+
+.liste {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.liste li {
+  padding: 8px 0;
+  border-top: 1px solid var(--rand);
+  flex-wrap: nowrap;
+}
+.anleitung {
+  margin: 0;
+  padding-left: 1.3em;
+}
+.fuss {
+  margin-top: 8px;
+}

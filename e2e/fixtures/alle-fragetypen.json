@@ -1,0 +1,112 @@
+{
+  "id": "e2e-alle-fragetypen",
+  "format": 1,
+  "version": 1,
+  "fach": "Testfach",
+  "titel": "Alle Fragetypen",
+  "beschreibung": "Je eine Frage pro Fragetyp für die E2E-Tests.",
+  "hinweise": ["Kein Taschenrechner erlaubt"],
+  "quellen": [{ "id": "q-1", "titel": "Testmaterial", "umfang": "S. 1" }],
+  "lernziele": [
+    {
+      "id": "lz-grundlagen",
+      "thema": "Grundlagen",
+      "text": "Du kannst das EVA-Prinzip erklären.",
+      "zusammenfassung": "### EVA\n\nEingabe → **Verarbeitung** → Ausgabe.",
+      "merksaetze": ["Erst Eingabe, dann Verarbeitung, dann Ausgabe."]
+    },
+    {
+      "id": "lz-einheiten",
+      "thema": "Einheiten",
+      "text": "Du kannst Speichereinheiten umrechnen.",
+      "zusammenfassung": "1 Byte = 8 Bit.",
+      "ergaenzt": true
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-einfach",
+      "lernzielId": "lz-grundlagen",
+      "typ": "einfachwahl",
+      "frage": "Wofür steht das V in EVA?",
+      "optionen": ["Verarbeitung", "Verbindung", "Vorschau"],
+      "richtig": 0,
+      "erklaerung": "EVA heisst Eingabe, Verarbeitung, Ausgabe.",
+      "schwierigkeit": 1,
+      "tipp": "Was passiert zwischen Eingabe und Ausgabe?"
+    },
+    {
+      "id": "f-mehr",
+      "lernzielId": "lz-grundlagen",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Geräte sind Eingabegeräte?",
+      "optionen": ["Tastatur", "Maus", "Bildschirm", "Drucker"],
+      "richtig": [0, 1],
+      "erklaerung": "Tastatur und Maus geben Daten in den Computer ein.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-wf",
+      "lernzielId": "lz-grundlagen",
+      "typ": "wahrfalsch",
+      "frage": "Ein Drucker ist ein Ausgabegerät.",
+      "richtig": true,
+      "erklaerung": "Der Drucker gibt Daten auf Papier aus.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-zuordnen",
+      "lernzielId": "lz-grundlagen",
+      "typ": "zuordnen",
+      "frage": "Ordne die Geräte zu.",
+      "paare": [
+        { "links": "Tastatur", "rechts": "Eingabe" },
+        { "links": "Prozessor", "rechts": "Verarbeitung" },
+        { "links": "Bildschirm", "rechts": "Ausgabe" },
+        { "links": "Maus", "rechts": "Eingabe" }
+      ],
+      "erklaerung": "Eingabegeräte liefern Daten, der Prozessor verarbeitet, der Bildschirm gibt aus.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-reihenfolge",
+      "lernzielId": "lz-grundlagen",
+      "typ": "reihenfolge",
+      "frage": "Bringe die Schritte in die richtige Reihenfolge.",
+      "elemente": ["Eingabe", "Verarbeitung", "Ausgabe"],
+      "erklaerung": "Erst Eingabe, dann Verarbeitung, dann Ausgabe.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-zahl",
+      "lernzielId": "lz-einheiten",
+      "typ": "zahl",
+      "frage": "Wie viele Bit hat ein Byte?",
+      "richtig": 8,
+      "einheit": "Bit",
+      "erklaerung": "1 Byte = 8 Bit.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kurz",
+      "lernzielId": "lz-einheiten",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die kleinste Informationseinheit?",
+      "akzeptiert": ["Bit"],
+      "erklaerung": "Ein Bit ist 0 oder 1.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-offen",
+      "lernzielId": "lz-einheiten",
+      "typ": "offen",
+      "frage": "Erkläre den Unterschied zwischen Bit und Byte.",
+      "musterloesung": "Ein Bit ist 0 oder 1; ein Byte besteht aus 8 Bit.",
+      "stichworte": ["8 Bit", "0 oder 1"],
+      "erklaerung": "Byte = 8 Bit.",
+      "schwierigkeit": 2
+    }
+  ],
+  "herkunft": "import",
+  "erstelltAm": "2026-10-01T08:00:00.000Z"
+}
