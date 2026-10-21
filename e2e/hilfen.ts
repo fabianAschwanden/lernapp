@@ -191,13 +191,18 @@ export async function naechsteFrage(page: Page): Promise<void> {
   const position = page.getByText(POSITION);
   const ende = page.getByRole('heading', { name: 'Runde geschafft!' });
   // Nur «Frage 3» bzw. «Wiederholung 1» vergleichen: «· +1 Wiederholung» kommt schon beim Prüfen dazu
-  const stelle = async () =>
-    (await ende.isVisible())
-      ? 'Ende'
-      : POSITION.exec(await position.innerText())?.[0].replace(/ von \d+$/, '');
+  // Nie auf ein Element warten (innerText würde blockieren, wenn zwischen zwei
+  // Fragen kurz weder Position noch Endbildschirm da ist) — poll fragt erneut.
+  const stelle = async (): Promise<string | undefined> => {
+    if (await ende.isVisible()) return 'Ende';
+    const text = await position.innerText({ timeout: 1000 }).catch(() => null);
+    if (text === null) return vorher;
+    return POSITION.exec(text)?.[0].replace(/ von \d+$/, '');
+  };
   const weiter = page.getByRole('button', { name: 'Weiter →' });
   await expect(weiter).toBeVisible();
-  const vorher = await stelle();
+  let vorher: string | undefined;
+  vorher = await stelle();
   await weiter.click();
   await expect.poll(stelle).not.toBe(vorher);
 }

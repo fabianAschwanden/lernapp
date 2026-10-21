@@ -274,3 +274,28 @@ function minimalesPdf(): Buffer {
   pdf += `trailer\n<< /Size ${objekte.length + 1} /Root 1 0 R >>\nstartxref\n${xref}\n%%EOF\n`;
   return Buffer.from(pdf, 'latin1');
 }
+
+test('Lange Stichworte brechen um: kein Herauszoomen, Selbsteinschätzung antippbar', async ({ page }) => {
+  // Auf Linux (breitere Schrift) machte ein langes Stichwort-Chip die Seite breiter als
+  // den Bildschirm; mobile Browser zoomten heraus und Taps landeten daneben.
+  await importiereLektion(page, FIXTURE_ALLE_TYPEN, fixtureAlleTypen.titel);
+  await page.getByRole('link', { name: 'Üben: Du kannst Speichereinheiten umrechnen.' }).click();
+  const karte = page.getByRole('article');
+  for (let i = 0; i < 3; i++) {
+    if ((await frageTyp(karte)) === 'offen') {
+      await karte.getByRole('button', { name: 'Lösung zeigen' }).click();
+      await expect(karte.getByText(/zwei Beispiele für nicht-flüchtige Speichermedien/)).toBeVisible();
+      const masse = await page.evaluate(() => ({
+        scroll: document.documentElement.scrollWidth,
+        breite: window.innerWidth,
+      }));
+      expect(masse.scroll).toBeLessThanOrEqual(masse.breite);
+      await karte.getByRole('button', { name: 'Teilweise', exact: true }).click({ timeout: 5000 });
+      await expect(karte.getByText(/Teilweise richtig/)).toBeVisible();
+      return;
+    }
+    await beantworte(karte, 'ueben');
+    await naechsteFrage(page);
+  }
+  throw new Error('Offene Frage nicht gefunden');
+});

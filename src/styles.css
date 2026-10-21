@@ -344,6 +344,17 @@ svg {
   color: var(--text-2);
   border: 1px solid var(--rand);
   white-space: nowrap;
+  /* Nie breiter als der Platz: sonst wird die Seite breiter als der Bildschirm,
+     und mobile Browser zoomen heraus (Taps landen daneben). */
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* Für längere Texte (z. B. Stichworte): umbrechen statt abschneiden */
+.chip.mehrzeilig {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  text-overflow: clip;
 }
 .chip.gut {
   background: var(--gut-weich);
