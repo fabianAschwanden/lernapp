@@ -110,9 +110,14 @@ function tabelle(zeilen: string[]): string {
   );
 }
 
+/** Zeile eines Merke-Kastens: «> Text» (oder nur «>» als Leerzeile im Kasten). «>5» bleibt Text. */
+const MERKE = /^\s*>(?:\s|$)/;
+
 /**
  * Mini-Markdown → HTML. Unterstützt Absätze, `### Titel`, `- ` und `1. ` Listen,
- * `| Tabellen |`, `**fett**`, `*kursiv*`, `` `code` `` und `^n` (hochgestellt).
+ * `| Tabellen |`, `> Merke-Kasten` (aufeinanderfolgende Zeilen bilden einen Kasten,
+ * darin ist wieder Mini-Markdown erlaubt, z. B. Listen), `**fett**`, `*kursiv*`,
+ * `` `code` `` und `^n` (hochgestellt).
  * Alles andere wird escaped — das Ergebnis darf per [innerHTML] gerendert werden.
  */
 export function miniMarkdown(text: string): string {
@@ -123,6 +128,13 @@ export function miniMarkdown(text: string): string {
     const z = zeilen[i];
     if (!z.trim()) {
       i++;
+      continue;
+    }
+    if (MERKE.test(z)) {
+      const block: string[] = [];
+      while (i < zeilen.length && MERKE.test(zeilen[i])) block.push(zeilen[i++].replace(/^\s*>\s?/, ''));
+      const innen = miniMarkdown(block.join('\n'));
+      if (innen) html.push(`<blockquote class="merke">${innen}</blockquote>`);
       continue;
     }
     const titel = z.match(/^(#{1,4})\s+(.*)$/);
@@ -162,7 +174,8 @@ export function miniMarkdown(text: string): string {
       !/^(#{1,4})\s+/.test(zeilen[i]) &&
       !/^\s*[-•]\s+/.test(zeilen[i]) &&
       !/^\s*\|/.test(zeilen[i]) &&
-      !/^\s*\d+\.\s+/.test(zeilen[i])
+      !/^\s*\d+\.\s+/.test(zeilen[i]) &&
+      !MERKE.test(zeilen[i])
     ) {
       absatz.push(inline(zeilen[i]));
       i++;

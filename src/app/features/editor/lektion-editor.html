@@ -153,6 +153,39 @@
                 (aenderung)="setzeHinweise(l, $event)"
               />
             </div>
+            <div class="feld">
+              <div class="zeile zwischen">
+                <label for="kurzfassung">Kurzfassung</label>
+                <button
+                  type="button"
+                  class="knopf text klein"
+                  [attr.aria-expanded]="vorschauKurzfassung()"
+                  (click)="vorschauKurzfassung.set(!vorschauKurzfassung())"
+                >
+                  {{ vorschauKurzfassung() ? 'Vorschau ausblenden' : 'Vorschau zeigen' }}
+                </button>
+              </div>
+              <p class="leise klein" id="kurzfassung-hilfe">
+                Die ganze Lektion zum Durchlesen. Leer lassen, wenn es keine gibt. Formatierung:
+                <code>## Abschnitt</code> (eigene Karte mit Sprungmarke), <code>### Zwischentitel</code>,
+                Leerzeile = neuer Absatz, <code>- </code> Liste, <code>&gt; </code> Merke-Kasten,
+                <code>**fett**</code>, <code>`code`</code>.
+              </p>
+              <textarea
+                id="kurzfassung"
+                class="eingabe sehr-lang"
+                aria-describedby="kurzfassung-hilfe"
+                [value]="l.kurzfassung ?? ''"
+                (input)="setze(l, 'kurzfassung', text($event))"
+              ></textarea>
+              @if (vorschauKurzfassung()) {
+                <div
+                  id="kurzfassung-vorschau"
+                  class="vorschau md"
+                  [innerHTML]="l.kurzfassung | md"
+                ></div>
+              }
+            </div>
           </div>
         }
 

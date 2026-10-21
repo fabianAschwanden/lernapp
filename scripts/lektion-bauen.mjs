@@ -9,6 +9,7 @@
  * Ordneraufbau eines Lektionsprojekts:
  *   kopf.json          Lektion ohne Fragen; Lernziele mit id/thema/text (Zusammenfassung darf leer sein)
  *   teile/*.json       { "lernziele": [ { "id", "zusammenfassung", "merksaetze"?, "bilder"? } ], "fragen": [ … ] }
+ *   kurzfassung.md     optional: Kurzfassung der ganzen Lektion (Mini-Markdown, `## Abschnitt`)
  *
  * Die Validierung nutzt dieselbe Funktion wie die App (validiereLektion), dazu
  * Qualitätswarnungen (ß, fehlende Bilder, Antwortverteilung, doppelte Fragen,
@@ -45,6 +46,8 @@ function qualitaet(l) {
     const src = m[1];
     if (!src.startsWith('data:') && !existsSync(join(wurzel, 'public', src))) w.push(`Bild fehlt: public/${src}`);
   }
+  if (!l.kurzfassung?.trim()) w.push('Keine Kurzfassung (content/<id>/kurzfassung.md).');
+  else if (!/^## /m.test(l.kurzfassung)) w.push('Kurzfassung ohne «## Abschnitte».');
   const proLz = new Map();
   for (const f of l.fragen) proLz.set(f.lernzielId, (proLz.get(f.lernzielId) ?? 0) + 1);
   for (const lz of l.lernziele) {
@@ -99,7 +102,10 @@ function zusammenfuehren(ordner) {
   // Fragen in der Reihenfolge der Lernziele
   const rang = new Map(lernziele.map((lz, i) => [lz.id, i]));
   fragen.sort((a, b) => (rang.get(a.lernzielId) ?? 99) - (rang.get(b.lernzielId) ?? 99));
-  return { ...kopf, lernziele, fragen };
+  // Kurzfassung der ganzen Lektion liegt als eigene Markdown-Datei daneben
+  const kurzfassungPfad = join(ordner, 'kurzfassung.md');
+  const kurzfassung = existsSync(kurzfassungPfad) ? readFileSync(kurzfassungPfad, 'utf8').trim() : kopf.kurzfassung;
+  return { ...kopf, ...(kurzfassung ? { kurzfassung } : {}), lernziele, fragen };
 }
 
 function bericht(name, fehler, warnungen) {

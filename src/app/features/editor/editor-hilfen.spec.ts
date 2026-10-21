@@ -39,6 +39,7 @@ describe('editor-hilfen', () => {
       beschreibung: '',
       klasse: '',
       hinweise: ['', 'Taschenrechner erlaubt'],
+      kurzfassung: '  \n ',
       quellen: [],
       lernziele: [{ id: 'lz-a', thema: 'A', text: 'A', zusammenfassung: '', merksaetze: [''], ergaenzt: false }],
       fragen: [{ ...(frageVorlage('kurzantwort', 'f-1', 'lz-a') as KurzantwortFrage), akzeptiert: ['', 'RAM'] }],
@@ -47,6 +48,8 @@ describe('editor-hilfen', () => {
     };
     const b = bereinige(l);
     expect(b.klasse).toBeUndefined();
+    expect('kurzfassung' in b).toBe(false);
+    expect(bereinige({ ...l, kurzfassung: '## A\nText' }).kurzfassung).toBe('## A\nText');
     expect(b.hinweise).toEqual(['Taschenrechner erlaubt']);
     expect(b.lernziele[0].merksaetze).toBeUndefined();
     expect('ergaenzt' in b.lernziele[0]).toBe(false);

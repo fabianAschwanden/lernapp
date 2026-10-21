@@ -29,6 +29,12 @@ export interface Lektion {
   pruefungsdatum?: string;
   /** Hinweise zur Prüfung, z. B. erlaubte Hilfsmittel. */
   hinweise?: string[];
+  /**
+   * Kurzfassung der ganzen Lektion zum Durchlesen (Mini-Markdown wie die
+   * Lernzettel). `## Titel` gliedert in Abschnitte — die Kurzfassung-Seite zeigt
+   * jeden Abschnitt als eigene Karte mit Sprungmarke.
+   */
+  kurzfassung?: string;
   quellen: Quelle[];
   lernziele: Lernziel[];
   fragen: Frage[];

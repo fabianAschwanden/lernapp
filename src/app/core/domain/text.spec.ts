@@ -184,6 +184,52 @@ describe('miniMarkdown', () => {
     expect(miniMarkdown('- a\n-5 danach')).toBe('<ul><li>a</li></ul><p>-5 danach</p>');
   });
 
+  describe('Merke-Kasten', () => {
+    it('macht aus «> »-Zeilen einen Kasten mit Inline-Formatierung', () => {
+      expect(miniMarkdown('> **Merke:** O2 rein, CO2 raus')).toBe(
+        '<blockquote class="merke"><p><strong>Merke:</strong> O2 rein, CO2 raus</p></blockquote>',
+      );
+    });
+
+    it('fasst aufeinanderfolgende Zeilen zu einem Kasten zusammen', () => {
+      expect(miniMarkdown('> Zeile 1\n> Zeile 2\n>\n> Absatz 2')).toBe(
+        '<blockquote class="merke"><p>Zeile 1<br>Zeile 2</p><p>Absatz 2</p></blockquote>',
+      );
+    });
+
+    it('erlaubt Listen im Kasten', () => {
+      expect(miniMarkdown('> Merke:\n> - eins\n> - **zwei**')).toBe(
+        '<blockquote class="merke"><p>Merke:</p><ul><li>eins</li><li><strong>zwei</strong></li></ul></blockquote>',
+      );
+    });
+
+    it('trennt Kasten von Absatz und Liste davor und danach', () => {
+      expect(miniMarkdown('Vorher\n> Kasten\nNachher')).toBe(
+        '<p>Vorher</p><blockquote class="merke"><p>Kasten</p></blockquote><p>Nachher</p>',
+      );
+      expect(miniMarkdown('- a\n> K')).toBe('<ul><li>a</li></ul><blockquote class="merke"><p>K</p></blockquote>');
+      expect(miniMarkdown('> A\n\n> B')).toBe(
+        '<blockquote class="merke"><p>A</p></blockquote><blockquote class="merke"><p>B</p></blockquote>',
+      );
+    });
+
+    it('lässt «>5» und «a > b» als normalen Text', () => {
+      expect(miniMarkdown('>5 Grad')).toBe('<p>&gt;5 Grad</p>');
+      expect(miniMarkdown('a > b')).toBe('<p>a &gt; b</p>');
+    });
+
+    it('gibt für einen leeren Kasten nichts aus', () => {
+      expect(miniMarkdown('>\n> ')).toBe('');
+    });
+
+    it('escaped HTML im Kasten', () => {
+      const div = document.createElement('div');
+      div.innerHTML = miniMarkdown('> <img src=x onerror=alert(1)>\n> - <script>x</script>');
+      expect(div.querySelector('img, script')).toBeNull();
+      expect(div.querySelector('blockquote.merke')?.textContent).toContain('<img src=x onerror=alert(1)>');
+    });
+  });
+
   it('verliert keinen Text bei gemischten Blöcken', () => {
     const quelle = '### T\nAbsatz\n- L1\n1. N1\n| Z |\nEnde';
     const html = miniMarkdown(quelle);

@@ -1,0 +1,92 @@
+<div class="seite lesen">
+  @if (lektion(); as l) {
+    <a class="knopf text zurueck" [routerLink]="['/lektion', l.id]">← Zur Lektion</a>
+
+    <header class="kf-kopf">
+      <div class="zeile chips">
+        <span class="chip primaer">{{ l.fach }}</span>
+        @if (l.klasse) {
+          <span class="chip">{{ l.klasse }}</span>
+        }
+        @if (text()) {
+          <span class="chip">ca. {{ lesezeit() }} Min. Lesezeit</span>
+        }
+      </div>
+      <h1>Kurzfassung – {{ l.titel }}</h1>
+      @if (pruefung(); as p) {
+        <p class="pruefung">
+          <strong>Prüfung:</strong> {{ p.datum }}
+          @if (p.countdown) {
+            <span class="chip primaer">{{ p.countdown }}</span>
+          }
+        </p>
+      }
+      @if (text()) {
+        <button type="button" class="knopf drucken" (click)="drucken()">Drucken</button>
+      }
+    </header>
+
+    @if (l.hinweise?.length) {
+      <aside class="hinweis" aria-labelledby="zur-pruefung">
+        <h2 id="zur-pruefung" class="hinweis-titel">Zur Prüfung</h2>
+        <ul>
+          @for (h of l.hinweise; track $index) {
+            <li>{{ h }}</li>
+          }
+        </ul>
+      </aside>
+    }
+
+    @if (text()) {
+      @if (gliederung().abschnitte.length > 1) {
+        <nav class="sprungmarken" aria-label="Abschnitte">
+          @for (a of gliederung().abschnitte; track $index) {
+            <button type="button" class="chip sprung" (click)="springeZu('abschnitt-' + $index)">
+              {{ a.titel }}
+            </button>
+          }
+        </nav>
+      }
+
+      @if (gliederung().einleitung) {
+        <div class="md einleitung" [innerHTML]="gliederung().einleitung | md"></div>
+      }
+
+      @for (a of gliederung().abschnitte; track $index) {
+        <section class="karte abschnitt" [attr.aria-labelledby]="'abschnitt-' + $index">
+          <h2 [id]="'abschnitt-' + $index" tabindex="-1">{{ a.titel }}</h2>
+          <div class="md" [innerHTML]="a.text | md"></div>
+        </section>
+      }
+
+      <nav class="weiter" aria-label="Weiterlernen">
+        <a class="knopf" [routerLink]="['/lektion', l.id, 'lernzettel']"
+          >Lernzettel (ausführlich)</a
+        >
+        @if (hatFragen()) {
+          <a class="knopf primaer" [routerLink]="['/lektion', l.id, 'lernen']">Jetzt üben</a>
+          <a class="knopf" [routerLink]="['/lektion', l.id, 'pruefung']">Probeprüfung</a>
+        }
+      </nav>
+    } @else {
+      <section class="hinweis leer" aria-labelledby="keine-kurzfassung">
+        <h2 id="keine-kurzfassung" class="hinweis-titel">Noch keine Kurzfassung</h2>
+        <p>
+          Zu dieser Lektion gibt es noch keine Kurzfassung. Im Lernzettel findest du den ganzen
+          Stoff je Lernziel — oder du schreibst die Kurzfassung selbst unter «Bearbeiten»
+          (Grunddaten).
+        </p>
+        <div class="zeile">
+          <a class="knopf primaer" [routerLink]="['/lektion', l.id, 'lernzettel']"
+            >Zum Lernzettel</a
+          >
+          <a class="knopf" [routerLink]="['/lektion', l.id, 'bearbeiten']">Kurzfassung schreiben</a>
+        </div>
+      </section>
+    }
+  } @else {
+    <h1>Kurzfassung nicht gefunden</h1>
+    <p class="leise">Diese Lektion gibt es nicht (mehr).</p>
+    <a class="knopf primaer" routerLink="/">Zur Startseite</a>
+  }
+</div>

@@ -52,6 +52,7 @@ function kiLektion(fragen: KiFrage[]): KiLektion {
         ergaenzt: true,
       },
     ],
+    kurzfassung: '',
     fragen,
   };
 }
@@ -62,6 +63,20 @@ const opt = {
 };
 
 describe('wandleKiAntwort', () => {
+  it('übernimmt die Kurzfassung (getrimmt) und lässt eine leere weg', () => {
+    const fragen = [kiFrage({ optionen: ['A', 'B'], richtigIndex: 0 })];
+    const mit = wandleKiAntwort(
+      { ...kiLektion(fragen), kurzfassung: '\n## EVA\n> Merke: E → V → A\n  ' },
+      opt,
+    );
+    expect(mit.fehler).toEqual([]);
+    expect(mit.lektion?.kurzfassung).toBe('## EVA\n> Merke: E → V → A');
+    for (const leer of ['', '   ', null, 42]) {
+      const ohne = wandleKiAntwort({ ...kiLektion(fragen), kurzfassung: leer }, opt);
+      expect(ohne.lektion && 'kurzfassung' in ohne.lektion).toBe(false);
+    }
+  });
+
   it('wandelt alle acht Fragetypen ins Lektionsformat um', () => {
     const fragen = [
       kiFrage({

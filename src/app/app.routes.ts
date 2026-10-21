@@ -31,6 +31,11 @@ export const routes: Routes = [
     loadComponent: () => import('./features/lernzettel/lernzettel').then((m) => m.Lernzettel),
   },
   {
+    path: 'lektion/:id/kurzfassung',
+    title: 'Kurzfassung',
+    loadComponent: () => import('./features/kurzfassung/kurzfassung').then((m) => m.Kurzfassung),
+  },
+  {
     path: 'lektion/:id/bearbeiten',
     title: 'Lektion bearbeiten',
     loadComponent: () => import('./features/editor/lektion-editor').then((m) => m.LektionEditor),

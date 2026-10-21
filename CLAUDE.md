@@ -34,7 +34,7 @@ material/            Unterrichtsmaterial (PDF) — gitignored, urheberrechtlich 
 - Keine eigenen Farbwerte in Komponenten: nur die CSS-Variablen und Klassen aus `src/styles.css` (`.seite`, `.karte`, `.knopf.primaer`, `.chip`, `.balken`, `.option`, `.hinweis`, `.feld`, `.eingabe`, `.md`, `.abbildung` …). Komponenten-CSS bleibt klein (Budget 4 kB Warnung / 8 kB Fehler pro Komponente).
 - Mobile first: alles muss ab 360 px Breite ohne horizontales Scrollen funktionieren; Touch-Ziele ≥ 44 px.
 - Barrierefreiheit: echte `<button>`/`<a>`, Labels für Eingaben, sichtbarer Fokus, `aria-live` für Rückmeldungen.
-- Lernzettel- und Fragetexte sind **Mini-Markdown** (siehe `core/domain/text.ts`) und werden mit `[innerHTML]="text | md"` in einem Element mit Klasse `md` gerendert.
+- Lernzettel-, Kurzfassungs- und Fragetexte sind **Mini-Markdown** (siehe `core/domain/text.ts`, inkl. `> ` Merke-Kasten) und werden mit `[innerHTML]="text | md"` in einem Element mit Klasse `md` gerendert.
 - Route- und Query-Parameter kommen per `input()` (Router mit `withComponentInputBinding`).
 - Fixer App-Kopf und untere Handy-Navigation: Höhen stehen als `--kopf-hoehe`/`--nav-unten-hoehe` in
   `styles.css`; `html` hat passendes `scroll-padding`. Sticky Elemente nutzen `top: var(--kopf-hoehe)`.
@@ -51,6 +51,8 @@ material/            Unterrichtsmaterial (PDF) — gitignored, urheberrechtlich 
 ## Lektionsformat
 
 Verbindlich ist `src/app/core/models/lektion.model.ts`; `validiereLektion()` prüft es. Jede Frage gehört zu genau einem Lernziel (`lernzielId`), hat eine `erklaerung` (warum die Lösung stimmt) und eine `schwierigkeit` 1–3. Fragetypen: `einfachwahl`, `mehrfachwahl`, `wahrfalsch`, `zuordnen` (rechts darf sich wiederholen → Kategorien), `reihenfolge`, `zahl` (mit `einheit`/`toleranz`), `kurzantwort` (`akzeptiert`, Vergleich ohne Gross-/Kleinschreibung und Sonderzeichen), `offen` (Musterlösung, Selbsteinschätzung).
+
+Optional `kurzfassung`: die ganze Lektion zum Durchlesen (Mini-Markdown, `## Thema` gliedert in Abschnitte = Karten mit Sprungmarke auf der Seite `lektion/:id/kurzfassung`, `> ` ergibt einen Merke-Kasten); bei mitgelieferten Lektionen aus `content/<id>/kurzfassung.md` (`scripts/lektion-bauen.mjs`).
 
 Inhaltliche Regeln für Fragen: fachlich korrekt und am Material belegt; was nicht im Material steht, als `ergaenzt` markieren; Distraktoren plausibel, aber eindeutig falsch; keine «alle obigen»-Optionen; Rechenaufgaben ohne Taschenrechner lösbar, wenn die Prüfung keinen erlaubt.
 

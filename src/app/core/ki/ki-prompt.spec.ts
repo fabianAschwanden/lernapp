@@ -32,6 +32,21 @@ describe('ki-prompt', () => {
     expect(s).toContain('Handschriftliche Notizen');
   });
 
+  it('System-Prompt beschreibt die Kurzfassung samt Syntax', () => {
+    const s = systemPrompt();
+    expect(s).toContain('## Kurzfassung');
+    expect(s).toContain('«kurzfassung»');
+    expect(s).toContain('600–1500 Wörter');
+    expect(s).toContain('`## Abschnitt`');
+    expect(s).toContain('`> `');
+    expect(s).toContain('## Prüfungs-Check');
+  });
+
+  it('Antwortformat ohne Schema nennt das Feld kurzfassung', () => {
+    const b = baueInhalt([], auftrag, true);
+    expect(b[0].type === 'text' && b[0].text.includes('kurzfassung (Text')).toBe(true);
+  });
+
   it('Auftrag enthält Lernziele, Umfang, Niveau und Taschenrechner-Regel', () => {
     const t = auftragsText(auftrag);
     expect(t).toContain('1. Du kannst das EVA-Prinzip erklären.');
@@ -76,6 +91,16 @@ describe('ki-prompt', () => {
     expect(p).toContain('"lernzielId":"lz-eva"');
     expect(p).toContain('NUR mit dem JSON-Objekt');
     expect(p).not.toContain('## Eingefügte Texte');
+    expect(p).toContain('"kurzfassung":"');
+    expect(p).toContain('## Kurzfassung');
+  });
+
+  it('Beispiel-Kurzfassung nutzt Abschnitte, Merke-Kasten und Prüfungs-Check', () => {
+    const k = BEISPIEL_LEKTION.kurzfassung ?? '';
+    expect(k).toMatch(/^## EVA-Prinzip$/m);
+    expect(k).toMatch(/^> /m);
+    expect(k).toMatch(/^## Prüfungs-Check$/m);
+    expect(k).not.toContain('ß');
   });
 
   it('Kopier-Prompt enthält eingefügte Texte im Wortlaut', () => {
@@ -141,6 +166,12 @@ describe('LEKTION_SCHEMA', () => {
     pruefe(LEKTION_SCHEMA, '$', fehler);
     expect(fehler).toEqual([]);
     expect(LEKTION_SCHEMA['type']).toBe('object');
+  });
+
+  it('verlangt die Kurzfassung als Text (Pflichtfeld)', () => {
+    expect(LEKTION_SCHEMA['required']).toContain('kurzfassung');
+    const props = LEKTION_SCHEMA['properties'] as Record<string, Record<string, unknown>>;
+    expect(props['kurzfassung']['type']).toBe('string');
   });
 
   it('hat höchstens 16 Felder mit anyOf (Grenze der API)', () => {

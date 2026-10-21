@@ -35,6 +35,11 @@ export class Lernzettel {
 
   readonly lektion = computed(() => this.lektionService.lektion(this.id()));
 
+  readonly hatKurzfassung = computed(() => {
+    const k = this.lektion()?.kurzfassung;
+    return typeof k === 'string' && k.trim().length > 0;
+  });
+
   /** Lernziele nach Thema gruppiert, in der Reihenfolge der Lektion. */
   readonly themen = computed(() => {
     const gruppen = new Map<string, Lernziel[]>();

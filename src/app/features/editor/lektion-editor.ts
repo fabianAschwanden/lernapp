@@ -74,6 +74,9 @@ export class LektionEditor {
   readonly meldung = signal<{ text: string; art: 'erfolg' | 'fehler' } | null>(null);
   readonly speichertGerade = signal(false);
 
+  /** Vorschau der Kurzfassung (Grunddaten) sichtbar. */
+  readonly vorschauKurzfassung = signal(false);
+
   /** Lernziele, deren Zusammenfassung als Vorschau gezeigt wird. */
   readonly vorschauLz = signal<ReadonlySet<Lernziel>>(new Set());
 

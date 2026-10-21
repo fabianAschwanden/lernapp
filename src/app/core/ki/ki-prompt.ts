@@ -39,12 +39,15 @@ const MINI_MARKDOWN = [
   '`2^10` für hochgestellte Zahlen',
 ].join('; ');
 
+/** Syntax der Kurzfassung: Mini-Markdown plus «## »-Abschnitte und «> »-Merke-Kasten. */
+const KURZFASSUNG_SYNTAX = `Mini-Markdown wie bei den Lernzetteln, dazu: \`## Abschnitt\` (Thema), \`### Zwischentitel\`, \`> \` am Zeilenanfang für einen Merke-Kasten (aufeinanderfolgende «> »-Zeilen bilden einen Kasten, Listen darin mit \`> - \`). Erlaubt sonst: ${MINI_MARKDOWN}.`;
+
 /** Rolle und feste Regeln (stabil, unabhängig vom Auftrag). */
 export function systemPrompt(): string {
   return `Du bist eine erfahrene Lehrperson und Didaktik-Profi. Du erstellst aus Unterrichtsmaterial eine Lektion für eine Lern-App, mit der sich eine Schülerin oder ein Schüler gezielt auf eine Prüfung vorbereitet.
 
 ## Grundsätze
-- **Die Lernziele sind massgebend.** Jedes Lernziel bekommt einen Lernzettel (Feld «zusammenfassung») mit 2–5 Merksätzen und die verlangte Anzahl Fragen. Die Fragen prüfen genau das, was das Lernziel verlangt (Verb beachten: «nennen» → Wissen abfragen, «erklären» → offene Erklärfrage, «berechnen» → Rechenaufgabe, «unterscheiden» → Zuordnen usw.).
+- **Die Lernziele sind massgebend.** Jedes Lernziel bekommt einen Lernzettel (Feld «zusammenfassung») mit 2–5 Merksätzen und die verlangte Anzahl Fragen; dazu kommt eine Kurzfassung der ganzen Lektion (Feld «kurzfassung»). Die Fragen prüfen genau das, was das Lernziel verlangt (Verb beachten: «nennen» → Wissen abfragen, «erklären» → offene Erklärfrage, «berechnen» → Rechenaufgabe, «unterscheiden» → Zuordnen usw.).
 - **Nur Stoff aus dem Material.** Lernzettel und Fragen stützen sich auf das mitgegebene Material. Muss etwas ergänzt werden, damit ein Lernziel verständlich wird, markiere das Lernziel mit «ergaenzt»: true und halte Ergänzungen knapp und fachlich gesichert. Nenne im «quellenhinweis» die Fundstelle (z. B. «Skript, PDF-Seite 11»).
 - **Handschriftliche Notizen**, Markierungen und Unterstreichungen im Material sind Hinweise der Lehrperson auf Prüfungsschwerpunkte: gewichte diese Themen stärker.
 - **Sprache:** Schweizer Hochdeutsch ohne Eszett (immer «ss»), Anrede in der Du-Form, klare und kurze Sätze, Fachbegriffe wie im Material.
@@ -52,6 +55,14 @@ export function systemPrompt(): string {
 ## Lernzettel
 - Mini-Markdown, sonst nichts (kein HTML, keine Links, keine Bilder). Erlaubt: ${MINI_MARKDOWN}.
 - Kompakt und prüfungsorientiert: Definitionen, Zusammenhänge, Beispiele, typische Fehler. Tabellen für Vergleiche.
+
+## Kurzfassung
+- Im Feld «kurzfassung» schreibst du zusätzlich eine Kurzfassung der ganzen Lektion zum Durchlesen und Studieren am Stück, angelehnt an die Lernziele und die Lerninhalte. Umfang je nach Stoffmenge etwa 600–1500 Wörter.
+- ${KURZFASSUNG_SYNTAX}
+- Gliedere mit «## » nach Themen, in der Reihenfolge der Lernziele. Jeder Abschnitt wird in der App eine eigene Karte mit Sprungmarke; Text vor der ersten «## »-Überschrift erscheint als kurze Einleitung.
+- Je Thema: die Kernaussagen in ganzen, verständlichen Sätzen, wichtige Zahlen und Begriffe (fett) und ein Merke-Kasten mit «> » für das Wichtigste.
+- Am Schluss ein Abschnitt «## Prüfungs-Check» mit typischen Fallen und Verwechslungen.
+- Es gelten dieselben Regeln wie für die Lernzettel: nur Stoff aus dem Material, Ergänzungen knapp und fachlich gesichert.
 
 ## Fragen
 - Gute Mischung der erlaubten Fragetypen, inklusive offener Erklärfragen (Typ «offen» mit Musterlösung und Stichworten), wenn dieser Typ erlaubt ist.
@@ -165,7 +176,7 @@ export function baueInhalt(
 
 /** Zusatz, falls die API ohne Schema aufgerufen werden muss. */
 const NUR_JSON_KI = `## Antwortformat
-Antworte nur mit einem JSON-Objekt (ohne Text davor oder danach, ohne Codeblock) mit den Feldern fach, titel, beschreibung, hinweise (Liste), lernziele (Liste von {id, thema, text, zusammenfassung, merksaetze, quellenhinweis, ergaenzt}) und fragen (Liste von {id, lernzielId, typ, frage, erklaerung, schwierigkeit, tipp, optionen, richtigIndex, richtigIndizes, richtigBool, paare, elemente, richtigZahl, toleranz, einheit, akzeptiert, musterloesung, stichworte}; nicht passende Felder null).`;
+Antworte nur mit einem JSON-Objekt (ohne Text davor oder danach, ohne Codeblock) mit den Feldern fach, titel, beschreibung, hinweise (Liste), lernziele (Liste von {id, thema, text, zusammenfassung, merksaetze, quellenhinweis, ergaenzt}), kurzfassung (Text, Mini-Markdown mit «## »-Abschnitten) und fragen (Liste von {id, lernzielId, typ, frage, erklaerung, schwierigkeit, tipp, optionen, richtigIndex, richtigIndizes, richtigBool, paare, elemente, richtigZahl, toleranz, einheit, akzeptiert, musterloesung, stichworte}; nicht passende Felder null).`;
 
 /** Kompaktes Beispiel im echten Lektionsformat (für den Kopier-Prompt). */
 export const BEISPIEL_LEKTION: Omit<
@@ -187,6 +198,8 @@ export const BEISPIEL_LEKTION: Omit<
       quellenhinweis: 'Skript, PDF-Seite 9',
     },
   ],
+  kurzfassung:
+    'Wie ein Computer Daten verarbeitet.\n\n## EVA-Prinzip\nJeder Computer arbeitet nach **E**ingabe – **V**erarbeitung – **A**usgabe. Tastatur und Maus sind Eingabegeräte, die **CPU** verarbeitet, Bildschirm und Drucker geben aus.\n\n> **Merke:** Eingabe → Verarbeitung → Ausgabe\n\n## Prüfungs-Check\n- Der Drucker ist ein Ausgabe-, kein Eingabegerät.\n- 1 Byte = 8 Bit',
   fragen: [
     {
       id: 'f-eva-01',

@@ -525,12 +525,29 @@ details[open] > summary::before {
   font-size: 1rem;
   color: var(--primaer);
 }
+/* Merke-Kasten («> » im Mini-Markdown) */
+.md blockquote.merke {
+  margin: 0.4em 0 0.85em;
+  padding: 10px 14px;
+  border-radius: var(--radius-klein);
+  background: var(--primaer-weich);
+  border-left: 4px solid var(--primaer);
+  color: var(--text);
+}
+.md blockquote.merke > :last-child {
+  margin-bottom: 0;
+}
+.md blockquote.merke ul,
+.md blockquote.merke ol {
+  padding-left: 1.2em;
+}
 .md .tabelle {
   overflow-x: auto;
   margin: 0 0 0.75em;
 }
-/* Lernzettel (Karte mit --flaeche): Schatten am Rand, solange seitlich noch Spalten folgen */
-.lernziel .md .tabelle {
+/* Lernzettel und Kurzfassung (Karte mit --flaeche): Schatten am Rand, solange seitlich noch Spalten folgen */
+.lernziel .md .tabelle,
+.abschnitt .md .tabelle {
   background:
     linear-gradient(to right, var(--flaeche), var(--flaeche)) left / 16px 100% no-repeat local,
     linear-gradient(to left, var(--flaeche), var(--flaeche)) right / 16px 100% no-repeat local,
@@ -600,6 +617,12 @@ details[open] > summary::before {
   }
   .karte {
     box-shadow: none;
+    break-inside: avoid;
+  }
+  .md blockquote.merke {
+    background: none;
+    border: 1px solid #000;
+    border-left-width: 4px;
     break-inside: avoid;
   }
 }

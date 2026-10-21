@@ -68,7 +68,7 @@ const ohneLeere = (l: string[] | undefined): string[] => (l ?? []).filter((s) =>
 
 /**
  * Räumt eine Arbeitskopie für Validierung und Speichern auf: leere optionale
- * Felder und leere Listeneinträge (Hinweise, Merksätze, akzeptierte Antworten,
+ * Felder (auch eine leere Kurzfassung) und leere Listeneinträge (Hinweise, Merksätze, akzeptierte Antworten,
  * Stichworte) fallen weg. Optionen, Paare und Elemente bleiben, damit die
  * Validierung Lücken meldet und die Indizes der richtigen Antworten stimmen.
  */
@@ -76,6 +76,7 @@ export function bereinige(l: Lektion): Lektion {
   const k = structuredClone(l);
   k.klasse = leerZuUndefined(k.klasse);
   k.pruefungsdatum = leerZuUndefined(k.pruefungsdatum);
+  k.kurzfassung = leerZuUndefined(k.kurzfassung);
   const hinweise = ohneLeere(k.hinweise);
   k.hinweise = hinweise.length ? hinweise : undefined;
   for (const lz of k.lernziele) {

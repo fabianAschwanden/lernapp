@@ -78,6 +78,14 @@
           <span class="aktion-titel">Probeprüfung</span>
           <span class="aktion-unter leise">Note nach Schweizer Skala</span>
         </a>
+        @if (kurzfassungMinuten(); as min) {
+          <a class="knopf aktion kurzfassung" [routerLink]="['/lektion', l.id, 'kurzfassung']">
+            <span class="aktion-titel">Kurzfassung</span>
+            <span class="aktion-unter leise"
+              >alles Wichtige zum Durchlesen · ca. {{ min }} Min.</span
+            >
+          </a>
+        }
         <a class="knopf aktion" [routerLink]="['/lektion', l.id, 'lernzettel']">
           <span class="aktion-titel">Lernzettel</span>
           <span class="aktion-unter leise">Stoff zum Nachlesen</span>
@@ -98,6 +106,12 @@
         Diese Lektion hat noch keine Fragen.
         <a [routerLink]="['/lektion', l.id, 'bearbeiten']">Fragen ergänzen</a>
       </p>
+      @if (kurzfassungMinuten(); as min) {
+        <a class="knopf aktion kurzfassung breit" [routerLink]="['/lektion', l.id, 'kurzfassung']">
+          <span class="aktion-titel">Kurzfassung</span>
+          <span class="aktion-unter leise">alles Wichtige zum Durchlesen · ca. {{ min }} Min.</span>
+        </a>
+      }
       <a class="knopf breit" [routerLink]="['/lektion', l.id, 'lernzettel']">Lernzettel öffnen</a>
     }
 

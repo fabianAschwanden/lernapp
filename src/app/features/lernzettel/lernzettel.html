@@ -10,7 +10,12 @@
           · {{ l.klasse }}
         }
       </p>
-      <button type="button" class="knopf" (click)="drucken()">Drucken</button>
+      <div class="zeile kopf-knoepfe">
+        @if (hatKurzfassung()) {
+          <a class="knopf" [routerLink]="['/lektion', l.id, 'kurzfassung']">Zur Kurzfassung</a>
+        }
+        <button type="button" class="knopf" (click)="drucken()">Drucken</button>
+      </div>
     </header>
 
     @if (themen().length > 1) {

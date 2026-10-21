@@ -2,6 +2,7 @@ import { DatePipe, DecimalPipe } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, inject, input, signal } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 
+import { lesezeitMinuten } from '../../core/domain/kurzfassung';
 import { halbeNote, istGenuegend } from '../../core/domain/note';
 import {
   LernzielStand,
@@ -44,6 +45,12 @@ export class LektionUebersicht {
   readonly quellen = computed(() => {
     const q = this.lektion()?.quellen;
     return Array.isArray(q) ? q : [];
+  });
+
+  /** Lesezeit der Kurzfassung in Minuten; null, wenn die Lektion keine hat. */
+  readonly kurzfassungMinuten = computed(() => {
+    const k = this.lektion()?.kurzfassung;
+    return typeof k === 'string' && k.trim() ? lesezeitMinuten(k) : null;
   });
 
   readonly staende = computed<LernzielStand[]>(() => {

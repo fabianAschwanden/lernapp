@@ -100,6 +100,8 @@ const ROUTEN: {
     },
   },
   { pfad: `${L}/lernzettel`, titel: `Lernzettel – ${LEKTION.titel}` },
+  // Mit oder ohne Kurzfassung (Inhalt wird separat ergänzt): Überschrift ist immer da
+  { pfad: `${L}/kurzfassung`, titel: `Kurzfassung – ${LEKTION.titel}` },
   {
     pfad: `${L}/bearbeiten`,
     titel: 'Lektion bearbeiten',
@@ -135,6 +137,7 @@ const ROUTEN: {
   },
   { pfad: '/lektion/gibt-es-nicht', titel: 'Lektion nicht gefunden' },
   { pfad: '/lektion/gibt-es-nicht/lernzettel', titel: 'Lernzettel nicht gefunden' },
+  { pfad: '/lektion/gibt-es-nicht/kurzfassung', titel: 'Kurzfassung nicht gefunden' },
 ];
 
 test.describe('Alle Routen', () => {
@@ -166,6 +169,7 @@ test.describe('Alle Routen', () => {
       ['/', 'Lernapp'],
       [L, 'Lektion'],
       [`${L}/lernzettel`, 'Lernzettel'],
+      [`${L}/kurzfassung`, 'Kurzfassung'],
       ['/einstellungen', 'Einstellungen'],
     ] as const) {
       await page.goto(pfad);

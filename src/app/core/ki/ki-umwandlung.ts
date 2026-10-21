@@ -145,6 +145,8 @@ export function wandleKiAntwort(daten: unknown, opt: UmwandlungsOptionen): Umwan
   const datum = opt.pruefungsdatum?.trim() || str(daten['pruefungsdatum']).trim();
   if (/^\d{4}-\d{2}-\d{2}$/.test(datum)) lektion.pruefungsdatum = datum;
   if (alleHinweise.length) lektion.hinweise = alleHinweise;
+  const kurzfassung = str(daten['kurzfassung']).trim();
+  if (kurzfassung) lektion.kurzfassung = kurzfassung;
 
   for (const lz of lernziele) {
     if (!proLernziel.get(lz.id)) hinweise.push(`Lernziel «${lz.text}» hat keine Fragen.`);

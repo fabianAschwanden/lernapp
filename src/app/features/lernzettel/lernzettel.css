@@ -16,6 +16,9 @@
 .nur-druck {
   display: none;
 }
+.kopf-knoepfe {
+  gap: 8px;
+}
 
 .sprungmarken {
   display: flex;

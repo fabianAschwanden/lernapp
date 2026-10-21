@@ -1,0 +1,105 @@
+/* Schmalere Spalte und etwas grössere Schrift: angenehme Zeilenlänge zum Durchlesen */
+.lesen {
+  max-width: 46rem;
+}
+.zurueck {
+  margin-left: -8px;
+}
+.kf-kopf {
+  margin: 4px 0 12px;
+}
+.kf-kopf h1 {
+  margin: 10px 0 6px;
+  overflow-wrap: anywhere;
+}
+.chips {
+  gap: 6px;
+}
+.pruefung {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.hinweis {
+  margin: 0 0 12px;
+}
+.hinweis-titel {
+  font-size: 0.95rem;
+  margin: 0 0 4px;
+}
+.hinweis ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+.leer .zeile {
+  margin-top: 4px;
+}
+
+.sprungmarken {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 12px;
+}
+.sprung {
+  min-height: 44px;
+  padding: 0 14px;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: normal;
+  text-align: left;
+}
+.sprung:hover {
+  border-color: var(--primaer);
+}
+
+.einleitung {
+  margin: 0 0 12px;
+}
+.abschnitt {
+  margin-bottom: 12px;
+  overflow-wrap: break-word;
+}
+.abschnitt h2 {
+  color: var(--primaer);
+  margin-bottom: 10px;
+}
+@media (min-width: 560px) {
+  .einleitung,
+  .abschnitt .md {
+    font-size: 1.0625rem;
+    line-height: 1.65;
+  }
+  .abschnitt {
+    padding: 20px 24px;
+  }
+}
+
+.weiter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+.weiter .knopf {
+  flex: 1 1 160px;
+}
+
+@media print {
+  .sprungmarken,
+  .weiter {
+    display: none !important;
+  }
+  .abschnitt {
+    border: none;
+    padding: 0;
+    margin-bottom: 16px;
+    break-inside: auto;
+  }
+  .abschnitt h2 {
+    break-after: avoid;
+  }
+}

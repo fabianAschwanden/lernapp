@@ -90,6 +90,9 @@ textarea.kurz {
 textarea.lang {
   min-height: 180px;
 }
+textarea.sehr-lang {
+  min-height: 360px;
+}
 .vorschau {
   border: 1px dashed var(--rand);
   border-radius: var(--radius-klein);

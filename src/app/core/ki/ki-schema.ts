@@ -62,6 +62,8 @@ export interface KiLektion {
   beschreibung: string;
   hinweise: string[];
   lernziele: KiLernziel[];
+  /** Kurzfassung der ganzen Lektion (Mini-Markdown mit «## »-Abschnitten); leer = keine. */
+  kurzfassung: string;
   fragen: KiFrage[];
 }
 
@@ -142,5 +144,8 @@ export const LEKTION_SCHEMA: Schema = objekt({
   beschreibung: text('1–2 Sätze: worum es in der Lektion geht'),
   hinweise: textListe('Hinweise zur Prüfung, z. B. erlaubte Hilfsmittel'),
   lernziele: { type: 'array', items: LERNZIEL_SCHEMA },
+  kurzfassung: text(
+    'Kurzfassung der ganzen Lektion zum Durchlesen (Mini-Markdown, mit «## Thema» gegliedert, «> » für Merke-Kästen, am Ende «## Prüfungs-Check»)',
+  ),
   fragen: { type: 'array', items: FRAGE_SCHEMA },
 });
