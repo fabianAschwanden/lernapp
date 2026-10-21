@@ -1,0 +1,1612 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-bau-beschriften",
+      "zusammenfassung": "Die **Atemwege** leiten die Luft von aussen bis zu den **Lungenbläschen (Alveolen)**, wo der Gasaustausch stattfindet. In der Prüfung musst du eine Abbildung beschriften können – mit **korrekt geschriebenen** Fachbegriffen.\n\n### Lunge von vorne (Blatt Teil 1, S. 4)\n| Nr. | Fachbegriff | Merkhilfe |\n|---|---|---|\n| 1 | **Luftröhre** | Röhre mit Knorpelspangen in der Mitte |\n| 2 | **linker und rechter Hauptbronchus** | erste Gabelung der Luftröhre |\n| 3 | **Sekundärbronchien** | 2. Verzweigungsstufe |\n| 4 | **Tertiärbronchien** | 3. Verzweigungsstufe |\n| 5 | **Bronchiolen** | feinste Ästchen, ohne Knorpel |\n| 6 | **linker Lungenflügel** | in der Ansicht von vorne **rechts im Bild** |\n| 7 | **sauerstoffreiches Blut** | rot, fliesst von den Alveolen weg |\n| 8 | **sauerstoffarmes Blut** | blau, kommt zu den Alveolen |\n| 9 | **Alveolargang** | führt zu den Lungenbläschen |\n| 10 | **Lungenbläschen = Alveolen** | traubenförmig, Ort des Gasaustauschs |\n\n**Achtung Seiten:** Die Abbildung zeigt den Menschen **von vorne**. Links und rechts sind deshalb vertauscht: Der **linke Lungenflügel liegt rechts im Bild**. Du erkennst ihn daran, dass er **kleiner** ist und eine Einbuchtung für das Herz hat.\n\n### Weg der Luft\n**Nasenhöhle** (oder Mundhöhle) → **Rachen** → **Kehlkopf** → **Luftröhre** → **Hauptbronchien** → **Sekundärbronchien** → **Tertiärbronchien** → **Bronchiolen** → **Alveolargang** → **Alveolen**\n\n### Überblick: Atemwege von Kopf bis Brust (ergänzt)\n| Struktur | Aufgabe |\n|---|---|\n| **Nasenhöhle** | Luft wird angewärmt, befeuchtet und gefiltert |\n| **Mundhöhle** | Ausweichweg, z. B. beim Sport oder mit verstopfter Nase |\n| **Rachen** | Kreuzung: Hier kreuzen sich Luftweg und Speiseweg |\n| **Kehldeckel** | verschliesst beim Schlucken den Kehlkopf, damit nichts in die Luftröhre gelangt |\n| **Kehlkopf** | Eingang zur Luftröhre, enthält die Stimmbänder |\n| **Luftröhre** | führt die Luft in die Brust |\n| **Speiseröhre** | liegt **hinter** der Luftröhre und führt in den Magen – **kein** Atemweg |\n| **Bronchien** | verteilen die Luft in die beiden Lungenflügel |\n| **Lunge** | Ort des Gasaustauschs (in den Alveolen) |\n| **Zwerchfell** | wichtigster Atemmuskel unter der Lunge – **kein** Atemweg |\n\n### Schreibweise\n- **Bronchien** (Einzahl **Bronchus**) und **Bronchiolen** – immer mit «ch».\n- **Sekundär**bronchien und **Tertiär**bronchien – mit «ä».\n- **Alveolen** (Einzahl Alveole) und **Alveolargang** – «Alveo…», nicht «Alvio…».\n- **Luftröhre**, **Lungenflügel**, **Lungenbläschen** – mit Umlaut.\n\n*Ergänzt (nicht im Blatt): die Übersicht der Atemwege von Kopf bis Brust mit Nasenhöhle, Mundhöhle, Rachen, Kehldeckel, Kehlkopf, Speiseröhre und Zwerchfell.*",
+      "merksaetze": [
+        "Lunge von vorne: 1 Luftröhre, 2 Hauptbronchus, 3 Sekundärbronchien, 4 Tertiärbronchien, 5 Bronchiolen, 6 linker Lungenflügel, 7 sauerstoffreiches Blut (rot), 8 sauerstoffarmes Blut (blau), 9 Alveolargang, 10 Alveolen.",
+        "Ansicht von vorne: Der linke Lungenflügel liegt rechts im Bild – es ist der kleinere.",
+        "Weg der Luft: Nase → Rachen → Kehlkopf → Luftröhre → Hauptbronchien → Sekundär- → Tertiärbronchien → Bronchiolen → Alveolargang → Alveolen.",
+        "Speiseröhre und Zwerchfell gehören nicht zu den Atemwegen – die Speiseröhre liegt hinter der Luftröhre."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/biologie/lunge-beschriftet.svg",
+          "alt": "Atemwege und Lunge von vorne, beschriftet: Luftröhre, Hauptbronchus, Sekundärbronchien, Tertiärbronchien, Bronchiolen, linker Lungenflügel rechts im Bild, Vergrösserung mit sauerstoffreichem und sauerstoffarmem Blut, Alveolargang und Alveolen",
+          "legende": "Bau der Atemwege und der Lunge (vgl. Atmung Teil 1, S. 4)"
+        },
+        {
+          "src": "bilder/biologie/atemwege-beschriftet.svg",
+          "alt": "Kopf, Hals und Brust seitlich-schematisch, beschriftet: Nasenhöhle, Mundhöhle, Rachen, Kehldeckel, Kehlkopf, Luftröhre, Speiseröhre, Bronchien, Lunge, Zwerchfell",
+          "legende": "Überblick: Atemwege von der Nase bis zur Lunge (ergänzt)"
+        }
+      ]
+    },
+    {
+      "id": "lz-lunge-masse",
+      "zusammenfassung": "### Zahlen zur Lunge\n| Grösse | Wert |\n|---|---|\n| Gewicht der Lunge eines Erwachsenen | ca. **1,1 kg** |\n| Höhe (Länge) eines Lungenflügels | ca. **26 cm** (nach Lungenliga) |\n\n### Zwei ungleiche Lungenflügel\n| | rechter Lungenflügel | linker Lungenflügel |\n|---|---|---|\n| Lappen | **3** (Ober-, Mittel-, Unterlappen) | **2** (Ober-, Unterlappen) |\n| Grösse | grösser | **kleiner** |\n| Besonderheit | – | Einbuchtung für das Herz (**Herzbucht**) |\n\n**Warum?** Das **Herz** liegt etwas nach links verschoben in der Brust. Es braucht dort Platz – darum ist der linke Lungenflügel kleiner und besteht nur aus **zwei Lappen**, der rechte aus **drei**.\n\n### Vom Lungenflügel zum Lungenbläschen\n1. Jeder **Lungenflügel** ist durch tiefe Furchen in **Lappen** unterteilt.\n2. Jeder Lappen besteht aus vielen **Lungenläppchen**; sie sind an der Oberfläche als etwa **1 cm** grosse Felder sichtbar.\n3. Jedes Lungenläppchen enthält über tausend **Alveolarsäckchen**.\n4. Die Wand der Alveolarsäckchen hat kugelige, etwa **0,2 mm** grosse Ausbuchtungen: die **Lungenbläschen (Alveolen)**.\n\n**Leicht trotz Grösse:** Die Lunge besteht grösstenteils aus luftgefüllten Röhren und Bläschen mit hauchdünner Wand. Darum wiegt sie nur gut ein Kilogramm, obwohl sie mehrere Liter Luft fasst.\n\n*Ergänzt (nicht im Blatt): die Höhe eines Lungenflügels (nach Lungenliga Schweiz) und die Namen der Lappen (Ober-, Mittel-, Unterlappen).*",
+      "merksaetze": [
+        "Die Lunge eines Erwachsenen wiegt ca. 1,1 kg, ein Lungenflügel ist ca. 26 cm hoch.",
+        "Rechts 3 Lappen, links 2 Lappen: Der linke Lungenflügel ist kleiner, weil das Herz links Platz braucht.",
+        "Lungenflügel → Lappen → Lungenläppchen (ca. 1 cm) → Alveolarsäckchen → Alveolen (ca. 0,2 mm)."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/biologie/lunge-beschriftet.svg",
+          "alt": "Lunge von vorne, beschriftet: Der linke Lungenflügel liegt rechts im Bild und ist kleiner als der rechte",
+          "legende": "Der linke Lungenflügel (rechts im Bild) ist kleiner – das Herz braucht Platz."
+        }
+      ]
+    },
+    {
+      "id": "lz-luftroehre",
+      "zusammenfassung": "### Masse der Luftröhre (nach Lungenliga und Anatomie-Standardwerten)\n| Merkmal | Wert |\n|---|---|\n| Länge | ca. **10–12 cm** |\n| Durchmesser | ca. **1,5–2 cm** |\n| Knorpelspangen | ca. 16–20 |\n\n### Besonderheiten der Luftröhre\n- **Hufeisenförmige (C-förmige) Knorpelspangen** halten die Luftröhre **offen** – auch beim Einatmen, wenn in den Atemwegen ein **Unterdruck** entsteht. Ohne sie würde die Röhre zusammenfallen wie ein aufgeweichter Strohhalm beim Saugen.\n- Die Spangen sind **hinten offen**. Dort liegt die **Speiseröhre** direkt an (dazwischen nur Muskel und Bindegewebe). So kann sich die Speiseröhre beim **Schlucken** eines Bissens ausdehnen.\n- Die Luftröhre liegt **vorne** am Hals, die Speiseröhre **dahinter**. Unterhalb des Kehlkopfs kannst du die Luftröhre an den harten, gerillten **Knorpelspangen ertasten**.\n- Innen ist sie mit **Schleimhaut** und **Flimmerepithel** ausgekleidet (Selbstreinigung).\n- Zwischen den Spangen ist sie biegsam – du kannst den Kopf drehen und den Hals beugen.\n\n### Bronchien und Bronchiolen\n| Abschnitt | Wand |\n|---|---|\n| Luftröhre | hufeisenförmige Knorpelspangen |\n| **Bronchien** (Haupt-, Sekundär-, Tertiärbronchien) | ebenfalls **Knorpel** (Spangen, weiter unten kleine Knorpelplättchen) und glatte Muskulatur → bleiben offen |\n| **Bronchiolen** (ca. 1 mm) | **kein Knorpel mehr**, Wand v. a. aus **glatter Muskulatur** → können sich stark verengen |\n\n**Folge:** Weil kein Knorpel sie offen hält, können sich die Bronchiolen stark verengen. Beim **Asthma** ziehen sich die Muskeln der Bronchiolen zusammen und die Schleimhaut schwillt an → die Luft strömt schlechter, es kommt zu Atemnot.\n\n*Ergänzt (nicht im Blatt): Länge, Durchmesser und Anzahl Knorpelspangen (nach Lungenliga bzw. Anatomie), glatte Muskulatur der Bronchiolen und Asthma.*",
+      "merksaetze": [
+        "Die Luftröhre ist ca. 10–12 cm lang und hat einen Durchmesser von ca. 1,5–2 cm.",
+        "Hufeisenförmige Knorpelspangen halten die Luftröhre offen – auch beim Unterdruck der Einatmung. Auch die Bronchien haben Knorpel und bleiben dadurch offen.",
+        "Die Spangen sind hinten offen: Dort liegt die Speiseröhre, die sich beim Schlucken ausdehnen kann.",
+        "Bronchiolen haben keinen Knorpel mehr, ihre Wand besteht v. a. aus glatter Muskulatur – sie können sich stark verengen (Asthma)."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/biologie/luftroehre.svg",
+          "alt": "Luftröhre von vorne mit hufeisenförmigen Knorpelspangen und Querschnitt: C-förmiger Knorpel, hinten offen, dahinter die Speiseröhre",
+          "legende": "Luftröhre mit hufeisenförmigen Knorpelspangen, hinten offen zur Speiseröhre"
+        }
+      ]
+    },
+    {
+      "id": "lz-bronchialbaum",
+      "zusammenfassung": "Die Luftwege verzweigen sich immer weiter – ähnlich wie ein **umgekehrter Baum**. Darum spricht man vom **Bronchialbaum**.\n\n| Baum | Atemwege |\n|---|---|\n| **Stamm** | Luftröhre |\n| **Äste** | Bronchien (Haupt-, Sekundär-, Tertiärbronchien) |\n| **Zweige** | Bronchiolen |\n| **Blätter** | Alveolen (Lungenbläschen) |\n\n### Aufbau von oben nach unten\n1. Die **Luftröhre** teilt sich in den **linken und rechten Hauptbronchus**.\n2. **Sekundärbronchien** – je ein Sekundärbronchus pro Lungenlappen (rechts 3, links 2).\n3. **Tertiärbronchien**\n4. **Bronchiolen** (ca. 1 mm, ohne Knorpel)\n5. **Alveolargänge** → Alveolarsäckchen mit den **Alveolen**\n\nMit jeder Stufe werden die Röhren **zahlreicher, dünner und enger**. Insgesamt verzweigt sich der Bronchialbaum über rund **23 Stufen**. Weil sich eine Röhre meist in zwei teilt, verdoppelt sich die Anzahl Röhren bei jeder Stufe ungefähr.\n\n### Wozu die Verzweigung?\n- Die Luft gelangt in **alle Bereiche** der Lunge bis zu den rund 400 Millionen Alveolen.\n- Viele Verzweigungen → sehr viele Alveolen → **grosse Oberfläche** für den Gasaustausch (Prinzip der Oberflächenvergrösserung).\n- Der Bronchialbaum **leitet** nur die Luft. Der **Gasaustausch** findet erst in den **Alveolen** statt – so wie bei einem Baum die Blätter Gase mit der Luft austauschen.\n\n*Ergänzt (nicht im Blatt): ein Sekundärbronchus pro Lappen und die rund 23 Verzweigungsstufen.*",
+      "merksaetze": [
+        "Bronchialbaum: Stamm = Luftröhre, Äste = Bronchien, Zweige = Bronchiolen, Blätter = Alveolen.",
+        "Luftröhre → Hauptbronchien → Sekundärbronchien → Tertiärbronchien → Bronchiolen → Alveolargänge → Alveolen.",
+        "Der Bronchialbaum leitet die Luft, der Gasaustausch geschieht erst in den Alveolen."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/biologie/lunge-beschriftet.svg",
+          "alt": "Lunge von vorne mit dem verzweigten Bronchialbaum: Luftröhre, Hauptbronchus, Sekundärbronchien, Tertiärbronchien, Bronchiolen bis zu den Alveolen",
+          "legende": "Der Bronchialbaum: von der Luftröhre (Stamm) bis zu den Alveolen (Blätter)"
+        }
+      ]
+    },
+    {
+      "id": "lz-selbstreinigung",
+      "zusammenfassung": "Die Atemwege (**Luftröhre, Bronchien, Bronchiolen**) sind innen mit einer **Schleimhaut** und einem **Flimmerepithel** überzogen. Zusammen bilden sie den **Selbstreinigungsmechanismus** der Atemwege.\n\n### So funktioniert er\n1. Mit der Atemluft gelangen **Staub**, Russ und **Krankheitserreger** (Bakterien, Viren) in die Atemwege.\n2. Die **Schleimhaut** bildet **Schleim**, an dem diese Teilchen kleben bleiben.\n3. Die **Flimmerhärchen** des Flimmerepithels schlagen ständig und schieben den Schleim wie ein Förderband **nach oben Richtung Rachen**.\n4. Im Rachen wird der Schleim meist unbemerkt **verschluckt** oder **abgehustet**.\n\nSo gelangen Staub und Erreger nicht bis in die empfindlichen **Alveolen**.\n\n### Infektion → mehr Schleim\nBei einer Infektion produziert die Schleimhaut **mehr Schleim**. Das ist sinnvoll: Mehr Schleim fängt **mehr Krankheitserreger** ein, die dann abtransportiert bzw. **ausgehustet** werden.\n\n### Rauchen → Raucherhusten\nRauchen schädigt das Flimmerepithel und **lähmt die Flimmerhärchen**. Der Schleim (mit Staub, Teer und Erregern) wird nicht mehr abtransportiert und sammelt sich in den Atemwegen an. Der Körper muss ihn **abhusten** → **Raucherhusten**. Weil Erreger länger liegen bleiben, kommt es auch häufiger zu Infektionen.\n\n### Die Nase als Vorfilter (ergänzt)\nDie **Nasenhöhle** **wärmt**, **befeuchtet** und **filtert** die Luft (Nasenhaare, Schleimhaut). Bei Mundatmung fällt diese Vorbereitung weg – kalte, trockene Luft reizt dann die Atemwege stärker.\n\n### Schreibweise\n**Flimmerepithel** (mit «th»), **Flimmerhärchen**, **Schleimhaut**.\n\n*Ergänzt (nicht im Blatt): die Nase als Vorfilter sowie Teer und Russ als Beispiele.*",
+      "merksaetze": [
+        "Schleim fängt Staub und Krankheitserreger, die Flimmerhärchen schlagen ihn Richtung Rachen – dort wird er verschluckt oder abgehustet.",
+        "Infektion → mehr Schleim → mehr Erreger werden eingefangen und abtransportiert.",
+        "Rauchen lähmt die Flimmerhärchen → der Schleim bleibt liegen und muss abgehustet werden → Raucherhusten."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/biologie/flimmerepithel.svg",
+          "alt": "Flimmerepithel: Zellen mit Flimmerhärchen, darüber eine Schleimschicht mit eingefangenen Staubteilchen, Pfeil Richtung Rachen",
+          "legende": "Selbstreinigung: Der Schleim fängt Teilchen ein, die Flimmerhärchen schieben ihn Richtung Rachen."
+        }
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-bau-beschriften-01",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "zuordnen",
+      "frage": "Ordne den Nummern 1 bis 5 der Abbildung den richtigen Fachbegriff zu.",
+      "bild": {
+        "src": "bilder/biologie/lunge-nummeriert.svg",
+        "alt": "Atemwege und Lunge von vorne mit den Nummern 1 bis 10, ohne Beschriftung"
+      },
+      "paare": [
+        {
+          "links": "Nummer 1",
+          "rechts": "Luftröhre"
+        },
+        {
+          "links": "Nummer 2",
+          "rechts": "linker und rechter Hauptbronchus"
+        },
+        {
+          "links": "Nummer 3",
+          "rechts": "Sekundärbronchien"
+        },
+        {
+          "links": "Nummer 4",
+          "rechts": "Tertiärbronchien"
+        },
+        {
+          "links": "Nummer 5",
+          "rechts": "Bronchiolen"
+        }
+      ],
+      "erklaerung": "Die Luft strömt von oben nach unten: **1 Luftröhre** → gabelt sich in den **2 linken und rechten Hauptbronchus** → **3 Sekundärbronchien** → **4 Tertiärbronchien** → **5 Bronchiolen**, die feinsten Ästchen. Je weiter unten, desto feiner die Verzweigung.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bau-beschriften-02",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "zuordnen",
+      "frage": "Ordne den Nummern 6 bis 10 der Abbildung den richtigen Fachbegriff zu.",
+      "bild": {
+        "src": "bilder/biologie/lunge-nummeriert.svg",
+        "alt": "Atemwege und Lunge von vorne mit den Nummern 1 bis 10, ohne Beschriftung"
+      },
+      "paare": [
+        {
+          "links": "Nummer 6",
+          "rechts": "linker Lungenflügel"
+        },
+        {
+          "links": "Nummer 7",
+          "rechts": "sauerstoffreiches Blut"
+        },
+        {
+          "links": "Nummer 8",
+          "rechts": "sauerstoffarmes Blut"
+        },
+        {
+          "links": "Nummer 9",
+          "rechts": "Alveolargang"
+        },
+        {
+          "links": "Nummer 10",
+          "rechts": "Lungenbläschen = Alveolen"
+        }
+      ],
+      "erklaerung": "**6** ist der **linke Lungenflügel** – in der Ansicht von vorne liegt er rechts im Bild. In der Vergrösserung: **7** rot = **sauerstoffreiches Blut**, **8** blau = **sauerstoffarmes Blut**, **9** der **Alveolargang**, der zu den traubenförmigen **10 Lungenbläschen (Alveolen)** führt.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bau-beschriften-03",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die Struktur mit der **Nummer 4**? (Fachbegriff, korrekt geschrieben)",
+      "bild": {
+        "src": "bilder/biologie/lunge-nummeriert.svg",
+        "alt": "Atemwege und Lunge von vorne mit den Nummern 1 bis 10, ohne Beschriftung"
+      },
+      "akzeptiert": [
+        "Tertiärbronchien",
+        "Tertiärbronchus",
+        "die Tertiärbronchien",
+        "der Tertiärbronchus",
+        "Segmentbronchien",
+        "Segmentbronchus",
+        "die Segmentbronchien",
+        "der Segmentbronchus"
+      ],
+      "erklaerung": "Nummer 4 sind die **Tertiärbronchien** – die dritte Verzweigungsstufe nach Hauptbronchus (2) und Sekundärbronchien (3). Schreibweise: **Tertiär** mit «ä», **-bronchien** mit «ch». Ein anderer Name ist Segmentbronchien.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bau-beschriften-04",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "kurzantwort",
+      "frage": "Wie heissen die traubenförmigen Strukturen mit der **Nummer 10**? (**Fachbegriff**, nicht der deutsche Name – korrekt geschrieben)",
+      "bild": {
+        "src": "bilder/biologie/lunge-nummeriert.svg",
+        "alt": "Atemwege und Lunge von vorne mit den Nummern 1 bis 10, ohne Beschriftung"
+      },
+      "akzeptiert": [
+        "Alveolen",
+        "Alveole",
+        "die Alveolen",
+        "die Alveole",
+        "Lungenbläschen = Alveolen",
+        "Lungenbläschen (Alveolen)",
+        "Alveolen (Lungenbläschen)"
+      ],
+      "erklaerung": "Nummer 10 sind die **Lungenbläschen = Alveolen**. Hier findet der Gasaustausch statt. Der Fachbegriff heisst **Alveolen** (Einzahl Alveole) – mit «eo», nicht «io». In der Prüfung darfst du beides hinschreiben, den Fachbegriff musst du aber korrekt schreiben können.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bau-beschriften-05",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "kurzantwort",
+      "frage": "Wie heissen die feinsten Ästchen mit der **Nummer 5**? (Fachbegriff, korrekt geschrieben)",
+      "bild": {
+        "src": "bilder/biologie/lunge-nummeriert.svg",
+        "alt": "Atemwege und Lunge von vorne mit den Nummern 1 bis 10, ohne Beschriftung"
+      },
+      "akzeptiert": [
+        "Bronchiolen",
+        "Bronchiole",
+        "die Bronchiolen",
+        "die Bronchiole"
+      ],
+      "erklaerung": "Nummer 5 sind die **Bronchiolen** – die feinsten Verzweigungen des Bronchialbaums, ohne Knorpel. Achte auf die Schreibweise: Bronch**iolen** (mit «ch» und «io»), nicht «Bronchialen» oder «Bronkiolen».",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bau-beschriften-06",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die Struktur mit der **Nummer 9**, die von den feinsten Ästchen (Nr. 5) zu den Lungenbläschen führt? (Fachbegriff, korrekt geschrieben)",
+      "bild": {
+        "src": "bilder/biologie/lunge-nummeriert.svg",
+        "alt": "Atemwege und Lunge von vorne mit den Nummern 1 bis 10, ohne Beschriftung"
+      },
+      "akzeptiert": [
+        "Alveolargang",
+        "Alveolargänge",
+        "der Alveolargang",
+        "die Alveolargänge"
+      ],
+      "erklaerung": "Nummer 9 ist der **Alveolargang**. Er verbindet die Bronchiolen mit den Alveolarsäckchen und den Alveolen. Schreibweise: **Alveolar**gang – mit «eo» und «ar».",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-bau-beschriften-07",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die Struktur mit der **Nummer 6**? Gib auch an, ob es die linke oder die rechte Seite ist. (Fachbegriff, korrekt geschrieben)",
+      "bild": {
+        "src": "bilder/biologie/lunge-nummeriert.svg",
+        "alt": "Atemwege und Lunge von vorne mit den Nummern 1 bis 10, ohne Beschriftung"
+      },
+      "akzeptiert": [
+        "linker Lungenflügel",
+        "der linke Lungenflügel",
+        "linke Lungenflügel",
+        "Lungenflügel links",
+        "linker Lungenflügel (rechts im Bild)"
+      ],
+      "erklaerung": "Nummer 6 ist der **linke Lungenflügel**. Die Abbildung zeigt den Menschen **von vorne** – links und rechts sind vertauscht, darum liegt der linke Lungenflügel **rechts im Bild**. Du erkennst ihn auch daran, dass er kleiner ist (Platz fürs Herz). Schreibweise: Lungen**flügel** mit «ü».",
+      "schwierigkeit": 2,
+      "tipp": "Stell dir vor, die Person steht dir gegenüber."
+    },
+    {
+      "id": "f-bau-beschriften-08",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "einfachwahl",
+      "frage": "Die Nummern 7 und 8 bezeichnen Blut in den feinen Blutgefässen um die Lungenbläschen. Welche Zuordnung stimmt?",
+      "bild": {
+        "src": "bilder/biologie/lunge-nummeriert.svg",
+        "alt": "Atemwege und Lunge von vorne mit den Nummern 1 bis 10, ohne Beschriftung"
+      },
+      "optionen": [
+        "7 = sauerstoffarmes Blut, 8 = sauerstoffreiches Blut",
+        "7 = sauerstoffreiches Blut, 8 = sauerstoffarmes Blut",
+        "7 und 8 führen beide sauerstoffreiches Blut",
+        "7 = Kohlenstoffdioxid, 8 = Sauerstoff"
+      ],
+      "richtig": 1,
+      "erklaerung": "**7** ist rot gezeichnet = **sauerstoffreiches Blut**, **8** ist blau = **sauerstoffarmes Blut**. Merke: In Abbildungen ist sauerstoffreiches Blut rot, sauerstoffarmes blau. Das blaue, sauerstoffarme Blut kommt zu den Lungenbläschen, nimmt dort Sauerstoff auf und fliesst als rotes, sauerstoffreiches Blut weiter.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bau-beschriften-09",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "zuordnen",
+      "frage": "Gemischte Nummern: Ordne jeder Nummer der Abbildung den richtigen Fachbegriff zu.",
+      "bild": {
+        "src": "bilder/biologie/lunge-nummeriert.svg",
+        "alt": "Atemwege und Lunge von vorne mit den Nummern 1 bis 10, ohne Beschriftung"
+      },
+      "paare": [
+        {
+          "links": "Nummer 2",
+          "rechts": "linker und rechter Hauptbronchus"
+        },
+        {
+          "links": "Nummer 3",
+          "rechts": "Sekundärbronchien"
+        },
+        {
+          "links": "Nummer 6",
+          "rechts": "linker Lungenflügel"
+        },
+        {
+          "links": "Nummer 8",
+          "rechts": "sauerstoffarmes Blut"
+        },
+        {
+          "links": "Nummer 9",
+          "rechts": "Alveolargang"
+        }
+      ],
+      "erklaerung": "**2** = erste Gabelung der Luftröhre (Hauptbronchus), **3** = zweite Stufe (Sekundärbronchien), **6** = linker Lungenflügel (rechts im Bild), **8** = blau gezeichnetes, sauerstoffarmes Blut, **9** = Alveolargang vor den Alveolen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-bau-beschriften-10",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "reihenfolge",
+      "frage": "Bringe die Stationen in die Reihenfolge, in der die eingeatmete Luft sie durchströmt.",
+      "elemente": [
+        "Nasenhöhle",
+        "Rachen",
+        "Kehlkopf",
+        "Luftröhre",
+        "Hauptbronchus",
+        "Sekundärbronchien",
+        "Tertiärbronchien",
+        "Bronchiolen",
+        "Alveolargang",
+        "Alveolen"
+      ],
+      "erklaerung": "Die Luft strömt durch die **Nasenhöhle** (angewärmt, befeuchtet, gefiltert) in den **Rachen**, durch den **Kehlkopf** in die **Luftröhre**. Danach verzweigt sich der Weg immer feiner: **Hauptbronchus → Sekundärbronchien → Tertiärbronchien → Bronchiolen → Alveolargang → Alveolen**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-bau-beschriften-11",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "zuordnen",
+      "frage": "Die Abbildung zeigt Kopf, Hals und Brust von der Seite. Ordne den Nummern 1 bis 5 den richtigen Begriff zu.",
+      "bild": {
+        "src": "bilder/biologie/atemwege-nummeriert.svg",
+        "alt": "Kopf, Hals und Brust seitlich-schematisch mit den Nummern 1 bis 10, ohne Beschriftung"
+      },
+      "paare": [
+        {
+          "links": "Nummer 1",
+          "rechts": "Nasenhöhle"
+        },
+        {
+          "links": "Nummer 2",
+          "rechts": "Mundhöhle"
+        },
+        {
+          "links": "Nummer 3",
+          "rechts": "Rachen"
+        },
+        {
+          "links": "Nummer 4",
+          "rechts": "Kehldeckel"
+        },
+        {
+          "links": "Nummer 5",
+          "rechts": "Kehlkopf"
+        }
+      ],
+      "erklaerung": "Oben liegt die **Nasenhöhle (1)**, darunter die **Mundhöhle (2)**. Beide münden in den **Rachen (3)**, wo sich Luft- und Speiseweg kreuzen. Der **Kehldeckel (4)** verschliesst beim Schlucken den Eingang zum **Kehlkopf (5)**. Diese Übersicht ist ergänzt – im Blatt steht nur die Lunge.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bau-beschriften-12",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "zuordnen",
+      "frage": "Gleiche Abbildung von der Seite: Ordne den Nummern 6 bis 10 den richtigen Begriff zu.",
+      "bild": {
+        "src": "bilder/biologie/atemwege-nummeriert.svg",
+        "alt": "Kopf, Hals und Brust seitlich-schematisch mit den Nummern 1 bis 10, ohne Beschriftung"
+      },
+      "paare": [
+        {
+          "links": "Nummer 6",
+          "rechts": "Luftröhre"
+        },
+        {
+          "links": "Nummer 7",
+          "rechts": "Speiseröhre"
+        },
+        {
+          "links": "Nummer 8",
+          "rechts": "Bronchien"
+        },
+        {
+          "links": "Nummer 9",
+          "rechts": "Lunge"
+        },
+        {
+          "links": "Nummer 10",
+          "rechts": "Zwerchfell"
+        }
+      ],
+      "erklaerung": "Die **Luftröhre (6)** liegt vorne am Hals, die **Speiseröhre (7)** direkt dahinter. Die Luftröhre teilt sich in die **Bronchien (8)**, die in die **Lunge (9)** führen. Unter der Lunge liegt das **Zwerchfell (10)**, der wichtigste Atemmuskel. Speiseröhre und Zwerchfell gehören nicht zu den Atemwegen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-bau-beschriften-13",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "kurzantwort",
+      "frage": "Welche Klappe verschliesst beim Schlucken den Eingang zum Kehlkopf, damit kein Essen in die Luftröhre gelangt?",
+      "akzeptiert": [
+        "Kehldeckel",
+        "der Kehldeckel",
+        "Epiglottis",
+        "die Epiglottis"
+      ],
+      "erklaerung": "Das ist der **Kehldeckel** (Fachwort Epiglottis). Er klappt beim Schlucken über den Kehlkopf, sodass der Bissen in die Speiseröhre rutscht. Schreibweise: Keh**l**deckel – von «Kehle».",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bau-beschriften-14",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Strukturen gehören zu den **Atemwegen**, durch die die Atemluft strömt? Wähle alle richtigen.",
+      "optionen": [
+        "Luftröhre",
+        "Speiseröhre",
+        "Bronchiolen",
+        "Rachen",
+        "Zwerchfell",
+        "Kehlkopf"
+      ],
+      "richtig": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "erklaerung": "Luft strömt durch **Rachen, Kehlkopf, Luftröhre** und **Bronchiolen**. Die **Speiseröhre** führt die Nahrung in den Magen, und das **Zwerchfell** ist ein Muskel unter der Lunge – durch beide strömt keine Atemluft. Der Rachen gehört zu beiden Wegen: Hier kreuzen sich Luft- und Speiseweg.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-bau-beschriften-15",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "einfachwahl",
+      "frage": "Ein Kind hat eine kleine Perle eingeatmet. Auf dem Röntgenbild steckt sie in der **ersten Abzweigung direkt nach der Luftröhre**. Wo steckt die Perle?",
+      "optionen": [
+        "in einer Bronchiole",
+        "in einem Sekundärbronchus",
+        "in einem Hauptbronchus",
+        "im Alveolargang"
+      ],
+      "richtig": 2,
+      "erklaerung": "Die Luftröhre gabelt sich zuerst in den **linken und rechten Hauptbronchus** (Nummer 2 in der Abbildung). Erst danach folgen Sekundärbronchien, Tertiärbronchien, Bronchiolen und der Alveolargang.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-bau-beschriften-16",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "wahrfalsch",
+      "frage": "In einer Abbildung, die einen Menschen **von vorne** zeigt, liegt der linke Lungenflügel auf der **linken Bildseite**.",
+      "richtig": false,
+      "erklaerung": "Von vorne gesehen sind die Seiten vertauscht – wie wenn dir jemand gegenübersteht. Der linke Lungenflügel liegt deshalb **rechts im Bild** (Nummer 6). Er ist der kleinere der beiden Flügel.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-bau-beschriften-17",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "einfachwahl",
+      "frage": "Du lachst beim Essen, ein Krümel gerät «in den falschen Hals» und du musst heftig husten. Welche Struktur hat den Weg in die Luftröhre nicht rechtzeitig verschlossen?",
+      "optionen": [
+        "der Kehldeckel",
+        "das Zwerchfell",
+        "die Speiseröhre",
+        "die Nasenhöhle"
+      ],
+      "richtig": 0,
+      "erklaerung": "Der **Kehldeckel** verschliesst beim Schlucken den Kehlkopf. Wenn du gleichzeitig lachst (also Luft ein- oder ausströmt), kann er offen sein, und der Krümel gerät in Kehlkopf oder Luftröhre. Der Hustenreflex befördert ihn wieder hinaus. Diese Übersicht der oberen Atemwege ist ergänzt.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-bau-beschriften-18",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "einfachwahl",
+      "frage": "Beim Schnorcheln atmest du nur durch den Schnorchel im Mund. Welche Station des normalen Luftwegs wird dabei **umgangen**?",
+      "optionen": [
+        "der Rachen",
+        "der Kehlkopf",
+        "die Luftröhre",
+        "die Nasenhöhle"
+      ],
+      "richtig": 3,
+      "erklaerung": "Bei Mundatmung strömt die Luft durch die Mundhöhle direkt in den **Rachen** – die **Nasenhöhle** wird umgangen. Rachen, Kehlkopf und Luftröhre muss die Luft trotzdem passieren. Folge: Die Luft wird nicht in der Nase angewärmt, befeuchtet und gefiltert.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-bau-beschriften-19",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "offen",
+      "frage": "Beschreibe den Weg eines Sauerstoffteilchens von der **Nase bis ins Blut**. Verwende die Fachbegriffe der Atemwege und der Lungen-Abbildung in der richtigen Reihenfolge.",
+      "musterloesung": "Das Sauerstoffteilchen gelangt mit der Atemluft durch die **Nasenhöhle** (dort wird die Luft angewärmt, befeuchtet und gefiltert) in den **Rachen** und durch den **Kehlkopf** in die **Luftröhre**. Diese teilt sich in den **linken und rechten Hauptbronchus**, danach in **Sekundärbronchien**, **Tertiärbronchien** und die feinen **Bronchiolen**. Über den **Alveolargang** erreicht das Teilchen die **Lungenbläschen (Alveolen)**. Dort gelangt es durch **Diffusion** (vom Ort hoher zum Ort tiefer Sauerstoffkonzentration) durch die hauchdünne Wand (**1 µm**) in die umspinnenden Blutkapillaren: Aus **sauerstoffarmem Blut** (blau) wird **sauerstoffreiches Blut** (rot), das den Sauerstoff im Körper verteilt.",
+      "stichworte": [
+        "Nasenhöhle",
+        "Rachen",
+        "Kehlkopf",
+        "Luftröhre",
+        "Hauptbronchus",
+        "Sekundärbronchien",
+        "Tertiärbronchien",
+        "Bronchiolen",
+        "Alveolargang",
+        "Alveolen",
+        "Diffusion durch die dünne Wand",
+        "sauerstoffarmes → sauerstoffreiches Blut"
+      ],
+      "erklaerung": "Eine vollständige Antwort nennt die Stationen in der richtigen Reihenfolge, schreibt die Fachbegriffe korrekt und endet mit dem Übertritt des Sauerstoffs aus den Alveolen ins Blut – im Blatt Teil 1 (S. 3) heisst dieser Schritt **Diffusion in der Lunge**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-bau-beschriften-20",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "offen",
+      "frage": "In der Prüfung erhältst du eine unbeschriftete Abbildung der Lunge **von vorne**. Erkläre, woran du erkennst, welcher Lungenflügel der **linke** ist. Nenne mindestens zwei Merkmale.",
+      "musterloesung": "- **Ansicht von vorne:** Die Person schaut mich an, links und rechts sind vertauscht. Der linke Lungenflügel liegt deshalb **rechts im Bild**.\n- **Grösse:** Der linke Lungenflügel ist **kleiner**, weil das Herz links in der Brust Platz braucht.\n- **Lappen:** Er hat nur **zwei Lappen**, der rechte drei.\n- **Herzbucht:** Am unteren inneren Rand hat er eine Einbuchtung, in der das Herz liegt.",
+      "stichworte": [
+        "von vorne = seitenverkehrt",
+        "rechts im Bild",
+        "kleiner",
+        "zwei Lappen",
+        "Platz für das Herz / Herzbucht"
+      ],
+      "erklaerung": "Der häufigste Fehler beim Beschriften: links und rechts aus der eigenen Sicht verwechseln. Mit Grösse und Lappenzahl kannst du dich zusätzlich absichern.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-bau-beschriften-21",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die Struktur mit der **Nummer 1**? (Fachbegriff, korrekt geschrieben)",
+      "bild": {
+        "src": "bilder/biologie/lunge-nummeriert.svg",
+        "alt": "Atemwege und Lunge von vorne mit den Nummern 1 bis 10, ohne Beschriftung"
+      },
+      "akzeptiert": [
+        "Luftröhre",
+        "die Luftröhre",
+        "Trachea",
+        "die Trachea"
+      ],
+      "erklaerung": "Nummer 1 ist die **Luftröhre** (Fachwort Trachea). Sie führt vom Kehlkopf in die Brust und gabelt sich dort in die beiden Hauptbronchien. Schreibweise: Luft**röhre** mit «ö» und «h».",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bau-beschriften-22",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die Struktur mit der **Nummer 2** – die erste Gabelung nach Nummer 1? (Fachbegriff, korrekt geschrieben)",
+      "bild": {
+        "src": "bilder/biologie/lunge-nummeriert.svg",
+        "alt": "Atemwege und Lunge von vorne mit den Nummern 1 bis 10, ohne Beschriftung"
+      },
+      "akzeptiert": [
+        "Hauptbronchus",
+        "Hauptbronchien",
+        "der Hauptbronchus",
+        "die Hauptbronchien",
+        "linker und rechter Hauptbronchus",
+        "rechter und linker Hauptbronchus",
+        "der linke und rechte Hauptbronchus",
+        "der linke und der rechte Hauptbronchus",
+        "linke und rechte Hauptbronchien",
+        "die linken und rechten Hauptbronchien"
+      ],
+      "erklaerung": "Nummer 2 ist der **linke und rechte Hauptbronchus** (Mehrzahl: **Hauptbronchien**). Je einer führt in einen Lungenflügel. Schreibweise: Einzahl Bronch**us**, Mehrzahl Bronch**ien** – «Hauptbronchie» gibt es nicht.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bau-beschriften-23",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "kurzantwort",
+      "frage": "Wie heissen die Strukturen mit der **Nummer 3** – die zweite Verzweigungsstufe? (Fachbegriff, korrekt geschrieben)",
+      "bild": {
+        "src": "bilder/biologie/lunge-nummeriert.svg",
+        "alt": "Atemwege und Lunge von vorne mit den Nummern 1 bis 10, ohne Beschriftung"
+      },
+      "akzeptiert": [
+        "Sekundärbronchien",
+        "Sekundärbronchus",
+        "die Sekundärbronchien",
+        "der Sekundärbronchus",
+        "Lappenbronchien",
+        "Lappenbronchus",
+        "die Lappenbronchien",
+        "der Lappenbronchus"
+      ],
+      "erklaerung": "Nummer 3 sind die **Sekundärbronchien** (je einer pro Lungenlappen, darum auch Lappenbronchien). «Sekundär» heisst «an zweiter Stelle». Schreibweise: Sekund**ä**r mit «ä», -bron**ch**ien mit «ch».",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bau-beschriften-24",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die Struktur mit der **Nummer 3**, in die Nasen- und Mundhöhle münden? (Fachbegriff, korrekt geschrieben)",
+      "bild": {
+        "src": "bilder/biologie/atemwege-nummeriert.svg",
+        "alt": "Kopf, Hals und Brust seitlich-schematisch mit den Nummern 1 bis 10, ohne Beschriftung"
+      },
+      "akzeptiert": [
+        "Rachen",
+        "der Rachen",
+        "Rachenraum",
+        "Pharynx"
+      ],
+      "erklaerung": "Nummer 3 ist der **Rachen**. Hier kreuzen sich Luftweg und Speiseweg: Die Luft geht weiter in den Kehlkopf (5) und die Luftröhre (6), die Nahrung in die Speiseröhre (7). Schreibweise: Ra**ch**en mit «ch».",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bau-beschriften-25",
+      "lernzielId": "lz-bau-beschriften",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die kleine Klappe mit der **Nummer 4** über dem Eingang zum Kehlkopf? (Fachbegriff, korrekt geschrieben)",
+      "bild": {
+        "src": "bilder/biologie/atemwege-nummeriert.svg",
+        "alt": "Kopf, Hals und Brust seitlich-schematisch mit den Nummern 1 bis 10, ohne Beschriftung"
+      },
+      "akzeptiert": [
+        "Kehldeckel",
+        "der Kehldeckel",
+        "Epiglottis",
+        "die Epiglottis"
+      ],
+      "erklaerung": "Nummer 4 ist der **Kehldeckel**. Beim Schlucken klappt er über den Eingang zum Kehlkopf (5), damit der Bissen in die Speiseröhre (7) und nicht in die Luftröhre (6) rutscht. Schreibweise: Keh**l**deckel – von «Kehle».",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-lunge-masse-01",
+      "lernzielId": "lz-lunge-masse",
+      "typ": "zahl",
+      "frage": "Wie schwer ist die Lunge eines erwachsenen Menschen ungefähr?",
+      "richtig": 1.1,
+      "toleranz": 0.2,
+      "einheit": "kg",
+      "erklaerung": "Die Lunge eines Erwachsenen wiegt ca. **1,1 kg** (Blatt Teil 1, S. 4) – etwa so viel wie eine 1-Liter-Flasche Wasser.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-lunge-masse-02",
+      "lernzielId": "lz-lunge-masse",
+      "typ": "einfachwahl",
+      "frage": "Wie hoch (lang) ist ein Lungenflügel eines Erwachsenen etwa?",
+      "optionen": [
+        "ca. 11 cm",
+        "ca. 17 cm",
+        "ca. 26 cm",
+        "ca. 40 cm"
+      ],
+      "richtig": 2,
+      "erklaerung": "Ein Lungenflügel ist etwa **26 cm** hoch (nach Lungenliga, ergänzt) – fast so lang wie ein 30-cm-Lineal. 11 cm ist etwa die Länge der Luftröhre, 17 cm wäre deutlich zu klein, und 40 cm würden nicht in den Brustkorb passen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-lunge-masse-03",
+      "lernzielId": "lz-lunge-masse",
+      "typ": "zahl",
+      "frage": "Aus wie vielen Lappen besteht der **rechte** Lungenflügel?",
+      "richtig": 3,
+      "toleranz": 0,
+      "einheit": "Lappen",
+      "erklaerung": "Der rechte Lungenflügel ist durch tiefe Furchen in **3 Lappen** unterteilt (Ober-, Mittel- und Unterlappen), der linke nur in **2**.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-lunge-masse-04",
+      "lernzielId": "lz-lunge-masse",
+      "typ": "zuordnen",
+      "frage": "Ordne jedes Merkmal dem richtigen Lungenflügel zu.",
+      "paare": [
+        {
+          "links": "besteht aus 3 Lappen",
+          "rechts": "rechter Lungenflügel"
+        },
+        {
+          "links": "besteht aus 2 Lappen",
+          "rechts": "linker Lungenflügel"
+        },
+        {
+          "links": "ist der grössere Lungenflügel",
+          "rechts": "rechter Lungenflügel"
+        },
+        {
+          "links": "hat eine Einbuchtung für das Herz",
+          "rechts": "linker Lungenflügel"
+        },
+        {
+          "links": "hat einen Mittellappen",
+          "rechts": "rechter Lungenflügel"
+        },
+        {
+          "links": "liegt in der Ansicht von vorne rechts im Bild",
+          "rechts": "linker Lungenflügel"
+        }
+      ],
+      "erklaerung": "Der **rechte** Lungenflügel ist grösser und hat 3 Lappen (Ober-, Mittel-, Unterlappen). Der **linke** ist kleiner, hat nur 2 Lappen und eine Einbuchtung für das Herz. In einer Abbildung von vorne liegt er rechts im Bild.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-lunge-masse-05",
+      "lernzielId": "lz-lunge-masse",
+      "typ": "offen",
+      "frage": "Weshalb ist der linke Lungenflügel kleiner bzw. weshalb besteht er nur aus **zwei** Lappen, der rechte dagegen aus **drei**?",
+      "musterloesung": "Das **Herz** liegt nicht genau in der Mitte der Brust, sondern etwas nach **links** verschoben. Es braucht dort Platz. Darum ist der linke Lungenflügel **kleiner** und hat eine Einbuchtung für das Herz (Herzbucht). Für einen dritten Lappen bleibt links kein Platz – der linke Flügel hat nur **zwei Lappen**, der rechte **drei**.",
+      "stichworte": [
+        "Herz",
+        "liegt links",
+        "braucht Platz",
+        "Herzbucht",
+        "links 2 Lappen, rechts 3 Lappen"
+      ],
+      "erklaerung": "Das ist Überlegungsaufgabe B im Blatt Teil 1. Entscheidend ist der Zusammenhang: Herz links → weniger Platz → kleinerer Flügel mit nur zwei Lappen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-lunge-masse-06",
+      "lernzielId": "lz-lunge-masse",
+      "typ": "reihenfolge",
+      "frage": "Ordne die Bauteile der Lunge **vom grössten zum kleinsten**.",
+      "elemente": [
+        "Lungenflügel",
+        "Lappen",
+        "Lungenläppchen",
+        "Alveolarsäckchen",
+        "Lungenbläschen (Alveolen)"
+      ],
+      "erklaerung": "Jeder **Lungenflügel** ist in **Lappen** unterteilt. Jeder Lappen besteht aus vielen **Lungenläppchen** (ca. 1 cm), jedes Läppchen enthält über tausend **Alveolarsäckchen**, und deren Wand hat kugelige, etwa 0,2 mm grosse Ausbuchtungen: die **Alveolen**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-lunge-masse-07",
+      "lernzielId": "lz-lunge-masse",
+      "typ": "kurzantwort",
+      "frage": "Jeder Lungenlappen besteht aus vielen kleinen Einheiten, die an der Oberfläche als etwa 1 cm grosse Felder sichtbar sind. Wie heissen sie?",
+      "akzeptiert": [
+        "Lungenläppchen",
+        "die Lungenläppchen",
+        "das Lungenläppchen",
+        "Läppchen",
+        "die Läppchen"
+      ],
+      "erklaerung": "Das sind die **Lungenläppchen**. Jedes enthält über tausend Alveolarsäckchen. Schreibweise: Lungen**läpp**chen – mit «ä» und Doppel-p.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-lunge-masse-08",
+      "lernzielId": "lz-lunge-masse",
+      "typ": "einfachwahl",
+      "frage": "Die Lungenläppchen sind an der Oberfläche der Lunge als Felder sichtbar. Wie gross sind diese Felder etwa?",
+      "optionen": [
+        "etwa 1 cm",
+        "etwa 0,2 mm",
+        "etwa 10 cm",
+        "etwa 1 µm"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Lungenläppchen sind etwa **1 cm** gross. 0,2 mm ist die Grösse eines Lungenbläschens, 1 µm die Dicke der Alveolenwand.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-lunge-masse-10",
+      "lernzielId": "lz-lunge-masse",
+      "typ": "zahl",
+      "frage": "Eine Jugendliche wiegt 55 kg. Wie viel **Prozent** ihres Körpergewichts macht ihre Lunge (ca. 1,1 kg) ungefähr aus?",
+      "richtig": 2,
+      "toleranz": 0.3,
+      "einheit": "%",
+      "erklaerung": "1 % von 55 kg sind 0,55 kg. 1,1 kg ist doppelt so viel, also **2 %**. (Oder: 1,1 : 55 = 0,02 = 2 %.) Die Lunge ist für ihre Grösse sehr leicht, weil sie grösstenteils aus Luft besteht.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-lunge-masse-11",
+      "lernzielId": "lz-lunge-masse",
+      "typ": "wahrfalsch",
+      "frage": "Die beiden Lungenflügel sind gleich gross und spiegelbildlich gebaut.",
+      "richtig": false,
+      "erklaerung": "Die Lungenflügel sind **verschieden**: Der rechte ist grösser und hat 3 Lappen, der linke ist kleiner und hat nur 2 Lappen, weil das Herz links Platz braucht.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-lunge-masse-12",
+      "lernzielId": "lz-lunge-masse",
+      "typ": "einfachwahl",
+      "frage": "Bei sehr wenigen Menschen sind **alle Organe** spiegelverkehrt angelegt (Situs inversus): Das Herz liegt dann zum Beispiel **rechts** in der Brust. Was erwartest du bei ihrer Lunge?",
+      "optionen": [
+        "Beide Lungenflügel haben je drei Lappen, weil links kein Herz mehr liegt",
+        "Die Lunge ist unverändert: links 2 und rechts 3 Lappen",
+        "Beide Lungenflügel sind gleich gross und haben je zwei Lappen",
+        "Der rechte Lungenflügel ist kleiner mit 2 Lappen, der linke grösser mit 3"
+      ],
+      "richtig": 3,
+      "erklaerung": "Bei dieser seltenen Spiegelung (Situs inversus, ergänzt) sind alle Organe seitenverkehrt angelegt, auch die Lunge: Rechts liegt dann der kleinere Flügel mit **2 Lappen** und der Herzbucht, links der grössere mit **3 Lappen**. Liegt dagegen nur das Herz auf der falschen Seite, bleibt die Lunge meist normal gebaut.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-lunge-masse-13",
+      "lernzielId": "lz-lunge-masse",
+      "typ": "einfachwahl",
+      "frage": "Bei einer Lungenentzündung ist nur der **Mittellappen** betroffen. Wo liegt die Entzündung?",
+      "optionen": [
+        "im linken Lungenflügel",
+        "im rechten Lungenflügel",
+        "je zur Hälfte in beiden Lungenflügeln",
+        "zwischen den beiden Lungenflügeln, beim Herzen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Nur der **rechte** Lungenflügel hat drei Lappen (Ober-, Mittel- und Unterlappen). Der linke hat nur zwei (Ober- und Unterlappen) – einen Mittellappen gibt es dort nicht. Zwischen den Flügeln liegt kein Lungenlappen, sondern das Herz. Die Namen der Lappen sind ergänzt.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-lunge-masse-14",
+      "lernzielId": "lz-lunge-masse",
+      "typ": "offen",
+      "frage": "Die Lunge kann rund 6 Liter Luft fassen, wiegt aber nur ca. 1,1 kg. Erkläre mit dem **Bau der Lunge**, wie das möglich ist.",
+      "musterloesung": "Die Lunge ist kein kompaktes Organ, sondern besteht grösstenteils aus **luftgefüllten Hohlräumen**: Der Bronchialbaum besteht aus Röhren, die in rund **400 Millionen Lungenbläschen** enden. Die Wand der Lungenbläschen ist hauchdünn (**1 µm**). Es gibt also nur wenig festes Gewebe, aber sehr viel Raum für Luft – ähnlich wie bei einem Schwamm. Darum ist die Lunge im Verhältnis zu ihrer Grösse sehr leicht.",
+      "stichworte": [
+        "luftgefüllte Hohlräume",
+        "Röhren (Bronchialbaum)",
+        "viele Alveolen",
+        "hauchdünne Wand (1 µm)",
+        "wenig festes Gewebe / schwammartig"
+      ],
+      "erklaerung": "Hier verknüpfst du Gewicht und Bau: Viele kleine, dünnwandige Bläschen bedeuten viel Luft und wenig Gewebe. Die 6 Liter (Totalkapazität) stammen aus Teil 3 (Spirogramm).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-lunge-masse-15",
+      "lernzielId": "lz-lunge-masse",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aussagen zur Lunge stimmen? Wähle alle richtigen.",
+      "optionen": [
+        "Die Lunge eines Erwachsenen wiegt ca. 1,1 kg.",
+        "Der rechte Lungenflügel ist kleiner, weil rechts das Herz liegt.",
+        "Der linke Lungenflügel ist durch tiefe Furchen in zwei Lappen unterteilt.",
+        "Ein Lungenflügel ist etwa 50 cm hoch.",
+        "Jedes Lungenläppchen enthält über tausend Alveolarsäckchen."
+      ],
+      "richtig": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "Richtig sind: Gewicht ca. **1,1 kg**, links **zwei Lappen**, über **tausend Alveolarsäckchen** pro Läppchen. Falsch: Das Herz liegt **links**, darum ist der **linke** Flügel kleiner. Ein Lungenflügel ist ca. **26 cm** hoch, nicht 50 cm.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-lunge-masse-16",
+      "lernzielId": "lz-lunge-masse",
+      "typ": "kurzantwort",
+      "frage": "Der linke Lungenflügel hat an seinem unteren inneren Rand eine Einbuchtung, in der ein anderes Organ liegt. Wie heisst diese Einbuchtung? (Fachbegriff, ein Wort)",
+      "akzeptiert": [
+        "Herzbucht",
+        "die Herzbucht"
+      ],
+      "erklaerung": "Das ist die **Herzbucht**: Das **Herz** liegt etwas nach links verschoben in der Brust und braucht dort Platz. Darum ist der linke Lungenflügel kleiner und hat nur zwei Lappen. Schreibweise: Herz**bucht** mit «ch».",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-lunge-masse-17",
+      "lernzielId": "lz-lunge-masse",
+      "typ": "zahl",
+      "frage": "Wie hoch (lang) ist ein Lungenflügel eines Erwachsenen ungefähr? Gib den Wert in Zentimetern an.",
+      "richtig": 26,
+      "toleranz": 4,
+      "einheit": "cm",
+      "erklaerung": "Ein Lungenflügel ist etwa **26 cm** hoch (nach Lungenliga, ergänzt). Akzeptiert werden Werte zwischen 22 und 30 cm. Zum Vergleich: Die Luftröhre ist nur ca. 10–12 cm lang.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-luftroehre-01",
+      "lernzielId": "lz-luftroehre",
+      "typ": "einfachwahl",
+      "frage": "Wie lang ist die Luftröhre eines erwachsenen Menschen etwa?",
+      "optionen": [
+        "ca. 5–6 cm",
+        "ca. 10–12 cm",
+        "ca. 18–20 cm",
+        "ca. 25–30 cm"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Luftröhre ist ca. **10–12 cm** lang (nach Lungenliga, ergänzt). Sie reicht vom Kehlkopf bis zur Gabelung in die beiden Hauptbronchien. 25–30 cm entspricht etwa der Höhe eines ganzen Lungenflügels (ca. 26 cm).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-luftroehre-02",
+      "lernzielId": "lz-luftroehre",
+      "typ": "zahl",
+      "frage": "Welchen **Durchmesser** hat die Luftröhre eines Erwachsenen ungefähr?",
+      "richtig": 1.75,
+      "toleranz": 0.5,
+      "einheit": "cm",
+      "erklaerung": "Der Durchmesser beträgt ca. **1,5–2 cm** (Anatomie-Standardwert, ergänzt) – etwa so dick wie dein Daumen. Akzeptiert werden Werte zwischen 1,25 und 2,25 cm.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-luftroehre-03",
+      "lernzielId": "lz-luftroehre",
+      "typ": "kurzantwort",
+      "frage": "Wodurch wird die Luftröhre offen gehalten? (Fachbegriff – es sind keine geschlossenen Ringe)",
+      "akzeptiert": [
+        "Knorpelspangen",
+        "Knorpelspange",
+        "die Knorpelspangen",
+        "durch Knorpelspangen",
+        "durch die Knorpelspangen",
+        "hufeisenförmige Knorpelspangen",
+        "C-förmige Knorpelspangen",
+        "Trachealknorpel"
+      ],
+      "erklaerung": "Die Luftröhre wird durch **hufeisenförmige Knorpelspangen** offen gehalten. Schreibweise: **Knorpel** mit «p», **Spangen** mit «ng». «Knorpelringe» liest man oft, ist aber ungenau: Es sind keine geschlossenen Ringe, sie sind hinten offen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-luftroehre-04",
+      "lernzielId": "lz-luftroehre",
+      "typ": "einfachwahl",
+      "frage": "Welche Form haben die stützenden Strukturen in der Wand der Luftröhre?",
+      "optionen": [
+        "geschlossene Ringe",
+        "spiralförmig um die Röhre gewunden",
+        "hufeisenförmig, vorne offen",
+        "hufeisenförmig, hinten offen"
+      ],
+      "richtig": 3,
+      "erklaerung": "Die Knorpelspangen sind **hufeisenförmig (C-förmig)** und **hinten offen**. Dort liegt die Speiseröhre an. Vorne sind sie geschlossen – darum kannst du sie vorne am Hals ertasten.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-luftroehre-05",
+      "lernzielId": "lz-luftroehre",
+      "typ": "offen",
+      "frage": "Luftröhre und Speiseröhre liegen dicht hintereinander. Wenn du mit leichtem Druck vorne über deinen Hals fährst, kannst du ertasten, welche der beiden vorne liegt. **Welche** liegt vorne, und **woran** erkennst du das?",
+      "musterloesung": "Vorne liegt die **Luftröhre**, die Speiseröhre liegt dahinter. Man erkennt das an den harten, gerillten **Knorpelspangen**, die man unterhalb des Kehlkopfs als Rillen bzw. Ringe ertasten kann. Die Speiseröhre hat keinen Knorpel – sie ist ein weicher Muskelschlauch und von vorne nicht zu ertasten.",
+      "stichworte": [
+        "Luftröhre vorne",
+        "Speiseröhre dahinter",
+        "Knorpelspangen ertastbar",
+        "hart / gerillt"
+      ],
+      "erklaerung": "Das ist Überlegungsaufgabe C im Blatt Teil 1. Wichtig sind beide Teile der Antwort: welche Röhre vorne liegt und das Merkmal, an dem du sie erkennst (Knorpelspangen).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-luftroehre-06",
+      "lernzielId": "lz-luftroehre",
+      "typ": "einfachwahl",
+      "frage": "Du schluckst einen grossen Bissen Brot. Warum wird die Speiseröhre dabei nicht von der Luftröhre behindert?",
+      "optionen": [
+        "Die Knorpelspangen sind hinten offen, dort kann sich die Speiseröhre ausdehnen",
+        "Die Luftröhre liegt hinter der Speiseröhre und wird beim Schlucken nach hinten weggedrückt",
+        "Beim Schlucken lösen sich die Knorpelspangen kurz auf und werden weich",
+        "Die Speiseröhre liegt neben der Luftröhre, sodass sich die beiden nie berühren"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Knorpelspangen sind **hinten offen** – dort ist die Luftröhre nur durch Muskel und Bindegewebe begrenzt. Die dahinter liegende **Speiseröhre** kann sich beim Schlucken in diesen Bereich ausdehnen. Die Luftröhre liegt vorne, nicht hinten.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-luftroehre-07",
+      "lernzielId": "lz-luftroehre",
+      "typ": "wahrfalsch",
+      "frage": "Die Bronchiolen werden wie die Luftröhre durch Knorpelspangen offen gehalten.",
+      "richtig": false,
+      "erklaerung": "Luftröhre und **Bronchien** haben Knorpel, die **Bronchiolen** (ca. 1 mm) dagegen **keinen Knorpel** mehr. Ihre Wand besteht vor allem aus glatter Muskulatur – weil kein Knorpel sie offen hält, können sie sich stark verengen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-luftroehre-08",
+      "lernzielId": "lz-luftroehre",
+      "typ": "einfachwahl",
+      "frage": "Wenn du kräftig durch einen aufgeweichten Papierstrohhalm saugst, klebt er zusammen. Was verhindert genau das bei der Luftröhre, wenn du einatmest?",
+      "optionen": [
+        "die Flimmerhärchen, die den Schleim nach oben schlagen",
+        "die Schleimhaut, die die Röhre innen feucht und glatt hält",
+        "die Knorpelspangen, die die Röhre offen halten",
+        "die glatte Muskulatur, die sich beim Einatmen zusammenzieht"
+      ],
+      "richtig": 2,
+      "erklaerung": "Beim Einatmen entsteht in den Atemwegen ein **Unterdruck** – wie im Strohhalm beim Saugen. Die steifen **Knorpelspangen** verhindern, dass die Luftröhre dabei zusammenfällt. Flimmerhärchen und Schleimhaut reinigen, sie stützen nicht.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-luftroehre-09",
+      "lernzielId": "lz-luftroehre",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aussagen über die Luftröhre stimmen? Wähle alle richtigen.",
+      "optionen": [
+        "Sie ist ca. 10–12 cm lang.",
+        "Sie liegt hinter der Speiseröhre.",
+        "Hufeisenförmige Knorpelspangen halten sie offen.",
+        "Sie ist innen mit Schleimhaut und Flimmerepithel ausgekleidet.",
+        "Sie besteht aus Knochenringen, die vollständig geschlossen sind."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Richtig: ca. **10–12 cm** lang, **hufeisenförmige Knorpelspangen**, innen **Schleimhaut und Flimmerepithel**. Falsch: Die Luftröhre liegt **vor** der Speiseröhre, und die Spangen sind aus **Knorpel** (nicht Knochen) und hinten offen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-luftroehre-10",
+      "lernzielId": "lz-luftroehre",
+      "typ": "zuordnen",
+      "frage": "Ordne jedem Abschnitt der Atemwege zu, ob seine Wand Knorpel enthält.",
+      "paare": [
+        {
+          "links": "Luftröhre",
+          "rechts": "mit Knorpel"
+        },
+        {
+          "links": "Hauptbronchien",
+          "rechts": "mit Knorpel"
+        },
+        {
+          "links": "Sekundärbronchien",
+          "rechts": "mit Knorpel"
+        },
+        {
+          "links": "Tertiärbronchien",
+          "rechts": "mit Knorpel"
+        },
+        {
+          "links": "Bronchiolen",
+          "rechts": "kein Knorpel (v. a. glatte Muskulatur)"
+        }
+      ],
+      "erklaerung": "Luftröhre und alle **Bronchien** haben **Knorpel** (oben Spangen, weiter unten kleine Plättchen) und bleiben dadurch offen. Erst die feinen **Bronchiolen** (ca. 1 mm) haben keinen Knorpel mehr, ihre Wand besteht vor allem aus **glatter Muskulatur** – deshalb können sie sich stark verengen (z. B. bei Asthma).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-luftroehre-11",
+      "lernzielId": "lz-luftroehre",
+      "typ": "einfachwahl",
+      "frage": "Bei einem **Asthmaanfall** verengen sich vor allem die Bronchiolen stark, während Luftröhre und grosse Bronchien offen bleiben. Woran liegt das?",
+      "optionen": [
+        "Die Bronchiolen haben besonders dicke Knorpelspangen, die sich bei Asthma nach innen biegen",
+        "Die Bronchiolen haben keinen Knorpel, ihre Muskulatur kann sich zusammenziehen",
+        "Luftröhre und Bronchien haben Flimmerhärchen, die die Röhren aktiv auseinanderdrücken",
+        "Die Bronchiolen liegen ausserhalb der Lunge und sind deshalb ungeschützt"
+      ],
+      "richtig": 1,
+      "erklaerung": "Luftröhre und Bronchien werden durch **Knorpel** offen gehalten. Die **Bronchiolen** haben **keinen Knorpel**, der sie offen hält; ihre Wand besteht vor allem aus **glatter Muskulatur**. Bei Asthma zieht sich diese Muskulatur zusammen und die Schleimhaut schwillt an – die Bronchiolen werden eng, die Luft strömt schlecht. Asthma ist ergänzt, nicht im Blatt.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-luftroehre-12",
+      "lernzielId": "lz-luftroehre",
+      "typ": "zahl",
+      "frage": "Wie **lang** ist die Luftröhre eines Erwachsenen ungefähr? Gib den Wert in Zentimetern an.",
+      "richtig": 11,
+      "toleranz": 1.5,
+      "einheit": "cm",
+      "erklaerung": "Die Luftröhre ist ca. **10–12 cm** lang (nach Lungenliga, ergänzt). Akzeptiert werden Werte zwischen 9,5 und 12,5 cm. Sie ist also deutlich kürzer als ein Lungenflügel (ca. 26 cm).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-luftroehre-13",
+      "lernzielId": "lz-luftroehre",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die Röhre, die direkt **hinter** der Luftröhre liegt und die Nahrung in den Magen führt?",
+      "akzeptiert": [
+        "Speiseröhre",
+        "die Speiseröhre",
+        "Ösophagus",
+        "Oesophagus",
+        "der Ösophagus"
+      ],
+      "erklaerung": "Das ist die **Speiseröhre** (Fachwort Ösophagus). Sie liegt hinter der Luftröhre, genau dort, wo die Knorpelspangen offen sind. Schreibweise: Speise**röhre** mit «ö».",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-luftroehre-14",
+      "lernzielId": "lz-luftroehre",
+      "typ": "offen",
+      "frage": "Beschreibe die **Luftröhre**: Länge, Durchmesser, Lage und ihre Besonderheiten. Erkläre auch, welchen Sinn die Knorpelspangen und ihre Form haben.",
+      "musterloesung": "Die Luftröhre ist ca. **10–12 cm** lang und hat einen Durchmesser von ca. **1,5–2 cm**. Sie liegt **vorne** am Hals, die Speiseröhre direkt dahinter. Ihre Wand wird durch etwa 16–20 **hufeisenförmige Knorpelspangen** gestützt. Diese halten die Luftröhre **offen** – auch beim Einatmen, wenn ein Unterdruck entsteht. **Hinten** sind die Spangen **offen**: Dort liegt die Speiseröhre, die sich beim Schlucken ausdehnen kann. Innen ist die Luftröhre mit **Schleimhaut und Flimmerepithel** ausgekleidet, die sie reinigen. Auch die **Bronchien** haben Knorpel, die Bronchiolen nicht mehr.",
+      "stichworte": [
+        "10–12 cm",
+        "1,5–2 cm",
+        "vorne, Speiseröhre dahinter",
+        "hufeisenförmige Knorpelspangen",
+        "offen halten / Unterdruck",
+        "hinten offen → Schlucken",
+        "Schleimhaut, Flimmerepithel",
+        "Bronchien ebenfalls mit Knorpel"
+      ],
+      "erklaerung": "Dieses Lernziel fragt ausdrücklich nach Länge, Durchmesser und Besonderheiten der Luftröhre **und der Bronchien**. Eine gute Antwort nennt die Zahlen und begründet die Form der Spangen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-luftroehre-15",
+      "lernzielId": "lz-luftroehre",
+      "typ": "offen",
+      "frage": "Ein Staubsaugerschlauch ist mit eingebauten Ringen verstärkt. **Vergleiche** ihn mit der Luftröhre: Was ist gleich, was ist anders – und warum ist der Unterschied für den Körper sinnvoll?",
+      "musterloesung": "**Gleich:** Durch beide Röhren **strömt Luft**, weil innen ein tieferer Druck (**Unterdruck**) herrscht als aussen – beim Staubsauger erzeugt ihn der Motor, bei der Atmung die **Dehnung der Lunge beim Einatmen**. Die Ringe bzw. die **Knorpelspangen** verhindern, dass die Röhre dabei zusammenfällt.\n\n**Anders:** Die Knorpelspangen der Luftröhre sind keine geschlossenen Ringe, sondern **hufeisenförmig und hinten offen**. Dort liegt die **Speiseröhre**, die sich beim **Schlucken** ausdehnen kann. Zudem ist die Luftröhre innen mit **Schleimhaut und Flimmerepithel** ausgekleidet, die sie selbst reinigen.",
+      "stichworte": [
+        "Unterdruck beim Einatmen",
+        "Knorpelspangen halten offen",
+        "hufeisenförmig / hinten offen",
+        "Speiseröhre dehnt sich beim Schlucken",
+        "Selbstreinigung (Zusatz)"
+      ],
+      "erklaerung": "Bei Vergleichen in der Prüfung immer beides nennen: Gemeinsamkeit (offen halten trotz Unterdruck) **und** Unterschied mit Begründung (hinten offen wegen der Speiseröhre).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-luftroehre-16",
+      "lernzielId": "lz-luftroehre",
+      "typ": "wahrfalsch",
+      "frage": "Auch die Bronchien werden durch Knorpel gestützt und bleiben dadurch offen.",
+      "richtig": true,
+      "erklaerung": "Wie die Luftröhre haben auch die **Bronchien** Knorpel in ihrer Wand. Erst die feinen **Bronchiolen** haben keinen Knorpel mehr.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-bronchialbaum-01",
+      "lernzielId": "lz-bronchialbaum",
+      "typ": "kurzantwort",
+      "frage": "Wie nennt man die Gesamtheit der Luftwege, die sich von der Luftröhre aus immer feiner verzweigen? (ein Fachwort)",
+      "akzeptiert": [
+        "Bronchialbaum",
+        "der Bronchialbaum"
+      ],
+      "erklaerung": "Das ist der **Bronchialbaum**. Schreibweise: **Bronchial**baum – mit «ch» und «ial».",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bronchialbaum-02",
+      "lernzielId": "lz-bronchialbaum",
+      "typ": "zuordnen",
+      "frage": "Ordne jedem Teil eines Baums den passenden Teil der Atemwege zu.",
+      "paare": [
+        {
+          "links": "Stamm",
+          "rechts": "Luftröhre"
+        },
+        {
+          "links": "Äste",
+          "rechts": "Bronchien"
+        },
+        {
+          "links": "Zweige",
+          "rechts": "Bronchiolen"
+        },
+        {
+          "links": "Blätter",
+          "rechts": "Alveolen"
+        }
+      ],
+      "erklaerung": "Die **Luftröhre** ist der Stamm, die **Bronchien** sind die Äste, die feinen **Bronchiolen** die Zweige und die **Alveolen** an den Enden die Blätter. Der Baum steht dabei auf dem Kopf: Der Stamm ist oben.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bronchialbaum-03",
+      "lernzielId": "lz-bronchialbaum",
+      "typ": "offen",
+      "frage": "Bei der Aufteilung der Luftwege spricht man von einem **Bronchialbaum**. Weshalb?",
+      "musterloesung": "Die Luftwege verzweigen sich wie ein (umgekehrter) Baum: Die **Luftröhre** bildet den **Stamm**. Sie teilt sich in die beiden Hauptbronchien, diese verzweigen sich weiter in Sekundär- und Tertiärbronchien – die **Äste**. Daraus gehen die feinen **Bronchiolen** hervor – die **Zweige**. An ihren Enden sitzen die **Alveolen** wie die **Blätter**. Von Stufe zu Stufe werden die Röhren zahlreicher und feiner.",
+      "stichworte": [
+        "Verzweigung",
+        "Stamm = Luftröhre",
+        "Äste = Bronchien",
+        "Zweige = Bronchiolen",
+        "Blätter = Alveolen",
+        "immer feiner"
+      ],
+      "erklaerung": "Das ist Überlegungsaufgabe A im Blatt Teil 1. Nenne zu jedem Baumteil den passenden Abschnitt der Atemwege.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-bronchialbaum-04",
+      "lernzielId": "lz-bronchialbaum",
+      "typ": "reihenfolge",
+      "frage": "Bringe die Abschnitte des Bronchialbaums in die Reihenfolge **vom Stamm bis zu den feinsten Enden**.",
+      "elemente": [
+        "Luftröhre",
+        "Hauptbronchien",
+        "Sekundärbronchien",
+        "Tertiärbronchien",
+        "Bronchiolen",
+        "Alveolargänge"
+      ],
+      "erklaerung": "**Luftröhre → Hauptbronchien → Sekundärbronchien → Tertiärbronchien → Bronchiolen → Alveolargänge**, an deren Ende die Alveolarsäckchen mit den Alveolen sitzen. «Sekundär» heisst zweite, «tertiär» dritte Stufe.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bronchialbaum-05",
+      "lernzielId": "lz-bronchialbaum",
+      "typ": "einfachwahl",
+      "frage": "Was geschieht mit den Röhren, je weiter sich der Bronchialbaum verzweigt?",
+      "optionen": [
+        "Sie werden weniger, dafür weiter",
+        "Ihre Zahl bleibt gleich, nur die Wand wird dicker",
+        "Sie werden zahlreicher und weiter",
+        "Sie werden zahlreicher und enger"
+      ],
+      "richtig": 3,
+      "erklaerung": "Bei jeder Verzweigung werden aus einer Röhre meist zwei – die Röhren werden **zahlreicher**, aber auch **dünner und enger**. Am Schluss sind die Bronchiolen nur noch etwa 1 mm dick.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bronchialbaum-06",
+      "lernzielId": "lz-bronchialbaum",
+      "typ": "zahl",
+      "frage": "In wie viele **Hauptbronchien** teilt sich die Luftröhre?",
+      "richtig": 2,
+      "toleranz": 0,
+      "einheit": "Hauptbronchien",
+      "erklaerung": "Die Luftröhre gabelt sich in **2** Hauptbronchien: den linken und den rechten – je einer für jeden Lungenflügel (Nummer 2 in der Abbildung).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bronchialbaum-07",
+      "lernzielId": "lz-bronchialbaum",
+      "typ": "kurzantwort",
+      "frage": "Im Vergleich mit einem Baum bilden sie die **Äste** der Atemwege: Wie heissen die knorpelgestützten Röhren zwischen der Luftröhre und den feinsten Ästchen? (Sammelbegriff, Mehrzahl)",
+      "akzeptiert": [
+        "Bronchien",
+        "die Bronchien"
+      ],
+      "erklaerung": "Das sind die **Bronchien** (Einzahl Bronchus): Hauptbronchien, Sekundär- und Tertiärbronchien. Schreibweise: Bron**ch**ien mit «ch» – nicht verwechseln mit den Bronch**iolen** (Zweige, ohne Knorpel).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bronchialbaum-08",
+      "lernzielId": "lz-bronchialbaum",
+      "typ": "zahl",
+      "frage": "Stell dir vor, jede Röhre des Bronchialbaums teilt sich immer genau in zwei. Wie viele Röhren entstehen auf der **5. Teilungsstufe** (also direkt nach der 5. Teilung), wenn du mit einer einzigen Luftröhre beginnst?",
+      "richtig": 32,
+      "toleranz": 0,
+      "einheit": "Röhren",
+      "erklaerung": "Bei jeder Stufe verdoppelt sich die Zahl: 1 → 2 → 4 → 8 → 16 → **32** (= 2⁵). Gefragt sind nur die Röhren der letzten Stufe, nicht alle Röhren zusammen. Der echte Bronchialbaum hat rund 23 Stufen (ergänzt) – darum entstehen Millionen feinster Verzweigungen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-bronchialbaum-09",
+      "lernzielId": "lz-bronchialbaum",
+      "typ": "zahl",
+      "frage": "Jeder Lungenlappen erhält einen eigenen **Sekundärbronchus**. Wie viele Sekundärbronchien gibt es dann insgesamt in beiden Lungenflügeln?",
+      "richtig": 5,
+      "toleranz": 0,
+      "einheit": "Sekundärbronchien",
+      "erklaerung": "Der rechte Lungenflügel hat 3 Lappen, der linke 2 – zusammen **5** Lappen, also **5 Sekundärbronchien**. Hier verknüpfst du den Bau der Lungenflügel mit dem Bronchialbaum (die Zuordnung pro Lappen ist ergänzt).",
+      "schwierigkeit": 3,
+      "tipp": "Wie viele Lappen hat jeder Lungenflügel?"
+    },
+    {
+      "id": "f-bronchialbaum-10",
+      "lernzielId": "lz-bronchialbaum",
+      "typ": "einfachwahl",
+      "frage": "Warum ist es für den Gasaustausch sinnvoll, dass sich die Atemwege so oft verzweigen?",
+      "optionen": [
+        "Die Luft wird bis zu sehr vielen Alveolen verteilt – das ergibt eine riesige Austauschfläche",
+        "In den engen Röhren strömt die Luft schneller und wird so mit mehr Druck ins Blut gepresst",
+        "Bronchien und Bronchiolen tauschen selbst Gase aus – je mehr Röhren, desto mehr Gasaustausch",
+        "Die feinen Röhren filtern den Sauerstoff aus der Luft, bevor sie die Alveolen erreicht"
+      ],
+      "richtig": 0,
+      "erklaerung": "Durch die Verzweigung gelangt die Luft bis zu rund **400 Millionen Alveolen** mit zusammen rund 100 m² Oberfläche – ein Beispiel für das **Prinzip der Oberflächenvergrösserung**. Gasaustausch findet nur in den Alveolen statt, nicht in den Bronchien. Der Sauerstoff gelangt durch Diffusion ins Blut, nicht durch Druck, und er wird in den Röhren nicht herausgefiltert.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-bronchialbaum-11",
+      "lernzielId": "lz-bronchialbaum",
+      "typ": "wahrfalsch",
+      "frage": "In der Luftröhre, den Bronchien und den Bronchiolen findet bereits ein Teil des Gasaustauschs statt.",
+      "richtig": false,
+      "erklaerung": "Der Bronchialbaum **leitet** die Luft nur weiter. Der **Gasaustausch** findet erst in den **Alveolen** statt: Nur dort ist die Wand hauchdünn (1 µm) und von Kapillaren umsponnen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-bronchialbaum-12",
+      "lernzielId": "lz-bronchialbaum",
+      "typ": "einfachwahl",
+      "frage": "Welche Nummern der Abbildung bilden **Stamm, Äste und Zweige** des Bronchialbaums?",
+      "bild": {
+        "src": "bilder/biologie/lunge-nummeriert.svg",
+        "alt": "Atemwege und Lunge von vorne mit den Nummern 1 bis 10, ohne Beschriftung"
+      },
+      "optionen": [
+        "1, 2, 3 und 4",
+        "2, 3, 4 und 5",
+        "1, 2, 3, 4 und 5",
+        "1, 2, 3, 4, 5 und 10"
+      ],
+      "richtig": 2,
+      "erklaerung": "**1** Luftröhre (Stamm), **2** Hauptbronchus, **3** Sekundär- und **4** Tertiärbronchien (Äste), **5** Bronchiolen (Zweige). Ohne 1 fehlt der Stamm, ohne 5 fehlen die Zweige. **10** sind die Alveolen – sie entsprechen den Blättern, nicht den Zweigen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-bronchialbaum-13",
+      "lernzielId": "lz-bronchialbaum",
+      "typ": "einfachwahl",
+      "frage": "Die Alveolen werden mit den **Blättern** eines Baums verglichen. Warum passt dieser Vergleich auch von der **Aufgabe** her?",
+      "optionen": [
+        "Blätter fallen im Herbst ab, so wie alte Alveolen laufend ersetzt werden",
+        "Auch Blätter tauschen Gase mit der Luft aus – über eine riesige Gesamtfläche",
+        "Blätter speichern Wasser, so wie die Alveolen Sauerstoff für später speichern",
+        "Blätter wachsen direkt am Stamm, so wie die Alveolen direkt an der Luftröhre sitzen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Blätter nehmen Gase aus der Luft auf und geben andere ab – und zwar über eine sehr grosse Gesamtfläche. Genau das machen die **Alveolen** beim **Gasaustausch**: Sauerstoff ins Blut, Kohlenstoffdioxid aus dem Blut. Alveolen sitzen nicht an der Luftröhre, sondern an den feinsten Enden.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-bronchialbaum-14",
+      "lernzielId": "lz-bronchialbaum",
+      "typ": "offen",
+      "frage": "Eine eingeatmete Perle bleibt in einem **Tertiärbronchus** stecken. Erkläre mit dem Aufbau des Bronchialbaums, welcher Teil der Lunge nun keine frische Luft mehr bekommt – und warum die Person trotzdem weiter atmen kann.",
+      "musterloesung": "Der Bronchialbaum verzweigt sich wie ein Baum: Jeder Ast versorgt nur die Zweige und «Blätter», die an ihm hängen. Nur der **Bereich hinter diesem Tertiärbronchus** – seine Bronchiolen, Alveolargänge und Alveolen – erhält keine frische Luft mehr. Alle **anderen Äste** des Bronchialbaums sind frei. In den übrigen Alveolen findet der **Gasaustausch** weiter statt, deshalb kann die Person weiter atmen (ein Arzt muss die Perle aber entfernen).",
+      "stichworte": [
+        "Verzweigung",
+        "nur der Abschnitt hinter dem Tertiärbronchus",
+        "dessen Bronchiolen und Alveolen",
+        "andere Äste frei",
+        "Gasaustausch in den übrigen Alveolen"
+      ],
+      "erklaerung": "Transferaufgabe: Du wendest die Baumstruktur auf eine neue Situation an. Wichtig ist, dass nicht die ganze Lunge betroffen ist, sondern nur der Teil «stromabwärts» der Verstopfung.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-bronchialbaum-15",
+      "lernzielId": "lz-bronchialbaum",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aussagen zum Bronchialbaum stimmen? Wähle alle richtigen.",
+      "optionen": [
+        "Die Luftröhre teilt sich in einen linken und einen rechten Hauptbronchus.",
+        "Die Bronchiolen sind etwa 1 cm dick.",
+        "Bronchien haben Knorpel, Bronchiolen nicht.",
+        "Der Bronchialbaum endet mit den Hauptbronchien.",
+        "Auf die Bronchiolen folgen die Alveolargänge mit den Alveolen."
+      ],
+      "richtig": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "Richtig: Gabelung in **zwei Hauptbronchien**, **Knorpel** nur bis zu den Bronchien, nach den Bronchiolen folgen **Alveolargänge und Alveolen**. Falsch: Bronchiolen sind ca. **1 mm** dünn, nicht 1 cm, und nach den Hauptbronchien verzweigt sich der Baum noch viele Male weiter.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-selbstreinigung-01",
+      "lernzielId": "lz-selbstreinigung",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst das Gewebe mit feinen, beweglichen Härchen, das die Atemwege innen auskleidet? (Fachbegriff, korrekt geschrieben)",
+      "akzeptiert": [
+        "Flimmerepithel",
+        "das Flimmerepithel",
+        "Flimmerepithelien",
+        "Flimmerepithelgewebe"
+      ],
+      "erklaerung": "Das ist das **Flimmerepithel**. Schreibweise: Flimmer**epithel** – mit «th» und «e-pi». Zusammen mit der Schleimhaut sorgt es für die Selbstreinigung der Atemwege.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-selbstreinigung-02",
+      "lernzielId": "lz-selbstreinigung",
+      "typ": "reihenfolge",
+      "frage": "Bringe die Schritte der **Selbstreinigung** der Atemwege in die richtige Reihenfolge.",
+      "elemente": [
+        "Staub und Krankheitserreger werden eingeatmet",
+        "Die Teilchen bleiben im Schleim der Schleimhaut kleben",
+        "Die Flimmerhärchen schlagen den Schleim Richtung Rachen",
+        "Der Schleim wird verschluckt oder abgehustet"
+      ],
+      "erklaerung": "Der Schleim wirkt wie Klebstoff, die **Flimmerhärchen** wie ein Förderband: Sie transportieren den Schleim mit den eingefangenen Teilchen nach oben zum **Rachen**. Dort wird er meist unbemerkt verschluckt oder abgehustet.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-selbstreinigung-03",
+      "lernzielId": "lz-selbstreinigung",
+      "typ": "einfachwahl",
+      "frage": "In welche Richtung transportieren die Flimmerhärchen den Schleim?",
+      "optionen": [
+        "in Richtung Lungenbläschen",
+        "in Richtung Rachen",
+        "in die Blutgefässe",
+        "gar nicht, sie filtern nur die Luft"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Flimmerhärchen schlagen den Schleim **nach oben, Richtung Rachen** – also weg von den empfindlichen Alveolen. Im Rachen wird er verschluckt oder abgehustet.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-selbstreinigung-04",
+      "lernzielId": "lz-selbstreinigung",
+      "typ": "offen",
+      "frage": "Weshalb macht es Sinn, dass die Schleimhaut in den Atemwegen bei einer **Infektion mehr Schleim** produziert?",
+      "musterloesung": "Im Schleim bleiben **Krankheitserreger** (Bakterien, Viren) kleben. Bei einer Infektion sind besonders viele Erreger in den Atemwegen. Mehr Schleim kann **mehr Krankheitserreger einfangen**. Die Flimmerhärchen transportieren den Schleim mit den Erregern Richtung Rachen, wo er verschluckt oder **ausgehustet** wird. So werden die Erreger schneller aus den Atemwegen entfernt und gelangen nicht bis in die empfindlichen Lungenbläschen (Alveolen).",
+      "stichworte": [
+        "Schleim fängt Krankheitserreger",
+        "mehr Schleim → mehr Erreger eingefangen",
+        "Abtransport durch Flimmerhärchen",
+        "abhusten / verschlucken"
+      ],
+      "erklaerung": "Das ist Überlegungsaufgabe D1 im Blatt Teil 1. Entscheidend ist die Verknüpfung: mehr Schleim → mehr eingefangene Erreger → mehr wird abtransportiert bzw. ausgehustet.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-selbstreinigung-05",
+      "lernzielId": "lz-selbstreinigung",
+      "typ": "offen",
+      "frage": "Rauchen schädigt die Auskleidung der Atemwege und lähmt die Bewegung der feinen Härchen. Als Folge kommt es zu einem typischen, hartnäckigen Husten. Erläutere die Zusammenhänge.",
+      "musterloesung": "Normalerweise schlagen die **Flimmerhärchen** den Schleim mit Staub und Krankheitserregern Richtung Rachen. Rauchen **lähmt die Flimmerhärchen**. Dadurch wird der Schleim **nicht mehr abtransportiert** und sammelt sich in den Atemwegen an – zusätzlich gelangen mit dem Rauch viele Schadstoffe hinein. Der Körper muss den Schleim deshalb **abhusten**: Das ist der **Raucherhusten**.",
+      "stichworte": [
+        "Flimmerhärchen gelähmt",
+        "Schleim wird nicht abtransportiert",
+        "Schleim sammelt sich an",
+        "muss abgehustet werden",
+        "Raucherhusten"
+      ],
+      "erklaerung": "Das ist Überlegungsaufgabe D2 im Blatt Teil 1. Baue die Antwort als Kette auf: Rauchen → Härchen gelähmt → kein Abtransport → Schleim bleibt liegen → abhusten.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-selbstreinigung-06",
+      "lernzielId": "lz-selbstreinigung",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aufgaben hat der **Schleim** in den Atemwegen? Wähle alle richtigen.",
+      "optionen": [
+        "Er fängt Staubteilchen ein.",
+        "Er transportiert Sauerstoff zu den Alveolen.",
+        "Er fängt Krankheitserreger ein.",
+        "Er hält die Luftröhre offen."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "Im Schleim bleiben **Staub** und **Krankheitserreger** kleben. Den Sauerstoff transportiert die Luft selbst, und offen gehalten wird die Luftröhre von den **Knorpelspangen**, nicht vom Schleim.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-selbstreinigung-07",
+      "lernzielId": "lz-selbstreinigung",
+      "typ": "kurzantwort",
+      "frage": "Wie heissen die beweglichen Fortsätze auf den Zellen der Atemwege, die den Schleim Richtung Rachen schlagen? (Fachbegriff, korrekt geschrieben)",
+      "akzeptiert": [
+        "Flimmerhärchen",
+        "die Flimmerhärchen",
+        "Flimmerhaare",
+        "die Flimmerhaare",
+        "Flimmerhärchen (Zilien)",
+        "Zilien",
+        "die Zilien",
+        "Cilien",
+        "Kinozilien"
+      ],
+      "erklaerung": "Das sind die **Flimmerhärchen** (Fachwort Zilien). Sie schlagen ständig und schieben den Schleim Richtung Rachen. Schreibweise: Flimmer**härchen** – mit Doppel-m und «ä».",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-selbstreinigung-08",
+      "lernzielId": "lz-selbstreinigung",
+      "typ": "einfachwahl",
+      "frage": "Eine Person raucht seit vielen Jahren. Was geschieht mit dem Schleim in ihren Atemwegen?",
+      "optionen": [
+        "Es bildet sich mehr Schleim, die Flimmerhärchen transportieren ihn aber normal Richtung Rachen weiter",
+        "Die Flimmerhärchen schlagen ihn Richtung Lunge, wo er sich in den Alveolen sammelt",
+        "Er wird in den Alveolen ins Blut aufgenommen und so entfernt",
+        "Er bleibt liegen, weil die Flimmerhärchen gelähmt sind, und muss abgehustet werden"
+      ],
+      "richtig": 3,
+      "erklaerung": "Rauchen **lähmt die Flimmerhärchen**. Der Schleim wird nicht mehr abtransportiert und sammelt sich in den Atemwegen an. Der Körper muss ihn abhusten – das ist der **Raucherhusten**. Dass der Rauch die Schleimhaut reizt und mehr Schleim entsteht, stimmt zwar (ergänzt), der Abtransport funktioniert aber gerade nicht mehr normal. Und die Flimmerhärchen schlagen nie Richtung Lunge.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-selbstreinigung-09",
+      "lernzielId": "lz-selbstreinigung",
+      "typ": "wahrfalsch",
+      "frage": "Der Schleim, den die Flimmerhärchen zum Rachen transportieren, wird meistens unbemerkt verschluckt.",
+      "richtig": true,
+      "erklaerung": "Im Rachen wird der Schleim meist **unbemerkt verschluckt** – im Magen machen die Magensäfte viele Erreger unschädlich. Ist es viel Schleim (Infektion, Rauchen), wird er **abgehustet**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-selbstreinigung-10",
+      "lernzielId": "lz-selbstreinigung",
+      "typ": "einfachwahl",
+      "frage": "Beim Joggen im Winter atmest du durch den Mund. Danach kratzt es dich im Hals, und du musst husten. Was ist die wahrscheinlichste Erklärung?",
+      "optionen": [
+        "Die Luft wurde nicht in der Nase angewärmt, befeuchtet und gefiltert",
+        "Durch den Mund gelangt viel mehr Sauerstoff in die Lunge, und das reizt den Hals",
+        "Bei Mundatmung strömt die Luft zuerst in die Speiseröhre und erst dann in die Luftröhre",
+        "Die Mundhöhle kühlt die Luft zusätzlich ab, bevor sie in den Rachen gelangt"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die **Nasenhöhle** wärmt, befeuchtet und filtert die Luft (ergänzt). Bei Mundatmung fällt das weg: Kalte, trockene Luft gelangt direkt in Rachen und Luftröhre und reizt die Schleimhaut. Die Luft geht auch bei Mundatmung nicht durch die Speiseröhre.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-selbstreinigung-11",
+      "lernzielId": "lz-selbstreinigung",
+      "typ": "einfachwahl",
+      "frage": "Du arbeitest einen Tag auf einer staubigen Baustelle. Wo bleibt der grösste Teil des eingeatmeten Staubs hängen?",
+      "optionen": [
+        "in den Alveolen, wo er abgebaut wird",
+        "im Blut, das ihn zur Leber bringt",
+        "im Schleim von Nase und Atemwegen",
+        "in der Speiseröhre"
+      ],
+      "richtig": 2,
+      "erklaerung": "Der Staub bleibt im **Schleim** von Nase, Luftröhre und Bronchien kleben. Die Flimmerhärchen transportieren ihn Richtung Rachen. So gelangt nur wenig Staub bis in die Alveolen. Darum hast du nach staubiger Arbeit manchmal dunklen Schleim im Taschentuch.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-selbstreinigung-12",
+      "lernzielId": "lz-selbstreinigung",
+      "typ": "zuordnen",
+      "frage": "Ordne jedem Begriff seine Aufgabe zu.",
+      "paare": [
+        {
+          "links": "Schleim",
+          "rechts": "fängt Staub und Krankheitserreger ein"
+        },
+        {
+          "links": "Flimmerhärchen",
+          "rechts": "schlagen den Schleim Richtung Rachen"
+        },
+        {
+          "links": "Husten",
+          "rechts": "befördert viel Schleim schnell nach aussen"
+        },
+        {
+          "links": "Nasenhöhle",
+          "rechts": "wärmt, befeuchtet und filtert die Luft"
+        },
+        {
+          "links": "Knorpelspangen",
+          "rechts": "halten die Luftröhre offen"
+        }
+      ],
+      "erklaerung": "**Schleim** fängt Teilchen ein, die **Flimmerhärchen** transportieren ihn, der **Husten** hilft bei viel Schleim. Die **Nasenhöhle** bereitet die Luft vor (ergänzt). Die **Knorpelspangen** gehören nicht zur Reinigung – sie halten die Luftröhre offen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-selbstreinigung-13",
+      "lernzielId": "lz-selbstreinigung",
+      "typ": "offen",
+      "frage": "Langjährige Raucherinnen und Raucher erkranken häufiger an Infektionen der Atemwege (z. B. Bronchitis). Erkläre diesen Zusammenhang mit dem **Selbstreinigungsmechanismus**.",
+      "musterloesung": "Normalerweise fängt der **Schleim** Krankheitserreger ein, und die **Flimmerhärchen** schlagen ihn Richtung Rachen, wo er verschluckt oder abgehustet wird. Beim Rauchen sind die **Flimmerhärchen gelähmt**. Der Schleim mit den Erregern wird **nicht mehr abtransportiert** und bleibt in den Atemwegen liegen. Die Erreger haben so mehr Zeit, sich zu **vermehren** und die Schleimhaut zu entzünden – es kommt häufiger zu Infektionen wie einer Bronchitis.",
+      "stichworte": [
+        "Schleim fängt Erreger",
+        "Flimmerhärchen gelähmt",
+        "kein Abtransport",
+        "Erreger bleiben liegen und vermehren sich",
+        "Entzündung / Infektion"
+      ],
+      "erklaerung": "Transferaufgabe: Du verknüpfst Raucherhusten und Infektion. Der Schlüssel ist der fehlende Abtransport – die Erreger bleiben länger in den Atemwegen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-selbstreinigung-14",
+      "lernzielId": "lz-selbstreinigung",
+      "typ": "kurzantwort",
+      "frage": "Tabak lähmt die Härchen, die den Schleim aus den Atemwegen befördern. Der liegen gebliebene Schleim muss dann vor allem morgens mühsam abgehustet werden. Wie heisst dieser typische Husten? (Fachausdruck, ein Wort)",
+      "akzeptiert": [
+        "Raucherhusten",
+        "der Raucherhusten"
+      ],
+      "erklaerung": "Das ist der **Raucherhusten**: Weil die Flimmerhärchen gelähmt sind, muss der Schleim abgehustet werden.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-selbstreinigung-15",
+      "lernzielId": "lz-selbstreinigung",
+      "typ": "einfachwahl",
+      "frage": "Eine Raucherin hört auf zu rauchen. In den ersten Wochen hustet sie mehr Schleim ab als vorher. Wie lässt sich das erklären?",
+      "optionen": [
+        "Ohne Rauch produziert die Schleimhaut keinen Schleim mehr, darum ist der Hals trocken und gereizt",
+        "Die Flimmerhärchen schlagen jetzt in die Gegenrichtung und befördern Schleim aus den Alveolen nach oben",
+        "Die Flimmerhärchen sind nun endgültig zerstört, darum wird gar kein Schleim mehr transportiert",
+        "Die Flimmerhärchen erholen sich und transportieren den angesammelten Schleim wieder nach oben"
+      ],
+      "richtig": 3,
+      "erklaerung": "Ohne Rauch **erholen sich die Flimmerhärchen** und arbeiten wieder. Sie transportieren den Schleim, der sich während der Raucherjahre angesammelt hat, Richtung Rachen – darum muss die Person vorübergehend mehr abhusten. Das ist ein gutes Zeichen. Die Flimmerhärchen schlagen immer Richtung Rachen, nie in die Gegenrichtung.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-selbstreinigung-16",
+      "lernzielId": "lz-selbstreinigung",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die feuchte Gewebeschicht, die Luftröhre und Bronchien innen auskleidet und den klebrigen Film bildet, an dem Staub und Erreger hängen bleiben? (Fachbegriff, ein Wort)",
+      "akzeptiert": [
+        "Schleimhaut",
+        "die Schleimhaut",
+        "Schleimhäute",
+        "die Schleimhäute"
+      ],
+      "erklaerung": "Das ist die **Schleimhaut**. Sie bildet den **Schleim**, an dem Staub und Krankheitserreger kleben bleiben. Zusammen mit dem Flimmerepithel sorgt sie für die Selbstreinigung der Atemwege.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-selbstreinigung-17",
+      "lernzielId": "lz-selbstreinigung",
+      "typ": "einfachwahl",
+      "frage": "In der Flugzeugkabine ist die Luft sehr trocken. Warum steigt dabei das Risiko, sich eine Erkältung einzufangen?",
+      "optionen": [
+        "Die Schleimhaut trocknet aus, Erreger werden schlechter abtransportiert",
+        "Trockene Luft enthält grundsätzlich viel mehr Krankheitserreger als feuchte Luft",
+        "In trockener Luft schlagen die Flimmerhärchen zu schnell und reissen deshalb ab",
+        "Trockene Luft lässt die Knorpelspangen schrumpfen, sodass die Luftröhre enger wird und mehr Staub hängen bleibt"
+      ],
+      "richtig": 0,
+      "erklaerung": "Wenn die Schleimhaut austrocknet, wird der Schleim **zäh** und die **Flimmerhärchen** können ihn schlechter bewegen. Krankheitserreger werden dann weniger gut abtransportiert und können sich leichter festsetzen. Die Wirkung trockener Luft ist ergänzt, folgt aber direkt aus dem Selbstreinigungsmechanismus.",
+      "schwierigkeit": 3
+    }
+  ]
+}

@@ -14,7 +14,8 @@ import { basename, dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const wurzel = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const bilderOrdner = join(wurzel, 'public/bilder/informatik');
+// Fach per Umgebungsvariable, z. B. FACH=biologie node scripts/svg-render.mjs
+const bilderOrdner = join(wurzel, 'public/bilder', process.env['FACH'] ?? 'informatik');
 const iconOrdner = join(wurzel, 'public/icons');
 const ausgabe = '/tmp/lernapp-svg';
 mkdirSync(ausgabe, { recursive: true });

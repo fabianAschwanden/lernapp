@@ -19,10 +19,11 @@ test.describe('Startseite', () => {
     await expect(karte.getByText('13 Lernziele')).toBeVisible();
     await expect(karte.getByText(`${ANZAHL_FRAGEN} Fragen`)).toBeVisible();
 
-    // Weiterlernen-Vorschlag führt direkt in die Lernrunde
+    // Weiterlernen-Vorschlag führt direkt in eine Lernrunde (welche Lektion, hängt
+    // von den Prüfungsdaten der mitgelieferten Lektionen und vom heutigen Datum ab)
     await expect(page.getByRole('link', { name: /Weiterlernen/ })).toHaveAttribute(
       'href',
-      `/lektion/${LEKTION.id}/lernen`,
+      /^\/lektion\/[a-z0-9-]+\/lernen$/,
     );
 
     await karte.click();

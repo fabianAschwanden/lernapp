@@ -1,0 +1,932 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-atemzugvolumen",
+      "zusammenfassung": "Mit der **Spirometrie** misst man, wie viel Luft ein- und ausgeatmet wird. Das Messgerät heisst **Spirometer**, die aufgezeichnete Kurve **Spirogramm**. Die Werte spielen bei der Diagnose von Lungen- und Atemwegserkrankungen eine wichtige Rolle.\n\n### Atemzugvolumen (AZV)\nDas **Atem(zug)volumen (AZV)** ist das Gasvolumen, das **in Ruhe pro Atemzug** ein- bzw. ausgeatmet wird. Bei einer gesunden erwachsenen Person sind das etwa **500 ml = 0,5 l**.\n\n### Atemfrequenz\nDie **Atemfrequenz** ist die Anzahl Atemzüge pro Minute. Sie hängt stark vom Lebensalter ab. In Ruhe:\n\n| Alter | Atemzüge pro Minute |\n|---|---|\n| Neugeborenes | 40–45 |\n| Säugling | 35–40 |\n| Kleinkind | 20–30 |\n| Kind | 16–25 |\n| **Erwachsene** | **12–18** |\n\nJe jünger, desto schneller die Atmung. Atemtiefe und Atemfrequenz werden **unbewusst vom zentralen Nervensystem** gesteuert, vor allem über den **CO2-Gehalt des Blutes**: Steigt er (z. B. bei Anstrengung oder in schlecht gelüfteten Räumen), werden Atemfrequenz und Atemzugvolumen grösser.\n\n### Atemminutenvolumen *(ergänzt)*\n**Atemminutenvolumen = Atemzugvolumen × Atemfrequenz**\nBeispiel in Ruhe: 0,5 l × 15 pro Minute = **7,5 l Luft pro Minute**.\n\n### Fachbegriffe richtig schreiben\n- **Atemzugvolumen** (auch Atemvolumen), **Atemfrequenz**\n- **Spirometrie** (Methode), **Spirometer** (Gerät), **Spirogramm** (Kurve)",
+      "merksaetze": [
+        "Atemzugvolumen (AZV) = Luft pro Atemzug in Ruhe: etwa 500 ml = 0,5 l.",
+        "Atemfrequenz Erwachsene in Ruhe: 12–18 Atemzüge pro Minute; Kinder und Säuglinge atmen schneller.",
+        "Atemminutenvolumen = AZV × Atemfrequenz, in Ruhe z. B. 0,5 l × 15 = 7,5 l pro Minute.",
+        "Gemessen werden die Atemvolumen mit der Spirometrie (Gerät: Spirometer)."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/biologie/spirogramm.svg",
+          "alt": "Spirogramm: normale Atmung mit kleinen Wellen (Atemzugvolumen etwa 0,5 l), dann eine forcierte maximale Ein- und Ausatmung. Daneben Klammern für inspiratorisches Reservevolumen (2,5–3 l), Atemzugvolumen (0,5 l), exspiratorisches Reservevolumen (1,2–1,5 l), Residualvolumen (1–1,5 l), Inspirationskapazität (3 l), Vitalkapazität (4,5 l) und Totalkapazität (6 l)",
+          "legende": "Spirogramm mit Atemvolumen und Lungenkapazitäten (vgl. Atmung Teil 3, S. 1)"
+        }
+      ]
+    },
+    {
+      "id": "lz-vitalkapazitaet",
+      "zusammenfassung": "Im **Spirogramm** sieht man zuerst die normale Atmung (kleine Wellen = **Atemzugvolumen**), dann eine **forcierte Atmung**: so tief wie möglich einatmen und so stark wie möglich ausatmen.\n\n### Die Begriffe (Lösungen der Lehrperson)\n- **Inspiratorisches Reservevolumen (IRV):** Luftvolumen, das **nach normaler Einatmung** noch **zusätzlich eingeatmet** werden kann. Etwa **2,5–3 l**.\n- **Exspiratorisches Reservevolumen (ERV):** Luftvolumen, das **nach normaler Ausatmung** noch **zusätzlich ausgeatmet** werden kann. Etwa **1,2–1,5 l**.\n- **Inspirationskapazität (IC):** Gesamte Luftmenge (also **Atemzugvolumen + inspiratorisches Reservevolumen**), die **nach normaler Ausatmung** eingeatmet werden kann. Etwa **3 l**.\n- **Vitalkapazität (VC):** Luftvolumen, das **nach maximaler Ausatmung eingeatmet** werden kann (oder umgekehrt: Luftvolumen, das nach maximaler Einatmung ausgeatmet werden kann). Etwa **4,5 l**.\n- **Residualvolumen (RV):** Luftvolumen, das **nach maximaler Ausatmung in den Lungen verbleibt**. Etwa **1–1,5 l**.\n- **Totalkapazität (TLC):** gesamte Luftmenge in der Lunge nach maximaler Einatmung. Etwa **6 l**.\n- **Funktionelle Residualkapazität (FRC):** bleibt nach normaler Ausatmung in der Lunge (ERV + RV). Etwa **3 l**.\n\n### Wie die Werte zusammenhängen\n| Grösse | setzt sich zusammen aus | Wert |\n|---|---|---|\n| Inspirationskapazität | AZV + IRV | ca. 3 l |\n| **Vitalkapazität** | IRV + AZV + ERV | **ca. 4,5 l** |\n| **Totalkapazität** | VC + RV | **ca. 6 l** |\n| Funktionelle Residualkapazität | ERV + RV | ca. 3 l |\n\nDas **Residualvolumen** kann man **nie ausatmen**: Der Brustkorb lässt sich nicht beliebig verkleinern, und die Lunge haftet über den Pleuraspalt an der Brustwand. Darum kann es das Spirometer auch nicht direkt messen *(ergänzt)*.\n\n### Schreibweise\n- **Vitalkapazität**: «Kapazität» mit z und ä.\n- **Residualvolumen**: Re-si-du-al (lateinisch residuum = Rest).\n- **Exspiratorisch** schreibt das Blatt mit «xs» (ex-spirare = ausatmen); **inspiratorisch** von in-spirare = einatmen.",
+      "merksaetze": [
+        "Vitalkapazität = Luftvolumen, das nach maximaler Ausatmung eingeatmet werden kann (oder umgekehrt), etwa 4,5 l.",
+        "Residualvolumen = Luftvolumen, das nach maximaler Ausatmung in den Lungen verbleibt, etwa 1–1,5 l.",
+        "Vitalkapazität = inspiratorisches Reservevolumen + Atemzugvolumen + exspiratorisches Reservevolumen.",
+        "Totalkapazität = Vitalkapazität + Residualvolumen, etwa 6 l."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/biologie/spirogramm.svg",
+          "alt": "Spirogramm: normale Atmung mit kleinen Wellen (Atemzugvolumen etwa 0,5 l), dann eine forcierte maximale Ein- und Ausatmung. Daneben Klammern für inspiratorisches Reservevolumen (2,5–3 l), Atemzugvolumen (0,5 l), exspiratorisches Reservevolumen (1,2–1,5 l), Residualvolumen (1–1,5 l), Inspirationskapazität (3 l), Vitalkapazität (4,5 l) und Totalkapazität (6 l)",
+          "legende": "Spirogramm mit Atemvolumen und Lungenkapazitäten (vgl. Atmung Teil 3, S. 1)"
+        }
+      ]
+    },
+    {
+      "id": "lz-berechnungen",
+      "zusammenfassung": "In der Prüfung musst du mit bekannten Zahlen **selbstständig rechnen** und das Ergebnis deuten. Schreib immer den **Rechenweg mit Einheiten** auf. Oft stehen die Werte **nicht** in der Aufgabe: Atemzugvolumen, Atemfrequenz und Sauerstoffanteile musst du selbst kennen und deine Annahmen hinschreiben.\n\n### Diese Zahlen brauchst du\n| Grösse | Wert |\n|---|---|\n| Atemzugvolumen in Ruhe | 500 ml = 0,5 l |\n| Atemfrequenz Erwachsene in Ruhe | 12–18 pro Minute (rechne z. B. mit 15) |\n| Sauerstoff Einatmungsluft / Ausatmungsluft | 21 % / 17 % → **4 %** werden aufgenommen |\n| CO2 Einatmungsluft / Ausatmungsluft | 0,04 % / 4,04 % → **4 %** werden abgegeben |\n| Vitalkapazität / Residualvolumen / Totalkapazität | 4,5 l / 1–1,5 l / 6 l |\n| Alveolen | ca. 400 Millionen, je ca. 0,2 mm, zusammen ca. 100 m^2 |\n\n### Beispiel: Die Buche (Arbeitsblatt «Eine Rechnung»)\nEine Buche produziert bei Sonnenschein etwa **1000 l Sauerstoff pro Stunde**. Wie viele ruhende Personen kann sie eine Stunde lang versorgen?\n1. Luft pro Minute: 0,5 l × 15 = **7,5 l**\n2. Luft pro Stunde: 7,5 l × 60 = **450 l**\n3. Aufgenommener Sauerstoff: 21 % − 17 % = 4 %; 4 % von 450 l = **18 l O2 pro Stunde**\n4. Personen: 1000 l : 18 l ≈ **55 Personen**\n\nMit 12–18 Atemzügen pro Minute kommt man auf etwa 45–70 Personen; wichtig ist der Rechenweg. Typischer Fehler: mit 21 % rechnen – die Ausatmungsluft enthält aber noch 17 % Sauerstoff; aufgenommen werden nur 21 % − 17 % = **4 % des eingeatmeten Luftvolumens**.\n\n### Umrechnen\n- 1 l = 1000 ml; 1 Stunde = 60 Minuten; 1 Tag = 24 Stunden.\n- 1 % = 10 000 ppm (parts per million). Also 0,04 % CO2 = **400 ppm**, 0,1 % = 1000 ppm.\n- Prozent von etwas: 4 % von 500 ml = 500 ml : 100 × 4 = **20 ml**.\n- Pro Tag hochrechnen: 15 Atemzüge × 60 × 24 = **21 600 Atemzüge**; 18 l O2 pro Stunde × 24 = **432 l O2 pro Tag**.\n\n### Flächen und Oberflächen\n- Schulzimmer 9 m × 8,5 m = **76,5 m^2** – die Alveolenoberfläche (ca. 100 m^2) ist grösser als das ganze Schulzimmer.\n- Würfelaufgabe: 1 Würfel mit 8 cm Kante: 6 × 64 cm^2 = 384 cm^2. 8 Würfel mit 4 cm Kante: 8 × 96 cm^2 = **768 cm^2**. 64 Würfel mit 2 cm: 64 × 24 cm^2 = 1536 cm^2. Gleiches Volumen, aber je feiner unterteilt, desto grösser die Oberfläche.\n- Stecknadelkopf 1–2 mm : Alveole 0,2 mm → das Lungenbläschen ist **5- bis 10-mal kleiner**.",
+      "merksaetze": [
+        "Pro Atemzug in Ruhe: 4 % von 500 ml = 20 ml Sauerstoff werden aufgenommen und etwa 20 ml CO2 abgegeben.",
+        "In Ruhe atmet man etwa 7,5 l Luft pro Minute bzw. 450 l pro Stunde und nimmt dabei rund 18 l Sauerstoff pro Stunde auf.",
+        "Buche: 1000 l O2 pro Stunde : 18 l pro Person ≈ 55 ruhende Personen.",
+        "1 % = 10 000 ppm, also 0,04 % CO2 = 400 ppm."
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-atemzugvolumen-01",
+      "lernzielId": "lz-atemzugvolumen",
+      "typ": "einfachwahl",
+      "frage": "Wie gross ist das **Atemzugvolumen** einer gesunden erwachsenen Person in Ruhe ungefähr?",
+      "optionen": [
+        "50 ml",
+        "500 ml",
+        "1,5 l",
+        "4,5 l"
+      ],
+      "richtig": 1,
+      "erklaerung": "In Ruhe atmet eine erwachsene Person pro Atemzug etwa **500 ml = 0,5 l** ein bzw. aus (Atmung Teil 3, S. 1). 4,5 l ist die **Vitalkapazität**, 1–1,5 l ist etwa das Residualvolumen bzw. das exspiratorische Reservevolumen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-atemzugvolumen-02",
+      "lernzielId": "lz-atemzugvolumen",
+      "typ": "zahl",
+      "frage": "Gib das Atemzugvolumen eines Erwachsenen in Ruhe in **Litern** an.",
+      "richtig": 0.5,
+      "einheit": "l",
+      "toleranz": 0.1,
+      "erklaerung": "500 ml = 500 : 1000 l = **0,5 l**. Für Rechnungen ist es oft praktischer, mit 0,5 l zu rechnen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-atemzugvolumen-03",
+      "lernzielId": "lz-atemzugvolumen",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst das Gasvolumen, das **in Ruhe pro Atemzug** ein- bzw. ausgeatmet wird? (Fachbegriff)",
+      "akzeptiert": [
+        "Atemzugvolumen",
+        "Atemvolumen",
+        "Atemzugsvolumen",
+        "Atem(zug)volumen"
+      ],
+      "erklaerung": "Gesucht ist das **Atemzugvolumen** (AZV), auf dem Blatt «Atem(zug)volumen». Achte auf die Schreibweise: Atem**zug**volumen – ein Wort, ohne Bindestrich. Auf dem Blatt steht einmal (S. 4) auch «Atemzugsvolumen» mit s; üblich und auf S. 1 verwendet ist «Atem(zug)volumen», darum zählen beide.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-atemzugvolumen-04",
+      "lernzielId": "lz-atemzugvolumen",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die **Methode**, mit der man Atemvolumen und Lungenkapazitäten misst? (ein Wort)",
+      "akzeptiert": [
+        "Spirometrie"
+      ],
+      "erklaerung": "Die Methode heisst **Spirometrie** (lateinisch spirare = atmen). Das Gerät dazu ist das **Spirometer**, die aufgezeichnete Kurve das **Spirogramm**. Gefragt war die Methode, darum zählt nur «Spirometrie».",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-atemzugvolumen-05",
+      "lernzielId": "lz-atemzugvolumen",
+      "typ": "kurzantwort",
+      "frage": "Wie nennt man die **Anzahl Atemzüge pro Minute**? (Fachbegriff)",
+      "akzeptiert": [
+        "Atemfrequenz",
+        "Atmungsfrequenz"
+      ],
+      "erklaerung": "Das ist die **Atemfrequenz**. «Frequenz» schreibt man mit **qu** und **z**.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-atemzugvolumen-06",
+      "lernzielId": "lz-atemzugvolumen",
+      "typ": "einfachwahl",
+      "frage": "Wie viele Atemzüge pro Minute macht eine erwachsene Person **in Ruhe** ungefähr?",
+      "optionen": [
+        "35–40",
+        "60–80",
+        "4–6",
+        "12–18"
+      ],
+      "richtig": 3,
+      "erklaerung": "Erwachsene atmen in Ruhe etwa **12–18-mal pro Minute**. 35–40 Atemzüge sind normal für einen **Säugling**; 4–6 wären viel zu langsam, 60–80 ist eher die Pulsfrequenz (Herzschläge).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-atemzugvolumen-07",
+      "lernzielId": "lz-atemzugvolumen",
+      "typ": "zuordnen",
+      "frage": "Ordne jeder Altersgruppe die normale **Atemfrequenz in Ruhe** zu.",
+      "paare": [
+        {
+          "links": "Neugeborenes",
+          "rechts": "40–45 pro Minute"
+        },
+        {
+          "links": "Säugling",
+          "rechts": "35–40 pro Minute"
+        },
+        {
+          "links": "Kleinkind",
+          "rechts": "20–30 pro Minute"
+        },
+        {
+          "links": "Kind",
+          "rechts": "16–25 pro Minute"
+        },
+        {
+          "links": "Erwachsene Person",
+          "rechts": "12–18 pro Minute"
+        }
+      ],
+      "erklaerung": "Je jünger ein Mensch ist, desto schneller atmet er: Neugeborene 40–45, Säuglinge 35–40, Kleinkinder 20–30, Kinder 16–25, Erwachsene 12–18 Atemzüge pro Minute (Atmung Teil 3, S. 2).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-atemzugvolumen-08",
+      "lernzielId": "lz-atemzugvolumen",
+      "typ": "zuordnen",
+      "frage": "Bei verschiedenen Personen wird **in Ruhe** die Atemfrequenz gezählt. Beurteile jeden Messwert.",
+      "paare": [
+        {
+          "links": "Säugling: 38 Atemzüge pro Minute",
+          "rechts": "normal"
+        },
+        {
+          "links": "Kleinkind: 24 Atemzüge pro Minute",
+          "rechts": "normal"
+        },
+        {
+          "links": "Erwachsene Person: 16 Atemzüge pro Minute",
+          "rechts": "normal"
+        },
+        {
+          "links": "Erwachsene Person: 26 Atemzüge pro Minute",
+          "rechts": "zu schnell"
+        },
+        {
+          "links": "Kind: 40 Atemzüge pro Minute",
+          "rechts": "zu schnell"
+        },
+        {
+          "links": "Säugling: 15 Atemzüge pro Minute",
+          "rechts": "zu langsam"
+        }
+      ],
+      "erklaerung": "Normalwerte in Ruhe (Atmung Teil 3, S. 2): Säugling **35–40**, Kleinkind **20–30**, Kind **16–25**, Erwachsene **12–18** Atemzüge pro Minute. 26 ist für Erwachsene zu schnell, 40 für ein Kind zu schnell (das wäre die Frequenz eines Säuglings), und 15 ist für einen Säugling viel zu langsam. Ein Messwert lässt sich also nur zusammen mit dem **Alter** beurteilen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-atemzugvolumen-09",
+      "lernzielId": "lz-atemzugvolumen",
+      "typ": "wahrfalsch",
+      "frage": "Ein Kleinkind atmet in Ruhe **langsamer** als eine erwachsene Person.",
+      "richtig": false,
+      "erklaerung": "Umgekehrt: Ein Kleinkind atmet in Ruhe etwa **20–30-mal** pro Minute, eine erwachsene Person nur **12–18-mal**. Je jünger, desto höher die Atemfrequenz.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-atemzugvolumen-10",
+      "lernzielId": "lz-atemzugvolumen",
+      "typ": "zahl",
+      "frage": "Du zählst bei einer ruhig sitzenden erwachsenen Person in **30 Sekunden 8 Atemzüge**. Wie gross ist ihre Atemfrequenz?",
+      "richtig": 16,
+      "einheit": "Atemzüge pro Minute",
+      "erklaerung": "Eine Minute hat 60 Sekunden, also doppelt so viel Zeit: 8 × 2 = **16 Atemzüge pro Minute**. Das liegt im Normbereich für Erwachsene (12–18).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-atemzugvolumen-11",
+      "lernzielId": "lz-atemzugvolumen",
+      "typ": "einfachwahl",
+      "frage": "Eine erwachsene Person sitzt ruhig und atmet **30-mal pro Minute**. Wie ist das zu beurteilen?",
+      "optionen": [
+        "Das ist für Erwachsene normal, die Atemfrequenz liegt im Bereich 25–35.",
+        "Das ist zu langsam; normal wären bei Erwachsenen 35–40 Atemzüge.",
+        "Das ist deutlich zu schnell; normal sind in Ruhe 12–18 Atemzüge.",
+        "Das lässt sich nicht beurteilen, weil die Atemfrequenz nicht vom Alter abhängt."
+      ],
+      "richtig": 2,
+      "erklaerung": "Erwachsene atmen in Ruhe **12–18-mal pro Minute**. 30 Atemzüge sind deutlich zu schnell – das ist eher die Frequenz eines Kleinkindes. 35–40 gilt für Säuglinge. Die Atemfrequenz hängt stark vom Alter ab.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-atemzugvolumen-12",
+      "lernzielId": "lz-atemzugvolumen",
+      "typ": "mehrfachwahl",
+      "frage": "Was gilt für das **Atemzugvolumen**? Wähle alle zutreffenden Aussagen.",
+      "optionen": [
+        "Es wird in Ruhe pro Atemzug ein- bzw. ausgeatmet.",
+        "Es beträgt bei Erwachsenen etwa 500 ml.",
+        "Es ist das grösste Volumen, das man nach maximaler Einatmung ausatmen kann.",
+        "Es lässt sich mit einem Spirometer messen.",
+        "Es ist die Luft, die nach maximaler Ausatmung in der Lunge bleibt."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Das Atemzugvolumen ist die Luft pro Atemzug in Ruhe (etwa **500 ml**) und wird mit dem **Spirometer** gemessen. Das grösste Volumen nach maximaler Einatmung ist die **Vitalkapazität**, die Luft, die nach maximaler Ausatmung bleibt, das **Residualvolumen**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-atemzugvolumen-13",
+      "lernzielId": "lz-atemzugvolumen",
+      "typ": "zahl",
+      "frage": "Eine Person atmet in Ruhe **15-mal pro Minute**, jedes Mal **0,5 l**. Wie viel Luft atmet sie pro Minute ein (Atemminutenvolumen)?",
+      "richtig": 7.5,
+      "einheit": "l pro Minute",
+      "erklaerung": "Atemminutenvolumen = Atemzugvolumen × Atemfrequenz = 0,5 l × 15 = **7,5 l pro Minute**. (Der Begriff Atemminutenvolumen ist ergänzt, die Rechnung brauchst du bei der Buchenaufgabe.)",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-atemzugvolumen-14",
+      "lernzielId": "lz-atemzugvolumen",
+      "typ": "kurzantwort",
+      "frage": "Das Messgerät der Spirometrie zeichnet die ein- und ausgeatmeten Luftvolumen als **Kurve** auf. Wie heisst diese Kurve? (Fachbegriff)",
+      "akzeptiert": [
+        "Spirogramm"
+      ],
+      "erklaerung": "Die Kurve heisst **Spirogramm** (-gramm = Aufzeichnung, wie bei Diagramm). Unterscheide: **Spirometrie** = Methode, **Spirometer** = Gerät, **Spirogramm** = aufgezeichnete Kurve.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-atemzugvolumen-15",
+      "lernzielId": "lz-atemzugvolumen",
+      "typ": "einfachwahl",
+      "frage": "Beim Joggen steigt die Luftmenge, die du pro Minute ein- und ausatmest, stark an. Wie kommt das zustande?",
+      "optionen": [
+        "Atemfrequenz und Atemzugvolumen steigen beide.",
+        "Nur die Atemfrequenz steigt, das Atemzugvolumen bleibt immer bei 500 ml.",
+        "Das Residualvolumen wird zusätzlich ausgeatmet und steht dann zur Verfügung.",
+        "Die Vitalkapazität wird während des Laufens laufend grösser."
+      ],
+      "richtig": 0,
+      "erklaerung": "Die arbeitenden Muskeln betreiben mehr **Zellatmung** und bilden mehr CO2. Der steigende **CO2-Gehalt** im Blut regt über das zentrale Nervensystem die Atmung an: Du atmest **schneller und tiefer** (das Atemzugvolumen wird grösser, weil ein Teil der Reservevolumen mitgenutzt wird). Das Residualvolumen kann man nie ausatmen, und die Vitalkapazität ändert sich beim Laufen nicht.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-atemzugvolumen-17",
+      "lernzielId": "lz-atemzugvolumen",
+      "typ": "zahl",
+      "frage": "Du schnorchelst mit einem Rohr, das **150 ml** Luft fasst. Dein Atemzugvolumen beträgt **500 ml**. Wie viel **frische Luft** gelangt pro Atemzug in deine Lunge?",
+      "richtig": 350,
+      "einheit": "ml",
+      "erklaerung": "Nach dem Ausatmen bleibt das Rohr mit **verbrauchter Luft** gefüllt. Beim nächsten Einatmen kommt diese Luft zuerst wieder in die Lunge, erst danach frische Luft: 500 ml − 150 ml = **350 ml**. Darum musst du mit Schnorchel **tiefer atmen**. (Die eigenen Atemwege sind hier nicht mitgerechnet – auch in Luftröhre und Bronchien bleibt bei jedem Atemzug verbrauchte Luft.)",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-atemzugvolumen-18",
+      "lernzielId": "lz-atemzugvolumen",
+      "typ": "offen",
+      "frage": "Erkläre die Begriffe **Atemzugvolumen** und **Atemfrequenz** und nenne für eine erwachsene Person in Ruhe die ungefähren Werte.",
+      "musterloesung": "- **Atemzugvolumen (AZV):** das Gasvolumen, das in Ruhe pro Atemzug ein- bzw. ausgeatmet wird; bei einer gesunden erwachsenen Person etwa **500 ml (0,5 l)**.\n- **Atemfrequenz:** die Anzahl Atemzüge pro Minute; bei Erwachsenen in Ruhe etwa **12–18 Atemzüge pro Minute** (Kinder und Säuglinge atmen schneller).\n- Gemessen werden die Atemvolumen mit der **Spirometrie**.",
+      "stichworte": [
+        "pro Atemzug in Ruhe",
+        "ca. 500 ml / 0,5 l",
+        "Atemzüge pro Minute",
+        "12–18 pro Minute",
+        "Spirometrie"
+      ],
+      "erklaerung": "Wichtig sind die Definition **und** die Zahl mit Einheit. Achte auf «in Ruhe»: Bei Anstrengung sind beide Werte grösser.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-atemzugvolumen-19",
+      "lernzielId": "lz-atemzugvolumen",
+      "typ": "offen",
+      "frage": "Ein Schnorchel hat etwa **150 ml** Inhalt. Erkläre, weshalb du beim Schnorcheln tiefer atmen musst als an Land und weshalb ein Schnorchel **nicht beliebig lang** sein darf (z. B. 1 l Inhalt).",
+      "musterloesung": "Nach dem Ausatmen bleibt der Schnorchel mit **verbrauchter, CO2-reicher Luft** gefüllt. Beim nächsten Einatmen gelangt diese Luft zuerst wieder in die Lunge. Bei einem Atemzugvolumen von 500 ml kommen deshalb nur noch etwa 500 − 150 = **350 ml frische Luft** in die Lunge. Damit trotzdem genug Sauerstoff ankommt, muss man **tiefer atmen** (grösseres Atemzugvolumen).\n\nIst der Rohrinhalt **grösser als das Atemzugvolumen** (z. B. 1 l), käme mit einem normalen Atemzug (0,5 l) **gar keine Frischluft** mehr in die Lunge – man würde nur die eigene verbrauchte Luft hin- und heratmen. Man müsste sehr tief atmen, und trotzdem wäre ein grosser Teil jedes Atemzugs verbrauchte Luft: Der O2-Gehalt in der Lunge sinkt, der CO2-Gehalt steigt – auf Dauer droht Erstickung. Zusätzlich drückt das Wasser in grösserer Tiefe auf den Brustkorb, sodass man gegen diesen Druck kaum noch einatmen kann *(ergänzt)*.",
+      "stichworte": [
+        "verbrauchte Luft bleibt im Rohr",
+        "wird wieder eingeatmet",
+        "weniger Frischluft (ca. 350 ml)",
+        "tiefer atmen",
+        "Rohrinhalt grösser als Atemzugvolumen",
+        "CO2 steigt, O2 sinkt"
+      ],
+      "erklaerung": "Transferaufgabe: Du verknüpfst das **Atemzugvolumen** mit der **Zusammensetzung der Ausatmungsluft** (weniger O2, mehr CO2). Der Wasserdruck ist ergänzt und hängt mit der Ventilation (Druckdifferenz, Teil 2) zusammen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-vitalkapazitaet-01",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst das Luftvolumen, das **nach maximaler Ausatmung in den Lungen verbleibt**? (Fachbegriff)",
+      "akzeptiert": [
+        "Residualvolumen"
+      ],
+      "erklaerung": "Das ist das **Residualvolumen (RV)**, etwa 1–1,5 l. Schreibweise: Re-si-du-al-vo-lu-men (lateinisch residuum = Rest), mit **d** und **u**. Auf Deutsch kann man es mit «Restvolumen» umschreiben – gefragt ist aber der Fachbegriff.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-vitalkapazitaet-02",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst das Luftvolumen, das **nach maximaler Ausatmung eingeatmet** werden kann? (Fachbegriff)",
+      "akzeptiert": [
+        "Vitalkapazität"
+      ],
+      "erklaerung": "Das ist die **Vitalkapazität (VC)**, etwa 4,5 l (umgekehrt: das Volumen, das nach maximaler Einatmung ausgeatmet werden kann). Schreibweise: Vital**kapazität** – mit **z** und **ä**.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-vitalkapazitaet-03",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst das Luftvolumen, das **nach normaler Einatmung noch zusätzlich eingeatmet** werden kann? (Fachbegriff, zwei Wörter)",
+      "akzeptiert": [
+        "Inspiratorisches Reservevolumen",
+        "Inspiratorische Reservevolumen"
+      ],
+      "erklaerung": "Das ist das **inspiratorische Reservevolumen (IRV)**, etwa 2,5–3 l. «Inspiratorisch» kommt von lateinisch inspirare = einatmen. Auf Deutsch könnte man «Reservevolumen der Einatmung» sagen – gefragt ist aber der Fachbegriff.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-vitalkapazitaet-04",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst das Luftvolumen, das **nach normaler Ausatmung noch zusätzlich ausgeatmet** werden kann? (Fachbegriff, zwei Wörter)",
+      "akzeptiert": [
+        "Exspiratorisches Reservevolumen",
+        "Exspiratorische Reservevolumen"
+      ],
+      "erklaerung": "Das ist das **exspiratorische Reservevolumen (ERV)**, etwa 1,2–1,5 l. Lerne die Schreibweise des Blattes: **«exspiratorisch»** mit **xs** (von lateinisch ex-spirare = ausatmen). Die Form «expiratorisch» ohne s ist dem Englischen angeglichen (expiratory) und zählt hier nicht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-vitalkapazitaet-05",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die gesamte Luftmenge (**AZV + IRV**), die **nach normaler Ausatmung eingeatmet** werden kann? (Fachbegriff)",
+      "akzeptiert": [
+        "Inspirationskapazität"
+      ],
+      "erklaerung": "Das ist die **Inspirationskapazität (IC)**, etwa 3 l = 0,5 l (AZV) + 2,5 l (IRV). Achte auf den Unterschied: Inspirations**kapazität** (mehrere Volumen zusammen) vs. inspiratorisches Reserve**volumen** (ein einzelnes Volumen).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-vitalkapazitaet-06",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "zahl",
+      "frage": "Wie gross ist die **Vitalkapazität** einer gesunden erwachsenen Person ungefähr?",
+      "richtig": 4.5,
+      "einheit": "l",
+      "toleranz": 0.5,
+      "erklaerung": "Die Vitalkapazität beträgt etwa **4,5 l** (Spirogramm, Atmung Teil 3). Sie ist je nach Körpergrösse, Geschlecht, Alter und Training verschieden *(ergänzt)*.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-vitalkapazitaet-07",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "zahl",
+      "frage": "Wie gross ist das **Residualvolumen** ungefähr? Gib einen Wert in Litern an.",
+      "richtig": 1.5,
+      "einheit": "l",
+      "toleranz": 0.5,
+      "erklaerung": "Das Residualvolumen beträgt etwa **1–1,5 l** (im Spirogramm einmal mit 1–1,5 l, einmal mit ~1,5 l angegeben) – jeder Wert in diesem Bereich zählt. Diese Luft bleibt auch nach maximaler Ausatmung in der Lunge.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-vitalkapazitaet-08",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "einfachwahl",
+      "frage": "Was versteht man unter der **Vitalkapazität**?",
+      "optionen": [
+        "Die Luftmenge, die man nach maximaler Einatmung maximal ausatmen kann.",
+        "Das Luftvolumen, das in Ruhe bei jedem einzelnen Atemzug ein- und ausgeatmet wird.",
+        "Das Luftvolumen, das nach maximaler Ausatmung noch in den Lungen und Atemwegen verbleibt.",
+        "Die gesamte Luftmenge in der Lunge nach maximaler Einatmung."
+      ],
+      "richtig": 0,
+      "erklaerung": "Vitalkapazität = Luftvolumen, das nach maximaler Ausatmung eingeatmet werden kann – oder umgekehrt nach maximaler Einatmung ausgeatmet (ca. 4,5 l). Die anderen Optionen beschreiben das **Atemzugvolumen**, das **Residualvolumen** und die **Totalkapazität**.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-vitalkapazitaet-09",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "zuordnen",
+      "frage": "Im Spirogramm sind die Klammern nur mit Buchstaben bezeichnet. Ordne jedem Buchstaben den richtigen Begriff zu.",
+      "paare": [
+        {
+          "links": "A",
+          "rechts": "Inspiratorisches Reservevolumen"
+        },
+        {
+          "links": "B",
+          "rechts": "Atemzugvolumen"
+        },
+        {
+          "links": "C",
+          "rechts": "Exspiratorisches Reservevolumen"
+        },
+        {
+          "links": "D",
+          "rechts": "Residualvolumen"
+        },
+        {
+          "links": "E",
+          "rechts": "Vitalkapazität"
+        },
+        {
+          "links": "F",
+          "rechts": "Totalkapazität"
+        }
+      ],
+      "erklaerung": "Von oben nach unten: **A** inspiratorisches Reservevolumen (über der normalen Atmung, ~2,5–3 l), **B** Atemzugvolumen (die kleinen Wellen, ~0,5 l), **C** exspiratorisches Reservevolumen (unter der normalen Atmung, ~1,2–1,5 l), **D** Residualvolumen (unterhalb der tiefsten Ausatmung, ~1–1,5 l). **E** Vitalkapazität = A + B + C (~4,5 l), **F** Totalkapazität = Vitalkapazität + Residualvolumen (~6 l).",
+      "schwierigkeit": 2,
+      "bild": {
+        "src": "bilder/biologie/spirogramm-leer.svg",
+        "alt": "Spirogramm mit normaler und forcierter Atmung; die Klammern daneben sind nur mit den Buchstaben A bis F bezeichnet"
+      }
+    },
+    {
+      "id": "f-vitalkapazitaet-10",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "zuordnen",
+      "frage": "Ordne jedem Volumen den ungefähren Wert bei einer gesunden erwachsenen Person zu.",
+      "paare": [
+        {
+          "links": "Atemzugvolumen",
+          "rechts": "ca. 0,5 l"
+        },
+        {
+          "links": "Inspiratorisches Reservevolumen",
+          "rechts": "ca. 2,5–3 l"
+        },
+        {
+          "links": "Residualvolumen",
+          "rechts": "ca. 1–1,5 l"
+        },
+        {
+          "links": "Vitalkapazität",
+          "rechts": "ca. 4,5 l"
+        },
+        {
+          "links": "Totalkapazität",
+          "rechts": "ca. 6 l"
+        }
+      ],
+      "erklaerung": "Werte aus dem Spirogramm (Atmung Teil 3): AZV 0,5 l, IRV 2,5–3 l, RV 1–1,5 l, VC 4,5 l, TLC 6 l (dazu ERV 1,2–1,5 l). Kontrolle: IRV + AZV + ERV ≈ 2,5–3 + 0,5 + 1,2–1,5 ≈ 4,2–5 l, also rund **4,5 l = VC**; VC + RV ≈ 4,5 + 1,5 = **6 l = TLC**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-vitalkapazitaet-11",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "zuordnen",
+      "frage": "Ordne jedem Begriff die passende Erklärung zu.",
+      "paare": [
+        {
+          "links": "Inspiratorisches Reservevolumen",
+          "rechts": "kann nach normaler Einatmung noch zusätzlich eingeatmet werden"
+        },
+        {
+          "links": "Inspirationskapazität",
+          "rechts": "kann nach normaler Ausatmung insgesamt eingeatmet werden"
+        },
+        {
+          "links": "Vitalkapazität",
+          "rechts": "kann nach maximaler Ausatmung eingeatmet werden"
+        },
+        {
+          "links": "Residualvolumen",
+          "rechts": "verbleibt nach maximaler Ausatmung in den Lungen"
+        }
+      ],
+      "erklaerung": "Merkhilfe: **Reservevolumen** = zusätzlich zur normalen Atmung; **Kapazität** = mehrere Volumen zusammen. Inspirationskapazität = AZV + IRV, Vitalkapazität = IRV + AZV + ERV. Das **Residualvolumen** kann man nie ausatmen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-vitalkapazitaet-12",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "wahrfalsch",
+      "frage": "Das **Residualvolumen** kann man mit dem Spirometer direkt messen, indem man so stark wie möglich ausatmet.",
+      "richtig": false,
+      "erklaerung": "Das Spirometer misst nur Luft, die ein- oder ausgeatmet wird. Das Residualvolumen bleibt aber auch nach maximaler Ausatmung **in der Lunge** – es kann nicht ausgeatmet und deshalb nicht direkt mit dem Spirometer gemessen werden *(ergänzt)*.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-vitalkapazitaet-13",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "mehrfachwahl",
+      "frage": "Aus welchen Volumen setzt sich die **Vitalkapazität** zusammen? Wähle alle zutreffenden.",
+      "optionen": [
+        "Inspiratorisches Reservevolumen",
+        "Atemzugvolumen",
+        "Exspiratorisches Reservevolumen",
+        "Residualvolumen",
+        "Totalkapazität"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Vitalkapazität = **inspiratorisches Reservevolumen + Atemzugvolumen + exspiratorisches Reservevolumen** (ca. 2,8 + 0,5 + 1,2 ≈ 4,5 l). Das Residualvolumen gehört **nicht** dazu, weil man es nicht ausatmen kann. Die Totalkapazität ist Vitalkapazität + Residualvolumen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-vitalkapazitaet-14",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "einfachwahl",
+      "frage": "Die **Totalkapazität (TLC)** der Lunge ist gleich …",
+      "optionen": [
+        "Atemzugvolumen + inspiratorisches Reservevolumen",
+        "Vitalkapazität − Residualvolumen",
+        "Vitalkapazität + Residualvolumen",
+        "exspiratorisches Reservevolumen + Residualvolumen"
+      ],
+      "richtig": 2,
+      "erklaerung": "Totalkapazität = **Vitalkapazität + Residualvolumen** ≈ 4,5 l + 1,5 l = **6 l**. AZV + IRV ist die Inspirationskapazität, ERV + RV die funktionelle Residualkapazität (FRC).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-vitalkapazitaet-15",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "einfachwahl",
+      "frage": "Bei einer Person ist nach einer Stichverletzung ein Lungenflügel zusammengefallen (Pneumothorax). Was zeigt eine Spirometrie bei der **Vitalkapazität**?",
+      "optionen": [
+        "Sie bleibt gleich, weil der andere Lungenflügel alles übernimmt.",
+        "Sie steigt, weil zusätzlich Luft im Pleuraspalt ist.",
+        "Sie wird nur grösser, wenn die Person schneller atmet.",
+        "Sie sinkt deutlich, weil sich ein Lungenflügel nicht mehr entfaltet."
+      ],
+      "richtig": 3,
+      "erklaerung": "Gelangt Luft in den Pleuraspalt, haftet die Lunge nicht mehr an der Brustwand und fällt zusammen (Teil 2). Dieser Lungenflügel kann sich beim Einatmen nicht mehr ausdehnen – es kann **viel weniger Luft** ein- und ausgeatmet werden, die Vitalkapazität **sinkt**. Die Luft im Pleuraspalt wird nicht geatmet; schneller atmen ändert die Vitalkapazität nicht.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-vitalkapazitaet-16",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "wahrfalsch",
+      "frage": "Gut trainierte Ausdauersportlerinnen und -sportler können bei grosser Anstrengung auch ihr **Residualvolumen** ausatmen.",
+      "richtig": false,
+      "erklaerung": "Das Residualvolumen bleibt **immer** in der Lunge, auch bei maximaler Ausatmung und bei Sportlern. Training kann die Vitalkapazität etwas vergrössern *(ergänzt)*, aber die Lunge kann nie ganz geleert werden.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-vitalkapazitaet-17",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "einfachwahl",
+      "frage": "Bei einem Asthmaanfall sind die Bronchiolen verengt, und das Ausatmen fällt schwer. Mit welcher Untersuchung kann die Ärztin das am besten messen?",
+      "optionen": [
+        "Durch Zählen der Atemzüge pro Minute in Ruhe",
+        "Mit einer Spirometrie",
+        "Durch Messen des CO2-Gehalts der Raumluft",
+        "Durch Messen des Sauerstoffgehalts der Einatmungsluft"
+      ],
+      "richtig": 1,
+      "erklaerung": "Mit der **Spirometrie** misst man, wie viel Luft ein- und ausgeatmet werden kann – die Werte spielen bei der **Diagnose von Lungen- und Atemwegserkrankungen** eine wichtige Rolle (Teil 3, S. 1). Bei Asthma zeigt sich, dass weniger Luft (und langsamer) ausgeatmet werden kann *(ergänzt)*. Die Atemfrequenz sagt nichts darüber, wie viel Luft bewegt wird, und Raum- bzw. Einatmungsluft haben mit der Lunge der Patientin nichts zu tun.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-vitalkapazitaet-18",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "offen",
+      "frage": "Erläutere die Begriffe **Vitalkapazität** und **Residualvolumen** und gib ihre ungefähren Werte an.",
+      "musterloesung": "- **Vitalkapazität (VC):** Luftvolumen, das nach **maximaler Ausatmung eingeatmet** werden kann (oder umgekehrt: Luftvolumen, das nach maximaler Einatmung ausgeatmet werden kann). Sie beträgt etwa **4,5 l** und setzt sich aus inspiratorischem Reservevolumen, Atemzugvolumen und exspiratorischem Reservevolumen zusammen.\n- **Residualvolumen (RV):** Luftvolumen, das nach **maximaler Ausatmung in den Lungen verbleibt**, etwa **1–1,5 l**.\n- Zusammen ergeben sie die **Totalkapazität** von etwa 6 l.",
+      "stichworte": [
+        "nach maximaler Ausatmung eingeatmet",
+        "ca. 4,5 l",
+        "verbleibt nach maximaler Ausatmung in der Lunge",
+        "ca. 1–1,5 l",
+        "VC + RV = Totalkapazität ≈ 6 l"
+      ],
+      "erklaerung": "Die Formulierungen stammen aus den Lösungen der Lehrperson. Bei der Vitalkapazität ist «maximal» entscheidend: Wer «nach normaler Ausatmung» schreibt, beschreibt die Inspirationskapazität.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-vitalkapazitaet-19",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "offen",
+      "frage": "Weshalb lässt sich die Lunge auch bei **maximaler Ausatmung nicht vollständig leeren**? Verknüpfe deine Antwort mit dem Bau von Brustkorb und Pleura und nenne die Bedeutung des Residualvolumens.",
+      "musterloesung": "Beim Ausatmen wird der Brustraum verkleinert. Der **Brustkorb** mit den Rippen lässt sich aber **nicht beliebig zusammendrücken**. Die Lunge **haftet** über den Flüssigkeitsfilm im **Pleuraspalt** (Lungenfell und Rippenfell) an der Brustwand und folgt deren Bewegung – sie bleibt darum immer etwas gedehnt. So bleibt auch nach maximaler Ausatmung das **Residualvolumen** von etwa **1–1,5 l** in Lunge und Atemwegen.\n\nBedeutung: Die Lungenbläschen fallen nicht zusammen, und der Gasaustausch kann auch zwischen zwei Atemzügen weiterlaufen *(ergänzt)*. Erst wenn Luft in den Pleuraspalt gelangt (Pneumothorax), fällt die Lunge zusammen.",
+      "stichworte": [
+        "Brustkorb nicht beliebig verkleinerbar",
+        "Lunge haftet über Pleuraspalt an der Brustwand",
+        "Residualvolumen ca. 1–1,5 l",
+        "Alveolen fallen nicht zusammen",
+        "Gasaustausch geht weiter"
+      ],
+      "erklaerung": "Transferaufgabe: Hier verknüpfst du das Spirogramm (Teil 3) mit der **Pleura** aus Teil 2. Die genaue Begründung für das Residualvolumen steht nicht auf dem Blatt *(ergänzt)* – wichtig ist die logische Verknüpfung.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-vitalkapazitaet-20",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "zahl",
+      "frage": "Lies im Spirogramm an der Achse ab: Wie gross ist die **Vitalkapazität** dieser Person?",
+      "bild": {
+        "src": "bilder/biologie/spirogramm-leer.svg",
+        "alt": "Spirogramm mit Volumenachse von 0 bis 6 Litern: normale Atmung zwischen etwa 2,8 und 3,3 l, maximale Einatmung bis 6 l, maximale Ausatmung bis 1,5 l; Klammern mit den Buchstaben A bis F"
+      },
+      "richtig": 4.5,
+      "toleranz": 0.3,
+      "einheit": "l",
+      "erklaerung": "Die Vitalkapazität reicht vom tiefsten Punkt der **maximalen Ausatmung** (1,5 l) bis zum höchsten Punkt der **maximalen Einatmung** (6 l): 6 l − 1,5 l = **4,5 l** (Klammer E). Die 1,5 l darunter sind das Residualvolumen (D), das man nie ausatmen kann.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-vitalkapazitaet-21",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "einfachwahl",
+      "frage": "Bei einer erwachsenen Person mit einer Lungenkrankheit misst man eine **Vitalkapazität von nur 3 l** (normal ca. 4,5 l). Ihr Atemzugvolumen in Ruhe ist mit 0,5 l normal. Was bedeutet das?",
+      "optionen": [
+        "Ihr Atemzugvolumen muss ebenfalls kleiner sein, sonst wäre die Messung falsch.",
+        "Ihre Reservevolumen betragen zusammen nur etwa 2,5 l: Sie kann bei Anstrengung weniger tief atmen.",
+        "Ihr Residualvolumen gleicht den Verlust aus, weil sie es bei Bedarf zusätzlich ausatmen kann.",
+        "Sie hat mehr Luft zur Verfügung, weil nach dem Ausatmen weniger Luft in der Lunge bleibt."
+      ],
+      "richtig": 1,
+      "erklaerung": "Vitalkapazität = IRV + AZV + ERV. Bei 3 l bleiben für die beiden Reservevolumen nur 3 l − 0,5 l = **2,5 l** statt rund 4 l. In Ruhe merkt die Person wenig, aber bei Anstrengung kann sie ihre Atemzüge **weniger vertiefen** und kommt schneller ausser Atem *(ergänzt)*. Das Residualvolumen kann man nie ausatmen, und eine kleinere Vitalkapazität bedeutet weniger, nicht mehr nutzbare Luft.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-vitalkapazitaet-22",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst das Volumen, das im Spirogramm mit der Klammer **D** bezeichnet ist? (Fachbegriff, korrekt geschrieben)",
+      "bild": {
+        "src": "bilder/biologie/spirogramm-leer.svg",
+        "alt": "Spirogramm mit normaler und forcierter Atmung; die Klammern daneben sind nur mit den Buchstaben A bis F bezeichnet"
+      },
+      "akzeptiert": [
+        "Residualvolumen",
+        "das Residualvolumen",
+        "RV"
+      ],
+      "erklaerung": "Klammer D reicht von 0 bis zum tiefsten Punkt der maximalen Ausatmung: Das ist das **Residualvolumen** (ca. 1–1,5 l), das nach maximaler Ausatmung in der Lunge bleibt. Schreibweise: Re-si-du-al-volumen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-berechnungen-01",
+      "lernzielId": "lz-berechnungen",
+      "typ": "zahl",
+      "frage": "Wie viel Luft atmet eine **ruhende erwachsene Person** in **einer Stunde** ein? Rechne mit den bekannten Werten für Atemzugvolumen und Atemfrequenz.",
+      "richtig": 450,
+      "einheit": "l",
+      "erklaerung": "Annahmen: Atemzugvolumen **0,5 l**, Atemfrequenz in Ruhe **ca. 15 pro Minute** (12–18). Pro Minute: 0,5 l × 15 = 7,5 l. Pro Stunde: 7,5 l × 60 = **450 l** (mit 12 bzw. 18 Atemzügen 360–540 l, das zählt auch). Ohne Taschenrechner: 7,5 × 60 = 7 × 60 + 0,5 × 60 = 420 + 30.",
+      "schwierigkeit": 2,
+      "toleranz": 90
+    },
+    {
+      "id": "f-berechnungen-02",
+      "lernzielId": "lz-berechnungen",
+      "typ": "zahl",
+      "frage": "Eine Person atmet in Ruhe **12-mal pro Minute** je **0,5 l**. Wie viel Luft atmet sie in **einem Tag** (24 Stunden) ein, wenn sie die ganze Zeit ruhig bleibt?",
+      "richtig": 8640,
+      "einheit": "l",
+      "erklaerung": "Pro Minute: 0,5 l × 12 = 6 l. Pro Stunde: 6 l × 60 = 360 l. Pro Tag: 360 l × 24 = **8640 l** – mehr als achttausend Liter. Ohne Taschenrechner: 360 × 24 = 360 × 20 + 360 × 4 = 7200 + 1440.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-berechnungen-03",
+      "lernzielId": "lz-berechnungen",
+      "typ": "zahl",
+      "frage": "Einatmungsluft enthält **21 %** Sauerstoff, Ausatmungsluft **17 %**. Wie viel Prozent des eingeatmeten Luftvolumens werden als Sauerstoff **aufgenommen**?",
+      "richtig": 4,
+      "einheit": "%",
+      "erklaerung": "21 % − 17 % = **4 %**. Die Ausatmungsluft enthält also noch 17 % Sauerstoff – deshalb ist auch Beatmung mit Ausatmungsluft möglich. Achtung: Das heisst nicht, dass 17 % «des Sauerstoffs» wieder ausgeatmet werden; vom eingeatmeten Sauerstoff kommt sogar der grösste Teil (17 von 21 Teilen) wieder heraus.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-berechnungen-04",
+      "lernzielId": "lz-berechnungen",
+      "typ": "zahl",
+      "frage": "Wie viele Milliliter **Sauerstoff** nimmt eine ruhende erwachsene Person mit **einem normalen Atemzug** auf? Rechne mit den bekannten Werten.",
+      "richtig": 20,
+      "einheit": "ml",
+      "erklaerung": "Atemzugvolumen in Ruhe: **500 ml**. Einatmungsluft enthält 21 %, Ausatmungsluft 17 % Sauerstoff → aufgenommen werden 21 % − 17 % = 4 % der eingeatmeten Luft. 4 % von 500 ml = 500 ml : 100 × 4 = **20 ml** Sauerstoff pro Atemzug.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-berechnungen-05",
+      "lernzielId": "lz-berechnungen",
+      "typ": "zahl",
+      "frage": "Einatmungsluft enthält **0,04 %** CO2, Ausatmungsluft **4,04 %**. Wie viele Milliliter **CO2** gibt eine ruhende erwachsene Person mit einem normalen Atemzug ab?",
+      "richtig": 20,
+      "einheit": "ml",
+      "erklaerung": "Atemzugvolumen in Ruhe: **500 ml**. 4,04 % − 0,04 % = 4 % mehr CO2 in der Ausatmungsluft. 4 % von 500 ml = **20 ml** CO2 pro Atemzug – etwa gleich viel, wie Sauerstoff aufgenommen wird.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-berechnungen-06",
+      "lernzielId": "lz-berechnungen",
+      "typ": "zahl",
+      "frage": "Eine Buche produziert bei Sonnenschein pro Stunde etwa **1000 l Sauerstoff**. Wie viele Personen, die sich nicht gross bewegen, kann sie damit eine Stunde lang mit Sauerstoff versorgen?",
+      "richtig": 55,
+      "einheit": "Personen",
+      "toleranz": 15,
+      "erklaerung": "Annahmen: Atemzugvolumen 0,5 l, Atemfrequenz ca. 15 pro Minute.\n1. Luft pro Minute: 0,5 l × 15 = 7,5 l\n2. Luft pro Stunde: 7,5 l × 60 = 450 l\n3. Einatmungsluft 21 %, Ausatmungsluft 17 % Sauerstoff → aufgenommen werden nur 4 %: 4 % von 450 l = 18 l\n4. Personen: 1000 l : 18 l ≈ **55 Personen** (genau 55,6).\nMit 12 bzw. 18 Atemzügen pro Minute kommt man auf etwa 70 bzw. 46 Personen – das zählt auch. Ohne Taschenrechner: 18 × 50 = 900, es bleiben 100 l, das reicht für 5 weitere Personen (90 l).",
+      "schwierigkeit": 3,
+      "tipp": "Welche Werte kennst du für eine ruhende Person? Rechne zuerst die Luft pro Stunde aus, dann den Sauerstoff, der davon wirklich im Körper bleibt."
+    },
+    {
+      "id": "f-berechnungen-07",
+      "lernzielId": "lz-berechnungen",
+      "typ": "reihenfolge",
+      "frage": "Bring die Schritte der **Buchenrechnung** (1000 l Sauerstoff pro Stunde) in die richtige Reihenfolge.",
+      "elemente": [
+        "Luftvolumen pro Minute berechnen (Atemzugvolumen × Atemfrequenz)",
+        "Auf eine Stunde hochrechnen",
+        "Den Anteil Sauerstoff bestimmen, der wirklich aufgenommen wird, und damit den Sauerstoffbedarf pro Person berechnen",
+        "Die Sauerstoffproduktion der Buche durch den Bedarf einer Person teilen"
+      ],
+      "erklaerung": "Man geht vom einzelnen Atemzug aus und rechnet hoch: Minute → Stunde → aufgenommener Sauerstoff (21 % − 17 % = 4 %) → Vergleich mit der Sauerstoffproduktion der Buche.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-berechnungen-08",
+      "lernzielId": "lz-berechnungen",
+      "typ": "einfachwahl",
+      "frage": "Bei der Buchenrechnung (1000 l Sauerstoff pro Stunde) rechnet Lea: «Eine ruhende Person atmet 450 l Luft pro Stunde. 21 % von 450 l ≈ 95 l Sauerstoff. 1000 l : 95 l ≈ 10 Personen.» Was ist falsch?",
+      "optionen": [
+        "Sie hätte mit 78 % rechnen müssen, weil die Luft vor allem aus Stickstoff besteht.",
+        "Die Ausatmungsluft enthält noch 17 % Sauerstoff; aufgenommen werden nur 4 % der Luft.",
+        "Sie hätte mit 17 % rechnen müssen, weil das der Sauerstoffanteil der Ausatmungsluft ist.",
+        "Sie hätte mit 0,04 % rechnen müssen, weil das der CO2-Anteil der Einatmungsluft ist."
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Einatmungsluft enthält zwar 21 % Sauerstoff, aber die Ausatmungsluft enthält noch **17 %**. Im Körper bleibt nur die Differenz: 21 % − 17 % = **4 %** der eingeatmeten Luft (18 l pro Stunde). Wer mit 21 % rechnet, überschätzt den Verbrauch um mehr als das Fünffache und erhält zu wenige Personen; mit 17 % zu rechnen wäre ebenso falsch, denn diesen Sauerstoff atmet man wieder aus. Stickstoff (78 %) wird nicht verbraucht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-berechnungen-09",
+      "lernzielId": "lz-berechnungen",
+      "typ": "offen",
+      "frage": "Eine Buche produziert bei Sonnenschein pro Stunde etwa 1000 l Sauerstoff. Wie viele ruhende Personen kann sie eine Stunde lang versorgen? Zeige den **Lösungsweg** auf und begründe, mit welchem Sauerstoffanteil du rechnest.",
+      "musterloesung": "Annahmen: Atemzugvolumen **0,5 l**, Atemfrequenz in Ruhe **ca. 15 pro Minute** (12–18).\n1. Luft pro Minute: 0,5 l × 15 = **7,5 l**\n2. Luft pro Stunde: 7,5 l × 60 = **450 l**\n3. Sauerstoff: Einatmungsluft 21 %, Ausatmungsluft 17 % → aufgenommen werden nur **4 %**. 4 % von 450 l = **18 l O2** pro Person und Stunde.\n4. 1000 l : 18 l ≈ **55 Personen**.\n\nMit 12 Atemzügen pro Minute käme man auf etwa 70, mit 18 auf etwa 46 Personen.",
+      "stichworte": [
+        "AZV 0,5 l",
+        "Atemfrequenz 12–18 (z. B. 15)",
+        "450 l Luft pro Stunde",
+        "21 % − 17 % = 4 %",
+        "18 l O2 pro Stunde",
+        "ca. 55 Personen"
+      ],
+      "erklaerung": "Bei dieser Aufgabe zählt der Rechenweg: Die Annahmen (AZV, Atemfrequenz) müssen genannt sein, und es muss mit den aufgenommenen **4 %** gerechnet werden, nicht mit 21 %.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-berechnungen-10",
+      "lernzielId": "lz-berechnungen",
+      "typ": "zahl",
+      "frage": "In einem Schulzimmer steigt der CO2-Gehalt während einer Lektion von **0,04 %** auf **0,14 %**. Um wie viele **ppm** ist er gestiegen?",
+      "richtig": 1000,
+      "einheit": "ppm",
+      "erklaerung": "Zunahme: 0,14 % − 0,04 % = 0,1 %. 1 % = 10 000 ppm, also 0,1 % = 0,1 × 10 000 = **1000 ppm**. Der Wert ist von 400 ppm auf 1400 ppm gestiegen – nach BAG nur noch «mässig» an der Grenze zu «niedrig», also lüften.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-berechnungen-11",
+      "lernzielId": "lz-berechnungen",
+      "typ": "zahl",
+      "frage": "Das CO2-Messgerät im Schulzimmer zeigt **2000 ppm**. Wie viel **Prozent** CO2 enthält die Luft?",
+      "richtig": 0.2,
+      "einheit": "%",
+      "erklaerung": "1 % = 10 000 ppm, also 2000 ppm = 2000 : 10 000 = **0,2 %**. Das ist fünfmal so viel wie in frischer Luft (0,04 % = 400 ppm). Nach der BAG-Tabelle ist die Luftqualität bei 1400–2000 ppm niedrig, über 2000 ppm inakzeptabel – höchste Zeit zum Lüften.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-berechnungen-13",
+      "lernzielId": "lz-berechnungen",
+      "typ": "zahl",
+      "frage": "Wie viele **Atemzüge** macht eine ruhende erwachsene Person an **einem Tag** (24 Stunden)? Rechne mit einer typischen Atemfrequenz.",
+      "richtig": 21600,
+      "toleranz": 4400,
+      "einheit": "Atemzüge",
+      "erklaerung": "Annahme: ca. **15 Atemzüge pro Minute** (Erwachsene in Ruhe 12–18). Pro Stunde: 15 × 60 = 900. Pro Tag: 900 × 24 = **21 600 Atemzüge**. Mit 12 bzw. 18 pro Minute sind es 17 280 bzw. 25 920 – das zählt auch. Ohne Taschenrechner: 900 × 24 = 900 × 20 + 900 × 4 = 18 000 + 3600.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-berechnungen-14",
+      "lernzielId": "lz-berechnungen",
+      "typ": "zahl",
+      "frage": "Nach maximaler Einatmung befinden sich in der Lunge einer gesunden erwachsenen Person etwa **6 l** Luft. Nun atmet sie so stark wie möglich aus. Wie viel Luft bleibt danach noch in ihrer Lunge?",
+      "richtig": 1.5,
+      "toleranz": 0.5,
+      "einheit": "l",
+      "erklaerung": "Nach maximaler Einatmung kann man höchstens die **Vitalkapazität** (ca. 4,5 l) ausatmen. Es bleiben 6 l − 4,5 l = **1,5 l** – das **Residualvolumen** (laut Blatt 1–1,5 l, alles in diesem Bereich zählt). Totalkapazität − Vitalkapazität = Residualvolumen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-berechnungen-15",
+      "lernzielId": "lz-berechnungen",
+      "typ": "zahl",
+      "frage": "Ein Stecknadelkopf hat einen Durchmesser von **2 mm**, ein Lungenbläschen etwa **0,2 mm**. Wievielmal grösser ist der Durchmesser des Stecknadelkopfs?",
+      "richtig": 10,
+      "einheit": "mal",
+      "erklaerung": "2 mm : 0,2 mm = **10**. Bei einem Stecknadelkopf von 1 mm wäre es 5-mal – ein Lungenbläschen ist also 5- bis 10-mal kleiner als ein Stecknadelkopf.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-berechnungen-16",
+      "lernzielId": "lz-berechnungen",
+      "typ": "zahl",
+      "frage": "Rund **400 Millionen** Alveolen haben zusammen etwa **100 m^2** Oberfläche. Wie viel Oberfläche hat ein einzelnes Lungenbläschen im Durchschnitt? Gib das Resultat in **mm^2** an (1 m^2 = 1 000 000 mm^2).",
+      "richtig": 0.25,
+      "einheit": "mm²",
+      "toleranz": 0.01,
+      "erklaerung": "100 m^2 = 100 × 1 000 000 mm^2 = 100 000 000 mm^2. Geteilt durch 400 000 000 Alveolen: 100 : 400 = **0,25 mm^2** pro Lungenbläschen. Winzig – aber zusammen grösser als ein Schulzimmer. Die Zahlen auf dem Blatt (400 Millionen, 0,2 mm, 100 m^2) sind gerundete Richtwerte – nachgerechnet passen sie nicht ganz genau zusammen. Es kommt auf die Grössenordnung an: ein Bruchteil eines mm^2.",
+      "schwierigkeit": 3,
+      "tipp": "Schreib beide Zahlen aus und kürze die Nullen: 100 000 000 : 400 000 000."
+    },
+    {
+      "id": "f-berechnungen-17",
+      "lernzielId": "lz-berechnungen",
+      "typ": "zahl",
+      "frage": "Deine Vitalkapazität beträgt **4,5 l**, dein Atemzugvolumen **0,5 l**. Wie viel Luft kannst du **über das normale Atemzugvolumen hinaus** zusätzlich ein- und ausatmen (beide Reservevolumen zusammen)?",
+      "richtig": 4,
+      "einheit": "l",
+      "erklaerung": "Vitalkapazität = IRV + AZV + ERV → IRV + ERV = VC − AZV = 4,5 l − 0,5 l = **4 l**. In Ruhe nutzt man also nur einen kleinen Teil (ca. 1/9) der Vitalkapazität.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-berechnungen-18",
+      "lernzielId": "lz-berechnungen",
+      "typ": "zahl",
+      "frage": "Auf einem Berg in rund **5500 m** Höhe ist der Luftdruck nur noch etwa **halb so gross** wie auf Meereshöhe. Darum enthält jeder eingeatmete Liter Luft nur etwa halb so viel Sauerstoff (der Anteil von 21 % bleibt gleich). Im Tal atmest du in Ruhe **7,5 l pro Minute**. Wie viele Liter pro Minute müsstest du oben einatmen, um gleich viel Sauerstoff aufzunehmen? (vereinfachtes Modell)",
+      "richtig": 15,
+      "einheit": "l pro Minute",
+      "erklaerung": "Halb so viel Sauerstoff pro Liter → doppelt so viel Luft nötig: 7,5 l × 2 = **15 l pro Minute**. Darum atmen Bergsteigerinnen und Bergsteiger in grosser Höhe schneller und tiefer. Das Modell ist vereinfacht; die Zahl zum Luftdruck ist ergänzt.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-berechnungen-19",
+      "lernzielId": "lz-berechnungen",
+      "typ": "zahl",
+      "frage": "Beim Velofahren atmest du **25-mal pro Minute** je **2 l**. Angenommen, du nimmst weiterhin **4 %** der eingeatmeten Luft als Sauerstoff auf: Wie viele solche Velofahrerinnen und Velofahrer könnte die Buche (1000 l Sauerstoff pro Stunde) versorgen? Runde auf ganze Personen ab.",
+      "richtig": 8,
+      "einheit": "Personen",
+      "erklaerung": "Luft pro Minute: 2 l × 25 = 50 l. Sauerstoff pro Minute: 4 % von 50 l = 2 l. Pro Stunde: 2 l × 60 = 120 l. Personen: 1000 l : 120 l ≈ 8,3 → **8 Personen** (abgerundet, für eine 9. reicht es nicht mehr). In Ruhe waren es rund 55 – bei Anstrengung braucht der Körper viel mehr Sauerstoff, weil die Muskelzellen mehr Zellatmung betreiben.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-berechnungen-20",
+      "lernzielId": "lz-berechnungen",
+      "typ": "offen",
+      "frage": "In einem Schulzimmer mit rund **225 m^3** Luft (= 225 000 l) sitzen **25 Personen** eine Stunde lang ohne zu lüften. Jede Person atmet in Ruhe pro Stunde etwa 450 l Luft aus, die **4 %** mehr CO2 enthält als die Einatmungsluft. Schätze ab, wie hoch der CO2-Gehalt nach einer Stunde ungefähr ist (in ppm), und beurteile das Ergebnis.",
+      "musterloesung": "1. CO2 pro Person und Stunde: 4 % von 450 l = **18 l**.\n2. 25 Personen: 25 × 18 l = **450 l CO2** pro Stunde.\n3. Anteil am Raum: 450 l : 225 000 l = 0,002 = **0,2 % = 2000 ppm** zusätzlich.\n4. Dazu kommt der CO2-Gehalt der frischen Luft (400 ppm) → rund **2400 ppm**.\n\nBeurteilung: Nach der BAG-Tabelle ist die Luftqualität über 2000 ppm **inakzeptabel**. Schon ab etwa 1200–1500 ppm können Müdigkeit, Konzentrationsprobleme und Kopfschmerzen auftreten. Man sollte deshalb regelmässig lüften. (Grobe Schätzung: In Wirklichkeit gelangt durch Ritzen etwas Frischluft hinein.)",
+      "stichworte": [
+        "18 l CO2 pro Person und Stunde",
+        "450 l CO2 für 25 Personen",
+        "0,2 % = 2000 ppm",
+        "+ 400 ppm frische Luft",
+        "BAG: über 2000 ppm inakzeptabel",
+        "lüften"
+      ],
+      "erklaerung": "Transferaufgabe: Du verknüpfst Atemzugvolumen, Atemfrequenz, Luftzusammensetzung und die Umrechnung Prozent ↔ ppm. Ohne Taschenrechner: 450 : 225 000 = 2 : 1000 = 0,2 %.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-berechnungen-21",
+      "lernzielId": "lz-berechnungen",
+      "typ": "zahl",
+      "frage": "Wie viele Liter **Sauerstoff** nimmt eine ruhende erwachsene Person an **einem Tag** (24 Stunden) auf? Rechne mit den bekannten Werten für Atemzugvolumen, Atemfrequenz und Sauerstoffgehalt der Luft.",
+      "richtig": 432,
+      "toleranz": 90,
+      "einheit": "l",
+      "erklaerung": "Annahmen: AZV **0,5 l**, ca. **15 Atemzüge pro Minute**, Sauerstoff Einatmungsluft 21 %, Ausatmungsluft 17 % → **4 %** werden aufgenommen.\n1. Luft pro Stunde: 0,5 l × 15 × 60 = 450 l\n2. Sauerstoff pro Stunde: 4 % von 450 l = 18 l\n3. Pro Tag: 18 l × 24 = **432 l Sauerstoff**\nMit 12 bzw. 18 Atemzügen pro Minute kommt man auf etwa 346 bzw. 518 l – das zählt auch.",
+      "schwierigkeit": 3,
+      "tipp": "Rechne zuerst aus, wie viel Sauerstoff pro Stunde im Körper bleibt."
+    },
+    {
+      "id": "f-berechnungen-22",
+      "lernzielId": "lz-berechnungen",
+      "typ": "zahl",
+      "frage": "Lies im Spirogramm ab, bis zu welchem Volumen die **normale Einatmung** und bis zu welchem die **maximale Einatmung** reicht. Berechne daraus das **inspiratorische Reservevolumen** dieser Person.",
+      "bild": {
+        "src": "bilder/biologie/spirogramm-leer.svg",
+        "alt": "Spirogramm mit Volumenachse von 0 bis 6 Litern: normale Atmung in kleinen Wellen knapp über 3 l, danach maximale Einatmung bis 6 l und maximale Ausatmung bis 1,5 l; Klammern mit den Buchstaben A bis F"
+      },
+      "richtig": 2.7,
+      "toleranz": 0.3,
+      "einheit": "l",
+      "erklaerung": "Die normale Einatmung reicht bis etwa **3,3 l** (obere Spitzen der kleinen Wellen), die maximale Einatmung bis **6 l**. Inspiratorisches Reservevolumen = 6 l − 3,3 l ≈ **2,7 l** (Klammer A) – passt zum Wert auf dem Blatt (2,5–3 l).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-berechnungen-23",
+      "lernzielId": "lz-berechnungen",
+      "typ": "zahl",
+      "frage": "Ein Säugling atmet in Ruhe **36-mal pro Minute**, seine Mutter **15-mal**. Wie viele Atemzüge macht der Säugling in **einer Stunde** mehr als die Mutter?",
+      "richtig": 1260,
+      "einheit": "Atemzüge",
+      "erklaerung": "Unterschied pro Minute: 36 − 15 = 21 Atemzüge. Pro Stunde: 21 × 60 = **1260 Atemzüge** mehr. (Oder: 36 × 60 = 2160 und 15 × 60 = 900; 2160 − 900 = 1260.) Je jünger, desto höher die Atemfrequenz – Säuglinge atmen in Ruhe 35–40-mal pro Minute.",
+      "schwierigkeit": 2
+    }
+  ]
+}

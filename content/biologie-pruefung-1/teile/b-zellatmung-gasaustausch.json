@@ -1,0 +1,1172 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-zellatmung",
+      "zusammenfassung": "Der Mensch überlebt **einige Wochen ohne Nahrung**, **mehrere Tage ohne Wasser**, aber nur **wenige Minuten ohne Sauerstoff**. Alle Zellen müssen ständig mit Sauerstoff versorgt werden, denn Sauerstoff kann – im Unterschied zu den Nährstoffen – **kaum gespeichert** werden.\n\n### Sauerstoffmangel im Gehirn\n\nDas **Gehirn** reagiert am empfindlichsten auf Sauerstoffmangel:\n\n| Zeit ohne Sauerstoff | Folge |\n|---|---|\n| 8–12 Sekunden | **bewusstlos** – keine Selbstrettung mehr möglich |\n| ab 3 Minuten | **irreversible** (bleibende) Zellschäden im Gehirn möglich |\n| 8–12 Minuten | **Hirntod** (Gehirntod) |\n\n### Wozu dient die Zellatmung?\n\nDie Funktion der **Zellatmung** liegt in der **Energiegewinnung**: Die Zelle «verbrennt» Nährstoffe, vor allem **Traubenzucker (Glucose)**, mit **Sauerstoff** und gewinnt dabei Energie in Form von **ATP**. Die freigesetzte Energie wird genutzt, um aus **ADP + P** den Energieträger **ATP** aufzubauen (vgl. Abbildung Teil 1, S. 3). Fehlt der Sauerstoff, bekommt die Zelle zu wenig (fast keine) Energie mehr – daran leidet sie und stirbt schliesslich ab.\n\n**Vergleich:** Eine **Kerze**, ein **Automotor** und ein **Kraftwerk** verbrennen einen Brennstoff mit Sauerstoff, setzen dabei Energie frei und geben Abgase (CO2 und Wasserdampf) ab. Die Zellatmung ist eine solche Verbrennung – nur langsam, schrittweise und ohne Flamme.\n\n### Wo findet sie statt?\n\nDer Name sagt es: in **allen Zellen** des Körpers, und zwar in den **Mitochondrien** (Einzahl: Mitochondrium). Sie heissen deshalb auch **Kraftwerke der Zelle**.\n\n### Gleichung der Zellatmung\n\n**C6H12O6 + 6 O2 → 6 CO2 + 6 H2O + Energie (ATP)**\n\nIn Worten: **Traubenzucker (Glucose) + Sauerstoff → Kohlenstoffdioxid + Wasser + Energie**\n\n| Rolle | Stoff | |\n|---|---|---|\n| Ausgangsstoffe (Edukte) | Glucose C6H12O6, Sauerstoff O2 | werden verbraucht |\n| Endprodukte (Produkte) | Kohlenstoffdioxid CO2, Wasser H2O | werden abgegeben |\n| Gewinn | Energie (ATP) | treibt alle Lebensvorgänge an |\n\nSo liest du die Gleichung: Ein Molekül Traubenzucker reagiert mit **sechs** Molekülen Sauerstoff zu **sechs** Molekülen Kohlenstoffdioxid und **sechs** Molekülen Wasser; dabei wird Energie frei.\n\n### Schreibweise\n\n- **Mitochondrien** (nicht «Mitochondrin», nicht «Mytochondrien»)\n- **Kohlenstoffdioxid** (auch Kohlendioxid), Formel CO2\n- **Glucose** (auch Glukose) = Traubenzucker\n\n*Ergänzt (nicht auf dem Blatt): die Begriffe Edukte/Produkte und die Lesart der Gleichung mit «Molekülen».*",
+      "merksaetze": [
+        "Die Zellatmung dient der Energiegewinnung: Traubenzucker wird mit Sauerstoff «verbrannt», die Energie steht als ATP zur Verfügung.",
+        "C6H12O6 + 6 O2 → 6 CO2 + 6 H2O + Energie (ATP) – Traubenzucker + Sauerstoff → Kohlenstoffdioxid + Wasser + Energie.",
+        "Die Zellatmung findet in allen Zellen statt, in den Mitochondrien – den Kraftwerken der Zelle.",
+        "Ohne Sauerstoff: nach 8–12 Sekunden bewusstlos, ab 3 Minuten bleibende Hirnschäden, nach 8–12 Minuten Hirntod."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/biologie/zellatmung.svg",
+          "alt": "Eine Zelle mit Zellkern und mehreren Mitochondrien; in einem vergrösserten Mitochondrium reagieren Glucose und Sauerstoff zu Kohlenstoffdioxid und Wasser, dabei entsteht Energie (ATP)",
+          "legende": "Zellatmung in den Mitochondrien, den «Kraftwerken der Zelle»"
+        }
+      ]
+    },
+    {
+      "id": "lz-schritte",
+      "zusammenfassung": "Atmung ist mehr als Ein- und Ausatmen. Die Abbildung «Die 4 Schritte der Atmung» (Teil 1, S. 3) verfolgt den Weg des Sauerstoffs von der Nase bis in die Zelle – und den Weg des CO2 zurück. Sie gliedert ihn in die **äussere Atmung** und die **innere Atmung**:\n\n| Nr. | Schritt | Was passiert? | Teil |\n|---|---|---|---|\n| 1 | **Austausch der Lungenluft** durch Ein- und Ausatmen (**Ventilation**) | frische Luft in die Lunge, verbrauchte Luft hinaus | äussere Atmung |\n| 2 | **Diffusion in der Lunge** | Aufnahme von O2 ins Blut, Abgabe von CO2 aus dem Blut | äussere Atmung |\n| 3 | **Transport** von O2 und CO2 **im Blut** | das Blut bringt O2 zu allen Organen und Zellen und CO2 zurück zur Lunge | äussere Atmung |\n| 4 | **Diffusion zwischen Blut und Zelle** | O2 aus dem Blut in die Zelle, CO2 aus der Zelle ins Blut | äussere Atmung |\n| – | **Zellatmung** | O2-Verbrauch und CO2-Bildung in den Zellen (Mitochondrien) | **innere Atmung** |\n\n- **Äussere Atmung:** alles, was den Sauerstoff bis zur Zelle bringt und das CO2 wegschafft (Schritte 1–4).\n- **Innere Atmung = Zellatmung:** der eigentliche Verbrauch von O2 und die Bildung von CO2 in den Zellen.\n- Die Schritte 2 und 4 sind beide ein **Gasaustausch** durch **Diffusion** – einmal in der Lunge, einmal im Gewebe.\n\n### Hautatmung\n\nAuch über die Haut gelangt etwas Sauerstoff in den Körper. Weil wir eine **dicke Haut** und eine **relativ kleine Oberfläche** haben, deckt die **Hautatmung** bei uns nur ca. **1–2 %** unseres Sauerstoffbedarfs.\n\n### Lunge und Blut\n\nUnser **Atmungsorgan** ist die **Lunge**. In der Lunge gelangt der Sauerstoff ins **Blut**, das ihn zu allen Organen bzw. Zellen des Körpers **transportiert**.\n\n### Tipp für die Prüfung\n\nLerne die Schritte als Weg des Sauerstoffs: **Luft → Lunge → Blut → Zelle → Mitochondrium**. Das CO2 nimmt denselben Weg rückwärts. Frag dich bei jedem Schritt: Wo bin ich, und was passiert mit O2 und CO2?\n\n*Der Fachbegriff «Ventilation» für Schritt 1 stammt aus Atmung Teil 2.*",
+      "merksaetze": [
+        "Äussere Atmung: Austausch der Lungenluft (Ventilation) → Diffusion in der Lunge → Transport im Blut → Diffusion zwischen Blut und Zelle.",
+        "Innere Atmung = Zellatmung: O2-Verbrauch und CO2-Bildung in den Zellen.",
+        "Die Hautatmung deckt beim Menschen nur ca. 1–2 % des Sauerstoffbedarfs (dicke Haut, relativ kleine Oberfläche).",
+        "Atmungsorgan ist die Lunge, transportiert werden O2 und CO2 vom Blut."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/biologie/atmung-schritte.svg",
+          "alt": "Ablaufschema der Atmung: Ein- und Ausatmen, Diffusion in der Lunge, Transport im Blut, Diffusion zwischen Blut und Zelle (zusammen äussere Atmung) und die Zellatmung als innere Atmung",
+          "legende": "Die Schritte der Atmung (vgl. Atmung Teil 1, S. 3)"
+        }
+      ]
+    },
+    {
+      "id": "lz-gasaustausch",
+      "zusammenfassung": "Als **Gasaustausch** bezeichnet man den Austausch der Atemgase **Sauerstoff (O2)** und **Kohlenstoffdioxid (CO2)**. Er geschieht durch **Diffusion**: Die Gasteilchen wandern von selbst von dort, wo viele sind (hohe Konzentration), dorthin, wo wenige sind (tiefe Konzentration) – ohne Pumpe und ohne Energieaufwand.\n\n### Wo findet der Gasaustausch statt?\n\n| Ort | Sauerstoff (O2) | Kohlenstoffdioxid (CO2) |\n|---|---|---|\n| **Lunge:** zwischen **Lungenbläschen (Alveolen)** und **Kapillaren** | aus den Alveolen **ins Blut** | aus dem Blut **in die Alveolen** → wird ausgeatmet |\n| **Gewebe:** zwischen **Blut** und **Körperzellen** | aus dem Blut **in die Zellen** | aus den Zellen **ins Blut** |\n\n### Gebaut für den Gasaustausch (Teil 1, S. 6)\n\n- ca. **400 Millionen Alveolen**, je etwa **0,2 mm** gross, zusammen rund **100 m²** Oberfläche – die **Gasaustauschfläche**.\n- Die Wand der Lungenbläschen ist **hauchdünn (1 µm)** und von feinsten Blutgefässen, den **Kapillaren**, umsponnen.\n- Kurzer Weg + riesige Fläche = schneller Gasaustausch.\n\n### Warum wandern die Gase in die richtige Richtung?\n\n- In den Lungenbläschen ist viel O2 (frische Luft), im ankommenden **sauerstoffarmen Blut** wenig → O2 diffundiert ins Blut. Das Blut verlässt die Lunge **sauerstoffreich**.\n- Das Blut aus dem Körper bringt viel CO2 aus der Zellatmung mit, in der Lungenluft ist wenig → CO2 diffundiert in die Alveolen und wird ausgeatmet.\n- In den Zellen wird O2 ständig verbraucht und CO2 gebildet → im Gewebe läuft die Diffusion genau umgekehrt.\n\n### Schreibweise\n\n**Diffusion** (zwei f, ein s), **Kapillaren** (zwei l), **Alveolen** = Lungenbläschen.\n\n*Ergänzt: Die Erklärung der Diffusion (von hoher zu tiefer Konzentration) steht so nicht auf den Blättern.*",
+      "merksaetze": [
+        "Gasaustausch = Austausch von Sauerstoff und Kohlenstoffdioxid durch Diffusion.",
+        "In der Lunge: O2 aus den Alveolen ins Blut der Kapillaren, CO2 aus dem Blut in die Alveolen.",
+        "Im Gewebe: O2 aus dem Blut in die Zellen, CO2 aus den Zellen ins Blut.",
+        "Hauchdünne Wand (1 µm) und riesige Fläche (ca. 100 m²) machen den Gasaustausch schnell."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/biologie/alveole-gasaustausch.svg",
+          "alt": "Ein Lungenbläschen, umsponnen von einer Kapillare; Pfeile zeigen Sauerstoff aus dem Lungenbläschen ins Blut und Kohlenstoffdioxid aus dem Blut ins Lungenbläschen, die Wand ist nur 1 µm dick",
+          "legende": "Gasaustausch zwischen Lungenbläschen und Kapillare"
+        }
+      ]
+    },
+    {
+      "id": "lz-luftzusammensetzung",
+      "zusammenfassung": "### Zusammensetzung der Atemluft (Teil 3, S. 4)\n\n| Gas | Einatmungsluft | Ausatmungsluft |\n|---|---|---|\n| **Sauerstoff (O2)** | **21 %** | **17 %** |\n| **Kohlenstoffdioxid (CO2)** | **0,04 %** | **4,04 %** |\n| **Stickstoff (N2)** | 78 % | 78 % |\n| **Edelgase** | 0,96 % | 0,96 % |\n\n- Der Körper nimmt etwa **4 Prozentpunkte Sauerstoff** auf (21 % → 17 %) und gibt etwa **4 Prozentpunkte CO2** ab (0,04 % → 4,04 %). Das CO2 stammt aus der **Zellatmung**.\n- **Stickstoff** und **Edelgase** werden nicht gebraucht – ihr Anteil bleibt gleich.\n- Die Ausatmungsluft enthält rund **100-mal mehr CO2** als die Einatmungsluft.\n\n### Warum ist Beatmung möglich?\n\nBei der Beatmung (z. B. Mund-zu-Mund) pustet man «verbrauchte» Ausatmungsluft in die Lunge. Das funktioniert, weil die **Ausatmungsluft noch ca. 17 % Sauerstoff** enthält – von den eingeatmeten 21 % wird nur ein kleiner Teil aufgenommen. Der höhere CO2-Gehalt (ca. 4 %) schadet bei diesen wenigen Atemzügen nicht.\n\n### ppm\n\n**ppm = parts per million** (Teile pro Million): 1 ppm = 1 Teil auf 1 Million Teile. Also gilt **1 % = 10'000 ppm**.\n- Frische Luft: 0,04 % CO2 = **400 ppm**\n- Umrechnen: Prozentwert mal 10'000, z. B. 0,1 % = 1000 ppm (Grenze «gut» beim BAG)\n\n### CO2 als Indikator für die Raumluftqualität (BAG)\n\n| CO2-Gehalt (ppm) | Luftqualität |\n|---|---|\n| ≤ 1000 | **gut** |\n| 1000–1400 | **mässig** |\n| 1400–2000 | **niedrig** |\n| > 2000 | **inakzeptabel** |\n\n- Jede Person im Raum atmet CO2 aus. Schon eine einzige Person kann den Wert innert 45 Minuten von 400 auf 1000 ppm steigen lassen.\n- Ab ca. 1200–1500 ppm: Schläfrigkeit, Unaufmerksamkeit, weniger Konzentration, Kopfschmerzen. Steigt der CO2-Gehalt weiter, können sich auch **Atemfrequenz** und **Atemzugvolumen** erhöhen (CO2 regt die Atmung an, vgl. Steuerung der Atmung).\n- Über 10'000 ppm (dauerhaft in der Raumluft): Übelkeit, Erbrechen, Atemnot bis Bewusstlosigkeit. Kurzes Rückatmen weniger Atemzüge (Beatmung, Beutel bei Hyperventilation) ist dagegen unbedenklich.\n- Wo viel CO2 ist, sind auch viele Aerosole und Keime → höheres **Ansteckungsrisiko**.\n- Regelmässiges **Lüften** senkt den CO2-Gehalt und steigert die Leistungsfähigkeit.\n\n### Rechnen mit den Werten\n\n- 1 l (1000 ml) Einatmungsluft enthält 21 % O2 = **210 ml O2**.\n- Aufgenommen werden davon 21 % − 17 % = 4 % = **40 ml O2**.\n- Ohne Taschenrechner: zuerst 1 % ausrechnen (hier 10 ml), dann mit der Prozentzahl malnehmen.",
+      "merksaetze": [
+        "Einatmungsluft: 21 % O2 und 0,04 % CO2 – Ausatmungsluft: 17 % O2 und 4,04 % CO2; Stickstoff bleibt bei 78 %.",
+        "Beatmung ist möglich, weil die Ausatmungsluft noch ca. 17 % Sauerstoff enthält.",
+        "0,04 % CO2 = 400 ppm (1 % = 10'000 ppm).",
+        "BAG: bis 1000 ppm gut, 1000–1400 mässig, 1400–2000 niedrig, über 2000 inakzeptabel – also lüften!"
+      ],
+      "bilder": [
+        {
+          "src": "bilder/biologie/luftzusammensetzung.svg",
+          "alt": "Vergleich von Einatmungs- und Ausatmungsluft: Sauerstoff 21 % und 17 %, Kohlenstoffdioxid 0,04 % und 4,04 %, Stickstoff je 78 %, Edelgase je 0,96 %",
+          "legende": "Zusammensetzung der Ein- und Ausatmungsluft (vgl. Atmung Teil 3, S. 4)"
+        }
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-zellatmung-01",
+      "lernzielId": "lz-zellatmung",
+      "typ": "einfachwahl",
+      "frage": "Wozu dient die **Zellatmung**?",
+      "optionen": [
+        "die Zelle mit Energie für alle Lebensvorgänge versorgen",
+        "Sauerstoff aus der Atemluft in die Lunge und ins Blut aufnehmen",
+        "Traubenzucker aus Kohlenstoffdioxid und Wasser selbst aufbauen",
+        "Kohlenstoffdioxid mit dem Blut von den Zellen zur Lunge bringen"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Funktion der Zellatmung liegt in der **Energiegewinnung**: Nährstoffe (v. a. Traubenzucker) werden mit Sauerstoff «verbrannt», die Energie steht danach als ATP zur Verfügung. Die Aufnahme von O2 in der Lunge und der Transport im Blut gehören zur äusseren Atmung; Traubenzucker aus CO2 und Wasser aufbauen ist die Fotosynthese der Pflanzen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-zellatmung-02",
+      "lernzielId": "lz-zellatmung",
+      "typ": "kurzantwort",
+      "frage": "Ergänze den Satz vom Arbeitsblatt mit einem Fachbegriff: «Die Funktion der Zellatmung liegt in der …»",
+      "akzeptiert": [
+        "Energiegewinnung",
+        "Gewinnung von Energie",
+        "Energiebereitstellung",
+        "Bereitstellung von Energie",
+        "Energiegewinnung (ATP)"
+      ],
+      "erklaerung": "Die Zellatmung dient der **Energiegewinnung** (Bereitstellung von Energie in Form von ATP). Wie eine Kerze oder ein Kraftwerk «verbrennt» die Zelle einen Brennstoff mit Sauerstoff und setzt dabei Energie frei.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-zellatmung-03",
+      "lernzielId": "lz-zellatmung",
+      "typ": "kurzantwort",
+      "frage": "In welchen Zellbestandteilen findet die Zellatmung statt?",
+      "akzeptiert": [
+        "Mitochondrien",
+        "in den Mitochondrien",
+        "Mitochondrium",
+        "im Mitochondrium"
+      ],
+      "erklaerung": "Die Zellatmung findet in den **Mitochondrien** statt (Einzahl: Mitochondrium). Achte auf die Schreibweise: Mi-to-chon-dri-en – nicht «Mitochondrin» und nicht «Mytochondrien».",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-zellatmung-04",
+      "lernzielId": "lz-zellatmung",
+      "typ": "kurzantwort",
+      "frage": "Die Zellbestandteile, in denen die Zellatmung stattfindet, nennt man wegen ihrer Aufgabe auch «… der Zelle». Ergänze.",
+      "akzeptiert": [
+        "Kraftwerke",
+        "Kraftwerk",
+        "Kraftwerke der Zelle",
+        "Kraftwerke der Zellen",
+        "Kraftwerk der Zelle",
+        "Zellkraftwerke"
+      ],
+      "erklaerung": "Mitochondrien heissen **Kraftwerke der Zelle**: Wie ein Kraftwerk Brennstoff verbrennt und Energie liefert, gewinnen sie mit Sauerstoff Energie aus Traubenzucker.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-zellatmung-05",
+      "lernzielId": "lz-zellatmung",
+      "typ": "einfachwahl",
+      "frage": "Welche **Wortgleichung** beschreibt die Zellatmung richtig?",
+      "erklaerung": "Traubenzucker (Glucose) + Sauerstoff → Kohlenstoffdioxid + Wasser + Energie. Links stehen die Stoffe, die verbraucht werden, rechts die Stoffe, die entstehen, und die Energie, die dabei **frei wird** – sie wird nicht hineingesteckt. Die umgekehrte Gleichung (CO2 + Wasser + Energie → Traubenzucker + Sauerstoff) ist die Fotosynthese der Pflanzen.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Kohlenstoffdioxid + Wasser + Energie → Traubenzucker + Sauerstoff",
+        "Traubenzucker + Kohlenstoffdioxid → Sauerstoff + Wasser + Energie",
+        "Traubenzucker + Sauerstoff + Energie → Kohlenstoffdioxid + Wasser",
+        "Traubenzucker + Sauerstoff → Kohlenstoffdioxid + Wasser + Energie"
+      ],
+      "richtig": 3
+    },
+    {
+      "id": "f-zellatmung-06",
+      "lernzielId": "lz-zellatmung",
+      "typ": "zuordnen",
+      "frage": "Steht es in der Gleichung der Zellatmung **links** oder **rechts** vom Pfeil? Ordne zu.",
+      "paare": [
+        {
+          "links": "Traubenzucker (Glucose)",
+          "rechts": "links: wird verbraucht"
+        },
+        {
+          "links": "Sauerstoff",
+          "rechts": "links: wird verbraucht"
+        },
+        {
+          "links": "Kohlenstoffdioxid",
+          "rechts": "rechts: entsteht bzw. wird frei"
+        },
+        {
+          "links": "Wasser",
+          "rechts": "rechts: entsteht bzw. wird frei"
+        },
+        {
+          "links": "Energie",
+          "rechts": "rechts: entsteht bzw. wird frei"
+        }
+      ],
+      "erklaerung": "C6H12O6 + 6 O2 → 6 CO2 + 6 H2O + Energie (ATP). Glucose und Sauerstoff stehen links (Ausgangsstoffe, auch Edukte genannt), Kohlenstoffdioxid und Wasser rechts (Produkte). Auch die Energie steht rechts: Sie wird bei der Zellatmung **frei** und als ATP gespeichert.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-zellatmung-07",
+      "lernzielId": "lz-zellatmung",
+      "typ": "zuordnen",
+      "frage": "Ordne jeder Formel aus der Gleichung der Zellatmung den richtigen Namen zu.",
+      "paare": [
+        {
+          "links": "C6H12O6",
+          "rechts": "Traubenzucker (Glucose)"
+        },
+        {
+          "links": "O2",
+          "rechts": "Sauerstoff"
+        },
+        {
+          "links": "CO2",
+          "rechts": "Kohlenstoffdioxid"
+        },
+        {
+          "links": "H2O",
+          "rechts": "Wasser"
+        }
+      ],
+      "erklaerung": "C6H12O6 ist Traubenzucker (Glucose), O2 Sauerstoff, CO2 Kohlenstoffdioxid und H2O Wasser. Zusammen: C6H12O6 + 6 O2 → 6 CO2 + 6 H2O + Energie (ATP).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-zellatmung-08",
+      "lernzielId": "lz-zellatmung",
+      "typ": "zahl",
+      "frage": "Ergänze die Gleichung: C6H12O6 + ? O2 → **?** CO2 + ? H2O + Energie. Wie viele Moleküle Kohlenstoffdioxid entstehen aus **einem** Molekül Traubenzucker?",
+      "richtig": 6,
+      "einheit": "CO2-Moleküle",
+      "erklaerung": "Es entstehen **6** CO2. Kontrolle über die Kohlenstoffatome: Ein Molekül C6H12O6 enthält 6 C-Atome, jedes CO2 enthält genau eines – also 6 CO2. Die ganze Gleichung: C6H12O6 + 6 O2 → 6 CO2 + 6 H2O + Energie.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-zellatmung-09",
+      "lernzielId": "lz-zellatmung",
+      "typ": "einfachwahl",
+      "frage": "Welche Aussage zur Gleichung der Zellatmung ist **korrekt**?",
+      "optionen": [
+        "Aus einem Molekül Glucose entsteht nur ein Molekül CO2.",
+        "Wasser ist ein Ausgangsstoff, der verbraucht wird.",
+        "Für ein Molekül Glucose werden sechs Moleküle Sauerstoff verbraucht.",
+        "Bei der Zellatmung wird Kohlenstoffdioxid aufgenommen und Sauerstoff abgegeben."
+      ],
+      "richtig": 2,
+      "erklaerung": "C6H12O6 + **6 O2** → 6 CO2 + 6 H2O + Energie: Ein Molekül Glucose braucht sechs Moleküle Sauerstoff. Es entstehen sechs (nicht ein) CO2, und Wasser ist ein Produkt, es wird nicht verbraucht. CO2 aufnehmen und O2 abgeben ist umgekehrt – das macht die Pflanze bei der Fotosynthese.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-zellatmung-10",
+      "lernzielId": "lz-zellatmung",
+      "typ": "wahrfalsch",
+      "frage": "Die Zellatmung findet nur in den Zellen der Lunge statt.",
+      "richtig": false,
+      "erklaerung": "Der Name sagt es: Die Zellatmung findet in **allen Zellen** des Körpers statt, in deren Mitochondrien – im Gehirn genauso wie im Muskel. Die Lunge nimmt den Sauerstoff nur auf, das Blut verteilt ihn.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-zellatmung-11",
+      "lernzielId": "lz-zellatmung",
+      "typ": "wahrfalsch",
+      "frage": "Sauerstoff kann im Körper – im Unterschied zu den Nährstoffen – kaum gespeichert werden.",
+      "richtig": true,
+      "erklaerung": "So steht es auf dem Blatt (Teil 1, S. 1). Deshalb müssen alle Zellen **permanent** mit Sauerstoff versorgt werden, und darum überlebt man ohne Sauerstoff nur wenige Minuten, ohne Nahrung aber einige Wochen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-zellatmung-12",
+      "lernzielId": "lz-zellatmung",
+      "typ": "zuordnen",
+      "frage": "Die Sauerstoffzufuhr zum Gehirn wird vollständig unterbrochen. Ordne den Zeiten die Folge zu.",
+      "paare": [
+        {
+          "links": "nach 8–12 Sekunden",
+          "rechts": "bewusstlos, keine Selbstrettung mehr möglich"
+        },
+        {
+          "links": "ab 3 Minuten",
+          "rechts": "bleibende (irreversible) Zellschäden im Gehirn möglich"
+        },
+        {
+          "links": "nach 8–12 Minuten",
+          "rechts": "Hirntod"
+        }
+      ],
+      "erklaerung": "Das Gehirn reagiert am empfindlichsten auf Sauerstoffmangel: nach 8–12 s bewusstlos, ab 3 min irreversible Schäden, nach 8–12 min Hirntod. Ohne Sauerstoff kann die Zellatmung keine Energie mehr liefern.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-zellatmung-13",
+      "lernzielId": "lz-zellatmung",
+      "typ": "einfachwahl",
+      "frage": "Stülpt man ein Glas über eine brennende Kerze, erlischt sie nach kurzer Zeit. Was hat dieser Versuch mit der **Zellatmung** gemeinsam?",
+      "optionen": [
+        "Beide geben bei ihrer Tätigkeit Sauerstoff an die Umgebung ab.",
+        "Beide brauchen Sauerstoff, um aus einem Brennstoff Energie freizusetzen.",
+        "Beide laufen nur bei sehr hoher Temperatur mit einer Flamme ab.",
+        "Beide bauen aus Kohlenstoffdioxid und Wasser neuen Traubenzucker auf."
+      ],
+      "richtig": 1,
+      "erklaerung": "Kerze und Zelle «verbrennen» einen Brennstoff (Wachs bzw. Traubenzucker) mit **Sauerstoff**, setzen Energie frei und bilden CO2 und Wasser. Ist der Sauerstoff im Glas verbraucht, geht die Kerze aus – fehlt einer Zelle der Sauerstoff, bekommt sie kaum noch Energie. Anders als die Kerze arbeitet die Zelle ohne Flamme und schrittweise.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-zellatmung-14",
+      "lernzielId": "lz-zellatmung",
+      "typ": "kurzantwort",
+      "frage": "Wie lautet die chemische **Formel** von Traubenzucker (Glucose)? (Zahlen einfach als normale Ziffern schreiben)",
+      "akzeptiert": [
+        "C6H12O6"
+      ],
+      "erklaerung": "Traubenzucker hat die Formel **C6H12O6**: 6 Kohlenstoff-, 12 Wasserstoff- und 6 Sauerstoffatome. Merkhilfe: 6 – 12 – 6.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-zellatmung-15",
+      "lernzielId": "lz-zellatmung",
+      "typ": "kurzantwort",
+      "frage": "Welches Gas entsteht bei der Zellatmung und wird schliesslich ausgeatmet? Schreibe den Namen aus.",
+      "akzeptiert": [
+        "Kohlenstoffdioxid",
+        "Kohlendioxid"
+      ],
+      "erklaerung": "Es entsteht **Kohlenstoffdioxid** (auch Kohlendioxid, Formel CO2). Schreibweise: Kohlen-stoff-di-oxid – nicht «Kohlenstoffoxid» oder «Kohlenstoffdioxyd».",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-zellatmung-16",
+      "lernzielId": "lz-zellatmung",
+      "typ": "offen",
+      "frage": "Auf dem Blatt steht die Frage: «Woran leiden die Zellen eigentlich genau, wenn ihnen Sauerstoff fehlt?» Beantworte sie mit Hilfe der Zellatmung.",
+      "musterloesung": "Die Zellen brauchen Sauerstoff für die **Zellatmung**. In den **Mitochondrien** wird Traubenzucker (Glucose) mit Sauerstoff «verbrannt»; dabei gewinnt die Zelle **Energie** in Form von **ATP** (Glucose + Sauerstoff → Kohlenstoffdioxid + Wasser + Energie). Fehlt der Sauerstoff, läuft die Zellatmung nicht mehr, die Zelle bekommt zu wenig (fast keine) Energie mehr und kann ihre Aufgaben nicht mehr erfüllen – sie wird geschädigt und stirbt ab. Weil Sauerstoff kaum gespeichert werden kann, geht das sehr schnell: Das Gehirn wird nach 8–12 Sekunden bewusstlos, ab 3 Minuten drohen bleibende Schäden.",
+      "stichworte": [
+        "Zellatmung",
+        "Energiegewinnung / ATP",
+        "Mitochondrien",
+        "Glucose + Sauerstoff",
+        "kaum speicherbar",
+        "Zelle stirbt ab"
+      ],
+      "erklaerung": "Kern der Antwort: Ohne Sauerstoff keine Zellatmung, ohne Zellatmung kaum Energie. Gute Antworten nennen den Ort (Mitochondrien) und erwähnen, dass Sauerstoff nicht gespeichert werden kann.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-zellatmung-17",
+      "lernzielId": "lz-zellatmung",
+      "typ": "offen",
+      "frage": "Schreibe die **Gleichung der Zellatmung** mit Formeln auf, erläutere sie in Worten und gib an, **wo** und **wozu** sie abläuft.",
+      "musterloesung": "C6H12O6 + 6 O2 → 6 CO2 + 6 H2O + Energie (ATP). In Worten: **Traubenzucker (Glucose) + Sauerstoff → Kohlenstoffdioxid + Wasser + Energie.** Ein Molekül Traubenzucker reagiert mit sechs Molekülen Sauerstoff zu sechs Molekülen Kohlenstoffdioxid und sechs Molekülen Wasser. Die Zellatmung findet in **allen Zellen** in den **Mitochondrien** statt (Kraftwerke der Zelle) und dient der **Energiegewinnung**: Die Energie wird als ATP bereitgestellt.",
+      "stichworte": [
+        "C6H12O6 + 6 O2 → 6 CO2 + 6 H2O + Energie",
+        "Traubenzucker/Glucose",
+        "Sauerstoff",
+        "Kohlenstoffdioxid",
+        "Wasser",
+        "Mitochondrien",
+        "Energiegewinnung (ATP)"
+      ],
+      "erklaerung": "Vollständig ist die Antwort mit der Formelgleichung (inkl. der Zahlen 6), der Wortgleichung, dem Ort (Mitochondrien aller Zellen) und der Funktion (Energiegewinnung). Prüfe auch die Schreibweise von «Kohlenstoffdioxid» und «Mitochondrien».",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-zellatmung-18",
+      "lernzielId": "lz-zellatmung",
+      "typ": "offen",
+      "frage": "Beim Velofahren bergauf atmest du schneller und tiefer. Begründe das mit der **Zellatmung** in deinen Beinmuskeln.",
+      "musterloesung": "Die Beinmuskeln leisten mehr Arbeit und brauchen deshalb mehr **Energie (ATP)**. Diese gewinnen die Muskelzellen durch **Zellatmung** in ihren **Mitochondrien**: Glucose + Sauerstoff → Kohlenstoffdioxid + Wasser + Energie. Mehr Zellatmung heisst: Es wird **mehr Sauerstoff verbraucht** und es entsteht **mehr Kohlenstoffdioxid**. Damit genug O2 zu den Muskeln kommt und das zusätzliche CO2 abgeatmet werden kann, muss mehr Luft durch die Lunge – du atmest schneller (höhere Atemfrequenz) und tiefer (grösseres Atemzugvolumen). Gesteuert wird das unbewusst vom zentralen Nervensystem, wesentlich über den CO2-Gehalt des Blutes: Mehr CO2 regt die Atemtätigkeit an.",
+      "stichworte": [
+        "mehr Energie (ATP) nötig",
+        "mehr Zellatmung in den Muskelzellen",
+        "mehr O2-Verbrauch",
+        "mehr CO2",
+        "schneller und tiefer atmen",
+        "CO2 steuert die Atmung"
+      ],
+      "erklaerung": "Hier verknüpfst du Zellatmung mit der Steuerung der Atmung (Teil 3: steigender CO2-Gehalt im Blut regt die Atmung an). Wichtig ist die Kette: mehr Arbeit → mehr Energie → mehr Zellatmung → mehr O2 nötig und mehr CO2 → mehr atmen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-zellatmung-19",
+      "lernzielId": "lz-zellatmung",
+      "typ": "mehrfachwahl",
+      "frage": "Wo läuft **Zellatmung** ab? Wähle alle richtigen.",
+      "optionen": [
+        "in Muskelzellen eines Menschen",
+        "in Nervenzellen im Gehirn",
+        "in den Zellen einer Buche",
+        "in einem brennenden Holzfeuer",
+        "in einem wachsenden Salzkristall"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Zellatmung findet in den Mitochondrien von Zellen statt – also in allen Zellen des Menschen und auch in Pflanzenzellen (Pflanzen machen Fotosynthese **und** Zellatmung; ergänzt, nicht auf dem Blatt). Ein Feuer verbrennt zwar auch Brennstoff mit Sauerstoff, besteht aber nicht aus Zellen; ein Kristall wächst, ist aber kein Lebewesen (vgl. Kennzeichen des Lebens).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-zellatmung-20",
+      "lernzielId": "lz-zellatmung",
+      "typ": "einfachwahl",
+      "frage": "Bei Fieber atmet man meist schneller. Welche Erklärung passt zur Zellatmung?",
+      "optionen": [
+        "Bei Fieber nimmt die Lunge pro Atemzug weniger O2 auf, deshalb muss man öfter atmen.",
+        "Das Blut transportiert bei Fieber weniger O2, deshalb braucht es mehr Atemzüge.",
+        "Bei Fieber legen die Zellen einen Sauerstoffvorrat an, dafür braucht es mehr Luft.",
+        "Die Zellen betreiben schneller Zellatmung und verbrauchen dafür mehr O2."
+      ],
+      "richtig": 3,
+      "erklaerung": "Bei höherer Körpertemperatur laufen die Stoffwechselvorgänge schneller ab: Die Zellen betreiben mehr Zellatmung, verbrauchen mehr O2 und bilden mehr CO2 – deshalb steigt die Atemfrequenz (ergänzt, nicht auf dem Blatt). Lunge und Blut nehmen bzw. transportieren bei Fieber nicht weniger Sauerstoff, und Sauerstoff kann kaum gespeichert werden.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-zellatmung-21",
+      "lernzielId": "lz-zellatmung",
+      "typ": "kurzantwort",
+      "frage": "In der Abbildung zu den Schritten der Atmung (Teil 1, S. 3) steht in der Zelle «ADP + P → …». Wie heisst der Energieträger, der bei der Zellatmung aufgebaut wird? (Abkürzung)",
+      "akzeptiert": [
+        "ATP",
+        "Adenosintriphosphat"
+      ],
+      "erklaerung": "Es ist **ATP**. Die bei der Zellatmung frei werdende Energie wird genutzt, um aus ADP + P den Energieträger ATP aufzubauen. In dieser Form steht die Energie der Zelle für alle Lebensvorgänge zur Verfügung.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-schritte-01",
+      "lernzielId": "lz-schritte",
+      "typ": "reihenfolge",
+      "frage": "Bringe die Schritte der Atmung in die richtige Reihenfolge – vom Einatmen bis zum Verbrauch des Sauerstoffs.",
+      "elemente": [
+        "Austausch der Lungenluft durch Ein- und Ausatmen",
+        "Diffusion in der Lunge: O2 gelangt ins Blut",
+        "Transport des O2 im Blut",
+        "Diffusion zwischen Blut und Zelle",
+        "Zellatmung: O2-Verbrauch in den Zellen"
+      ],
+      "erklaerung": "Der Sauerstoff wird eingeatmet (Ventilation), diffundiert in der Lunge ins Blut, wird im Blut transportiert, diffundiert vom Blut in die Zelle und wird dort bei der Zellatmung verbraucht. Das CO2 nimmt denselben Weg rückwärts.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-schritte-02",
+      "lernzielId": "lz-schritte",
+      "typ": "zuordnen",
+      "frage": "Gehört der Schritt zur **äusseren** oder zur **inneren** Atmung?",
+      "paare": [
+        {
+          "links": "Austausch der Lungenluft durch Ein- und Ausatmen",
+          "rechts": "äussere Atmung"
+        },
+        {
+          "links": "Diffusion in der Lunge",
+          "rechts": "äussere Atmung"
+        },
+        {
+          "links": "Transport von O2 und CO2 im Blut",
+          "rechts": "äussere Atmung"
+        },
+        {
+          "links": "Diffusion zwischen Blut und Zelle",
+          "rechts": "äussere Atmung"
+        },
+        {
+          "links": "O2-Verbrauch und CO2-Bildung in den Zellen",
+          "rechts": "innere Atmung"
+        }
+      ],
+      "erklaerung": "Alles, was Sauerstoff bis zur Zelle bringt und CO2 wegschafft, ist **äussere Atmung**. Die **innere Atmung** ist die Zellatmung: der Verbrauch von O2 und die Bildung von CO2 in den Zellen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-schritte-03",
+      "lernzielId": "lz-schritte",
+      "typ": "kurzantwort",
+      "frage": "Die Abbildung (Teil 1, S. 3) fasst Ventilation, Diffusion in der Lunge, Transport im Blut und Diffusion zwischen Blut und Zelle unter einem Begriff zusammen. Wie heisst er? (zwei Wörter)",
+      "akzeptiert": [
+        "äussere Atmung",
+        "die äussere Atmung",
+        "Atmung äussere"
+      ],
+      "erklaerung": "Diese vier Schritte bilden die **äussere Atmung**: Sie bringt den Sauerstoff bis zur Zelle und schafft das CO2 weg. Die **innere Atmung** ist die Zellatmung. Schreibweise: äu**ss**ere – mit Doppel-s.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-schritte-04",
+      "lernzielId": "lz-schritte",
+      "typ": "einfachwahl",
+      "frage": "Was versteht man unter der **inneren Atmung**?",
+      "optionen": [
+        "das Ein- und Ausatmen durch Nase und Mund",
+        "die Aufnahme von O2 aus den Lungenbläschen ins Blut",
+        "den O2-Verbrauch und die CO2-Bildung in den Zellen",
+        "den Transport von O2 und CO2 im Blut"
+      ],
+      "richtig": 2,
+      "erklaerung": "Die innere Atmung ist die **Zellatmung**: O2-Verbrauch und CO2-Bildung in den Zellen. Die anderen drei Vorgänge gehören zur äusseren Atmung.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-schritte-05",
+      "lernzielId": "lz-schritte",
+      "typ": "zahl",
+      "frage": "Wie viel Prozent unseres Sauerstoffbedarfs deckt die **Hautatmung** beim Menschen etwa? (Gib einen Wert an.)",
+      "richtig": 1.5,
+      "toleranz": 0.5,
+      "einheit": "%",
+      "erklaerung": "Die Hautatmung deckt beim Menschen nur ca. **1–2 %** des Sauerstoffbedarfs. Der Rest – also fast alles – wird über die Lunge aufgenommen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-schritte-06",
+      "lernzielId": "lz-schritte",
+      "typ": "mehrfachwahl",
+      "frage": "Weshalb deckt die Hautatmung beim Menschen nur einen sehr kleinen Teil des Sauerstoffbedarfs? Wähle alle richtigen Gründe.",
+      "optionen": [
+        "Unsere Haut ist relativ dick.",
+        "Unsere Körperoberfläche ist relativ klein.",
+        "Die Haut enthält keine Blutgefässe.",
+        "Sauerstoff kann grundsätzlich nicht durch die Haut gelangen."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Laut Blatt: **dicke Haut** und **relativ kleine Oberfläche**. Die Haut ist durchblutet, und etwas Sauerstoff gelangt tatsächlich hindurch – eben die 1–2 %.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-schritte-07",
+      "lernzielId": "lz-schritte",
+      "typ": "wahrfalsch",
+      "frage": "Unser Atmungsorgan ist die Lunge; den Sauerstoff zu den Organen und Zellen transportiert aber das Blut.",
+      "richtig": true,
+      "erklaerung": "In der Lunge gelangt der Sauerstoff ins **Blut**, das für den Transport zu allen Organen bzw. Zellen des Körpers zuständig ist (Teil 1, S. 3).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-schritte-08",
+      "lernzielId": "lz-schritte",
+      "typ": "reihenfolge",
+      "frage": "Bringe den Weg eines **CO2-Moleküls** in die richtige Reihenfolge – von seiner Entstehung bis es den Körper verlässt.",
+      "erklaerung": "Das CO2 nimmt den Weg des Sauerstoffs rückwärts: Es entsteht bei der Zellatmung (innere Atmung), diffundiert ins Blut, wird zur Lunge transportiert, diffundiert in die Lungenbläschen und wird ausgeatmet. Die Schritte der äusseren Atmung laufen also für CO2 in umgekehrter Reihenfolge ab.",
+      "schwierigkeit": 2,
+      "elemente": [
+        "Zellatmung: CO2 entsteht in der Zelle",
+        "Diffusion aus der Zelle ins Blut",
+        "Transport im Blut zur Lunge",
+        "Diffusion aus dem Blut in die Lungenbläschen",
+        "Ausatmen (Austausch der Lungenluft)"
+      ]
+    },
+    {
+      "id": "f-schritte-09",
+      "lernzielId": "lz-schritte",
+      "typ": "einfachwahl",
+      "frage": "Bei welchem Schritt wird CO2 **aus dem Blut in die Lungenbläschen** abgegeben?",
+      "optionen": [
+        "Austausch der Lungenluft durch Ein- und Ausatmen",
+        "Diffusion in der Lunge",
+        "Transport von O2 und CO2 im Blut",
+        "Diffusion zwischen Blut und Zelle"
+      ],
+      "richtig": 1,
+      "erklaerung": "Bei der **Diffusion in der Lunge** wird O2 ins Blut aufgenommen und CO2 aus dem Blut abgegeben. Erst danach wird es beim Ausatmen (Schritt 1) aus der Lunge befördert. Bei der Diffusion zwischen Blut und Zelle gelangt CO2 dagegen **ins** Blut.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-schritte-10",
+      "lernzielId": "lz-schritte",
+      "typ": "zuordnen",
+      "frage": "Ordne jede Beschreibung dem passenden Schritt der Atmung zu.",
+      "paare": [
+        {
+          "links": "O2 gelangt ins Blut, CO2 verlässt das Blut",
+          "rechts": "Diffusion in der Lunge"
+        },
+        {
+          "links": "O2 verlässt das Blut, CO2 gelangt ins Blut",
+          "rechts": "Diffusion zwischen Blut und Zelle"
+        },
+        {
+          "links": "Frische Luft strömt in die Lunge, verbrauchte Luft hinaus",
+          "rechts": "Austausch der Lungenluft"
+        },
+        {
+          "links": "O2 wird verbraucht, CO2 entsteht",
+          "rechts": "Zellatmung"
+        },
+        {
+          "links": "O2 und CO2 werden durch den ganzen Körper gebracht",
+          "rechts": "Transport im Blut"
+        }
+      ],
+      "erklaerung": "In der Lunge nimmt das Blut O2 auf und gibt CO2 ab; im Gewebe ist es umgekehrt. Das Ein- und Ausatmen erneuert die Lungenluft, das Blut transportiert, und verbraucht wird der Sauerstoff erst bei der Zellatmung.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-schritte-11",
+      "lernzielId": "lz-schritte",
+      "typ": "wahrfalsch",
+      "frage": "Das Kohlenstoffdioxid, das wir ausatmen, entsteht in der Lunge.",
+      "richtig": false,
+      "erklaerung": "CO2 entsteht bei der **Zellatmung in allen Zellen** des Körpers (innere Atmung). Es diffundiert ins Blut, wird zur Lunge transportiert, diffundiert dort in die Lungenbläschen und wird ausgeatmet.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-schritte-12",
+      "lernzielId": "lz-schritte",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst der Fachbegriff für den Austausch der Lungenluft durch Ein- und Ausatmen?",
+      "akzeptiert": [
+        "Ventilation",
+        "Lungenventilation",
+        "Ventilation der Lunge",
+        "Ventilation der Lungen"
+      ],
+      "erklaerung": "Die **Ventilation** (Belüftung) der Lungen ist der erste Schritt der äusseren Atmung. Wie sie genau funktioniert (Atemmuskeln, Pleura), behandelt Atmung Teil 2.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-schritte-13",
+      "lernzielId": "lz-schritte",
+      "typ": "einfachwahl",
+      "frage": "Bei einem **Asthmaanfall** verengen sich die Bronchien, die Luft strömt nur schwer hinein und hinaus. Welcher Schritt der Atmung ist **direkt** betroffen?",
+      "optionen": [
+        "Austausch der Lungenluft durch Ein- und Ausatmen",
+        "Transport von O2 und CO2 im Blut",
+        "Diffusion zwischen Blut und Zelle",
+        "Zellatmung in den Zellen"
+      ],
+      "richtig": 0,
+      "erklaerung": "Verengte Bronchien behindern die **Ventilation**, also den Austausch der Lungenluft. Als Folge kommt weniger frische Luft in die Lungenbläschen, und auch die nachfolgenden Schritte erhalten weniger Sauerstoff (Asthma ist ergänzt, nicht auf dem Blatt).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-schritte-14",
+      "lernzielId": "lz-schritte",
+      "typ": "einfachwahl",
+      "frage": "Bei einer **Blutarmut** hat das Blut zu wenige rote Blutkörperchen, die den Sauerstoff tragen. Welcher Schritt der Atmung ist in erster Linie gestört?",
+      "optionen": [
+        "Austausch der Lungenluft durch Ein- und Ausatmen",
+        "Diffusion zwischen Lungenbläschen und Kapillaren",
+        "Transport von O2 und CO2 im Blut",
+        "Zellatmung in den Zellen"
+      ],
+      "richtig": 2,
+      "erklaerung": "Die Lunge funktioniert normal, aber das Blut kann weniger Sauerstoff aufnehmen und **transportieren**. Die Zellen erhalten dadurch weniger O2 – Betroffene sind oft müde und schnell ausser Atem (Blutarmut ist ergänzt, nicht auf dem Blatt).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-schritte-15",
+      "lernzielId": "lz-schritte",
+      "typ": "wahrfalsch",
+      "frage": "Ein Frosch hat eine dünne, feuchte Haut. Er kann deshalb einen viel grösseren Teil seines Sauerstoffbedarfs über die Haut decken als der Mensch.",
+      "richtig": true,
+      "erklaerung": "Beim Menschen begrenzen die **dicke Haut** und die relativ kleine Oberfläche die Hautatmung auf 1–2 %. Bei Amphibien wie dem Frosch ist die Haut dünn, feucht und gut durchblutet – die Hautatmung ist bei ihnen deshalb sehr wichtig (Beispiel Frosch ergänzt).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-schritte-16",
+      "lernzielId": "lz-schritte",
+      "typ": "offen",
+      "frage": "Beschreibe den Weg eines Sauerstoffmoleküls von der Luft bis in eine **Muskelzelle im Bein**. Nenne dabei die Schritte der Atmung und ordne sie der äusseren bzw. inneren Atmung zu.",
+      "musterloesung": "1. **Austausch der Lungenluft** (Ventilation): Das O2 gelangt mit der Einatmungsluft über die Atemwege in die Lungenbläschen. 2. **Diffusion in der Lunge**: Es diffundiert durch die dünne Wand der Alveole ins Blut der Kapillaren (gleichzeitig wird CO2 abgegeben). 3. **Transport im Blut**: Das Blut bringt das O2 bis in die Kapillaren des Beinmuskels. 4. **Diffusion zwischen Blut und Zelle**: Das O2 diffundiert aus dem Blut in die Muskelzelle (CO2 in die Gegenrichtung). Diese vier Schritte bilden die **äussere Atmung**. 5. In den Mitochondrien wird das O2 bei der **Zellatmung** verbraucht, dabei entsteht CO2 – das ist die **innere Atmung**.",
+      "stichworte": [
+        "Ein- und Ausatmen / Ventilation",
+        "Diffusion in der Lunge",
+        "Transport im Blut",
+        "Diffusion zwischen Blut und Zelle",
+        "Zellatmung (Mitochondrien)",
+        "äussere vs. innere Atmung"
+      ],
+      "erklaerung": "Eine vollständige Antwort hat alle Stationen in der richtigen Reihenfolge und ordnet sie korrekt zu: Schritte 1–4 äussere Atmung, Zellatmung innere Atmung.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-schritte-17",
+      "lernzielId": "lz-schritte",
+      "typ": "offen",
+      "frage": "Bei einem **Herzstillstand** pumpt das Herz kein Blut mehr, obwohl die Lunge noch voller Luft ist. Erkläre mit den Schritten der Atmung, weshalb man trotzdem nach 8–12 Sekunden bewusstlos wird.",
+      "musterloesung": "Die Lunge enthält zwar noch Sauerstoff, und in den Lungenbläschen könnte O2 ins Blut diffundieren. Weil das Herz nicht mehr pumpt, fällt aber der **Transport im Blut** (Schritt 3) aus: Kein sauerstoffreiches Blut erreicht mehr das Gehirn. Damit kann auch keine **Diffusion zwischen Blut und Zelle** (Schritt 4) mehr stattfinden, die Hirnzellen erhalten kein O2, und ihre **Zellatmung** (innere Atmung) kommt zum Erliegen. Ohne Zellatmung kaum Energie – und weil Sauerstoff kaum gespeichert werden kann, wird man nach 8–12 Sekunden bewusstlos.",
+      "stichworte": [
+        "Transport im Blut fällt aus",
+        "kein O2 erreicht die Zellen",
+        "keine Diffusion Blut → Zelle",
+        "Zellatmung stoppt",
+        "kaum Energie",
+        "O2 kaum speicherbar"
+      ],
+      "erklaerung": "Die Schritte der Atmung bilden eine Kette: Fällt ein Glied aus, nützen die anderen nichts. Hier fehlt der Transport, nicht die Luft.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-gasaustausch-01",
+      "lernzielId": "lz-gasaustausch",
+      "typ": "kurzantwort",
+      "frage": "Auf dem Blatt (Teil 1, S. 6) steht: «Die Wand der Lungenbläschen ist hauchdünn (1 µm) und von feinsten Blutgefässen umsponnen. Hier findet der … statt.» Welcher Oberbegriff fehlt? (nicht der physikalische Vorgang)",
+      "akzeptiert": [
+        "Gasaustausch",
+        "Gasaustausch in der Lunge"
+      ],
+      "erklaerung": "Hier findet der **Gasaustausch** statt: Sauerstoff gelangt aus den Alveolen in die Blutkapillaren, Kohlenstoffdioxid aus dem Blut in die Alveolen. Der physikalische Vorgang dahinter heisst Diffusion; in der Abbildung zu den Schritten heisst dieser Schritt deshalb «Diffusion in der Lunge».",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-gasaustausch-02",
+      "lernzielId": "lz-gasaustausch",
+      "typ": "einfachwahl",
+      "frage": "Wo genau findet in der Lunge der **Gasaustausch** statt?",
+      "optionen": [
+        "in der Luftröhre, zwischen den Knorpelspangen",
+        "in den Bronchien mit ihrem Flimmerepithel",
+        "im Pleuraspalt zwischen Lungenfell und Rippenfell",
+        "zwischen den Lungenbläschen und den Kapillaren"
+      ],
+      "richtig": 3,
+      "erklaerung": "Die Wand der **Lungenbläschen (Alveolen)** ist hauchdünn (1 µm) und von feinsten Blutgefässen, den **Kapillaren**, umsponnen – hier findet der Gasaustausch statt. Luftröhre und Bronchien leiten die Luft nur, der Pleuraspalt gehört zur Mechanik der Atmung.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-gasaustausch-03",
+      "lernzielId": "lz-gasaustausch",
+      "typ": "zuordnen",
+      "frage": "In welche Richtung diffundiert das Gas? Ordne zu.",
+      "paare": [
+        {
+          "links": "Sauerstoff in der Lunge",
+          "rechts": "aus den Alveolen ins Blut"
+        },
+        {
+          "links": "Kohlenstoffdioxid in der Lunge",
+          "rechts": "aus dem Blut in die Alveolen"
+        },
+        {
+          "links": "Sauerstoff im Gewebe",
+          "rechts": "aus dem Blut in die Zellen"
+        },
+        {
+          "links": "Kohlenstoffdioxid im Gewebe",
+          "rechts": "aus den Zellen ins Blut"
+        }
+      ],
+      "erklaerung": "In der Lunge nimmt das Blut O2 auf und gibt CO2 ab. Im Gewebe ist es umgekehrt: Die Zellen verbrauchen O2 und bilden CO2 (Zellatmung), also gibt das Blut dort O2 ab und nimmt CO2 auf.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-gasaustausch-06",
+      "lernzielId": "lz-gasaustausch",
+      "typ": "wahrfalsch",
+      "frage": "Ein Gasaustausch findet nicht nur in der Lunge statt, sondern auch zwischen dem Blut und den Körperzellen.",
+      "richtig": true,
+      "erklaerung": "Es gibt zwei Orte: in der Lunge (Alveolen ↔ Kapillaren) und im Gewebe (Blut ↔ Zellen). Beide Male geschieht der Austausch durch Diffusion.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-gasaustausch-07",
+      "lernzielId": "lz-gasaustausch",
+      "typ": "kurzantwort",
+      "frage": "Ergänze: Blut, das in der Lunge Sauerstoff aufgenommen hat und zum Herzen zurückfliesst, nennt man «… Blut».",
+      "akzeptiert": [
+        "sauerstoffreiches",
+        "sauerstoffreich",
+        "sauerstoffreiches Blut",
+        "O2-reiches",
+        "O2-reiches Blut"
+      ],
+      "erklaerung": "Es ist **sauerstoffreiches** Blut (rot dargestellt). Das Blut, das zur Lunge hinfliesst, ist sauerstoffarm (blau dargestellt).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-gasaustausch-08",
+      "lernzielId": "lz-gasaustausch",
+      "typ": "einfachwahl",
+      "frage": "Weshalb gelangt Sauerstoff in der Lunge aus den Lungenbläschen ins Blut?",
+      "optionen": [
+        "Im ankommenden Blut ist mehr O2 als im Lungenbläschen; der Sauerstoff folgt diesem Gefälle.",
+        "Im Lungenbläschen ist mehr O2 als im ankommenden Blut; dieses Gefälle treibt die Diffusion an.",
+        "Das Blut in den Kapillaren hat einen Unterdruck und saugt den Sauerstoff an.",
+        "Weil CO2 aus dem Blut hinausdiffundiert, muss O2 den frei gewordenen Platz füllen."
+      ],
+      "richtig": 1,
+      "erklaerung": "Diffusion braucht keine Pumpe und keine zusätzliche Energie; angetrieben wird sie allein vom Konzentrationsunterschied: Die Teilchen wandern vom Ort hoher zum Ort tiefer Konzentration. Das ankommende Blut ist **sauerstoffarm**, in den Lungenbläschen ist viel O2 – also diffundiert O2 ins Blut. O2 und CO2 diffundieren unabhängig voneinander, jedes Gas seinem eigenen Gefälle nach; einen «Sog» des Blutes gibt es nicht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gasaustausch-09",
+      "lernzielId": "lz-gasaustausch",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Eigenschaften der Lunge sorgen für einen schnellen Gasaustausch? Wähle alle richtigen.",
+      "optionen": [
+        "hauchdünne Wand der Lungenbläschen (1 µm)",
+        "riesige Gesamtoberfläche der Alveolen (ca. 100 m²)",
+        "dichtes Netz von Kapillaren um die Lungenbläschen",
+        "Knorpelspangen in der Wand der Lungenbläschen",
+        "dicke Schleimschicht auf der Innenseite der Lungenbläschen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Kurzer Weg (1 µm), grosse Fläche (ca. 100 m² aus rund 400 Mio. Alveolen) und viel Blut direkt an der Wand machen den Gasaustausch schnell. Knorpelspangen gibt es in Luftröhre und Bronchien, nicht in den Alveolen; eine dicke Schleimschicht würde den Weg verlängern.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gasaustausch-10",
+      "lernzielId": "lz-gasaustausch",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst der Vorgang, bei dem Teilchen von selbst vom Ort hoher Konzentration zum Ort niedriger Konzentration wandern – so wie O2 aus den Alveolen ins Blut?",
+      "akzeptiert": [
+        "Diffusion"
+      ],
+      "erklaerung": "Das ist die **Diffusion**. Sie läuft ohne Energieaufwand ab, solange ein Konzentrationsunterschied besteht. Schreibweise: Diffusion – zwei f, ein s.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gasaustausch-11",
+      "lernzielId": "lz-gasaustausch",
+      "typ": "wahrfalsch",
+      "frage": "Das Blut, das von der Lunge weg zum Herzen fliesst, ist sauerstoffarm.",
+      "richtig": false,
+      "erklaerung": "Das Blut hat in der Lunge Sauerstoff aufgenommen und CO2 abgegeben – es fliesst **sauerstoffreich** weiter. Sauerstoffarm ist das Blut, das aus dem Körper **zur** Lunge kommt.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gasaustausch-12",
+      "lernzielId": "lz-gasaustausch",
+      "typ": "einfachwahl",
+      "frage": "Wie verändert sich das Blut, während es in einer Kapillare an einem Lungenbläschen vorbeifliesst?",
+      "optionen": [
+        "Es enthält danach weniger O2 und mehr CO2.",
+        "Es enthält danach mehr O2 und mehr CO2.",
+        "Es enthält danach mehr O2 und weniger CO2.",
+        "Es bleibt gleich, in der Lunge wird es nur durchgepumpt."
+      ],
+      "richtig": 2,
+      "erklaerung": "In der Lunge diffundiert O2 ins Blut und CO2 aus dem Blut in die Alveolen: Das Blut wird **sauerstoffreicher und CO2-ärmer**. Im Gewebe passiert das Gegenteil.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gasaustausch-13",
+      "lernzielId": "lz-gasaustausch",
+      "typ": "einfachwahl",
+      "frage": "Beim Sport verbrauchen deine Muskelzellen viel mehr Sauerstoff. Was bedeutet das für den Gasaustausch zwischen Blut und Muskelzelle?",
+      "optionen": [
+        "Im Blut sinkt der O2-Gehalt unter den der Zelle; das Gefälle kehrt sich um, O2 diffundiert zurück ins Blut.",
+        "An der Diffusion ändert sich nichts, denn wie schnell sie läuft, hängt nur von der Dicke der Wand ab.",
+        "In der Zelle sinkt der O2-Gehalt stärker; das Gefälle zum Blut wird grösser, mehr O2 diffundiert hinein.",
+        "Das zusätzliche CO2 in der Zelle verdrängt den Sauerstoff, deshalb gelangt weniger O2 hinein."
+      ],
+      "richtig": 2,
+      "erklaerung": "Mehr Zellatmung heisst: In der Zelle wird O2 schneller verbraucht, die O2-Konzentration dort sinkt. Der Unterschied zum Blut wird grösser, also diffundiert mehr O2 in die Zelle. Das Gefälle zeigt weiterhin vom Blut in die Zelle. Gleichzeitig entsteht mehr CO2, das – seinem eigenen Gefälle folgend – ins Blut diffundiert; es verdrängt den Sauerstoff nicht.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-gasaustausch-14",
+      "lernzielId": "lz-gasaustausch",
+      "typ": "einfachwahl",
+      "frage": "In der Lunge diffundiert ständig Sauerstoff aus den Lungenbläschen ins Blut. Weshalb gleichen sich die O2-Konzentrationen in Alveole und Kapillare trotzdem nicht aus, sodass der Gasaustausch zum Stillstand käme?",
+      "optionen": [
+        "Die Lungenbläschen bilden laufend neuen Sauerstoff, sodass dort immer mehr O2 bleibt.",
+        "Das Blut fliesst weiter und nimmt das O2 mit, und beim Atmen kommt frische Luft nach.",
+        "Diffusion läuft auch ohne Konzentrationsunterschied weiter, solange das Zwerchfell arbeitet.",
+        "Das Gefälle zeigt vom Blut zur Alveole; das Herz drückt den Sauerstoff dagegen ins Blut."
+      ],
+      "richtig": 1,
+      "erklaerung": "Das Gefälle bleibt erhalten, weil zwei Schritte der Atmung zusammenspielen: Der **Transport im Blut** führt das sauerstoffreiche Blut ständig weg und bringt neues sauerstoffarmes Blut heran, und die **Ventilation** (Ein- und Ausatmen) erneuert die Luft in den Lungenbläschen. Ohne Konzentrationsunterschied gäbe es keine Diffusion – und Sauerstoff entsteht in den Alveolen nicht.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-gasaustausch-15",
+      "lernzielId": "lz-gasaustausch",
+      "typ": "wahrfalsch",
+      "frage": "Sammelt sich bei einer schweren Lungenentzündung Flüssigkeit in den Lungenbläschen und ihrer Wand, wird der Weg für die Gase länger und der Gasaustausch verschlechtert sich.",
+      "richtig": true,
+      "erklaerung": "Der Gasaustausch ist so schnell, weil die Wand nur 1 µm dünn ist. Flüssigkeit verlängert den Diffusionsweg und verkleinert die nutzbare Fläche – Betroffene bekommen schlechter Luft (Lungenentzündung ergänzt, nicht auf dem Blatt).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-gasaustausch-16",
+      "lernzielId": "lz-gasaustausch",
+      "typ": "offen",
+      "frage": "Erkläre, was man als **Gasaustausch** bezeichnet, und beschreibe die beiden Orte, an denen er stattfindet – jeweils mit der Richtung von O2 und CO2.",
+      "musterloesung": "Als **Gasaustausch** bezeichnet man den Austausch von **Sauerstoff** und **Kohlenstoffdioxid** durch **Diffusion**. 1. In der **Lunge**: Zwischen den **Lungenbläschen (Alveolen)** und den **Kapillaren**, die sie umspinnen, gelangt Sauerstoff aus den Alveolen ins Blut und Kohlenstoffdioxid aus dem Blut in die Alveolen; es wird anschliessend ausgeatmet. Die Wand ist nur 1 µm dünn, die Fläche beträgt rund 100 m². 2. Im **Gewebe**: Zwischen dem **Blut** und den **Körperzellen** gelangt Sauerstoff aus dem Blut in die Zellen (für die Zellatmung) und Kohlenstoffdioxid aus den Zellen ins Blut.",
+      "stichworte": [
+        "Austausch von O2 und CO2",
+        "Diffusion",
+        "Lunge: Alveolen ↔ Kapillaren",
+        "O2 ins Blut, CO2 in die Alveolen",
+        "Gewebe: Blut ↔ Zellen",
+        "O2 in die Zellen, CO2 ins Blut"
+      ],
+      "erklaerung": "Gefragt sind Definition (Austausch von O2 und CO2), Mechanismus (Diffusion) und beide Orte mit den Richtungen. Wer nur die Lunge nennt, hat die Hälfte.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gasaustausch-17",
+      "lernzielId": "lz-gasaustausch",
+      "typ": "offen",
+      "frage": "Fische atmen mit **Kiemen**. Kiemen bestehen aus sehr vielen, hauchdünnen, stark durchbluteten Kiemenblättchen. Vergleiche mit der Lunge: Welche gemeinsamen Merkmale sorgen für einen guten Gasaustausch?",
+      "musterloesung": "Kiemen und Lunge lösen dieselbe Aufgabe – den **Gasaustausch** (O2 ins Blut, CO2 hinaus) – mit denselben Bauprinzipien: 1. **Grosse Oberfläche**: viele kleine Kiemenblättchen bzw. rund 400 Millionen Lungenbläschen (Prinzip der Oberflächenvergrösserung). 2. **Dünne Wand**: kurzer Diffusionsweg (Lunge 1 µm). 3. **Dichte Durchblutung** durch Kapillaren, die das aufgenommene O2 sofort wegtransportieren und CO2 heranbringen, damit das Konzentrationsgefälle erhalten bleibt. Der Unterschied: Der Fisch nimmt den Sauerstoff aus dem Wasser auf, wir aus der Luft.",
+      "stichworte": [
+        "grosse Oberfläche",
+        "Oberflächenvergrösserung",
+        "dünne Wand / kurzer Weg",
+        "viele Kapillaren / gute Durchblutung",
+        "Diffusion",
+        "Wasser statt Luft"
+      ],
+      "erklaerung": "Transferaufgabe: Du überträgst die Merkmale der Lunge (Fläche, dünne Wand, Kapillaren) auf ein anderes Atmungsorgan. Kiemen sind ergänzt, nicht auf dem Blatt.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-luftzusammensetzung-01",
+      "lernzielId": "lz-luftzusammensetzung",
+      "typ": "zahl",
+      "frage": "Wie viel Prozent **Sauerstoff** enthält die Einatmungsluft?",
+      "richtig": 21,
+      "einheit": "%",
+      "erklaerung": "Frische Luft (Einatmungsluft) enthält **21 %** Sauerstoff.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-luftzusammensetzung-02",
+      "lernzielId": "lz-luftzusammensetzung",
+      "typ": "zahl",
+      "frage": "Wie viel Prozent **Sauerstoff** enthält die Ausatmungsluft?",
+      "richtig": 17,
+      "einheit": "%",
+      "erklaerung": "Die Ausatmungsluft enthält noch **17 %** Sauerstoff. Aufgenommen werden also nur etwa 21 % − 17 % = 4 %.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-luftzusammensetzung-03",
+      "lernzielId": "lz-luftzusammensetzung",
+      "typ": "zahl",
+      "frage": "Wie viel Prozent **Kohlenstoffdioxid** enthält die Einatmungsluft?",
+      "richtig": 0.04,
+      "einheit": "%",
+      "erklaerung": "Frische Luft enthält nur **0,04 %** CO2 (= 400 ppm).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-luftzusammensetzung-04",
+      "lernzielId": "lz-luftzusammensetzung",
+      "typ": "zahl",
+      "frage": "Wie viel Prozent **Kohlenstoffdioxid** enthält die Ausatmungsluft? (Gerundet ist auch richtig.)",
+      "richtig": 4.04,
+      "toleranz": 0.04,
+      "einheit": "%",
+      "erklaerung": "Die Ausatmungsluft enthält **4,04 %** CO2 (gerundet 4 %) – rund 100-mal mehr als die Einatmungsluft. Das zusätzliche CO2 stammt aus der Zellatmung.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-luftzusammensetzung-05",
+      "lernzielId": "lz-luftzusammensetzung",
+      "typ": "zuordnen",
+      "frage": "Ordne jedem Bestandteil seinen Anteil in der **Einatmungsluft** zu.",
+      "paare": [
+        {
+          "links": "Stickstoff",
+          "rechts": "78 %"
+        },
+        {
+          "links": "Sauerstoff",
+          "rechts": "21 %"
+        },
+        {
+          "links": "Edelgase",
+          "rechts": "0,96 %"
+        },
+        {
+          "links": "Kohlenstoffdioxid",
+          "rechts": "0,04 %"
+        }
+      ],
+      "erklaerung": "Einatmungsluft: 78 % Stickstoff, 21 % Sauerstoff, 0,96 % Edelgase, 0,04 % Kohlenstoffdioxid – zusammen 100 %.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-luftzusammensetzung-06",
+      "lernzielId": "lz-luftzusammensetzung",
+      "typ": "einfachwahl",
+      "frage": "Welcher Bestandteil der Luft hat in der Ausatmungsluft **denselben Anteil** wie in der Einatmungsluft?",
+      "optionen": [
+        "Sauerstoff",
+        "Stickstoff",
+        "Kohlenstoffdioxid",
+        "keiner – alle Anteile verändern sich"
+      ],
+      "richtig": 1,
+      "erklaerung": "**Stickstoff** (78 %) und die Edelgase (0,96 %) werden vom Körper nicht gebraucht – ihr Anteil bleibt gleich. Sauerstoff sinkt von 21 % auf 17 %, Kohlenstoffdioxid steigt von 0,04 % auf 4,04 %.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-luftzusammensetzung-07",
+      "lernzielId": "lz-luftzusammensetzung",
+      "typ": "zahl",
+      "frage": "Das CO2-Messgerät misst den CO2-Gehalt nicht in %, sondern in **ppm**. Wie viel ppm CO2 enthält «frische» Luft (Einatmungsluft)?",
+      "richtig": 400,
+      "einheit": "ppm",
+      "erklaerung": "Frische Luft enthält 0,04 % CO2. 1 % = 10'000 ppm, also 0,04 % = 0,04 · 10'000 = **400 ppm**. (Anders gerechnet: 0,04 % = 4 von 10'000 = 400 von 1'000'000.)",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-luftzusammensetzung-08",
+      "lernzielId": "lz-luftzusammensetzung",
+      "typ": "zahl",
+      "frage": "Wie viel ppm CO2 enthält die **Ausatmungsluft**?",
+      "richtig": 40400,
+      "toleranz": 400,
+      "einheit": "ppm",
+      "erklaerung": "Die Ausatmungsluft enthält 4,04 % CO2. 4,04 · 10'000 ppm = **40'400 ppm** (gerundet 40'000 ppm). Zum Vergleich: Dauerhaft über 10'000 ppm in der Raumluft ist schädlich. Kurzes Rückatmen weniger Atemzüge – bei der Beatmung oder in einen Beutel bei Hyperventilation – ist dagegen unbedenklich bzw. sogar erwünscht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-luftzusammensetzung-09",
+      "lernzielId": "lz-luftzusammensetzung",
+      "typ": "wahrfalsch",
+      "frage": "Die Ausatmungsluft enthält keinen Sauerstoff mehr.",
+      "richtig": false,
+      "erklaerung": "Die Ausatmungsluft enthält noch ca. **17 %** Sauerstoff. Nur etwa 4 Prozentpunkte der eingeatmeten 21 % werden aufgenommen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-luftzusammensetzung-10",
+      "lernzielId": "lz-luftzusammensetzung",
+      "typ": "kurzantwort",
+      "frage": "Wofür steht die Einheit **ppm**? (englisch oder deutsch)",
+      "akzeptiert": [
+        "parts per million",
+        "Teile pro Million",
+        "Teile von einer Million",
+        "Teile pro eine Million",
+        "Millionstel",
+        "Anteile pro Million"
+      ],
+      "erklaerung": "ppm = **parts per million**, also Teile pro Million: 1 ppm bedeutet, dass auf eine Million Teile genau ein Teil des Stoffes entfällt.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-luftzusammensetzung-11",
+      "lernzielId": "lz-luftzusammensetzung",
+      "typ": "offen",
+      "frage": "Erläutere, weshalb es überhaupt möglich ist, einen Menschen zu **beatmen**, wenn man ihm dabei ja «verbrauchte» Ausatmungsluft in die Lunge pustet.",
+      "musterloesung": "Beim Atmen wird nur ein kleiner Teil des Sauerstoffs aufgenommen: Die Einatmungsluft enthält **21 %** Sauerstoff, die Ausatmungsluft immer noch ca. **17 %**. Die Ausatmungsluft der helfenden Person enthält also noch genügend Sauerstoff, um die Lunge der beatmeten Person zu versorgen – in ihren Lungenbläschen kann Sauerstoff ins Blut diffundieren. Der höhere CO2-Gehalt (ca. 4 %) schadet bei den wenigen Atemzügen der Beatmung nicht – gefährlich wäre erst ein langer Aufenthalt in Raumluft mit über 10'000 ppm.",
+      "stichworte": [
+        "Ausatmungsluft enthält noch ca. 17 % O2",
+        "nur ca. 4 % werden aufgenommen",
+        "genug O2 für den Gasaustausch"
+      ],
+      "erklaerung": "Das entscheidende Argument ist die Zahl: 17 % Sauerstoff in der Ausatmungsluft. Wer zusätzlich den Vergleich 21 % → 17 % zeigt, hat eine vollständige Antwort.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-luftzusammensetzung-12",
+      "lernzielId": "lz-luftzusammensetzung",
+      "typ": "einfachwahl",
+      "frage": "Das CO2-Messgerät im Schulzimmer zeigt **1600 ppm**. Wie beurteilt das BAG diese Luftqualität?",
+      "optionen": [
+        "gut",
+        "mässig",
+        "niedrig",
+        "inakzeptabel"
+      ],
+      "richtig": 2,
+      "erklaerung": "BAG: ≤ 1000 ppm gut, 1000–1400 mässig, **1400–2000 niedrig**, > 2000 inakzeptabel. 1600 ppm liegt im Bereich «niedrig» – Zeit zum Lüften.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-luftzusammensetzung-13",
+      "lernzielId": "lz-luftzusammensetzung",
+      "typ": "zuordnen",
+      "frage": "Ordne die gemessenen CO2-Werte der Luftqualität nach BAG zu.",
+      "paare": [
+        {
+          "links": "650 ppm",
+          "rechts": "gut"
+        },
+        {
+          "links": "1200 ppm",
+          "rechts": "mässig"
+        },
+        {
+          "links": "1800 ppm",
+          "rechts": "niedrig"
+        },
+        {
+          "links": "2500 ppm",
+          "rechts": "inakzeptabel"
+        }
+      ],
+      "erklaerung": "Die BAG-Grenzen: bis 1000 ppm gut, 1000–1400 mässig, 1400–2000 niedrig, über 2000 inakzeptabel.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-luftzusammensetzung-14",
+      "lernzielId": "lz-luftzusammensetzung",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aussagen zu CO2 in Innenräumen stimmen laut Arbeitsblatt? Wähle alle richtigen.",
+      "optionen": [
+        "Jede Person im Raum erhöht mit ihrer Ausatmungsluft den CO2-Gehalt.",
+        "Regelmässiges Lüften kann die Leistung von Arbeitenden und Lernenden steigern.",
+        "Mit dem CO2-Gehalt steigt auch das Ansteckungsrisiko, weil mehr Aerosole und Keime in der Luft sind.",
+        "Schon ab 1000 ppm besteht unmittelbare Lebensgefahr.",
+        "Ab 2000 ppm enthält die Raumluft praktisch keinen Sauerstoff mehr."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Menschen atmen CO2 aus, Lüften verbessert die Leistung, und hohe CO2-Werte gehen mit mehr Aerosolen und Keimen einher. Ab 1200–1500 ppm drohen Müdigkeit und Kopfschmerzen, aber keine Lebensgefahr (Übelkeit bis Bewusstlosigkeit erst über 10'000 ppm). Auch bei 2000 ppm (0,2 %) ist der Sauerstoffgehalt kaum gesunken.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-luftzusammensetzung-15",
+      "lernzielId": "lz-luftzusammensetzung",
+      "typ": "zahl",
+      "frage": "Wie viele Milliliter **Sauerstoff** sind in 600 ml Einatmungsluft enthalten?",
+      "richtig": 126,
+      "toleranz": 1,
+      "einheit": "ml",
+      "erklaerung": "21 % von 600 ml: 600 · 0,21 = **126 ml** O2. Ohne Taschenrechner: 1 % = 6 ml, 20 % = 120 ml, 21 % = 120 ml + 6 ml = 126 ml.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-luftzusammensetzung-16",
+      "lernzielId": "lz-luftzusammensetzung",
+      "typ": "zahl",
+      "frage": "Bei einem tiefen Atemzug atmest du **2 Liter** Luft ein. Wie viele Milliliter Sauerstoff nimmt dein Körper davon etwa **auf**? (Werte der Ein- und Ausatmungsluft verwenden)",
+      "richtig": 80,
+      "toleranz": 1,
+      "einheit": "ml",
+      "erklaerung": "Aufgenommen wird die Differenz 21 % − 17 % = 4 %. 2 l = 2000 ml; 1 % = 20 ml, also 4 % = **80 ml** O2. (Vereinfachtes Modell mit denselben Prozentwerten wie in Ruhe.)",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-luftzusammensetzung-17",
+      "lernzielId": "lz-luftzusammensetzung",
+      "typ": "zahl",
+      "frage": "Eine ruhende Person macht 12 Atemzüge pro Minute zu je 0,5 l. Wie viele **Milliliter Sauerstoff** nimmt sie pro Minute auf? (Werte der Ein- und Ausatmungsluft verwenden.)",
+      "richtig": 240,
+      "toleranz": 5,
+      "einheit": "ml",
+      "erklaerung": "Luft pro Minute: 12 · 0,5 l = 6 l = 6000 ml. Aufgenommen werden 21 % − 17 % = 4 %: 1 % = 60 ml, also 4 % = **240 ml** O2 pro Minute.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-luftzusammensetzung-18",
+      "lernzielId": "lz-luftzusammensetzung",
+      "typ": "einfachwahl",
+      "frage": "Nach einer Doppellektion mit 24 Personen in einem geschlossenen Zimmer zeigt das Messgerät **2300 ppm** CO2. Viele sind müde und unkonzentriert. Was ist die beste Erklärung und Massnahme?",
+      "optionen": [
+        "Der CO2-Gehalt liegt im Bereich «niedrig»; es genügt, ein Fenster gekippt zu lassen.",
+        "Der Sauerstoffgehalt der Raumluft ist auf etwa 17 % gesunken; deshalb sind alle müde.",
+        "Der CO2-Gehalt ist «inakzeptabel» – er stammt aus der Ausatmungsluft; gründlich lüften.",
+        "Ab 2000 ppm drohen Atemnot und Bewusstlosigkeit; das Zimmer muss sofort geräumt werden."
+      ],
+      "richtig": 2,
+      "erklaerung": "Jede Person gibt mit der Ausatmungsluft (4,04 % CO2) Kohlenstoffdioxid ab. Über 2000 ppm ist die Luftqualität laut BAG **inakzeptabel** (nicht «niedrig», das gilt für 1400–2000 ppm), ab 1200–1500 ppm drohen Schläfrigkeit und Konzentrationsprobleme → **gründlich lüften**. Atemnot bis Bewusstlosigkeit drohen erst über 10'000 ppm. Der Sauerstoffgehalt ist nur leicht gesunken (etwa um so viel, wie das CO2 zunimmt, hier rund 0,2 %) – 17 % hat die Ausatmungsluft, nicht die Raumluft.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-luftzusammensetzung-20",
+      "lernzielId": "lz-luftzusammensetzung",
+      "typ": "offen",
+      "frage": "Die Ausatmungsluft enthält rund **100-mal mehr CO2** als die Einatmungsluft. Erkläre, woher dieses CO2 stammt und welchen Weg es nimmt, bis es ausgeatmet wird.",
+      "musterloesung": "Das CO2 entsteht bei der **Zellatmung** in den **Mitochondrien** aller Körperzellen: Glucose + Sauerstoff → Kohlenstoffdioxid + Wasser + Energie. Aus den Zellen **diffundiert** das CO2 ins Blut (Diffusion zwischen Zelle und Blut), wird im **Blut zur Lunge transportiert** und diffundiert dort aus den Kapillaren in die **Lungenbläschen** (Gasaustausch). Mit dem Ausatmen verlässt es den Körper. So steigt der CO2-Anteil von 0,04 % in der Einatmungsluft auf 4,04 % in der Ausatmungsluft.",
+      "stichworte": [
+        "Zellatmung",
+        "Mitochondrien",
+        "Diffusion Zelle → Blut",
+        "Transport im Blut",
+        "Diffusion Blut → Alveolen",
+        "ausatmen",
+        "0,04 % → 4,04 %"
+      ],
+      "erklaerung": "Diese Aufgabe verknüpft drei Lernziele: Zellatmung (woher), Schritte der Atmung (welcher Weg) und Gasaustausch (Diffusion an zwei Orten).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-luftzusammensetzung-21",
+      "lernzielId": "lz-luftzusammensetzung",
+      "typ": "wahrfalsch",
+      "frage": "Steigt der CO2-Gehalt der Raumluft stark an, können sich auch Atemfrequenz und Atemzugvolumen der Personen im Raum erhöhen.",
+      "richtig": true,
+      "erklaerung": "So steht es auf dem Blatt (Teil 3, S. 4). Mit der Raumluft steigt auch der CO2-Gehalt im Blut, und eine steigende CO2-Konzentration im Blut regt die Atemtätigkeit an (Steuerung der Atmung): Man atmet schneller und tiefer.",
+      "schwierigkeit": 2
+    }
+  ]
+}

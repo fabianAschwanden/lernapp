@@ -1,0 +1,1189 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-ventilation",
+      "zusammenfassung": "Die **Ventilation** (Belüftung) der Lungen ist das Ein- und Ausatmen. Sie beruht auf einer **Druckdifferenz** zwischen dem Gasdruck in den Lungen und dem Druck der Umgebungsluft.\n\n### Physikalische Grundlagen\n- **Gasdruck:** Die Gasteilchen bewegen sich ständig und stossen gegen die Wände. Die Summe aller Stösse ergibt den Gasdruck. Er hängt unter anderem von Temperatur, Teilchenanzahl und Volumen ab.\n- **Boyle-Mariotte-Gesetz** (bei gleicher Temperatur): **p · V = konstant**. Je kleiner das Volumen eines Gases, desto grösser sein Druck – und umgekehrt.\n- Luftteilchen bewegen sich immer vom Ort mit **höherem Druck** zum Ort mit **tieferem Druck**, und zwar so lange, bis kein Druckunterschied mehr besteht (**Druckausgleich**).\n\n### Einatmung (Inspiration) – aktiv\n**Merke: Die Lunge ist kein Muskel!** Andere Muskeln vergrössern den Brustraum (Brustkorb = **Thorax**), und die Lunge wird mitgezogen:\n- **Bauchatmung = Zwerchfellatmung:** Das **Zwerchfell** ist der **wichtigste Atemmuskel**. Es liegt unter der Lunge zwischen Brust- und Bauchhöhle und hat die Form einer **Doppelkuppel**. Spannt es sich an (zieht es sich zusammen), flacht die Kuppel **nach unten** ab → der Brustraum wird in Längsrichtung grösser. Dabei drückt das Zwerchfell die Bauchorgane nach unten, darum wölbt sich der **Bauch nach vorne**.\n- **Brustatmung:** Die **äusseren Zwischenrippenmuskeln** ziehen sich zusammen und heben die Rippen **nach oben aussen** → der Brustraum wird grösser.\n\nAblauf: Brustraum wird grösser → die Lunge wird **gedehnt** → ihr Volumen nimmt zu → der **Druck in den Alveolen sinkt unter den Aussendruck** (Unterdruck) → Luft **strömt ein**, bis zum Druckausgleich.\n\n**Ursache und Wirkung nicht vertauschen:** Wir «ziehen» nicht Luft hinunter, die dann die Lunge dehnt. Die Lunge muss **zuerst gedehnt** werden, damit der Druck in ihr sinkt – **deshalb** strömt Luft ein. Das Einströmen ist die **Folge** der Dehnung.\n\n### Ausatmung (Exspiration) – in Ruhe passiv\nDie Atemmuskeln **entspannen** sich: Das Zwerchfell wird **nach oben** geschoben (wölbt sich wieder), der Brustkorb **senkt sich** → der Brustraum wird kleiner, und die Lunge zieht sich ihrer **Eigenelastizität** folgend zusammen → der Druck in der Lunge steigt über den Aussendruck → Luft strömt aus.\n\n**Aktiv unterstützt** werden kann die Ausatmung (z. B. beim Husten, beim Sport) durch die **Muskeln der Bauchdecke** und die **inneren Zwischenrippenmuskeln**.\n\n### Pleura (Brustfell)\nDas **Brustfell (Pleura)** kleidet den Brustkorb aus. Es ist eine dünne Haut aus **zwei Blättern**:\n\n| Blatt | Lage |\n|---|---|\n| **Lungenfell** (inneres Blatt) | überzieht die Lunge |\n| **Rippenfell** (äusseres Blatt) | kleidet die Brusthöhle von innen aus |\n\nDazwischen liegt die **Pleurahöhle**, wegen ihrer geringen Breite auch **Pleuraspalt** genannt. Darin ist ein **Flüssigkeitsfilm**, aber **keine Luft**. Deshalb **haften** Lungenfell und Rippenfell aneinander, sind aber **seitlich gegeneinander verschiebbar**. So **folgt die Lunge** den Bewegungen von Brustkorb und Zwerchfell.\n\n### Stichverletzung im Brustbereich\nWird das Rippenfell verletzt, dringt **Luft in den Pleuraspalt**. Die beiden Blätter haften nicht mehr aneinander, die Lunge wird nicht mehr gedehnt und **fällt zusammen** («die Lunge kollabiert»). Es strömt **keine Luft** mehr ein – die Person kann ersticken. Die **Atembewegungen** (Zwerchfell, Rippen) sind von aussen aber **weiterhin sichtbar**. Fachbegriff (ergänzt): **Pneumothorax**. Ergänzt: Jeder Lungenflügel liegt in einer eigenen Pleurahöhle – wird nur eine Seite verletzt, fällt meist nur dieser Lungenflügel zusammen.\n\n### Modelle und Versuche\n| Modell | Was es zeigt |\n|---|---|\n| **Luftpumpe** | **Auseinanderziehen** → Volumen im Innenraum grösser → Druck sinkt unter den Aussendruck → Luft strömt ein, bis zum Druckausgleich. **Zusammendrücken** → Volumen im Innenraum kleiner → Druck steigt («die gleiche Menge an Teilchen hat weniger Platz») → sobald er höher ist als der Aussendruck, strömen Luftteilchen aus, bis zum Druckausgleich. |\n| **Lungenmodell (Glockenmodell)** | Gummi nach unten ziehen → Ballone blasen sich auf; nach oben schieben → Luft geht hinaus. **Ballone = Lungenflügel**, **Gummi = Zwerchfell**: Spannt sich das Zwerchfell an, bewegt es sich nach unten, die Lungen werden mitgezogen, ihr Volumen vergrössert sich. Die starre Glocke zeigt nur die Zwerchfellatmung, nicht die Brustatmung (Rippenheben). |\n| **Glasplatten mit Wasser** | **Glasplatten = Lungenfell und Rippenfell**, Wasser = Flüssigkeitsfilm: Sie kleben aneinander, lassen sich aber seitlich problemlos verschieben. |\n| **Hand auf dem Bauch** | Beim Einatmen bewegt sich der Bauch nach vorne – das Zwerchfell flacht ab und drückt die Bauchorgane nach unten und vorne. |\n\n*Ergänzt (nicht im Blatt): der Fachbegriff «Pneumothorax», die getrennten Pleurahöhlen der beiden Lungenflügel und beim Glockenmodell Glocke = Brustkorb, Röhrchen = Luftröhre/Bronchien.*",
+      "merksaetze": [
+        "Die Lunge ist kein Muskel: Zwerchfell und äussere Zwischenrippenmuskeln vergrössern den Brustraum, die Lunge wird mitgedehnt.",
+        "Zuerst wird die Lunge gedehnt, dadurch sinkt der Druck in ihr unter den Aussendruck – erst deshalb strömt Luft ein.",
+        "Boyle-Mariotte: p · V = konstant – je grösser das Volumen, desto kleiner der Druck.",
+        "Die Ausatmung in Ruhe ist passiv: Die Muskeln entspannen sich, die Lunge zieht sich durch ihre Eigenelastizität zusammen.",
+        "Lungenfell und Rippenfell haften dank Flüssigkeitsfilm im Pleuraspalt aneinander; dringt Luft ein, kollabiert die Lunge."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/biologie/atemmechanik.svg",
+          "alt": "Zwei Schnittbilder des Oberkörpers: links Einatmung mit angespanntem, flachem Zwerchfell und gehobenen Rippen, rechts Ausatmung mit entspanntem, nach oben gewölbtem Zwerchfell und gesenkten Rippen",
+          "legende": "Atemmechanik: Einatmung (Inspiration) und Ausatmung (Exspiration)"
+        },
+        {
+          "src": "bilder/biologie/pleura.svg",
+          "alt": "Querschnitt durch den Brustkorb: Rippen, Rippenfell, schmaler Pleuraspalt mit Flüssigkeitsfilm, Lungenfell und Lunge",
+          "legende": "Pleura (Brustfell): Lungenfell und Rippenfell mit dem Pleuraspalt dazwischen"
+        },
+        {
+          "src": "bilder/biologie/pneumothorax.svg",
+          "alt": "Vergleich: links normale Lunge, die dem Brustkorb anliegt; rechts nach einer Stichverletzung Luft im Pleuraspalt und zusammengefallene Lunge",
+          "legende": "Stichverletzung: Luft im Pleuraspalt – die Lunge kollabiert"
+        },
+        {
+          "src": "bilder/biologie/lungenmodell.svg",
+          "alt": "Glockenmodell: Glasglocke mit Y-Röhrchen, an dessen Enden zwei Ballone hängen, unten eine Gummimembran",
+          "legende": "Lungenmodell: Ballone = Lungenflügel, Gummi = Zwerchfell"
+        }
+      ]
+    },
+    {
+      "id": "lz-steuerung",
+      "zusammenfassung": "### Wer steuert die Atmung?\n**Atemtiefe** und **Atemfrequenz** werden **unbewusst** vom **zentralen Nervensystem** gesteuert. Zuständig ist das **Atemzentrum** im **Hirnstamm** (im verlängerten Mark) – *ergänzt, im Blatt steht nur «zentrales Nervensystem»*.\n\n### Was wird gemessen?\nDie Regulation erfolgt im Wesentlichen über die Messung des **Kohlenstoffdioxid-Gehalts (CO2-Gehalts) des Blutes** – nicht in erster Linie über den Sauerstoff. (Ergänzt: Sauerstoffmangel, z. B. in grosser Höhe, kann die Atmung zusätzlich anregen. Die Hauptgrösse ist aber das CO2.)\n- **CO2 steigt** (z. B. bei Anstrengung, beim Luftanhalten, in stickiger Luft) → die Atemtätigkeit wird **angeregt**: tiefer und schneller atmen → mehr CO2 wird abgeatmet.\n- **CO2 sinkt** → über einen **unbewussten Reflex** wird die Atemtätigkeit **gedämpft**.\n\nSo entsteht ein **Regelkreis**: CO2-Gehalt messen → Atmung anpassen → CO2-Gehalt kehrt in den Normalbereich zurück.\n\n### Willentlich beeinflussbar\nObwohl die Atmung unbewusst läuft, kannst du sie **bewusst beeinflussen**: Luft anhalten, absichtlich ruhig oder schnell atmen. Hältst du die Luft an, steigt das CO2 im Blut weiter an, bis der Atemreiz so stark wird, dass du wieder atmen musst.\n\n### Störungen des Regelkreises\n- Lungenerkrankungen\n- Schädel-Hirn-Traumen\n- Schlaganfälle\n- in den **meisten Fällen**: **Stress** oder **Angstgefühle** (→ Hyperventilation)",
+      "merksaetze": [
+        "Die Atmung wird unbewusst vom zentralen Nervensystem gesteuert – im Wesentlichen über den CO2-Gehalt des Blutes, nicht in erster Linie über den Sauerstoff.",
+        "Steigt der CO2-Gehalt im Blut, wird die Atmung angeregt (tiefer und schneller); sinkt er, wird sie gedämpft.",
+        "Die Atmung ist willentlich beeinflussbar; der Regelkreis wird am häufigsten durch Stress und Angst gestört."
+      ]
+    },
+    {
+      "id": "lz-hyperventilation",
+      "zusammenfassung": "### Definition\n**Hyperventilation** ist eine **unphysiologisch vertiefte und/oder beschleunigte Atmung**. Häufigster Grund: **Stress**, starke Gefühle oder ein psychischer Konflikt, vor dem man am liebsten davonlaufen würde, aber nicht kann.\n\n### Ablauf und Symptome\n1. Die Person atmet allmählich immer schneller. Dabei empfindet sie oft **Atemnot** und atmet deshalb noch schneller und tiefer.\n2. Nach einiger Zeit (oft nach wenigen Minuten): **Kribbeln** in Fingern, Ohrläppchen, Wangen oder Lippen.\n3. **Taubheitsgefühl** in Mund und Zunge (Sprechen wird schwierig), evtl. Sehstörungen und schneller Puls.\n4. **Schwindel**, der sich verstärkt, bis zum Gefühl, ohnmächtig zu werden; Schmerzen in der Brust, **Herzklopfen**.\n5. Verkrampfung der Hände und Finger: **Pfötchenstellung**.\n6. Die Symptome machen **Angst**, viele haben das **Gefühl zu ersticken** → die Hyperventilation verstärkt sich weiter (Teufelskreis), in einigen Fällen bis zur **Bewusstlosigkeit**.\n\nEigentlich würde ein sinkender CO2-Partialdruck die Atmung über einen unbewussten Reflex dämpfen – bei der Hyperventilation ist dieser **Regelkreis durchbrochen**.\n\n### Was im Körper passiert\n- Es wird **mehr CO2 abgeatmet**, als der Körper gerade produziert → der **CO2-Partialdruck im Blut sinkt**.\n- Über das Gleichgewicht CO2 + H2O ⇌ H2CO3 ⇌ H⁺ + HCO3⁻ ist weniger H⁺ vorhanden → der **pH-Wert steigt** in den alkalischen (basischen) Bereich = **respiratorische Alkalose**.\n- **Kalzium:** Durch die pH-Veränderung wird vermehrt Kalzium an Proteine gebunden → **Mangel an freiem Kalzium** im Blut. Kalzium ist wichtig für das geordnete Zusammenspiel von Nerven und Muskeln → **Kribbeln, Taubheit, Verkrampfungen bis zur Pfötchenstellung**.\n- **Bohr-Effekt:** Bei höherem pH bindet **Hämoglobin** den Sauerstoff stärker und kann ihn im Gewebe **schlechter abgeben**.\n- **Gehirn:** Der CO2-Partialdruck ist für das zentrale Nervensystem der wichtigste Indikator für die Durchblutung. Viel CO2 → Gefässe im Gehirn erweitern sich. **Wenig CO2 → Gefässe verengen sich** → **weniger Durchblutung** → weniger Sauerstoff im Gehirn (dazu gibt das Hämoglobin O2 schlechter ab) → **Kopfschmerzen, Schwindel, Benommenheit**, evtl. kurzer Bewusstseinsverlust.\n\n**Wichtig:** Das Problem ist **zu wenig CO2** im Blut – nicht zu wenig Sauerstoff in der Luft.\n\n### Hilfe bei Hyperventilation\n- Die Person **beruhigen** und bei ihr bleiben.\n- Bei einem ersten Anfall **erklären**, dass Hyperventilation sehr bedrohlich wirkt, **an sich aber ungefährlich** ist.\n- Zum **ruhigen, langsamen Atmen** anleiten. Wer schon mehrere Anfälle erlebt hat, kann sie oft selbst stoppen, indem er sich zwingt, ruhig zu atmen – obwohl er Atemnot verspürt.\n- Hilft Beruhigen nicht: einige Atemzüge lang in einen **dicht vor den Mund gehaltenen Beutel** atmen. Die Ausatmungsluft enthält rund **100-mal mehr CO2** als Frischluft (4,04 % statt 0,04 %). Die Person atmet dieses **CO2 wieder ein** → der CO2-Partialdruck im Blut steigt → der pH-Wert normalisiert sich → die Symptome klingen ab.",
+      "merksaetze": [
+        "Hyperventilation = unphysiologisch vertiefte und/oder beschleunigte Atmung, meist ausgelöst durch Stress oder Angst.",
+        "Zu viel CO2 wird abgeatmet → pH steigt (respiratorische Alkalose) → weniger freies Kalzium → Kribbeln, Krämpfe, Pfötchenstellung.",
+        "Wenig CO2 verengt die Hirngefässe, und Hämoglobin gibt O2 schlechter ab (Bohr-Effekt) → Schwindel und Benommenheit.",
+        "Hilfe: beruhigen, erklären, dass es ungefährlich ist, zum ruhigen Atmen anleiten, notfalls in einen Beutel atmen lassen (CO2 zurückatmen)."
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-ventilation-01",
+      "lernzielId": "lz-ventilation",
+      "typ": "einfachwahl",
+      "frage": "Worauf beruhen Ein- und Ausatmung?",
+      "optionen": [
+        "Auf der Muskelkraft der Lunge, die sich zusammenzieht und wieder ausdehnt",
+        "Auf dem Sauerstoffmangel in den Alveolen, der die Luft ansaugt",
+        "Auf einem Druckunterschied zwischen der Luft in der Lunge und der Umgebungsluft",
+        "Auf den Flimmerhärchen, die die Luft in die Lunge hinein und wieder hinaus befördern"
+      ],
+      "richtig": 2,
+      "erklaerung": "Ein- und Ausatmung basieren auf der **Druckdifferenz** zwischen dem Gasdruck in den Lungen und dem Druck der Umgebungsluft. Luft strömt immer vom höheren zum tieferen Druck. Die Lunge ist kein Muskel, und die Flimmerhärchen transportieren nur Schleim, keine Atemluft.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ventilation-02",
+      "lernzielId": "lz-ventilation",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst das Gesetz, das den Zusammenhang zwischen Druck und Volumen eines Gases bei konstanter Temperatur beschreibt (p · V = konstant)?",
+      "akzeptiert": [
+        "Boyle-Mariotte-Gesetz",
+        "Gesetz von Boyle-Mariotte",
+        "Boyle-Mariotte",
+        "Boyle-Mariottesches Gesetz",
+        "Boyle-Mariotte'sches Gesetz",
+        "Gesetz von Boyle und Mariotte"
+      ],
+      "erklaerung": "Das **Boyle-Mariotte-Gesetz**: Je kleiner das Volumen eines Gases, desto grösser sein Druck – und umgekehrt. Schreibweise beachten: **Boyle** (mit y) und **Mariotte** (mit zwei t).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ventilation-03",
+      "lernzielId": "lz-ventilation",
+      "typ": "zahl",
+      "frage": "In einem Gefäss befinden sich 4 Liter Luft bei einem Druck von 1000 hPa. Das Volumen wird bei gleicher Temperatur auf **5 Liter** vergrössert. Wie gross ist der Druck danach?",
+      "richtig": 800,
+      "toleranz": 0,
+      "einheit": "hPa",
+      "erklaerung": "Boyle-Mariotte: p · V = konstant. Vorher: 1000 hPa · 4 l = 4000. Nachher: p · 5 l = 4000 → p = 4000 : 5 = **800 hPa**. Grösseres Volumen → kleinerer Druck. Genau das passiert in der Lunge beim Einatmen: Sie wird gedehnt, der Druck sinkt unter den Aussendruck, und Luft strömt ein.",
+      "schwierigkeit": 2,
+      "tipp": "Das Produkt aus Druck und Volumen bleibt gleich."
+    },
+    {
+      "id": "f-ventilation-04",
+      "lernzielId": "lz-ventilation",
+      "typ": "wahrfalsch",
+      "frage": "«Die Lunge ist ein Muskel, der sich beim Einatmen aktiv ausdehnt.»",
+      "richtig": false,
+      "erklaerung": "**Die Lunge ist kein Muskel!** Sie wird von aussen gedehnt: Zwerchfell und äussere Zwischenrippenmuskeln vergrössern den Brustraum, und über die Pleura folgt die Lunge dieser Bewegung.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ventilation-05",
+      "lernzielId": "lz-ventilation",
+      "typ": "reihenfolge",
+      "frage": "Bringe die Vorgänge bei der **Einatmung** in die richtige Reihenfolge.",
+      "elemente": [
+        "Das Zwerchfell spannt sich an und flacht nach unten ab",
+        "Der Brustraum wird grösser",
+        "Die Lunge folgt über die Pleura und wird gedehnt",
+        "Der Druck in den Alveolen sinkt unter den Aussendruck",
+        "Luft strömt ein, bis der Druck ausgeglichen ist"
+      ],
+      "erklaerung": "Zuerst arbeitet der Muskel (Zwerchfell), dadurch vergrössert sich der Brustraum. Weil Lungenfell und Rippenfell aneinander haften, wird die Lunge mitgedehnt. Das grössere Volumen bedeutet einen tieferen Druck (Boyle-Mariotte). Erst jetzt strömt Luft ein – das Einströmen ist die **Folge** der Dehnung.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ventilation-06",
+      "lernzielId": "lz-ventilation",
+      "typ": "reihenfolge",
+      "frage": "Bringe die Vorgänge bei der **ruhigen Ausatmung** in die richtige Reihenfolge.",
+      "elemente": [
+        "Die Atemmuskeln entspannen sich",
+        "Das Zwerchfell wölbt sich nach oben, der Brustkorb senkt sich",
+        "Der Brustraum wird kleiner, die Lunge zieht sich durch ihre Eigenelastizität zusammen",
+        "Der Druck in der Lunge steigt über den Aussendruck",
+        "Luft strömt aus, bis der Druck ausgeglichen ist"
+      ],
+      "erklaerung": "Die ruhige Ausatmung ist **passiv**: Die Muskeln entspannen sich, das Zwerchfell wird nach oben geschoben, der Brustkorb senkt sich. Die Lunge zieht sich dank ihrer **Eigenelastizität** zusammen. Kleineres Volumen → höherer Druck → Luft strömt aus.",
+      "schwierigkeit": 2,
+      "bild": {
+        "src": "bilder/biologie/atemmechanik.svg",
+        "alt": "Zwei Schnittbilder des Oberkörpers: links Einatmung mit flachem Zwerchfell und gehobenen Rippen, rechts Ausatmung mit nach oben gewölbtem Zwerchfell und gesenkten Rippen"
+      }
+    },
+    {
+      "id": "f-ventilation-07",
+      "lernzielId": "lz-ventilation",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst der **wichtigste Atemmuskel**, der wie eine Doppelkuppel zwischen Brust- und Bauchhöhle liegt?",
+      "akzeptiert": [
+        "Zwerchfell",
+        "das Zwerchfell",
+        "Diaphragma"
+      ],
+      "erklaerung": "Das **Zwerchfell** (Fachbegriff: Diaphragma, ergänzt). Schreibweise: **Zwerchfell** mit «ch» und zwei «l». Spannt es sich an, flacht es nach unten ab und vergrössert den Brustraum in Längsrichtung.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ventilation-08",
+      "lernzielId": "lz-ventilation",
+      "typ": "kurzantwort",
+      "frage": "Welche Muskeln heben bei der **Brustatmung** die Rippen nach oben aussen? (genaue Bezeichnung)",
+      "akzeptiert": [
+        "äussere Zwischenrippenmuskeln",
+        "die äusseren Zwischenrippenmuskeln",
+        "äusseren Zwischenrippenmuskeln",
+        "äussere Zwischenrippenmuskulatur",
+        "die äussere Zwischenrippenmuskulatur",
+        "äussere Interkostalmuskeln",
+        "die äusseren Interkostalmuskeln"
+      ],
+      "erklaerung": "Die **äusseren Zwischenrippenmuskeln**. Sie setzen an den Rippen an, ziehen sich zusammen und heben die Rippen nach oben aussen – der Brustraum wird grösser. «Äussere» gehört dazu: Die **inneren** Zwischenrippenmuskeln helfen bei der aktiven Ausatmung. Schreibweise: **Zwischenrippenmuskeln** in einem Wort, «äussere» mit ss.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ventilation-09",
+      "lernzielId": "lz-ventilation",
+      "typ": "zuordnen",
+      "frage": "Gehört der Vorgang zur **Einatmung** oder zur **ruhigen Ausatmung**?",
+      "paare": [
+        {
+          "links": "Das Zwerchfell spannt sich an und flacht ab",
+          "rechts": "Einatmung"
+        },
+        {
+          "links": "Das Zwerchfell entspannt sich und wölbt sich nach oben",
+          "rechts": "Ausatmung"
+        },
+        {
+          "links": "Die Rippen werden nach oben aussen gehoben",
+          "rechts": "Einatmung"
+        },
+        {
+          "links": "Der Brustkorb senkt sich",
+          "rechts": "Ausatmung"
+        },
+        {
+          "links": "Der Druck in den Alveolen ist tiefer als aussen",
+          "rechts": "Einatmung"
+        },
+        {
+          "links": "Die Eigenelastizität zieht die Lunge zusammen",
+          "rechts": "Ausatmung"
+        },
+        {
+          "links": "Der Bauch wölbt sich nach vorne",
+          "rechts": "Einatmung"
+        },
+        {
+          "links": "Der Druck in der Lunge ist höher als aussen",
+          "rechts": "Ausatmung"
+        }
+      ],
+      "erklaerung": "**Einatmung:** Muskeln spannen sich an (Zwerchfell flacht ab, Rippen heben sich), der Bauch wölbt sich nach vorne, die Lunge wird gedehnt, der Druck in ihr sinkt unter den Aussendruck. **Ausatmung:** Muskeln entspannen sich, das Zwerchfell wölbt sich nach oben, der Brustkorb senkt sich, die Lunge zieht sich durch ihre Eigenelastizität zusammen, der Druck steigt über den Aussendruck.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ventilation-10",
+      "lernzielId": "lz-ventilation",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Muskeln können eine **kräftige, aktive Ausatmung** (z. B. beim Husten oder Ausblasen von Kerzen) unterstützen?",
+      "optionen": [
+        "Die äusseren Zwischenrippenmuskeln",
+        "Die Muskeln der Bauchdecke",
+        "Die Muskulatur der Lunge",
+        "Die inneren Zwischenrippenmuskeln",
+        "Das Zwerchfell, indem es sich anspannt"
+      ],
+      "richtig": [
+        1,
+        3
+      ],
+      "erklaerung": "Die Ausatmung ist in Ruhe passiv, kann aber aktiv unterstützt werden durch die **Muskeln der Bauchdecke** und die **inneren Zwischenrippenmuskeln**. Die äusseren Zwischenrippenmuskeln und das angespannte Zwerchfell dienen der **Einatmung**. Eine Lungenmuskulatur, die atmet, gibt es nicht – die Lunge ist kein Muskel.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ventilation-11",
+      "lernzielId": "lz-ventilation",
+      "typ": "zuordnen",
+      "frage": "Ordne jedem Begriff zum Brustfell die passende Beschreibung zu.",
+      "paare": [
+        {
+          "links": "Pleura (Brustfell)",
+          "rechts": "Ganzes aus zwei Blättern mit einem Spalt dazwischen"
+        },
+        {
+          "links": "Lungenfell",
+          "rechts": "inneres Blatt, liegt der Lunge direkt auf"
+        },
+        {
+          "links": "Rippenfell",
+          "rechts": "äusseres Blatt, liegt der Brustwand innen an"
+        },
+        {
+          "links": "Pleuraspalt (Pleurahöhle)",
+          "rechts": "Raum zwischen den Blättern, ohne Luft"
+        },
+        {
+          "links": "Flüssigkeitsfilm",
+          "rechts": "lässt die Blätter aneinander haften, aber seitlich gleiten"
+        }
+      ],
+      "erklaerung": "Die **Pleura** besteht aus dem **Lungenfell** (auf der Lunge) und dem **Rippenfell** (an der Innenwand der Brusthöhle). Dazwischen liegt der **Pleuraspalt** mit einem **Flüssigkeitsfilm**, aber ohne Luft. Darum haften die Blätter aneinander und die Lunge folgt jeder Bewegung von Brustkorb und Zwerchfell.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ventilation-12",
+      "lernzielId": "lz-ventilation",
+      "typ": "kurzantwort",
+      "frage": "Bei einer Stichverletzung im Brustbereich durchsticht die Klinge zuerst die Brustwand und dann **das erste Blatt des Brustfells**. Wie heisst dieses Blatt?",
+      "akzeptiert": [
+        "Rippenfell",
+        "das Rippenfell",
+        "Pleura parietalis"
+      ],
+      "erklaerung": "Zuerst trifft die Klinge auf das **Rippenfell**: Es ist das äussere Blatt und kleidet die Brusthöhle von innen aus. Erst dahinter liegen der Pleuraspalt und das **Lungenfell** auf der Lunge. Schreibweise: **Rippenfell** mit zwei p und zwei l.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ventilation-13",
+      "lernzielId": "lz-ventilation",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst der sehr schmale Raum mit Flüssigkeitsfilm zwischen den beiden Blättern des Brustfells?",
+      "akzeptiert": [
+        "Pleuraspalt",
+        "Pleurahöhle",
+        "der Pleuraspalt",
+        "die Pleurahöhle"
+      ],
+      "erklaerung": "Die **Pleurahöhle**, wegen ihrer geringen Breite auch **Pleuraspalt** genannt. Schreibweise: **Pleura** mit «eu». Darin ist ein Flüssigkeitsfilm, aber keine Luft.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ventilation-14",
+      "lernzielId": "lz-ventilation",
+      "typ": "einfachwahl",
+      "frage": "Im Versuch benetzt du eine Glasplatte mit Wasser und legst eine zweite darauf. Was beobachtest du, und wofür steht der Versuch?",
+      "optionen": [
+        "Sie haften aneinander, lassen sich aber seitlich verschieben – wie Lungenfell und Rippenfell",
+        "Sie lassen sich leicht voneinander abheben, aber nicht seitlich verschieben – wie die Knorpelspangen der Luftröhre",
+        "Die Platten gleiten voneinander weg – wie die Lunge, die sich bei der Ausatmung vom Brustkorb löst",
+        "Die Platten saugen sich fest und bewegen sich gar nicht mehr – wie das Zwerchfell beim Anspannen"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Glasplatten entsprechen **Lungenfell und Rippenfell**, das Wasser dem **Flüssigkeitsfilm** im Pleuraspalt. Deshalb kleben die Platten aneinander, seitliches Verschieben ist aber problemlos möglich. So bleibt die Lunge am Brustkorb «hängen» und kann trotzdem bei jeder Bewegung mitgleiten.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ventilation-15",
+      "lernzielId": "lz-ventilation",
+      "typ": "zuordnen",
+      "frage": "Lungenmodell (Glockenmodell): Welchem Körperteil bzw. Vorgang entspricht jeder Teil des Modells?",
+      "paare": [
+        {
+          "links": "Ballone",
+          "rechts": "Lungenflügel"
+        },
+        {
+          "links": "Gummi unten an der Glocke",
+          "rechts": "Zwerchfell"
+        },
+        {
+          "links": "Glasglocke",
+          "rechts": "Brustkorb"
+        },
+        {
+          "links": "Röhrchen, an dem die Ballone hängen",
+          "rechts": "Luftröhre und Bronchien"
+        },
+        {
+          "links": "Gummi nach unten ziehen",
+          "rechts": "Anspannen: die Kuppel flacht nach unten ab"
+        }
+      ],
+      "erklaerung": "**Ballone = Lungenflügel**, **Gummi = Zwerchfell** (so in den Lösungen). Zieht man den Gummi nach unten, blasen sich die Ballone auf: Wenn sich das Zwerchfell anspannt, bewegt es sich nach unten, die Lungen werden mitgezogen, ihr Volumen vergrössert sich. Glocke = Brustkorb und Röhrchen = Luftröhre/Bronchien sind ergänzt. Grenze des Modells: Die Glocke ist starr – die **Brustatmung** (Rippen heben sich) zeigt es nicht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ventilation-16",
+      "lernzielId": "lz-ventilation",
+      "typ": "offen",
+      "frage": "Jemand sagt: «Beim Einatmen ziehen wir Luft in unsere Lungen hinunter. Deshalb werden die Lungen beim Einatmen gedehnt.» Erläutere, weshalb diese Sätze **nicht korrekt** sind.",
+      "musterloesung": "Ursache und Wirkung sind vertauscht. Das Einströmen von Luft ist die **Folge** der Dehnung, nicht ihre Ursache. Die Lungen müssen **zuerst gedehnt** werden (durch Zwerchfell und äussere Zwischenrippenmuskeln, über die Pleura), damit der Druck in der Lunge **unter den Umgebungsdruck sinkt**. Dann strömt Luft ein, bis zum Druckausgleich. Man kann Luft nicht «ziehen» – Luft strömt immer vom höheren zum tieferen Druck.",
+      "stichworte": [
+        "Ursache und Wirkung vertauscht",
+        "Lunge wird zuerst gedehnt",
+        "Druck in der Lunge sinkt unter den Aussendruck",
+        "Luft strömt ein bis zum Druckausgleich",
+        "Lunge ist kein Muskel"
+      ],
+      "erklaerung": "Das ist die Lernkontrolle 1 aus Teil 2. Entscheidend ist die Reihenfolge: **Dehnung → Unterdruck → Einströmen**.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-ventilation-17",
+      "lernzielId": "lz-ventilation",
+      "typ": "offen",
+      "frage": "Stichverletzungen im Brustbereich sind sehr gefährlich: Die verletzte Person könnte nicht nur verbluten, sondern auch **ersticken**. Erläutere, weshalb.",
+      "musterloesung": "Bei einer Verletzung des Rippenfells dringt **Luft in die Pleurahöhle** (den Raum zwischen Lungenfell und Rippenfell). Die beiden Felle **kleben dann nicht mehr aneinander**. Deshalb wird die Lunge nicht mehr gedehnt – **die Lunge kollabiert**. Der Druck in der Lunge sinkt nicht mehr unter den Aussendruck – somit **strömt keine Luft mehr ein**. Die verletzte Person macht aber immer noch Atembewegungen: Zwerchfell und Rippen bewegen sich weiter, was von aussen sichtbar ist – die Lunge wird aber nicht mehr mitgezogen.",
+      "stichworte": [
+        "Luft dringt in den Pleuraspalt / die Pleurahöhle",
+        "Lungenfell und Rippenfell haften nicht mehr",
+        "Lunge wird nicht mehr gedehnt, kollabiert",
+        "kein Unterdruck, keine Luft strömt ein",
+        "Atembewegungen trotzdem sichtbar"
+      ],
+      "erklaerung": "Lernkontrolle 2 aus Teil 2. Der Fachbegriff für Luft im Pleuraspalt ist **Pneumothorax** (ergänzt).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-ventilation-18",
+      "lernzielId": "lz-ventilation",
+      "typ": "offen",
+      "frage": "Lege eine Hand auf deinen Bauch und atme ruhig ein. In welche Richtung bewegt sich der Bauch, und **weshalb**?",
+      "musterloesung": "Der Bauch wölbt sich beim Einatmen **nach vorne**. Beim Einatmen spannt sich das **Zwerchfell** an (es kontrahiert) und flacht dadurch **nach unten** ab. Dabei drückt es auf die **Bauchorgane** darunter. Diese weichen nach vorne aus, weil die Bauchdecke nachgibt (hinten ist die Wirbelsäule). Darum nennt man die Zwerchfellatmung auch **Bauchatmung**.",
+      "stichworte": [
+        "Bauch wölbt sich nach vorne",
+        "Zwerchfell spannt sich an, flacht nach unten ab",
+        "drückt die Bauchorgane nach unten",
+        "Bauchdecke gibt nach",
+        "Bauchatmung = Zwerchfellatmung"
+      ],
+      "erklaerung": "Versuch «Torso und eigener Körper» aus Teil 2. Bei der Ausatmung entspannt sich das Zwerchfell und wölbt sich nach oben, der Bauch geht wieder zurück.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ventilation-19",
+      "lernzielId": "lz-ventilation",
+      "typ": "einfachwahl",
+      "frage": "Du liegst 1,5 m unter Wasser und willst durch einen 1,6 m langen Schnorchel Luft von der Oberfläche einatmen. Das klappt kaum. Warum?",
+      "optionen": [
+        "Der Sauerstoff steigt im langen Rohr nach oben, weil er leichter ist als Stickstoff.",
+        "Die Flimmerhärchen können die Luft nicht durch ein so langes Rohr nachziehen.",
+        "Das Wasser hält das Zwerchfell fest, sodass es sich nicht mehr anspannen kann.",
+        "Das Wasser drückt auf den Brustkorb; die Muskeln senken den Lungendruck kaum."
+      ],
+      "richtig": 3,
+      "erklaerung": "Einatmen klappt nur, wenn der Druck in der Lunge **tiefer** ist als der Druck der Luft, die einströmen soll – hier der Luftdruck an der Oberfläche. Das Wasser drückt aber mit zusätzlichem Druck auf Brustkorb und Bauch. Die Atemmuskeln müssten den Brustraum gegen diesen Druck vergrössern – das schaffen sie schon nach gut einem Meter kaum. Dazu kommt (ergänzt): Ein so langes Rohr fasst etwa ein Atemzugvolumen. Man atmet also vor allem die eigene, sauerstoffärmere Ausatmungsluft wieder ein. Darum sind Schnorchel kurz. Flimmerhärchen transportieren nur Schleim, und Sauerstoff ist nicht leichter als Stickstoff. (Transfer, nicht im Blatt.)",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-ventilation-20",
+      "lernzielId": "lz-ventilation",
+      "typ": "mehrfachwahl",
+      "frage": "Früher trugen Frauen sehr eng geschnürte **Korsetts** um Bauch und Taille. Der Bauch konnte beim Einatmen kaum nach vorne ausweichen. Welche Aussagen sind **richtig**?",
+      "optionen": [
+        "Die Lunge musste nun selbst mehr Muskelkraft aufbringen.",
+        "Das Zwerchfell konnte sich beim Einatmen weniger weit nach unten abflachen.",
+        "Die Rippen wurden beim Einatmen stärker angehoben – die Brustatmung wurde wichtiger.",
+        "Die ruhige Ausatmung brauchte nun viel Muskelkraft der Bauchdecke.",
+        "Ohne Bauchbewegung konnte gar keine Luft mehr in die Lunge strömen."
+      ],
+      "richtig": [
+        1,
+        2
+      ],
+      "erklaerung": "Flacht das Zwerchfell ab, drückt es die Bauchorgane nach unten – sie weichen nach vorne aus, die Bauchdecke wölbt sich. Hält ein Korsett den Bauch fest, haben die Bauchorgane keinen Platz: Das Zwerchfell kann weniger weit nach unten abflachen. Die **Brustatmung** (Rippen werden nach oben aussen gehoben) gleicht das aus – Einatmen bleibt also möglich. Die Lunge ist kein Muskel, und die ruhige Ausatmung bleibt **passiv**. (Transfer, nicht im Blatt.)",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-ventilation-21",
+      "lernzielId": "lz-ventilation",
+      "typ": "kurzantwort",
+      "frage": "Wie lautet der Fachbegriff für das **Brustfell**?",
+      "akzeptiert": [
+        "Pleura",
+        "die Pleura"
+      ],
+      "erklaerung": "**Pleura** = Brustfell. Sie besteht aus zwei Blättern: Lungenfell und Rippenfell. Schreibweise: Pl**eu**ra mit «eu».",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ventilation-22",
+      "lernzielId": "lz-ventilation",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst das Blatt des Brustfells, das die **Lunge überzieht**?",
+      "akzeptiert": [
+        "Lungenfell",
+        "das Lungenfell",
+        "Pleura visceralis"
+      ],
+      "erklaerung": "Das **Lungenfell** ist das innere Blatt und überzieht die Lunge. Das äussere Blatt ist das Rippenfell. Schreibweise: **Lungenfell** in einem Wort, mit zwei l.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ventilation-23",
+      "lernzielId": "lz-ventilation",
+      "typ": "kurzantwort",
+      "frage": "Wie lautet der Fachbegriff für die **Einatmung**?",
+      "akzeptiert": [
+        "Inspiration",
+        "die Inspiration"
+      ],
+      "erklaerung": "**Inspiration** = Einatmung (lateinisch *inspirare* = hineinatmen). Sie ist aktiv: Zwerchfell und äussere Zwischenrippenmuskeln arbeiten.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ventilation-24",
+      "lernzielId": "lz-ventilation",
+      "typ": "kurzantwort",
+      "frage": "Wie lautet der Fachbegriff für die **Ausatmung**?",
+      "akzeptiert": [
+        "Exspiration",
+        "die Exspiration"
+      ],
+      "erklaerung": "**Exspiration** = Ausatmung. Schreibweise: Ex**s**piration mit **s** nach dem x (aus *ex* = heraus und *spirare* = atmen) – «Expiration» ist falsch.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ventilation-25",
+      "lernzielId": "lz-ventilation",
+      "typ": "kurzantwort",
+      "frage": "Wie lautet der Fachbegriff für den **Brustkorb**?",
+      "akzeptiert": [
+        "Thorax",
+        "der Thorax"
+      ],
+      "erklaerung": "**Thorax** = Brustkorb. Schreibweise: **Th** am Anfang und x am Ende. Davon abgeleitet: Pneumothorax = Luft im Brustkorb (Pleuraspalt).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ventilation-26",
+      "lernzielId": "lz-ventilation",
+      "typ": "kurzantwort",
+      "frage": "Bei der ruhigen Ausatmung entspannen sich die Atemmuskeln, und die Lunge zieht sich von selbst zusammen. Welcher Eigenschaft der Lunge folgt sie dabei?",
+      "akzeptiert": [
+        "Eigenelastizität",
+        "der Eigenelastizität",
+        "ihrer Eigenelastizität",
+        "die Eigenelastizität"
+      ],
+      "erklaerung": "Der **Eigenelastizität**: Die gedehnte Lunge zieht sich wie ein gedehntes Gummiband von selbst zusammen. Deshalb ist die ruhige Ausatmung **passiv**. Schreibweise: **Eigenelastizität** in einem Wort, mit «z» vor dem «ität».",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ventilation-27",
+      "lernzielId": "lz-ventilation",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aussagen zum **Gasdruck** sind richtig?",
+      "optionen": [
+        "Er entsteht, weil die Gasteilchen sich ständig bewegen und gegen die Wände stossen.",
+        "Er entsteht nur, wenn das ganze Gas strömt, zum Beispiel bei Wind.",
+        "Er hängt unter anderem von Temperatur, Teilchenanzahl und Volumen ab.",
+        "Bei gleicher Temperatur steigt er, wenn das Volumen grösser wird.",
+        "Luftteilchen bewegen sich vom Ort mit höherem zum Ort mit tieferem Druck."
+      ],
+      "richtig": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "Gasdruck = Summe der Stösse der sich ständig bewegenden Gasteilchen auf die Wände. Er hängt unter anderem von **Temperatur, Teilchenanzahl und Volumen** ab. Nach Boyle-Mariotte (p · V = konstant) **sinkt** der Druck, wenn das Volumen grösser wird. Luft strömt immer vom höheren zum tieferen Druck, bis zum Druckausgleich.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ventilation-28",
+      "lernzielId": "lz-ventilation",
+      "typ": "offen",
+      "frage": "Erläutere das physikalische Prinzip, weshalb es bei einer **Luftpumpe** zum Ein- und Ausströmen der Luft kommt.",
+      "musterloesung": "**Ausströmen:** Durch das Zusammendrücken wird das Volumen im Innenraum der Luftpumpe kleiner. Der Druck steigt deshalb im Innenraum (Vorstellung: «die gleiche Menge an Teilchen hat somit weniger Platz»). Sobald der Luftdruck im Innenraum der Pumpe höher ist als der Aussendruck, strömen Luftteilchen aus, bis zum Druckausgleich.\n\n**Einströmen:** Zieht man die Pumpe wieder auseinander, wird das Volumen im Innenraum grösser, der Druck sinkt unter den Aussendruck. Nun strömt Luft von aussen ein, bis zum Druckausgleich.\n\nGrundlage ist das Boyle-Mariotte-Gesetz (p · V = konstant): Luft strömt immer vom höheren zum tieferen Druck.",
+      "stichworte": [
+        "Zusammendrücken: Volumen kleiner → Druck steigt",
+        "Druck innen höher als aussen → Luft strömt aus",
+        "Auseinanderziehen: Volumen grösser → Druck sinkt",
+        "Druck innen tiefer als aussen → Luft strömt ein",
+        "bis zum Druckausgleich",
+        "Boyle-Mariotte"
+      ],
+      "erklaerung": "Aufgabe «Luftpumpe» aus Teil 2 (Lösung der Lehrperson, ergänzt um das Einströmen). Bei der Lunge ist es genauso: Dehnung → Unterdruck → Einströmen; Verkleinerung → Überdruck → Ausströmen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ventilation-29",
+      "lernzielId": "lz-ventilation",
+      "typ": "offen",
+      "frage": "Erläutere **detailliert**, wie Ein- und Ausatmung erfolgen. Gehe auf die Atemmuskeln, den Druck in der Lunge und den Luftstrom ein.",
+      "musterloesung": "Ein- und Ausatmung beruhen auf der **Druckdifferenz** zwischen dem Gasdruck in der Lunge und dem Druck der Umgebungsluft. Die Lunge ist **kein Muskel**.\n\n**Einatmung (Inspiration, aktiv):** Das **Zwerchfell** (wichtigster Atemmuskel, Doppelkuppel) spannt sich an und flacht nach unten ab → der Brustraum wird in Längsrichtung grösser (Bauchatmung). Bei der **Brustatmung** ziehen sich die **äusseren Zwischenrippenmuskeln** zusammen und heben die Rippen nach oben aussen → der Brustraum wird grösser. Über die Pleura folgt die Lunge und wird **gedehnt**. Ihr Volumen nimmt zu, der **Druck in den Alveolen sinkt unter den Aussendruck** (Boyle-Mariotte) → Luft **strömt ein**, bis zum Druckausgleich.\n\n**Ausatmung (Exspiration, in Ruhe passiv):** Die Atemmuskeln **entspannen** sich, das Zwerchfell wird nach oben geschoben, der Brustkorb senkt sich → der Brustraum wird kleiner, die Lunge zieht sich ihrer **Eigenelastizität** folgend zusammen → der Druck in der Lunge steigt über den Aussendruck → Luft **strömt aus**. Aktiv unterstützt werden kann die Ausatmung durch die **Muskeln der Bauchdecke** und die **inneren Zwischenrippenmuskeln**.",
+      "stichworte": [
+        "Druckdifferenz Lunge – Umgebung",
+        "Lunge ist kein Muskel",
+        "Zwerchfell spannt sich an, flacht nach unten ab",
+        "äussere Zwischenrippenmuskeln heben die Rippen",
+        "Lunge wird gedehnt → Druck sinkt → Luft strömt ein",
+        "Ausatmung passiv: Muskeln entspannen, Eigenelastizität",
+        "Druck steigt → Luft strömt aus",
+        "aktiv: Bauchmuskeln, innere Zwischenrippenmuskeln"
+      ],
+      "erklaerung": "Die Gesamtfrage zum Lernziel «Ventilation» (Teil 2, S. 1–2). Achte auf die richtige Reihenfolge: zuerst Muskeln, dann Dehnung, dann Druckabfall, erst dann strömt Luft ein.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-ventilation-30",
+      "lernzielId": "lz-ventilation",
+      "typ": "offen",
+      "frage": "Erläutere **Aufbau und Bedeutung der Pleura** für die Atmung.",
+      "musterloesung": "**Aufbau:** Die Pleura (das Brustfell) ist eine dünne Haut aus **zwei Blättern**: Das innere Blatt überzieht die Lunge (**Lungenfell**), das äussere kleidet die Brusthöhle von innen aus (**Rippenfell**). Dazwischen liegt die **Pleurahöhle**, wegen ihrer geringen Breite auch **Pleuraspalt** genannt. Darin befindet sich ein **Flüssigkeitsfilm**, jedoch **keine Luft**.\n\n**Bedeutung:** Durch den Flüssigkeitsfilm **haften** Lungenfell und Rippenfell aneinander, sind aber **seitlich gegeneinander verschiebbar** (wie zwei nasse Glasplatten). Dadurch **folgt die Lunge den Bewegungen** von Brustkorb und Zwerchfell: Weitet sich der Brustkorb, wird die Lunge gedehnt, der Druck in den Alveolen sinkt und Luft strömt ein. Dringt Luft in den Pleuraspalt (z. B. bei einer Stichverletzung), haften die Blätter nicht mehr, die Lunge kollabiert.",
+      "stichworte": [
+        "zwei Blätter: Lungenfell (innen) und Rippenfell (aussen)",
+        "Pleuraspalt / Pleurahöhle dazwischen",
+        "Flüssigkeitsfilm, keine Luft",
+        "Blätter haften aneinander, seitlich verschiebbar",
+        "Lunge folgt Brustkorb und Zwerchfell, wird gedehnt",
+        "Luft im Pleuraspalt → Lunge kollabiert"
+      ],
+      "erklaerung": "Gesamtfrage zum Teil «Aufbau und Bedeutung der Pleura» (Teil 2, S. 2, und Versuch mit den Glasplatten).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-ventilation-31",
+      "lernzielId": "lz-ventilation",
+      "typ": "einfachwahl",
+      "frage": "Bei einem Unfall wird nur die **rechte** Brustwand durchstochen, Luft dringt in den rechten Pleuraspalt. Was passiert mit der Atmung?",
+      "optionen": [
+        "Beide Lungenflügel fallen sofort zusammen, weil sie über die Luftröhre verbunden sind",
+        "Der rechte Lungenflügel fällt zusammen, der linke kann weiter belüftet werden",
+        "Der rechte Lungenflügel bläht sich auf, weil von aussen Luft hineinströmt",
+        "Nichts, solange das Zwerchfell unverletzt ist und sich weiter anspannt"
+      ],
+      "richtig": 1,
+      "erklaerung": "Jeder Lungenflügel liegt in einer **eigenen** Pleurahöhle (ergänzt). Rechts haften Lungenfell und Rippenfell nicht mehr, der rechte Lungenflügel wird nicht mehr gedehnt und fällt zusammen. Links haften die Blätter weiter – der linke Lungenflügel folgt dem Brustkorb und wird belüftet. Die Luft dringt in den Pleuraspalt, nicht in die Lunge selbst. Die Zwerchfellbewegung allein nützt rechts nichts, weil die Lunge nicht mehr mitgezogen wird. (Transfer.)",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-ventilation-32",
+      "lernzielId": "lz-ventilation",
+      "typ": "einfachwahl",
+      "frage": "Bei einer Person ist das **Zwerchfell gelähmt** (z. B. nach einer Nervenverletzung). Kann sie trotzdem einatmen?",
+      "optionen": [
+        "Nein, ohne Zwerchfell kann die Lunge gar nicht gedehnt werden",
+        "Ja, die Lunge dehnt sich dann mit ihrer eigenen Muskelkraft aus",
+        "Ja, die Brustatmung hebt die Rippen und vergrössert den Brustraum",
+        "Ja, die Bauchmuskeln übernehmen und ziehen das Zwerchfell nach unten"
+      ],
+      "richtig": 2,
+      "erklaerung": "Neben der Zwerchfellatmung gibt es die **Brustatmung**: Die äusseren Zwischenrippenmuskeln heben die Rippen nach oben aussen, der Brustraum wird grösser, die Lunge wird über die Pleura gedehnt. Die Atmung ist schwächer, aber möglich. Die Lunge ist kein Muskel, und die Bauchmuskeln unterstützen die **Ausatmung**, nicht die Einatmung. (Transfer, nicht im Blatt.)",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-ventilation-33",
+      "lernzielId": "lz-ventilation",
+      "typ": "mehrfachwahl",
+      "frage": "Du bläst einen Luftballon kräftig auf. Welche Aussagen sind **richtig**?",
+      "optionen": [
+        "Die Ausatmung ist jetzt aktiv: Die Bauchmuskeln spannen sich an und schieben über die Bauchorgane das Zwerchfell nach oben.",
+        "Der Druck in der Lunge muss höher sein als der Druck im Ballon, sonst strömt keine Luft hinein.",
+        "Das Zwerchfell spannt sich an und flacht ab, um die Luft hinauszudrücken.",
+        "Die Lunge zieht sich mit ihrer eigenen Muskulatur kräftig zusammen.",
+        "Die inneren Zwischenrippenmuskeln können helfen, den Brustraum zu verkleinern."
+      ],
+      "richtig": [
+        0,
+        1,
+        4
+      ],
+      "erklaerung": "Die Eigenelastizität der Lunge reicht für einen Ballon nicht – die Ausatmung muss **aktiv** unterstützt werden: Die **Muskeln der Bauchdecke** drücken die Bauchorgane und damit das Zwerchfell nach oben, die **inneren Zwischenrippenmuskeln** senken die Rippen. Der Brustraum wird kleiner, der Druck in der Lunge steigt über den Druck im Ballon → Luft strömt hinein. Ein angespanntes Zwerchfell flacht ab und dient der **Einatmung**; die Lunge ist kein Muskel. (Transfer; die Wirkung der Bauchmuskeln auf das Zwerchfell ist ergänzt.)",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-ventilation-34",
+      "lernzielId": "lz-ventilation",
+      "typ": "zahl",
+      "frage": "Gedankenexperiment (vereinfachte Zahlen): Du hältst Mund und Nase zu. In deiner Lunge sind 2,5 l Luft bei 1020 hPa. Die Atemmuskeln vergrössern das Lungenvolumen bei gleicher Temperatur auf **3 l**. Wie gross ist jetzt der Druck in der Lunge?",
+      "richtig": 850,
+      "toleranz": 1,
+      "einheit": "hPa",
+      "erklaerung": "Boyle-Mariotte: p · V = konstant. Vorher: 1020 hPa · 2,5 l = 2550. Nachher: p · 3 l = 2550 → p = 2550 : 3 = **850 hPa**. Der Druck in der Lunge liegt jetzt **unter** dem Aussendruck (1020 hPa): Öffnest du Mund oder Nase, strömt Luft ein, bis zum Druckausgleich. In Wirklichkeit ist der Unterdruck beim Einatmen viel kleiner – schon wenige hPa genügen (ergänzt).",
+      "schwierigkeit": 2,
+      "tipp": "Zuerst p · V vorher ausrechnen, dann durch das neue Volumen teilen."
+    },
+    {
+      "id": "f-steuerung-01",
+      "lernzielId": "lz-steuerung",
+      "typ": "einfachwahl",
+      "frage": "Wer steuert Atemtiefe und Atemfrequenz?",
+      "optionen": [
+        "Die Lunge selbst, je nachdem, wie voll sie ist",
+        "Das Nervensystem, ohne dass wir daran denken",
+        "Das Herz, das den Takt der Atmung vorgibt",
+        "Ausschliesslich der eigene Wille"
+      ],
+      "richtig": 1,
+      "erklaerung": "Atemtiefe und Atemfrequenz werden **unbewusst vom zentralen Nervensystem** gesteuert (genauer: vom Atemzentrum im Hirnstamm – ergänzt). Willentlich beeinflussen kann man die Atmung zwar, aber sie läuft auch ohne Nachdenken, z. B. im Schlaf.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-steuerung-02",
+      "lernzielId": "lz-steuerung",
+      "typ": "einfachwahl",
+      "frage": "Über welche Grösse wird die Atmung **im Wesentlichen** geregelt?",
+      "optionen": [
+        "Über den Sauerstoffgehalt der Einatmungsluft",
+        "Über die Anzahl Herzschläge pro Minute",
+        "Über das Volumen der Lunge",
+        "Über den CO2-Gehalt des Blutes"
+      ],
+      "richtig": 3,
+      "erklaerung": "Die Regulation erfolgt im Wesentlichen über die Messung des **CO2-Gehalts des Blutes**. Steigt er, wird die Atemtätigkeit angeregt. Häufiger Fehler: an den Sauerstoff denken.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-steuerung-03",
+      "lernzielId": "lz-steuerung",
+      "typ": "wahrfalsch",
+      "frage": "«Steigt der CO2-Gehalt im Blut an, wird die Atemtätigkeit angeregt.»",
+      "richtig": true,
+      "erklaerung": "Genau so steht es im Blatt: Steigt der CO2-Gehalt an, aktiviert dies die Atemtätigkeit. Du atmest tiefer und schneller und gibst so mehr CO2 ab.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-steuerung-04",
+      "lernzielId": "lz-steuerung",
+      "typ": "wahrfalsch",
+      "frage": "«Die Atmung wird hauptsächlich über den Sauerstoffgehalt des Blutes gesteuert.»",
+      "richtig": false,
+      "erklaerung": "Massgebend ist laut Blatt **im Wesentlichen** der **CO2-Gehalt** des Blutes. Ein steigender CO2-Gehalt regt die Atmung an, ein sinkender dämpft sie. Ergänzt: Sauerstoffmangel (z. B. in grosser Höhe) kann die Atmung zusätzlich anregen – die Hauptgrösse ist er aber nicht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-steuerung-05",
+      "lernzielId": "lz-steuerung",
+      "typ": "kurzantwort",
+      "frage": "Atemtiefe und Atemfrequenz werden unbewusst gesteuert. Von welchem Teil des Nervensystems? (zwei Wörter oder Abkürzung)",
+      "akzeptiert": [
+        "zentrales Nervensystem",
+        "ZNS",
+        "vom zentralen Nervensystem",
+        "zentralen Nervensystem",
+        "Zentralnervensystem"
+      ],
+      "erklaerung": "Vom **zentralen Nervensystem (ZNS)**. Ergänzt: Das Atemzentrum sitzt im **Hirnstamm** (verlängertes Mark).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-steuerung-06",
+      "lernzielId": "lz-steuerung",
+      "typ": "mehrfachwahl",
+      "frage": "Wodurch kann der Regelkreis der Atmung laut Blatt **gestört** werden?",
+      "optionen": [
+        "Lungenerkrankungen",
+        "Körperliche Anstrengung beim Sport",
+        "Schädel-Hirn-Traumen",
+        "Schlaganfälle",
+        "Stress oder Angstgefühle",
+        "Ein schlecht gelüfteter Raum"
+      ],
+      "richtig": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Laut Blatt kann der Regelkreis durch **Lungenerkrankungen, Schädel-Hirn-Traumen, Schlaganfälle** oder – in den meisten Fällen – durch **Stress oder Angstgefühle** gestört werden. Beim Sport und in stickiger Luft ändert sich die Atmung zwar, aber der Regelkreis **funktioniert**: Das CO2 im Blut steigt, und die Atmung wird passend angeregt.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-steuerung-07",
+      "lernzielId": "lz-steuerung",
+      "typ": "einfachwahl",
+      "frage": "Vor deinem Vortrag hast du starkes Lampenfieber und atmest schnell und tief, obwohl du ruhig dastehst. Was passiert mit dem CO2-Gehalt deines Blutes?",
+      "optionen": [
+        "Er steigt, weil Nervosität viel CO2 erzeugt – das schnelle Atmen ist passend",
+        "Er sinkt, und der Stress verhindert, dass der Regelkreis die Atmung dämpft",
+        "Er bleibt gleich, weil die Atmung nur über den Sauerstoff gesteuert wird",
+        "Er sinkt, aber der Regelkreis dämpft die Atmung sofort wieder auf normal"
+      ],
+      "richtig": 1,
+      "erklaerung": "Du atmest mehr, als dein ruhender Körper braucht → es wird mehr CO2 abgeatmet, als entsteht → der CO2-Gehalt **sinkt**. Normalerweise würde das die Atmung dämpfen. Stress und Angst sind aber laut Blatt der häufigste Grund, dass dieser **Regelkreis gestört** ist – so kann eine Hyperventilation beginnen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-steuerung-08",
+      "lernzielId": "lz-steuerung",
+      "typ": "kurzantwort",
+      "frage": "Steigt der CO2-Gehalt im Blut, wird die Atmung angeregt, und mehr CO2 wird abgeatmet; sinkt er, wird sie gedämpft. Wie nennt das Blatt ein solches sich selbst regulierendes System? (ein Wort)",
+      "akzeptiert": [
+        "Regelkreis",
+        "der Regelkreis",
+        "ein Regelkreis"
+      ],
+      "erklaerung": "Ein **Regelkreis**: Die Grösse (CO2-Gehalt des Blutes) wird gemessen, die Atmung wird angepasst, und dadurch kehrt der CO2-Gehalt in den Normalbereich zurück. Bei der Hyperventilation ist dieser Regelkreis **durchbrochen**. Schreibweise: **Regelkreis** in einem Wort.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-steuerung-09",
+      "lernzielId": "lz-steuerung",
+      "typ": "wahrfalsch",
+      "frage": "«Die Atmung läuft unbewusst ab, man kann sie aber auch willentlich beeinflussen, zum Beispiel durch Luftanhalten.»",
+      "richtig": true,
+      "erklaerung": "Die Steuerung erfolgt **unbewusst**, du kannst aber bewusst eingreifen: Luft anhalten, ruhig atmen, schnell atmen. Bei der Hyperventilation hilft genau das: sich zwingen, ruhig zu atmen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-steuerung-10",
+      "lernzielId": "lz-steuerung",
+      "typ": "reihenfolge",
+      "frage": "Du sprintest die Treppe hinauf. Bringe die Vorgänge des Regelkreises in die richtige Reihenfolge.",
+      "elemente": [
+        "Die Beinmuskeln arbeiten stärker und betreiben mehr Zellatmung",
+        "Mehr CO2 gelangt aus den Zellen ins Blut",
+        "Das Nervensystem misst den steigenden CO2-Gehalt",
+        "Atemfrequenz und Atemtiefe nehmen zu",
+        "Mehr CO2 wird abgeatmet, der CO2-Gehalt sinkt wieder"
+      ],
+      "erklaerung": "Mehr Arbeit → mehr Zellatmung → mehr CO2 im Blut → das ZNS misst das → es regt die Atmung an → mehr CO2 wird abgeatmet. Das ist ein **Regelkreis**: Die Atmung wird so angepasst, dass der CO2-Gehalt wieder in den Normalbereich kommt.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-steuerung-11",
+      "lernzielId": "lz-steuerung",
+      "typ": "zuordnen",
+      "frage": "Wird die Atmung in der Situation durch den Regelkreis **angeregt** oder **gedämpft**?",
+      "paare": [
+        {
+          "links": "Du rennst auf den Bus",
+          "rechts": "angeregt"
+        },
+        {
+          "links": "Du hast die Luft lange angehalten",
+          "rechts": "angeregt"
+        },
+        {
+          "links": "Ein voll besetztes Zimmer ist seit Stunden nicht gelüftet",
+          "rechts": "angeregt"
+        },
+        {
+          "links": "Du hast Fieber, dein Stoffwechsel läuft schneller",
+          "rechts": "angeregt"
+        },
+        {
+          "links": "Nach dem Sprint sitzt du ruhig auf der Bank, die Muskeln bilden wieder weniger CO2",
+          "rechts": "gedämpft"
+        },
+        {
+          "links": "Nach schnellem Atmen ist der CO2-Gehalt im Blut gesunken",
+          "rechts": "gedämpft"
+        }
+      ],
+      "erklaerung": "Entscheidend ist der **CO2-Gehalt des Blutes**. Er steigt bei Anstrengung, beim Luftanhalten, in CO2-reicher Raumluft (laut Teil 3 können Atemfrequenz und Atemzugvolumen dann steigen) und bei Fieber (mehr Zellatmung) → Atmung angeregt. Nach dem Sprint bilden die Muskeln wieder weniger CO2, und nach schnellem Atmen ist zu wenig CO2 da → der CO2-Gehalt sinkt, die Atmung wird gedämpft. Bei der Hyperventilation ist genau dieser Reflex durchbrochen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-steuerung-12",
+      "lernzielId": "lz-steuerung",
+      "typ": "offen",
+      "frage": "Erkläre, wie die Atmung gesteuert wird. Gehe dabei auf **wer**, **was gemessen wird** und **was bei einer Veränderung passiert** ein.",
+      "musterloesung": "Atemtiefe und Atemfrequenz werden **unbewusst vom zentralen Nervensystem** gesteuert (Atemzentrum im Hirnstamm). Die Regulation erfolgt im Wesentlichen über die Messung des **CO2-Gehalts des Blutes**. **Steigt** der CO2-Gehalt, wird die Atemtätigkeit **angeregt** (tiefer, schneller), dadurch wird mehr CO2 abgeatmet. **Sinkt** er, wird die Atmung über einen Reflex **gedämpft**. Die Atmung ist zusätzlich willentlich beeinflussbar. Gestört werden kann der Regelkreis durch Lungenerkrankungen, Schädel-Hirn-Traumen, Schlaganfälle und meistens durch Stress oder Angst.",
+      "stichworte": [
+        "unbewusst",
+        "zentrales Nervensystem",
+        "CO2-Gehalt des Blutes",
+        "CO2 steigt → Atmung angeregt",
+        "Regelkreis",
+        "willentlich beeinflussbar"
+      ],
+      "erklaerung": "Kernaussage aus Teil 3, S. 2: Gemessen wird das **CO2**, nicht der Sauerstoff.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-steuerung-13",
+      "lernzielId": "lz-steuerung",
+      "typ": "offen",
+      "frage": "Du versuchst, so lange wie möglich die Luft anzuhalten. Irgendwann musst du einfach wieder atmen, ob du willst oder nicht. Erkläre mit der Steuerung der Atmung, weshalb.",
+      "musterloesung": "Beim Luftanhalten produzieren die Zellen weiter CO2 (Zellatmung), es kann aber nicht abgeatmet werden. Der **CO2-Gehalt im Blut steigt** immer weiter. Das **zentrale Nervensystem** misst diesen Anstieg und regt die Atemtätigkeit immer stärker an. Die Atmung ist zwar willentlich beeinflussbar, aber der unbewusste Atemreiz wird irgendwann so stark, dass er den Willen übersteuert – du musst einatmen.",
+      "stichworte": [
+        "Zellatmung produziert weiter CO2",
+        "CO2 im Blut steigt",
+        "zentrales Nervensystem misst CO2",
+        "Atemreiz wird stärker",
+        "unbewusste Steuerung setzt sich durch"
+      ],
+      "erklaerung": "Transfer: Der Wille kann die Atmung nur eine gewisse Zeit unterdrücken. Der Antrieb kommt vom **steigenden CO2**, nicht in erster Linie vom fehlenden Sauerstoff.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-steuerung-14",
+      "lernzielId": "lz-steuerung",
+      "typ": "einfachwahl",
+      "frage": "Im Klassenzimmer sitzen 25 Personen, die Fenster sind seit zwei Lektionen zu. Das CO2-Messgerät zeigt 2500 ppm. Welche Aussage zur Atmung stimmt?",
+      "optionen": [
+        "Sie wird langsamer, weil die verbrauchte Luft weniger Sauerstoff enthält",
+        "Sie bleibt sicher gleich, weil nur der Sauerstoff die Atmung steuert",
+        "Das Blut gibt CO2 schlechter ab; steigt das CO2 weiter, wird sie angeregt",
+        "Sie setzt kurz aus, weil das Atemzentrum die stickige Luft nicht verträgt"
+      ],
+      "richtig": 2,
+      "erklaerung": "Je mehr CO2 die Raumluft enthält, desto kleiner ist der Unterschied zum Blut – das Blut kann sein CO2 in der Lunge **schlechter abgeben**. Steigt der CO2-Gehalt weiter, regt das die Atmung an: Laut Teil 3 können sich «schliesslich» Atemfrequenz und Atemzugvolumen erhöhen. Bei solchen Werten (über 2000 ppm = laut BAG «inakzeptabel») spürt man vor allem **Müdigkeit, Konzentrationsprobleme und Kopfschmerzen**; die Atmung nimmt erst bei sehr hohem CO2 deutlich zu. Also: lüften!",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-steuerung-15",
+      "lernzielId": "lz-steuerung",
+      "typ": "einfachwahl",
+      "frage": "Manche Taucher atmen vor dem Abtauchen absichtlich lange schnell und tief, um länger unter Wasser bleiben zu können. Das ist lebensgefährlich. Warum?",
+      "optionen": [
+        "Durch das schnelle Atmen steigt das CO2 so stark, dass man unter Wasser sofort einatmen muss.",
+        "Der Atemreiz kommt wegen des tiefen CO2-Gehalts zu spät – man wird ohne Vorwarnung bewusstlos.",
+        "Durch das schnelle Atmen sinkt der Sauerstoffgehalt im Blut schon vor dem Tauchen gefährlich ab.",
+        "Das zentrale Nervensystem schaltet die Atmung nach dem schnellen Atmen für immer ab."
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Atmung wird über das **CO2** gesteuert. Wer vorher hyperventiliert, **senkt** den CO2-Gehalt stark (er steigt nicht). Unter Wasser steigt das CO2 zwar wieder an, aber der Atemreiz meldet sich erst sehr spät – der **Sauerstoff** kann vorher knapp werden, und man wird ohne Vorwarnung bewusstlos. Vor dem Tauchen ist der Sauerstoff dagegen nicht gesunken. (Transfer, nicht im Blatt.)",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-hyperventilation-01",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "einfachwahl",
+      "frage": "Was bezeichnet man als **Hyperventilation**?",
+      "optionen": [
+        "Eine unphysiologisch vertiefte und/oder beschleunigte Atmung",
+        "Einen Atemstillstand nach einer Stichverletzung im Brustbereich mit kollabierter Lunge",
+        "Eine sehr langsame, flache Atmung im Schlaf",
+        "Das Einatmen von Luft mit zu viel CO2"
+      ],
+      "richtig": 0,
+      "erklaerung": "Hyperventilation = **unphysiologisch vertiefte und/oder beschleunigte Atmung** («hyper» = über, zu viel; «Ventilation» = Belüftung der Lunge). Es wird zu viel CO2 abgeatmet.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-hyperventilation-02",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die unphysiologisch vertiefte und/oder beschleunigte Atmung mit dem Fachbegriff?",
+      "akzeptiert": [
+        "Hyperventilation",
+        "die Hyperventilation",
+        "eine Hyperventilation"
+      ],
+      "erklaerung": "**Hyperventilation** – Schreibweise: «Hyper» mit **y**, «Ventilation» mit **V**. Das Gegenteil, eine zu schwache Atmung, heisst Hypoventilation (ergänzt).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-hyperventilation-03",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "einfachwahl",
+      "frage": "Was ist laut Blatt der **häufigste Grund** für eine Hyperventilation?",
+      "optionen": [
+        "Ein Mangel an Sauerstoff in der Umgebungsluft, zum Beispiel in einem schlecht gelüfteten Raum",
+        "Eine Verletzung des Rippenfells",
+        "Zu viel Sport ohne Pause",
+        "Stress, starke Gefühle oder ein psychischer Konflikt"
+      ],
+      "richtig": 3,
+      "erklaerung": "Der häufigste Grund ist **Stress**, starke Gefühle oder ein psychischer Konflikt, vor dem man am liebsten davonlaufen würde, aber nicht kann. Beim Sport atmet man zwar schnell, aber passend zum erhöhten CO2 – das ist keine Hyperventilation.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-hyperventilation-04",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Symptome sind **typisch** für eine Hyperventilation?",
+      "optionen": [
+        "Kribbeln in Fingern, Lippen oder Wangen",
+        "Blaue Lippen wegen Sauerstoffmangel im Blut",
+        "Schwindel bis zum Gefühl, ohnmächtig zu werden",
+        "Sehr langsamer Puls",
+        "Verkrampfte Hände und Finger",
+        "Herzklopfen und Gefühl zu ersticken"
+      ],
+      "richtig": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "erklaerung": "Typisch sind **Kribbeln**, **Taubheitsgefühl** in Mund und Zunge, **Schwindel**, Sehstörungen, **schneller** Puls, **Herzklopfen**, Brustschmerzen, **Pfötchenstellung** und das **Gefühl zu ersticken**. Blaue Lippen passen nicht: Das Blut hat genug Sauerstoff, es fehlt CO2. Der Puls ist schnell, nicht langsam.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-hyperventilation-05",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "kurzantwort",
+      "frage": "Wie nennt man die typische Verkrampfung der Hände und Finger bei einer Hyperventilation?",
+      "akzeptiert": [
+        "Pfötchenstellung",
+        "die Pfötchenstellung"
+      ],
+      "erklaerung": "**Pfötchenstellung** – Schreibweise: Pf**ö**tchen mit «Pf» und «ö», ein Wort. Ursache ist der Mangel an freiem Kalzium im Blut.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-hyperventilation-06",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "reihenfolge",
+      "frage": "Bringe die Vorgänge bei einer Hyperventilation in die richtige Reihenfolge – vom schnellen Atmen bis zum Kribbeln.",
+      "elemente": [
+        "Die Person atmet schneller und tiefer, als nötig wäre",
+        "Es wird mehr CO2 abgeatmet, als der Körper produziert",
+        "Der CO2-Partialdruck im Blut sinkt",
+        "Es ist weniger H⁺ vorhanden, der pH-Wert steigt",
+        "Mehr Kalzium wird an Proteine gebunden",
+        "Mangel an freiem Kalzium: Kribbeln und Krämpfe"
+      ],
+      "erklaerung": "Zu viel abgeatmetes CO2 → tiefer CO2-Partialdruck → über CO2 + H2O ⇌ H2CO3 ⇌ H⁺ + HCO3⁻ weniger H⁺ → pH steigt (**respiratorische Alkalose**) → mehr Kalzium an Proteine gebunden → zu wenig **freies Kalzium** für Nerven und Muskeln → Kribbeln, Taubheit, Pfötchenstellung.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-hyperventilation-07",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die Störung des Säure-Basen-Haushalts, die bei einer Hyperventilation entsteht? (zwei Wörter)",
+      "akzeptiert": [
+        "respiratorische Alkalose",
+        "die respiratorische Alkalose",
+        "eine respiratorische Alkalose"
+      ],
+      "erklaerung": "**Respiratorische Alkalose**: Es wird zu viel CO2 abgeatmet, es gibt weniger H⁺, der pH-Wert des Blutes steigt in den alkalischen (basischen) Bereich. «Respiratorisch» = durch die Atmung verursacht, «Alkalose» = pH zu hoch. Schreibweise: Alkal**o**se, respirat**o**risch.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-hyperventilation-08",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "einfachwahl",
+      "frage": "Was geschieht bei einer Hyperventilation mit dem **pH-Wert** des Blutes?",
+      "optionen": [
+        "Er sinkt, das Blut wird saurer, weil sich CO2 anstaut",
+        "Er steigt, das Blut wird alkalischer (basischer), weil weniger H⁺ vorhanden ist",
+        "Er bleibt gleich, weil sich bei einer Hyperventilation nur der Sauerstoff ändert",
+        "Er sinkt, weil mehr Kalzium im Blut gelöst ist"
+      ],
+      "richtig": 1,
+      "erklaerung": "Weniger CO2 → das Gleichgewicht CO2 + H2O ⇌ H2CO3 ⇌ H⁺ + HCO3⁻ verschiebt sich, es gibt **weniger H⁺** → der pH-Wert **steigt** (respiratorische Alkalose). Saures Blut wäre die Folge von zu **viel** CO2.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-hyperventilation-09",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "einfachwahl",
+      "frage": "Weshalb kommt es bei einer Hyperventilation zu **Kribbeln und Verkrampfungen**?",
+      "optionen": [
+        "Die Muskeln übersäuern, weil sie zu wenig Sauerstoff bekommen",
+        "Zu viel CO2 im Blut reizt die Nerven",
+        "Es fehlt freies Kalzium, weil bei höherem pH mehr davon an Proteine gebunden wird",
+        "Die Atemmuskeln ermüden vom schnellen Atmen, verkrampfen sich, und die Krämpfe breiten sich bis in die Hände aus"
+      ],
+      "richtig": 2,
+      "erklaerung": "Die pH-Veränderung führt dazu, dass **vermehrt Kalzium an Proteine gebunden** wird. Kalzium ist v. a. für das geordnete Zusammenspiel von Nerven und Muskeln wichtig. Fehlt **freies Kalzium**, kommt es zu Taubheit, Kribbeln und Krämpfen bis zur Pfötchenstellung.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-hyperventilation-10",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "kurzantwort",
+      "frage": "Bei einer Hyperventilation gibt das Hämoglobin den Sauerstoff im Gewebe schlechter ab. Wie heisst dieser Effekt?",
+      "akzeptiert": [
+        "Bohr-Effekt",
+        "der Bohr-Effekt"
+      ],
+      "erklaerung": "**Bohr-Effekt** (benannt nach dem Physiologen Christian Bohr): Bei höherem pH bindet Hämoglobin den Sauerstoff stärker und gibt ihn deshalb im Gewebe schlechter ab. Schreibweise: **Bohr** mit h – nicht «Bor» wie das chemische Element – und mit Bindestrich.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-hyperventilation-11",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "wahrfalsch",
+      "frage": "«Bei einer Hyperventilation ist zu wenig Sauerstoff im Blut, weil die Person nicht genug Luft bekommt.»",
+      "richtig": false,
+      "erklaerung": "Die Person atmet sogar **zu viel**. Das Problem ist, dass **zu viel CO2 abgeatmet** wird. Die Atemnot ist ein Gefühl, kein echter Sauerstoffmangel in der Lunge. Weniger Sauerstoff kommt höchstens im Gewebe und Gehirn an – wegen Bohr-Effekt und verengten Hirngefässen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-hyperventilation-12",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "zuordnen",
+      "frage": "Ordne jeder Veränderung bei der Hyperventilation ihre Folge zu.",
+      "paare": [
+        {
+          "links": "Zu viel CO2 wird abgeatmet",
+          "rechts": "CO2-Partialdruck im Blut sinkt"
+        },
+        {
+          "links": "Weniger H⁺ im Blut",
+          "rechts": "pH-Wert steigt"
+        },
+        {
+          "links": "Mehr Kalzium an Proteine gebunden",
+          "rechts": "Kribbeln und Krämpfe"
+        },
+        {
+          "links": "Hämoglobin bindet O2 stärker",
+          "rechts": "Gewebe erhält weniger O2"
+        },
+        {
+          "links": "Gefässe im Gehirn verengen sich",
+          "rechts": "Schwindel und Benommenheit"
+        }
+      ],
+      "erklaerung": "Alles beginnt mit dem tiefen CO2-Partialdruck. Er erhöht den pH (respiratorische Alkalose). Durch den höheren pH wird vermehrt Kalzium an Proteine gebunden (→ Nerven und Muskeln arbeiten nicht mehr geordnet), und Hämoglobin hält den Sauerstoff fester (Bohr-Effekt). Zusätzlich verengen sich die Hirngefässe, weil das Gehirn seine Durchblutung über den CO2-Partialdruck regelt.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-hyperventilation-13",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "offen",
+      "frage": "Welche Folgen hat der durch die verstärkte Atmung **gesunkene CO2-Partialdruck** auf das Gehirn, sodass es zu Kopfschmerzen, Schwindel, Benommenheit oder sogar kurzem Bewusstseinsverlust kommen kann? Begründe.",
+      "musterloesung": "Für das zentrale Nervensystem ist der CO2-Partialdruck der wichtigste Indikator für die Regulation der Durchblutung: Viel CO2 → Gefässe erweitern sich. Sinkt der CO2-Partialdruck, **verengen sich die Gefässe im Gehirn**. Dadurch wird das Gehirn **weniger durchblutet** und erhält **weniger Sauerstoff**. Zusätzlich gibt das Hämoglobin bei höherem pH den Sauerstoff schlechter ab (**Bohr-Effekt**). Das Gehirn ist sehr empfindlich auf Sauerstoffmangel → Kopfschmerzen, Schwindel, Benommenheit bis Bewusstlosigkeit.",
+      "stichworte": [
+        "tiefer CO2-Partialdruck",
+        "Gefässe im Gehirn verengen sich",
+        "weniger Durchblutung",
+        "weniger Sauerstoff im Gehirn",
+        "Bohr-Effekt: Hämoglobin gibt O2 schlechter ab"
+      ],
+      "erklaerung": "Überlegungsaufgabe aus Teil 3, S. 3. Umgekehrter Schluss aus dem Blatt: Viel CO2 erweitert die Hirngefässe – also verengt wenig CO2 sie.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-hyperventilation-14",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "offen",
+      "frage": "Wenn Beruhigen nicht hilft, kann eine hyperventilierende Person einige Atemzüge in einen dicht vor den Mund gehaltenen **Beutel** atmen. Erläutere, weshalb diese Massnahme sinnvoll ist.",
+      "musterloesung": "Die Person hat zu viel CO2 abgeatmet, der CO2-Partialdruck im Blut ist zu tief. Im Beutel sammelt sich die **CO2-reiche Ausatmungsluft** (rund 4 % CO2 statt 0,04 %). Atmet die Person daraus wieder ein, **atmet sie CO2 zurück**. Dadurch **steigt der CO2-Partialdruck im Blut** wieder, der **pH-Wert normalisiert sich**, mehr Kalzium wird wieder frei, die Hirngefässe weiten sich – die **Symptome klingen ab**.",
+      "stichworte": [
+        "Ausatmungsluft ist CO2-reich",
+        "CO2 wird zurückgeatmet",
+        "CO2-Partialdruck im Blut steigt",
+        "pH normalisiert sich",
+        "Symptome klingen ab"
+      ],
+      "erklaerung": "Aufgabe aus Teil 3, S. 3. Der Beutel wird nur dicht **vor** den Mund gehalten und nur für einige Atemzüge verwendet – nie über den Kopf ziehen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-hyperventilation-15",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "mehrfachwahl",
+      "frage": "Wie hilfst du einer Person, die hyperventiliert? Wähle **alle** sinnvollen Massnahmen.",
+      "optionen": [
+        "Ruhig mit ihr sprechen und sie beruhigen",
+        "Sie auffordern, kräftig und schnell durchzuatmen",
+        "Erklären, dass Hyperventilation bedrohlich wirkt, aber an sich ungefährlich ist",
+        "Ihr reinen Sauerstoff aus einer Flasche geben",
+        "Sie anleiten, langsam und ruhig zu atmen",
+        "Notfalls einige Atemzüge in einen vor den Mund gehaltenen Beutel atmen lassen"
+      ],
+      "richtig": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "erklaerung": "Sinnvoll: **beruhigen**, **erklären**, dass es ungefährlich ist, zum **ruhigen Atmen** anleiten, notfalls **Beutel**. Schnelles Durchatmen verstärkt die Hyperventilation. Sauerstoff hilft nicht, denn es fehlt nicht Sauerstoff, sondern **CO2**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-hyperventilation-16",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "einfachwahl",
+      "frage": "Vor einer Prüfung atmet jemand aus deiner Klasse immer schneller, klagt über Kribbeln in den Fingern und sagt: «Ich bekomme keine Luft!» Was tust du **zuerst**?",
+      "optionen": [
+        "Das Fenster weit öffnen und sie auffordern, möglichst tief und kräftig Frischluft einzuatmen",
+        "Ihr Traubenzucker geben, weil das Kribbeln von Unterzucker kommt",
+        "Bei der Person bleiben, sie beruhigen und anleiten, langsam und ruhig zu atmen",
+        "Sie hinlegen und die Beine hochlagern, bis das Kribbeln aufhört"
+      ],
+      "richtig": 2,
+      "erklaerung": "Stress vor der Prüfung + schnelles Atmen + Kribbeln → typische Hyperventilation. Zuerst **beruhigen** und zum **ruhigen Atmen** anleiten (und erklären, dass es ungefährlich ist). Tief Frischluft einatmen würde noch mehr CO2 abatmen. Erst wenn Beruhigen nicht hilft: Beutel. Bei Unsicherheit oder Bewusstlosigkeit Hilfe holen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-hyperventilation-17",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "einfachwahl",
+      "frage": "Jemand schlägt vor, einer hyperventilierenden Person Sauerstoff aus einer Flasche zu geben. Warum hilft das **nicht**?",
+      "optionen": [
+        "Es fehlt nicht Sauerstoff, sondern CO2 im Blut",
+        "Zusätzlicher Sauerstoff lässt den pH-Wert weiter steigen",
+        "Sauerstoff regt die Atmung an, sie würde noch schneller",
+        "Die Alveolen sind verkrampft und lassen keinen O2 durch"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Ursache der Symptome ist der **tiefe CO2-Partialdruck** (Alkalose, Kalziummangel, verengte Hirngefässe). Mehr Sauerstoff ändert daran nichts – er verändert weder den pH-Wert direkt, noch steuert er im Wesentlichen die Atmung (das macht das CO2). Helfen tut, was den CO2-Gehalt wieder erhöht: ruhig atmen oder CO2 aus einem Beutel zurückatmen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-hyperventilation-18",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "wahrfalsch",
+      "frage": "«Die typische Verkrampfung der Hände bei einer Hyperventilation entsteht, weil die Handmuskeln zu wenig Sauerstoff bekommen.»",
+      "richtig": false,
+      "erklaerung": "Ursache ist der **Mangel an freiem Kalzium**: Durch den höheren pH wird mehr Kalzium an Proteine gebunden. Ohne genügend freies Kalzium arbeiten Nerven und Muskeln nicht mehr geordnet – die Hände verkrampfen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-hyperventilation-19",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "offen",
+      "frage": "Erkläre, weshalb sich eine Hyperventilation **selbst verstärken** kann, und warum der normale Regelkreis der Atmung sie nicht stoppt.",
+      "musterloesung": "Die Person empfindet Atemnot und atmet deshalb schneller und tiefer. Dadurch wird noch mehr CO2 abgeatmet, und die Symptome (Kribbeln, Schwindel, Herzklopfen, Erstickungsgefühl) nehmen zu. Diese Symptome lösen **Angst** aus – und Angst verstärkt die Hyperventilation weiter: ein **Teufelskreis**, im Extremfall bis zur Bewusstlosigkeit. Normalerweise würde der **sinkende CO2-Partialdruck** die Atmung über einen unbewussten Reflex **dämpfen**. Bei der Hyperventilation ist dieser **Regelkreis durchbrochen**, weil Stress und Angst die Atmung antreiben.",
+      "stichworte": [
+        "Atemnot-Gefühl → schneller atmen",
+        "Symptome lösen Angst aus",
+        "Angst verstärkt die Hyperventilation (Teufelskreis)",
+        "tiefer CO2-Partialdruck würde Atmung dämpfen",
+        "Regelkreis durchbrochen"
+      ],
+      "erklaerung": "Verknüpft die Steuerung der Atmung (Regelkreis über CO2) mit dem Ablauf der Hyperventilation (Teil 3, S. 2).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-hyperventilation-20",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "zahl",
+      "frage": "Einatmungsluft enthält 0,04 % CO2, Ausatmungsluft 4,04 %. Ungefähr **wie viel Mal mehr** CO2 atmet eine Person aus dem Beutel wieder ein als aus frischer Luft?",
+      "richtig": 100,
+      "toleranz": 5,
+      "einheit": "-mal",
+      "erklaerung": "4,04 % : 0,04 % = 101, also rund **100-mal** mehr CO2. Deshalb steigt der CO2-Partialdruck im Blut beim Atmen in den Beutel schnell wieder an. (Ohne Taschenrechner: 4 : 0,04 = 400 : 4 = 100.)",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-hyperventilation-21",
+      "lernzielId": "lz-hyperventilation",
+      "typ": "offen",
+      "frage": "Erläutere, was man als **Hyperventilation** bezeichnet, was dabei im Körper passiert und wie man einer betroffenen Person helfen kann.",
+      "musterloesung": "**Definition:** Hyperventilation ist eine **unphysiologisch vertiefte und/oder beschleunigte Atmung**, meist ausgelöst durch **Stress**, starke Gefühle oder einen psychischen Konflikt.\n\n**Was passiert:** Es wird **mehr CO2 abgeatmet**, als der Körper produziert → der **CO2-Partialdruck im Blut sinkt**. Über CO2 + H2O ⇌ H2CO3 ⇌ H⁺ + HCO3⁻ ist weniger H⁺ vorhanden → der **pH-Wert steigt** (respiratorische Alkalose). Dadurch wird vermehrt **Kalzium an Proteine gebunden** → Mangel an freiem Kalzium → Kribbeln, Taubheitsgefühl, Verkrampfungen bis zur **Pfötchenstellung**. Hämoglobin gibt den Sauerstoff im Gewebe schlechter ab (**Bohr-Effekt**), die Hirngefässe verengen sich → Schwindel, Kopfschmerzen, Benommenheit. Die Symptome machen Angst → die Hyperventilation verstärkt sich (der Regelkreis ist durchbrochen).\n\n**Hilfe:** Die Person **beruhigen**, erklären, dass Hyperventilation bedrohlich wirkt, aber **an sich ungefährlich** ist, und zum **ruhigen Atmen** anleiten. Hilft das nicht: einige Atemzüge in einen **dicht vor den Mund gehaltenen Beutel** atmen lassen → sie atmet CO2-reiche Ausatmungsluft zurück, der CO2-Partialdruck steigt, die Symptome klingen ab.",
+      "stichworte": [
+        "unphysiologisch vertiefte und/oder beschleunigte Atmung",
+        "meist Stress oder Angst",
+        "zu viel CO2 abgeatmet → CO2-Partialdruck sinkt",
+        "pH steigt: respiratorische Alkalose",
+        "weniger freies Kalzium → Kribbeln, Pfötchenstellung",
+        "Bohr-Effekt, Hirngefässe verengt → Schwindel",
+        "beruhigen, ungefährlich erklären, ruhig atmen",
+        "Beutel: CO2 zurückatmen"
+      ],
+      "erklaerung": "Die Gesamtfrage zum Lernziel (Teil 3, S. 2–3): Definition, Vorgänge im Körper und Hilfe gehören alle dazu.",
+      "schwierigkeit": 3
+    }
+  ]
+}

@@ -1,0 +1,705 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-alveolen",
+      "zusammenfassung": "Die **Lungenbläschen**, Fachbegriff **Alveolen** (Einzahl: die Alveole), sind winzige, kugelige Ausbuchtungen am Ende des Bronchialbaums. In ihnen findet der **Gasaustausch** statt.\n\n### Bau (Blatt Teil 1, S. 6)\n- Jeder Lungenflügel ist durch tiefe Furchen in **Lappen** unterteilt (links 2, rechts 3).\n- Jeder Lappen besteht aus vielen **Lungenläppchen**, an der Oberfläche als etwa **1 cm** grosse Felder sichtbar.\n- Jedes Lungenläppchen enthält über tausend **Alveolarsäckchen**. Deren Wand hat kugelige Ausbuchtungen: die **Alveolen**.\n- Die feinsten Luftwege (Bronchiolen) führen über die **Alveolargänge** zu den Alveolarsäckchen. Weg der Luft also: Bronchiole → Alveolargang → Alveolarsäckchen → Alveole.\n- Die Wand der Alveolen ist **hauchdünn (1 µm)** und von feinsten Blutgefässen umsponnen, den **Kapillaren**.\n\n### Aufgabe: Gasaustausch\n- **Sauerstoff (O2)** gelangt aus den Alveolen in die Blutkapillaren.\n- **Kohlenstoffdioxid (CO2)** gelangt aus dem Blut in die Alveolen und wird ausgeatmet.\n- Die Gase wandern von selbst durch die dünne Wand (**Diffusion in der Lunge**, siehe «4 Schritte der Atmung»). Muskeln pumpen hier nichts.\n\n### Zahlen für die Prüfung\n| Grösse | Wert |\n|---|---|\n| Anzahl Alveolen | ca. **400 Millionen** |\n| Durchmesser einer Alveole | ca. **0,2 mm** |\n| Gesamtoberfläche aller Alveolen | rund **100 m^2** |\n| Dicke der Alveolenwand | ca. **1 µm** (= 0,001 mm) |\n\n*Die Lungenliga nennt ca. 300 Millionen Alveolen. Für die Prüfung gilt der Wert vom Blatt: ca. 400 Millionen.*\n\n### Vergleiche (Aufgaben 1 und 3)\n- **Stecknadelkopf** 1–2 mm, Alveole 0,2 mm: Eine Alveole ist **5- bis 10-mal kleiner** als ein Stecknadelkopf.\n- **Schulzimmer** 9 m × 8,5 m = **76,5 m^2**. Die Alveolen haben zusammen rund 100 m^2, also mehr Fläche als das ganze Schulzimmer: 100 : 76,5 ≈ **1,3-mal** so viel.\n\n### Warum so viele kleine Bläschen?\nViele kleine Bläschen haben zusammen eine viel grössere Oberfläche als ein einziger grosser Luftsack mit gleichem Volumen. Das ist das **Prinzip der Oberflächenvergrösserung** (siehe nächstes Lernziel). Eine **grosse Fläche**, eine **dünne Wand** und ein **dichtes Kapillarnetz** sorgen zusammen für einen schnellen und ausgiebigen Gasaustausch.\n\n### Schreibweise\n**Alveole/Alveolen** mit **v** (lateinisch auch Alveolus/Alveoli), **Alveolarsäckchen**, **Alveolargang**, **Kapillaren** mit Doppel-l, **Gasaustausch** in einem Wort.",
+      "merksaetze": [
+        "Alveolen = Lungenbläschen: Hier findet der Gasaustausch statt, O2 gelangt aus den Alveolen ins Blut und CO2 aus dem Blut in die Alveolen.",
+        "Ca. 400 Millionen Alveolen, je ca. 0,2 mm gross, mit zusammen rund 100 m^2 Oberfläche. Das ist mehr als ein Schulzimmer.",
+        "Die hauchdünne Wand (1 µm) und das dichte Netz aus Kapillaren machen den Gasaustausch schnell."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/biologie/alveole-gasaustausch.svg",
+          "alt": "Lungenbläschen, umsponnen von einer Blutkapillare. Pfeile zeigen Sauerstoff aus der Alveole ins Blut und Kohlenstoffdioxid aus dem Blut in die Alveole; die Wand ist ca. 1 µm dünn",
+          "legende": "Gasaustausch in der Alveole: O2 ins Blut, CO2 aus dem Blut (vgl. Blatt Teil 1, S. 6)"
+        }
+      ]
+    },
+    {
+      "id": "lz-oberflaeche",
+      "zusammenfassung": "### Definition (Blatt Teil 1, S. 8)\nDas **Prinzip der Oberflächenvergrösserung** besagt, dass ein Körper seine **Oberfläche vergrössert, um den Stoff- oder Energieaustausch mit seiner Umgebung zu verbessern**.\n\nEs gilt: **Je grösser die Oberfläche im Verhältnis zum Volumen, desto besser und schneller** kann ein Stoffaustausch (oder Energieaustausch) stattfinden.\n\nBei ähnlicher Form haben kleine Körper eine grössere relative Oberfläche als grosse Körper. Die **relative Oberfläche** ist das Verhältnis Oberfläche : Volumen. Beispiel: Würfel mit 8 cm Kante 384 : 512 = **0,75**, Würfel mit 2 cm Kante 24 : 8 = **3**, Würfel mit 1 cm Kante 6 : 1 = **6** (jeweils cm^2 pro cm^3). Der kleine Würfel hat im Verhältnis zu seinem Volumen viel mehr Oberfläche. Wird ein Körper in viele kleine Stücke geteilt, nimmt die Gesamtoberfläche stark zu, während das **Volumen gleich bleibt**.\n\n### Würfelrechnung (Aufgabe 2)\nOberfläche eines Würfels = 6 · Kante · Kante, Volumen = Kante · Kante · Kante.\n\n| Würfel | Kante | Oberfläche je Würfel | Gesamtoberfläche | Gesamtvolumen |\n|---|---|---|---|---|\n| 1 grosser | 8 cm | 6 · 64 = 384 cm^2 | **384 cm^2** | 512 cm^3 |\n| 8 Einzelwürfel | 4 cm | 6 · 16 = 96 cm^2 | 8 · 96 = **768 cm^2** | 512 cm^3 |\n| 64 kleine | 2 cm | 6 · 4 = 24 cm^2 | 64 · 24 = **1536 cm^2** | 512 cm^3 |\n\n- Halbe Kantenlänge = **doppelte Gesamtoberfläche**, das Volumen bleibt gleich.\n- Je feiner ein Körper unterteilt ist, desto grösser ist seine Gesamtoberfläche.\n- Übertragen auf die Lunge: Ca. 400 Millionen winzige Alveolen ergeben eine riesige **Gasaustauschfläche** (rund 100 m^2). Darüber gelangt besonders viel O2 ins Blut und CO2 hinaus.\n\n### Wie wird die Oberfläche vergrössert?\n- Aufteilung in **viele kleine Teile** (Lungenbläschen)\n- (Auf-)**Faltungen** (Darmfalten)\n- **Ein- bzw. Ausstülpungen** (Zotten, Mikrozotten, Wurzelhaare)\n- **Verzweigungen** (Bronchialbaum, Wurzeln)\n\n### Beispiele aus dem Blatt\n| Beispiel | Bau | Was wird aufgenommen bzw. ausgetauscht? |\n|---|---|---|\n| **Lunge** | sehr viele kleine Alveolen | O2 ins Blut, CO2 aus dem Blut |\n| **Dünndarm** | Darmfalten, **Zotten**, **Mikrozotten** (Mikrovilli) | Nährstoffe aus dem Darm ins Blut |\n| **Pflanzenwurzeln** | Verzweigungen, viele winzige **Wurzelhaare** | Wasser und Mineralstoffe |\n\nOberfläche der Dünndarmschleimhaut: glattes Rohr **0,4 m^2** → mit Falten **1,2 m^2** → mit Zotten **12 m^2** → mit Mikrozotten **240 m^2**.\n\n### Lungen im Tiervergleich (Aufgabe 4)\n- **Amphibien** (Molch, Frosch): einfache, sackförmige Lunge, höchstens mit wenigen Falten → kleine Oberfläche.\n- **Reptilien** (Eidechse): Lunge stärker gekammert → grössere Oberfläche.\n- **Säugetiere** (Maus): Lunge fein verzweigt in Bronchien und Bronchiolen mit Alveolen → **grösste Oberfläche** → effizientester Gasaustausch.\n\nJe stärker gekammert und verzweigt, desto grösser die Gasaustauschfläche und desto mehr Sauerstoff gelangt ins Blut.\n\n*Ergänzt (nicht im Blatt): Amphibien atmen zusätzlich über ihre dünne, feuchte Haut (Hautatmung). Säugetiere sind gleichwarm und brauchen viel Energie, also viel Zellatmung und viel Sauerstoff. Dazu passt ihre grosse Austauschfläche.*\n\n### Weitere Beispiele zum Übertragen (ergänzt)\n- **Kiemen** der Fische: sehr viele dünne Kiemenblättchen für den Gasaustausch im Wasser.\n- **Heizkörperrippen** und die grossen Ohren des **Afrikanischen Elefanten**: grosse Fläche für die Wärmeabgabe (Energieaustausch).\n- **Wüstenfuchs (Fennek)** mit sehr grossen Ohren, **Polarfuchs** mit kleinen: In der Hitze hilft eine grosse Fläche, Wärme abzugeben, in der Kälte schützt eine kleine Fläche vor Wärmeverlust.\n- **Kristallzucker** löst sich schneller als ein Würfelzucker gleicher Masse: Viele kleine Kristalle haben zusammen mehr Oberfläche, an der sich der Zucker im Wasser lösen kann.\n- **Kauen**, also das Zerkleinern der Nahrung: Mehr Oberfläche, an der die Verdauungssäfte angreifen können.\n\n### Schreibweise\n**Oberflächenvergrösserung** (in der Schweiz mit ss), **Gasaustauschfläche**, **Zotten**, **Mikrozotten** (lateinisch Mikrovilli), **Wurzelhaare**.",
+      "merksaetze": [
+        "Prinzip der Oberflächenvergrösserung: Ein Körper vergrössert seine Oberfläche, um den Stoff- oder Energieaustausch mit seiner Umgebung zu verbessern.",
+        "Je grösser die Oberfläche im Verhältnis zum Volumen, desto besser und schneller der Austausch.",
+        "Würfel: Bei halber Kantenlänge verdoppelt sich die Gesamtoberfläche (384 → 768 → 1536 cm^2), das Volumen bleibt gleich (512 cm^3).",
+        "Möglichkeiten sind viele kleine Teile, Faltungen, Ein-/Ausstülpungen und Verzweigungen. Beispiele: Lunge (Alveolen), Dünndarm (Falten, Zotten, Mikrozotten), Pflanzenwurzeln (Wurzelhaare)."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/biologie/wuerfel-oberflaeche.svg",
+          "alt": "Würfelaufgabe: ein grosser Würfel mit 8 cm Kante (384 cm²), daneben 8 Würfel mit 4 cm Kante (768 cm²) und 64 Würfel mit 2 cm Kante (1536 cm²), Volumen jeweils 512 cm³",
+          "legende": "Gleiches Volumen, immer feiner unterteilt: Die Gesamtoberfläche verdoppelt sich bei jeder Halbierung der Kante."
+        },
+        {
+          "src": "bilder/biologie/duenndarm-zotten.svg",
+          "alt": "Dünndarmschleimhaut mit Falten, Zotten und Mikrozotten; die Oberfläche wächst von 0,4 über 1,2 und 12 auf 240 m²",
+          "legende": "Oberflächenvergrösserung im Dünndarm (vgl. Blatt Teil 1, S. 8)"
+        },
+        {
+          "src": "bilder/biologie/tiere-lungen.svg",
+          "alt": "Vier Tierlungen im Längsschnitt: Amphibie als einfacher Sack, Amphibie mit wenigen Falten, Reptil stärker gekammert, Säugetier fein verzweigt mit Alveolen",
+          "legende": "Lungen im Vergleich: Je stärker gekammert und verzweigt, desto grösser die Gasaustauschfläche (vgl. Blatt Teil 1, S. 7)"
+        }
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-alveolen-01",
+      "lernzielId": "lz-alveolen",
+      "typ": "einfachwahl",
+      "frage": "Welche Aufgabe erfüllen die **Lungenbläschen**?",
+      "optionen": [
+        "Sie wärmen die eingeatmete Luft an und befeuchten sie.",
+        "In ihnen findet der Gasaustausch zwischen Luft und Blut statt.",
+        "Sie fangen Staub und Krankheitserreger mit Schleim ab.",
+        "Sie leiten die Luft von der Luftröhre über die Bronchien in die Lungenflügel."
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Alveolen sind der Ort des **Gasaustauschs**: Sauerstoff gelangt aus den Alveolen ins Blut der Kapillaren, Kohlenstoffdioxid aus dem Blut in die Alveolen. Die Luft wird schon vorher in den Atemwegen angewärmt, befeuchtet und gereinigt (Schleim, Flimmerhärchen). Weitergeleitet wird sie durch Luftröhre, Bronchien und Bronchiolen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-alveolen-02",
+      "lernzielId": "lz-alveolen",
+      "typ": "zahl",
+      "frage": "Wie viele **Lungenbläschen** besitzt ein erwachsener Mensch etwa? Gib nur die Zahl der Millionen ein (z. B. 250 für 250 Millionen).",
+      "richtig": 400,
+      "toleranz": 100,
+      "einheit": "Millionen",
+      "erklaerung": "Laut Blatt sind es **ca. 400 Millionen** Alveolen. Die Lungenliga nennt ca. 300 Millionen, weil solche Zahlen nur geschätzt werden können. Für die Prüfung gilt der Wert vom Blatt: ca. 400 Millionen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-alveolen-03",
+      "lernzielId": "lz-alveolen",
+      "typ": "zahl",
+      "frage": "Wie gross ist ein einzelnes **Lungenbläschen** etwa (Durchmesser)?",
+      "richtig": 0.2,
+      "toleranz": 0.05,
+      "einheit": "mm",
+      "erklaerung": "Eine Alveole misst etwa **0,2 mm**, also einen Fünftel Millimeter. Von blossem Auge ist sie kaum zu erkennen.",
+      "schwierigkeit": 1,
+      "tipp": "Deutlich kleiner als ein Stecknadelkopf (1–2 mm)."
+    },
+    {
+      "id": "f-alveolen-04",
+      "lernzielId": "lz-alveolen",
+      "typ": "zahl",
+      "frage": "Wie gross ist die **Gesamtoberfläche aller Alveolen** eines Menschen etwa?",
+      "richtig": 100,
+      "toleranz": 20,
+      "einheit": "m²",
+      "erklaerung": "Zusammen haben die Alveolen eine Oberfläche von **rund 100 m²**. Das ist mehr als die Fläche eines Schulzimmers von 9 m × 8,5 m (76,5 m²), und sie hat in deinem Brustkorb Platz.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-alveolen-05",
+      "lernzielId": "lz-alveolen",
+      "typ": "zahl",
+      "frage": "Wie dick ist die **Wand eines Lungenbläschens** etwa? Gib die Antwort in Mikrometern an.",
+      "richtig": 1,
+      "toleranz": 0.5,
+      "einheit": "µm",
+      "erklaerung": "Die Wand ist **hauchdünn: ca. 1 µm** (1 µm = 0,001 mm). Je dünner die Wand, desto kürzer ist der Weg für O2 und CO2 zwischen Luft und Blut und desto schneller läuft der Gasaustausch.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-alveolen-06",
+      "lernzielId": "lz-alveolen",
+      "typ": "kurzantwort",
+      "frage": "Wie lautet der **Fachbegriff** für die Lungenbläschen? (Mehrzahl)",
+      "akzeptiert": [
+        "Alveolen",
+        "Alveoli",
+        "Lungenalveolen"
+      ],
+      "erklaerung": "Der Fachbegriff ist **Alveolen** (Einzahl: die Alveole; lateinisch auch Alveolus, Mehrzahl Alveoli). Gefragt war die Mehrzahl. Achte auf die Schreibweise: A-l-v-e-o-l-e-n, mit **v** und nicht mit w.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-alveolen-07",
+      "lernzielId": "lz-alveolen",
+      "typ": "kurzantwort",
+      "frage": "Die Lungenbläschen sitzen als kugelige Ausbuchtungen an der Wand kleiner Säckchen am Ende der feinsten Luftwege. Wie heissen diese Säckchen? (Fachbegriff, ein Wort)",
+      "akzeptiert": [
+        "Alveolarsäckchen"
+      ],
+      "erklaerung": "Es sind die **Alveolarsäckchen**. Jedes Lungenläppchen enthält über tausend davon, und ihre Wand hat die kugeligen, ca. 0,2 mm grossen Ausbuchtungen, die Alveolen (Blatt Teil 1, S. 6). Achte auf die Schreibweise: Alveol**ar**säckchen mit **v**, in einem Wort.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-alveolen-08",
+      "lernzielId": "lz-alveolen",
+      "typ": "wahrfalsch",
+      "frage": "In den Alveolen gelangt **Kohlenstoffdioxid aus der Luft ins Blut**.",
+      "richtig": false,
+      "erklaerung": "Es ist umgekehrt: **Sauerstoff** gelangt aus den Alveolen ins Blut, **Kohlenstoffdioxid** gelangt aus dem Blut in die Alveolen und wird ausgeatmet. Das Blut bringt das CO2 aus der Zellatmung zur Lunge.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-alveolen-09",
+      "lernzielId": "lz-alveolen",
+      "typ": "wahrfalsch",
+      "frage": "Der Sauerstoff wird in den Alveolen durch kleine Muskeln **aktiv ins Blut gepumpt**.",
+      "richtig": false,
+      "erklaerung": "Der Sauerstoff gelangt durch **Diffusion** ins Blut, also von selbst. In der Abbildung «4 Schritte der Atmung» heisst dieser Schritt «Diffusion in der Lunge». In der Alveolenluft ist viel Sauerstoff, im ankommenden sauerstoffarmen Blut wenig, darum wandert O2 durch die dünne Wand ins Blut. Muskeln wie das Zwerchfell sorgen nur dafür, dass Luft ein- und ausströmt.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-alveolen-10",
+      "lernzielId": "lz-alveolen",
+      "typ": "wahrfalsch",
+      "frage": "Beim Sport braucht der Körper mehr Sauerstoff. Deshalb bildet die Lunge während des Trainings **zusätzliche Alveolen**.",
+      "richtig": false,
+      "erklaerung": "Die Zahl der Alveolen (ca. 400 Millionen) ändert sich beim Sport nicht. Mehr Sauerstoff bekommt der Körper, weil du **schneller und tiefer atmest** (mehr Luft pro Minute in den Alveolen) und das Herz mehr Blut durch die Lungenkapillaren pumpt. Die vorhandene Austauschfläche wird also besser genutzt.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-alveolen-11",
+      "lernzielId": "lz-alveolen",
+      "typ": "zahl",
+      "frage": "Ein Schulzimmer misst **9 m × 8,5 m**. Wie gross ist seine Fläche?",
+      "richtig": 76.5,
+      "toleranz": 0.1,
+      "einheit": "m²",
+      "erklaerung": "9 · 8,5 = 9 · 8 + 9 · 0,5 = 72 + 4,5 = **76,5 m²**. Die Alveolen haben zusammen rund 100 m², also mehr Fläche als das ganze Schulzimmer.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-alveolen-12",
+      "lernzielId": "lz-alveolen",
+      "typ": "zahl",
+      "frage": "Wie viele Lungenbläschen passen etwa **nebeneinander auf 1 cm**?",
+      "richtig": 50,
+      "toleranz": 0,
+      "einheit": "Lungenbläschen",
+      "erklaerung": "Ein Lungenbläschen misst ca. **0,2 mm**. 1 cm = 10 mm. 10 mm : 0,2 mm = **50**. Auf einer Strecke von nur einem Zentimeter haben also 50 Lungenbläschen nebeneinander Platz.",
+      "schwierigkeit": 2,
+      "tipp": "Erinnere dich an den Durchmesser eines Lungenbläschens. 1 cm = 10 mm."
+    },
+    {
+      "id": "f-alveolen-13",
+      "lernzielId": "lz-alveolen",
+      "typ": "einfachwahl",
+      "frage": "Ein Stecknadelkopf hat einen Durchmesser von etwa 1–2 mm. Was stellst du fest, wenn du ihn mit einem **Lungenbläschen** vergleichst?",
+      "optionen": [
+        "Ein Lungenbläschen ist etwa gleich gross wie ein Stecknadelkopf.",
+        "Ein Lungenbläschen ist etwa 100- bis 200-mal kleiner.",
+        "Ein Lungenbläschen ist etwa 5- bis 10-mal grösser.",
+        "Ein Lungenbläschen ist etwa 5- bis 10-mal kleiner."
+      ],
+      "richtig": 3,
+      "erklaerung": "Ein Lungenbläschen misst ca. **0,2 mm**. 1 mm : 0,2 mm = 5 und 2 mm : 0,2 mm = 10. Der Stecknadelkopf ist also 5- bis 10-mal grösser, die Alveole ist **5- bis 10-mal kleiner**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-alveolen-15",
+      "lernzielId": "lz-alveolen",
+      "typ": "zuordnen",
+      "frage": "Ordne jedem Zahlenwert zu, was er beim Bau der Lunge beschreibt.",
+      "paare": [
+        {
+          "links": "ca. 400 Millionen",
+          "rechts": "Anzahl Alveolen"
+        },
+        {
+          "links": "ca. 0,2 mm",
+          "rechts": "Durchmesser einer Alveole"
+        },
+        {
+          "links": "rund 100 m²",
+          "rechts": "Gesamtoberfläche aller Alveolen"
+        },
+        {
+          "links": "ca. 1 µm",
+          "rechts": "Dicke der Alveolenwand"
+        },
+        {
+          "links": "ca. 1 cm",
+          "rechts": "Grösse eines Lungenläppchens an der Oberfläche"
+        },
+        {
+          "links": "über 1000",
+          "rechts": "Säckchen mit Lungenbläschen pro Lungenläppchen"
+        }
+      ],
+      "erklaerung": "Alle Werte stehen im Blatt Teil 1, S. 6: Lungenläppchen sind an der Oberfläche als etwa 1 cm grosse Felder sichtbar und enthalten je über tausend Alveolarsäckchen. Deren Wand hat ca. 0,2 mm grosse Ausbuchtungen, die Alveolen. Es gibt ca. 400 Millionen davon, mit zusammen rund 100 m² Oberfläche und einer Wand von nur 1 µm.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-alveolen-16",
+      "lernzielId": "lz-alveolen",
+      "typ": "reihenfolge",
+      "frage": "Bringe die Stationen auf dem **letzten Stück des Wegs** eines Sauerstoffteilchens aus der Atemluft ins Blut in die richtige Reihenfolge.",
+      "elemente": [
+        "Bronchiole",
+        "Alveolargang",
+        "Alveolarsäckchen",
+        "Lungenbläschen",
+        "hauchdünne Wand des Lungenbläschens",
+        "feinstes Blutgefäss"
+      ],
+      "erklaerung": "Die Bronchiolen führen über die **Alveolargänge** zu den **Alveolarsäckchen**. Deren Wand hat kugelige Ausbuchtungen, die **Alveolen** (Lungenbläschen). Dort tritt der Sauerstoff durch die ca. 1 µm dünne Wand in die **Kapillaren** über (Gasaustausch durch Diffusion).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-alveolen-17",
+      "lernzielId": "lz-alveolen",
+      "typ": "einfachwahl",
+      "frage": "Bei einer schweren **Lungenentzündung** füllen sich viele Lungenbläschen mit Flüssigkeit. Weshalb bekommen Betroffene schlecht Luft?",
+      "optionen": [
+        "Die Flüssigkeit gelangt ins Blut und verdünnt es, sodass es weniger O2 transportieren kann.",
+        "Die Bronchiolen ziehen sich zusammen, sodass weniger Luft in die Lunge strömt.",
+        "Die gefüllten Lungenbläschen fallen für den Gasaustausch aus, die Austauschfläche wird kleiner, und es gelangt weniger O2 ins Blut.",
+        "Das CO2 kann nicht mehr ausgeatmet werden, die Aufnahme von O2 ins Blut läuft aber normal weiter."
+      ],
+      "richtig": 2,
+      "erklaerung": "Mit Flüssigkeit gefüllte Alveolen werden nicht mehr belüftet und **fallen für den Gasaustausch aus**: Die **Gasaustauschfläche wird kleiner**, und es gelangt weniger O2 ins Blut (und weniger CO2 hinaus). Wo Flüssigkeit die Wand bedeckt oder verdickt, wird zudem der **Diffusionsweg länger**. Das Blut wird nicht verdünnt, und das Zusammenziehen der Bronchiolen ist typisch für Asthma, nicht für eine Lungenentzündung. *Die Lungenentzündung ist nicht im Blatt (Transferaufgabe, ergänzt).*",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-alveolen-18",
+      "lernzielId": "lz-alveolen",
+      "typ": "einfachwahl",
+      "frage": "Auf 5000 m Höhe ist die Luft «dünner» (geringerer Luftdruck), sie besteht aber weiterhin zu rund 21 % aus Sauerstoff. Warum kommt man dort beim Gehen schnell ausser Atem?",
+      "optionen": [
+        "Pro Atemzug gelangt weniger Sauerstoff in die Lungenbläschen, also tritt auch weniger O2 ins Blut über.",
+        "Die Kälte in der Höhe verschliesst einen Teil der Lungenbläschen, sodass weniger Lungenbläschen arbeiten.",
+        "Die Lunge schrumpft in der Höhe und nimmt deshalb weniger Luft auf.",
+        "Die Wand der Lungenbläschen wird in der Höhe dicker."
+      ],
+      "richtig": 0,
+      "erklaerung": "Die dünnere Luft enthält im gleichen Volumen **weniger Sauerstoffteilchen**, obwohl der Anteil weiterhin 21 % beträgt. Deshalb kommt bei gleich grossen Atemzügen weniger Sauerstoff in die Alveolen. Das **Gefälle** zwischen der Alveolenluft (viel O2) und dem Blut (wenig O2) wird kleiner, und weil Diffusion vom Ort hoher zum Ort niedriger Konzentration läuft, diffundiert über dieselbe Austauschfläche weniger O2 ins Blut. Der Körper gleicht das mit schnellerem und tieferem Atmen aus. Lunge, Alveolenzahl und Wanddicke bleiben gleich. *Höhenatmung ist nicht im Blatt (Transferaufgabe, ergänzt).*",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-alveolen-19",
+      "lernzielId": "lz-alveolen",
+      "typ": "offen",
+      "frage": "Erkläre, welche **Aufgabe die Alveolen** erfüllen. Gib auch an, wie viele es etwa sind, wie gross eine einzelne Alveole ist und wie gross ihre Gesamtoberfläche ist.",
+      "musterloesung": "In den Alveolen (Lungenbläschen) findet der **Gasaustausch** statt. **Sauerstoff** gelangt aus den Alveolen durch die hauchdünne Wand (ca. 1 µm) in die Blutkapillaren, die die Alveolen umspinnen. **Kohlenstoffdioxid** gelangt aus dem Blut in die Alveolen und wird ausgeatmet.\n\n- Anzahl: ca. **400 Millionen**\n- Grösse: ca. **0,2 mm** Durchmesser\n- Gesamtoberfläche: rund **100 m^2**, mehr als ein Schulzimmer von 9 m × 8,5 m = 76,5 m^2",
+      "stichworte": [
+        "Gasaustausch",
+        "O2 aus den Alveolen ins Blut",
+        "CO2 aus dem Blut in die Alveolen",
+        "Kapillaren",
+        "ca. 400 Millionen",
+        "ca. 0,2 mm",
+        "rund 100 m²"
+      ],
+      "erklaerung": "Zu einer vollständigen Antwort gehören die **Aufgabe** (Gasaustausch mit beiden Richtungen: O2 ins Blut, CO2 aus dem Blut) und die **drei Zahlen**. Vergiss die Richtungen nicht. «Die Alveolen sind für die Atmung da» genügt in der Prüfung nicht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-alveolen-20",
+      "lernzielId": "lz-alveolen",
+      "typ": "offen",
+      "frage": "Bei einem **Lungenemphysem** (oft nach jahrelangem Rauchen) werden die Wände zwischen den Lungenbläschen zerstört: Viele kleine Alveolen verschmelzen zu wenigen grossen Blasen. Die Lunge wird dabei nicht kleiner, sie ist eher sogar überbläht. Erkläre, warum Betroffene unter **Atemnot** leiden.",
+      "musterloesung": "Wenn viele kleine Alveolen zu wenigen grossen Blasen verschmelzen, wird die **Gesamtoberfläche viel kleiner**, obwohl das Lungenvolumen nicht abnimmt. Das ist die Würfelrechnung rückwärts: Aus vielen kleinen Würfeln wird ein grosser, und die Gesamtoberfläche nimmt ab.\n\nDer Gasaustausch findet über die Oberfläche der Alveolen statt. Es steht also weniger **Gasaustauschfläche** zur Verfügung, darum gelangt pro Atemzug weniger Sauerstoff ins Blut und weniger CO2 hinaus. Der Körper versucht das mit schnellerem Atmen auszugleichen. Die Betroffenen haben **Atemnot**, vor allem bei Anstrengung.",
+      "stichworte": [
+        "Gesamtoberfläche wird kleiner",
+        "Volumen gleich oder grösser, Oberfläche trotzdem kleiner",
+        "weniger Gasaustauschfläche",
+        "weniger O2 ins Blut",
+        "Prinzip der Oberflächenvergrösserung / Würfelrechnung"
+      ],
+      "erklaerung": "Hier musst du das Prinzip der Oberflächenvergrösserung umgekehrt anwenden: **Wenige grosse Bläschen haben weniger Oberfläche als viele kleine**, auch wenn das Volumen gleich bleibt oder sogar zunimmt. *Das Lungenemphysem ist nicht im Blatt (Transferaufgabe, ergänzt).*",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-alveolen-21",
+      "lernzielId": "lz-alveolen",
+      "typ": "zahl",
+      "frage": "Ein Schulzimmer misst 9 m × 8,5 m. **Wievielmal grösser** ist die Gesamtoberfläche aller Alveolen eines Menschen etwa? Runde auf eine Dezimalstelle.",
+      "richtig": 1.3,
+      "toleranz": 0.1,
+      "einheit": "-mal",
+      "erklaerung": "Schulzimmer: 9 · 8,5 = 76,5 m^2. Alveolen: rund **100 m^2**. 100 : 76,5 ≈ **1,3**. Die Alveolen haben zusammen also gut ein Viertel mehr Fläche als das ganze Schulzimmer, und diese Fläche hat in deinem Brustkorb Platz. Möglich ist das nur, weil sie auf ca. 400 Millionen winzige Bläschen verteilt ist (Prinzip der Oberflächenvergrösserung).",
+      "schwierigkeit": 2,
+      "tipp": "Berechne zuerst die Fläche des Schulzimmers. Wie gross ist die Gesamtoberfläche der Alveolen?"
+    },
+    {
+      "id": "f-oberflaeche-01",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "kurzantwort",
+      "frage": "Die Lunge mit ihren vielen winzigen Bläschen, der Dünndarm mit seinen Falten und Ausstülpungen und die feinen Härchen der Pflanzenwurzeln sind Beispiele für dasselbe biologische Prinzip. Wie heisst es?",
+      "akzeptiert": [
+        "Prinzip der Oberflächenvergrösserung",
+        "Oberflächenvergrösserung",
+        "Oberflächenvergrösserungsprinzip",
+        "Das Prinzip der Oberflächenvergrösserung"
+      ],
+      "erklaerung": "Es ist das **Prinzip der Oberflächenvergrösserung**. Achte auf die Schreibweise: Ober**fläche** mit ä, Ver**grösserung** mit ö und Doppel-s (in der Schweiz immer ss).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-oberflaeche-02",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "einfachwahl",
+      "frage": "Was besagt das **Prinzip der Oberflächenvergrösserung**?",
+      "optionen": [
+        "Ein Körper vergrössert seine Oberfläche, damit sein Volumen zunimmt und er mehr Stoffe in seinem Inneren speichern kann.",
+        "Ein Körper verkleinert seine Oberfläche, um möglichst wenig mit seiner Umgebung auszutauschen.",
+        "Ein Körper vergrössert seine Oberfläche, um den Stoff- oder Energieaustausch mit seiner Umgebung zu verbessern.",
+        "Ein Körper wird möglichst gross, damit er stabiler ist."
+      ],
+      "richtig": 2,
+      "erklaerung": "Die Definition aus dem Blatt lautet: Ein Körper **vergrössert seine Oberfläche, um den Stoff- oder Energieaustausch mit seiner Umgebung zu verbessern**. Es geht um den Austausch über die Oberfläche, nicht um mehr Volumen oder Speicherplatz.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-oberflaeche-03",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "wahrfalsch",
+      "frage": "«Je **kleiner** die Oberfläche im Verhältnis zum Volumen, desto besser und schneller kann ein Stoffaustausch stattfinden.»",
+      "richtig": false,
+      "erklaerung": "Es ist umgekehrt: **Je grösser die Oberfläche im Verhältnis zum Volumen, desto besser und schneller** kann ein Stoffaustausch (oder Energieaustausch) stattfinden. Darum hat die Lunge Millionen kleiner Alveolen und nicht einen einzigen grossen Sack.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-oberflaeche-04",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "mehrfachwahl",
+      "frage": "Auf welche Arten kann laut Blatt eine **Oberfläche vergrössert** werden?",
+      "optionen": [
+        "Aufteilung in viele kleine Teile",
+        "(Auf-)Faltungen",
+        "Ein- bzw. Ausstülpungen",
+        "Verzweigungen",
+        "Verdickung der Wand",
+        "Zusammenschluss vieler kleiner Teile zu einer grossen Kugel"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Die Oberfläche wird grösser durch **viele kleine Teile** (Alveolen), **Faltungen** (Darmfalten), **Ein- bzw. Ausstülpungen** (Zotten, Wurzelhaare) und **Verzweigungen** (Bronchialbaum, Wurzeln). Eine dickere Wand vergrössert die Oberfläche nicht und erschwert den Austausch sogar. Eine grosse Kugel hat im Verhältnis zu ihrem Volumen besonders wenig Oberfläche.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-oberflaeche-05",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "zahl",
+      "frage": "Aus 8 Würfeln mit je 4 cm Kantenlänge setzt du einen grossen Würfel zusammen. Wie gross ist die **Oberfläche dieses grossen Würfels**?",
+      "richtig": 384,
+      "toleranz": 0,
+      "einheit": "cm²",
+      "erklaerung": "Der grosse Würfel hat eine Kante von 2 · 4 cm = 8 cm. Eine Seitenfläche misst 8 · 8 = 64 cm², der Würfel hat 6 Seitenflächen: 6 · 64 = **384 cm²**.",
+      "schwierigkeit": 2,
+      "tipp": "Überlege zuerst, wie viele Einzelwürfel entlang einer Kante des grossen Würfels liegen. Ein Würfel hat 6 gleich grosse Seitenflächen."
+    },
+    {
+      "id": "f-oberflaeche-06",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "zahl",
+      "frage": "Wie gross ist die **Gesamtoberfläche von 8 einzelnen Würfeln** mit je 4 cm Kantenlänge?",
+      "richtig": 768,
+      "toleranz": 0,
+      "einheit": "cm²",
+      "erklaerung": "Ein Einzelwürfel: 4 · 4 = 16 cm² pro Seitenfläche, 6 · 16 = 96 cm². Alle 8 Würfel: 8 · 96 = **768 cm²**. Das ist **doppelt so viel** wie beim grossen Würfel aus denselben 8 Würfeln (Kante 8 cm, 384 cm²), obwohl das Volumen gleich bleibt.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-oberflaeche-07",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "zahl",
+      "frage": "Jeder der 8 Einzelwürfel wird nochmals in 8 Würfel mit halber Kantenlänge (2 cm) geteilt. Wie gross ist die **Gesamtoberfläche der 64 kleinen Würfel**?",
+      "richtig": 1536,
+      "toleranz": 0,
+      "einheit": "cm²",
+      "erklaerung": "Ein kleiner Würfel: 2 · 2 = 4 cm² pro Seitenfläche, 6 · 4 = 24 cm². Alle 64 Würfel: 64 · 24 = **1536 cm²**. Schneller geht es so: Die Gesamtoberfläche verdoppelt sich wieder, 2 · 768 = 1536 cm².",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-oberflaeche-08",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "zahl",
+      "frage": "Wie gross ist das **Gesamtvolumen** der 8 Einzelwürfel mit je 4 cm Kantenlänge?",
+      "richtig": 512,
+      "toleranz": 0,
+      "einheit": "cm³",
+      "erklaerung": "Ein Würfel: 4 · 4 · 4 = 64 cm³. 8 Würfel: 8 · 64 = **512 cm³**, gleich viel wie der grosse Würfel (8 · 8 · 8 = 512 cm³) und wie die 64 kleinen Würfel (64 · 8 cm³). **Das Gesamtvolumen bleibt immer gleich**, nur die Oberfläche wächst.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-oberflaeche-09",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "einfachwahl",
+      "frage": "Du teilst jeden Würfel in 8 kleinere Würfel mit **halber Kantenlänge**. Was passiert mit der **Gesamtoberfläche**?",
+      "optionen": [
+        "Sie bleibt gleich.",
+        "Sie verdoppelt sich.",
+        "Sie verachtfacht sich.",
+        "Sie halbiert sich."
+      ],
+      "richtig": 1,
+      "erklaerung": "Bei halber Kantenlänge hat jeder kleine Würfel nur einen Viertel der Oberfläche (½ · ½), aber es sind 8-mal so viele: 8 · ¼ = 2. Die Gesamtoberfläche **verdoppelt sich** (384 → 768 → 1536 cm²), das Volumen bleibt gleich. «Verachtfacht» wäre richtig, wenn jeder kleine Würfel gleich viel Oberfläche hätte wie der grosse.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-oberflaeche-10",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "zahl",
+      "frage": "Du gehst noch einen Schritt weiter: Jeder der 64 Würfel (Kante 2 cm) wird in 8 Würfel mit 1 cm Kantenlänge geteilt. Wie gross ist jetzt die **Gesamtoberfläche aller 512 Würfel**?",
+      "richtig": 3072,
+      "toleranz": 0,
+      "einheit": "cm²",
+      "erklaerung": "Ein 1-cm-Würfel hat 6 · 1 = 6 cm² Oberfläche, 512 · 6 = **3072 cm²**. Mit der Regel geht es schneller: halbe Kantenlänge, also doppelte Oberfläche: 2 · 1536 = 3072 cm². Das Volumen beträgt immer noch 512 cm³, die Oberfläche ist aber achtmal so gross wie beim grossen Würfel.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-oberflaeche-11",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "offen",
+      "frage": "Was zeigt dir die Würfelrechnung (ein grosser Würfel, immer feiner in kleinere Würfel unterteilt)? Übertrage die Erkenntnis auf die **winzigen Lungenbläschen**: Welchen Sinn hat ihre riesige Anzahl?",
+      "musterloesung": "Die Rechnung zeigt: Je feiner ein Körper unterteilt wird, desto **grösser wird die Gesamtoberfläche**, während das **Volumen gleich bleibt** (immer 512 cm^3). Bei halber Kantenlänge verdoppelt sich die Oberfläche.\n\nÜbertragen auf die Lunge: Die rund 400 Millionen winzigen Lungenbläschen haben zusammen eine riesige Oberfläche von rund 100 m^2, viel mehr als ein einziger grosser Luftsack mit demselben Volumen. Über diese Oberfläche läuft der **Gasaustausch**. Darum kann besonders viel Sauerstoff aus den Alveolen ins Blut aufgenommen und viel CO2 abgegeben werden. Der Bau der Lunge ist ein Beispiel für das **Prinzip der Oberflächenvergrösserung**.",
+      "stichworte": [
+        "feiner unterteilt → grössere Gesamtoberfläche",
+        "Volumen bleibt gleich",
+        "viele kleine Alveolen → ca. 100 m²",
+        "mehr Gasaustausch: O2 ins Blut, CO2 hinaus",
+        "Prinzip der Oberflächenvergrösserung"
+      ],
+      "erklaerung": "Wichtig sind beide Teile: die **Erkenntnis aus der Rechnung** (mehr Oberfläche bei gleichem Volumen) und die **Übertragung auf die Aufgabe der Alveolen** (Gasaustausch). Nur «es hat viele Lungenbläschen» reicht nicht. Sag, wozu die grosse Fläche dient.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-oberflaeche-12",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "offen",
+      "frage": "Erläutere das **Prinzip der Oberflächenvergrösserung** und nenne zwei Beispiele aus dem Körper des Menschen oder aus dem Pflanzenreich.",
+      "musterloesung": "Das Prinzip der Oberflächenvergrösserung besagt, dass ein Körper seine **Oberfläche vergrössert, um den Stoff- oder Energieaustausch mit seiner Umgebung zu verbessern**. Es gilt: Je grösser die Oberfläche im Verhältnis zum Volumen, desto besser und schneller kann der Austausch stattfinden. Die Oberfläche wird durch viele kleine Teile, Faltungen, Ein-/Ausstülpungen oder Verzweigungen vergrössert.\n\nBeispiele:\n- **Lunge:** sehr viele kleine Alveolen (ca. 100 m^2) → viel O2 ins Blut, viel CO2 hinaus.\n- **Dünndarm:** Darmfalten, Zotten und Mikrozotten → bessere Aufnahme von Nährstoffen aus dem Darm ins Blut.\n- **Pflanzenwurzeln:** verzweigt, mit vielen winzigen Wurzelhaaren → mehr Wasser und Mineralstoffe werden aufgenommen.",
+      "stichworte": [
+        "Oberfläche vergrössern",
+        "Stoff- oder Energieaustausch verbessern",
+        "Oberfläche im Verhältnis zum Volumen",
+        "Beispiel mit Bau und Nutzen (Lunge, Dünndarm, Wurzeln)"
+      ],
+      "erklaerung": "Bei jedem Beispiel gehören **Bau** (wie wird die Oberfläche vergrössert?) und **Nutzen** (was wird besser ausgetauscht?) dazu, z. B. «Zotten → mehr Nährstoffe ins Blut».",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-oberflaeche-13",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "zuordnen",
+      "frage": "Ordne den Stufen der Dünndarmschleimhaut die passende Oberfläche zu.",
+      "paare": [
+        {
+          "links": "nur glattes Darmrohr",
+          "rechts": "0,4 m²"
+        },
+        {
+          "links": "mit Darmfalten",
+          "rechts": "1,2 m²"
+        },
+        {
+          "links": "Falten mit fingerförmigen Ausstülpungen",
+          "rechts": "12 m²"
+        },
+        {
+          "links": "zusätzlich feinste Ausstülpungen auf jeder Zelle",
+          "rechts": "240 m²"
+        }
+      ],
+      "erklaerung": "Jede Stufe vergrössert die Oberfläche: Falten verdreifachen sie (0,4 → 1,2 m²), die **Zotten** verzehnfachen sie (→ 12 m²), die **Mikrozotten** (Mikrovilli) verzwanzigfachen sie nochmals (→ **240 m²**). Insgesamt ist die Fläche 600-mal so gross wie bei einem glatten Rohr, deshalb können viele Nährstoffe aus dem Darm ins Blut aufgenommen werden.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-oberflaeche-14",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "einfachwahl",
+      "frage": "Amphibien, Reptilien und Säugetiere haben unterschiedlich gebaute Lungen. Welche Lunge ermöglicht den **effizientesten Gasaustausch**?",
+      "optionen": [
+        "Die einfache, sackförmige Lunge eines Molchs oder Froschs",
+        "Die Amphibienlunge mit wenigen Falten in der Wand",
+        "Die stärker gekammerte Lunge einer Eidechse (Reptil)",
+        "Die fein verzweigte Lunge einer Maus (Säugetier)"
+      ],
+      "richtig": 3,
+      "erklaerung": "Die Säugetierlunge ist fein verzweigt (Bronchien, Bronchiolen) und endet in unzähligen **Alveolen**. Dadurch hat sie die **grösste innere Oberfläche** und den effizientesten Gasaustausch. Die Reptilienlunge ist gekammert und hat eine mittlere Oberfläche, die sackförmige Amphibienlunge die kleinste.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-oberflaeche-15",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "offen",
+      "frage": "Vergleiche die Lungen von **Amphibien, Reptilien und Säugetieren**. Was stellst du fest, und welche Auswirkungen hat der Bau der Lunge auf den Gasaustausch? Begründe auch, warum der Bau der Säugetierlunge zu ihrer Lebensweise passt.",
+      "musterloesung": "- **Amphibien** (Molch, Frosch): einfache, sackförmige Lunge, höchstens mit wenigen Falten → kleine innere Oberfläche. Sie atmen zusätzlich über die dünne, feuchte Haut.\n- **Reptilien** (Eidechse): Lunge stärker gekammert → grössere Oberfläche.\n- **Säugetiere** (Maus): Lunge fein verzweigt in Bronchien und Bronchiolen mit unzähligen Alveolen → mit Abstand grösste Oberfläche.\n\n**Auswirkung:** Je stärker die Lunge gekammert und verzweigt ist, desto grösser ist die Gasaustauschfläche und desto mehr Sauerstoff gelangt pro Atemzug ins Blut. Säugetiere haben den effizientesten Gasaustausch.\n\n**Passend zur Lebensweise:** Säugetiere sind gleichwarm und halten ihre Körpertemperatur konstant. Dafür brauchen sie viel Energie, also viel Zellatmung und viel Sauerstoff.",
+      "stichworte": [
+        "Amphibien: einfacher Sack",
+        "Reptilien: gekammert",
+        "Säugetiere: fein verzweigt, Alveolen",
+        "grössere Oberfläche → mehr Gasaustausch",
+        "gleichwarm → hoher Energiebedarf → viel O2"
+      ],
+      "erklaerung": "Der Kern ist die Steigerung **Sack → gekammert → fein verzweigt mit Alveolen** und die Verknüpfung mit dem Prinzip der Oberflächenvergrösserung. Die Begründung mit dem Energiebedarf gleichwarmer Tiere und die Hautatmung der Amphibien sind *ergänzt*. Sie zeigen, dass du Wissen verknüpfen kannst (Zellatmung braucht O2).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-oberflaeche-16",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "zuordnen",
+      "frage": "Auch diese Beispiele nutzen eine grosse Oberfläche. Ordne zu, **was** jeweils über die Oberfläche ausgetauscht oder aufgenommen wird.",
+      "paare": [
+        {
+          "links": "Lungenbläschen",
+          "rechts": "Gase (O2 und CO2)"
+        },
+        {
+          "links": "Kiemenblättchen eines Fisches",
+          "rechts": "Gase (O2 und CO2)"
+        },
+        {
+          "links": "Falten und Ausstülpungen der Dünndarmschleimhaut",
+          "rechts": "Nährstoffe"
+        },
+        {
+          "links": "feine Härchen an den Pflanzenwurzeln",
+          "rechts": "Wasser und Mineralstoffe"
+        },
+        {
+          "links": "Rippen eines Heizkörpers",
+          "rechts": "Wärme"
+        },
+        {
+          "links": "grosse, gut durchblutete Ohren des Afrikanischen Elefanten",
+          "rechts": "Wärme"
+        }
+      ],
+      "erklaerung": "Lunge und Kiemen tauschen **Gase** aus (Kiemen nehmen O2 aus dem Wasser auf). Der Dünndarm nimmt **Nährstoffe** ins Blut auf, die Wurzelhaare **Wasser und Mineralstoffe**. Heizkörperrippen und Elefantenohren geben **Wärme** ab. Das ist ein Energieaustausch, der in der Definition ausdrücklich vorkommt («Stoff- oder Energieaustausch»). *Kiemen, Heizkörper und Elefantenohren sind ergänzt (Transfer).*",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-oberflaeche-17",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "einfachwahl",
+      "frage": "Weshalb hilft gründliches **Kauen** der Verdauung? Welche Begründung ist richtig?",
+      "optionen": [
+        "Viele kleine Stücke haben zusammen ein grösseres Volumen, deshalb haben die Verdauungssäfte mehr Platz.",
+        "Beim Kauen wird die Oberfläche der Nahrung kleiner, sodass sie leichter durch den Darm rutscht.",
+        "Viele kleine Stücke haben zusammen mehr Oberfläche, an der die Verdauungssäfte angreifen können.",
+        "Kleine Stücke haben weniger Oberfläche, deshalb gehen beim Verdauen weniger Nährstoffe verloren."
+      ],
+      "richtig": 2,
+      "erklaerung": "Wie bei der Würfelrechnung wird die **Gesamtoberfläche** beim Zerkleinern grösser, das **Volumen** (und die Menge an Nährstoffen) bleibt gleich. Die Verdauungssäfte wirken an der Oberfläche der Nahrungsstücke, darum werden viele kleine Stücke schneller verdaut. Das ist das Prinzip der Oberflächenvergrösserung. *Transferbeispiel, ergänzt.*",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-oberflaeche-18",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "einfachwahl",
+      "frage": "Fische atmen mit **Kiemen**. Sie bestehen aus sehr vielen dünnen, stark durchbluteten Kiemenblättchen. Wozu dient dieser Bau?",
+      "optionen": [
+        "Sie bilden eine grosse Austauschfläche, über die viel O2 aus dem Wasser ins Blut gelangt.",
+        "Die grosse Oberfläche sorgt dafür, dass möglichst wenig Wärme an das kalte Wasser verloren geht.",
+        "Über die grosse Fläche gibt der Fisch Sauerstoff ans Wasser ab und nimmt Kohlenstoffdioxid auf.",
+        "Die vielen Blättchen vergrössern das Volumen der Kiemen, damit darin mehr Sauerstoff gespeichert werden kann."
+      ],
+      "richtig": 0,
+      "erklaerung": "Viele dünne Kiemenblättchen ergeben eine **grosse Oberfläche** für den Gasaustausch. Sie sind gut durchblutet, wie die Alveolen mit ihren Kapillaren. Die Richtung ist dieselbe wie in der Lunge: O2 ins Blut, CO2 hinaus. Eine grosse Fläche verringert den Wärmeverlust nicht, sie vergrössert ihn. Gespeichert wird in den Kiemen kein Sauerstoff. Die grosse Fläche ist besonders wichtig, weil Wasser viel weniger Sauerstoff enthält als Luft. *Kiemen sind nicht im Blatt (Transferaufgabe, ergänzt).*",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-oberflaeche-19",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "kurzantwort",
+      "frage": "Die Dünndarmschleimhaut bildet Falten. Auf diesen sitzen fingerförmige Ausstülpungen. Wie heissen diese Ausstülpungen? (Fachbegriff)",
+      "akzeptiert": [
+        "Zotten",
+        "Darmzotten",
+        "Dünndarmzotten"
+      ],
+      "erklaerung": "Es sind die **Zotten** (Darmzotten). Auf den Zellen der Zotten sitzen noch feinere Ausstülpungen, die **Mikrozotten** (Mikrovilli). Falten, Zotten und Mikrozotten vergrössern die Oberfläche von 0,4 m² auf 240 m².",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-oberflaeche-20",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "kurzantwort",
+      "frage": "Pflanzenwurzeln sind verzweigt und vergrössern ihre Oberfläche zusätzlich mit sehr vielen winzigen, fadenförmigen Ausstülpungen der Wurzelzellen. Wie heissen diese? (Fachbegriff)",
+      "akzeptiert": [
+        "Wurzelhaare"
+      ],
+      "erklaerung": "Es sind die **Wurzelhaare**. Durch sie wird die Oberfläche der Wurzel stark vergrössert, sodass die Pflanze mehr **Wasser und Mineralstoffe** aus dem Boden aufnehmen kann.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-oberflaeche-21",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "zahl",
+      "frage": "Ein Würfel hat eine Kantenlänge von **8 cm**. Berechne das **Verhältnis Oberfläche : Volumen** (Oberfläche in cm² geteilt durch Volumen in cm³).",
+      "richtig": 0.75,
+      "toleranz": 0.01,
+      "einheit": "cm² pro cm³",
+      "erklaerung": "Oberfläche: 6 · 8 · 8 = 384 cm². Volumen: 8 · 8 · 8 = 512 cm³. 384 : 512 = 3 : 4 = **0,75**. Zum Vergleich: Ein Würfel mit 2 cm Kante hat 24 : 8 = 3, ein Würfel mit 1 cm Kante 6 : 1 = 6. **Je kleiner der Körper, desto grösser seine relative Oberfläche** und desto besser kann er Stoffe mit der Umgebung austauschen.",
+      "schwierigkeit": 2,
+      "tipp": "Oberfläche = 6 · Kante · Kante, Volumen = Kante · Kante · Kante. Kürze den Bruch."
+    },
+    {
+      "id": "f-oberflaeche-22",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "wahrfalsch",
+      "frage": "Ein Würfel mit **1 cm** Kantenlänge hat **im Verhältnis zu seinem Volumen** mehr Oberfläche als ein Würfel mit **8 cm** Kantenlänge.",
+      "richtig": true,
+      "erklaerung": "Wahr. 1-cm-Würfel: 6 cm² Oberfläche bei 1 cm³ Volumen, also 6 cm² pro cm³. 8-cm-Würfel: 384 cm² bei 512 cm³, also nur 0,75 cm² pro cm³. Der grosse Würfel hat zwar absolut mehr Oberfläche, aber **bei ähnlicher Form haben kleine Körper eine grössere relative Oberfläche** (Blatt Teil 1, S. 8).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-oberflaeche-23",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "kurzantwort",
+      "frage": "Auf den Zellen der fingerförmigen Ausstülpungen im Dünndarm sitzen noch feinere Ausstülpungen. Wie heissen sie? (deutscher Fachbegriff oder lateinisch)",
+      "akzeptiert": [
+        "Mikrozotten",
+        "Mikrovilli"
+      ],
+      "erklaerung": "Es sind die **Mikrozotten** (lateinisch **Mikrovilli**). Sie sitzen auf den Zellen der Zotten und vergrössern die Oberfläche der Dünndarmschleimhaut nochmals um das Zwanzigfache, von 12 m² auf 240 m². Achte auf die Schreibweise: Mikro**z**otten in einem Wort.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-oberflaeche-24",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "kurzantwort",
+      "frage": "Über die Oberfläche der Lungenbläschen gelangt O2 ins Blut und CO2 aus dem Blut. Wie nennt man diese Oberfläche deshalb auch? (ein zusammengesetztes Wort)",
+      "akzeptiert": [
+        "Gasaustauschfläche"
+      ],
+      "erklaerung": "Man spricht von der **Gasaustauschfläche** (Blatt Teil 1, S. 8). Gas-austausch-fläche wird in einem Wort geschrieben. Je grösser sie ist, desto mehr O2 kann ins Blut aufgenommen und CO2 abgegeben werden.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-oberflaeche-25",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "offen",
+      "frage": "Der **Wüstenfuchs** (Fennek) lebt in der heissen Sahara und hat sehr grosse, dünne, gut durchblutete Ohren. Der **Polarfuchs** lebt in der Arktis und hat kleine Ohren. Erkläre diesen Unterschied mit dem Prinzip der Oberflächenvergrösserung.",
+      "musterloesung": "Das Prinzip der Oberflächenvergrösserung gilt nicht nur für den Stoffaustausch, sondern auch für den **Energieaustausch**: Über eine grosse Oberfläche kann ein Körper viel **Wärme an die Umgebung abgeben**.\n\n- **Wüstenfuchs:** Die grossen, gut durchbluteten Ohren vergrössern die Körperoberfläche. Über sie gibt er viel Wärme ab und verhindert so, dass er in der Hitze überhitzt.\n- **Polarfuchs:** Kleine Ohren bedeuten wenig Oberfläche, über die Wärme verloren geht. In der Kälte spart er so Energie.\n\nGrosse Ohren sind also eine Anpassung an die Hitze, kleine Ohren eine Anpassung an die Kälte.",
+      "stichworte": [
+        "Energieaustausch / Wärmeaustausch",
+        "grosse Ohren → grosse Oberfläche → viel Wärmeabgabe",
+        "kleine Ohren → wenig Wärmeverlust",
+        "Anpassung an Hitze bzw. Kälte"
+      ],
+      "erklaerung": "Wichtig ist, dass du die Definition vollständig anwendest: «**Stoff- oder Energieaustausch**». Hier wird Wärme ausgetauscht, nicht ein Stoff. Wie beim Afrikanischen Elefanten mit seinen grossen Ohren dient die grosse Fläche der Wärmeabgabe. *Die Füchse sind nicht im Blatt (Transferaufgabe, ergänzt).*",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-oberflaeche-26",
+      "lernzielId": "lz-oberflaeche",
+      "typ": "offen",
+      "frage": "Du gibst gleich viel Zucker in zwei Tassen Tee: in die eine einen **Würfelzucker**, in die andere **Kristallzucker**. Welcher Zucker löst sich schneller? Erkläre mit dem Prinzip der Oberflächenvergrösserung.",
+      "musterloesung": "Der **Kristallzucker** löst sich schneller.\n\nDie Zuckermenge (Masse und Volumen) ist gleich, aber der Kristallzucker besteht aus sehr vielen winzigen Kristallen. Wie bei der Würfelrechnung haben viele kleine Teile zusammen eine **viel grössere Gesamtoberfläche** als ein einziger grosser Würfel mit gleichem Volumen. Das Lösen geschieht an der **Oberfläche**, wo der Zucker mit dem Tee in Kontakt ist. Je grösser die Oberfläche im Verhältnis zum Volumen, desto schneller läuft dieser Austausch mit der Umgebung.",
+      "stichworte": [
+        "Kristallzucker löst sich schneller",
+        "gleiches Volumen, viele kleine Teile",
+        "grössere Gesamtoberfläche",
+        "Austausch findet an der Oberfläche statt"
+      ],
+      "erklaerung": "Entscheidend ist die Verknüpfung mit der Würfelrechnung: **gleiches Volumen, feiner unterteilt → grössere Oberfläche → schnellerer Austausch**. «Weil die Körner kleiner sind» allein reicht nicht. Sag, was die kleinen Körner bewirken. *Transferbeispiel, ergänzt.*",
+      "schwierigkeit": 3
+    }
+  ]
+}

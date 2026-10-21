@@ -1,0 +1,1626 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-bios",
+      "zusammenfassung": "Das Wort **Biologie** stammt aus dem Griechischen:\n- **bíos** = **Leben**\n- **lógos** = Wort, Rede, **Lehre**\n\nBiologie ist also die **Lehre vom Leben** – die Wissenschaft der **Lebewesen**. Sie befasst sich mit den allgemeinen Gesetzmässigkeiten des Lebendigen und untersucht den Aufbau, die Organisation und die Entwicklung von Lebewesen sowie ihre Beziehungen untereinander und zu ihrer Umwelt.\n\n### Teilgebiete der Biologie\n| Teilgebiet | untersucht … |\n|---|---|\n| **Botanik** | Pflanzen |\n| **Zoologie** | Tiere |\n| **Humanbiologie** | den Menschen |\n| **Mikrobiologie** | winzige Lebewesen wie Bakterien und Pilze |\n| **Zellbiologie** (**Cytologie**) | Aufbau und Funktionen der Zellen |\n| **Verhaltensbiologie** (**Ethologie**) | das Verhalten von Lebewesen |\n| **Genetik** | die Gesetze der Vererbung, die Gene bzw. die Erbsubstanz |\n| **Ökologie** | die Beziehungen zwischen Lebewesen und ihrer Umwelt |\n\nAuch die **Virologie** gehört zur Biologie: Viren sind zwar keine eigentlichen Lebewesen, lassen sich aber nur über ihren Kontakt mit echten Organismen verstehen.\n\n### Schreibweise\nBio**l**ogie, Ö**k**ologie (nicht «Öcologie»), E**th**ologie (mit «th»), **C**ytologie (auch Zytologie), Gene**t**ik.\n\n*Tipp (ergänzt):* Mit **bíos = Leben** kannst du auch unbekannte Wörter mit «bio-» selbst erschliessen.",
+      "merksaetze": [
+        "bíos = Leben, lógos = Wort, Rede, Lehre – Biologie ist die Lehre vom Leben, die Wissenschaft der Lebewesen.",
+        "Botanik = Pflanzen, Zoologie = Tiere, Humanbiologie = Mensch, Ethologie = Verhalten, Genetik = Vererbung, Ökologie = Lebewesen und Umwelt."
+      ]
+    },
+    {
+      "id": "lz-kennzeichen",
+      "zusammenfassung": "Leben eindeutig zu definieren ist äusserst schwierig. Man bestimmt deshalb anhand von **Kennzeichen**, ob etwas ein Lebewesen ist.\n\n### Die 6 Kennzeichen von Lebewesen\n1. **Bewegungsfähigkeit:** Lebewesen bewegen sich selbst fort oder bewegen aus eigener Kraft einzelne Körperteile. Innerhalb eines Lebewesens werden auch Stoffe wie Wasser und Zucker **aktiv** bewegt, ohne dass wir es von Auge sehen.\n2. **Wachstum und Entwicklung:** Lebewesen verändern ihre Grösse und gehen im Laufe der Zeit von einem Anfangs- in einen Folge- bzw. Endzustand mit veränderten Eigenschaften über (z. B. Kaulquappe → Frosch).\n3. **Stoffwechsel:** Lebewesen nehmen Stoffe aus der Umgebung auf, stellen daraus **körpereigene Stoffe** her, bauen laufend Stoffe ab und scheiden Abfallstoffe aus. Der Stoffwechsel liefert Baustoffe für Wachstum und Erneuerung und die **Energie** für alle Aktivitäten.\n4. **Fortpflanzung:** Lebewesen erzeugen eine nächste Generation und vermehren sich. Dabei wird **genetisches Material** an die Nachkommen weitergegeben, d. h. **vererbt**.\n5. **Reizbarkeit und Regulationsfähigkeit:** Lebewesen nehmen Informationen (**Reize**) aus der Umwelt auf und reagieren darauf. Sie halten ihr inneres Milieu trotz Schwankungen der Umwelt innerhalb bestimmter Grenzen konstant = **Homöostase** (z. B. Körpertemperatur).\n6. **Aufbau aus Zellen:** Jedes Lebewesen besteht aus **Zellen**, der kleinsten Einheit von Leben.\n\n### Lebewesen oder nicht? (Aufgabe Maulwurf – Pflanze – Auto – Kristall – Feuer)\n*Lösungsvorschlag (ergänzt): Im Blatt ist die Tabelle leer und wird im Unterricht diskutiert.*\n\n| Kennzeichen | Maulwurf | Pflanze | Auto | Kristall | Feuer |\n|---|---|---|---|---|---|\n| Bewegung | ✓ | ✓ | (✓) | – | (✓) |\n| Wachstum | ✓ | ✓ | – | (✓) | (✓) |\n| Stoffwechsel | ✓ | ✓ | (✓) | – | (✓) |\n| Fortpflanzung | ✓ | ✓ | – | – | (✓) |\n| Reizbarkeit | ✓ | ✓ | (✓) | – | – |\n| Zellen | ✓ | ✓ | – | – | – |\n\n✓ = trifft zu, (✓) = nur scheinbar, – = trifft nicht zu. Über einzelne Felder kann man diskutieren: In der Prüfung zählt die **Begründung**.\n- **Auto:** bewegt sich nur angetrieben (Motor, Fahrer); tankt Benzin und stösst Abgase aus, baut daraus aber keine körpereigenen Stoffe auf → nur scheinbarer Stoffwechsel. Sensoren und Thermostat reagieren zwar auf die Umgebung, das ist aber eingebaute Technik und keine eigene Reizbarkeit → (✓) oder –.\n- **Kristall:** wächst durch Anlagerung, entwickelt sich aber nicht, hat keinen Stoffwechsel.\n- **Feuer:** «bewegt sich», «wächst», verbraucht Brennstoff und Sauerstoff und gibt Abgase ab, kann sich durch Funken scheinbar «vermehren» – besteht aber nicht aus Zellen und gibt kein Erbgut weiter.\n- **Pflanze:** dreht ihre Blätter zum Licht, öffnet und schliesst ihre Blüten und transportiert Zucker im Innern → zeigt **alle** Kennzeichen.\n\n### Fazit\nEin **Lebewesen zeigt alle Kennzeichen** gleichzeitig. Nicht-Lebewesen zeigen höchstens **einzelne** Kennzeichen, oft nur scheinbar. Am deutlichsten trennt der **Aufbau aus Zellen**: Ihn zeigt kein Nicht-Lebewesen, auch nicht scheinbar. Echte **Fortpflanzung mit Weitergabe von Erbgut** und echte **Reizbarkeit und Regulation** findet man ebenfalls nur bei Lebewesen.\n\n### Spezialfall Viren\nViren bestehen **nicht aus Zellen**, haben **keinen eigenen Stoffwechsel** und können sich **nur in lebenden Zellen** vermehren. Aber: Sie besitzen **Erbgut** und verändern sich im Laufe der Zeit durch **Evolution**. Darum stehen sie an der Grenze zum Leben: **biologische Partikel** oder **«Grenzform des Lebens»**.",
+      "merksaetze": [
+        "6 Kennzeichen: Bewegungsfähigkeit, Wachstum und Entwicklung, Stoffwechsel, Fortpflanzung, Reizbarkeit und Regulationsfähigkeit, Aufbau aus Zellen.",
+        "Ein Lebewesen zeigt alle Kennzeichen – Nicht-Lebewesen (Auto, Kristall, Feuer) höchstens einzelne, oft nur scheinbar.",
+        "Homöostase = das innere Milieu trotz Schwankungen der Umwelt konstant halten.",
+        "Viren: keine Zellen, kein eigener Stoffwechsel, Vermehrung nur in lebenden Zellen – aber Erbgut und Evolution → «Grenzform des Lebens»."
+      ]
+    },
+    {
+      "id": "lz-reiche",
+      "zusammenfassung": "Früher unterschied man nur **Pflanzen** und **Tiere**. Dank Elektronenmikroskop und Biochemie teilt man die Lebewesen heute in **5 Reiche** ein, die auf **drei Ebenen** liegen:\n- **unten:** kernlose Einzeller (ohne abgegrenzten Zellkern)\n- **Mitte:** echte Einzeller (mit Zellkern)\n- **oben:** vielzellige Lebewesen → Pflanzen, Pilze, Tiere\n\n### Die 5 Reiche\n| Reich | Zellkern | Zellen | Ernährung | Beispiele |\n|---|---|---|---|---|\n| **Kernlose Einzeller** | nein | eine | verschieden | Bakterien, **Cyanobakterien** (Blaugrüne Bakterien) |\n| **Echte Einzeller** | ja | eine (auch Zellkolonien) | heterotroph **oder** autotroph | Amöbe, Pantoffeltierchen (heterotroph); Augentierchen (mit Blattgrün, betreibt Fotosynthese → autotroph) |\n| **Pflanzen** | ja | viele | in der Regel **autotroph**, Fotosynthese | Baum, Löwenzahn, Moos (ergänzt) |\n| **Pilze** | ja | viele | **heterotroph**, Verdauung **ausserhalb** | Fliegenpilz, Morchel, Schimmelpilz |\n| **Tiere** | ja | viele | **heterotroph**, Verdauung **im Körper** | Fuchs, Schwalbe, Schnecke, Forelle, **Mensch** |\n\n*Ergänzt:* Das Augentierchen kann im Dunkeln auch Nahrung aufnehmen, ist also nicht streng autotroph.\n\n### Fachbegriffe Ernährung\n- **autotroph:** stellt die eigenen Nährstoffe selbst her, mithilfe von Lichtenergie durch **Fotosynthese** (Pflanzen – in der Regel –, autotrophe Einzeller, Cyanobakterien).\n- **heterotroph:** ist auf Nahrung aus anderen Lebewesen angewiesen (Tiere, Pilze, viele Einzeller, die meisten Bakterien).\n- **Pilze** geben **Verdauungssäfte nach aussen** ab und nehmen die gelösten Stoffe auf – sie haben **kein inneres Verdauungssystem**.\n- **Tiere** nehmen **Nahrungsbrocken** in den Körper auf und verdauen sie dort.\n\nPflanzen, Pilze und Tiere sind vielzellig: Ihre Zellen bilden **Gewebe** und zeigen deutliche **Arbeitsteilung**. Sie unterscheiden sich in der Art ihrer **Ernährung** und **Fortpflanzung**. Wie sich die Fortpflanzung unterscheidet, führt das Blatt nicht aus.\n\n### Typische Fallen\n- **Pilze sind keine Pflanzen:** Sie betreiben keine Fotosynthese, sind heterotroph.\n- **Cyanobakterien sind keine Pflanzen:** Sie betreiben zwar Fotosynthese, haben aber keinen Zellkern → kernlose Einzeller.\n- **Schwämme und Korallen sind Tiere**, auch wenn sie festsitzen.\n- **Der Mensch gehört zu den Tieren.**\n- **Viren** gehören zu **keinem** der 5 Reiche – ihre Einordnung ist unklar.\n\n*Ergänzt, nicht im Blatt:* Die **Backhefe** zählt zu den Pilzen, obwohl sie als einzelne Zellen lebt – eine Ausnahme von «Pilze sind vielzellig».",
+      "merksaetze": [
+        "5 Reiche: kernlose Einzeller – echte Einzeller – Pflanzen – Pilze – Tiere (3 Ebenen: ohne Zellkern, Einzeller mit Zellkern, Vielzeller).",
+        "Pflanzen sind in der Regel autotroph (Fotosynthese); Pilze und Tiere sind heterotroph.",
+        "Pilze verdauen ausserhalb (Verdauungssäfte nach aussen), Tiere verdauen die Nahrung im Körper.",
+        "Fallen: Pilz ≠ Pflanze, Cyanobakterien = kernlose Einzeller, Schwamm = Tier, Mensch = Tier, Viren = kein Reich."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/biologie/fuenf-reiche.svg",
+          "alt": "Die fünf Reiche der Lebewesen auf drei Ebenen: unten kernlose Einzeller (Bakterien, Cyanobakterien), in der Mitte echte Einzeller (heterotroph und autotroph), oben Pilze, Tiere und Pflanzen",
+          "legende": "Die 5 Reiche auf 3 Ebenen (vgl. Einführung Biologie, S. 4)"
+        }
+      ]
+    },
+    {
+      "id": "lz-zelle",
+      "zusammenfassung": "Die **Zelle** ist die **kleinste Einheit von Leben**. Unter dem Mikroskop sieht man, dass **jedes** Lebewesen aus diesen gleichartigen Bausteinen aufgebaut ist.\n\n- Jede Zelle enthält in ihrem **Erbgut** alle Anweisungen, die für das Wachstum und die vielfältigen Lebensprozesse nötig sind.\n- **Einzeller** bestehen aus einer einzigen Zelle, die alle Lebensaufgaben selbst erfüllt (z. B. Bakterium, Pantoffeltierchen).\n- Bei **Mehrzellern** bzw. **Vielzellern** erfüllen unterschiedlich **spezialisierte Zellen** bestimmte Aufgaben und **arbeiten zusammen** (z. B. Muskelzellen, Nervenzellen, rote Blutzellen).\n- Eine erwachsene Person besteht aus ca. **10^14** Zellen = **100 Billionen** = 100 000 000 000 000 Zellen (14 Nullen).\n\n### Warum gerade die Zelle?\nAtome und Moleküle sind zwar kleiner, zeigen aber allein **keine Kennzeichen des Lebens**. Erst eine Zelle hat Stoffwechsel, kann wachsen, sich teilen und auf Reize reagieren. **Viren** sind keine Zellen – deshalb sind sie keine eigentlichen Lebewesen.\n\nSchreibweise: **Zelle**, **Einzeller**, **Vielzeller** (mit «ll»).",
+      "merksaetze": [
+        "Die Zelle ist die kleinste Einheit von Leben – jedes Lebewesen besteht aus Zellen.",
+        "Jede Zelle enthält im Erbgut alle Anweisungen für Wachstum und Lebensprozesse.",
+        "Ein erwachsener Mensch hat ca. 10^14 = 100 Billionen Zellen; bei Vielzellern arbeiten spezialisierte Zellen zusammen."
+      ]
+    },
+    {
+      "id": "lz-organisationsstufen",
+      "zusammenfassung": "Vielzellige Lebewesen sind in **Organisationsstufen** aufgebaut (Beispiel Mensch):\n\n**Atom → Molekül → Zelle → Gewebe → Organ → Organsystem → Organismus**\n\n### Die Begriffe (Lückentext vom Blatt)\n- Ein **Gewebe** ist eine Anhäufung von vielen gleichen oder gleichartigen Zellen, die **zusammenarbeiten**, um eine bestimmte Aufgabe zu erfüllen.\n- Ein **Organ** ist eine aus **mehreren** Geweben zusammengesetzte (abgegrenzte) **Funktionseinheit** des Körpers bzw. Organismus. Jedes Organ hat einen **unverwechselbaren** Aufbau und erfüllt ganz bestimmte Aufgaben.\n- Als **Organsystem** bezeichnet man eine funktionell zusammengehörende Gruppe von Organen.\n\nBegriffe im Blatt: Funktionseinheit, Organsystem, Gewebe, zusammenarbeiten, unverwechselbaren, mehreren.\n\n### Die 4 Grundgewebearten\n**Epithelgewebe**, **Binde- und Stützgewebe**, **Muskelgewebe** und **Nervengewebe**.\n\n*Ergänzt:* Epithelgewebe bedeckt Oberflächen (äusserste Schicht der Haut, innere Auskleidung von Darm und Atemwegen), Binde- und Stützgewebe verbindet und gibt Halt (Knorpel, Knochen), Muskelgewebe zieht sich zusammen, Nervengewebe leitet Informationen weiter.\n\n### Beispiele\n| Stufe | Beispiel |\n|---|---|\n| Zelle | Muskelzelle, Nervenzelle |\n| Gewebe | Muskelgewebe, Darmepithel (Epithelgewebe der Darmschleimhaut) |\n| Organ | Magen, **Darm**, Lunge, Herz |\n| Organsystem | **Verdauungssystem** (Darm, Magen …), **Atmungssystem** (Lunge, Luftröhre …), **Kreislaufsystem** (Herz, Blutgefässe) |\n| Organismus | der ganze Mensch |\n\nEin **Einzeller** hat keine Gewebe, Organe und Organsysteme: Seine eine Zelle ist bereits der ganze Organismus.\n\nSchreibweise: **Organsystem** = Organ + System, ohne Fugen-s (nicht «Organssystem»). **Verdauungssystem** = Verdauung + s + System, darum «ss». Epi**th**elgewebe mit «th».",
+      "merksaetze": [
+        "Atom → Molekül → Zelle → Gewebe → Organ → Organsystem → Organismus.",
+        "Gewebe = viele gleiche oder gleichartige Zellen, die zusammenarbeiten; Organ = aus mehreren Geweben zusammengesetzte Funktionseinheit; Organsystem = funktionell zusammengehörende Gruppe von Organen.",
+        "4 Grundgewebe: Epithelgewebe, Binde- und Stützgewebe, Muskelgewebe, Nervengewebe.",
+        "Darm (Organ) → Verdauungssystem; Lunge → Atmungssystem; Herz → Kreislaufsystem."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/biologie/organisationsstufen.svg",
+          "alt": "Organisationsstufen von links nach rechts: Atom, Molekül, Zelle, Gewebe, Organ (Magen), Organsystem (Verdauungssystem), Organismus (Mensch)",
+          "legende": "Organisationsstufen am Beispiel Mensch (vgl. Einführung Biologie, S. 5)"
+        }
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-bios-01",
+      "lernzielId": "lz-bios",
+      "typ": "kurzantwort",
+      "frage": "Was bedeutet das griechische Wort **«bíos»** auf Deutsch? (ein Wort)",
+      "akzeptiert": [
+        "Leben",
+        "das Leben"
+      ],
+      "erklaerung": "**bíos** heisst **Leben**. Darum ist die Biologie die Lehre vom Leben bzw. die Wissenschaft der Lebewesen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bios-02",
+      "lernzielId": "lz-bios",
+      "typ": "einfachwahl",
+      "frage": "Das Wort «Biologie» setzt sich aus «bíos» und **«lógos»** zusammen. Was bedeutet «lógos»?",
+      "optionen": [
+        "Körper, Gestalt",
+        "Wort, Rede, Lehre",
+        "Natur, Umwelt",
+        "Zelle, Baustein"
+      ],
+      "richtig": 1,
+      "erklaerung": "**lógos** bedeutet Wort, Rede, **Lehre**. Biologie = «Lehre vom Leben». Dieselbe Endung «-logie» steckt in vielen Namen von Teilgebieten, z. B. in der Zoologie.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bios-03",
+      "lernzielId": "lz-bios",
+      "typ": "kurzantwort",
+      "frage": "Ergänze den Satz vom Blatt: «Biologie ist die Wissenschaft der …» (ein Wort)",
+      "akzeptiert": [
+        "Lebewesen"
+      ],
+      "erklaerung": "Biologie ist die Wissenschaft der **Lebewesen**. Sie untersucht Aufbau, Organisation und Entwicklung von Lebewesen sowie ihre Beziehungen untereinander und zur Umwelt.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bios-04",
+      "lernzielId": "lz-bios",
+      "typ": "zuordnen",
+      "frage": "Ordne jedes Teilgebiet der Biologie seinem Untersuchungsgegenstand zu.",
+      "paare": [
+        {
+          "links": "Botanik",
+          "rechts": "Pflanzen"
+        },
+        {
+          "links": "Zoologie",
+          "rechts": "Tiere"
+        },
+        {
+          "links": "Humanbiologie",
+          "rechts": "der Mensch"
+        },
+        {
+          "links": "Mikrobiologie",
+          "rechts": "winzige Lebewesen wie Bakterien"
+        },
+        {
+          "links": "Zellbiologie",
+          "rechts": "Aufbau und Funktion der Zellen"
+        },
+        {
+          "links": "Verhaltensbiologie",
+          "rechts": "Verhalten"
+        },
+        {
+          "links": "Genetik",
+          "rechts": "Vererbung und Gene"
+        }
+      ],
+      "erklaerung": "So steht es im Blatt: Botanik = Pflanzen, Zoologie = Tiere, Humanbiologie = Mensch, Mikrobiologie = winzige Lebewesen (Bakterien, Pilze), Zellbiologie = Zellen, Verhaltensbiologie = Verhalten, Genetik = Vererbung. Die Fachnamen Cytologie und Ethologie sowie die Ökologie übst du in eigenen Fragen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-bios-05",
+      "lernzielId": "lz-bios",
+      "typ": "zuordnen",
+      "frage": "Welches Teilgebiet der Biologie ist für diese Forschungsfrage zuständig?",
+      "paare": [
+        {
+          "links": "Wie zeigen Honigbienen mit einem Tanz den anderen Bienen, wo es Futter gibt?",
+          "rechts": "Verhaltensbiologie"
+        },
+        {
+          "links": "Warum haben Geschwister oft die gleiche Augenfarbe wie ein Elternteil?",
+          "rechts": "Genetik"
+        },
+        {
+          "links": "Wie verändert sich der Puls eines Menschen beim Sport?",
+          "rechts": "Humanbiologie"
+        },
+        {
+          "links": "Welche Bakterien verwandeln Milch in Joghurt?",
+          "rechts": "Mikrobiologie"
+        },
+        {
+          "links": "Wie wachsen die Wurzeln einer Buche in die Tiefe?",
+          "rechts": "Botanik"
+        },
+        {
+          "links": "Wie ist eine einzelne Zelle innen aufgebaut?",
+          "rechts": "Zellbiologie"
+        }
+      ],
+      "erklaerung": "Bienentanz = **Verhalten** → Verhaltensbiologie (Ethologie). Augenfarbe der Kinder = **Vererbung** → Genetik. Puls beim Sport = **Mensch** → Humanbiologie. Joghurt-Bakterien = winzige Lebewesen → Mikrobiologie. Buchenwurzeln = **Pflanzen** → Botanik. Bau der Zelle → Zellbiologie (Cytologie).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-bios-06",
+      "lernzielId": "lz-bios",
+      "typ": "einfachwahl",
+      "frage": "Das Wort **«Biografie»** enthält ebenfalls «bíos» (griech. gráphein = schreiben). Was bedeutet es wörtlich?",
+      "optionen": [
+        "Beschreibung eines Lebens",
+        "Zeichnung von Pflanzen und Tieren",
+        "Lehre vom Leben",
+        "Bild eines Lebewesens unter dem Mikroskop"
+      ],
+      "richtig": 0,
+      "erklaerung": "bíos = Leben, gráphein = schreiben → **Lebensbeschreibung**. «Lehre vom Leben» wäre die Biologie (lógos = Lehre). Wenn du «bíos = Leben» kennst, kannst du solche Wörter selbst erschliessen. (Biografie ist ergänzt, nicht im Blatt.)",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-bios-07",
+      "lernzielId": "lz-bios",
+      "typ": "wahrfalsch",
+      "frage": "Die **Virologie** ist ein Teilgebiet der Biologie, obwohl Viren keine eigentlichen Lebewesen sind.",
+      "richtig": true,
+      "erklaerung": "Viren lassen sich nur über ihren ständigen Kontakt und ihre Wechselwirkung mit echten Organismen verstehen (sie vermehren sich nur in lebenden Zellen). Deshalb gehört die Virologie laut Blatt zur Biologie.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-bios-08",
+      "lernzielId": "lz-bios",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst das Teilgebiet der Biologie, das die **Beziehungen zwischen Lebewesen und ihrer Umwelt** untersucht? (Fachbegriff)",
+      "akzeptiert": [
+        "Ökologie"
+      ],
+      "erklaerung": "Gesucht ist die **Ökologie** – Schreibweise mit «Ö» und «k». Nicht verwechseln mit der Verhaltensbiologie (Verhalten).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-bios-09",
+      "lernzielId": "lz-bios",
+      "typ": "kurzantwort",
+      "frage": "Die Verhaltensbiologie hat noch einen zweiten Namen. Wie lautet er? (Fachbegriff)",
+      "akzeptiert": [
+        "Ethologie"
+      ],
+      "erklaerung": "Verhaltensbiologie = **Ethologie** – Schreibweise mit «th». Sie untersucht das Verhalten von Lebewesen, z. B. wie Vögel ihr Nest bauen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-bios-10",
+      "lernzielId": "lz-bios",
+      "typ": "offen",
+      "frage": "Erkläre, woher das Wort **«Biologie»** stammt, und beschreibe, womit sich die Biologie befasst. Nenne drei Teilgebiete mit ihrem Gegenstand.",
+      "musterloesung": "Biologie kommt aus dem Griechischen: **bíos** = Leben, **lógos** = Wort, Rede, Lehre – also die **Lehre vom Leben**. Die Biologie ist die Wissenschaft der Lebewesen: Sie untersucht den Aufbau, die Organisation und die Entwicklung von Lebewesen sowie ihre Beziehungen untereinander und zu ihrer Umwelt.\n\nTeilgebiete, z. B.:\n- **Botanik:** Pflanzen\n- **Zoologie:** Tiere\n- **Genetik:** Vererbung und Gene\n- (auch: Humanbiologie, Mikrobiologie, Zellbiologie/Cytologie, Ethologie, Ökologie)",
+      "stichworte": [
+        "bíos = Leben",
+        "lógos = Lehre",
+        "Wissenschaft der Lebewesen",
+        "Aufbau, Entwicklung, Beziehungen zur Umwelt",
+        "drei Teilgebiete mit Gegenstand",
+        "Fachbegriffe korrekt geschrieben"
+      ],
+      "erklaerung": "Eine vollständige Antwort übersetzt beide Wortteile, beschreibt den Gegenstand der Biologie und nennt drei Teilgebiete richtig geschrieben mit ihrem Inhalt.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-bios-11",
+      "lernzielId": "lz-bios",
+      "typ": "offen",
+      "frage": "Die Wörter **«Biotop»** (griech. tópos = Ort) und **«Biomasse»** enthalten ebenfalls «bíos» (als Wortteil «bio-»). Leite ihre Bedeutung ab und erkläre, was alle Wörter mit «bio-» gemeinsam haben.",
+      "musterloesung": "- **Biotop:** bíos = Leben + tópos = Ort → ein **Lebensraum**, ein Ort, an dem Lebewesen leben (z. B. ein Teich).\n- **Biomasse:** die **Masse bzw. Menge der Lebewesen** oder des Materials, das von Lebewesen stammt (z. B. Holz, Pflanzenreste).\n- Gemeinsam: Alle Wörter mit «bio-» haben mit dem **Leben** bzw. mit **Lebewesen** zu tun.",
+      "stichworte": [
+        "bíos = Leben",
+        "Biotop = Lebensraum",
+        "Biomasse = Masse/Material von Lebewesen",
+        "Gemeinsamkeit: Bezug zum Leben"
+      ],
+      "erklaerung": "Diese Wörter stehen nicht im Blatt (ergänzt). Die Aufgabe zeigt aber, wie du mit «bíos = Leben» unbekannte Fachwörter erschliessen kannst – genau solche Übertragungen verlangt die Prüfung.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-bios-12",
+      "lernzielId": "lz-bios",
+      "typ": "kurzantwort",
+      "frage": "In einem Wald leben wieder Wölfe. Forschende untersuchen, wie sich dadurch die Zahl der Rehe und der Pflanzenwuchs im Wald verändern. Welches Teilgebiet der Biologie ist zuständig? (Fachbegriff)",
+      "akzeptiert": [
+        "Ökologie"
+      ],
+      "erklaerung": "Wolf, Reh, Pflanzen und Wald = **Beziehungen zwischen Lebewesen und ihrer Umwelt** → **Ökologie** (mit «Ö» und «k»).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-bios-13",
+      "lernzielId": "lz-bios",
+      "typ": "kurzantwort",
+      "frage": "Die Zellbiologie hat im Blatt noch einen zweiten Namen. Wie lautet er? (Fachbegriff)",
+      "akzeptiert": [
+        "Cytologie",
+        "Zytologie"
+      ],
+      "erklaerung": "Zellbiologie = **Cytologie** (auch Zytologie geschrieben; griech. kýtos = Höhlung, Zelle – ergänzt). Sie untersucht Aufbau und Funktionen der Zellen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kennzeichen-01",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Punkte gehören zu den **sechs Kennzeichen von Lebewesen**?",
+      "optionen": [
+        "Bewegungsfähigkeit",
+        "Sauerstoffbedarf",
+        "Stoffwechsel",
+        "Wachstum und Entwicklung",
+        "Atmung mit Lungen",
+        "Fortpflanzung",
+        "Wärmeabgabe",
+        "Reizbarkeit und Regulationsfähigkeit",
+        "Aufbau aus Zellen"
+      ],
+      "richtig": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8
+      ],
+      "erklaerung": "Die sechs Kennzeichen sind: **Bewegungsfähigkeit**, **Wachstum und Entwicklung**, **Stoffwechsel**, **Fortpflanzung**, **Reizbarkeit und Regulationsfähigkeit**, **Aufbau aus Zellen**. Keine Kennzeichen sind: **Atmung mit Lungen** (Pflanzen, Fische oder Bakterien haben keine Lungen), **Sauerstoffbedarf** (auch ein Feuer braucht Sauerstoff, und manche Bakterien leben ohne – ergänzt) und **Wärmeabgabe** (Wärme geben auch Feuer, Motor oder Glühbirne ab, viele Lebewesen wie Pflanzen dagegen kaum).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kennzeichen-02",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "kurzantwort",
+      "frage": "Wie nennt man die **Aufrechterhaltung des inneren Milieus** innerhalb bestimmter Grenzen, trotz Schwankungen in der Umwelt? (Fachbegriff)",
+      "akzeptiert": [
+        "Homöostase"
+      ],
+      "erklaerung": "Der Fachbegriff heisst **Homöostase** – Schreibweise: Homö-o-stase, mit «ö» und zwei «o». Beispiel: Deine Körpertemperatur bleibt bei ca. 37 °C, ob es draussen heiss oder kalt ist.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kennzeichen-03",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "zuordnen",
+      "frage": "Welches Kennzeichen von Lebewesen zeigt sich in diesem Beispiel?",
+      "paare": [
+        {
+          "links": "Aus einer Kaulquappe wird ein Frosch.",
+          "rechts": "Wachstum und Entwicklung"
+        },
+        {
+          "links": "Eine Kuh frisst Gras, baut daraus körpereigene Stoffe auf und scheidet Kot aus.",
+          "rechts": "Stoffwechsel"
+        },
+        {
+          "links": "Eine Katze bekommt Junge, die ihr ähnlich sehen.",
+          "rechts": "Fortpflanzung"
+        },
+        {
+          "links": "Bei hellem Licht wird deine Pupille enger.",
+          "rechts": "Reizbarkeit und Regulationsfähigkeit"
+        },
+        {
+          "links": "Unter dem Mikroskop sieht man in einem Zwiebelhäutchen viele kleine Bausteine.",
+          "rechts": "Aufbau aus Zellen"
+        },
+        {
+          "links": "Ein Maulwurf gräbt sich mit seinen Grabschaufeln durch die Erde.",
+          "rechts": "Bewegungsfähigkeit"
+        }
+      ],
+      "erklaerung": "Kaulquappe → Frosch: Übergang von einem Anfangs- in einen Endzustand (**Entwicklung**). Kuh: Stoffe aufnehmen, umbauen, ausscheiden (**Stoffwechsel**). Junge mit ähnlichen Merkmalen: **Fortpflanzung** mit Vererbung. Pupille: Reiz Licht → Reaktion (**Reizbarkeit**). Bausteine im Zwiebelhäutchen: **Zellen**. Maulwurf: bewegt sich aus eigener Kraft fort (**Bewegungsfähigkeit**).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kennzeichen-04",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "einfachwahl",
+      "frage": "Was versteht man unter dem Kennzeichen **Stoffwechsel**?",
+      "optionen": [
+        "Lebewesen wechseln im Laufe ihres Lebens mehrmals ihre Körperform, z. B. von der Raupe über die Puppe zum Schmetterling.",
+        "Lebewesen nehmen Reize aus der Umwelt auf und antworten darauf mit einer passenden Reaktion.",
+        "Lebewesen geben bei der Fortpflanzung ihre Erbsubstanz an die nächste Generation weiter.",
+        "Lebewesen nehmen Stoffe auf, bauen daraus körpereigene Stoffe auf und scheiden Abfallstoffe aus."
+      ],
+      "richtig": 3,
+      "erklaerung": "Beim **Stoffwechsel** tauschen Lebewesen Stoffe mit der Umgebung aus und wandeln sie um: aufnehmen, körpereigene Stoffe herstellen, abbauen, ausscheiden. Der Stoffwechsel liefert auch die **Energie** für alle Aktivitäten. Die anderen Antworten beschreiben Entwicklung, Reizbarkeit und Fortpflanzung.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kennzeichen-05",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "wahrfalsch",
+      "frage": "Ein Lebewesen zeigt **alle** sechs Kennzeichen. Nicht-Lebewesen können einzelne Kennzeichen (scheinbar) auch zeigen.",
+      "richtig": true,
+      "erklaerung": "Das ist das Fazit der Tabelle: Ein Kristall wächst, ein Feuer «bewegt sich» und verbraucht Sauerstoff, ein Auto bewegt sich – aber nur Lebewesen wie Maulwurf und Pflanze zeigen **alle** Kennzeichen gleichzeitig.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kennzeichen-06",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "wahrfalsch",
+      "frage": "Ein Kristall ist ein Lebewesen, denn er kann wachsen.",
+      "richtig": false,
+      "erklaerung": "Ein Kristall wächst zwar durch Anlagerung, aber er besteht nicht aus Zellen, hat keinen Stoffwechsel, pflanzt sich nicht fort und reagiert nicht auf Reize. **Ein** Kennzeichen reicht nicht – ein Lebewesen muss **alle** zeigen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kennzeichen-07",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Kennzeichen zeigt ein **brennendes Feuer** zumindest **scheinbar**?",
+      "optionen": [
+        "Bewegung (die Flammen flackern und breiten sich aus)",
+        "Wachstum (das Feuer wird grösser)",
+        "Stoffwechsel (verbraucht Holz und Sauerstoff, gibt Abgase ab)",
+        "Vermehrung (Funken entfachen neue Feuer)",
+        "Aufbau aus Zellen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Ein Feuer «bewegt sich», «wächst», verbraucht Brennstoff und Sauerstoff (wie bei der Atmung!) und kann sich durch Funkenflug scheinbar «vermehren». Es besteht aber **nicht aus Zellen** und gibt **kein Erbgut** weiter – darum ist es kein Lebewesen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kennzeichen-08",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "einfachwahl",
+      "frage": "In der Tabelle (Maulwurf, Pflanze, Auto, Kristall, Feuer): Welches Kennzeichen trennt die Lebewesen am klarsten von den Nicht-Lebewesen?",
+      "optionen": [
+        "Bewegungsfähigkeit",
+        "Wachstum und Entwicklung",
+        "Aufbau aus Zellen",
+        "Stoffwechsel"
+      ],
+      "richtig": 2,
+      "erklaerung": "Nur Maulwurf und Pflanze bestehen aus **Zellen**. Bewegung zeigen auch Auto und Feuer (scheinbar), Wachstum zeigen Kristall und Feuer, einen scheinbaren «Stoffwechsel» haben Auto und Feuer.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kennzeichen-09",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "einfachwahl",
+      "frage": "Ein Auto tankt Benzin und stösst Abgase aus. Warum ist das **kein echter Stoffwechsel**?",
+      "optionen": [
+        "Weil das Auto aus dem Benzin keine körpereigenen Stoffe aufbaut und sich nicht selbst erneuert",
+        "Weil beim Verbrennen von Benzin im Motor keine nutzbare Energie für die Fahrt frei wird",
+        "Weil Benzin aus Erdöl stammt und Lebewesen keine Stoffe aus Erdöl verwerten können",
+        "Weil der Motor Sauerstoff verbraucht, Lebewesen beim Stoffwechsel aber ohne Sauerstoff auskommen"
+      ],
+      "richtig": 0,
+      "erklaerung": "Beim echten Stoffwechsel bauen Lebewesen aus aufgenommenen Stoffen **ihren Körper selbst auf** und erneuern ihn laufend. Das Auto gewinnt zwar Energie aus dem Benzin und stösst Abgase aus, baut daraus aber keine eigenen Teile – also nur ein scheinbarer Stoffwechsel. Woher der Stoff stammt, spielt keine Rolle, und auch deine Zellen verbrauchen Sauerstoff (Zellatmung).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kennzeichen-10",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "kurzantwort",
+      "frage": "Lebewesen nehmen Informationen aus ihrer Umwelt auf und reagieren darauf. Wie heissen diese Informationen? (Fachbegriff)",
+      "akzeptiert": [
+        "Reize",
+        "Reiz"
+      ],
+      "erklaerung": "Die Informationen heissen **Reize** (Einzahl: der Reiz), z. B. Licht, Schall, Wärme, Berührung. Das Kennzeichen heisst deshalb **Reizbarkeit** und Regulationsfähigkeit.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kennzeichen-11",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "kurzantwort",
+      "frage": "Bei der Fortpflanzung wird genetisches Material an die Nachkommen weitergegeben. Wie nennt man diese Weitergabe? (ein Wort)",
+      "akzeptiert": [
+        "Vererbung",
+        "vererben",
+        "vererbt"
+      ],
+      "erklaerung": "Das genetische Material wird **vererbt** – man spricht von **Vererbung**. Darum sehen Nachkommen ihren Eltern ähnlich.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kennzeichen-12",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "wahrfalsch",
+      "frage": "Pflanzen erfüllen das Kennzeichen **Bewegungsfähigkeit** nicht, weil sie sich nicht von der Stelle bewegen können.",
+      "richtig": false,
+      "erklaerung": "Bewegungsfähigkeit heisst auch, **einzelne Körperteile** aus eigener Kraft zu bewegen: Pflanzen drehen ihre Blätter zum Licht, Blüten öffnen und schliessen sich. Zudem werden im Innern Stoffe wie Zucker aktiv transportiert. Pflanzen zeigen also alle Kennzeichen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kennzeichen-13",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "einfachwahl",
+      "frage": "Warum gelten **Viren** nicht als eigentliche Lebewesen?",
+      "optionen": [
+        "Weil sie kein Erbgut besitzen und sich deshalb nicht verändern können",
+        "Weil sie nicht aus Zellen bestehen und keinen eigenen Stoffwechsel haben",
+        "Weil sie kleiner sind als jede Zelle und Leben eine Mindestgrösse braucht",
+        "Weil sie Krankheiten auslösen und andere Lebewesen schädigen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Viren bestehen **nicht aus Zellen**, haben **keinen eigenen Stoffwechsel** und vermehren sich nur in lebenden Zellen. Erbgut haben sie aber, und sie verändern sich durch Evolution – darum «Grenzform des Lebens». Viren sind zwar tatsächlich sehr klein, doch die Grösse ist kein Kennzeichen des Lebens: Auch Bakterien sind winzig und trotzdem Lebewesen. Krankheiten lösen auch Bakterien aus, die eindeutig leben.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kennzeichen-14",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aussagen über **Viren** stimmen?",
+      "optionen": [
+        "Sie vermehren sich nur in lebenden Zellen.",
+        "Sie bestehen aus einer einzigen Zelle.",
+        "Sie haben einen eigenen Stoffwechsel.",
+        "Sie verändern sich im Laufe der Zeit durch Evolution.",
+        "Sie gehören zum Reich der kernlosen Einzeller.",
+        "Man nennt sie oft «Grenzform des Lebens»."
+      ],
+      "richtig": [
+        0,
+        3,
+        5
+      ],
+      "erklaerung": "Viren verändern sich durch **Evolution** (sie besitzen Erbgut) und vermehren sich **nur in lebenden Zellen** – deshalb «Grenzform des Lebens» bzw. biologische Partikel. Sie bestehen **nicht** aus Zellen, haben keinen eigenen Stoffwechsel und gehören zu keinem der fünf Reiche (ihre Einordnung ist unklar).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kennzeichen-15",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "einfachwahl",
+      "frage": "Eine Raumsonde findet auf einem fernen Mond winzige Gebilde, die wachsen und sich bewegen. Was müsste man vor allem noch untersuchen, um zu entscheiden, ob es Lebewesen sind?",
+      "optionen": [
+        "Ob sie eine ähnliche Farbe, Form und Grösse wie Bakterien auf der Erde haben",
+        "Ob sie aus Zellen bestehen, Stoffwechsel betreiben, sich fortpflanzen und auf Reize reagieren",
+        "Ob sie sich schneller bewegen, rascher wachsen und länger halten als ein Kristall",
+        "Ob sie Wasser enthalten, Wärme abgeben, Licht spiegeln und grösser als 1 mm werden"
+      ],
+      "richtig": 1,
+      "erklaerung": "Wachstum und Bewegung allein reichen nicht – das kann auch ein Kristall oder ein Feuer. Man muss die **übrigen Kennzeichen** prüfen: Zellen, Stoffwechsel, Fortpflanzung mit Erbgut, Reizbarkeit und Regulation. Farbe, Form, Tempo und Grösse sagen nichts darüber aus, ob etwas lebt.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-kennzeichen-16",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "wahrfalsch",
+      "frage": "Ein Samenkorn liegt seit Jahren trocken in einer Schublade. Es wächst nicht und zeigt kaum erkennbaren Stoffwechsel. Trotzdem ist es ein Lebewesen.",
+      "richtig": true,
+      "erklaerung": "Das Samenkorn besteht aus **Zellen** mit **Erbgut** und kann keimen, sobald es Wasser und Wärme bekommt. Sein Stoffwechsel ist nur stark verlangsamt (eine Art Ruhezustand). Man muss also nicht jedes Kennzeichen in jedem Moment beobachten können. (Beispiel ergänzt, nicht im Blatt.)",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-kennzeichen-17",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "einfachwahl",
+      "frage": "Du joggst an einem heissen Sommertag und beginnst stark zu schwitzen. Welches Kennzeichen von Lebewesen zeigt sich hier am deutlichsten?",
+      "optionen": [
+        "Wachstum und Entwicklung",
+        "Fortpflanzung",
+        "Reizbarkeit und Regulationsfähigkeit",
+        "Aufbau aus Zellen"
+      ],
+      "richtig": 2,
+      "erklaerung": "Dein Körper registriert die steigende Temperatur (Reiz) und reguliert dagegen: Der Schweiss verdunstet und kühlt. So bleibt die Körpertemperatur konstant – das ist **Homöostase**, Teil des Kennzeichens **Reizbarkeit und Regulationsfähigkeit**.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-kennzeichen-18",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "offen",
+      "frage": "Erläutere, wie man bestimmen kann, ob etwas ein **Lebewesen** ist. Nenne und erkläre dazu die Kennzeichen von Lebewesen.",
+      "musterloesung": "Leben lässt sich nur schwer definieren; man prüft deshalb die **Kennzeichen von Lebewesen**. Ein Lebewesen zeigt **alle** davon:\n- **Bewegungsfähigkeit:** bewegt sich selbst oder einzelne Körperteile aus eigener Kraft; auch Stoffe im Innern werden aktiv bewegt.\n- **Wachstum und Entwicklung:** wird grösser und verändert sich vom Anfangs- zum Endzustand.\n- **Stoffwechsel:** nimmt Stoffe auf, baut körpereigene Stoffe auf, baut ab, scheidet aus und gewinnt dabei Energie.\n- **Fortpflanzung:** erzeugt Nachkommen und vererbt dabei genetisches Material.\n- **Reizbarkeit und Regulationsfähigkeit:** nimmt Reize auf, reagiert darauf und hält das innere Milieu konstant (Homöostase).\n- **Aufbau aus Zellen:** besteht aus einer oder vielen Zellen.\n\nNicht-Lebewesen wie Auto, Kristall oder Feuer zeigen höchstens einzelne Kennzeichen, oft nur scheinbar.",
+      "stichworte": [
+        "alle 6 Kennzeichen genannt",
+        "jedes kurz erklärt",
+        "Lebewesen zeigt alle Kennzeichen",
+        "Nicht-Lebewesen höchstens einzelne",
+        "Homöostase",
+        "korrekte Schreibweise"
+      ],
+      "erklaerung": "Wichtig ist das Fazit: Nicht ein einzelnes Kennzeichen entscheidet, sondern dass **alle** zusammen vorkommen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kennzeichen-19",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "offen",
+      "frage": "Ein brennendes Feuer bewegt sich, wächst, verbraucht Sauerstoff und kann sich durch Funken sogar «vermehren». **Begründe**, warum es trotzdem kein Lebewesen ist.",
+      "musterloesung": "Das Feuer zeigt diese Kennzeichen nur **scheinbar**:\n- Es **besteht nicht aus Zellen**.\n- Es pflanzt sich nicht fort: Beim Funkenflug wird **kein Erbgut** weitergegeben.\n- Es hat **keinen echten Stoffwechsel**: Es verbraucht zwar Brennstoff und Sauerstoff, baut daraus aber keine körpereigenen Stoffe auf.\n- Es reagiert nicht gezielt auf Reize und reguliert kein inneres Milieu (keine Homöostase).\n\nEin Lebewesen muss **alle** Kennzeichen zeigen – das Feuer zeigt einzelne nur scheinbar, darum ist es kein Lebewesen.",
+      "stichworte": [
+        "nur scheinbar",
+        "keine Zellen",
+        "keine Fortpflanzung mit Erbgut",
+        "kein Aufbau körpereigener Stoffe",
+        "keine Reizbarkeit/Regulation",
+        "alle Kennzeichen nötig"
+      ],
+      "erklaerung": "Eine gute Begründung nennt mehrere fehlende Kennzeichen und zieht das Fazit: Einzelne Kennzeichen reichen nicht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kennzeichen-20",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "offen",
+      "frage": "Begründe, weshalb Viren als **«Grenzform des Lebens»** bezeichnet werden. Nenne Argumente dafür und dagegen, dass Viren Lebewesen sind.",
+      "musterloesung": "**Gegen** Leben: Viren bestehen **nicht aus Zellen**, haben **keinen eigenen Stoffwechsel** und können sich **nicht selbstständig vermehren** – nur in lebenden Zellen.\n\n**Für** Leben: Viren besitzen **Erbgut** und verändern sich im Laufe der Zeit durch **Evolution**.\n\nWeil sie einige, aber nicht alle Kennzeichen zeigen, stehen sie an der Grenze zum Leben: Man nennt sie biologische Partikel oder «Grenzform des Lebens». Sie gehören zu keinem der fünf Reiche.",
+      "stichworte": [
+        "keine Zellen",
+        "kein eigener Stoffwechsel",
+        "Vermehrung nur in lebenden Zellen",
+        "Erbgut",
+        "Evolution",
+        "nicht alle Kennzeichen"
+      ],
+      "erklaerung": "Die Begründung braucht beide Seiten: was Viren mit Lebewesen gemeinsam haben (Erbgut, Evolution) und was ihnen fehlt (Zellen, Stoffwechsel, selbstständige Vermehrung).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-kennzeichen-21",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "kurzantwort",
+      "frage": "In deinen Zellen läuft die **Zellatmung** ab: Traubenzucker und Sauerstoff werden aufgenommen und umgewandelt, Kohlenstoffdioxid und Wasser werden abgegeben, dabei wird Energie frei. Zu welchem Kennzeichen von Lebewesen gehört das? (ein Wort)",
+      "akzeptiert": [
+        "Stoffwechsel"
+      ],
+      "erklaerung": "Die Zellatmung gehört zum **Stoffwechsel**: Stoffe werden aufgenommen, umgewandelt und als Abfallstoffe abgegeben. Laut Blatt liefert der Stoffwechsel auch die **Energie**, die Lebewesen für ihre Aktivitäten brauchen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kennzeichen-22",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "kurzantwort",
+      "frage": "Ergänze den Namen des Kennzeichens: «Reizbarkeit und ___» (ein Wort)",
+      "akzeptiert": [
+        "Regulationsfähigkeit"
+      ],
+      "erklaerung": "Das Kennzeichen heisst **Reizbarkeit und Regulationsfähigkeit** – Schreibweise: Regulation-s-fähigkeit, mit Fugen-s. Regulation heisst: das innere Milieu konstant halten (Homöostase).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kennzeichen-23",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "kurzantwort",
+      "frage": "Aus einer Raupe wird über die Puppe ein Schmetterling. Das zeigt das Kennzeichen «Wachstum und ___». (ein Wort)",
+      "akzeptiert": [
+        "Entwicklung"
+      ],
+      "erklaerung": "Gesucht ist die **Entwicklung**: der Übergang von einem Anfangs- zu einem Folge- bzw. Endzustand mit veränderten Eigenschaften.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kennzeichen-24",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst das Kennzeichen, nach dem Lebewesen sich selber fortbewegen oder aus eigener Kraft einzelne Körperteile bewegen können? (ein Wort)",
+      "akzeptiert": [
+        "Bewegungsfähigkeit"
+      ],
+      "erklaerung": "Gesucht ist die **Bewegungsfähigkeit** – Schreibweise: Bewegung-s-fähigkeit, mit Fugen-s. Dazu gehört auch, dass Stoffe wie Wasser und Zucker im Innern aktiv bewegt werden.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kennzeichen-25",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "offen",
+      "frage": "Ein Roboter-Staubsauger fährt durch die Wohnung, weicht Hindernissen aus und fährt von selbst zur Ladestation, wenn sein Akku leer wird. **Prüfe anhand aller sechs Kennzeichen**, ob er ein Lebewesen ist.",
+      "musterloesung": "- **Bewegungsfähigkeit:** nur scheinbar – ein Motor bewegt ihn, die Energie kommt aus dem Akku, der Ablauf ist programmiert.\n- **Wachstum und Entwicklung:** nein – er wird nicht grösser und entwickelt sich nicht.\n- **Stoffwechsel:** nein – er lädt Strom, baut aber keine körpereigenen Stoffe auf und erneuert sich nicht selbst.\n- **Fortpflanzung:** nein – er erzeugt keine Nachkommen und gibt kein Erbgut weiter.\n- **Reizbarkeit und Regulationsfähigkeit:** nur scheinbar – Sensoren melden Hindernisse und den Akkustand, aber die Reaktion haben Menschen einprogrammiert. Das ist Technik, keine eigene Reizbarkeit.\n- **Aufbau aus Zellen:** nein – er besteht aus Kunststoff, Metall und Elektronik.\n\n**Fazit:** Er zeigt höchstens zwei Kennzeichen, und auch diese nur scheinbar. Ein Lebewesen muss **alle** Kennzeichen zeigen, also ist der Roboter kein Lebewesen.",
+      "stichworte": [
+        "alle 6 Kennzeichen geprüft",
+        "Bewegung nur scheinbar (Motor)",
+        "Sensoren = Technik, keine echte Reizbarkeit",
+        "kein Stoffwechsel, kein Wachstum",
+        "keine Fortpflanzung, kein Erbgut",
+        "keine Zellen",
+        "Fazit: kein Lebewesen"
+      ],
+      "erklaerung": "Die Falle: Ausweichen und Aufladen sehen aus wie Reizbarkeit und Regulation. Entscheidend ist, dass die übrigen Kennzeichen ganz fehlen, vor allem Zellen, Stoffwechsel und Fortpflanzung. (Beispiel ergänzt, nicht im Blatt.)",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-kennzeichen-26",
+      "lernzielId": "lz-kennzeichen",
+      "typ": "offen",
+      "frage": "Verknüpfe mit dem Thema Atmung: Zeige an der **Atmung des Menschen** mindestens drei Kennzeichen von Lebewesen. Begründe jeweils.",
+      "musterloesung": "- **Stoffwechsel:** In der **Zellatmung** nehmen die Zellen Traubenzucker und Sauerstoff auf und geben Kohlenstoffdioxid und Wasser ab. Dabei wird **Energie** frei (ATP). Der Stoffwechsel liefert also die Energie für alle Aktivitäten.\n- **Bewegungsfähigkeit:** Zwerchfell und Zwischenrippenmuskeln bewegen aus eigener Kraft den Brustkorb (Einatmen). Im Blut werden Sauerstoff und Kohlenstoffdioxid transportiert.\n- **Reizbarkeit und Regulationsfähigkeit:** Steigt der CO2-Gehalt im Blut, atmet man schneller und tiefer. So bleibt das innere Milieu konstant (Homöostase).\n- **Aufbau aus Zellen:** Die Lunge besteht aus Zellen. Der Gasaustausch geschieht durch die dünne Wand der Lungenbläschen.",
+      "stichworte": [
+        "Zellatmung = Stoffwechsel",
+        "Energie (ATP) für Aktivitäten",
+        "Atemmuskeln = Bewegung",
+        "Steuerung über CO2 = Regulation",
+        "Homöostase",
+        "Lunge aus Zellen"
+      ],
+      "erklaerung": "Die Prüfung verlangt, Wissen zu verknüpfen. Am wichtigsten ist die Zellatmung als Teil des Stoffwechsels, denn sie liefert die Energie. Die Atemsteuerung über den CO2-Gehalt ist ein Beispiel für Regulation (Homöostase).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-reiche-01",
+      "lernzielId": "lz-reiche",
+      "typ": "mehrfachwahl",
+      "frage": "Welches sind die **5 Reiche** der Lebewesen?",
+      "optionen": [
+        "Kernlose Einzeller",
+        "Viren",
+        "Echte Einzeller",
+        "Pflanzen",
+        "Algen",
+        "Pilze",
+        "Tiere",
+        "Menschen"
+      ],
+      "richtig": [
+        0,
+        2,
+        3,
+        5,
+        6
+      ],
+      "erklaerung": "Die 5 Reiche: **kernlose Einzeller, echte Einzeller, Pflanzen, Pilze, Tiere**. Viren gehören zu keinem Reich, der Mensch gehört zu den Tieren, und «Algen» ist kein eigenes Reich.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-reiche-02",
+      "lernzielId": "lz-reiche",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst das Reich der Lebewesen **ohne abgegrenzten Zellkern**? (zwei Wörter)",
+      "akzeptiert": [
+        "kernlose Einzeller",
+        "kernloser Einzeller"
+      ],
+      "erklaerung": "Lebewesen ohne abgegrenzten Zellkern sind **kernlose Einzeller**, z. B. Bakterien und Cyanobakterien. Einzeller **mit** Zellkern heissen echte Einzeller.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-reiche-03",
+      "lernzielId": "lz-reiche",
+      "typ": "zuordnen",
+      "frage": "Ordne jeden Vertreter dem richtigen Reich zu.",
+      "paare": [
+        {
+          "links": "Bakterien",
+          "rechts": "Kernlose Einzeller"
+        },
+        {
+          "links": "Blaugrüne Bakterien",
+          "rechts": "Kernlose Einzeller"
+        },
+        {
+          "links": "Amöbe",
+          "rechts": "Echte Einzeller"
+        },
+        {
+          "links": "Pantoffeltierchen",
+          "rechts": "Echte Einzeller"
+        },
+        {
+          "links": "Fliegenpilz",
+          "rechts": "Pilze"
+        },
+        {
+          "links": "Morchel",
+          "rechts": "Pilze"
+        },
+        {
+          "links": "Löwenzahn",
+          "rechts": "Pflanzen"
+        },
+        {
+          "links": "Forelle",
+          "rechts": "Tiere"
+        },
+        {
+          "links": "Schnecke",
+          "rechts": "Tiere"
+        }
+      ],
+      "erklaerung": "So sind die Vertreter im Bild der 5 Reiche eingeteilt: Bakterien und Blaugrüne Bakterien (Cyanobakterien) haben keinen Zellkern. Amöbe und Pantoffeltierchen sind Einzeller mit Kern. Fliegenpilz und Morchel sind Pilze, der Löwenzahn eine Pflanze, Forelle und Schnecke Tiere.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-reiche-04",
+      "lernzielId": "lz-reiche",
+      "typ": "zuordnen",
+      "frage": "Achtung, Fallen: Ordne jeden Vertreter dem richtigen Reich zu.",
+      "paare": [
+        {
+          "links": "«Blaualgen» im Badesee",
+          "rechts": "Kernlose Einzeller"
+        },
+        {
+          "links": "Schimmel auf altem Brot",
+          "rechts": "Pilze"
+        },
+        {
+          "links": "Steinpilz",
+          "rechts": "Pilze"
+        },
+        {
+          "links": "Meeresschwamm",
+          "rechts": "Tiere"
+        },
+        {
+          "links": "Koralle",
+          "rechts": "Tiere"
+        },
+        {
+          "links": "Mensch",
+          "rechts": "Tiere"
+        },
+        {
+          "links": "Moos",
+          "rechts": "Pflanzen"
+        },
+        {
+          "links": "Augentierchen",
+          "rechts": "Echte Einzeller"
+        },
+        {
+          "links": "Milchsäurebakterien im Joghurt",
+          "rechts": "Kernlose Einzeller"
+        }
+      ],
+      "erklaerung": "**Schimmel** und **Steinpilz** sind Pilze (keine Fotosynthese, Verdauung ausserhalb). **Schwämme** und **Korallen** sitzen fest, sind aber Tiere. Der **Mensch** gehört zu den Tieren. Moos ist eine Pflanze. Das Augentierchen ist trotz seines Namens kein Tier, sondern ein **echter Einzeller**. Die «Blaualgen» sind trotz ihres Namens keine Algen, sondern Cyanobakterien → kernlose Einzeller, ebenso die Milchsäurebakterien. (Blaualgen, Steinpilz, Schwamm, Koralle, Moos und Milchsäurebakterien sind ergänzt, nicht im Blatt.)",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-reiche-05",
+      "lernzielId": "lz-reiche",
+      "typ": "kurzantwort",
+      "frage": "Lebewesen, die ihre Nährstoffe mithilfe von Lichtenergie **selbst herstellen**, nennt man … (Fachbegriff, Adjektiv)",
+      "akzeptiert": [
+        "autotroph",
+        "autotrophe",
+        "autotrophe Lebewesen"
+      ],
+      "erklaerung": "Gesucht ist **autotroph** – Schreibweise mit «ph» am Schluss. Autotroph sind z. B. Pflanzen, Cyanobakterien und autotrophe Einzeller; sie betreiben Fotosynthese. (Ergänzt: griech. autós = selbst, trophé = Ernährung.)",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-reiche-06",
+      "lernzielId": "lz-reiche",
+      "typ": "kurzantwort",
+      "frage": "Lebewesen, die auf **Nahrung aus anderen Lebewesen** angewiesen sind, nennt man … (Fachbegriff, Adjektiv)",
+      "akzeptiert": [
+        "heterotroph",
+        "heterotrophe",
+        "heterotrophe Lebewesen"
+      ],
+      "erklaerung": "Gesucht ist **heterotroph** – Schreibweise mit «h» am Anfang und «ph» am Schluss. Heterotroph sind Tiere (auch der Mensch), Pilze und viele Einzeller.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-reiche-07",
+      "lernzielId": "lz-reiche",
+      "typ": "einfachwahl",
+      "frage": "Wie unterscheiden sich **Pilze** und **Tiere** in ihrer Ernährung?",
+      "optionen": [
+        "Pilze stellen ihre Nährstoffe mit Licht selbst her, Tiere fressen andere Lebewesen",
+        "Pilze geben Verdauungssäfte nach aussen ab und nehmen gelöste Stoffe auf, Tiere verdauen im Körper",
+        "Pilze nehmen Nahrungsbrocken in einen Magen auf, Tiere dagegen nehmen nur gelöste Stoffe auf",
+        "Es gibt keinen Unterschied, denn beide Reiche nehmen Nahrungsbrocken auf und verdauen sie innen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Beide sind **heterotroph**. Der Unterschied liegt in der Verdauung: **Pilze** scheiden Verdauungssäfte nach aussen aus und nehmen die gelösten Stoffe auf (kein inneres Verdauungssystem). **Tiere** nehmen Nahrungsbrocken in den Körper auf und verdauen sie dort.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-reiche-08",
+      "lernzielId": "lz-reiche",
+      "typ": "wahrfalsch",
+      "frage": "Pilze bilden ein eigenes Reich und gehören nicht zu den Pflanzen, weil sie kein Blattgrün haben und ihre Nahrung ausserhalb ihres Körpers verdauen.",
+      "richtig": true,
+      "erklaerung": "Pilze betreiben keine Fotosynthese, sind also **heterotroph**, während Pflanzen in der Regel **autotroph** sind. Sie geben Verdauungssäfte nach aussen ab und nehmen die gelösten Stoffe auf. Dass Pilze wie Pflanzen festsitzen, ist kein Merkmal für die Einteilung.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-reiche-09",
+      "lernzielId": "lz-reiche",
+      "typ": "wahrfalsch",
+      "frage": "Die Blaugrünen Bakterien gehören zum Reich der Pflanzen.",
+      "richtig": false,
+      "erklaerung": "Die Blaugrünen Bakterien (**Cyanobakterien**) betreiben zwar Fotosynthese, haben aber **keinen Zellkern** und bestehen aus nur einer Zelle → **kernlose Einzeller**. Fotosynthese allein macht noch keine Pflanze.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-reiche-10",
+      "lernzielId": "lz-reiche",
+      "typ": "einfachwahl",
+      "frage": "Worin unterscheiden sich **kernlose Einzeller** von **echten Einzellern**?",
+      "optionen": [
+        "Kernlose Einzeller sind deutlich grösser als echte Einzeller.",
+        "Echte Einzeller haben einen Zellkern, kernlose Einzeller nicht.",
+        "Kernlose Einzeller bestehen aus mehreren Zellen ohne Kern.",
+        "Echte Einzeller betreiben Fotosynthese, kernlose Einzeller nicht."
+      ],
+      "richtig": 1,
+      "erklaerung": "Entscheidend ist der **Zellkern**: Echte Einzeller besitzen einen abgegrenzten Zellkern, kernlose Einzeller (Bakterien, Cyanobakterien) nicht. Beide bestehen aus einer Zelle. Fotosynthese gibt es in beiden Reichen: bei den Cyanobakterien und bei autotrophen echten Einzellern wie dem Augentierchen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-reiche-11",
+      "lernzielId": "lz-reiche",
+      "typ": "einfachwahl",
+      "frage": "Die 5 Reiche liegen auf **drei Ebenen**. Wo stehen Pflanzen, Pilze und Tiere?",
+      "optionen": [
+        "auf der untersten Ebene, bei den Lebewesen ohne abgegrenzten Zellkern",
+        "auf der mittleren Ebene, zusammen mit allen Einzellern, die einen Zellkern haben",
+        "auf der obersten Ebene: vielzellige Lebewesen mit Geweben",
+        "auf der obersten Ebene, weil sie alle Blattgrün besitzen und Fotosynthese betreiben"
+      ],
+      "richtig": 2,
+      "erklaerung": "Unten: kernlose Einzeller. Mitte: echte Einzeller mit Zellkern. Oben: die **vielzelligen** Lebewesen – Pflanzen, Pilze und Tiere. Ihre Zellen sind in Geweben zusammengefasst und zeigen deutliche Arbeitsteilung. Blattgrün haben nur die Pflanzen, nicht Pilze und Tiere.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-reiche-12",
+      "lernzielId": "lz-reiche",
+      "typ": "zuordnen",
+      "frage": "Ordne jede Beschreibung dem passenden Reich zu.",
+      "paare": [
+        {
+          "links": "eine einzige Zelle ohne abgegrenzten Zellkern",
+          "rechts": "Kernlose Einzeller"
+        },
+        {
+          "links": "eine einzige Zelle mit Zellkern",
+          "rechts": "Echte Einzeller"
+        },
+        {
+          "links": "vielzellig, stellt seine Nährstoffe mit Lichtenergie selbst her",
+          "rechts": "Pflanzen"
+        },
+        {
+          "links": "vielzellig, gibt Verdauungssäfte nach aussen ab und nimmt gelöste Stoffe auf",
+          "rechts": "Pilze"
+        },
+        {
+          "links": "vielzellig, nimmt Nahrungsbrocken auf und verdaut sie im Körper",
+          "rechts": "Tiere"
+        }
+      ],
+      "erklaerung": "Die Reiche unterscheiden sich durch **Zellkern** (ja/nein), **Anzahl Zellen** (eine/viele) und **Ernährung**: Pflanzen sind autotroph (Fotosynthese), Pilze und Tiere heterotroph – Pilze verdauen aussen, Tiere innen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-reiche-13",
+      "lernzielId": "lz-reiche",
+      "typ": "mehrfachwahl",
+      "frage": "Welche dieser Lebewesen sind **heterotroph**?",
+      "optionen": [
+        "Fliegenpilz",
+        "Buche",
+        "Pantoffeltierchen",
+        "Löwenzahn",
+        "Mensch",
+        "Blaugrüne Bakterien",
+        "Moos"
+      ],
+      "richtig": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "Heterotroph sind Pilze (Fliegenpilz), Tiere (Mensch) und heterotrophe Einzeller (Pantoffeltierchen). Buche, Löwenzahn und Moos (Pflanzen) sowie die Blaugrünen Bakterien (Cyanobakterien) betreiben Fotosynthese – sie sind **autotroph**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-reiche-14",
+      "lernzielId": "lz-reiche",
+      "typ": "einfachwahl",
+      "frage": "Der **Sonnentau** ist eine «fleischfressende» Pflanze: Er fängt mit klebrigen Blättern Insekten und verdaut sie. Gleichzeitig hat er grüne Blätter. Zu welchem Reich gehört er?",
+      "optionen": [
+        "zu den Pflanzen, weil er vielzellig ist und mit grünen Blättern Fotosynthese betreibt",
+        "zu den Tieren, weil er Beute fängt und sie mit seinen Blättern im Körper verdaut",
+        "zu den Pilzen, weil er Verdauungssäfte nach aussen abgibt und gelöste Stoffe aufnimmt",
+        "zu den echten Einzellern, weil jede seiner klebrigen Fangdrüsen eine eigene Zelle ist"
+      ],
+      "richtig": 0,
+      "erklaerung": "Der Sonnentau betreibt mit seinen grünen Blättern **Fotosynthese** (autotroph) und ist vielzellig → **Pflanze**. Die Insekten liefern ihm nur zusätzliche Nährstoffe, die im kargen Moorboden fehlen. Lass dich vom Verhalten nicht täuschen: Entscheidend sind Bau und Art der Ernährung. (Beispiel ergänzt.)",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-reiche-15",
+      "lernzielId": "lz-reiche",
+      "typ": "einfachwahl",
+      "frage": "Unter dem Mikroskop entdeckst du ein Lebewesen aus **einer einzigen Zelle mit Zellkern**, die grüne Blattgrünkörner enthält. Wohin ordnest du es ein?",
+      "optionen": [
+        "Kernlose Einzeller, weil die Zelle so klein ist",
+        "Pflanzen, weil die Zelle Blattgrün enthält",
+        "Echte Einzeller, die Nahrung von anderen Lebewesen aufnehmen",
+        "Echte Einzeller, die Nährstoffe mit Licht selbst herstellen"
+      ],
+      "richtig": 3,
+      "erklaerung": "Eine Zelle **mit** Zellkern → echter Einzeller. Das Blattgrün zeigt, dass es Fotosynthese betreibt → **autotroph** (wie das Augentierchen). Zu den Pflanzen gehört es nicht, denn Pflanzen sind vielzellig. Kernlose Einzeller haben keinen Zellkern.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-reiche-16",
+      "lernzielId": "lz-reiche",
+      "typ": "einfachwahl",
+      "frage": "Steckbrief eines Lebewesens: viele Zellen mit Zellkern, kein Blattgrün, wächst als feines Geflecht im Waldboden, gibt Verdauungssäfte an totes Laub ab und nimmt die gelösten Stoffe auf. Zu welchem Reich gehört es?",
+      "optionen": [
+        "Echte Einzeller",
+        "Pilze",
+        "Pflanzen",
+        "Tiere"
+      ],
+      "richtig": 1,
+      "erklaerung": "Vielzellig mit Zellkern → eines der drei oberen Reiche. Kein Blattgrün → keine Pflanze. Verdauungssäfte **nach aussen** abgeben und gelöste Stoffe aufnehmen → **Pilze** (heterotroph, Verdauung ausserhalb). Tiere nehmen Nahrungsbrocken auf und verdauen sie im Körper.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-reiche-17",
+      "lernzielId": "lz-reiche",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst der Vorgang, mit dem Pflanzen mithilfe von Lichtenergie ihre Nährstoffe selbst herstellen? (Fachbegriff)",
+      "akzeptiert": [
+        "Fotosynthese",
+        "Photosynthese"
+      ],
+      "erklaerung": "Gesucht ist die **Fotosynthese** (auch Photosynthese geschrieben). Wer Fotosynthese betreibt, ist autotroph. Sie ist gewissermassen das Gegenstück zur Zellatmung: Pflanzen bilden dabei Zucker und Sauerstoff.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-reiche-18",
+      "lernzielId": "lz-reiche",
+      "typ": "zuordnen",
+      "frage": "Ordne zu – ein Fall gehört zu **keinem** der fünf Reiche.",
+      "paare": [
+        {
+          "links": "Grippevirus",
+          "rechts": "keinem Reich"
+        },
+        {
+          "links": "Salmonellen (Bakterien)",
+          "rechts": "Kernlose Einzeller"
+        },
+        {
+          "links": "Seerose",
+          "rechts": "Pflanzen"
+        },
+        {
+          "links": "Regenwurm",
+          "rechts": "Tiere"
+        },
+        {
+          "links": "Champignon",
+          "rechts": "Pilze"
+        },
+        {
+          "links": "Amöbe",
+          "rechts": "Echte Einzeller"
+        }
+      ],
+      "erklaerung": "Viren wie das **Grippevirus** sind keine Lebewesen im eigentlichen Sinn; ihre Einordnung in die fünf Reiche ist unklar. Salmonellen sind Bakterien (kernlos), die Seerose eine Pflanze, der Regenwurm ein Tier, der Champignon ein Pilz, die Amöbe ein echter Einzeller.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-reiche-19",
+      "lernzielId": "lz-reiche",
+      "typ": "offen",
+      "frage": "Beschreibe die **fünf Reiche** der Lebewesen und erkläre, wodurch sie sich unterscheiden (Zellkern, Anzahl Zellen, Ernährung). Nenne zu jedem Reich einen Vertreter.",
+      "musterloesung": "- **Kernlose Einzeller:** eine Zelle **ohne** abgegrenzten Zellkern – z. B. Bakterien, Cyanobakterien.\n- **Echte Einzeller:** eine Zelle **mit** Zellkern, heterotroph oder autotroph – z. B. Amöbe, Pantoffeltierchen, Augentierchen.\n- **Pflanzen:** vielzellig, **autotroph**, betreiben Fotosynthese – z. B. Löwenzahn.\n- **Pilze:** vielzellig, **heterotroph**, geben Verdauungssäfte nach aussen ab und nehmen gelöste Stoffe auf – z. B. Fliegenpilz.\n- **Tiere:** vielzellig, **heterotroph**, nehmen Nahrung auf und verdauen sie im Körper – z. B. Fuchs, Mensch.\n\nDie Reiche liegen auf drei Ebenen: kernlose Einzeller – echte Einzeller – Vielzeller (Pflanzen, Pilze, Tiere).",
+      "stichworte": [
+        "kernlose Einzeller",
+        "echte Einzeller",
+        "Pflanzen",
+        "Pilze",
+        "Tiere",
+        "Zellkern ja/nein",
+        "einzellig/vielzellig",
+        "autotroph/heterotroph",
+        "je ein Vertreter"
+      ],
+      "erklaerung": "Die Antwort ist vollständig, wenn jedes Reich mit Zellkern, Zellzahl und Ernährung beschrieben ist und die Fachbegriffe (autotroph, heterotroph) richtig geschrieben sind.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-reiche-20",
+      "lernzielId": "lz-reiche",
+      "typ": "offen",
+      "frage": "Pilze wurden früher zu den Pflanzen gezählt. **Begründe**, warum sie heute ein eigenes Reich bilden.",
+      "musterloesung": "Pilze sehen zwar manchen Pflanzen ähnlich und sitzen fest, aber sie **ernähren sich ganz anders**:\n- Pflanzen sind **autotroph**: Sie stellen ihre Nährstoffe mit Lichtenergie durch Fotosynthese selbst her.\n- Pilze haben kein Blattgrün und betreiben **keine Fotosynthese** – sie sind **heterotroph**.\n- Pilze geben **Verdauungssäfte nach aussen** ab und nehmen die gelösten Stoffe auf; sie haben kein inneres Verdauungssystem (anders als Tiere).\n- Auch in der Fortpflanzung unterscheiden sich die Reiche.\n\nWeil Pilze weder wie Pflanzen noch wie Tiere leben, bilden sie ein eigenes Reich.",
+      "stichworte": [
+        "Pflanzen autotroph / Fotosynthese",
+        "Pilze heterotroph",
+        "kein Blattgrün",
+        "Verdauungssäfte nach aussen",
+        "Unterschied zu Tieren",
+        "eigenes Reich"
+      ],
+      "erklaerung": "Die Einteilung beruht auf Bau und Ernährung, nicht auf dem Aussehen. Das Blatt nennt Ernährung und Fortpflanzung als Unterschiede zwischen Pflanzen, Pilzen und Tieren.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-reiche-21",
+      "lernzielId": "lz-reiche",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst das Reich der Einzeller **mit** Zellkern? (zwei Wörter)",
+      "akzeptiert": [
+        "echte Einzeller",
+        "echter Einzeller"
+      ],
+      "erklaerung": "Einzeller mit Kern zählt man zum Reich der **echten Einzeller** (z. B. Amöbe, Pantoffeltierchen, Augentierchen). Einzeller ohne abgegrenzten Zellkern sind kernlose Einzeller.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-reiche-22",
+      "lernzielId": "lz-reiche",
+      "typ": "kurzantwort",
+      "frage": "Die «Blaugrünen Bakterien» betreiben Fotosynthese, haben aber keinen Zellkern. Wie heissen sie mit Fachbegriff? (ein Wort)",
+      "akzeptiert": [
+        "Cyanobakterien",
+        "Cyanobakterium",
+        "Zyanobakterien"
+      ],
+      "erklaerung": "Gesucht sind die **Cyanobakterien** – Schreibweise mit «C» und «y» (auch Zyanobakterien). Sie gehören zu den **kernlosen Einzellern**, nicht zu den Pflanzen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-zelle-01",
+      "lernzielId": "lz-zelle",
+      "typ": "kurzantwort",
+      "frage": "Was ist die **kleinste Einheit von Leben**? (ein Wort)",
+      "akzeptiert": [
+        "Zelle",
+        "die Zelle",
+        "Zellen"
+      ],
+      "erklaerung": "Die **Zelle** ist die kleinste Einheit von Leben. Jedes Lebewesen besteht aus einer oder vielen Zellen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-zelle-02",
+      "lernzielId": "lz-zelle",
+      "typ": "einfachwahl",
+      "frage": "Aus wie vielen Zellen besteht eine **erwachsene Person** ungefähr?",
+      "optionen": [
+        "ca. 10^6 Zellen",
+        "ca. 10^9 Zellen",
+        "ca. 10^14 Zellen",
+        "ca. 10^20 Zellen"
+      ],
+      "richtig": 2,
+      "erklaerung": "Eine erwachsene Person besteht aus ca. **10^14 = 100 Billionen** Zellen (100 000 000 000 000). Das ist eine Zahl mit 14 Nullen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-zelle-03",
+      "lernzielId": "lz-zelle",
+      "typ": "zahl",
+      "frage": "Eine **Billion** hat 12 Nullen (1 000 000 000 000). Wie viele Nullen hat die Zahl **100 Billionen**? (Das ist zugleich die Hochzahl, wenn du sie als Zehnerpotenz schreibst.)",
+      "richtig": 14,
+      "erklaerung": "100 Billionen = 100 000 000 000 000. Zähl die Nullen: 2 (für die 100) + 12 (eine Billion = 10^12) = **14**, also 10^14. So viele Zellen hat eine erwachsene Person ungefähr. Achtung: Eine deutsche **Billion** hat 12 Nullen, eine Milliarde 9.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-zelle-04",
+      "lernzielId": "lz-zelle",
+      "typ": "wahrfalsch",
+      "frage": "Jede Zelle enthält in ihrem **Erbgut** alle Anweisungen, die für das Wachstum und die Lebensprozesse notwendig sind.",
+      "richtig": true,
+      "erklaerung": "So steht es im Blatt: Das Erbgut jeder Zelle enthält alle notwendigen Anweisungen – deshalb kann schon eine einzelne Zelle (Einzeller) alle Lebensaufgaben erfüllen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-zelle-05",
+      "lernzielId": "lz-zelle",
+      "typ": "kurzantwort",
+      "frage": "Wie nennt man Lebewesen, die nur aus **einer einzigen Zelle** bestehen? (ein Wort)",
+      "akzeptiert": [
+        "Einzeller",
+        "Einzellige",
+        "einzellige Lebewesen"
+      ],
+      "erklaerung": "Solche Lebewesen heissen **Einzeller** (mit «ll»), z. B. Bakterien oder das Pantoffeltierchen. Lebewesen aus vielen Zellen heissen Mehrzeller bzw. Vielzeller.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-zelle-06",
+      "lernzielId": "lz-zelle",
+      "typ": "einfachwahl",
+      "frage": "Atome und Moleküle sind viel kleiner als eine Zelle. Warum ist trotzdem die **Zelle** die kleinste Einheit von Leben?",
+      "optionen": [
+        "Weil Lebewesen gar nicht aus Atomen und Molekülen aufgebaut sind",
+        "Weil Moleküle in Wirklichkeit grösser sind als die meisten Zellen",
+        "Weil Leben sichtbar sein muss und man erst Zellen im Mikroskop sieht",
+        "Weil Atome und Moleküle allein keine Kennzeichen des Lebens zeigen"
+      ],
+      "richtig": 3,
+      "erklaerung": "Ein einzelnes Atom oder Molekül hat keinen Stoffwechsel, wächst nicht, pflanzt sich nicht fort und reagiert nicht auf Reize. Erst die Zelle zeigt diese Kennzeichen – sie ist deshalb die kleinste **lebende** Einheit. Lebewesen bestehen sehr wohl aus Atomen und Molekülen, aber diese leben nicht. Ob man etwas sehen kann, ist kein Kennzeichen des Lebens.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-zelle-07",
+      "lernzielId": "lz-zelle",
+      "typ": "wahrfalsch",
+      "frage": "Muskelzellen, Nervenzellen und rote Blutzellen eines Menschen sind gleich gebaut und können sich gegenseitig ersetzen.",
+      "richtig": false,
+      "erklaerung": "Bei Vielzellern sind die Zellen **spezialisiert**: Muskelzellen ziehen sich zusammen, Nervenzellen leiten Informationen, rote Blutzellen transportieren Sauerstoff. Sie erfüllen bestimmte Aufgaben und **arbeiten zusammen**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-zelle-08",
+      "lernzielId": "lz-zelle",
+      "typ": "mehrfachwahl",
+      "frage": "Welche der folgenden sind **lebende Zellen**?",
+      "optionen": [
+        "Muskelzelle",
+        "Grippevirus",
+        "Bakterium",
+        "Wassermolekül",
+        "Nervenzelle",
+        "Sauerstoffatom",
+        "Pantoffeltierchen",
+        "Hautzelle"
+      ],
+      "richtig": [
+        0,
+        2,
+        4,
+        6,
+        7
+      ],
+      "erklaerung": "Muskelzelle, Nervenzelle und Hautzelle sind Zellen deines Körpers; Bakterium und Pantoffeltierchen sind Einzeller – also jeweils genau eine Zelle. Ein Virus ist **keine** Zelle, Wassermolekül und Sauerstoffatom sind Bausteine ohne Leben.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-zelle-09",
+      "lernzielId": "lz-zelle",
+      "typ": "wahrfalsch",
+      "frage": "Man entnimmt einem Menschen einige Hautzellen. In einer Nährlösung im Labor leben sie weiter und teilen sich sogar. Das passt zur Aussage, dass die Zelle die kleinste Einheit von Leben ist.",
+      "richtig": true,
+      "erklaerung": "Eine einzelne Zelle kann mit Nährstoffen versorgt selbstständig leben: Sie hat Stoffwechsel und kann sich teilen. Ein einzelnes Molekül aus der Zelle könnte das nicht. (Zellkulturen sind ergänzt, nicht im Blatt.)",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-zelle-10",
+      "lernzielId": "lz-zelle",
+      "typ": "offen",
+      "frage": "Erkläre, warum man die **Zelle** als kleinste Einheit von Leben bezeichnet.",
+      "musterloesung": "Jedes Lebewesen ist aus Zellen aufgebaut – das sieht man unter dem Mikroskop. Eine Zelle zeigt bereits alle Kennzeichen des Lebens: Sie hat einen Stoffwechsel, kann wachsen und sich teilen (fortpflanzen) und auf Reize reagieren. In ihrem **Erbgut** enthält sie alle Anweisungen für Wachstum und Lebensprozesse. Einzeller bestehen sogar nur aus einer einzigen Zelle. Kleinere Bausteine wie Moleküle oder Atome zeigen diese Kennzeichen allein nicht – sie leben nicht.",
+      "stichworte": [
+        "jedes Lebewesen aus Zellen",
+        "Zelle zeigt alle Kennzeichen",
+        "Erbgut mit allen Anweisungen",
+        "Einzeller",
+        "Moleküle/Atome leben nicht"
+      ],
+      "erklaerung": "Wichtig ist der Bezug zu den Kennzeichen des Lebens: «kleinste Einheit» heisst, dass es nichts Kleineres gibt, das noch lebt.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-zelle-11",
+      "lernzielId": "lz-zelle",
+      "typ": "offen",
+      "frage": "Ein Pantoffeltierchen besteht aus einer einzigen Zelle, du aus sehr vielen Zellen. **Vergleiche**: Was muss die Zelle des Pantoffeltierchens alles leisten, und wie ist das bei dir gelöst?",
+      "musterloesung": "- **Pantoffeltierchen (Einzeller):** Die eine Zelle muss **alle** Lebensaufgaben selbst erfüllen: sich bewegen, Nahrung aufnehmen und verdauen, Stoffe ausscheiden, auf Reize reagieren und sich fortpflanzen (durch Teilung).\n- **Mensch (Vielzeller):** Die Aufgaben sind auf **spezialisierte Zellen** verteilt (**Arbeitsteilung**): Muskelzellen bewegen, Nervenzellen leiten Informationen, rote Blutzellen transportieren Sauerstoff. Gleichartige Zellen bilden Gewebe und Organe. Die Zellen arbeiten zusammen; eine einzelne Körperzelle kann allein in der Natur nicht überleben.",
+      "stichworte": [
+        "Einzeller: alle Aufgaben in einer Zelle",
+        "Vielzeller: spezialisierte Zellen",
+        "Arbeitsteilung / Zusammenarbeit",
+        "Beispiele für spezialisierte Zellen",
+        "Bezug zu Gewebe/Organ"
+      ],
+      "erklaerung": "Der Vergleich verknüpft die Zelle mit den Kennzeichen des Lebens und mit den Organisationsstufen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-organisationsstufen-01",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "reihenfolge",
+      "frage": "Bringe die **Organisationsstufen** eines vielzelligen Lebewesens in die richtige Reihenfolge – von der kleinsten zur grössten.",
+      "elemente": [
+        "Atom",
+        "Molekül",
+        "Zelle",
+        "Gewebe",
+        "Organ",
+        "Organsystem",
+        "Organismus"
+      ],
+      "erklaerung": "Atom → Molekül → **Zelle** (kleinste Einheit von Leben) → **Gewebe** (viele gleichartige Zellen) → **Organ** (aus mehreren Geweben) → **Organsystem** (Gruppe von Organen) → **Organismus** (das ganze Lebewesen).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-organisationsstufen-02",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "kurzantwort",
+      "frage": "Ergänze den Lückentext: «Ein ___ ist eine Anhäufung von vielen gleichen oder gleichartigen Zellen, die zusammenarbeiten, um eine bestimmte Aufgabe zu erfüllen.»",
+      "akzeptiert": [
+        "Gewebe"
+      ],
+      "erklaerung": "Gesucht ist das **Gewebe**, z. B. Muskelgewebe oder Nervengewebe.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-organisationsstufen-03",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "kurzantwort",
+      "frage": "Ergänze den Lückentext: «Als ___ bezeichnet man eine funktionell zusammengehörende Gruppe von Organen.»",
+      "akzeptiert": [
+        "Organsystem"
+      ],
+      "erklaerung": "Gesucht ist das **Organsystem** = Organ + System, zusammengeschrieben und ohne Fugen-s (nicht «Organssystem»). Beispiel: das Verdauungssystem.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-organisationsstufen-04",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "kurzantwort",
+      "frage": "Ergänze den Lückentext: «Ein Organ ist eine aus mehreren Geweben zusammengesetzte (abgegrenzte) ___ des Körpers.» (ein Wort)",
+      "akzeptiert": [
+        "Funktionseinheit"
+      ],
+      "erklaerung": "Gesucht ist die **Funktionseinheit** (Schreibweise: Funktion-s-einheit). Ein Organ ist abgegrenzt und erfüllt als Ganzes eine bestimmte Funktion, z. B. der Magen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-organisationsstufen-05",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "kurzantwort",
+      "frage": "Ergänze den Lückentext: «Jedes Organ im Körper hat einen ___ Aufbau und erfüllt ganz bestimmte Aufgaben.» (ein Wort)",
+      "akzeptiert": [
+        "unverwechselbaren",
+        "unverwechselbar"
+      ],
+      "erklaerung": "Jedes Organ hat einen **unverwechselbaren** Aufbau – Herz, Lunge und Magen sind klar voneinander zu unterscheiden. Schreibweise: un-ver-wechsel-bar.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-organisationsstufen-06",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "zuordnen",
+      "frage": "Ordne jedes Beispiel der passenden Organisationsstufe zu.",
+      "paare": [
+        {
+          "links": "Sauerstoffatom",
+          "rechts": "Atom"
+        },
+        {
+          "links": "Wassermolekül",
+          "rechts": "Molekül"
+        },
+        {
+          "links": "Muskelzelle",
+          "rechts": "Zelle"
+        },
+        {
+          "links": "Muskelgewebe",
+          "rechts": "Gewebe"
+        },
+        {
+          "links": "Magen",
+          "rechts": "Organ"
+        },
+        {
+          "links": "Nervensystem (Gehirn, Rückenmark, Nerven)",
+          "rechts": "Organsystem"
+        },
+        {
+          "links": "Mensch",
+          "rechts": "Organismus"
+        }
+      ],
+      "erklaerung": "Vom Atom über Molekül, Zelle, Gewebe und Organ (Magen) bis zum Organsystem und zum Organismus (Mensch). Das Nervensystem ist ein Organsystem, weil mehrere Organe (Gehirn, Rückenmark, Nerven) zusammenarbeiten. Im Blatt ist das Beispiel für ein Organsystem das Verdauungssystem.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-organisationsstufen-07",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "zuordnen",
+      "frage": "Ordne auch diese Beispiele der passenden Organisationsstufe zu.",
+      "paare": [
+        {
+          "links": "Herz",
+          "rechts": "Organ"
+        },
+        {
+          "links": "Kreislaufsystem",
+          "rechts": "Organsystem"
+        },
+        {
+          "links": "Haut",
+          "rechts": "Organ"
+        },
+        {
+          "links": "Herzmuskelgewebe",
+          "rechts": "Gewebe"
+        },
+        {
+          "links": "Nervenzelle",
+          "rechts": "Zelle"
+        },
+        {
+          "links": "Traubenzucker",
+          "rechts": "Molekül"
+        },
+        {
+          "links": "Regenwurm",
+          "rechts": "Organismus"
+        }
+      ],
+      "erklaerung": "Herz und Haut sind **Organe** aus mehreren Gewebearten (die Haut als Organ ist ergänzt). Mit den Blutgefässen bildet das Herz das Kreislauf**system**. Das Herzmuskelgewebe ist ein **Gewebe**. Traubenzucker ist ein **Molekül**. Ein ganzes Lebewesen wie der Regenwurm ist ein **Organismus**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-organisationsstufen-08",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "mehrfachwahl",
+      "frage": "Welches sind die **vier Grundgewebearten**?",
+      "optionen": [
+        "Epithelgewebe",
+        "Hautgewebe",
+        "Binde- und Stützgewebe",
+        "Verdauungsgewebe",
+        "Muskelgewebe",
+        "Nervengewebe",
+        "Atemgewebe"
+      ],
+      "richtig": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "erklaerung": "Die vier Grundgewebearten sind **Epithelgewebe, Binde- und Stützgewebe, Muskelgewebe und Nervengewebe**. «Verdauungs-» oder «Atemgewebe» gibt es nicht: Verdauung und Atmung sind Aufgaben von Organsystemen, die aus mehreren Gewebearten bestehen. Auch die Haut ist ein Organ aus mehreren Geweben und keine eigene Grundgewebeart.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-organisationsstufen-09",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "kurzantwort",
+      "frage": "Ergänze den Lückentext vom Blatt: «Der Darm gehört zum ___.» (Organsystem, ein Wort)",
+      "akzeptiert": [
+        "Verdauungssystem"
+      ],
+      "erklaerung": "Der Darm ist ein Organ des **Verdauungssystems** – Schreibweise mit «ss»: Verdauung**s**-**s**ystem. Dazu gehören z. B. auch Mund, Speiseröhre und Magen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-organisationsstufen-10",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "wahrfalsch",
+      "frage": "Der Magen besteht aus einer einzigen Gewebeart.",
+      "richtig": false,
+      "erklaerung": "Ein Organ ist laut Definition aus **mehreren** Geweben zusammengesetzt. Der Magen enthält z. B. Epithelgewebe (innere Auskleidung), Muskelgewebe (durchmischt den Nahrungsbrei), Bindegewebe und Nervengewebe (ergänzt).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-organisationsstufen-11",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "kurzantwort",
+      "frage": "Die Atemwege und der Darm sind innen von einer dichten, obersten Zellschicht ausgekleidet; auch die äusserste Schicht der Haut ist so gebaut. Zu welcher der vier Grundgewebearten gehört diese Zellschicht? (Fachbegriff)",
+      "akzeptiert": [
+        "Epithelgewebe",
+        "Epithel",
+        "Deckgewebe"
+      ],
+      "erklaerung": "Gesucht ist das **Epithelgewebe** – Schreibweise mit «th»: Epi-th-el. Es bedeckt innere und äussere Oberflächen; in der Luftröhre trägt es Flimmerhärchen. (Die Aufgaben der Gewebearten sind ergänzt; im Blatt stehen nur die Namen.)",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-organisationsstufen-12",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "zuordnen",
+      "frage": "Ordne jeder Grundgewebeart ihre typische Aufgabe zu.",
+      "paare": [
+        {
+          "links": "Epithelgewebe",
+          "rechts": "bedeckt und schützt Oberflächen, z. B. Haut und Schleimhäute"
+        },
+        {
+          "links": "Muskelgewebe",
+          "rechts": "kann sich zusammenziehen und so Bewegung erzeugen"
+        },
+        {
+          "links": "Nervengewebe",
+          "rechts": "nimmt Reize auf und leitet Informationen weiter"
+        },
+        {
+          "links": "Binde- und Stützgewebe",
+          "rechts": "verbindet Organe und gibt dem Körper Halt, z. B. Knorpel und Knochen"
+        }
+      ],
+      "erklaerung": "Epithel = Oberflächen, Muskel = Bewegung, Nerven = Informationen, Binde- und Stützgewebe = Verbindung und Halt. (Ergänzt: Das Blatt nennt nur die vier Namen, die Aufgaben helfen dir beim Verstehen.)",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-organisationsstufen-13",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "einfachwahl",
+      "frage": "Auf welcher Organisationsstufe steht das **Atmungssystem**, und was gehört dazu?",
+      "optionen": [
+        "Organ – es besteht nur aus der Lunge",
+        "Organsystem – dazu gehören z. B. Nase, Luftröhre, Bronchien und Lunge",
+        "Gewebe – es besteht aus vielen gleichartigen Lungenzellen",
+        "Organismus – es ist ein selbstständiges Lebewesen, das allein überleben kann"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das Atmungssystem ist ein **Organsystem**: eine funktionell zusammengehörende Gruppe von Organen (Nase, Rachen, Kehlkopf, Luftröhre, Bronchien, Lunge), die gemeinsam den Gasaustausch ermöglichen. Die **Lunge** allein ist ein Organ.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-organisationsstufen-14",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "einfachwahl",
+      "frage": "Ein Pantoffeltierchen ist ein Einzeller. Welche Organisationsstufen **fehlen** ihm?",
+      "optionen": [
+        "Atom und Molekül",
+        "nur das Organsystem",
+        "Zelle und Gewebe",
+        "Gewebe, Organ und Organsystem"
+      ],
+      "richtig": 3,
+      "erklaerung": "Ein Einzeller besteht aus einer einzigen Zelle – diese ist gleichzeitig der ganze **Organismus**. Gewebe, Organe und Organsysteme gibt es nur bei Vielzellern, deren Zellen zusammenarbeiten. Atome und Moleküle hat natürlich auch der Einzeller.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-organisationsstufen-15",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "wahrfalsch",
+      "frage": "Das Herz gehört zum **Kreislaufsystem**, weil es zusammen mit den Blutgefässen das Blut durch den Körper transportiert.",
+      "richtig": true,
+      "erklaerung": "Das Herz ist ein Organ. Zusammen mit den Blutgefässen bildet es das **Kreislaufsystem** (Herz-Kreislauf-System). Bei der Atmung transportiert es Sauerstoff und CO2 zwischen Lunge und Zellen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-organisationsstufen-16",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "kurzantwort",
+      "frage": "Das Laubblatt einer Buche besteht aus mehreren Gewebearten (Abschlussgewebe, Gewebe für die Fotosynthese, Leitungsbahnen) und ist ein abgegrenzter Teil der Pflanze mit eigener Aufgabe. Auf welcher Organisationsstufe steht das **Blatt**? (ein Wort)",
+      "akzeptiert": [
+        "Organ",
+        "ein Organ",
+        "Pflanzenorgan"
+      ],
+      "erklaerung": "Das Blatt ist ein **Organ**: aus **mehreren** Geweben zusammengesetzt, abgegrenzt und mit einer bestimmten Aufgabe (Fotosynthese). Das Stufenmodell gilt also auch für Pflanzen – Wurzel, Stängel und Blatt sind Pflanzenorgane. (Beispiel ergänzt.)",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-organisationsstufen-17",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "einfachwahl",
+      "frage": "Was unterscheidet ein **Organ** von einem **Organsystem**?",
+      "optionen": [
+        "Ein Organ ist eine Gruppe gleichartiger Zellen, ein Organsystem ein Organ mit mehreren Aufgaben",
+        "Ein Organ besteht aus mehreren Organsystemen, die gemeinsam eine bestimmte Aufgabe erfüllen",
+        "Ein Organ ist ein abgegrenzter Teil aus mehreren Geweben, ein Organsystem vereint mehrere Organe",
+        "Ein Organsystem besteht direkt aus Atomen und Molekülen, ein Organ dagegen aus Zellen"
+      ],
+      "richtig": 2,
+      "erklaerung": "Organ = abgegrenzte **Funktionseinheit** aus mehreren Geweben (z. B. Darm). Organsystem = funktionell zusammengehörende **Gruppe von Organen** (z. B. Verdauungssystem mit Magen, Darm …). Ein Organsystem ist also die grössere Einheit.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-organisationsstufen-18",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "offen",
+      "frage": "Erläutere die Begriffe **Gewebe**, **Organ** und **Organsystem** und gib zu jedem ein Beispiel.",
+      "musterloesung": "- **Gewebe:** eine Anhäufung von vielen gleichen oder gleichartigen Zellen, die **zusammenarbeiten**, um eine bestimmte Aufgabe zu erfüllen. Beispiel: Muskelgewebe (eine der vier Grundgewebearten: Epithel-, Binde- und Stütz-, Muskel-, Nervengewebe).\n- **Organ:** eine aus **mehreren** Geweben zusammengesetzte, abgegrenzte **Funktionseinheit** des Körpers mit **unverwechselbarem** Aufbau und bestimmten Aufgaben. Beispiel: Darm, Magen, Lunge, Herz.\n- **Organsystem:** eine funktionell zusammengehörende **Gruppe von Organen**. Beispiel: Verdauungssystem, Atmungssystem, Kreislaufsystem.",
+      "stichworte": [
+        "Gewebe: gleiche/gleichartige Zellen, zusammenarbeiten",
+        "Organ: mehrere Gewebe, Funktionseinheit",
+        "unverwechselbarer Aufbau",
+        "Organsystem: Gruppe von Organen",
+        "je ein passendes Beispiel"
+      ],
+      "erklaerung": "Die Definitionen stammen aus dem Lückentext des Blatts. Achte darauf, dass jedes Beispiel wirklich zur Stufe passt (Darm = Organ, nicht Organsystem).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-organisationsstufen-19",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "offen",
+      "frage": "Erkläre am Beispiel des **Darms**, wie die Stufen **Zelle – Gewebe – Organ – Organsystem – Organismus** zusammenhängen.",
+      "musterloesung": "- **Zellen:** z. B. die Zellen der Darmschleimhaut oder Muskelzellen.\n- **Gewebe:** Gleichartige Zellen bilden Gewebe, z. B. das Epithelgewebe der Darmschleimhaut (nimmt Nährstoffe auf) und das Muskelgewebe (bewegt den Nahrungsbrei weiter); dazu Binde- und Nervengewebe.\n- **Organ:** Diese verschiedenen Gewebe bilden zusammen den **Darm** – eine abgegrenzte Funktionseinheit mit unverwechselbarem Aufbau.\n- **Organsystem:** Der Darm arbeitet mit Mund, Speiseröhre, Magen usw. zusammen im **Verdauungssystem**.\n- **Organismus:** Das Verdauungssystem bildet mit den anderen Organsystemen (Atmung, Kreislauf …) den ganzen **Menschen**.",
+      "stichworte": [
+        "Zellen der Darmwand",
+        "mehrere Gewebearten",
+        "Darm = Organ",
+        "Verdauungssystem = Organsystem",
+        "Organismus Mensch",
+        "jede Stufe baut auf der vorherigen auf"
+      ],
+      "erklaerung": "Die Gewebearten im Darm sind ergänzt (das Blatt fragt nur «Bsp. Darm»). Entscheidend ist, dass jede Stufe aus der vorherigen aufgebaut ist und der Darm zum Verdauungssystem gehört.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-organisationsstufen-20",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "zuordnen",
+      "frage": "Verknüpfe mit der Atmung: Ordne jedes Beispiel der passenden Organisationsstufe zu.",
+      "paare": [
+        {
+          "links": "Kohlenstoffdioxid (CO2)",
+          "rechts": "Molekül"
+        },
+        {
+          "links": "eine Zelle mit Flimmerhärchen aus der Luftröhre",
+          "rechts": "Zelle"
+        },
+        {
+          "links": "Knorpelgewebe der Luftröhre",
+          "rechts": "Gewebe"
+        },
+        {
+          "links": "Luftröhre",
+          "rechts": "Organ"
+        },
+        {
+          "links": "Lunge",
+          "rechts": "Organ"
+        },
+        {
+          "links": "Atmungssystem",
+          "rechts": "Organsystem"
+        },
+        {
+          "links": "Mensch",
+          "rechts": "Organismus"
+        }
+      ],
+      "erklaerung": "CO2 ist ein **Molekül**. Eine Flimmerepithelzelle ist eine **Zelle**; viele gleichartige Knorpelzellen bilden das Knorpel**gewebe** der Spangen. Luftröhre und Lunge sind **Organe** aus mehreren Geweben. Zusammen mit Nase, Kehlkopf und Bronchien bilden sie das Atmungs**system**. Der ganze Mensch ist der **Organismus**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-organisationsstufen-21",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "kurzantwort",
+      "frage": "Ergänze den Lückentext: «Ein Gewebe ist eine Anhäufung von vielen gleichen oder gleichartigen Zellen, die ___, um eine bestimmte Aufgabe zu erfüllen.» (ein Wort)",
+      "akzeptiert": [
+        "zusammenarbeiten"
+      ],
+      "erklaerung": "Die Zellen eines Gewebes **arbeiten zusammen** – im Lückentext steht «zusammenarbeiten» (zusammengeschrieben).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-organisationsstufen-22",
+      "lernzielId": "lz-organisationsstufen",
+      "typ": "kurzantwort",
+      "frage": "Ein Pantoffeltierchen besteht aus einer einzigen Zelle. Diese Zelle ist gleichzeitig die oberste Organisationsstufe, das ganze Lebewesen. Wie heisst diese Stufe? (ein Wort)",
+      "akzeptiert": [
+        "Organismus",
+        "der Organismus"
+      ],
+      "erklaerung": "Die oberste Stufe ist der **Organismus** – das ganze Lebewesen. Beim Menschen besteht er aus vielen Organsystemen, beim Einzeller nur aus einer Zelle.",
+      "schwierigkeit": 2
+    }
+  ]
+}

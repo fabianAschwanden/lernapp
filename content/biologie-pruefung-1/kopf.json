@@ -1,0 +1,205 @@
+{
+  "id": "biologie-pruefung-1",
+  "format": 1,
+  "version": 1,
+  "fach": "Biologie",
+  "titel": "Prüfung 1: Einführung Biologie und Atmung",
+  "beschreibung": "Kennzeichen des Lebens, fünf Reiche, Organisationsstufen sowie Zellatmung, Bau der Lunge, Gasaustausch, Ventilation, Hyperventilation und Atemvolumen.",
+  "klasse": "FMS1A",
+  "pruefungsdatum": "2026-10-29",
+  "hinweise": [
+    "Fachbegriffe müssen bekannt sein und korrekt geschrieben werden — Kurzantworten in dieser Lektion verlangen die richtige Schreibweise.",
+    "Die Prüfung verlangt mehr als Auswendiglernen: Wissen anwenden, verknüpfen und auf neue Situationen übertragen. Übe deshalb auch die Erklär- und Transferfragen.",
+    "Rechnungen: Auf Grundlage bekannter Zahlenwerte (Atemzugvolumen, Atemfrequenz, Sauerstoffgehalt …) selbstständig rechnen können. Ob ein Taschenrechner erlaubt ist, steht nicht in den Lernzielen — die Rechnungen hier gehen auch ohne."
+  ],
+  "quellen": [
+    {
+      "id": "lernziele",
+      "titel": "Lernziele Biologieprüfung FMS 1A, 29. Oktober 2026"
+    },
+    {
+      "id": "einfuehrung",
+      "titel": "Einführung Biologie: Kennzeichen der Lebewesen, 5 Reiche, Organisationsstufen"
+    },
+    {
+      "id": "atmung-1",
+      "titel": "Die Atmung (Teil 1): Zellatmung, 4 Schritte, Bau der Atemwege und der Lunge, Gasaustausch, Oberflächenvergrösserung"
+    },
+    {
+      "id": "atmung-2",
+      "titel": "Atmung Teil 2: Ventilation der Lungen (mit Lösungen)"
+    },
+    {
+      "id": "atmung-3",
+      "titel": "Atmung Teil 3: Atemvolumen, Steuerung, Hyperventilation, Zusammensetzung der Luft (mit Lösungen)"
+    },
+    {
+      "id": "rechnung",
+      "titel": "Eine Rechnung: Sauerstoffproduktion einer Buche"
+    },
+    {
+      "id": "lungenliga",
+      "titel": "Lungenliga Schweiz (lungenliga.ch): Masse von Lungenflügel und Luftröhre"
+    }
+  ],
+  "lernziele": [
+    {
+      "id": "lz-bios",
+      "thema": "Einführung Biologie",
+      "text": "Sie wissen, was das griechische Wort «bios» bedeutet.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Einführung Biologie, S. 1"
+    },
+    {
+      "id": "lz-kennzeichen",
+      "thema": "Einführung Biologie",
+      "text": "Sie können erläutern, welches die Kennzeichen eines Lebewesens sind, resp. wie bestimmt werden kann, was ein Lebewesen ist.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Einführung Biologie, S. 2–3"
+    },
+    {
+      "id": "lz-reiche",
+      "thema": "Einführung Biologie",
+      "text": "Sie wissen, in welche 5 Reiche Lebewesen eingeteilt werden, wie sich die verschiedenen Reiche unterscheiden, und Sie können verschiedene Vertreter den entsprechenden Reichen zuordnen.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Einführung Biologie, S. 4"
+    },
+    {
+      "id": "lz-zelle",
+      "thema": "Einführung Biologie",
+      "text": "Sie wissen, was die kleinste Einheit von Leben ist.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Einführung Biologie, S. 2"
+    },
+    {
+      "id": "lz-organisationsstufen",
+      "thema": "Einführung Biologie",
+      "text": "Sie können die Begriffe Gewebe, Organ und Organsystem erläutern.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Einführung Biologie, S. 5"
+    },
+    {
+      "id": "lz-zellatmung",
+      "thema": "Atmung: Zellatmung und Gasaustausch",
+      "text": "Sie wissen, wozu die Zellatmung dient. Sie kennen die Gleichung der Zellatmung und können diese auch in Worten erläutern.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Atmung Teil 1, S. 1–2"
+    },
+    {
+      "id": "lz-schritte",
+      "thema": "Atmung: Zellatmung und Gasaustausch",
+      "text": "Sie wissen, in welche Schritte die Atmung unterteilt werden kann.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Atmung Teil 1, S. 3"
+    },
+    {
+      "id": "lz-bau-beschriften",
+      "thema": "Bau der Atemwege und der Lunge",
+      "text": "Sie können eine entsprechende Abbildung zum Bau der Atemwege und der Lunge beschriften.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Atmung Teil 1, S. 4"
+    },
+    {
+      "id": "lz-lunge-masse",
+      "thema": "Bau der Atemwege und der Lunge",
+      "text": "Sie wissen, wie schwer eine menschliche Lunge ist, wie gross (lang) ein Lungenflügel in etwa ist und wie sich die beiden Lungenflügel unterscheiden.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Atmung Teil 1, S. 4–6; Länge: Lungenliga"
+    },
+    {
+      "id": "lz-luftroehre",
+      "thema": "Bau der Atemwege und der Lunge",
+      "text": "Sie wissen, wie lang die Luftröhre bei einem Menschen ist, welchen Durchmesser sie hat und welche Besonderheiten die Luftröhre (sowie die Bronchien) aufweist.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Atmung Teil 1, S. 5; Masse: Lungenliga",
+      "ergaenzt": true
+    },
+    {
+      "id": "lz-bronchialbaum",
+      "thema": "Bau der Atemwege und der Lunge",
+      "text": "Sie wissen, was man als Bronchialbaum bezeichnet und wie dieser aufgebaut ist.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Atmung Teil 1, S. 4–5"
+    },
+    {
+      "id": "lz-selbstreinigung",
+      "thema": "Bau der Atemwege und der Lunge",
+      "text": "Sie wissen, wie der Selbstreinigungsmechanismus der Atemwege funktioniert.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Atmung Teil 1, S. 5"
+    },
+    {
+      "id": "lz-alveolen",
+      "thema": "Bau der Atemwege und der Lunge",
+      "text": "Sie können Auskunft geben, welche Aufgabe die Alveolen erfüllen. Auch wissen Sie, wie viele Lungenbläschen ein Mensch in etwa besitzt, welche Grösse ein einzelnes Lungenbläschen aufweist und wie gross in etwa die Gesamtoberfläche der Alveolen ist.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Atmung Teil 1, S. 6–7"
+    },
+    {
+      "id": "lz-oberflaeche",
+      "thema": "Bau der Atemwege und der Lunge",
+      "text": "In diesem Zusammenhang können Sie das Prinzip der Oberflächenvergrösserung erläutern.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Atmung Teil 1, S. 6–8"
+    },
+    {
+      "id": "lz-gasaustausch",
+      "thema": "Atmung: Zellatmung und Gasaustausch",
+      "text": "Sie wissen, was man als Gasaustausch bezeichnet und wo der Gasaustausch stattfindet.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Atmung Teil 1, S. 3 und 6"
+    },
+    {
+      "id": "lz-ventilation",
+      "thema": "Ventilation und Steuerung der Atmung",
+      "text": "Sie können detailliert erläutern, wie die Ventilation der Lungen erfolgt: Voraussetzungen für das Ein- und Ausströmen der Luft, die Atemmuskeln und was sie bewirken, Aufbau und Bedeutung der Pleura.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Atmung Teil 2, S. 1–4 (mit Lösungen)"
+    },
+    {
+      "id": "lz-steuerung",
+      "thema": "Ventilation und Steuerung der Atmung",
+      "text": "Sie wissen, wie die Atmung gesteuert wird.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Atmung Teil 3, S. 2"
+    },
+    {
+      "id": "lz-hyperventilation",
+      "thema": "Ventilation und Steuerung der Atmung",
+      "text": "Sie können erläutern, was man als Hyperventilation bezeichnet, was dabei passiert und wie man einer betroffenen Person helfen kann.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Atmung Teil 3, S. 2–3"
+    },
+    {
+      "id": "lz-luftzusammensetzung",
+      "thema": "Atemluft und Atemvolumen",
+      "text": "Sie können Auskunft geben über den Sauerstoff- und CO2-Gehalt der (Einatmungs-)Luft sowie der Ausatmungsluft.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Atmung Teil 3, S. 4"
+    },
+    {
+      "id": "lz-atemzugvolumen",
+      "thema": "Atemluft und Atemvolumen",
+      "text": "Sie wissen, wie gross das Atemzugvolumen sowie die Atemfrequenz eines Menschen in Ruhe (bzw. sitzend) in etwa sind.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Atmung Teil 3, S. 1–2"
+    },
+    {
+      "id": "lz-vitalkapazitaet",
+      "thema": "Atemluft und Atemvolumen",
+      "text": "Sie wissen, was man als Vitalkapazität und Residualvolumen bezeichnet und wie hoch diese Werte in etwa sind.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Atmung Teil 3, S. 1 (mit Lösungen)"
+    },
+    {
+      "id": "lz-berechnungen",
+      "thema": "Atemluft und Atemvolumen",
+      "text": "Auf Grundlage bekannter Zahlenwerte können Sie Berechnungen selbstständig durchführen und die entsprechenden Ergebnisse ableiten.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Atmung Teil 1, S. 6–7; Eine Rechnung (Buche); Atmung Teil 3"
+    }
+  ],
+  "fragen": [],
+  "herkunft": "mitgeliefert",
+  "erstelltAm": "2026-10-21T18:00:00.000Z"
+}
