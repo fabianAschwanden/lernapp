@@ -1,7 +1,10 @@
-import { readFileSync } from 'node:fs';
+import { randomBytes } from 'node:crypto';
+import { readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-import { Locator, Page, TestInfo, expect, test as basis } from '@playwright/test';
+import { BrowserContext, Locator, Page, TestInfo, expect, test as basis } from '@playwright/test';
+
+import { ERLAUBT_VERZEICHNIS } from './umgebung';
 
 /** Mitgelieferte Lektion, gegen die die meisten Tests laufen. */
 export const LEKTION = {
@@ -35,30 +38,108 @@ export interface Beobachtung {
   probleme: string[];
   /** Alle Netzwerkantworten (URL → Status). */
   antworten: { url: string; status: number }[];
+  /**
+   * Adressen, deren HTTP-Fehler oder Abbrüche ein Test ausdrücklich erwartet (z. B. 401 von
+   * /api/ich ohne Anmeldung, /api/* ohne Netz). Der Test trägt sie selbst ein.
+   */
+  erlaubt: RegExp[];
+}
+
+/** Angemeldete Testperson. */
+export interface Konto {
+  email: string;
+  name: string;
+}
+
+let laufendeNummer = 0;
+
+/** Neue, eindeutige Testperson (pro Test und Wiederholung), noch nicht freigegeben. */
+export function neueTestperson(info: TestInfo, name = 'Testperson'): Konto {
+  const zufall = randomBytes(4).toString('hex');
+  const id = `${info.testId}-${info.retry}-${++laufendeNummer}-${zufall}`.toLowerCase();
+  return { email: `t-${id}@example.com`, name };
+}
+
+/** Gibt die Adresse in der Allowlist des Test-Servers frei (e2e/config.e2e.php). */
+export function freigeben(email: string): void {
+  writeFileSync(join(ERLAUBT_VERZEICHNIS, email), '');
+}
+
+/** Entzieht die Freigabe (wirkt bei der nächsten Anfrage). */
+export function freigabeEntziehen(email: string): void {
+  rmSync(join(ERLAUBT_VERZEICHNIS, email), { force: true });
 }
 
 /**
- * Test-Basis: Jeder Test bekommt einen frischen Browser-Kontext (also leere
- * IndexedDB). Zusätzlich sammelt `beobachtung` automatisch Konsolenfehler und
- * fehlgeschlagene Requests — ein Test ist nur grün, wenn keine auftreten.
+ * Meldet den Browser-Kontext über POST /api/test/anmelden an (wie der Google-Login, nur im
+ * Testmodus unter «php -S»). Das Sitzungs-Cookie landet im Kontext.
  */
-export const test = basis.extend<{ beobachtung: Beobachtung }>({
+export async function meldeAn(
+  context: BrowserContext,
+  konto: Konto,
+  freigabe = true,
+): Promise<void> {
+  if (freigabe) freigeben(konto.email);
+  const antwort = await context.request.post('/api/test/anmelden', {
+    headers: { 'X-Lernapp': '1' },
+    data: konto,
+  });
+  expect(antwort.status(), `Test-Anmeldung ${konto.email}: ${await antwort.text()}`).toBe(200);
+}
+
+/**
+ * Test-Basis: Jeder Test bekommt einen frischen Browser-Kontext (also leere IndexedDB) und
+ * ist als eigene Testperson angemeldet (`konto`; mit `test.use({ anmelden: false })` nicht).
+ * Zusätzlich sammelt `beobachtung` automatisch Konsolenfehler und fehlgeschlagene
+ * Requests — ein Test ist nur grün, wenn keine auftreten.
+ */
+export const test = basis.extend<{
+  anmelden: boolean;
+  konto: Konto | null;
+  beobachtung: Beobachtung;
+}>({
+  anmelden: [true, { option: true }],
+  konto: [
+    async ({ context, anmelden }, use, info: TestInfo) => {
+      if (!anmelden) {
+        await use(null);
+        return;
+      }
+      const konto = neueTestperson(info);
+      await meldeAn(context, konto);
+      await use(konto);
+    },
+    { auto: true },
+  ],
   beobachtung: [
-    async ({ page }, use, info: TestInfo) => {
-      const b: Beobachtung = { probleme: [], antworten: [] };
+    async ({ page, anmelden }, use, info: TestInfo) => {
+      // Ohne Anmeldung antwortet /api/ich mit 401 — das ist dann der erwartete Fall.
+      const b: Beobachtung = {
+        probleme: [],
+        antworten: [],
+        erlaubt: anmelden ? [] : [/\/api\/ich$/],
+      };
+      const erlaubt = (url: string) => b.erlaubt.some((m) => m.test(url));
       page.on('console', (m) => {
-        if (m.type() === 'error') b.probleme.push(`Konsole: ${m.text()}`);
+        if (m.type() !== 'error') return;
+        // Der Browser meldet HTTP-Fehler zusätzlich in der Konsole; erwartete nicht doppelt zählen.
+        if (m.text().startsWith('Failed to load resource') && erlaubt(m.location().url)) return;
+        b.probleme.push(`Konsole: ${m.text()}`);
       });
       page.on('pageerror', (e) => b.probleme.push(`Seitenfehler: ${e.message}`));
       page.on('requestfailed', (r) => {
         const grund = r.failure()?.errorText ?? '';
         // Blob-URLs (Downloads) werden absichtlich sofort wieder freigegeben.
         if (r.url().startsWith('blob:') || r.url().startsWith('data:')) return;
+        // API-Aufrufe im Hintergrund (Sync) bricht ein Seitenwechsel ab; sie laufen später erneut.
+        if (grund === 'net::ERR_ABORTED' && new URL(r.url()).pathname.startsWith('/api/')) return;
+        if (erlaubt(r.url())) return;
         b.probleme.push(`Request fehlgeschlagen: ${r.url()} (${grund})`);
       });
       page.on('response', (r) => {
         b.antworten.push({ url: r.url(), status: r.status() });
-        if (r.status() >= 400) b.probleme.push(`HTTP ${r.status()}: ${r.url()}`);
+        if (r.status() >= 400 && !erlaubt(r.url()))
+          b.probleme.push(`HTTP ${r.status()}: ${r.url()}`);
       });
       await use(b);
       if (info.status === info.expectedStatus) {

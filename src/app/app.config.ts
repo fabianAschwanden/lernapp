@@ -12,6 +12,7 @@ import { provideRouter, withComponentInputBinding, withInMemoryScrolling } from 
 import { provideServiceWorker } from '@angular/service-worker';
 
 import { routes } from './app.routes';
+import { AuthService } from './core/services/auth.service';
 import { EinstellungenService } from './core/services/einstellungen.service';
 import { FortschrittService } from './core/services/fortschritt.service';
 import { LektionService } from './core/services/lektion.service';
@@ -26,15 +27,17 @@ export const appConfig: ApplicationConfig = {
     // withComponentInputBinding: Route- und Query-Parameter landen als input()
     provideRouter(routes, withComponentInputBinding(), withInMemoryScrolling({ scrollPositionRestoration: 'top' })),
     // Lektionen, Lernstand, Einstellungen und Rückmeldungen vor dem ersten Bildschirm laden —
-    // alles lokal (IndexedDB + mitgelieferte JSON), also schnell.
-    provideAppInitializer(() =>
-      Promise.all([
+    // alles lokal (IndexedDB + mitgelieferte JSON), also schnell. Die Anmeldung prüft parallel
+    // (GET /api/ich); darauf wartet erst der Guard der Seiten, nicht der App-Rahmen.
+    provideAppInitializer(() => {
+      void inject(AuthService).starte();
+      return Promise.all([
         inject(LektionService).laden(),
         inject(FortschrittService).laden(),
         inject(EinstellungenService).laden(),
         inject(RueckmeldungService).laden(),
-      ]),
-    ),
+      ]);
+    }),
     provideServiceWorker('ngsw-worker.js', {
       enabled: !isDevMode(),
       registrationStrategy: 'registerWhenStable:30000',

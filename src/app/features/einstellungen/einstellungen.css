@@ -141,3 +141,7 @@ h3 {
 .tabelle th {
   background: var(--flaeche-2);
 }
+.umbruch {
+  overflow-wrap: anywhere;
+  margin: 0;
+}

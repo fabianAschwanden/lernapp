@@ -24,10 +24,14 @@ export const STANDARD_EINSTELLUNGEN: Einstellungen = {
 };
 
 const SCHLUESSEL = 'einstellungen';
+/** Gerätebezogen, eigener Schlüssel (nicht in SYNC_EINSTELLUNGEN). */
+const FARBSCHEMA_SCHLUESSEL = 'farbschema';
 const API_SCHLUESSEL = 'anthropicApiKey';
+const FARBSCHEMATA: readonly Einstellungen['farbschema'][] = ['auto', 'hell', 'dunkel'];
 
 /**
- * Einstellungen und der API-Schlüssel für die KI-Erstellung. Der Schlüssel
+ * Einstellungen (werden synchronisiert, ausser dem gerätebezogenen Farbschema)
+ * und der API-Schlüssel für die KI-Erstellung. Der Schlüssel
  * liegt nur in der IndexedDB dieses Geräts und geht ausschliesslich an
  * api.anthropic.com.
  */
@@ -43,20 +47,55 @@ export class EinstellungenService {
   private ladenPromise: Promise<void> | null = null;
 
   laden(): Promise<void> {
-    this.ladenPromise ??= (async () => {
-      const gespeichert = await this.speicher.lies<Partial<Einstellungen>>(SCHLUESSEL).catch(() => undefined);
-      this._werte.set({ ...STANDARD_EINSTELLUNGEN, ...gespeichert });
-      this._hatApiSchluessel.set(!!(await this.apiSchluessel()));
-      this.wendeFarbschemaAn();
-    })();
+    this.ladenPromise ??= this.ladeIntern();
     return this.ladenPromise;
   }
 
-  async aendern(teil: Partial<Einstellungen>): Promise<void> {
-    const neu = { ...this._werte(), ...teil };
+  /** Liest Einstellungen und Schlüssel-Status erneut (nach Synchronisation oder Kontowechsel). */
+  async neuLaden(): Promise<void> {
+    await this.laden();
+    this.ladenPromise = this.ladeIntern();
+    return this.ladenPromise;
+  }
+
+  private ladeIntern(): Promise<void> {
+    return (async () => {
+      const [gespeichert, farbschema] = await Promise.all([
+        this.speicher.lies<Partial<Einstellungen>>(SCHLUESSEL).catch(() => undefined),
+        this.speicher.lies<Einstellungen['farbschema']>(FARBSCHEMA_SCHLUESSEL).catch(() => undefined),
+      ]);
+      const werte = { ...STANDARD_EINSTELLUNGEN, ...gespeichert };
+      // Eigener Schlüssel; früher stand das Farbschema im synchronisierten Objekt.
+      if (farbschema && FARBSCHEMATA.includes(farbschema)) werte.farbschema = farbschema;
+      this._werte.set(werte);
+      this._hatApiSchluessel.set(!!(await this.apiSchluessel()));
+      this.wendeFarbschemaAn();
+    })();
+  }
+
+  /**
+   * Ändert Einstellungen. Das Farbschema bleibt auf dem Gerät (eigener Schlüssel); die
+   * übrigen Werte gehen nur zum Server, wenn sich einer davon wirklich ändert — sonst
+   * überschriebe z. B. ein Wechsel des Farbschemas die Werte der anderen Geräte.
+   * `syncStempel` gibt den Sync-Zeitstempel vor (Backup-Import).
+   */
+  async aendern(teil: Partial<Einstellungen>, opt: { syncStempel?: string } = {}): Promise<void> {
+    const alt = this._werte();
+    const neu = { ...alt, ...teil };
     this._werte.set(neu);
-    await this.speicher.schreibe(SCHLUESSEL, neu);
+    const { farbschema, ...synchronisiert } = teil;
+    if (farbschema !== undefined && farbschema !== alt.farbschema) {
+      await this.speicher.schreibe(FARBSCHEMA_SCHLUESSEL, farbschema);
+    }
+    // Erst nach dem Speichern anwenden: Was sichtbar ist, übersteht auch ein sofortiges Neuladen.
     this.wendeFarbschemaAn();
+    const geaendert = (Object.keys(synchronisiert) as (keyof typeof synchronisiert)[]).some(
+      (k) => synchronisiert[k] !== undefined && synchronisiert[k] !== alt[k],
+    );
+    if (geaendert) {
+      const { farbschema: _, ...ohneFarbschema } = neu;
+      await this.speicher.schreibe(SCHLUESSEL, ohneFarbschema, opt);
+    }
   }
 
   async apiSchluessel(): Promise<string | undefined> {

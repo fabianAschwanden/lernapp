@@ -31,6 +31,46 @@
   display: flex;
   gap: 4px;
 }
+.sync {
+  position: relative;
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  /* passt in die 38 px Innenhöhe von .kopf-inhalt, sonst wächst der Kopf über --kopf-hoehe */
+  min-height: 32px;
+  padding: 0 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--mittel-text);
+  background: var(--mittel-weich);
+  text-decoration: none;
+  white-space: nowrap;
+}
+/* Touch-Ziel ≥ 44 px, ohne die feste Kopfhöhe zu verändern */
+.sync::after {
+  content: "";
+  position: absolute;
+  inset: -6px 0;
+}
+.sync.fehler {
+  color: var(--schlecht-text);
+  background: var(--schlecht-weich);
+}
+/* Kurz ausstehende Änderungen (2 s bis zum Hochladen) nicht anzeigen, nur wenn es länger dauert */
+.sync.verzoegert {
+  animation: einblenden 0.2s 6s both;
+}
+@keyframes einblenden {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
 .nav-oben a,
 .nav-unten a {
   color: var(--text-2);

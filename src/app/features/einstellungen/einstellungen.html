@@ -2,6 +2,7 @@
   <h1>Einstellungen</h1>
 
   <nav class="inhalt" aria-label="Abschnitte">
+    <a href="#konto" (click)="$event.preventDefault(); springe('konto')">Konto</a>
     <a href="#lernen" (click)="$event.preventDefault(); springe('lernen')">Lernen</a>
     <a href="#darstellung" (click)="$event.preventDefault(); springe('darstellung')">Darstellung</a>
     <a href="#ki" (click)="$event.preventDefault(); springe('ki')">KI-Erstellung</a>
@@ -10,6 +11,133 @@
     <a href="#installieren" (click)="$event.preventDefault(); springe('installieren')">Installieren</a>
     <a href="#so-gehts" (click)="$event.preventDefault(); springe('so-gehts')">So funktioniert's</a>
   </nav>
+
+  <!-- ---------- Konto ---------- -->
+  <section class="karte stapel" aria-labelledby="konto">
+    <h2 id="konto" tabindex="-1">Konto</h2>
+    @if (benutzer(); as b) {
+      <p class="umbruch">
+        Angemeldet als <strong>{{ b.email }}</strong>
+        @if (b.name) {
+          <span class="leise"> ({{ b.name }})</span>
+        }
+      </p>
+    }
+    <!-- Ohne Live-Region: Der Status wechselt bei jeder Änderung und wäre sonst laut (Fehler sagt app.html an). -->
+    <div class="stapel klein">
+      <p class="zeile">
+        Synchronisation:
+        <span
+          id="sync-status"
+          class="chip mehrzeilig"
+          [class.gut]="sync.status() === 'synchron'"
+          [class.mittel]="sync.status() === 'ausstehend' || sync.status() === 'offline'"
+          [class.schlecht]="sync.status() === 'fehler'"
+          >{{ syncText() }}</span
+        >
+      </p>
+      @if (sync.zuletztAm(); as z) {
+        <p class="leise">Zuletzt synchronisiert: {{ z | date: 'd.M.yyyy, HH:mm' }}</p>
+      }
+    </div>
+    <div aria-live="polite">
+      @if (sync.meldung(); as m) {
+        <p class="hinweis warnung">{{ m }}</p>
+      }
+    </div>
+    <p class="nur-screenreader" aria-live="polite">{{ syncAnsage() }}</p>
+    <p class="klein">
+      Deine Lektionen, dein Lernstand, die Probeprüfungen, Rückmeldungen und Einstellungen werden mit dem Server
+      abgeglichen und sind so auf all deinen Geräten gleich. Der API-Schlüssel und das Farbschema bleiben auf dem
+      Gerät.
+    </p>
+    <div class="zeile">
+      <button
+        type="button"
+        class="knopf"
+        [disabled]="authZustand() !== 'angemeldet' || sync.status() === 'laeuft'"
+        [attr.aria-describedby]="authZustand() !== 'angemeldet' ? 'sync-hinweis' : null"
+        (click)="jetztSynchronisieren()"
+      >
+        Jetzt synchronisieren
+      </button>
+      @if (abmeldenSchritt() === 0) {
+        <button type="button" class="knopf" (click)="abmeldenOeffnen()">Abmelden …</button>
+      }
+    </div>
+    @if (authZustand() === 'offline') {
+      <p id="sync-hinweis" class="klein leise">Synchronisieren geht nur mit Internetverbindung.</p>
+    } @else if (authZustand() === 'abgelaufen') {
+      <p id="sync-hinweis" class="klein leise">Synchronisieren geht erst wieder, wenn du dich neu anmeldest.</p>
+    }
+    @if (abmeldenSchritt() === 1) {
+      <div
+        class="hinweis stapel"
+        [class.fehler]="abmeldenAusstehend() > 0 || abmeldenNurLokal().length > 0"
+        [class.warnung]="!abmeldenAusstehend() && !abmeldenNurLokal().length"
+        role="alert"
+      >
+        @if (abmeldenFehler(); as f) {
+          <p><strong>{{ f }}</strong></p>
+        }
+        @if (abmeldenAusstehend(); as n) {
+          <p>
+            <strong>{{ n === 1 ? '1 Änderung konnte' : n + ' Änderungen konnten' }} nicht hochgeladen werden</strong
+            >{{ abmeldenGrund() }}. Wenn du dich jetzt abmeldest, {{ n === 1 ? 'geht sie' : 'gehen sie' }} verloren.
+          </p>
+        }
+        @if (abmeldenNurLokal().length) {
+          <p><strong>Diese Einträge sind nicht auf dem Server und bleiben nur auf diesem Gerät:</strong></p>
+          <ul class="klein">
+            @for (e of abmeldenNurLokal(); track e.id) {
+              <li>{{ nurLokalText(e) }}</li>
+            }
+          </ul>
+          <p>Exportiere vorher ein Backup, sonst gehen sie beim Abmelden verloren.</p>
+          <div class="zeile">
+            <button type="button" class="knopf" [disabled]="backupLaeuft()" (click)="exportieren()">
+              Backup exportieren
+            </button>
+          </div>
+        }
+        @if (!abmeldenAusstehend() && !abmeldenNurLokal().length) {
+          <p>
+            Beim Abmelden werden alle deine Daten <strong>von diesem Gerät entfernt</strong> — auch der API-Schlüssel.
+            Auf dem Server bleiben sie erhalten (ausser Einträgen, die nicht synchronisiert werden konnten); nach der
+            nächsten Anmeldung sind sie wieder da.
+          </p>
+        }
+        <div class="zeile">
+          <button #abmeldenAbbrechenKnopf type="button" class="knopf primaer" (click)="abmeldenAbbrechen()">
+            Abbrechen
+          </button>
+          <button
+            type="button"
+            class="knopf gefahr"
+            [disabled]="abmeldenLaeuft()"
+            (click)="abmelden(abmeldenAusstehend() > 0 || abmeldenNurLokal().length > 0)"
+          >
+            {{ abmeldenAusstehend() || abmeldenNurLokal().length ? 'Trotzdem abmelden' : 'Ja, abmelden' }}
+          </button>
+          <button
+            type="button"
+            class="knopf gefahr"
+            [disabled]="abmeldenLaeuft() || authZustand() !== 'angemeldet'"
+            (click)="abmelden(abmeldenAusstehend() > 0 || abmeldenNurLokal().length > 0, true)"
+          >
+            Auf allen Geräten abmelden
+          </button>
+        </div>
+        <p class="klein">
+          «Auf allen Geräten abmelden» beendet auch die Anmeldung auf deinen anderen Geräten (z. B. auf einem
+          verlorenen Handy); dort bleiben nicht hochgeladene Änderungen bis zur nächsten Anmeldung auf dem Gerät.
+        </p>
+        @if (abmeldenLaeuft()) {
+          <p class="leise klein" role="status">Lade ausstehende Änderungen hoch …</p>
+        }
+      </div>
+    }
+  </section>
 
   <!-- ---------- Lernen ---------- -->
   <section class="karte stapel" aria-labelledby="lernen">
@@ -210,10 +338,12 @@
   <section class="karte stapel" aria-labelledby="daten">
     <h2 id="daten" tabindex="-1">Daten &amp; Geräte</h2>
     <p class="klein">
-      Lektionen, Lernstand und Einstellungen liegen nur auf diesem Gerät. Nur wenn du eine Lektion mit
-      Claude erstellst, gehen das gewählte Material, die Lernziele und, falls angewählt, die
-      Rückmeldungen früherer Prüfungen im selben Fach (ohne Noten und Namen) an Anthropic. Für einen Gerätewechsel exportierst du ein Backup (eigene Lektionen,
-      Lernstand, Probeprüfungen, Rückmeldungen, Einstellungen — ohne API-Schlüssel) und importierst es auf dem anderen Gerät.
+      Lektionen, Lernstand und Einstellungen liegen auf diesem Gerät und werden mit dem Server der Lernapp
+      synchronisiert — auf einem neuen Gerät meldest du dich einfach an. Nur wenn du eine Lektion mit Claude
+      erstellst, gehen das gewählte Material, die Lernziele und, falls angewählt, die Rückmeldungen früherer
+      Prüfungen im selben Fach (ohne Noten und Namen) an Anthropic. Ein Backup (eigene Lektionen, Lernstand,
+      Probeprüfungen, Rückmeldungen, Einstellungen — ohne API-Schlüssel) kannst du zusätzlich als Datei sichern;
+      importierte Daten werden ebenfalls synchronisiert.
     </p>
     <div class="zeile">
       <button type="button" class="knopf" [disabled]="backupLaeuft()" (click)="exportieren()">
@@ -319,20 +449,26 @@
       }
     }
 
-    <h3>Alle Daten löschen</h3>
+    <h3>Alle Daten löschen (Server und Geräte)</h3>
     @if (loeschenSchritt() === 0) {
       <button type="button" class="knopf gefahr" (click)="loeschenSchritt.set(1)">Alle Daten löschen …</button>
     } @else {
       <div class="hinweis fehler stapel" role="alert">
         <p>
-          Das löscht <strong>alle eigenen Lektionen, deinen Lernstand, die Probeprüfungen, die Rückmeldungen zu Prüfungen, die Einstellungen und den
-          API-Schlüssel</strong> auf diesem Gerät. Das lässt sich nicht rückgängig machen — exportiere vorher ein
-          Backup.
+          Das löscht <strong>alle eigenen Lektionen, deinen Lernstand, die Probeprüfungen, die Rückmeldungen zu
+          Prüfungen und die Einstellungen auf dem Server und auf diesem Gerät</strong> (hier auch den API-Schlüssel).
+          Deine anderen Geräte entfernen die Daten bei ihrer nächsten Synchronisation. Dein Konto bleibt bestehen.
+          Das lässt sich nicht rückgängig machen — exportiere vorher ein Backup.
         </p>
         <div class="zeile">
           <button type="button" class="knopf gefahr" (click)="allesLoeschen()">Ja, endgültig löschen</button>
-          <button type="button" class="knopf" (click)="loeschenSchritt.set(0)">Abbrechen</button>
+          <button type="button" class="knopf" (click)="loeschenSchritt.set(0); loeschenFehler.set(null)">
+            Abbrechen
+          </button>
         </div>
+        @if (loeschenFehler(); as f) {
+          <p class="klein"><strong>{{ f }}</strong></p>
+        }
       </div>
     }
   </section>

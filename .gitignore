@@ -52,3 +52,19 @@ Thumbs.db
 
 # Rückmeldungen nach Prüfungen (Export aus der App, persönliche Daten, nur lokal)
 /rueckmeldungen/
+
+# Server-Konfiguration mit Geheimnissen: nur Vorlagen (*.beispiel.php) einchecken
+/api/config.php
+/api/config.lokal.php
+/api/config.*.php
+!/api/config.beispiel.php
+*.config.php
+/private/
+# Deploy-Paket (www/ + private/ mit config.php), entsteht nur in GitHub Actions
+/hostpoint/
+
+# tokenade — per-project cache / scaffold flag / dedup refs
+.tokenade/
+
+# tokenade — legacy per-project embedding model cache (now global)
+.fastembed_cache/

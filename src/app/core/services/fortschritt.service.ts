@@ -18,7 +18,19 @@ export class FortschrittService {
   private ladenPromise: Promise<void> | null = null;
 
   laden(): Promise<void> {
-    this.ladenPromise ??= (async () => {
+    this.ladenPromise ??= this.ladeIntern();
+    return this.ladenPromise;
+  }
+
+  /** Liest Lernstand und Probeprüfungen erneut (nach einer Synchronisation). */
+  async neuLaden(): Promise<void> {
+    await this.laden().catch(() => undefined);
+    this.ladenPromise = this.ladeIntern();
+    return this.ladenPromise;
+  }
+
+  private ladeIntern(): Promise<void> {
+    return (async () => {
       const [fs, pr] = await Promise.all([
         this.speicher.alleFortschritte().catch(() => [] as FrageFortschritt[]),
         this.speicher.allePruefungen().catch(() => [] as PruefungsErgebnis[]),
@@ -26,7 +38,6 @@ export class FortschrittService {
       this._map.set(new Map(fs.map((f) => [f.schluessel, f])));
       this._pruefungen.set(pr);
     })();
-    return this.ladenPromise;
   }
 
   von(lektion: Lektion, frage: Frage): FrageFortschritt {
@@ -57,15 +68,22 @@ export class FortschrittService {
     this._pruefungen.update((l) => l.filter((p) => p.lektionId !== lektionId));
   }
 
-  /** Übernimmt Fortschritte aus einem Backup (neuere Antwort gewinnt). */
+  /**
+   * Übernimmt Fortschritte aus einem Backup (neuere Antwort gewinnt). Sync-Stempel ist der
+   * Stand des Inhalts, damit ein altes Backup keine neueren Stände auf dem Server
+   * überschreibt. Vorhandene Probeprüfungen bleiben (gleiche id = gleiche Prüfung).
+   */
   async uebernehme(liste: FrageFortschritt[], pruefungen: PruefungsErgebnis[]): Promise<void> {
+    await this.laden();
     const aktuell = this._map();
     const neuer = liste.filter((f) => {
       const alt = aktuell.get(f.schluessel);
       return !alt || (f.zuletzt ?? '') > (alt.zuletzt ?? '');
     });
-    await this.speicher.speichereFortschritte(neuer);
-    for (const p of pruefungen) await this.speicher.speicherePruefung(p);
+    await this.speicher.speichereFortschritte(neuer, { importiert: true });
+    const vorhanden = new Set(this._pruefungen().map((p) => p.id));
+    pruefungen = pruefungen.filter((p) => !vorhanden.has(p.id));
+    for (const p of pruefungen) await this.speicher.speicherePruefung(p, { importiert: true });
     this._map.update((m) => {
       const n = new Map(m);
       for (const f of neuer) n.set(f.schluessel, f);

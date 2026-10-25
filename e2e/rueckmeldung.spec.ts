@@ -439,6 +439,7 @@ test.describe('Datenbank-Migration', () => {
           };
         }),
     );
-    expect(version).toBe(2);
+    // 2: Rückmeldungen · 3: Synchronisation (Ausgang, Syncstand)
+    expect(version).toBe(3);
   });
 });

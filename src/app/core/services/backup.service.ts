@@ -18,6 +18,7 @@ import { FortschrittService } from './fortschritt.service';
 import { LektionService } from './lektion.service';
 import { RueckmeldungService } from './rueckmeldung.service';
 import { SpeicherService } from './speicher.service';
+import { URZEIT } from '../domain/sync';
 
 export const BACKUP_FORMAT = 1;
 
@@ -274,16 +275,21 @@ export class BackupService {
 
     const plan = planeLektionImport(backup.lektionen, this.lektionen.lektionen());
     // LektionService.speichern hält dessen Signale aktuell.
-    for (const l of plan.uebernehmen) await this.lektionen.speichern(l, { zeitstempelBehalten: true });
+    // Sync-Stempel = Stand des Inhalts (import): Ein altes Backup überschreibt so keine
+    // neueren Fassungen anderer Geräte auf dem Server.
+    for (const l of plan.uebernehmen) await this.lektionen.speichern(l, { zeitstempelBehalten: true, import: true });
 
     await this.fortschritt.uebernehme(backup.fortschritt, backup.pruefungen);
 
     await this.rueckmeldungen.laden();
     const rueckmeldungen = planeRueckmeldungImport(backup.rueckmeldungen, this.rueckmeldungen.alle());
-    for (const r of rueckmeldungen) await this.rueckmeldungen.speichern(r, { zeitstempelBehalten: true });
+    for (const r of rueckmeldungen) await this.rueckmeldungen.speichern(r, { zeitstempelBehalten: true, import: true });
 
     const hatEinstellungen = Object.keys(backup.einstellungen).length > 0;
-    if (hatEinstellungen) await this.einstellungen.aendern(backup.einstellungen);
+    // Sync-Stempel URZEIT: Hat ein anderes Gerät schon Einstellungen auf dem Server, gelten
+    // diese (wie beim Umzug, allesInAusgang) — ein altes Backup soll sie nicht überschreiben.
+    // Lokal gilt das Backup, bis der Abgleich den Serverstand bringt.
+    if (hatEinstellungen) await this.einstellungen.aendern(backup.einstellungen, { syncStempel: URZEIT });
 
     return {
       ...plan.ergebnis,

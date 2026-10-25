@@ -1,0 +1,87 @@
+<div class="seite stapel">
+  <section class="karte stapel" aria-labelledby="anmelden-titel">
+    <h1 id="anmelden-titel">Willkommen bei der Lernapp</h1>
+    <p>
+      Stell deinen Lernstoff aus Skripten, Fotos und Lernzielen zu Lektionen zusammen und übe ihn mit passenden
+      Fragen. Melde dich mit deinem Google-Konto an — deine Lektionen und dein Lernstand sind dann auf all deinen
+      Geräten dieselben.
+    </p>
+
+    <div aria-live="polite">
+      @if (fehlerText(); as f) {
+        <p class="hinweis fehler" role="alert">{{ f }}</p>
+      }
+      @if (keinNetz()) {
+        <p class="hinweis warnung">
+          Die Lernapp ist gerade nicht erreichbar. Für die erste Anmeldung auf diesem Gerät brauchst du eine
+          Internetverbindung — danach funktioniert die App auch offline.
+        </p>
+      }
+    </div>
+
+    @if (wechsel(); as w) {
+      @if (zustand() === 'personenwechsel') {
+        <div class="hinweis warnung stapel" role="alert">
+          <p>
+            Angemeldet ist jetzt <strong class="umbruch">{{ w.nachher.email }}</strong>. Auf diesem Gerät liegen aber
+            noch Daten von <strong class="umbruch">{{ w.vorher.email }}</strong>, die nicht auf dem Server sind:
+          </p>
+          <ul class="klein liste">
+            @if (w.ausstehend) {
+              <li>{{ w.ausstehend === 1 ? '1 Änderung' : w.ausstehend + ' Änderungen' }}, die noch nicht hochgeladen ist</li>
+            }
+            @for (t of wechselListe(); track $index) {
+              <li>{{ t }} (bleibt nur auf diesem Gerät)</li>
+            }
+          </ul>
+          <p>Wenn du weitermachst, werden sie von diesem Gerät gelöscht. Exportiere vorher ein Backup, wenn du sie behalten willst.</p>
+          <div class="zeile">
+            <button type="button" class="knopf primaer" (click)="wechselWahl('abbrechen')">
+              Abbrechen und als {{ w.vorher.name || w.vorher.email }} anmelden
+            </button>
+            <button type="button" class="knopf" [disabled]="backupLaeuft()" (click)="backupExportieren()">
+              Backup exportieren
+            </button>
+            <button type="button" class="knopf gefahr" (click)="wechselWahl('verwerfen')">Verwerfen und weiter</button>
+          </div>
+          @if (backupFehler(); as f) {
+            <p class="hinweis fehler">{{ f }}</p>
+          }
+        </div>
+      }
+    }
+
+    @if (zustand() === 'pruefe') {
+      <p class="leise" role="status">Anmeldung wird geprüft …</p>
+    } @else if (zustand() === 'personenwechsel') {
+      <!-- Entscheidung oben -->
+    } @else if (keinNetz()) {
+      <button type="button" class="knopf primaer breit" (click)="nochmalsVersuchen()" [disabled]="prueftErneut()">
+        {{ prueftErneut() ? 'Verbindung wird geprüft …' : 'Nochmals versuchen' }}
+      </button>
+    } @else {
+      <a class="knopf primaer breit" [href]="anmeldeUrl()">{{ knopfText() }}</a>
+    }
+    <p class="leise klein">Nur freigegebene Google-Adressen haben Zugang.</p>
+  </section>
+
+  <section class="karte stapel" aria-labelledby="datenschutz">
+    <h2 id="datenschutz">Was gespeichert wird</h2>
+    <ul class="klein liste">
+      <li>Von deinem Google-Konto nur die E-Mail-Adresse und den Namen — für die Anmeldung.</li>
+      <li>
+        Deine eigenen Lektionen, dein Lernstand, die Probeprüfungen, deine Rückmeldungen zu Prüfungen und deine
+        Einstellungen — auf dem Server der Lernapp in der Schweiz, damit sie auf all deinen Geräten gleich sind.
+      </li>
+      <li>Ein Cookie, das dich angemeldet hält (90 Tage ab der letzten Nutzung, höchstens ein Jahr, nur für die Lernapp).</li>
+      <li>
+        Dein Claude-API-Schlüssel (falls du einen einträgst) bleibt nur auf deinem Gerät und geht nie an den
+        Server der Lernapp.
+      </li>
+    </ul>
+    <p class="leise klein">
+      Beim Abmelden werden deine Daten von diesem Gerät entfernt; auf dem Server bleiben sie, bis du sie in den
+      Einstellungen löschst.
+    </p>
+  </section>
+</div>

@@ -1,13 +1,17 @@
-import { DecimalPipe } from '@angular/common';
-import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
+import { DatePipe, DecimalPipe } from '@angular/common';
+import { ChangeDetectionStrategy, Component, ElementRef, computed, effect, inject, signal, viewChild } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
+import { NurLokal } from '../../core/domain/sync';
+import { ApiFehler, NetzFehler, istAbgemeldet, istAnderesKonto, rufeApi } from '../../core/services/api';
+import { AuthService, KONTO_SCHLUESSEL, SEITE } from '../../core/services/auth.service';
 import { BackupService, ImportErgebnis } from '../../core/services/backup.service';
 import { Einstellungen, EinstellungenService } from '../../core/services/einstellungen.service';
 import { InstallationService } from '../../core/services/installation.service';
 import { KiGeneratorService } from '../../core/services/ki-generator.service';
 import { RueckmeldungService } from '../../core/services/rueckmeldung.service';
 import { SpeicherService } from '../../core/services/speicher.service';
+import { SyncService, bezeichnung } from '../../core/services/sync.service';
 
 interface Speicherstand {
   belegt?: number;
@@ -35,10 +39,10 @@ const LEITNER = [
   { fach: 5, abstand: 'nach 14 Tagen' },
 ];
 
-/** Einstellungen: Lernen, Darstellung, KI-Schlüssel, Backup, Installation, Erklärungen. */
+/** Einstellungen: Konto, Lernen, Darstellung, KI-Schlüssel, Backup, Installation, Erklärungen. */
 @Component({
   selector: 'app-einstellungen',
-  imports: [DecimalPipe, RouterLink],
+  imports: [DatePipe, DecimalPipe, RouterLink],
   templateUrl: './einstellungen.html',
   styleUrl: './einstellungen.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -49,6 +53,9 @@ export class EinstellungenSeite {
   private readonly ki = inject(KiGeneratorService);
   private readonly db = inject(SpeicherService);
   private readonly rueckmeldungService = inject(RueckmeldungService);
+  private readonly auth = inject(AuthService);
+  private readonly seite = inject(SEITE);
+  readonly sync = inject(SyncService);
 
   readonly modelle = MODELLE;
   readonly leitner = LEITNER;
@@ -68,9 +75,50 @@ export class EinstellungenSeite {
   readonly importErgebnis = signal<ImportErgebnis | null>(null);
   readonly backupFehler = signal<string | null>(null);
 
+  // Konto
+  readonly benutzer = this.auth.benutzer;
+  readonly authZustand = this.auth.zustand;
+  readonly abmeldenSchritt = signal<0 | 1>(0);
+  readonly abmeldenLaeuft = signal(false);
+  /** Anzahl Änderungen, die beim Abmelden nicht hochgeladen werden konnten. */
+  readonly abmeldenAusstehend = signal(0);
+  /** Datensätze, die nur auf diesem Gerät liegen (beim Abmelden verloren). */
+  readonly abmeldenNurLokal = signal<NurLokal[]>([]);
+  readonly abmeldenFehler = signal<string | null>(null);
+  /** Warum nicht hochgeladen werden konnte — nach dem Versuch beim Abmelden aktuell. */
+  readonly abmeldenGrund = computed(() => {
+    switch (this.sync.status()) {
+      case 'offline':
+        return ' (du bist offline)';
+      case 'fehler':
+        return ' (der Server hat einen Fehler gemeldet – versuch es später nochmals)';
+      default:
+        return '';
+    }
+  });
+  /** Einmalige Ansage nach «Jetzt synchronisieren» (der Status selbst ist keine Live-Region). */
+  readonly syncAnsage = signal('');
+  private readonly abmeldenAbbrechenKnopf = viewChild<ElementRef<HTMLButtonElement>>('abmeldenAbbrechenKnopf');
+  readonly syncText = computed(() => {
+    const n = this.sync.ausstehend();
+    switch (this.sync.status()) {
+      case 'laeuft':
+        return 'Synchronisiere …';
+      case 'offline':
+        return 'Offline – Änderungen werden später synchronisiert';
+      case 'fehler':
+        return 'Die letzte Synchronisation ist fehlgeschlagen';
+      case 'ausstehend':
+        return n === 1 ? '1 Änderung wartet auf die Synchronisation' : `${n} Änderungen warten auf die Synchronisation`;
+      default:
+        return 'Alles synchronisiert';
+    }
+  });
+
   // Speicher
   readonly speicher = signal<Speicherstand | null>(null);
   readonly loeschenSchritt = signal<0 | 1>(0);
+  readonly loeschenFehler = signal<string | null>(null);
 
   // Installation (Ereignis wird global im InstallationService abgefangen)
   private readonly installation = inject(InstallationService);
@@ -85,6 +133,10 @@ export class EinstellungenSeite {
 
   constructor() {
     void this.ladeSpeicherstand();
+    // Beim Öffnen der Abmelde-Rückfrage steht der Fokus auf dem sicheren «Abbrechen».
+    effect(() => {
+      if (this.abmeldenSchritt() === 1) this.abmeldenAbbrechenKnopf()?.nativeElement.focus();
+    });
   }
 
   /** Springt zu einem Abschnitt (ohne die URL zu ändern). */
@@ -92,6 +144,50 @@ export class EinstellungenSeite {
     const el = document.getElementById(id);
     el?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     el?.focus({ preventScroll: true });
+  }
+
+  // ---------- Konto ----------
+
+  async jetztSynchronisieren(): Promise<void> {
+    this.syncAnsage.set('');
+    await this.sync.synchronisieren();
+    this.syncAnsage.set(this.sync.status() === 'synchron' ? 'Synchronisiert.' : this.syncText());
+  }
+
+  /** Text zu einem Eintrag, der nur auf diesem Gerät liegt. */
+  nurLokalText(e: NurLokal): string {
+    return `${bezeichnung(e)} ${e.grund === 'zu-gross' ? 'ist zu gross für den Server' : 'wurde vom Server nicht angenommen'}`;
+  }
+
+  async abmelden(trotzAusstehend = false, ueberall = false): Promise<void> {
+    this.abmeldenLaeuft.set(true);
+    this.abmeldenFehler.set(null);
+    try {
+      const r = await this.auth.abmelden({ trotzAusstehend, ueberall });
+      this.abmeldenAusstehend.set(r?.ausstehend ?? 0);
+      this.abmeldenNurLokal.set(r?.nurLokal ?? []);
+      if (r?.fehler === 'offline') {
+        this.abmeldenFehler.set('Auf allen Geräten abmelden geht nur mit Internetverbindung.');
+      }
+    } catch (e) {
+      console.warn(e);
+      this.abmeldenFehler.set('Das Abmelden hat nicht geklappt. Versuch es später nochmals.');
+    } finally {
+      this.abmeldenLaeuft.set(false);
+    }
+  }
+
+  /** Öffnet die Rückfrage und zeigt gleich, was nur auf diesem Gerät liegt. */
+  async abmeldenOeffnen(): Promise<void> {
+    this.abmeldenSchritt.set(1);
+    this.abmeldenNurLokal.set((await this.auth.offeneDaten()).nurLokal);
+  }
+
+  abmeldenAbbrechen(): void {
+    this.abmeldenSchritt.set(0);
+    this.abmeldenAusstehend.set(0);
+    this.abmeldenNurLokal.set([]);
+    this.abmeldenFehler.set(null);
   }
 
   // ---------- Lernen & Darstellung ----------
@@ -217,37 +313,52 @@ export class EinstellungenSeite {
     }
   }
 
+  /**
+   * Löscht alle Daten auf dem Server und auf diesem Gerät. Die anderen Geräte
+   * löschen sie bei ihrer nächsten Synchronisation (Grabsteine). Ohne Server
+   * ginge es nicht: Die Daten kämen sonst beim nächsten Abgleich zurück.
+   */
   async allesLoeschen(): Promise<void> {
-    if (!confirm('Wirklich alle Lektionen, deinen Lernstand, deine Rückmeldungen und die Einstellungen auf diesem Gerät löschen?')) {
+    if (
+      !confirm(
+        'Wirklich alle Lektionen, deinen Lernstand, deine Rückmeldungen und die Einstellungen löschen — auf dem Server und auf all deinen Geräten?',
+      )
+    ) {
       this.loeschenSchritt.set(0);
       return;
     }
-    // Zuerst die Inhalte leeren — das klappt auch, wenn die offene Verbindung
-    // das Löschen der ganzen Datenbank blockiert.
+    this.loeschenFehler.set(null);
     try {
-      const [lektionen, fortschritte, pruefungen, rueckmeldungen] = await Promise.all([
-        this.db.alleLektionen(),
-        this.db.alleFortschritte(),
-        this.db.allePruefungen(),
-        this.db.alleRueckmeldungen(),
-      ]);
-      for (const l of lektionen) await this.db.loescheLektion(l.id);
-      for (const r of rueckmeldungen) await this.db.loescheRueckmeldung(r.id);
-      const ids = new Set([...fortschritte, ...pruefungen].map((x) => x.lektionId));
-      for (const id of ids) await this.db.loescheFortschritt(id);
-      await this.db.entferne('einstellungen');
-      await this.einstellungen.setzeApiSchluessel(null);
+      await rufeApi('/api/daten', { methode: 'DELETE' });
     } catch (e) {
-      console.error(e);
+      if (istAnderesKonto(e)) {
+        // In einem anderen Tab ist inzwischen eine andere Person angemeldet: nichts löschen.
+        this.sync.stop('ausstehend');
+        this.seite.neuLaden();
+        return;
+      }
+      if (istAbgemeldet(e)) {
+        this.auth.abgemeldetErkannt(e instanceof ApiFehler && e.code === 'nicht-freigegeben' ? e.code : undefined, {
+          sofort: true,
+        });
+        return;
+      }
+      if (!(e instanceof NetzFehler)) console.warn('Löschen auf dem Server fehlgeschlagen', e);
+      this.loeschenFehler.set(
+        e instanceof NetzFehler
+          ? 'Zum Löschen brauchst du eine Internetverbindung — sonst kämen die Daten vom Server zurück.'
+          : 'Die Daten konnten auf dem Server nicht gelöscht werden. Versuch es später nochmals.',
+      );
+      return;
     }
-    await new Promise<void>((fertig) => {
-      const anfrage = indexedDB.deleteDatabase('lernapp');
-      anfrage.onsuccess = anfrage.onerror = () => fertig();
-      // Eine offene Verbindung blockiert das Löschen; beim Neuladen wird sie geschlossen
-      // und das Löschen läuft weiter.
-      anfrage.onblocked = () => fertig();
-    });
-    location.reload();
+    this.sync.stop('synchron');
+    try {
+      // Konto-Marker bleibt: Es ist weiterhin dieselbe Person angemeldet.
+      await this.db.leereAlles([KONTO_SCHLUESSEL]);
+    } catch (e) {
+      console.warn(e);
+    }
+    this.seite.neuLaden();
   }
 
   // ---------- Installation ----------
