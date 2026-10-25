@@ -4,13 +4,80 @@
       <img src="icons/icon.svg" alt="" width="28" height="28" />
       <span>Lernapp</span>
     </a>
-    <nav class="nav-oben" aria-label="Hauptnavigation">
-      <a routerLink="/" routerLinkActive="aktiv" ariaCurrentWhenActive="page" [routerLinkActiveOptions]="{ exact: true }">Lektionen</a>
-      <a routerLink="/neu" routerLinkActive="aktiv" ariaCurrentWhenActive="page">Neue Lektion</a>
-      <a routerLink="/einstellungen" routerLinkActive="aktiv" ariaCurrentWhenActive="page">Einstellungen</a>
-    </nav>
+    @if (auth.istDrin()) {
+      @if (syncHinweis(); as h) {
+        <a
+          routerLink="/einstellungen"
+          class="sync"
+          [class.verzoegert]="sync.status() === 'ausstehend' && auth.zustand() !== 'abgelaufen'"
+          [class.fehler]="sync.status() === 'fehler' || auth.zustand() === 'abgelaufen'"
+          [attr.aria-label]="h + ' – Details in den Einstellungen'"
+          >{{ h }}</a
+        >
+      }
+      <nav class="nav-oben" aria-label="Hauptnavigation">
+        <a routerLink="/" routerLinkActive="aktiv" ariaCurrentWhenActive="page" [routerLinkActiveOptions]="{ exact: true }">Lektionen</a>
+        <a routerLink="/neu" routerLinkActive="aktiv" ariaCurrentWhenActive="page">Neue Lektion</a>
+        <a routerLink="/einstellungen" routerLinkActive="aktiv" ariaCurrentWhenActive="page">Einstellungen</a>
+      </nav>
+    }
   </div>
 </header>
+
+<!-- Nur Offline und Fehler ansagen; «ausstehend» wechselt nach jeder Antwort kurz und bliebe sonst laut. -->
+<p class="nur-screenreader" aria-live="polite">
+  @if (auth.zustand() === 'offline') {
+    Offline – Änderungen werden später synchronisiert.
+  } @else if (auth.istDrin() && sync.status() === 'fehler') {
+    Die Synchronisation ist fehlgeschlagen. Deine Änderungen bleiben auf diesem Gerät und werden später übertragen.
+  }
+</p>
+
+@if (auth.zustand() === 'abgelaufen') {
+  <div class="update" role="status">
+    <p class="hinweis warnung update-inhalt">
+      <span>Deine Anmeldung ist abgelaufen. Was du machst, bleibt auf diesem Gerät gespeichert.</span>
+      <button type="button" class="knopf klein" (click)="neuAnmelden()">Neu anmelden</button>
+    </p>
+  </div>
+}
+
+@switch (auth.zustand()) {
+  @case ('pruefe') {
+    @if (!aufAnmeldeseite()) {
+      <div class="update">
+        <p class="hinweis" role="status">Anmeldung wird geprüft …</p>
+      </div>
+    }
+  }
+  @case ('laedt') {
+    <div class="update">
+      <p class="hinweis" role="status">
+        Deine Daten werden geladen …{{ sync.geholt() ? ' (' + sync.geholt() + ' Einträge)' : '' }}
+      </p>
+    </div>
+  }
+  @case ('ladefehler') {
+    <div class="update" role="alert">
+      <div class="hinweis fehler stapel">
+        <p>
+          Deine Daten konnten nicht vom Server geladen werden
+          {{ sync.status() === 'offline' ? '(du bist offline)' : '(der Server hat einen Fehler gemeldet)' }}.
+        </p>
+        <p class="klein">
+          Wenn du ohne sie weitermachst, fehlen auf diesem Gerät dein Lernstand und deine Einstellungen von den
+          anderen Geräten — Änderungen, die du jetzt machst, können dort neuere Stände überschreiben.
+        </p>
+        <div class="zeile">
+          <button type="button" class="knopf primaer" (click)="auth.ersterAbgleichWahl('nochmal')">
+            Erneut versuchen
+          </button>
+          <button type="button" class="knopf" (click)="auth.ersterAbgleichWahl('offline')">Trotzdem offline weiter</button>
+        </div>
+      </div>
+    </div>
+  }
+}
 
 @if (update.neueVersion() || update.defekt()) {
   <div class="update" role="status">
@@ -31,6 +98,7 @@
   <router-outlet />
 </main>
 
+@if (auth.istDrin()) {
 <nav class="nav-unten" aria-label="Hauptnavigation">
   <a routerLink="/" routerLinkActive="aktiv" ariaCurrentWhenActive="page" [routerLinkActiveOptions]="{ exact: true }">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v3H4zM4 10.5h16v3H4zM4 16h10v3H4z" /></svg>
@@ -49,3 +117,4 @@
     Einstellungen
   </a>
 </nav>
+}

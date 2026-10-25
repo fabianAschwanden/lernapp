@@ -1,0 +1,340 @@
+name: Test und Deploy auf Hostpoint
+
+# Testet (Lektionen, Unit, PHP, Apache-Regeln, E2E gegen PHP + MariaDB) und deployt die App samt
+# PHP-API per FTPS nach https://lernapp.urinet.ch (Hostpoint, Website «Apache mit PHP»).
+# Einrichtung und Secrets: docs/einrichtung-hostpoint.md. Ohne vollständige Secrets bricht der
+# Deploy ab, bevor etwas hochgeladen wird.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      # MariaDB 10.11 aus scripts/test-db.sh (Container lernapp-test-db, wie lokal)
+      LERNAPP_TEST_DB_DSN: mysql:host=127.0.0.1;port=3307;dbname=lernapp_test;charset=utf8mb4
+      LERNAPP_TEST_DB_USER: lernapp
+      LERNAPP_TEST_DB_PASSWORD: lernapp
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Node einrichten
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: PHP einrichten
+        uses: shivammathur/setup-php@eb7c497e18156a6bbabfef1d3a82760b9eda3962 # 2.40.0
+        with:
+          php-version: '8.3'
+          extensions: pdo_mysql, curl, mbstring
+          coverage: none
+          tools: none
+
+      - name: MariaDB 10.11 starten
+        run: bash scripts/test-db.sh
+
+      - run: npm ci
+      - name: Lektionen prüfen
+        run: node scripts/lektion-bauen.mjs --pruefen
+      - name: Unit-Tests
+        run: npx ng test --watch=false
+      - name: PHP-Syntax
+        run: find api scripts e2e -name '*.php' -print0 | xargs -0 -n1 php -l
+      - name: PHP-Tests
+        run: php api/tests/laufen.php
+      - name: Browser für E2E
+        run: npx playwright install --with-deps chromium
+      - name: E2E-Tests
+        run: npx playwright test
+      - name: Traces der fehlgeschlagenen E2E-Tests
+        if: failure()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: playwright-traces
+          path: test-results/
+          retention-days: 7
+
+  apache:
+    # deploy/htaccess mit echtem Apache 2.4 (mod_php und PHP-FPM) in Docker
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Apache-Regeln prüfen
+        run: bash scripts/apache-test.sh
+
+  deploy:
+    needs: [test, apache]
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    concurrency:
+      group: hostpoint-deploy-lernapp
+      cancel-in-progress: false
+    env:
+      SITE_URL: https://lernapp.urinet.ch
+      FTP_SERVER: sl1819.web.hostpoint.ch
+      FTP_USER: aziwivac
+      TABELLEN_PRAEFIX: ${{ vars.TABELLEN_PRAEFIX || 'lernapp_' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      # Secrets nur in den Schritten, die sie brauchen (nicht in npm ci/Build)
+      - name: Voraussetzungen prüfen
+        env:
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          DB_HOST: ${{ secrets.DB_HOST }}
+          DB_NAME: ${{ secrets.DB_NAME }}
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          ERLAUBTE_EMAILS: ${{ secrets.ERLAUBTE_EMAILS }}
+          DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+        run: |
+          fehlt=""
+          for v in FTP_PASSWORD DB_HOST DB_NAME DB_USER DB_PASSWORD GOOGLE_CLIENT_ID GOOGLE_CLIENT_SECRET ERLAUBTE_EMAILS DEPLOY_TOKEN; do
+            [ -n "${!v}" ] || fehlt="$fehlt $v"
+          done
+          if [ -n "$fehlt" ]; then
+            echo "::error::Secrets fehlen:$fehlt. Ohne sie wird nicht deployt (Anleitung: docs/einrichtung-hostpoint.md, gh secret set …)."
+            exit 1
+          fi
+          fail() { echo "::error::$1"; exit 1; }
+          [ "${#DEPLOY_TOKEN}" -ge 32 ] || fail "DEPLOY_TOKEN ist kürzer als 32 Zeichen (openssl rand -hex 32)."
+          case "$GOOGLE_CLIENT_ID" in *.apps.googleusercontent.com) ;; *) fail "GOOGLE_CLIENT_ID endet nicht auf .apps.googleusercontent.com." ;; esac
+          [[ "$TABELLEN_PRAEFIX" =~ ^[a-z0-9_]{1,31}_$ ]] || fail "TABELLEN_PRAEFIX muss aus a-z, 0-9, _ bestehen und auf _ enden."
+          echo "Alle Secrets vorhanden."
+
+      - name: Node einrichten
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: PHP einrichten
+        uses: shivammathur/setup-php@eb7c497e18156a6bbabfef1d3a82760b9eda3962 # 2.40.0
+        with:
+          php-version: '8.3'
+          coverage: none
+          tools: none
+
+      - run: npm ci
+      - name: Build
+        run: npx ng build
+
+      - name: Paket zusammenstellen
+        run: |
+          rm -rf hostpoint && mkdir -p hostpoint/www/api hostpoint/private
+          cp -R dist/lernapp/browser/. hostpoint/www/
+          cp deploy/htaccess hostpoint/www/.htaccess
+          # API: Einstieg, Bibliothek, Migrationen (per .htaccess gesperrt); ohne Tests und Konfigurationsvorlagen
+          cp api/index.php hostpoint/www/api/
+          # PHP-Limits für die API (post_max_size > 8 MB Sync-Limit); per .htaccess gesperrt
+          cp api/.user.ini hostpoint/www/api/
+          cp -R api/lib api/migrationen hostpoint/www/api/
+          find hostpoint/www/api -name 'config*' -delete
+          find hostpoint/www/api -name '*.php' -print0 | xargs -0 -n1 php -l >/dev/null
+          [ -f hostpoint/www/index.html ] && [ -f hostpoint/www/ngsw.json ] || { echo "::error::Build unvollständig"; exit 1; }
+          du -sh hostpoint/www
+          find hostpoint/www/api -type f | sort
+
+      - name: Konfiguration erzeugen
+        env:
+          DB_HOST: ${{ secrets.DB_HOST }}
+          DB_NAME: ${{ secrets.DB_NAME }}
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          ERLAUBTE_EMAILS: ${{ secrets.ERLAUBTE_EMAILS }}
+          DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+        run: |
+          umask 077
+          # shellcheck disable=SC2016 # PHP-Code in einfachen Anführungszeichen
+          php -r '
+            $emails = [];
+            foreach (preg_split("/[\s,;]+/", (string) getenv("ERLAUBTE_EMAILS"), -1, PREG_SPLIT_NO_EMPTY) as $e) {
+              $e = strtolower(trim($e));
+              if (filter_var($e, FILTER_VALIDATE_EMAIL) === false) {
+                fwrite(STDERR, "::error::ERLAUBTE_EMAILS enthält einen ungültigen Eintrag (Adressen durch Komma, Leerzeichen oder Zeilenumbruch trennen).\n");
+                exit(1);
+              }
+              $emails[$e] = true;
+            }
+            if ($emails === []) { fwrite(STDERR, "::error::ERLAUBTE_EMAILS enthält keine Adresse.\n"); exit(1); }
+            $c = [
+              "db_dsn" => sprintf("mysql:host=%s;dbname=%s;charset=utf8mb4", getenv("DB_HOST"), getenv("DB_NAME")),
+              "db_user" => getenv("DB_USER"),
+              "db_password" => getenv("DB_PASSWORD"),
+              "tabellen_praefix" => getenv("TABELLEN_PRAEFIX"),
+              "google_client_id" => getenv("GOOGLE_CLIENT_ID"),
+              "google_client_secret" => getenv("GOOGLE_CLIENT_SECRET"),
+              "basis_url" => getenv("SITE_URL"),
+              "erlaubte_emails" => array_keys($emails),
+              "deploy_token" => getenv("DEPLOY_TOKEN"),
+              "testmodus" => false,
+            ];
+            file_put_contents("hostpoint/private/config.php",
+              "<?php\n// Erzeugt vom Deploy (GitHub Actions). Nicht von Hand ändern.\nreturn " . var_export($c, true) . ";\n");
+            echo "Konfiguration erzeugt: ", count($emails), " freigegebene Adresse(n), Präfix ", $c["tabellen_praefix"], "\n";
+          '
+          php -l hostpoint/private/config.php
+          # Testmodus darf auf dem Server nie an sein
+          # shellcheck disable=SC2016
+          php -r '$c = require "hostpoint/private/config.php"; exit(($c["testmodus"] ?? null) === false && !isset($c["google_token_url"]) ? 0 : 1);' \
+            || { echo "::error::Konfiguration hat den Testmodus an."; exit 1; }
+
+      - name: Website vor dem Upload prüfen
+        run: |
+          fail() { echo "::error::$1"; exit 1; }
+          # Erreichbar mit gültigem Zertifikat (FreeSSL), sonst schlägt auch die Migration fehl
+          code=$(curl -s -o /dev/null -w '%{http_code}' "$SITE_URL/?cb=$GITHUB_RUN_ID") \
+            || fail "$SITE_URL nicht per HTTPS erreichbar (Website angelegt? FreeSSL aktiv? DNS?)."
+          echo "Startseite vor dem Upload: $code"
+          # Greift die .htaccess? Nur unter Apache. Der Server-Header zeigt es schon vor dem
+          # ersten Upload (eine reine nginx-Website würde Punktdateien und config ausliefern).
+          srv=$(curl -s -D - -o /dev/null "$SITE_URL/?cb=$GITHUB_RUN_ID" | tr -d '\r' | grep -i '^server:' | head -1 || true)
+          echo "Server vor dem Upload: ${srv:-unbekannt}"
+          printf '%s' "$srv" | grep -qi '^server: *apache' \
+            || fail "Website meldet «${srv#*: }» statt Apache: Im Control Panel auf «Apache mit PHP» umstellen (sonst greift die .htaccess nicht)."
+          # Folgedeploys: Die Sync-Datei der FTP-Action muss gesperrt sein (vor dem ersten Deploy gibt es sie nicht).
+          code=$(curl -s -o /dev/null -w '%{http_code}' "$SITE_URL/.ftp-deploy-sync-state.json?cb=$GITHUB_RUN_ID" || true)
+          [ "$code" != 200 ] || fail "Punktdateien sind öffentlich ($code): Die Website wertet die .htaccess nicht aus. Im Control Panel auf «Apache mit PHP» umstellen."
+
+      - name: Konfiguration hochladen (ausserhalb des Webroots)
+        uses: SamKirkland/FTP-Deploy-Action@3a9c65ae0fc12ac924ccef8afc26941cc43aad0b # v4.4.0
+        with:
+          server: ${{ env.FTP_SERVER }}
+          username: ${{ env.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          # Zertifikat prüfen (Standard der Action ist loose = jedes Zertifikat, dann wären
+          # FTP-Passwort und config.php auf dem Netzweg abgreifbar). Läuft das Zertifikat ab
+          # oder wechselt Hostpoint die Kette, bricht der Deploy ab — so gewollt.
+          security: strict
+          local-dir: hostpoint/private/
+          server-dir: private/lernapp/
+
+      - name: Webseite und API hochladen
+        uses: SamKirkland/FTP-Deploy-Action@3a9c65ae0fc12ac924ccef8afc26941cc43aad0b # v4.4.0
+        with:
+          server: ${{ env.FTP_SERVER }}
+          username: ${{ env.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          # Zertifikat prüfen (Standard der Action ist loose = jedes Zertifikat, dann wären
+          # FTP-Passwort und config.php auf dem Netzweg abgreifbar). Läuft das Zertifikat ab
+          # oder wechselt Hostpoint die Kette, bricht der Deploy ab — so gewollt.
+          security: strict
+          local-dir: hostpoint/www/
+          server-dir: www/lernapp.urinet.ch/
+
+      - name: Datenbank migrieren
+        env:
+          DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+        run: |
+          # Token über stdin an curl (nicht in der Prozessliste). «|| true»: Netzwerkfehler ergeben
+          # Code 000 und einen neuen Versuch statt eines Abbruchs ohne Meldung.
+          : > antwort.json
+          for _ in $(seq 1 6); do
+            code=$(printf 'Authorization: Bearer %s\n' "$DEPLOY_TOKEN" | curl -s -o antwort.json -w '%{http_code}' \
+              -X POST -H @- -H 'X-Lernapp: 1' -H 'Content-Type: application/json' --data '{}' \
+              "$SITE_URL/api/admin/migrieren" || true)
+            [ "$code" = 200 ] && break
+            case "$code" in
+              401|403) break ;;
+              503) grep -q '"konfiguration"' antwort.json && break ;;
+            esac
+            echo "Migration: $code, neuer Versuch in 10 s"
+            sleep 10
+          done
+          echo "Migration: $code $(head -c 300 antwort.json)"
+          [ "$code" = 200 ] || { echo "::error::Migration fehlgeschlagen ($code). Bei 401/403: DEPLOY_TOKEN stimmt nicht mit der Konfiguration überein; bei 503 (fehler konfiguration): config.php nicht gefunden, Upload nach private/lernapp/ bzw. Pfad ~/private/lernapp/config.php prüfen; bei 500: Datenbank-Secrets prüfen; bei 000: Server nicht erreichbar (Netzwerk/TLS)."; exit 1; }
+
+      - name: Live-Prüfung
+        run: |
+          fail() { echo "::error::$1"; exit 1; }
+          cb="cb=$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+          bundle=$(grep -o 'main-[A-Za-z0-9_-]*\.js' hostpoint/www/index.html | head -1)
+          # Hostpoint cached rund 60 Sekunden; bis 3 Minuten auf den neuen Stand warten
+          for _ in $(seq 1 18); do
+            code=$(curl -s -o seite.html -w '%{http_code}' "$SITE_URL/?$cb" || true)
+            [ "$code" = 200 ] && grep -q "$bundle" seite.html && break
+            sleep 10
+          done
+          [ "$code" = 200 ] || fail "Startseite liefert $code."
+          grep -q "$bundle" seite.html || fail "Startseite zeigt nach 3 Minuten noch nicht den neuen Build ($bundle)."
+          grep -q '<app-root' seite.html || fail "Startseite ist nicht die App."
+
+          pruefe() { # pruefe <name> <erlaubte codes> <curl-args…>
+            local name="$1" muster="$2" c; shift 2
+            c=$(curl -s -o /dev/null -w '%{http_code}' "$@" || true)
+            [[ "$c" =~ ^($muster)$ ]] || fail "$name: $c statt $muster"
+            echo "ok  $name ($c)"
+          }
+          pruefe "App-Route" 200 "$SITE_URL/lektion/informatik-pruefung-1?$cb"
+          pruefe "Lektionen" 200 "$SITE_URL/lektionen/index.json?$cb"
+          pruefe "Service Worker" 200 "$SITE_URL/ngsw.json?$cb"
+          pruefe "Icons" 200 "$SITE_URL/icons/icon.svg?$cb"
+          pruefe "Fehlende Datei" 404 "$SITE_URL/gibts-nicht-$GITHUB_RUN_ID.js"
+          pruefe "HTTP → HTTPS" "301|302|307|308" "${SITE_URL/https:/http:}/?$cb"
+          curl -s "$SITE_URL/api/status?$cb" | grep -Eq '"ok": ?true' || fail "/api/status meldet nicht ok."
+          echo "ok  /api/status"
+          pruefe "/api/ich ohne Sitzung" 401 "$SITE_URL/api/ich?$cb"
+          pruefe "Testmodus gesperrt" 404 -X POST -H 'X-Lernapp: 1' -H 'Content-Type: application/json' \
+            --data '{"email":"test@example.com","name":"Test"}' "$SITE_URL/api/test/anmelden"
+          pruefe "Migrations-Endpunkt ohne Token" "401|403" -X POST -H 'X-Lernapp: 1' -H 'Content-Type: application/json' \
+            --data '{}' "$SITE_URL/api/admin/migrieren"
+          ! curl -s "$SITE_URL/api/index.php?$cb" | grep -q '<?php' || fail "PHP-Quelltext wird ausgeliefert (PHP nicht aktiv?)."
+          echo "ok  PHP wird ausgeführt"
+          lib=$(cd hostpoint/www && find api/lib -name '*.php' | sort | head -1)
+          mig=$(cd hostpoint/www && find api/migrationen -name '*.sql' | sort | head -1)
+          pruefe "Gesperrt: $lib" "403|404" "$SITE_URL/$lib?$cb"
+          pruefe "Gesperrt: $lib/x (PATH_INFO)" "403|404" "$SITE_URL/$lib/x?$cb"
+          pruefe "Gesperrt: $mig" "403|404" "$SITE_URL/$mig?$cb"
+          pruefe "Gesperrt: .ftp-deploy-sync-state.json" "403|404" "$SITE_URL/.ftp-deploy-sync-state.json?$cb"
+          pruefe "Gesperrt: .htaccess" "403|404" "$SITE_URL/.htaccess?$cb"
+          # Google-Anmeldung startet (Client-ID konfiguriert), ohne der Umleitung zu folgen
+          ziel=$(curl -s -o /dev/null -w '%{http_code} %{redirect_url}' "$SITE_URL/api/auth/google/start?zurueck=/&$cb" || true)
+          [[ "$ziel" =~ ^302\ https://accounts\.google\.com/ ]] || fail "/api/auth/google/start leitet nicht zu Google um (${ziel%% *})."
+          echo "ok  Google-Anmeldung startet"
+
+          # Hostpoint-Seitencache darf /api nicht zwischenspeichern (die App ruft /api ohne cb auf)
+          start1=$(curl -s -D - -o /dev/null "$SITE_URL/api/auth/google/start?zurueck=/" | tr -d '\r' || true)
+          start2=$(curl -s -D - -o /dev/null "$SITE_URL/api/auth/google/start?zurueck=/" | tr -d '\r' || true)
+          s1=$(printf '%s\n' "$start1" | grep -i '^location:' | grep -o '[?&]state=[^&]*' || true)
+          s2=$(printf '%s\n' "$start2" | grep -i '^location:' | grep -o '[?&]state=[^&]*' || true)
+          [ -n "$s1" ] && [ "$s1" != "$s2" ] || fail "/api/auth/google/start ohne cb liefert zweimal denselben state (Cache?)."
+          c1=$(printf '%s\n' "$start1" | grep -i '^set-cookie:' || true)
+          c2=$(printf '%s\n' "$start2" | grep -i '^set-cookie:' || true)
+          [ -n "$c1" ] && [ "$c1" != "$c2" ] || fail "/api/auth/google/start ohne cb: Set-Cookie fehlt oder ist identisch (Cache?)."
+          printf '%s\n' "$c1" | grep -q '__Host-lernapp_login=' || fail "Login-Cookie ohne __Host-Präfix."
+          st=$(curl -s -D - -o /dev/null "$SITE_URL/api/status" | tr -d '\r' || true)
+          printf '%s\n' "$st" | grep -iq '^cache-control: no-store' || fail "/api/status ohne cb: kein Cache-Control: no-store."
+          ! printf '%s\n' "$st" | grep -Eiq '^(age: *[1-9]|x-cache: *hit)' || fail "/api/status ohne cb kommt aus einem Cache."
+          pruefe "/api/ich ohne Sitzung, ohne cb" 401 "$SITE_URL/api/ich"
+          echo "ok  /api wird nicht zwischengespeichert"
+
+          kopf=$(curl -s -D - -o /dev/null "$SITE_URL/?$cb" | tr -d '\r')
+          for h in 'strict-transport-security: max-age=' 'x-content-type-options: nosniff' 'x-frame-options: DENY' \
+                   'referrer-policy: no-referrer' "content-security-policy: frame-ancestors 'none'" 'cache-control: no-cache'; do
+            printf '%s\n' "$kopf" | grep -iq "^$h" || fail "Header fehlt auf /: $h"
+          done
+          curl -s -D - -o /dev/null "$SITE_URL/api/status?$cb" | tr -d '\r' | grep -iq '^cache-control: no-store' \
+            || fail "/api/status ohne Cache-Control: no-store."
+          echo "Live-Prüfung bestanden: $SITE_URL"

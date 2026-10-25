@@ -1,0 +1,91 @@
+# Lernapp: Webroot auf Hostpoint (Apache 2.4 mit PHP-FPM), www/lernapp.urinet.ch/.
+# Der Deploy (.github/workflows/hostpoint-deploy.yml) kopiert diese Datei als .htaccess in den Webroot.
+# Lokal geprüft mit scripts/apache-test.sh (Docker: mod_php und PHP-FPM).
+#
+# Aufbau des Webroots: Angular-Build (index.html, Bundles, lektionen/, bilder/, icons/, ngsw*.js)
+# plus api/ (index.php = einziger PHP-Einstieg, lib/ und migrationen/ nur per include bzw. vom
+# Migrations-Endpunkt gelesen). Die Konfiguration mit den Geheimnissen liegt ausserhalb des
+# Webroots in ~/private/lernapp/config.php.
+#
+# Die Website muss im Control Panel «Apache mit PHP» sein: Eine reine nginx-Website wertet diese
+# Datei nicht aus (keine Sperren, kein /api). Die Live-Prüfung im Deploy meldet das.
+
+Options -Indexes -MultiViews
+DirectoryIndex index.html
+
+# PHP-Version für /api festhalten (Hostpoint-Makro; lokal ohne mod_macro wirkungslos).
+# Gleiche Version wie in der CI. Zusätzlich im Control Panel PHP 8.3 oder neuer wählen.
+<IfModule mod_macro.c>
+  Use php-fpm php83
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType application/manifest+json .webmanifest
+  AddType text/javascript .js .mjs
+  AddType application/json .json
+  AddType image/svg+xml .svg
+  AddCharset utf-8 .html .css .js .mjs .json .svg .webmanifest
+</IfModule>
+
+RewriteEngine On
+
+# HTTPS erzwingen (ausser lokal); ACME-Challenges für FreeSSL bleiben auf HTTP erreichbar.
+# Hostpoint setzt %{HTTPS} in der .htaccess korrekt, eine Schleife entsteht nicht.
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP_HOST} !^(localhost|127\.0\.0\.1)(:[0-9]+)?$ [NC]
+RewriteCond %{REQUEST_URI} !^/\.well-known/
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Interna nie ausliefern: Punktdateien und -ordner (.ftp-deploy-sync-state.json, .htaccess,
+# .user.ini …) und die API-Teile, die nur der Server liest.
+RewriteRule (^|/)\.(?!well-known(/|$)) - [F]
+RewriteRule ^api/(lib|migrationen|tests)(/|$) - [F]
+
+# Authorization-Header (Bearer-Token für /api/admin/migrieren) an PHP-FPM weiterreichen;
+# kommt in PHP als HTTP_AUTHORIZATION oder REDIRECT_HTTP_AUTHORIZATION an.
+RewriteCond %{HTTP:Authorization} .
+RewriteRule ^ - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+# /api und /api/* → api/index.php (der Router liest REQUEST_URI). END: kein zweiter Durchlauf.
+RewriteRule ^api(/|$) api/index.php [END,QSA]
+
+# Vorhandene Dateien und Ordner direkt ausliefern
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# App-Routen (z. B. /lektion/…/lernen) → index.html. Fehlende Dateien mit Endung bleiben echte 404
+# (kein index.html als «Bild» oder «Skript»).
+RewriteCond %{REQUEST_URI} !\.[A-Za-z0-9]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/
+RewriteRule ^ index.html [L]
+
+# Zweite Sperre unabhängig von mod_rewrite: Punktdateien, Quell- und Notizmaterial, Konfiguration
+<FilesMatch "^\.(?!well-known$)|\.(sql|md|sh|log|bak|orig|swp|ini|ya?ml|dist|lock|phar|phtml)$|^config">
+  Require all denied
+</FilesMatch>
+
+# PHP nur über den einen Einstieg api/index.php ausführen. «(/|$)»: auch mit PATH_INFO
+# (/datei.php/x), sonst führt Apache datei.php trotzdem aus.
+<If "%{REQUEST_URI} =~ m#\.php(/|$)#i && %{REQUEST_URI} != '/api/index.php'">
+  Require all denied
+</If>
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "no-referrer"
+  Header always set X-Frame-Options "DENY"
+  Header always set Content-Security-Policy "frame-ancestors 'none'"
+  Header always set Permissions-Policy "camera=(self), microphone=(), geolocation=()"
+  Header always set Strict-Transport-Security "max-age=31536000" "expr=%{HTTPS} == 'on'"
+  # PHP setzt nosniff ebenfalls: nur einmal senden
+  Header unset X-Content-Type-Options
+
+  # Caching wie deploy/nginx.conf: gehashte Bundles ewig, Bilder/Icons 1 Tag, alles andere
+  # (Startseite, Service Worker, Manifest, Lektionen) immer frisch prüfen; die API nie zwischenspeichern.
+  Header set Cache-Control "no-cache"
+  Header set Cache-Control "public, max-age=31536000, immutable" "expr=%{REQUEST_URI} =~ m#^/(main|chunk|polyfills|styles|worker)-[A-Za-z0-9_-]{8}\.(js|css)$#"
+  Header set Cache-Control "public, max-age=86400" "expr=%{REQUEST_URI} =~ m#^/(bilder|icons)/#"
+  Header always set Cache-Control "no-store" "expr=%{REQUEST_URI} =~ m#^/api(/|$)#"
+  Header unset Cache-Control "expr=%{REQUEST_URI} =~ m#^/api(/|$)#"
+</IfModule>

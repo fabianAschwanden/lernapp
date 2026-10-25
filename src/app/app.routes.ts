@@ -1,6 +1,9 @@
-import { Routes } from '@angular/router';
+import { Route, Routes } from '@angular/router';
 
-export const routes: Routes = [
+import { nurAngemeldet } from './core/services/auth.service';
+
+/** Alle Seiten der App; nur mit Anmeldung (oder offline nach früherer Anmeldung) erreichbar. */
+const seiten: Routes = [
   {
     path: '',
     title: 'Lernapp',
@@ -65,5 +68,15 @@ export const routes: Routes = [
     title: 'Einstellungen',
     loadComponent: () => import('./features/einstellungen/einstellungen').then((m) => m.EinstellungenSeite),
   },
+];
+
+export const routes: Routes = [
+  {
+    // Query-Parameter: zurueck=<Pfad nach der Anmeldung>, fehler=nicht-freigegeben|abgebrochen|fehler
+    path: 'anmelden',
+    title: 'Anmelden',
+    loadComponent: () => import('./features/anmelden/anmelden').then((m) => m.AnmeldenSeite),
+  },
+  ...seiten.map((r): Route => ({ ...r, canActivate: [nurAngemeldet] })),
   { path: '**', redirectTo: '' },
 ];

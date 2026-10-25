@@ -1,0 +1,18 @@
+.seite {
+  max-width: 560px;
+}
+h1 {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+.liste {
+  margin: 0;
+  padding-left: 1.2em;
+  display: grid;
+  gap: 6px;
+}
+.umbruch {
+  overflow-wrap: anywhere;
+}

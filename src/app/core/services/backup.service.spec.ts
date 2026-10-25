@@ -1,3 +1,6 @@
+import { TestBed } from '@angular/core/testing';
+
+import { URZEIT } from '../domain/sync';
 import { Lektion } from '../models/lektion.model';
 import { PruefungsRueckmeldung } from '../models/rueckmeldung.model';
 import {
@@ -8,7 +11,9 @@ import {
   planeLektionImport,
   planeRueckmeldungImport,
   pruefeBackup,
+  BackupService,
 } from './backup.service';
+import { SpeicherService } from './speicher.service';
 
 function lektion(id: string, teil: Partial<Lektion> = {}): Lektion {
   return {
@@ -252,5 +257,64 @@ describe('planeLektionImport ergänzt fehlende Felder', () => {
     const { uebernehmen, ergebnis } = planeLektionImport([l], []);
     expect(uebernehmen).toEqual([]);
     expect(ergebnis.ungueltig[0].fehler.join(' ')).toContain('Quelle nicht erlaubt');
+  });
+});
+
+describe('BackupService.importiereDaten: Sync-Stempel aus dem Inhalt', () => {
+  /** Merkt sich die Optionen, mit denen gespeichert wird (der echte Speicher setzt daraus den Sync-Stempel). */
+  class SpeicherAttrappe {
+    aufrufe: { was: string; id: string; opt?: unknown }[] = [];
+    pruefungen = [{ id: 'p-da', lektionId: 'l', am: '2026-01-01T00:00:00.000Z', punkte: 1, maxPunkte: 2, note: 4, dauerSekunden: 0, proLernziel: {} }];
+    async alleLektionen() {
+      return [];
+    }
+    async alleFortschritte() {
+      return [];
+    }
+    async allePruefungen() {
+      return this.pruefungen;
+    }
+    async alleRueckmeldungen() {
+      return [];
+    }
+    async lies() {
+      return undefined;
+    }
+    async speichereLektion(l: Lektion, opt?: unknown) {
+      this.aufrufe.push({ was: 'lektion', id: l.id, opt });
+    }
+    async speichereFortschritte(liste: { schluessel: string }[], opt?: unknown) {
+      for (const f of liste) this.aufrufe.push({ was: 'fortschritt', id: f.schluessel, opt });
+    }
+    async speicherePruefung(p: { id: string }, opt?: unknown) {
+      this.aufrufe.push({ was: 'pruefung', id: p.id, opt });
+    }
+    async schreibe(k: string, _w: unknown, opt?: unknown) {
+      this.aufrufe.push({ was: 'einstellung', id: k, opt });
+    }
+  }
+
+  it('Lektion, Lernstand, Prüfung und Einstellungen gehen mit dem Stand des Backups in den Ausgang', async () => {
+    vi.stubGlobal('fetch', async () => new Response('{"lektionen":[]}'));
+    const speicher = new SpeicherAttrappe();
+    TestBed.configureTestingModule({ providers: [{ provide: SpeicherService, useValue: speicher }] });
+    const backup = TestBed.inject(BackupService);
+    const p = (id: string) => ({ ...speicher.pruefungen[0], id });
+    await backup.importiereDaten({
+      app: 'lernapp',
+      format: 1,
+      lektionen: [lektion('l1', { geaendertAm: '2026-02-01T00:00:00.000Z' })],
+      fortschritt: [{ lektionId: 'l1', frageId: 'f-1', fach: 3, richtig: 2, falsch: 0, verlauf: [], zuletzt: '2026-02-02T00:00:00.000Z' }],
+      pruefungen: [p('p-da'), p('p-neu')],
+      einstellungen: { rundenGroesse: 9 },
+    });
+    expect(speicher.aufrufe).toEqual([
+      { was: 'lektion', id: 'l1', opt: { importiert: true } },
+      { was: 'fortschritt', id: 'l1::f-1', opt: { importiert: true } },
+      // vorhandene Probeprüfung (gleiche id) wird übersprungen
+      { was: 'pruefung', id: 'p-neu', opt: { importiert: true } },
+      { was: 'einstellung', id: 'einstellungen', opt: { syncStempel: URZEIT } },
+    ]);
+    vi.unstubAllGlobals();
   });
 });

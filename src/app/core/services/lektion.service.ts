@@ -51,6 +51,13 @@ export class LektionService {
     return this.ladenPromise;
   }
 
+  /** Liest die eigenen Lektionen erneut (nach einer Synchronisation). */
+  async neuLaden(): Promise<void> {
+    await this.laden();
+    const eigene = await this.speicher.alleLektionen().catch(() => [] as Lektion[]);
+    this.eigene.set(eigene.map((l) => ergaenzeLektion(l)));
+  }
+
   private async ladeIntern(): Promise<void> {
     const [mitgeliefert, eigene] = await Promise.all([
       this.ladeMitgelieferte(),
@@ -96,10 +103,11 @@ export class LektionService {
   /**
    * Speichert eine eigene Lektion. `zeitstempelBehalten` für Backups: sonst gälte
    * eine importierte Lektion fälschlich als neuer als die auf dem anderen Gerät.
+   * `import`: auch der Sync-Zeitstempel ist der Stand des Inhalts, nicht «jetzt».
    */
-  async speichern(l: Lektion, opt: { zeitstempelBehalten?: boolean } = {}): Promise<void> {
+  async speichern(l: Lektion, opt: { zeitstempelBehalten?: boolean; import?: boolean } = {}): Promise<void> {
     const neu: Lektion = opt.zeitstempelBehalten ? { ...l } : { ...l, geaendertAm: new Date().toISOString() };
-    await this.speicher.speichereLektion(neu);
+    await this.speicher.speichereLektion(neu, { importiert: !!opt.import });
     this.eigene.update((liste) => [...liste.filter((x) => x.id !== neu.id), neu]);
   }
 

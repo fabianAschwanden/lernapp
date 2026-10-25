@@ -5,7 +5,8 @@ Lern-App für PC und Handy (installierbare PWA). Lernstoff wird als **Lektion** 
 ## Stack und Architektur
 
 - **Angular 22**, standalone, zoneless, Signals, `inject()`, `ChangeDetectionStrategy.OnPush`, native Control Flow (`@if`, `@for`), strict TS. Formulare mit Signals bzw. `[value]`/`(input)` statt Reactive Forms, wo es einfach bleibt.
-- **Kein Backend.** Bewusste Abweichung vom App-Blueprint (Quarkus + Angular): Die App läuft offline auf dem Gerät, Daten liegen in **IndexedDB** (`idb`). Gerätewechsel über Backup-Export/-Import.
+- **Daten lokal zuerst, Server zum Synchronisieren:** Die App arbeitet auf **IndexedDB** (`idb`) und läuft offline; eine kleine **PHP-API** (`api/`, PHP ≥ 8.3, ohne Composer) mit **MariaDB 10.11** speichert die Daten pro Person und synchronisiert Geräte (Last-write-wins nach `geaendertAm`, Grabsteine für Löschungen). **Login mit Google ist Pflicht**, nur Adressen aus der Freigabeliste (`erlaubte_emails` in der Server-Konfiguration, bei jeder Anfrage geprüft). Offline-Nutzung nach früherer Anmeldung auf dem Gerät bleibt möglich.
+- **Abweichung vom App-Blueprint** (Quarkus + Angular, Fly.io): Betrieb auf Hostpoint-Shared-Hosting (kein Node, kein Java, kein Composer; die MariaDB ist nur aus Hostpoint-Webprozessen erreichbar, nicht aus CI oder SSH). Deshalb PHP statt Quarkus, Angular-Build statisch und API unter `/api` auf derselben Domain (keine CORS), Schema-Änderungen über einen token-geschützten Migrations-Endpunkt statt direktem DB-Zugriff.
 - **KI-Erstellung** von Lektionen direkt aus dem Browser mit dem offiziellen SDK `@anthropic-ai/sdk` (`dangerouslyAllowBrowser: true`) und einem API-Schlüssel, den die Person selbst einträgt (nur lokal gespeichert). Modell-Standard `claude-opus-5-5`. Ohne Schlüssel: «Prompt kopieren» → in Claude ausführen → JSON importieren.
 - **PDF-Verarbeitung** im Browser mit `pdfjs-dist` (Seiten rendern + Text extrahieren).
 
@@ -19,6 +20,14 @@ src/app/
   core/services/     speicher (IndexedDB), lektion, fortschritt, einstellungen, … (Signals)
   shared/            md.pipe.ts, frage/ (FrageKarte: rendert jede Frage und liefert eine Antwort)
   features/<name>/   ein Ordner pro Bildschirm (Komponente + .html + .css)
+api/                 PHP-API: index.php (einziger Einstieg, Router), lib/ (Konfiguration, DB, Sitzung, Google,
+                     Sync, Migrationen), migrationen/NNN-*.sql (Tabellen mit Präfix, Standard lernapp_),
+                     tests/ (eigener Testläufer laufen.php), config.beispiel.php (Vorlage, nie echte Werte)
+deploy/htaccess      Apache-Regeln für den Webroot (HTTPS, /api → api/index.php, SPA-Fallback, Sperren,
+                     Header, Caching); geprüft mit scripts/apache-test.sh
+docs/                einrichtung-hostpoint.md: Website, Google-OAuth-Client, Secrets, Umzug von Fly.io
+scripts/             lektion-bauen.mjs, php-router.php (php -S wie Apache), test-db.sh (MariaDB in Docker),
+                     apache-test.sh (.htaccess in Docker)
 public/lektionen/    mitgelieferte Lektionen als JSON + index.json
 public/bilder/       Abbildungen (SVG) für Fragen und Lernzettel
 content/             Arbeitsdateien für Lektionsinhalte (Teile, die zu einer Lektion zusammengeführt werden)
@@ -44,10 +53,24 @@ rueckmeldungen/      Export der Rückmeldungen nach Prüfungen pro Fach — giti
 - Bilder in Lektionen: nur `bilder/…` (App) oder `data:image/(png|jpeg|webp|gif);base64,…` —
   `validiereLektion()` lehnt fremde Adressen ab (Tracking, offline nicht verfügbar).
 - Sicherheit: `src/index.html` setzt eine Content-Security-Policy (nur eigene Skripte, `connect-src`
-  nur `api.anthropic.com`). Deshalb ist `inlineCritical` im Produktions-Build aus (bräuchte ein
-  Inline-Skript). Neue externe Quellen → CSP anpassen.
+  nur `'self'` und `api.anthropic.com`). Deshalb ist `inlineCritical` im Produktions-Build aus (bräuchte ein
+  Inline-Skript). Neue externe Quellen → CSP anpassen. Weitere Header (HSTS, `frame-ancestors`,
+  nosniff, Referrer-Policy) setzt `deploy/htaccess`.
+- Secrets: Das Repo ist öffentlich. Keine Passwörter, Tokens, Client-Secrets oder echten
+  E-Mail-Adressen in Dateien; eingecheckt werden nur Vorlagen (`api/config.beispiel.php`), Test-
+  adressen nur `@example.com`. Produktionswerte gibt es nur als GitHub-Secrets; der Deploy erzeugt daraus
+  `~/private/lernapp/config.php` ausserhalb des Webroots.
+- Cookies der API mit `__Host-`-Präfix (Sitzung, Login-Zustand; nur im Testmodus über http ohne).
+  Login-Zustand im signierten Cookie, nicht in der DB. Sync-Datensätze tragen das Konto des Tabs
+  (`X-Lernapp-Konto`, 409 `anderes-konto`); gerätebezogene Einstellungen (API-Schlüssel, Konto-Marker,
+  Farbschema) gehen nie zum Server und werden auch nie vom Server gesetzt oder gelöscht.
+- Sync-Zeitstempel lokaler Änderungen liegen immer nach dem bekannten Stand des Datensatzes
+  (`naechsterStempel`), Backup-Importe behalten den Stand des Inhalts. Erste Anmeldung auf einem Gerät:
+  App erst nach dem ersten Abgleich frei. Abgelaufene Sitzung: App bleibt lokal nutzbar (Hinweis im Kopf).
 - Service Worker (`ngsw-config.json`): App-Dateien und Lektionen/Bilder werden vorgeladen, der
   pdf.js-Worker (~1.2 MB) erst bei Gebrauch. `UpdateService` zeigt «Neue Version – neu laden».
+  `navigationUrls` schliesst `/api/**` aus, sonst landet der Google-Login (`/api/auth/google/…`)
+  im index.html des Service Workers.
 
 ## Lektionsformat
 
@@ -80,17 +103,40 @@ kopieren oder herunterladen. Lektionen haben dazu optional `lehrperson` (nur Anz
 - Eine Rückmeldung gehört zur Lektion-id (`rm-<id>`): `LektionService.freieId()` zählt die ids
   verwaister Rückmeldungen als belegt; ein geändertes Fach zieht `RueckmeldungService.fachNachziehen()` nach.
 
+## Betrieb
+
+Hostpoint, Website `lernapp.urinet.ch` («Apache mit PHP»), Webroot `www/lernapp.urinet.ch/`, Konfiguration
+`~/private/lernapp/config.php`. Deploy nur über GitHub Actions (`.github/workflows/hostpoint-deploy.yml`):
+Jobs `test` (Lektionen, Vitest, `php -l`, PHP-Tests, E2E mit PHP + MariaDB), `apache`
+(`scripts/apache-test.sh`) und `deploy` (nur `main`: Secrets prüfen, Build, `config.php` aus Secrets mit
+`testmodus` false, Vorab-Prüfung «Apache», FTPS-Upload mit `security: strict` (Zertifikatsprüfung),
+`POST /api/admin/migrieren` mit `DEPLOY_TOKEN`, Live-Prüfung inkl. «/api nicht gecacht»).
+Migrationen laufen nach dem Code-Upload, deshalb nur abwärtskompatibel (expand/contract, siehe
+`api/README.md` «Migrationen»). Fehlt ein Secret, wird nicht deployt. Einrichtung und Umzug: `docs/einrichtung-hostpoint.md`. Die
+Fly-App `lernapp-fa` (fly.toml, Dockerfile, deploy/nginx.conf) bleibt bis nach dem Umzug stehen, wird
+aber nicht mehr deployt.
+
 ## Befehle
 
 ```bash
-npm start                          # Dev-Server (http://localhost:4200)
+npm start                          # Dev-Server (http://localhost:4200, /api → localhost:8080 per proxy.conf.json)
 npx ng build                       # Produktions-Build inkl. Service Worker → dist/lernapp/browser
 npx ng test --watch=false          # Unit-Tests (Vitest)
-npx playwright test                # E2E gegen den Produktions-Build (npm run e2e)
+npx playwright test                # E2E gegen Build + PHP + MariaDB (npm run e2e)
+scripts/test-db.sh                 # MariaDB 10.11 in Docker (lernapp-test-db, Port 3307)
+php api/tests/laufen.php           # PHP-Tests (gegen die Test-DB)
+scripts/apache-test.sh             # deploy/htaccess mit Apache 2.4 in Docker (mod_php und PHP-FPM)
+LERNAPP_CONFIG=api/config.lokal.php php -S localhost:8080 scripts/php-router.php   # API lokal
 ```
 
-E2E: `playwright.config.ts` baut vorher (`ng build`) und serviert `dist/lernapp/browser` mit
-`scripts/statisch-servieren.mjs` auf Port 4321 (läuft dort schon ein Server, wird er lokal
-wiederverwendet — nach App-Änderungen also neu bauen). Projekte: `handy` (360×740, Touch), `pc`
-(1280×800), beide ohne Service Worker; `offline` erlaubt den Service Worker und prüft das Laden
-ohne Netz. Tests über Rollen und Texte ansprechen, nicht über CSS-Klassen.
+E2E: `playwright.config.ts` baut vorher (`ng build`) und startet `php -S 127.0.0.1:4321
+scripts/php-router.php` mit `LERNAPP_CONFIG=e2e/config.e2e.php` (Testmodus, Tabellenpräfix `e2e_`;
+läuft dort schon ein Server, wird er lokal wiederverwendet — nach App-Änderungen also neu bauen bzw.
+`lsof -ti :4321 | xargs kill`). `e2e/global-setup.ts` startet die MariaDB (`scripts/test-db.sh`, ausser
+`LERNAPP_TEST_DB_DSN` ist gesetzt wie in CI), löscht die Tabellen `e2e_*` und migriert über
+`POST /api/admin/migrieren`. Die Test-Basis in `e2e/hilfen.ts` meldet jeden Test als eigene Person
+über `POST /api/test/anmelden` an (nur unter `php -S` und mit `testmodus` true); die Allowlist ist im
+Test ein Verzeichnis mit einer Datei pro Adresse (`freigeben()`/`freigabeEntziehen()`). Ohne
+Anmeldung: `test.use({ anmelden: false })`; erwartete HTTP-Fehler in `beobachtung.erlaubt`. Projekte:
+`handy` (360×740, Touch), `pc` (1280×800), beide ohne Service Worker; `offline` erlaubt den Service
+Worker und prüft das Laden ohne Netz. Tests über Rollen und Texte ansprechen, nicht über CSS-Klassen.

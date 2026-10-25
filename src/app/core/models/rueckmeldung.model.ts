@@ -7,7 +7,7 @@
  * Fachs werden zu einem Profil zusammengefasst (siehe domain/rueckmeldung.ts),
  * das die Probeprüfung und die Erstellung der nächsten Lektionen beeinflusst.
  *
- * Gespeichert nur lokal (IndexedDB, Store `rueckmeldungen`) und im Backup.
+ * Gespeichert in IndexedDB (Store `rueckmeldungen`), mit dem Server synchronisiert und im Backup.
  */
 
 import { FrageTyp } from './lektion.model';
