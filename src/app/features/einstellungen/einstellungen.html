@@ -5,6 +5,7 @@
     <a href="#lernen" (click)="$event.preventDefault(); springe('lernen')">Lernen</a>
     <a href="#darstellung" (click)="$event.preventDefault(); springe('darstellung')">Darstellung</a>
     <a href="#ki" (click)="$event.preventDefault(); springe('ki')">KI-Erstellung</a>
+    <a href="#rueckmeldungen" (click)="$event.preventDefault(); springe('rueckmeldungen')">Rückmeldungen</a>
     <a href="#daten" (click)="$event.preventDefault(); springe('daten')">Daten & Geräte</a>
     <a href="#installieren" (click)="$event.preventDefault(); springe('installieren')">Installieren</a>
     <a href="#so-gehts" (click)="$event.preventDefault(); springe('so-gehts')">So funktioniert's</a>
@@ -188,12 +189,31 @@
   </section>
 
   <!-- ---------- Daten & Geräte ---------- -->
+  <section class="karte stapel" aria-labelledby="rueckmeldungen">
+    <h2 id="rueckmeldungen" tabindex="-1">Rückmeldungen nach Prüfungen</h2>
+    <p class="klein">
+      Nach einer Prüfung gibst du in der Lektion unter <strong>«Rückmeldung zur Prüfung»</strong> an, wie gut
+      Lernziele und Lernstoff gepasst haben, was drankam und wie schwierig es war. Pro Fach entsteht daraus ein Bild
+      vom Stil deiner Lehrperson: Die Probeprüfung wählt die Fragen danach, und neue Lektionen im selben Fach werden
+      darauf abgestimmt.
+    </p>
+    <p class="zeile">
+      @if (anzahlRueckmeldungen(); as n) {
+        <span class="chip primaer">{{ n === 1 ? '1 Rückmeldung' : n + ' Rückmeldungen' }}</span>
+      } @else {
+        <span class="chip">Noch keine Rückmeldungen</span>
+      }
+    </p>
+    <a class="knopf" routerLink="/rueckmeldungen">Rückmeldungen ansehen</a>
+  </section>
+
   <section class="karte stapel" aria-labelledby="daten">
     <h2 id="daten" tabindex="-1">Daten &amp; Geräte</h2>
     <p class="klein">
       Lektionen, Lernstand und Einstellungen liegen nur auf diesem Gerät. Nur wenn du eine Lektion mit
-      Claude erstellst, gehen das gewählte Material und die Lernziele an Anthropic. Für einen Gerätewechsel exportierst du ein Backup (eigene Lektionen,
-      Lernstand, Probeprüfungen, Einstellungen — ohne API-Schlüssel) und importierst es auf dem anderen Gerät.
+      Claude erstellst, gehen das gewählte Material, die Lernziele und, falls angewählt, die
+      Rückmeldungen früherer Prüfungen im selben Fach (ohne Noten und Namen) an Anthropic. Für einen Gerätewechsel exportierst du ein Backup (eigene Lektionen,
+      Lernstand, Probeprüfungen, Rückmeldungen, Einstellungen — ohne API-Schlüssel) und importierst es auf dem anderen Gerät.
     </p>
     <div class="zeile">
       <button type="button" class="knopf" [disabled]="backupLaeuft()" (click)="exportieren()">
@@ -234,6 +254,7 @@
               <li>Keine eigenen Lektionen im Backup.</li>
             }
             <li>Lernstand: {{ r.fortschritte }} Einträge, Probeprüfungen: {{ r.pruefungen }}</li>
+            <li>Rückmeldungen zu Prüfungen: {{ r.rueckmeldungen }}</li>
             <li>Einstellungen: {{ r.einstellungen ? 'übernommen' : 'keine im Backup' }}</li>
           </ul>
         </div>
@@ -304,7 +325,7 @@
     } @else {
       <div class="hinweis fehler stapel" role="alert">
         <p>
-          Das löscht <strong>alle eigenen Lektionen, deinen Lernstand, die Probeprüfungen, die Einstellungen und den
+          Das löscht <strong>alle eigenen Lektionen, deinen Lernstand, die Probeprüfungen, die Rückmeldungen zu Prüfungen, die Einstellungen und den
           API-Schlüssel</strong> auf diesem Gerät. Das lässt sich nicht rückgängig machen — exportiere vorher ein
           Backup.
         </p>

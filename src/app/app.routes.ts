@@ -42,6 +42,18 @@ export const routes: Routes = [
     canDeactivate: [(c: { kannVerlassen?: () => boolean }) => c.kannVerlassen?.() ?? true],
   },
   {
+    path: 'lektion/:id/rueckmeldung',
+    title: 'Rückmeldung zur Prüfung',
+    loadComponent: () => import('./features/rueckmeldung/rueckmeldung').then((m) => m.RueckmeldungSeite),
+    canDeactivate: [(c: { kannVerlassen?: () => boolean }) => c.kannVerlassen?.() ?? true],
+  },
+  {
+    // Query-Parameter: fach=<Profilschlüssel> springt zum Fach
+    path: 'rueckmeldungen',
+    title: 'Rückmeldungen',
+    loadComponent: () => import('./features/rueckmeldungen/rueckmeldungen').then((m) => m.RueckmeldungenSeite),
+  },
+  {
     path: 'neu',
     title: 'Neue Lektion',
     loadComponent: () => import('./features/material/material-assistent').then((m) => m.MaterialAssistent),

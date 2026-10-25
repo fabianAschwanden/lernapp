@@ -1,0 +1,172 @@
+<div class="seite stapel">
+  <header class="stapel kopf">
+    <a routerLink="/einstellungen" class="knopf text zurueck"
+      ><span aria-hidden="true">←</span> Einstellungen</a
+    >
+    <h1>Rückmeldungen</h1>
+    <p class="leise">
+      Nach jeder Prüfung hältst du fest, wie gut Lernziele und Lernstoff gepasst haben, was drankam
+      und wie schwierig es im Vergleich zur App war. Pro Fach entsteht so ein Bild vom Prüfungsstil
+      deiner Lehrperson.
+    </p>
+  </header>
+
+  @if (!ansicht().length) {
+    <section class="karte stapel" aria-labelledby="leer-titel">
+      <h2 id="leer-titel">Noch keine Rückmeldungen</h2>
+      <p class="klein">
+        Öffne nach einer Prüfung die Lektion und wähle <strong>«Rückmeldung zur Prüfung»</strong>.
+        Daraus lernt die App den Stil deiner Lehrperson:
+      </p>
+      <ul class="liste-punkte klein">
+        <li>
+          Die <strong>Probeprüfung</strong> wählt Fragetypen und Schwierigkeit wie an der echten
+          Prüfung.
+        </li>
+        <li>
+          Bei der <strong>nächsten Lektion</strong> im selben Fach fliessen die Rückmeldungen in die
+          Fragen ein — mit KI direkt in der App oder als Text zum Kopieren.
+        </li>
+        <li>
+          Gespeichert wird alles nur auf diesem Gerät (und in deinem Backup). Nur beim Erstellen
+          einer Lektion mit Claude gehen die Rückmeldungen ohne Noten und ohne Namen der
+          Lehrperson an Anthropic.
+        </li>
+      </ul>
+      <a class="knopf primaer" routerLink="/">Zu den Lektionen</a>
+    </section>
+  }
+
+  @for (a of ansicht(); track a.p.schluessel) {
+    @let p = a.p;
+    <section class="karte stapel" [attr.aria-labelledby]="anker(p.schluessel)">
+      <div class="zeile zwischen">
+        <h2 [id]="anker(p.schluessel)" tabindex="-1">{{ p.fach }}</h2>
+        <span class="chip primaer">{{
+          p.anzahl === 1 ? '1 Prüfung' : p.anzahl + ' Prüfungen'
+        }}</span>
+      </div>
+      @if (p.lehrpersonen.length) {
+        <p class="klein leise">Lehrperson: {{ p.lehrpersonen.join(', ') }}</p>
+      }
+
+      <app-profil-kennzahlen [profil]="p" [mitNote]="true" />
+      @if (p.noteMittel !== null) {
+        <p class="sehr-klein leise">
+          Der Notenschnitt bleibt auf diesem Gerät; im kopierten Text steht er nicht.
+        </p>
+      }
+
+      @if (a.beispielfragen.length) {
+        <details class="aufklappen">
+          <summary>Beispielfragen ({{ a.beispielfragen.length }})</summary>
+          <ul class="liste-punkte klein">
+            @for (b of a.beispielfragen; track $index) {
+              <li class="vorformatiert">{{ b }}</li>
+            }
+          </ul>
+        </details>
+      }
+      @if (a.ausserhalb.length) {
+        <details class="aufklappen">
+          <summary>Kam dran, war aber nicht in der App ({{ a.ausserhalb.length }})</summary>
+          <ul class="liste-punkte klein">
+            @for (t of a.ausserhalb; track $index) {
+              <li class="vorformatiert">{{ t }}</li>
+            }
+          </ul>
+        </details>
+      }
+      @if (a.tipps.length) {
+        <details class="aufklappen">
+          <summary>Tipps und Stil der Lehrperson ({{ a.tipps.length }})</summary>
+          <ul class="liste-punkte klein">
+            @for (t of a.tipps; track $index) {
+              <li class="vorformatiert">{{ t }}</li>
+            }
+          </ul>
+        </details>
+      }
+      @if (a.folgerungen) {
+        <details class="aufklappen">
+          <summary>Folgerungen für die nächste Lektion</summary>
+          <div class="md klein" [innerHTML]="a.folgerungen | md"></div>
+        </details>
+      }
+
+      <h3 class="ueberschrift-klein">Prüfungen</h3>
+      <ul class="liste">
+        @for (r of p.rueckmeldungen; track r.id) {
+          <li class="zeile zwischen eintrag">
+            <span class="eintrag-text">
+              <strong>{{ r.lektionTitel }}</strong>
+              <span class="klein leise">
+                @if (r.pruefungsdatum) {
+                  {{ datum(r.pruefungsdatum) }} ·
+                }
+                {{
+                  r.schwierigkeit !== undefined
+                    ? schwierigkeitLabel[r.schwierigkeit]
+                    : 'Schwierigkeit ohne Angabe'
+                }}
+              </span>
+            </span>
+            @if (lektionVorhanden(r)) {
+              <a
+                class="knopf klein"
+                [routerLink]="['/lektion', r.lektionId, 'rueckmeldung']"
+                [attr.aria-label]="'Rückmeldung zu ' + r.lektionTitel + ' bearbeiten'"
+                >Bearbeiten</a
+              >
+            } @else {
+              <button
+                type="button"
+                class="knopf klein gefahr"
+                [attr.aria-label]="
+                  'Rückmeldung zu ' + r.lektionTitel + ' löschen (Lektion gibt es nicht mehr)'
+                "
+                (click)="loeschen(r)"
+              >
+                Löschen
+              </button>
+            }
+          </li>
+        }
+      </ul>
+
+      <div class="zeile">
+        <button type="button" class="knopf primaer" (click)="kopieren(p)">
+          Für die Lektionserstellung kopieren
+        </button>
+        <button type="button" class="knopf" (click)="herunterladen(p)">
+          Als Datei herunterladen
+        </button>
+        <a class="knopf" routerLink="/neu" [queryParams]="{ fach: p.fach }"
+          >Nächste Lektion in {{ p.fach }} erstellen</a
+        >
+      </div>
+      <div aria-live="polite">
+        @if (meldung(); as m) {
+          @if (m.schluessel === p.schluessel) {
+            <p [class]="'hinweis klein ' + m.art">{{ m.text }}</p>
+          }
+        }
+      </div>
+      @if (ersatzText(); as e) {
+        @if (e.schluessel === p.schluessel) {
+          <div class="feld">
+            <label [for]="'text-' + anker(p.schluessel)">Text für die Lektionserstellung</label>
+            <textarea
+              [id]="'text-' + anker(p.schluessel)"
+              class="eingabe"
+              readonly
+              rows="10"
+              [value]="e.text"
+              (focus)="markiere($event)"
+            ></textarea>
+          </div>
+        }
+      }
+    </section>
+  }
+</div>

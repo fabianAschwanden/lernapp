@@ -25,6 +25,11 @@ export interface Lektion {
   titel: string;
   beschreibung: string;
   klasse?: string;
+  /**
+   * Name oder Kürzel der Lehrperson (optional). Mitgelieferte Lektionen haben
+   * keine (öffentliches Repo); das Profil der Rückmeldungen hängt am Fach.
+   */
+  lehrperson?: string;
   /** ISO-Datum (JJJJ-MM-TT) der Prüfung, falls bekannt. */
   pruefungsdatum?: string;
   /** Hinweise zur Prüfung, z. B. erlaubte Hilfsmittel. */

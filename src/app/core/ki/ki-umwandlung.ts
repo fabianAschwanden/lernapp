@@ -30,6 +30,7 @@ export interface UmwandlungsOptionen {
   fach?: string;
   titel?: string;
   klasse?: string;
+  lehrperson?: string;
   pruefungsdatum?: string;
   /** Hinweise der Person; werden vor die Hinweise der KI gestellt. */
   hinweise?: string[];
@@ -142,6 +143,8 @@ export function wandleKiAntwort(daten: unknown, opt: UmwandlungsOptionen): Umwan
   };
   const klasse = opt.klasse?.trim() || str(daten['klasse']).trim();
   if (klasse) lektion.klasse = klasse;
+  const lehrperson = opt.lehrperson?.trim() || str(daten['lehrperson']).trim();
+  if (lehrperson) lektion.lehrperson = lehrperson;
   const datum = opt.pruefungsdatum?.trim() || str(daten['pruefungsdatum']).trim();
   if (/^\d{4}-\d{2}-\d{2}$/.test(datum)) lektion.pruefungsdatum = datum;
   if (alleHinweise.length) lektion.hinweise = alleHinweise;

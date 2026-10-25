@@ -66,8 +66,13 @@
   border-color: var(--primaer);
   background: var(--primaer-weich);
 }
-.kurzfassung.breit {
+.kurzfassung.breit,
+.hervor {
   margin-bottom: 10px;
+}
+.hervor {
+  border: 2px solid var(--akzent);
+  background: var(--akzent-weich);
 }
 .knopf.primaer .aktion-unter {
   opacity: 0.9;

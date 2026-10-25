@@ -3,6 +3,7 @@ import { DBSchema, IDBPDatabase, openDB } from 'idb';
 
 import { FrageFortschritt, PruefungsErgebnis } from '../models/fortschritt.model';
 import { Lektion } from '../models/lektion.model';
+import { PruefungsRueckmeldung } from '../models/rueckmeldung.model';
 
 interface LernappDb extends DBSchema {
   /** Eigene, importierte und bearbeitete Lektionen. */
@@ -11,10 +12,13 @@ interface LernappDb extends DBSchema {
   pruefungen: { key: string; value: PruefungsErgebnis; indexes: { lektionId: string } };
   /** Schlüssel-Wert-Paare (Einstellungen). */
   einstellungen: { key: string; value: unknown };
+  /** Rückmeldungen nach der echten Prüfung (seit DB-Version 2). */
+  rueckmeldungen: { key: string; value: PruefungsRueckmeldung };
 }
 
 const DB_NAME = 'lernapp';
-const DB_VERSION = 1;
+/** 1: Lektionen, Lernstand, Probeprüfungen, Einstellungen · 2: Rückmeldungen. */
+const DB_VERSION = 2;
 
 /**
  * Dünne Hülle um IndexedDB. Alle Daten bleiben auf dem Gerät; es gibt keinen
@@ -26,11 +30,15 @@ export class SpeicherService {
 
   private db(): Promise<IDBPDatabase<LernappDb>> {
     this.dbPromise ??= openDB<LernappDb>(DB_NAME, DB_VERSION, {
-      upgrade(db) {
-        db.createObjectStore('lektionen', { keyPath: 'id' });
-        db.createObjectStore('fortschritt', { keyPath: 'schluessel' }).createIndex('lektionId', 'lektionId');
-        db.createObjectStore('pruefungen', { keyPath: 'id' }).createIndex('lektionId', 'lektionId');
-        db.createObjectStore('einstellungen');
+      // Schrittweise ab der vorhandenen Version — bestehende Stores und Daten bleiben.
+      upgrade(db, alteVersion) {
+        if (alteVersion < 1) {
+          db.createObjectStore('lektionen', { keyPath: 'id' });
+          db.createObjectStore('fortschritt', { keyPath: 'schluessel' }).createIndex('lektionId', 'lektionId');
+          db.createObjectStore('pruefungen', { keyPath: 'id' }).createIndex('lektionId', 'lektionId');
+          db.createObjectStore('einstellungen');
+        }
+        if (alteVersion < 2) db.createObjectStore('rueckmeldungen', { keyPath: 'id' });
       },
       // Eine andere Anfrage (z. B. «Alle Daten löschen» oder ein neuer Tab mit
       // neuerer Version) will die DB umbauen: Verbindung freigeben.
@@ -83,6 +91,18 @@ export class SpeicherService {
 
   async speicherePruefung(p: PruefungsErgebnis): Promise<void> {
     await (await this.db()).put('pruefungen', p);
+  }
+
+  async alleRueckmeldungen(): Promise<PruefungsRueckmeldung[]> {
+    return (await this.db()).getAll('rueckmeldungen');
+  }
+
+  async speichereRueckmeldung(r: PruefungsRueckmeldung): Promise<void> {
+    await (await this.db()).put('rueckmeldungen', r);
+  }
+
+  async loescheRueckmeldung(id: string): Promise<void> {
+    await (await this.db()).delete('rueckmeldungen', id);
   }
 
   async lies<T>(schluessel: string): Promise<T | undefined> {

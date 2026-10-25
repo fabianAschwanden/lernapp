@@ -4,13 +4,17 @@ import {
   OnDestroy,
   WritableSignal,
   computed,
+  effect,
   inject,
+  input,
   signal,
+  untracked,
 } from '@angular/core';
 import { DecimalPipe } from '@angular/common';
 import { Router, RouterLink } from '@angular/router';
 
 import { ergaenzeLektion, validiereLektion } from '../../core/domain/lektion-validierung';
+import { profilAlsText } from '../../core/domain/rueckmeldung';
 import { KiAuftrag, kopierPrompt } from '../../core/ki/ki-prompt';
 import { FRAGE_TYPEN } from '../../core/ki/ki-schema';
 import { UmwandlungsErgebnis, parseKiJson, wandleKiAntwort } from '../../core/ki/ki-umwandlung';
@@ -29,6 +33,7 @@ import {
   quellenAus,
 } from '../../core/services/ki-generator.service';
 import { LektionService } from '../../core/services/lektion.service';
+import { RueckmeldungService } from '../../core/services/rueckmeldung.service';
 import {
   Material,
   MaterialService,
@@ -91,6 +96,7 @@ export class MaterialAssistent implements OnDestroy {
   private readonly lektionService = inject(LektionService);
   private readonly materialService = inject(MaterialService);
   private readonly einstellungen = inject(EinstellungenService);
+  private readonly rueckmeldungen = inject(RueckmeldungService);
   protected readonly ki = inject(KiGeneratorService);
 
   protected readonly schritte = SCHRITTE;
@@ -103,13 +109,25 @@ export class MaterialAssistent implements OnDestroy {
   protected readonly faecher = computed(() => this.lektionService.faecher().map((f) => f.fach));
   protected readonly hatApiSchluessel = this.einstellungen.hatApiSchluessel;
 
+  /** Query-Parameter `?fach=` (z. B. «Nächste Lektion in Biologie erstellen»). */
+  readonly fachVorgabe = input('', { alias: 'fach' });
+
   // --- Grunddaten ---
   protected readonly fach = signal('');
   protected readonly titel = signal('');
   protected readonly klasse = signal('');
+  protected readonly lehrperson = signal('');
   protected readonly pruefungsdatum = signal('');
   protected readonly hinweiseText = signal('');
   protected readonly taschenrechner = signal(false);
+
+  /** Rückmeldungen früherer Prüfungen im eingegebenen Fach (null = keine). */
+  protected readonly profil = computed(() => {
+    const fach = this.fach().trim();
+    return fach ? this.rueckmeldungen.profilFuerFach(fach) : null;
+  });
+  /** Stil der Lehrperson in den Auftrag an Claude übernehmen? */
+  protected readonly stilVerwenden = signal(true);
 
   // --- Material ---
   protected readonly eintraege = signal<Eintrag[]>([]);
@@ -197,6 +215,7 @@ export class MaterialAssistent implements OnDestroy {
     fach: this.fach().trim(),
     titel: this.titel().trim(),
     klasse: this.klasse().trim() || undefined,
+    lehrperson: this.lehrperson().trim() || undefined,
     pruefungsdatum: this.pruefungsdatum() || undefined,
     hinweise: this.hinweise(),
     taschenrechner: this.taschenrechner(),
@@ -212,7 +231,19 @@ export class MaterialAssistent implements OnDestroy {
           ? `Foto «${m.name}»`
           : `Text «${m.titel || 'eingefügter Text'}»`,
     ),
+    stilLehrperson: this.stilProfilText(),
   }));
+
+  private stilProfilText(): string | undefined {
+    const p = this.profil();
+    return p && this.stilVerwenden() ? profilAlsText(p) : undefined;
+  }
+
+  /** Nach der Eingabe des Fachs: Lehrperson aus früheren Rückmeldungen vorschlagen. */
+  protected fachUebernommen(): void {
+    const lp = this.profil()?.lehrpersonen[0];
+    if (lp && !this.lehrperson().trim()) this.lehrperson.set(lp);
+  }
 
   /** Freie Hinweise + Taschenrechner-Angabe. */
   private hinweise(): string[] {
@@ -267,6 +298,18 @@ export class MaterialAssistent implements OnDestroy {
         ? 'Claude erstellt gerade deine Lektion. Wenn du die Seite verlässt, wird die Erstellung abgebrochen — die bisherigen Kosten fallen trotzdem an. Trotzdem verlassen?'
         : 'Dein Material und die noch nicht gespeicherte Lektion gehen verloren, wenn du die Seite verlässt. Trotzdem verlassen?',
     );
+  }
+
+  constructor() {
+    // Fach aus dem Link übernehmen (samt Lehrperson), ohne eine Eingabe zu überschreiben
+    effect(() => {
+      const vorgabe = this.fachVorgabe()?.trim();
+      untracked(() => {
+        if (!vorgabe || this.fach().trim()) return;
+        this.fach.set(vorgabe);
+        this.fachUebernommen();
+      });
+    });
   }
 
   ngOnDestroy(): void {
@@ -496,6 +539,7 @@ export class MaterialAssistent implements OnDestroy {
       fach: a.fach,
       titel: a.titel,
       klasse: a.klasse,
+      lehrperson: a.lehrperson,
       pruefungsdatum: a.pruefungsdatum,
       hinweise: a.hinweise,
       quellen: quellenAus(this.material()),

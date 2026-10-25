@@ -1,0 +1,157 @@
+.kopf {
+  gap: 4px;
+}
+h1 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+h2 {
+  margin: 0;
+}
+h2:focus {
+  outline: none;
+}
+h3 {
+  margin: 8px 0 0;
+}
+.zurueck {
+  align-self: flex-start;
+  margin-left: -8px;
+  max-width: 100%;
+}
+.ellipse {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.zwei {
+  display: grid;
+  gap: 12px;
+}
+@media (min-width: 520px) {
+  .zwei {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.fehlertext {
+  color: var(--schlecht-text);
+}
+.gruppe {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.gruppe legend {
+  padding: 0;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.lernziel {
+  padding-top: 10px;
+  border-top: 1px solid var(--rand);
+}
+.lernziel legend {
+  float: left; /* aus dem Fieldset-Rahmen nehmen, sonst unterbricht/verdeckt die Legende die Trennlinie */
+  width: 100%;
+  font-weight: 500;
+}
+/* Gleich breite Spalten in fester Reihenfolge: 5er-Skalen untereinander, 4er als 2+2 */
+.segmente.skala,
+.segmente.vier,
+.lernziel .segmente {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.segmente.vier {
+  grid-template-columns: 1fr 1fr;
+}
+.lernziel .segmente {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.lernziel .segment {
+  padding: 6px 4px;
+}
+@media (min-width: 520px) {
+  .segmente.skala {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .segmente.vier {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.segment.ohne {
+  flex: none;
+  align-self: flex-start;
+  min-width: 9rem;
+}
+.thema {
+  color: var(--primaer);
+}
+.segmente {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.segment {
+  position: relative;
+  flex: 1 1 4.5rem;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 6px 8px;
+  border: 1px solid var(--rand);
+  border-radius: var(--radius-klein);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.2;
+  color: var(--text-2);
+  background: var(--flaeche);
+}
+/* Unsichtbares Optionsfeld über der ganzen Fläche: Tippen und Tastatur wie gewohnt */
+.segment input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.segment.aktiv {
+  background: var(--primaer-weich);
+  border-color: var(--primaer);
+  color: var(--primaer);
+}
+.segment:focus-within {
+  outline: 3px solid var(--fokus);
+  outline-offset: 1px;
+}
+.option input {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  accent-color: var(--primaer);
+  flex: none;
+}
+textarea.kurz {
+  min-height: 72px;
+}
+.entfernen {
+  align-self: flex-end;
+}
+.tipps {
+  margin: 0;
+  padding-left: 1.2em;
+}
+.tipps li + li {
+  margin-top: 4px;
+}

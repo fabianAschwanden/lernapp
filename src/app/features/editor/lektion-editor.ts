@@ -21,6 +21,7 @@ import {
   ZuordnenFrage,
 } from '../../core/models/lektion.model';
 import { LektionService } from '../../core/services/lektion.service';
+import { RueckmeldungService } from '../../core/services/rueckmeldung.service';
 import { verkleinereBild } from '../../core/util/datei';
 import { MdPipe } from '../../shared/md.pipe';
 import { FrageKarte } from '../../shared/frage/frage-karte';
@@ -54,6 +55,7 @@ const TYPEN = Object.keys(FRAGE_TYP_LABEL) as FrageTyp[];
 })
 export class LektionEditor {
   private readonly lektionen = inject(LektionService);
+  private readonly rueckmeldungen = inject(RueckmeldungService);
   private readonly host = inject<ElementRef<HTMLElement>>(ElementRef);
 
   readonly id = input.required<string>();
@@ -207,6 +209,9 @@ export class LektionEditor {
       const sauber = bereinige(l);
       if (JSON.stringify(sauber.fragen) !== this.fragenOriginal) sauber.version = (sauber.version || 0) + 1;
       await this.lektionen.speichern(structuredClone(sauber));
+      // Geändertes Fach in die Rückmeldung zur Prüfung übernehmen (Profil pro Fach)
+      if (!this.rueckmeldungen.geladen()) await this.rueckmeldungen.laden();
+      await this.rueckmeldungen.fachNachziehen(sauber.id, sauber.fach);
       l.version = sauber.version;
       this.fragenOriginal = JSON.stringify(sauber.fragen);
       this.entwurf.set({ ...l });

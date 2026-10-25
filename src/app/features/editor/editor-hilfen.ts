@@ -75,6 +75,7 @@ const ohneLeere = (l: string[] | undefined): string[] => (l ?? []).filter((s) =>
 export function bereinige(l: Lektion): Lektion {
   const k = structuredClone(l);
   k.klasse = leerZuUndefined(k.klasse);
+  k.lehrperson = leerZuUndefined(k.lehrperson);
   k.pruefungsdatum = leerZuUndefined(k.pruefungsdatum);
   k.kurzfassung = leerZuUndefined(k.kurzfassung);
   const hinweise = ohneLeere(k.hinweise);

@@ -10,8 +10,10 @@ import {
   lektionAnteil,
   lernzielStaende,
 } from '../../core/domain/planer';
+import { SCHWIERIGKEIT_LABEL } from '../../core/domain/rueckmeldung';
 import { FortschrittService } from '../../core/services/fortschritt.service';
 import { LektionService } from '../../core/services/lektion.service';
+import { RueckmeldungService } from '../../core/services/rueckmeldung.service';
 import { ladeHerunter } from '../../core/util/datei';
 import { HERKUNFT_LABEL, STUFE_KLASSE, countdownText, datumLang, tageBis } from './lektion-anzeige';
 
@@ -26,6 +28,7 @@ import { HERKUNFT_LABEL, STUFE_KLASSE, countdownText, datumLang, tageBis } from 
 export class LektionUebersicht {
   private readonly lektionService = inject(LektionService);
   private readonly fortschritt = inject(FortschrittService);
+  private readonly rueckmeldungen = inject(RueckmeldungService);
   private readonly router = inject(Router);
   private readonly jetzt = new Date();
 
@@ -88,6 +91,38 @@ export class LektionUebersicht {
     const datum = this.lektion()?.pruefungsdatum;
     if (!datum) return null;
     return { datum: datumLang(datum), countdown: countdownText(tageBis(datum, this.jetzt)) };
+  });
+
+  /** Prüfungsdatum heute oder vorbei → Rückmeldung hervorheben. */
+  readonly pruefungVorbei = computed(() => {
+    const t = tageBis(this.lektion()?.pruefungsdatum, this.jetzt);
+    return t !== null && t <= 0;
+  });
+
+  readonly rueckmeldung = computed(() => this.rueckmeldungen.fuerLektion(this.id()));
+
+  /**
+   * Kurzinfo zur Rückmeldung, z. B. «Schwierigkeit: Etwas schwerer · 4 von 6 beurteilten
+   * Lernzielen dran (3 offen)». Unbeurteilte («weiss nicht») werden genannt, damit
+   * «4 von 4» nicht nach dem ganzen Stoff aussieht.
+   */
+  readonly rueckmeldungInfo = computed(() => {
+    const r = this.rueckmeldung();
+    if (!r) return '';
+    const teile: string[] = [];
+    if (r.schwierigkeit !== undefined)
+      teile.push(`Schwierigkeit: ${SCHWIERIGKEIT_LABEL[r.schwierigkeit]}`);
+    const beurteilt = r.lernziele.filter((lz) => lz.abdeckung !== 'unklar');
+    const offen = r.lernziele.length - beurteilt.length;
+    if (beurteilt.length) {
+      const dran = beurteilt.filter((lz) => lz.abdeckung !== 'nein').length;
+      teile.push(
+        offen > 0
+          ? `${dran} von ${beurteilt.length} beurteilten Lernzielen dran (${offen} offen)`
+          : `${dran} von ${beurteilt.length} Lernzielen dran`,
+      );
+    }
+    return teile.join(' · ') || 'Gespeichert';
   });
 
   readonly herkunft = computed(() => {

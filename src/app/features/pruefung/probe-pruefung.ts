@@ -18,13 +18,17 @@ import { CanDeactivateFn, RouterLink } from '@angular/router';
 import { Antwort, Pruefergebnis, pruefeAntwort } from '../../core/domain/antwort-pruefung';
 import { berechneNote, halbeNote, istGenuegend } from '../../core/domain/note';
 import { waehlePruefung } from '../../core/domain/planer';
+import { pruefungsStil, schwierigkeitInWorten } from '../../core/domain/rueckmeldung';
 import { PruefungsErgebnis } from '../../core/models/fortschritt.model';
 import { Frage } from '../../core/models/lektion.model';
+import { AUFGABENART_LABEL } from '../../core/models/rueckmeldung.model';
 import { EinstellungenService } from '../../core/services/einstellungen.service';
 import { FortschrittService } from '../../core/services/fortschritt.service';
 import { LektionService } from '../../core/services/lektion.service';
+import { RueckmeldungService } from '../../core/services/rueckmeldung.service';
 import { BEWERTUNG_CHIP, BEWERTUNG_LABEL, istBeantwortet, kurzText } from '../../shared/frage/antwort-hilfe';
 import { FrageKarte, Mischungen } from '../../shared/frage/frage-karte';
+import { kurzArt } from '../rueckmeldungen/profil-anzeige';
 
 type Phase = 'start' | 'laeuft' | 'korrektur' | 'auswertung';
 
@@ -59,6 +63,7 @@ export class ProbePruefung {
   private readonly lektionen = inject(LektionService);
   private readonly fortschritt = inject(FortschrittService);
   private readonly einstellungen = inject(EinstellungenService);
+  private readonly rueckmeldungen = inject(RueckmeldungService);
   private readonly injector = inject(Injector);
 
   /** Route-Parameter `:id`. */
@@ -75,6 +80,28 @@ export class ProbePruefung {
     Math.min(this.einstellungen.werte().pruefungAnzahl, this.lektion()?.fragen.length ?? 0),
   );
   protected readonly minuten = computed(() => this.einstellungen.werte().pruefungMinuten);
+
+  /** Profil der Lehrperson (Rückmeldungen früherer Prüfungen im selben Fach). */
+  protected readonly profil = computed(() => {
+    const l = this.lektion();
+    return l ? this.rueckmeldungen.profilFuerFach(l.fach) : null;
+  });
+  /** Fragen nach dem Stil der Lehrperson auswählen (Schalter auf dem Startbildschirm). */
+  protected readonly nachStil = signal(true);
+  /** «Prüfungen eher schwerer als das Üben mit der App; oft: Rechnen, Erklären …» */
+  protected readonly stilText = computed(() => {
+    const p = this.profil();
+    if (!p) return '';
+    const arten = p.aufgabenarten.slice(0, 3).map((a) => kurzArt(AUFGABENART_LABEL[a.art]));
+    const teile = [
+      ...(p.schwierigkeitMittel !== null
+        ? [`Prüfungen ${schwierigkeitInWorten(p.schwierigkeitMittel)}`]
+        : []),
+      ...(arten.length ? [`oft: ${arten.join('; ')}`] : []),
+    ];
+    const t = teile.join('; ');
+    return t ? `${t.charAt(0).toUpperCase()}${t.slice(1)}.` : '';
+  });
 
   // ---------- Zustand ----------
 
@@ -189,7 +216,8 @@ export class ProbePruefung {
   protected starten(): void {
     const l = this.lektion();
     if (!l) return;
-    this.fragen.set(waehlePruefung(l, this.anzahl()));
+    const stil = this.nachStil() ? pruefungsStil(this.profil()) : null;
+    this.fragen.set(waehlePruefung(l, this.anzahl(), Math.random, stil));
     this.mischungen = new Map();
     this.antworten.set(new Map());
     this.texte.set(new Map());

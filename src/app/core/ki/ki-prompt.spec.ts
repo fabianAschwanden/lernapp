@@ -7,6 +7,7 @@ import {
   kopierPrompt,
   systemPrompt,
 } from './ki-prompt';
+import { lehrpersonProfile, profilAlsText } from '../domain/rueckmeldung';
 import { LEKTION_SCHEMA } from './ki-schema';
 
 const auftrag: KiAuftrag = {
@@ -56,6 +57,58 @@ describe('ki-prompt', () => {
     expect(t).toContain('einfachwahl');
     expect(t).not.toContain('mehrfachwahl');
     expect(t).not.toContain('ß');
+  });
+
+  it('Auftrag ohne Stil der Lehrperson hat keinen solchen Abschnitt', () => {
+    expect(auftragsText(auftrag)).not.toContain('Stil der Lehrperson');
+    expect(auftragsText({ ...auftrag, stilLehrperson: '  ' })).not.toContain('Stil der Lehrperson');
+  });
+
+  it('Auftrag mit Stil der Lehrperson: Abschnitt mit Anweisung und Profiltext vor dem Umfang', () => {
+    const profil = 'Rückmeldungen zu früheren Prüfungen in Informatik\n\n### Beispielfragen';
+    const t = auftragsText({ ...auftrag, lehrperson: 'Frau X', stilLehrperson: profil });
+    const abschnitt = t.indexOf('## Stil der Lehrperson (Rückmeldungen früherer Prüfungen)');
+    expect(abschnitt).toBeGreaterThan(t.indexOf('## Lernziele'));
+    expect(abschnitt).toBeLessThan(t.indexOf('## Umfang'));
+    expect(t).toContain('Die Lernziele bleiben massgebend');
+    expect(t).toContain('Beispielfragen');
+    expect(t).toContain(profil);
+    expect(t).not.toContain('Frau X');
+    expect(t).not.toContain('ß');
+  });
+
+  it('Profiltext aus echten Rückmeldungen: kein Name der Lehrperson im Auftrag', () => {
+    const profil = profilAlsText(
+      lehrpersonProfile([
+        {
+          id: 'rm-x',
+          lektionId: 'x',
+          lektionTitel: 'Informatik P1',
+          fach: 'Informatik',
+          lehrperson: 'Frau X',
+          erstelltAm: '2026-10-01T00:00:00.000Z',
+          note: 5.5,
+          schwierigkeit: 1,
+          lernziele: [],
+          aufgabenarten: ['erklaeren'],
+          beispielfragen: ['Erkläre den Begriff Datei.'],
+        },
+      ])[0],
+    );
+    const a = { ...auftrag, lehrperson: 'Frau X', stilLehrperson: profil };
+    for (const t of [auftragsText(a), kopierPrompt(a)]) {
+      expect(t).toContain('Erkläre den Begriff Datei.');
+      expect(t).not.toContain('Frau X');
+      expect(t).not.toContain('5.5');
+    }
+  });
+
+  it('Stil der Lehrperson gilt für API-Weg und Kopier-Prompt', () => {
+    const a = { ...auftrag, stilLehrperson: 'Profil Informatik' };
+    const letzter = baueInhalt([], a).at(-1);
+    expect(letzter?.type === 'text' && letzter.text.includes('Profil Informatik')).toBe(true);
+    expect(kopierPrompt(a)).toContain('## Stil der Lehrperson');
+    expect(kopierPrompt(a)).toContain('Profil Informatik');
   });
 
   it('Auftrag ohne Lernziele verweist aufs Material', () => {

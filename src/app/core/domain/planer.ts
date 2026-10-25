@@ -6,6 +6,7 @@ import {
   neuerFortschritt,
 } from '../models/fortschritt.model';
 import { Frage, Lektion, Lernziel } from '../models/lektion.model';
+import { PruefungsStil } from '../models/rueckmeldung.model';
 
 /**
  * Wiederholungsplaner (Leitner). Nach einer Antwort wandert die Frage in ein
@@ -154,16 +155,44 @@ function reissverschluss(fragen: Frage[]): Frage[] {
 }
 
 /**
- * Stellt eine Probeprüfung zusammen: alle Lernziele werden abwechselnd bedient,
- * damit die Prüfung den ganzen Stoff abdeckt.
+ * Gewicht einer Frage für den Stil der Lehrperson: bevorzugter Typ ×4; die
+ * Schwierigkeit neigt sich zum Ziel, Ziel 2 = keine Gewichtung (wie ohne Stil).
+ * Faktor 3^((Schwierigkeit − 2) · (Ziel − 2)): Ziel 3 → Schwierigkeit 1/2/3
+ * zählen 1/3, 1, 3; Ziel 1 umgekehrt; Zwischenwerte stetig. Immer positiv,
+ * damit auch leichte Fragen drankommen können.
  */
-export function waehlePruefung(lektion: Lektion, anzahl: number, zufall: Zufall = Math.random): Frage[] {
-  const nachLz = lektion.lernziele.map((lz) =>
-    mische(
-      lektion.fragen.filter((f) => f.lernzielId === lz.id),
-      zufall,
-    ),
-  );
+function stilGewicht(f: Frage, stil: PruefungsStil): number {
+  const typ = !stil.bevorzugteTypen.length || stil.bevorzugteTypen.includes(f.typ) ? 4 : 1;
+  return typ * 3 ** ((f.schwierigkeit - 2) * (stil.schwierigkeitZiel - 2));
+}
+
+/**
+ * Gewichtete Zufallsreihenfolge (Efraimidis–Spirakis): Schlüssel u^(1/w),
+ * absteigend. Schwere Gewichte landen öfter vorne, ohne dass leichte nie drankommen.
+ */
+function gewichtetMischen(fragen: readonly Frage[], stil: PruefungsStil, zufall: Zufall): Frage[] {
+  return fragen
+    .map((f) => ({ f, schluessel: zufall() ** (1 / stilGewicht(f, stil)) }))
+    .sort((a, b) => b.schluessel - a.schluessel)
+    .map((x) => x.f);
+}
+
+/**
+ * Stellt eine Probeprüfung zusammen: alle Lernziele werden abwechselnd bedient,
+ * damit die Prüfung den ganzen Stoff abdeckt. Mit `stil` (Profil der
+ * Lehrperson) werden innerhalb eines Lernziels Fragen bevorzugt, deren Typ an
+ * den Prüfungen vorkam und deren Schwierigkeit nahe am Ziel liegt.
+ */
+export function waehlePruefung(
+  lektion: Lektion,
+  anzahl: number,
+  zufall: Zufall = Math.random,
+  stil?: PruefungsStil | null,
+): Frage[] {
+  const nachLz = lektion.lernziele.map((lz) => {
+    const fragen = lektion.fragen.filter((f) => f.lernzielId === lz.id);
+    return stil ? gewichtetMischen(fragen, stil, zufall) : mische(fragen, zufall);
+  });
   const out: Frage[] = [];
   while (out.length < anzahl && nachLz.some((s) => s.length)) {
     for (const s of nachLz) {

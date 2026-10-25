@@ -77,7 +77,7 @@ const HERKUENFTE: readonly LektionHerkunft[] = ['mitgeliefert', 'ki', 'manuell',
 /** Optionale bzw. ergänzbare Felder der Lektion: wenn vorhanden, dann mit dem richtigen Typ. */
 function pruefeKopf(l: Record<string, unknown>): string[] {
   const m: string[] = [];
-  for (const feld of ['beschreibung', 'klasse', 'pruefungsdatum', 'erstelltAm', 'geaendertAm', 'kurzfassung'] as const) {
+  for (const feld of ['beschreibung', 'klasse', 'lehrperson', 'pruefungsdatum', 'erstelltAm', 'geaendertAm', 'kurzfassung'] as const) {
     if (l[feld] !== undefined && typeof l[feld] !== 'string') m.push(`Feld «${feld}» muss ein Text sein.`);
   }
   if (l['version'] !== undefined && typeof l['version'] !== 'number') m.push('Feld «version» muss eine Zahl sein.');

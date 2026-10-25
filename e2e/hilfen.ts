@@ -234,3 +234,54 @@ export async function spieleRunde(page: Page): Promise<Set<string>> {
   }
   throw new Error('Runde endet nicht');
 }
+
+/** Lernziele der mitgelieferten Lektion (Wortlaut = Name der Radiogruppe in der Rückmeldung). */
+export const LERNZIELE_TEXTE = (
+  JSON.parse(
+    readFileSync(join(__dirname, '..', 'public', 'lektionen', `${LEKTION.id}.json`), 'utf-8'),
+  ) as { lernziele: { text: string }[] }
+).lernziele.map((z) => z.text);
+
+export const BEISPIELFRAGE = 'Erkläre, warum eine SSD schneller ist als eine Festplatte.';
+
+/**
+ * Füllt die Rückmeldung zur Prüfung der mitgelieferten Lektion aus und speichert sie:
+ * Lernziele «Gut», Stoff «Nur Teile», «Etwas schwerer», LZ 1 ja / LZ 2 nein,
+ * Aufgabenart «Erklären …», eine Beispielfrage.
+ */
+export async function gibRueckmeldung(page: Page): Promise<void> {
+  await oeffne(page, `/lektion/${LEKTION.id}/rueckmeldung`);
+  await expect(
+    page.getByRole('heading', { level: 1, name: 'Rückmeldung zur Prüfung' }),
+  ).toBeVisible();
+  await page.getByLabel('Note (freiwillig)').fill('4.5');
+  await page.getByLabel('Lehrperson (freiwillig)').fill('Frau M.');
+  await page
+    .getByRole('group', { name: 'Wie gut passten die Lernziele zu dem, was drankam?' })
+    .getByRole('radio', { name: 'Gut', exact: true })
+    .check();
+  await page
+    .getByRole('group', { name: 'Wurde der ganze Lernstoff abgefragt?' })
+    .getByRole('radio', { name: 'Nur Teile' })
+    .check();
+  await page
+    .getByRole('group', {
+      name: 'Wie schwierig war die Prüfung im Vergleich zum Üben mit der App?',
+    })
+    .getByRole('radio', { name: 'Etwas schwerer' })
+    .check();
+  await page
+    .getByRole('group', { name: LERNZIELE_TEXTE[0], exact: true })
+    .getByRole('radio', { name: 'Ja', exact: true })
+    .check();
+  await page
+    .getByRole('group', { name: LERNZIELE_TEXTE[1], exact: true })
+    .getByRole('radio', { name: 'Nein', exact: true })
+    .check();
+  await page.getByLabel('Erklären, begründen, beschreiben (ganze Sätze)').check();
+  await page.getByRole('button', { name: '+ Beispielfrage hinzufügen' }).click();
+  await page.getByRole('textbox', { name: 'Beispielfrage 1' }).fill(BEISPIELFRAGE);
+  await page.getByLabel('Was kam dran, das nicht in der App war?').fill('Fragen zum Netzwerk');
+  await page.getByRole('button', { name: 'Rückmeldung speichern' }).click();
+  await expect(page.getByText('Rückmeldung gespeichert. Danke!')).toBeVisible();
+}

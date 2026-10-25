@@ -303,6 +303,101 @@ describe('waehlePruefung', () => {
   });
 });
 
+describe('waehlePruefung im Stil der Lehrperson', () => {
+  const offen = (id: string, lz: string, s: 1 | 2 | 3): Frage => ({
+    id,
+    lernzielId: lz,
+    typ: 'offen',
+    frage: id,
+    erklaerung: '',
+    schwierigkeit: s,
+    musterloesung: 'M',
+  });
+  // Pro Lernziel 6 leichte Wahr/Falsch-Fragen und 1 schwere offene Frage
+  const fragen = ['a', 'b', 'c'].flatMap((lz) => [
+    ...[1, 2, 3, 4, 5, 6].map((i) => frage(`${lz}${i}`, lz, 1)),
+    offen(`${lz}-offen`, lz, 3),
+  ]);
+  const lek = lektion(fragen);
+  const stil = { bevorzugteTypen: ['offen' as const], schwierigkeitZiel: 3 };
+
+  it('ohne Stil (null/undefined) genau wie bisher', () => {
+    for (const seed of [1, 5, 9]) {
+      const bisher = ids(waehlePruefung(lek, 5, seeded(seed)));
+      expect(ids(waehlePruefung(lek, 5, seeded(seed), null))).toEqual(bisher);
+      expect(ids(waehlePruefung(lek, 5, seeded(seed), undefined))).toEqual(bisher);
+    }
+  });
+
+  it('deckt weiterhin alle Lernziele reihum ab, ohne Doppelte', () => {
+    for (const seed of [1, 2, 3]) {
+      const r = waehlePruefung(lek, 6, seeded(seed), stil);
+      expect(r.length).toBe(6);
+      expect(new Set(ids(r)).size).toBe(6);
+      for (const lz of ['a', 'b', 'c']) expect(r.filter((f) => f.lernzielId === lz).length).toBe(2);
+    }
+    expect(waehlePruefung(lek, 100, seeded(4), stil).length).toBe(21);
+  });
+
+  it('bevorzugt Typ und Schwierigkeit der Lehrperson', () => {
+    let mitStil = 0;
+    let ohneStil = 0;
+    for (let seed = 1; seed <= 100; seed++) {
+      mitStil += waehlePruefung(lek, 3, seeded(seed), stil).filter((f) => f.typ === 'offen').length;
+      ohneStil += waehlePruefung(lek, 3, seeded(seed)).filter((f) => f.typ === 'offen').length;
+    }
+    // Zufällig wäre 1 von 7 je Lernziel (≈ 43 von 300); mit Gewicht 36:1 deutlich mehr
+    expect(ohneStil).toBeLessThan(80);
+    expect(mitStil).toBeGreaterThan(200);
+  });
+
+  it('nur Schwierigkeit (keine Typen bevorzugt) zieht ebenfalls', () => {
+    let schwer = 0;
+    for (let seed = 1; seed <= 100; seed++) {
+      schwer += waehlePruefung(lek, 3, seeded(seed), { bevorzugteTypen: [], schwierigkeitZiel: 3 }).filter(
+        (f) => f.schwierigkeit === 3,
+      ).length;
+    }
+    expect(schwer).toBeGreaterThan(100); // zufällig ≈ 43, mit Gewicht 9:1 ≈ 180
+  });
+
+  /** Zählt die Schwierigkeiten der gezogenen Fragen über viele Läufe. */
+  function zaehle(fragenListe: Frage[], anzahl: number, laeufe: number, ziel: number | null) {
+    const lek1 = lektion(fragenListe, ['a']);
+    const zufall = seeded(2026);
+    const n = { 1: 0, 2: 0, 3: 0 };
+    const stil1 = ziel === null ? null : { bevorzugteTypen: [], schwierigkeitZiel: ziel };
+    for (let i = 0; i < laeufe; i++)
+      for (const f of waehlePruefung(lek1, anzahl, zufall, stil1)) n[f.schwierigkeit]++;
+    const summe = n[1] + n[2] + n[3];
+    return { n, anteil: (s: 1 | 2 | 3) => n[s] / summe };
+  }
+  const dreiStufen = [frage('s1', 'a', 1), frage('s2', 'a', 2), frage('s3', 'a', 3)];
+  const dreissig = ([1, 2, 3] as const).flatMap((s) =>
+    Array.from({ length: 10 }, (_, i) => frage(`s${s}-${i}`, 'a', s)),
+  );
+
+  it('Schwierigkeitsziel 2 ist neutral: jede Stufe etwa ein Drittel, wie ohne Stil', () => {
+    for (const ziel of [2, null]) {
+      const { anteil } = zaehle(dreiStufen, 1, 3000, ziel);
+      for (const s of [1, 2, 3] as const) expect(Math.abs(anteil(s) - 1 / 3)).toBeLessThan(0.05);
+    }
+    const { anteil } = zaehle(dreissig, 5, 2000, 2);
+    for (const s of [1, 2, 3] as const) expect(Math.abs(anteil(s) - 1 / 3)).toBeLessThan(0.03);
+  });
+
+  it('Schwierigkeitsziel 3 zieht schwere Fragen vor, Ziel 1 leichte', () => {
+    const z3 = zaehle(dreiStufen, 1, 3000, 3).n;
+    expect(z3[3]).toBeGreaterThan(z3[2]);
+    expect(z3[2]).toBeGreaterThan(z3[1]);
+    const d3 = zaehle(dreissig, 5, 2000, 3).n;
+    expect(d3[3]).toBeGreaterThan(2 * d3[1]);
+    const z1 = zaehle(dreiStufen, 1, 3000, 1).n;
+    expect(z1[1]).toBeGreaterThan(z1[2]);
+    expect(z1[2]).toBeGreaterThan(z1[3]);
+  });
+});
+
 describe('stufeAusAnteil', () => {
   it('neu, wenn keine Fragen oder alle neu sind', () => {
     expect(stufeAusAnteil(0, 0, 0)).toBe('neu');

@@ -1,10 +1,12 @@
 import { Lektion } from '../models/lektion.model';
+import { PruefungsRueckmeldung } from '../models/rueckmeldung.model';
 import {
   bereinigeEinstellungen,
   bereinigeFortschritt,
   bereinigePruefung,
   lektionStand,
   planeLektionImport,
+  planeRueckmeldungImport,
   pruefeBackup,
 } from './backup.service';
 
@@ -177,6 +179,60 @@ describe('bereinigePruefung', () => {
     ['Maximum 0', { maxPunkte: 0 }],
   ])('verwirft: %s', (_name, teil) => {
     expect(bereinigePruefung({ ...gut, ...teil })).toBeNull();
+  });
+});
+
+describe('Rückmeldungen im Backup', () => {
+  function rm(lektionId: string, stand: Partial<PruefungsRueckmeldung> = {}): PruefungsRueckmeldung {
+    return {
+      id: `rm-${lektionId}`,
+      lektionId,
+      lektionTitel: lektionId,
+      fach: 'Biologie',
+      erstelltAm: '2026-10-01T00:00:00.000Z',
+      lernzielePassend: 4,
+      stoffAbgefragt: 'alles',
+      schwierigkeit: 1,
+      lernziele: [{ lernzielId: 'lz-a', text: 'A', abdeckung: 'ja' }],
+      aufgabenarten: ['erklaeren'],
+      beispielfragen: ['Erkläre …'],
+      ...stand,
+    };
+  }
+
+  it('alte Backups ohne Rückmeldungen bleiben gültig', () => {
+    const r = pruefeBackup({ app: 'lernapp', format: 1, lektionen: [] });
+    expect('backup' in r && r.backup.rueckmeldungen).toEqual([]);
+  });
+
+  it('übernimmt gültige und verwirft kaputte Rückmeldungen', () => {
+    const r = pruefeBackup({
+      app: 'lernapp',
+      format: 1,
+      rueckmeldungen: [rm('a'), { id: 'kaputt' }, rm('b', { schwierigkeit: 9 as never })],
+    });
+    expect('backup' in r && r.backup.rueckmeldungen).toEqual([rm('a')]);
+  });
+
+  it('planeRueckmeldungImport: neue und neuere gewinnen', () => {
+    const vorhanden = [
+      rm('alt', { geaendertAm: '2026-10-02T00:00:00.000Z' }),
+      rm('lokal-neuer', { geaendertAm: '2026-10-09T00:00:00.000Z' }),
+      rm('gleich'),
+    ];
+    const plan = planeRueckmeldungImport(
+      [
+        rm('neu'),
+        rm('alt', { geaendertAm: '2026-10-05T00:00:00.000Z' }),
+        rm('lokal-neuer', { geaendertAm: '2026-10-03T00:00:00.000Z' }),
+        rm('gleich'),
+        rm('doppelt', { geaendertAm: '2026-10-01T00:00:00.000Z' }),
+        rm('doppelt', { geaendertAm: '2026-10-07T00:00:00.000Z' }),
+      ],
+      vorhanden,
+    );
+    expect(plan.map((r) => r.id)).toEqual(['rm-neu', 'rm-alt', 'rm-doppelt']);
+    expect(plan[2].geaendertAm).toBe('2026-10-07T00:00:00.000Z');
   });
 });
 

@@ -3,6 +3,7 @@ import { Injectable, computed, inject, signal } from '@angular/core';
 import { freieId, slug } from '../domain/id';
 import { ergaenzeLektion, validiereLektion } from '../domain/lektion-validierung';
 import { Lektion, LektionKopf, lektionKopf } from '../models/lektion.model';
+import { RueckmeldungService } from './rueckmeldung.service';
 import { SpeicherService } from './speicher.service';
 
 /** Verzeichnis der mitgelieferten Lektionen (liegt in `public/lektionen/`). */
@@ -18,6 +19,7 @@ interface LektionsIndex {
 @Injectable({ providedIn: 'root' })
 export class LektionService {
   private readonly speicher = inject(SpeicherService);
+  private readonly rueckmeldungen = inject(RueckmeldungService);
 
   private readonly mitgeliefert = signal<Lektion[]>([]);
   private readonly eigene = signal<Lektion[]>([]);
@@ -110,8 +112,16 @@ export class LektionService {
     this.eigene.update((liste) => liste.filter((x) => x.id !== id));
   }
 
-  /** Erzeugt eine freie id aus einem Titel, z. B. «Informatik Prüfung 2» → `informatik-pruefung-2`. */
+  /**
+   * Erzeugt eine freie id aus einem Titel, z. B. «Informatik Prüfung 2» → `informatik-pruefung-2`.
+   * Belegt sind die ids der Lektionen und auch die verwaister Rückmeldungen
+   * (Lektion gelöscht): Sonst hinge sich die alte Rückmeldung an die neue Lektion.
+   */
   freieId(basis: string): string {
-    return freieId(slug(basis, 60) || 'lektion', new Set(this.lektionen().map((l) => l.id)));
+    const belegt = new Set([
+      ...this.lektionen().map((l) => l.id),
+      ...this.rueckmeldungen.alle().map((r) => r.lektionId),
+    ]);
+    return freieId(slug(basis, 60) || 'lektion', belegt);
   }
 }

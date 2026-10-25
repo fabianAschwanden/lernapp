@@ -163,6 +163,7 @@ export class KiGeneratorService {
         fach: auftrag.fach,
         titel: auftrag.titel,
         klasse: auftrag.klasse,
+        lehrperson: auftrag.lehrperson,
         pruefungsdatum: auftrag.pruefungsdatum,
         hinweise: auftrag.hinweise,
         quellen: quellenAus(material),

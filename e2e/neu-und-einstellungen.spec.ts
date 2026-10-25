@@ -1,12 +1,14 @@
 import { readFileSync } from 'node:fs';
 
 import {
+  BEISPIELFRAGE,
   FIXTURE_ALLE_TYPEN,
   LEKTION,
   RUECKMELDUNG,
   beantworte,
   expect,
   fixtureAlleTypen,
+  gibRueckmeldung,
   importiereLektion,
   oeffne,
   test,
@@ -287,6 +289,41 @@ test.describe('Einstellungen', () => {
         name: new RegExp(`^Lernen ${alleNeu - backup.fortschritt.length} neu`),
       }),
     ).toBeVisible();
+  });
+
+  test('Backup enthält die Rückmeldungen zu Prüfungen und stellt sie wieder her', async ({
+    page,
+  }, info) => {
+    await gibRueckmeldung(page);
+    await oeffne(page, '/einstellungen');
+    await expect(page.getByText('1 Rückmeldung', { exact: true })).toBeVisible();
+    const download = page.waitForEvent('download');
+    await page.getByRole('button', { name: 'Backup exportieren' }).click();
+    const pfad = info.outputPath('backup.json');
+    await (await download).saveAs(pfad);
+    const backup = JSON.parse(readFileSync(pfad, 'utf-8'));
+    expect(backup.rueckmeldungen).toHaveLength(1);
+    expect(backup.rueckmeldungen[0].lektionId).toBe(LEKTION.id);
+    expect(backup.rueckmeldungen[0].beispielfragen).toContain(BEISPIELFRAGE);
+
+    await page.getByRole('button', { name: 'Alle Daten löschen …' }).click();
+    page.once('dialog', (d) => void d.accept());
+    await Promise.all([
+      page.waitForEvent('load'),
+      page.getByRole('button', { name: 'Ja, endgültig löschen' }).click(),
+    ]);
+    await oeffne(page, `/lektion/${LEKTION.id}`);
+    await expect(page.getByRole('link', { name: /Rückmeldung bearbeiten/ })).toHaveCount(0);
+
+    await oeffne(page, '/einstellungen');
+    const chooser = page.waitForEvent('filechooser');
+    await page.getByText('Backup importieren', { exact: true }).click();
+    await (await chooser).setFiles(pfad);
+    await expect(page.getByText('Backup importiert.')).toBeVisible();
+    await expect(page.getByText('Rückmeldungen zu Prüfungen: 1')).toBeVisible();
+
+    await oeffne(page, `/lektion/${LEKTION.id}`);
+    await expect(page.getByRole('link', { name: /Rückmeldung bearbeiten/ })).toBeVisible();
   });
 
   test('Farbschema «Dunkel» setzt data-theme und bleibt nach Neuladen', async ({ page }) => {

@@ -2,6 +2,7 @@ import { Injectable, inject } from '@angular/core';
 
 import { ergaenzeLektion, validiereLektion } from '../domain/lektion-validierung';
 import { istObjekt } from '../domain/pruefhilfen';
+import { bereinigeRueckmeldung } from '../domain/rueckmeldung';
 import {
   Bewertung,
   FrageFortschritt,
@@ -10,10 +11,12 @@ import {
   fortschrittSchluessel,
 } from '../models/fortschritt.model';
 import { Lektion } from '../models/lektion.model';
+import { PruefungsRueckmeldung } from '../models/rueckmeldung.model';
 import { heuteIso, ladeHerunter } from '../util/datei';
 import { Einstellungen, EinstellungenService } from './einstellungen.service';
 import { FortschrittService } from './fortschritt.service';
 import { LektionService } from './lektion.service';
+import { RueckmeldungService } from './rueckmeldung.service';
 import { SpeicherService } from './speicher.service';
 
 export const BACKUP_FORMAT = 1;
@@ -27,6 +30,8 @@ export interface Backup {
   lektionen: Lektion[];
   fortschritt: FrageFortschritt[];
   pruefungen: PruefungsErgebnis[];
+  /** Rückmeldungen nach Prüfungen; fehlt in älteren Backups (dann leer). */
+  rueckmeldungen: PruefungsRueckmeldung[];
   einstellungen: Partial<Einstellungen>;
 }
 
@@ -41,6 +46,8 @@ export interface ImportErgebnis {
   ungueltig: { titel: string; fehler: string[] }[];
   fortschritte: number;
   pruefungen: number;
+  /** Anzahl übernommener Rückmeldungen (neue oder neuere als die vorhandenen). */
+  rueckmeldungen: number;
   einstellungen: boolean;
 }
 
@@ -61,6 +68,7 @@ export function pruefeBackup(daten: unknown): { backup: Backup } | { fehler: str
       lektionen: liste(daten['lektionen']) as Lektion[],
       fortschritt: liste(daten['fortschritt']).flatMap((x) => bereinigeFortschritt(x) ?? []),
       pruefungen: liste(daten['pruefungen']).flatMap((x) => bereinigePruefung(x) ?? []),
+      rueckmeldungen: liste(daten['rueckmeldungen']).flatMap((x) => bereinigeRueckmeldung(x) ?? []),
       einstellungen: bereinigeEinstellungen(daten['einstellungen']),
     },
   };
@@ -117,6 +125,24 @@ export function planeLektionImport(
     }
   });
   return { uebernehmen, ergebnis };
+}
+
+/**
+ * Rückmeldungen aus einem Backup: neue übernehmen, vorhandene nur ersetzen,
+ * wenn die importierte neuer ist (geaendertAm, sonst erstelltAm). Bei
+ * doppelten ids im Backup gewinnt ebenfalls die neuere.
+ */
+export function planeRueckmeldungImport(
+  importiert: readonly PruefungsRueckmeldung[],
+  vorhandene: readonly PruefungsRueckmeldung[],
+): PruefungsRueckmeldung[] {
+  const stand = new Map(vorhandene.map((r) => [r.id, lektionStand(r)]));
+  const neueste = new Map<string, PruefungsRueckmeldung>();
+  for (const r of importiert) {
+    const bisher = neueste.get(r.id);
+    if (!bisher || lektionStand(r) > lektionStand(bisher)) neueste.set(r.id, r);
+  }
+  return [...neueste.values()].filter((r) => !stand.has(r.id) || lektionStand(r) > stand.get(r.id)!);
 }
 
 const FARBSCHEMATA = ['auto', 'hell', 'dunkel'] as const;
@@ -199,8 +225,8 @@ export function bereinigePruefung(x: unknown): PruefungsErgebnis | null {
 // ---------- Service ----------
 
 /**
- * Backup für den Gerätewechsel: eigene Lektionen, Lernstand, Probeprüfungen
- * und Einstellungen als eine JSON-Datei. Der API-Schlüssel bleibt auf dem Gerät.
+ * Backup für den Gerätewechsel: eigene Lektionen, Lernstand, Probeprüfungen,
+ * Rückmeldungen nach Prüfungen und Einstellungen als eine JSON-Datei. Der API-Schlüssel bleibt auf dem Gerät.
  */
 @Injectable({ providedIn: 'root' })
 export class BackupService {
@@ -208,6 +234,7 @@ export class BackupService {
   private readonly lektionen = inject(LektionService);
   private readonly fortschritt = inject(FortschrittService);
   private readonly einstellungen = inject(EinstellungenService);
+  private readonly rueckmeldungen = inject(RueckmeldungService);
 
   async erstelle(jetzt = new Date()): Promise<Backup> {
     const { kiModell, rundenGroesse, pruefungAnzahl, pruefungMinuten, farbschema } = this.einstellungen.werte();
@@ -218,6 +245,7 @@ export class BackupService {
       lektionen: await this.speicher.alleLektionen(),
       fortschritt: [...this.fortschritt.map().values()],
       pruefungen: this.fortschritt.pruefungen(),
+      rueckmeldungen: await this.speicher.alleRueckmeldungen(),
       einstellungen: { kiModell, rundenGroesse, pruefungAnzahl, pruefungMinuten, farbschema },
     };
   }
@@ -250,6 +278,10 @@ export class BackupService {
 
     await this.fortschritt.uebernehme(backup.fortschritt, backup.pruefungen);
 
+    await this.rueckmeldungen.laden();
+    const rueckmeldungen = planeRueckmeldungImport(backup.rueckmeldungen, this.rueckmeldungen.alle());
+    for (const r of rueckmeldungen) await this.rueckmeldungen.speichern(r, { zeitstempelBehalten: true });
+
     const hatEinstellungen = Object.keys(backup.einstellungen).length > 0;
     if (hatEinstellungen) await this.einstellungen.aendern(backup.einstellungen);
 
@@ -257,6 +289,7 @@ export class BackupService {
       ...plan.ergebnis,
       fortschritte: backup.fortschritt.length,
       pruefungen: backup.pruefungen.length,
+      rueckmeldungen: rueckmeldungen.length,
       einstellungen: hatEinstellungen,
     };
   }

@@ -42,6 +42,22 @@
             <p class="leise klein">Anzahl und Zeitlimit kannst du in den <a routerLink="/einstellungen">Einstellungen</a> ändern.</p>
           </section>
 
+          @if (profil(); as p) {
+            <section class="hinweis stapel stil" aria-labelledby="stil-titel">
+              <h2 id="stil-titel" class="stil-titel">
+                Im Stil deiner Lehrperson{{ p.lehrpersonen.length ? ' (' + p.lehrpersonen[0] + ')' : '' }}
+              </h2>
+              <p class="klein">
+                {{ stilText() }}
+                <span class="leise">(aus {{ p.anzahl === 1 ? '1 Rückmeldung' : p.anzahl + ' Rückmeldungen' }})</span>
+              </p>
+              <label class="option schalter">
+                <input type="checkbox" [checked]="nachStil()" (change)="nachStil.set($any($event.target).checked)" />
+                <span>Fragen nach dem Stil der Lehrperson auswählen</span>
+              </label>
+            </section>
+          }
+
           <button type="button" class="knopf primaer breit" (click)="starten()">Probeprüfung starten</button>
 
           @let hinweise = l.hinweise ?? [];

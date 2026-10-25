@@ -251,6 +251,7 @@ describe('wandleKiAntwort', () => {
       fach: 'Mathematik',
       titel: 'Prüfung 2',
       klasse: '1a',
+      lehrperson: ' Frau Muster ',
       pruefungsdatum: '2026-11-03',
       hinweise: ['kein taschenrechner erlaubt', 'Formelblatt erlaubt'],
       quellen: [{ id: 'q1', titel: 'Skript.pdf', umfang: 'PDF-Seiten 9–11' }],
@@ -259,6 +260,7 @@ describe('wandleKiAntwort', () => {
     expect(lektion!.titel).toBe('Prüfung 2');
     expect(lektion!.id).toBe('pruefung-2');
     expect(lektion!.klasse).toBe('1a');
+    expect(lektion!.lehrperson).toBe('Frau Muster');
     expect(lektion!.pruefungsdatum).toBe('2026-11-03');
     expect(lektion!.hinweise).toEqual(['kein taschenrechner erlaubt', 'Formelblatt erlaubt']);
     expect(lektion!.quellen).toEqual([

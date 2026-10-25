@@ -122,6 +122,21 @@
                 (input)="setze(l, 'beschreibung', text($event))"
               ></textarea>
             </div>
+            <div class="feld">
+              <label for="lehrperson">Lehrperson</label>
+              <input
+                id="lehrperson"
+                class="eingabe"
+                autocomplete="off"
+                placeholder="Name oder Kürzel (optional)"
+                [value]="l.lehrperson ?? ''"
+                (input)="setze(l, 'lehrperson', text($event))"
+              />
+              <p class="leise klein">
+                Rückmeldungen nach Prüfungen werden pro Fach gesammelt; die Lehrperson dient nur
+                zur Anzeige.
+              </p>
+            </div>
             <div class="zwei">
               <div class="feld">
                 <label for="klasse">Klasse</label>

@@ -49,3 +49,6 @@ Thumbs.db
 
 # Unterrichtsmaterial (urheberrechtlich geschützt, nur lokal)
 /material/
+
+# Rückmeldungen nach Prüfungen (Export aus der App, persönliche Daten, nur lokal)
+/rueckmeldungen/

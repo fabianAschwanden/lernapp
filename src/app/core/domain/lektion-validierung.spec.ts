@@ -270,6 +270,7 @@ describe('optionale Felder und Bilder', () => {
     ['quellen ohne Titel', (l) => (l['quellen'] = [{ id: 'q1' }]), '«quellen» muss eine Liste'],
     ['hinweise als Text', (l) => (l['hinweise'] = 'Kein Taschenrechner'), '«hinweise» muss eine Liste'],
     ['beschreibung als Zahl', (l) => (l['beschreibung'] = 5), 'Feld «beschreibung» muss ein Text sein.'],
+    ['lehrperson als Zahl', (l) => (l['lehrperson'] = 7), 'Feld «lehrperson» muss ein Text sein.'],
     ['unbekannte Herkunft', (l) => (l['herkunft'] = 'internet'), 'Unbekannte Herkunft'],
     ['merksaetze mit Zahl', (l) => (l['lernziele'][0].merksaetze = [5]), '«merksaetze» muss eine Liste'],
     ['ergaenzt als Text', (l) => (l['lernziele'][0].ergaenzt = 'ja'), '«ergaenzt» muss true oder false sein.'],

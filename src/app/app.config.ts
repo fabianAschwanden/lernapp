@@ -15,6 +15,7 @@ import { routes } from './app.routes';
 import { EinstellungenService } from './core/services/einstellungen.service';
 import { FortschrittService } from './core/services/fortschritt.service';
 import { LektionService } from './core/services/lektion.service';
+import { RueckmeldungService } from './core/services/rueckmeldung.service';
 
 registerLocaleData(localeDeCh, 'de-CH');
 
@@ -24,10 +25,15 @@ export const appConfig: ApplicationConfig = {
     provideBrowserGlobalErrorListeners(),
     // withComponentInputBinding: Route- und Query-Parameter landen als input()
     provideRouter(routes, withComponentInputBinding(), withInMemoryScrolling({ scrollPositionRestoration: 'top' })),
-    // Lektionen, Lernstand und Einstellungen vor dem ersten Bildschirm laden —
+    // Lektionen, Lernstand, Einstellungen und Rückmeldungen vor dem ersten Bildschirm laden —
     // alles lokal (IndexedDB + mitgelieferte JSON), also schnell.
     provideAppInitializer(() =>
-      Promise.all([inject(LektionService).laden(), inject(FortschrittService).laden(), inject(EinstellungenService).laden()]),
+      Promise.all([
+        inject(LektionService).laden(),
+        inject(FortschrittService).laden(),
+        inject(EinstellungenService).laden(),
+        inject(RueckmeldungService).laden(),
+      ]),
     ),
     provideServiceWorker('ngsw-worker.js', {
       enabled: !isDevMode(),

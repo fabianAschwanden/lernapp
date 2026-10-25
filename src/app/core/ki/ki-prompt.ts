@@ -28,7 +28,24 @@ export interface KiAuftrag {
   lernzieleImMaterial: boolean;
   /** Kurzbeschreibung des Materials, z. B. «Skript.pdf: PDF-Seiten 9–11». */
   materialListe: string[];
+  /** Name oder Kürzel der Lehrperson (wird in die Lektion übernommen, nicht in den Auftrag). */
+  lehrperson?: string;
+  /**
+   * Rückmeldungen früherer Prüfungen im selben Fach (profilAlsText, ohne Namen
+   * der Lehrperson und ohne Noten). Leer oder fehlend = ohne Stil der Lehrperson.
+   */
+  stilLehrperson?: string;
 }
+
+/** Wie Claude die Rückmeldungen früherer Prüfungen berücksichtigen soll. */
+const STIL_ANWEISUNG = `Die folgenden Angaben stammen aus Rückmeldungen nach früheren Prüfungen in diesem Fach bei derselben Lehrperson. Jede Lehrperson prüft auf ihre eigene Art. Richte die Lektion darauf aus:
+- **Die Lernziele bleiben massgebend:** Jedes Lernziel bekommt seinen Lernzettel und die verlangte Anzahl Fragen, und alles stützt sich weiterhin auf das Material. Die Rückmeldungen ändern vor allem, *wie* gefragt wird (Fragetypen, Schwierigkeit, Formulierungen); die Anzahl Fragen pro Lernziel bleibt in jedem Fall gleich.
+- **Fragetypen:** Gewichte die erlaubten Fragetypen nach den Aufgabenarten, die an den Prüfungen vorkamen (z. B. viele Erklär-Aufgaben → mehr Typ «offen»; Rechnen → mehr Typ «zahl»). Verwende weiterhin nur die erlaubten Fragetypen.
+- **Schwierigkeit:** Waren die Prüfungen schwerer als die App, verschiebe die Verteilung zu Schwierigkeit 2 und 3 (Anwenden, Transfer auf neue Beispiele); waren sie leichter, lege den Schwerpunkt auf sicheres Grundwissen. Spätere Rückmeldungen beziehen sich oft auf Lektionen, die schon nach früheren Rückmeldungen angepasst wurden: Ist die neueste Prüfung «etwa gleich» nach früher «schwerer», hat die Anpassung gepasst – behalte das höhere Niveau bei, statt wieder leichter zu werden. Die neueste Prüfung zählt am meisten; bei einem Wechsel der Lehrperson gelten vor allem die Rückmeldungen zur aktuellen.
+- **Formulierungen:** Lehne Aufgabenstellungen, Operatoren («nenne», «erkläre», «begründe», «vergleiche») und Umfang der Antworten an die Beispielfragen an. Kopiere sie nicht, sie stammen meist aus anderen Themen.
+- **Gewichtung:** Wurde meist nur ein Teil des Stoffs geprüft, halte Lernzettel und Kurzfassung zu Themen, die bei dieser Lehrperson erfahrungsgemäss selten drankommen, knapper (nicht weglassen). Die Anzahl Fragen pro Lernziel bleibt gleich; verschiebe dort höchstens die Schwierigkeit. Mit den «Lernzielen früherer Lektionen, die (nicht) drankamen» sind die Lernziele früherer Lektionen gemeint: Übertrage das sinngemäss auf ähnliche Themen und Lernzieltypen der neuen Lektion. Kam Stoff über die Lernziele hinaus dran, gilt das als Ausnahme zu «genau das, was das Lernziel verlangt»: Frage auch angrenzende Inhalte *des Materials* ab, ordne sie dem passendsten Lernziel zu und rechne sie in dessen Fragenzahl ein.
+- **Kurzfassung:** Richte den «Prüfungs-Check» auf die typischen Aufgaben dieser Lehrperson aus.
+- Übernimm Tipps zur Lehrperson nur dann in «hinweise», wenn sie allgemein für ihre Prüfungen gelten. Nenne in der Lektion keine Noten.`;
 
 const MINI_MARKDOWN = [
   'Absätze durch Leerzeile',
@@ -47,7 +64,7 @@ export function systemPrompt(): string {
   return `Du bist eine erfahrene Lehrperson und Didaktik-Profi. Du erstellst aus Unterrichtsmaterial eine Lektion für eine Lern-App, mit der sich eine Schülerin oder ein Schüler gezielt auf eine Prüfung vorbereitet.
 
 ## Grundsätze
-- **Die Lernziele sind massgebend.** Jedes Lernziel bekommt einen Lernzettel (Feld «zusammenfassung») mit 2–5 Merksätzen und die verlangte Anzahl Fragen; dazu kommt eine Kurzfassung der ganzen Lektion (Feld «kurzfassung»). Die Fragen prüfen genau das, was das Lernziel verlangt (Verb beachten: «nennen» → Wissen abfragen, «erklären» → offene Erklärfrage, «berechnen» → Rechenaufgabe, «unterscheiden» → Zuordnen usw.).
+- **Die Lernziele sind massgebend.** Jedes Lernziel bekommt einen Lernzettel (Feld «zusammenfassung») mit 2–5 Merksätzen und die verlangte Anzahl Fragen; dazu kommt eine Kurzfassung der ganzen Lektion (Feld «kurzfassung»). Die Fragen prüfen genau das, was das Lernziel verlangt (Ausnahme: siehe «Stil der Lehrperson», Gewichtung, falls vorhanden; Verb beachten: «nennen» → Wissen abfragen, «erklären» → offene Erklärfrage, «berechnen» → Rechenaufgabe, «unterscheiden» → Zuordnen usw.).
 - **Nur Stoff aus dem Material.** Lernzettel und Fragen stützen sich auf das mitgegebene Material. Muss etwas ergänzt werden, damit ein Lernziel verständlich wird, markiere das Lernziel mit «ergaenzt»: true und halte Ergänzungen knapp und fachlich gesichert. Nenne im «quellenhinweis» die Fundstelle (z. B. «Skript, PDF-Seite 11»).
 - **Handschriftliche Notizen**, Markierungen und Unterstreichungen im Material sind Hinweise der Lehrperson auf Prüfungsschwerpunkte: gewichte diese Themen stärker.
 - **Sprache:** Schweizer Hochdeutsch ohne Eszett (immer «ss»), Anrede in der Du-Form, klare und kurze Sätze, Fachbegriffe wie im Material.
@@ -127,6 +144,12 @@ export function auftragsText(a: KiAuftrag): string {
         ? 'Die Lernziele stehen im Material (z. B. ein Lernziel-Blatt). Übernimm sie möglichst wörtlich und in derselben Reihenfolge.'
         : 'Es sind keine Lernziele angegeben. Leite 4–10 sinnvolle, prüfbare Lernziele aus dem Material ab.',
     );
+  }
+
+  const stil = a.stilLehrperson?.trim();
+  if (stil) {
+    zeilen.push('', '## Stil der Lehrperson (Rückmeldungen früherer Prüfungen)', '');
+    zeilen.push(STIL_ANWEISUNG, '', stil);
   }
 
   zeilen.push('', '## Umfang');

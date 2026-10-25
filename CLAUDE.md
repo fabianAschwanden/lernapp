@@ -15,7 +15,7 @@ src/app/
   core/domain/       reine Funktionen ohne Angular: antwort-pruefung, planer (Leitner),
                      note (Schweizer Skala), lektion-validierung (+ ergaenzeLektion), text (normalisieren,
                      Zahlen lesen, Mini-Markdown), id (slug, freieId), pruefhilfen (istObjekt, nichtLeer,
-                     istErlaubteBildQuelle …)
+                     istErlaubteBildQuelle …), rueckmeldung (Profil pro Fach, Stil, profilAlsText)
   core/services/     speicher (IndexedDB), lektion, fortschritt, einstellungen, … (Signals)
   shared/            md.pipe.ts, frage/ (FrageKarte: rendert jede Frage und liefert eine Antwort)
   features/<name>/   ein Ordner pro Bildschirm (Komponente + .html + .css)
@@ -25,6 +25,7 @@ content/             Arbeitsdateien für Lektionsinhalte (Teile, die zu einer Le
 e2e/                 Playwright-Tests (hilfen.ts: Test-Basis, die Konsolenfehler/fehlgeschlagene Requests
                      automatisch als Fehler wertet; fixtures/: Lektion mit je einer Frage pro Fragetyp)
 material/            Unterrichtsmaterial (PDF) — gitignored, urheberrechtlich geschützt, nie committen
+rueckmeldungen/      Export der Rückmeldungen nach Prüfungen pro Fach — gitignored, persönliche Daten
 ```
 
 ## Konventionen
@@ -55,6 +56,29 @@ Verbindlich ist `src/app/core/models/lektion.model.ts`; `validiereLektion()` pr�
 Optional `kurzfassung`: die ganze Lektion zum Durchlesen (Mini-Markdown, `## <Thema>` gliedert in Abschnitte = Karten mit Sprungmarke auf der Seite `lektion/:id/kurzfassung`; heisst der Abschnitt wie das Thema der Lernziele, zeigt die Seite dort deren Lernziele mit Links zu Lernzettel und Üben; darin je Lernziel ein `### ` als Leitfrage, `> ` ergibt einen Merke-Kasten); bei mitgelieferten Lektionen aus `content/<id>/kurzfassung.md` (`scripts/lektion-bauen.mjs`).
 
 Inhaltliche Regeln für Fragen: fachlich korrekt und am Material belegt; was nicht im Material steht, als `ergaenzt` markieren; Distraktoren plausibel, aber eindeutig falsch; keine «alle obigen»-Optionen; Rechenaufgaben ohne Taschenrechner lösbar, wenn die Prüfung keinen erlaubt.
+
+## Rückmeldungen nach Prüfungen
+
+Nach der echten Prüfung erfasst die Person pro Lektion eine Rückmeldung (`PruefungsRueckmeldung` in
+`core/models/rueckmeldung.model.ts`, Store `rueckmeldungen`, im Backup): wie gut Lernziele und Stoff
+passten, welche Lernziele drankamen, Schwierigkeit im Vergleich zur App, Aufgabenarten, Beispielfragen,
+Tipps. **Fach = Lehrperson:** `lehrpersonProfile()` fasst alle Rückmeldungen eines Fachs zu einem Profil
+zusammen. Es wirkt auf die Probeprüfung (`pruefungsStil()` → `waehlePruefung(…, stil)`) und auf die
+Erstellung neuer Lektionen: `profilAlsText()` geht als Abschnitt «Stil der Lehrperson» in den KI-Auftrag
+(`KiAuftrag.stilLehrperson`, API-Weg und Kopier-Prompt) und lässt sich auf der Seite `rueckmeldungen`
+kopieren oder herunterladen. Lektionen haben dazu optional `lehrperson` (nur Anzeige).
+
+- **Keine Vorbelegung:** Passung, Stoff und Schwierigkeit sind optional; ohne Antwort zählen sie
+  nicht ins Profil (`schwierigkeitMittel`/`lernzielePassendMittel` dann `null`). Die Schwierigkeit
+  wird nach Aktualität gewichtet (neueste Prüfung zählt am meisten).
+- **Datenschutz:** `profilAlsText()` enthält keine Noten und den Namen der Lehrperson nur mit
+  `{ mitLehrperson: true }` (Datei-Export) — nie im KI-Auftrag; Beispielfragen und Tipps gehen mit
+  (UI-Texte sagen das). Mitgelieferte Lektionen bekommen keine `lehrperson` (öffentliches Repo,
+  `lektion-bauen.mjs` meldet sonst einen Fehler); Exporte für den Skill `lektion-erstellen` liegen
+  in `rueckmeldungen/` als `<fach>.json`, `rueckmeldungen-<fach>.json` oder `<fach>.md`
+  (gitignored), `lektion-bauen.mjs` zeigt dann Kennzahlen zum Abgleich.
+- Eine Rückmeldung gehört zur Lektion-id (`rm-<id>`): `LektionService.freieId()` zählt die ids
+  verwaister Rückmeldungen als belegt; ein geändertes Fach zieht `RueckmeldungService.fachNachziehen()` nach.
 
 ## Befehle
 

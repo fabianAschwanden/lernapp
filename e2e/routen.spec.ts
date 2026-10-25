@@ -135,9 +135,12 @@ const ROUTEN: {
       return [];
     },
   },
+  { pfad: `${L}/rueckmeldung`, titel: 'Rückmeldung zur Prüfung' },
+  { pfad: '/rueckmeldungen', titel: 'Rückmeldungen' },
   { pfad: '/lektion/gibt-es-nicht', titel: 'Lektion nicht gefunden' },
   { pfad: '/lektion/gibt-es-nicht/lernzettel', titel: 'Lernzettel nicht gefunden' },
   { pfad: '/lektion/gibt-es-nicht/kurzfassung', titel: 'Kurzfassung nicht gefunden' },
+  { pfad: '/lektion/gibt-es-nicht/rueckmeldung', titel: 'Lektion nicht gefunden' },
 ];
 
 test.describe('Alle Routen', () => {
@@ -171,6 +174,8 @@ test.describe('Alle Routen', () => {
       [`${L}/lernzettel`, 'Lernzettel'],
       [`${L}/kurzfassung`, 'Kurzfassung'],
       ['/einstellungen', 'Einstellungen'],
+      [`${L}/rueckmeldung`, 'Rückmeldung zur Prüfung'],
+      ['/rueckmeldungen', 'Rückmeldungen'],
     ] as const) {
       await page.goto(pfad);
       await expect(page).toHaveTitle(titel);

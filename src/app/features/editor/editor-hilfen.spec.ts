@@ -38,6 +38,7 @@ describe('editor-hilfen', () => {
       titel: 'T',
       beschreibung: '',
       klasse: '',
+      lehrperson: ' ',
       hinweise: ['', 'Taschenrechner erlaubt'],
       kurzfassung: '  \n ',
       quellen: [],
@@ -48,6 +49,7 @@ describe('editor-hilfen', () => {
     };
     const b = bereinige(l);
     expect(b.klasse).toBeUndefined();
+    expect(b.lehrperson).toBeUndefined();
     expect('kurzfassung' in b).toBe(false);
     expect(bereinige({ ...l, kurzfassung: '## A\nText' }).kurzfassung).toBe('## A\nText');
     expect(b.hinweise).toEqual(['Taschenrechner erlaubt']);

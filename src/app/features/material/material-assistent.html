@@ -62,6 +62,7 @@
                 autocomplete="off"
                 [value]="fach()"
                 (input)="fach.set(wert($event))"
+                (change)="fachUebernommen()"
               />
               <datalist id="faecher">
                 @for (f of faecher(); track f) {
@@ -69,6 +70,42 @@
                 }
               </datalist>
             </div>
+            <div class="feld">
+              <label for="lehrperson">Lehrperson</label>
+              <input
+                id="lehrperson"
+                class="eingabe"
+                autocomplete="off"
+                placeholder="Name oder Kürzel (optional)"
+                [value]="lehrperson()"
+                (input)="lehrperson.set(wert($event))"
+              />
+            </div>
+            @if (profil(); as p) {
+              <div class="hinweis stapel">
+                <p>
+                  {{ anzahl(p.anzahl, 'Rückmeldung', 'Rückmeldungen') }} zu früheren Prüfungen in
+                  {{ p.fach }} {{ p.anzahl === 1 ? 'fliesst' : 'fliessen' }} in die Erstellung ein:
+                  Claude richtet Fragetypen, Schwierigkeit und Formulierungen nach dem Stil deiner
+                  Lehrperson aus.
+                </p>
+                <label class="check">
+                  <input
+                    type="checkbox"
+                    [checked]="stilVerwenden()"
+                    (change)="stilVerwenden.set(checked($event))"
+                  />
+                  Rückmeldungen früherer Prüfungen berücksichtigen
+                </label>
+                <p class="klein leise">
+                  Bei der Erstellung mit Claude werden sie mit dem Auftrag an Anthropic gesendet
+                  (auch Beispielfragen und Tipps; ohne Noten und ohne Namen der Lehrperson).
+                </p>
+                <a routerLink="/rueckmeldungen" [queryParams]="{ fach: p.schluessel }"
+                  >Rückmeldungen zu {{ p.fach }} ansehen</a
+                >
+              </div>
+            }
             <div class="feld">
               <label for="titel">Titel</label>
               <input
@@ -398,6 +435,13 @@
         @case (4) {
           <div class="karte stapel">
             <h3>Mit Claude erstellen</h3>
+            @if (auftrag().stilLehrperson && profil(); as p) {
+              <p class="klein leise">
+                Im Stil deiner Lehrperson, aus
+                {{ anzahl(p.anzahl, 'Rückmeldung', 'Rückmeldungen') }} zu früheren Prüfungen (gilt
+                auch für den kopierten Prompt).
+              </p>
+            }
             @if (hatApiSchluessel()) {
               <p class="klein leise">
                 {{ anzahlBilder() }} Bilder,
@@ -407,8 +451,11 @@
                 Franken API-Guthaben.
               </p>
               <p class="klein leise">
-                Die gewählten PDF-Seiten, Fotos und Texte werden dazu an Anthropic
-                (<code>api.anthropic.com</code>) gesendet. Lade keine Fotos mit persönlichen Daten
+                Die gewählten PDF-Seiten, Fotos und Texte@if (auftrag().stilLehrperson) {
+                  sowie die Rückmeldungen früherer Prüfungen (Beispielfragen, Tipps; ohne Noten und
+                  ohne Namen)
+                }
+                werden dazu an Anthropic (<code>api.anthropic.com</code>) gesendet. Lade keine Fotos mit persönlichen Daten
                 hoch.
               </p>
               @if (zuVieleFragen()) {

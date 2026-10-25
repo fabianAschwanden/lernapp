@@ -14,6 +14,14 @@
  * Die Validierung nutzt dieselbe Funktion wie die App (validiereLektion), dazu
  * Qualitätswarnungen (ß, fehlende Bilder, Antwortverteilung, doppelte Fragen,
  * Arbeitsnotizen wie «bitte … abgleichen», Erklärungen mit «Richtig.»/«Falsch.»).
+ *
+ * Liegen Rückmeldungen früherer Prüfungen des Fachs unter rueckmeldungen/<fach>.json,
+ * rueckmeldungen/rueckmeldungen-<fach>.json (Download-Name aus der App) oder
+ * rueckmeldungen/<fach>.md (gitignored), nennt das Skript die Datei und Kennzahlen
+ * der Lektion zum Abgleich (Anteil Schwierigkeit 3, Anteil offener Fragen).
+ *
+ * Fehler, wenn `lehrperson` gesetzt ist: Mitgelieferte Lektionen landen im
+ * öffentlichen Repo. Den Namen selbst aus content/<id>/kopf.json löschen.
  */
 import { build } from 'esbuild';
 import { existsSync, readFileSync, readdirSync, writeFileSync, mkdtempSync } from 'node:fs';
@@ -98,6 +106,42 @@ function qualitaet(l) {
   return w;
 }
 
+const slug = (s) =>
+  s.toLowerCase().replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue')
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+/** Hinweis auf Rückmeldungen früherer Prüfungen im selben Fach (falls lokal vorhanden). */
+function stilHinweis(l) {
+  const s = slug(l.fach ?? '');
+  const ordner = join(wurzel, 'rueckmeldungen');
+  const dateien = [`${s}.json`, `rueckmeldungen-${s}.json`, `${s}.md`]
+    .map((n) => join(ordner, n))
+    .filter(existsSync);
+  if (!dateien.length || !l.fragen?.length) return;
+  const anteil = (f) => `${Math.round((l.fragen.filter(f).length / l.fragen.length) * 100)} %`;
+  console.log(`  STIL    Rückmeldungen früherer Prüfungen: ${dateien.map((d) => d.slice(wurzel.length + 1)).join(', ')}`);
+  console.log(`          Lektion: Schwierigkeit 3 ${anteil((f) => f.schwierigkeit === 3)}, offene Fragen ${anteil((f) => f.typ === 'offen')}, Rechnen ${anteil((f) => f.typ === 'zahl')}`);
+  const json = dateien.find((d) => d.endsWith('.json'));
+  if (!json) return;
+  try {
+    const d = lies(json);
+    const rs = (Array.isArray(d) ? d : d.rueckmeldungen ?? []).filter((r) => typeof r?.schwierigkeit === 'number');
+    if (rs.length) {
+      const m = rs.reduce((s, r) => s + r.schwierigkeit, 0) / rs.length;
+      console.log(`          Prüfungen: ${rs.length}, Schwierigkeit gegenüber der App im Mittel ${m > 0 ? '+' : ''}${m.toFixed(1)} (−2 … +2)`);
+    }
+  } catch {
+    console.log(`          ${json} ist kein gültiges JSON.`);
+  }
+}
+
+/** Datenschutz: mitgelieferte Lektionen ohne Namen der Lehrperson (öffentliches Repo). */
+function datenschutzFehler(l) {
+  return typeof l.lehrperson === 'string' && l.lehrperson.trim()
+    ? ['lehrperson gesetzt: Mitgelieferte Lektionen ohne Lehrperson (öffentliches Repo) – Feld in kopf.json löschen']
+    : [];
+}
+
 function zusammenfuehren(ordner) {
   const kopf = lies(join(ordner, 'kopf.json'));
   const lernziele = kopf.lernziele.map((lz) => ({ ...lz }));
@@ -139,8 +183,10 @@ if (args[0] === '--pruefen') {
   for (const d of dateien) {
     const l = lies(d);
     const fehler = validiere(l);
+    fehler.push(...datenschutzFehler(l));
     fehlerGesamt += fehler.length;
     bericht(d, fehler, fehler.length ? [] : qualitaet(l));
+    stilHinweis(l);
   }
 } else if (args[0] === '--pruefen-teil') {
   const teilPfad = resolve(args[1]);
@@ -154,15 +200,18 @@ if (args[0] === '--pruefen') {
     fragen: teil.fragen ?? [],
   };
   const fehler = validiere(l);
+  fehler.push(...datenschutzFehler(l));
   fehlerGesamt += fehler.length;
   bericht(teilPfad, fehler, fehler.length ? [] : qualitaet(l));
 } else if (args[0]) {
   const ordner = resolve(args[0]);
   const l = zusammenfuehren(ordner);
   const fehler = validiere(l);
+  fehler.push(...datenschutzFehler(l));
   fehlerGesamt += fehler.length;
   const ziel = join(wurzel, 'public/lektionen', `${l.id}.json`);
   bericht(ziel, fehler, fehler.length ? [] : qualitaet(l));
+  stilHinweis(l);
   if (!fehler.length) {
     writeFileSync(ziel, JSON.stringify(l, null, 2) + '\n');
     const indexPfad = join(wurzel, 'public/lektionen/index.json');

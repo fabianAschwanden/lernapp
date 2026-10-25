@@ -1,10 +1,12 @@
 import { DecimalPipe } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 import { BackupService, ImportErgebnis } from '../../core/services/backup.service';
 import { Einstellungen, EinstellungenService } from '../../core/services/einstellungen.service';
 import { InstallationService } from '../../core/services/installation.service';
 import { KiGeneratorService } from '../../core/services/ki-generator.service';
+import { RueckmeldungService } from '../../core/services/rueckmeldung.service';
 import { SpeicherService } from '../../core/services/speicher.service';
 
 interface Speicherstand {
@@ -36,7 +38,7 @@ const LEITNER = [
 /** Einstellungen: Lernen, Darstellung, KI-Schlüssel, Backup, Installation, Erklärungen. */
 @Component({
   selector: 'app-einstellungen',
-  imports: [DecimalPipe],
+  imports: [DecimalPipe, RouterLink],
   templateUrl: './einstellungen.html',
   styleUrl: './einstellungen.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -46,12 +48,14 @@ export class EinstellungenSeite {
   private readonly backup = inject(BackupService);
   private readonly ki = inject(KiGeneratorService);
   private readonly db = inject(SpeicherService);
+  private readonly rueckmeldungService = inject(RueckmeldungService);
 
   readonly modelle = MODELLE;
   readonly leitner = LEITNER;
   readonly farbschemata = FARBSCHEMATA;
   readonly werte = this.einstellungen.werte;
   readonly hatSchluessel = this.einstellungen.hatApiSchluessel;
+  readonly anzahlRueckmeldungen = computed(() => this.rueckmeldungService.alle().length);
 
   // KI
   readonly schluesselEingabe = signal('');
@@ -214,19 +218,21 @@ export class EinstellungenSeite {
   }
 
   async allesLoeschen(): Promise<void> {
-    if (!confirm('Wirklich alle Lektionen, deinen Lernstand und die Einstellungen auf diesem Gerät löschen?')) {
+    if (!confirm('Wirklich alle Lektionen, deinen Lernstand, deine Rückmeldungen und die Einstellungen auf diesem Gerät löschen?')) {
       this.loeschenSchritt.set(0);
       return;
     }
     // Zuerst die Inhalte leeren — das klappt auch, wenn die offene Verbindung
     // das Löschen der ganzen Datenbank blockiert.
     try {
-      const [lektionen, fortschritte, pruefungen] = await Promise.all([
+      const [lektionen, fortschritte, pruefungen, rueckmeldungen] = await Promise.all([
         this.db.alleLektionen(),
         this.db.alleFortschritte(),
         this.db.allePruefungen(),
+        this.db.alleRueckmeldungen(),
       ]);
       for (const l of lektionen) await this.db.loescheLektion(l.id);
+      for (const r of rueckmeldungen) await this.db.loescheRueckmeldung(r.id);
       const ids = new Set([...fortschritte, ...pruefungen].map((x) => x.lektionId));
       for (const id of ids) await this.db.loescheFortschritt(id);
       await this.db.entferne('einstellungen');

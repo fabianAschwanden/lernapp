@@ -68,6 +68,13 @@
       </div>
     </section>
 
+    @if (!rueckmeldung() && pruefungVorbei()) {
+      <a class="knopf aktion hervor breit" [routerLink]="['/lektion', l.id, 'rueckmeldung']">
+        <span class="aktion-titel">Rückmeldung zur Prüfung</span>
+        <span class="aktion-unter">Prüfung geschrieben? Gib Rückmeldung</span>
+      </a>
+    }
+
     @if (l.fragen.length) {
       <nav class="aktionen" aria-label="Lernen">
         <a class="knopf primaer aktion" [routerLink]="['/lektion', l.id, 'lernen']">
@@ -186,9 +193,20 @@
       </ul>
     }
 
+    @if (rueckmeldung()) {
+      <h2 class="ueberschrift-klein">Rückmeldung zur Prüfung</h2>
+      <a class="knopf aktion breit" [routerLink]="['/lektion', l.id, 'rueckmeldung']">
+        <span class="aktion-titel">Rückmeldung bearbeiten</span>
+        <span class="aktion-unter leise">{{ rueckmeldungInfo() }}</span>
+      </a>
+    }
+
     <h2 class="ueberschrift-klein">Verwalten</h2>
     <div class="verwalten">
       <a class="knopf" [routerLink]="['/lektion', l.id, 'bearbeiten']">Bearbeiten</a>
+      @if (!rueckmeldung() && !pruefungVorbei()) {
+        <a class="knopf" [routerLink]="['/lektion', l.id, 'rueckmeldung']">Rückmeldung zur Prüfung</a>
+      }
       <button type="button" class="knopf" (click)="exportieren()">Exportieren</button>
       <button type="button" class="knopf" (click)="zuruecksetzen()" [disabled]="beschaeftigt()">
         Lernstand zurücksetzen

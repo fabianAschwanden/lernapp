@@ -1,0 +1,383 @@
+<div class="seite stapel">
+  @if (lektion(); as l) {
+    <header class="stapel kopf">
+      <a [routerLink]="['/lektion', l.id]" class="knopf text zurueck"
+        ><span aria-hidden="true">←</span><span class="ellipse">{{ l.titel }}</span></a
+      >
+      <h1>Rückmeldung zur Prüfung</h1>
+      <p class="leise">
+        Wie war die Prüfung in <strong>{{ l.fach }}</strong> im Vergleich zum Lernen mit der App?
+        Gespeichert werden deine Antworten nur auf diesem Gerät (und im Backup). Erstellst du später
+        eine Lektion im selben Fach mit Claude, gehen sie ohne Note und ohne Namen der Lehrperson an
+        Anthropic, auch Beispielfragen und Tipps; du kannst das dort abwählen. Sie passen die
+        Probeprüfung an den Stil deiner Lehrperson an und fliessen in die nächsten Lektionen in
+        diesem Fach ein.
+      </p>
+    </header>
+
+    @if (entwurf(); as r) {
+      <form class="stapel" (submit)="$event.preventDefault(); speichern()">
+        <section class="karte stapel" aria-labelledby="rm-allgemein">
+          <h2 id="rm-allgemein">Zur Prüfung</h2>
+          <div class="zwei">
+            <div class="feld">
+              <label for="rm-datum">Datum der Prüfung</label>
+              <input
+                id="rm-datum"
+                class="eingabe"
+                type="date"
+                [value]="r.pruefungsdatum ?? ''"
+                (change)="setzeText('pruefungsdatum', $event)"
+              />
+            </div>
+            <div class="feld">
+              <label for="rm-note">Note (freiwillig)</label>
+              <input
+                id="rm-note"
+                class="eingabe"
+                type="text"
+                inputmode="decimal"
+                autocomplete="off"
+                placeholder="z. B. 4.5"
+                [value]="noteText()"
+                (input)="setzeNote($event)"
+                [attr.aria-invalid]="noteFehler() ? true : null"
+                aria-describedby="rm-note-hilfe"
+              />
+              <span
+                id="rm-note-hilfe"
+                class="klein"
+                [class.leise]="!noteFehler()"
+                [class.fehlertext]="noteFehler()"
+              >
+                {{ noteFehler() ?? 'Bleibt auf diesem Gerät und geht nie an die KI.' }}
+              </span>
+            </div>
+          </div>
+          <div class="feld">
+            <label for="rm-lehrperson">Lehrperson (freiwillig)</label>
+            <input
+              id="rm-lehrperson"
+              class="eingabe"
+              type="text"
+              autocomplete="off"
+              [attr.maxlength]="G.kurz"
+              [value]="r.lehrperson ?? ''"
+              (input)="setzeText('lehrperson', $event)"
+              list="rm-lehrpersonen"
+              aria-describedby="rm-lehrperson-hilfe"
+            />
+            <datalist id="rm-lehrpersonen">
+              @for (lp of lehrpersonen(); track lp) {
+                <option [value]="lp"></option>
+              }
+            </datalist>
+            <span id="rm-lehrperson-hilfe" class="leise klein"
+              >Name oder Kürzel, z. B. «Frau M.». Bleibt auf diesem Gerät (und im Backup), an die
+              KI geht er nicht.</span
+            >
+          </div>
+        </section>
+
+        <section class="karte stapel" aria-labelledby="rm-vergleich">
+          <h2 id="rm-vergleich">Prüfung und Lernstoff</h2>
+          <fieldset class="gruppe">
+            <legend>Wie gut passten die Lernziele zu dem, was drankam?</legend>
+            @if (offen().has('passend')) {
+              <span class="leise klein">Noch offen</span>
+            }
+            <div class="segmente skala">
+              @for (o of passendOptionen; track o.w) {
+                <label class="segment" [class.aktiv]="r.lernzielePassend === o.w">
+                  <input
+                    type="radio"
+                    name="rm-passend"
+                    [checked]="r.lernzielePassend === o.w"
+                    (change)="setzePassend(o.w)"
+                  />
+                  {{ o.t }}
+                </label>
+              }
+            </div>
+            <label
+              class="segment ohne"
+              [class.aktiv]="beantwortet().has('passend') && r.lernzielePassend === undefined"
+            >
+              <input
+                type="radio"
+                name="rm-passend"
+                [checked]="beantwortet().has('passend') && r.lernzielePassend === undefined"
+                (change)="setzePassend(null)"
+              />
+              Keine Angabe
+            </label>
+          </fieldset>
+          <fieldset class="gruppe">
+            <legend>Wurde der ganze Lernstoff abgefragt?</legend>
+            @if (offen().has('stoff')) {
+              <span class="leise klein">Noch offen</span>
+            }
+            <div class="segmente vier">
+              @for (o of stoffOptionen; track o.w) {
+                <label class="segment" [class.aktiv]="r.stoffAbgefragt === o.w">
+                  <input
+                    type="radio"
+                    name="rm-stoff"
+                    [checked]="r.stoffAbgefragt === o.w"
+                    (change)="setzeStoff(o.w)"
+                  />
+                  {{ o.t }}
+                </label>
+              }
+            </div>
+            <label
+              class="segment ohne"
+              [class.aktiv]="beantwortet().has('stoff') && r.stoffAbgefragt === undefined"
+            >
+              <input
+                type="radio"
+                name="rm-stoff"
+                [checked]="beantwortet().has('stoff') && r.stoffAbgefragt === undefined"
+                (change)="setzeStoff(null)"
+              />
+              Keine Angabe
+            </label>
+          </fieldset>
+          <fieldset class="gruppe">
+            <legend>Wie schwierig war die Prüfung im Vergleich zum Üben mit der App?</legend>
+            @if (offen().has('schwierigkeit')) {
+              <span class="leise klein">Noch offen</span>
+            }
+            <div class="segmente skala">
+              @for (o of schwierigkeitOptionen; track o.w) {
+                <label class="segment" [class.aktiv]="r.schwierigkeit === o.w">
+                  <input
+                    type="radio"
+                    name="rm-schwierigkeit"
+                    [checked]="r.schwierigkeit === o.w"
+                    (change)="setzeSchwierigkeit(o.w)"
+                  />
+                  {{ o.t }}
+                </label>
+              }
+            </div>
+            <label
+              class="segment ohne"
+              [class.aktiv]="beantwortet().has('schwierigkeit') && r.schwierigkeit === undefined"
+            >
+              <input
+                type="radio"
+                name="rm-schwierigkeit"
+                [checked]="beantwortet().has('schwierigkeit') && r.schwierigkeit === undefined"
+                (change)="setzeSchwierigkeit(null)"
+              />
+              Keine Angabe
+            </label>
+          </fieldset>
+          <fieldset class="gruppe">
+            <legend>Wie war die Zeit? (freiwillig)</legend>
+            <div class="segmente vier">
+              @for (o of zeitOptionen; track o.w) {
+                <label class="segment" [class.aktiv]="r.zeit === o.w">
+                  <input
+                    type="radio"
+                    name="rm-zeit"
+                    [checked]="r.zeit === o.w"
+                    (change)="setzeZeit(o.w)"
+                  />
+                  {{ o.t }}
+                </label>
+              }
+              <label class="segment" [class.aktiv]="!r.zeit">
+                <input
+                  type="radio"
+                  name="rm-zeit"
+                  [checked]="!r.zeit"
+                  (change)="setzeZeit(null)"
+                />
+                Keine Angabe
+              </label>
+            </div>
+          </fieldset>
+        </section>
+
+        @if (r.lernziele.length) {
+          <section class="karte stapel" aria-labelledby="rm-lernziele">
+            <h2 id="rm-lernziele">Welche Lernziele kamen dran?</h2>
+            @for (g of lernzielGruppen(); track g.titel) {
+              <div class="zeile zwischen">
+                <h3 class="thema">{{ g.titel }}</h3>
+                @if (g.unbeurteilt.length > 1) {
+                  <button
+                    type="button"
+                    class="knopf klein"
+                    [attr.aria-label]="'Alle übrigen: Ja – ' + g.titel"
+                    (click)="uebrigeJa(g.unbeurteilt)"
+                  >
+                    Alle übrigen: Ja
+                  </button>
+                }
+              </div>
+              @for (lz of g.lernziele; track lz.index) {
+                <fieldset class="gruppe lernziel">
+                  <legend>{{ lz.text }}</legend>
+                  <div class="segmente">
+                    @for (o of abdeckungOptionen; track o.w) {
+                      <label class="segment" [class.aktiv]="lz.abdeckung === o.w">
+                        <input
+                          type="radio"
+                          [name]="'rm-lz-' + lz.index"
+                          [checked]="lz.abdeckung === o.w"
+                          (change)="setzeAbdeckung(lz.index, o.w)"
+                        />
+                        {{ o.t }}
+                      </label>
+                    }
+                  </div>
+                </fieldset>
+              }
+            }
+          </section>
+        }
+
+        <section class="karte stapel" aria-labelledby="rm-aufgaben">
+          <h2 id="rm-aufgaben">Aufgaben an der Prüfung</h2>
+          <fieldset class="gruppe">
+            <legend>Welche Aufgabenarten kamen vor?</legend>
+            @for (o of artOptionen; track o.w) {
+              <label class="option" [class.gewaehlt]="r.aufgabenarten.includes(o.w)">
+                <input
+                  type="checkbox"
+                  [checked]="r.aufgabenarten.includes(o.w)"
+                  (change)="umschaltenArt(o.w, $any($event.target).checked)"
+                />
+                <span>{{ o.t }}</span>
+              </label>
+            }
+          </fieldset>
+          <div class="feld">
+            <label for="rm-ausserhalb">Was kam dran, das nicht in der App war?</label>
+            <textarea
+              id="rm-ausserhalb"
+              class="eingabe"
+              [attr.maxlength]="G.text"
+              [value]="r.ausserhalb ?? ''"
+              (input)="setzeText('ausserhalb', $event)"
+            ></textarea>
+          </div>
+
+          <h3>Beispielfragen</h3>
+          <p class="leise klein">
+            Schreib Fragen auf, an die du dich erinnerst — möglichst im Wortlaut. Sie zeigen den
+            Stil deiner Lehrperson.
+          </p>
+          @for (b of r.beispielfragen; track $index; let i = $index) {
+            <div class="feld">
+              <label [for]="'beispiel-' + i">Beispielfrage {{ i + 1 }}</label>
+              <textarea
+                [id]="'beispiel-' + i"
+                class="eingabe kurz"
+                [attr.maxlength]="G.beispielfrage"
+                [value]="b"
+                (input)="setzeBeispiel(i, $event)"
+              ></textarea>
+              <button
+                type="button"
+                class="knopf klein gefahr entfernen"
+                [attr.aria-label]="'Beispielfrage ' + (i + 1) + ' entfernen'"
+                (click)="beispielEntfernen(i)"
+              >
+                Entfernen
+              </button>
+            </div>
+          }
+          @if (r.beispielfragen.length < G.beispielfragen) {
+            <button
+              type="button"
+              id="beispiel-hinzufuegen"
+              class="knopf"
+              (click)="beispielHinzufuegen()"
+            >
+              + Beispielfrage hinzufügen
+            </button>
+          }
+
+          <div class="feld">
+            <label for="rm-tipps">Tipps und Stil der Lehrperson</label>
+            <textarea
+              id="rm-tipps"
+              class="eingabe"
+              [attr.maxlength]="G.text"
+              placeholder="z. B. «Will Fachbegriffe genau», «Fragt gern Beispiele aus dem Alltag»"
+              [value]="r.tipps ?? ''"
+              (input)="setzeText('tipps', $event)"
+            ></textarea>
+          </div>
+        </section>
+
+        <div class="zeile">
+          <button
+            type="submit"
+            class="knopf primaer"
+            [disabled]="speichertGerade()"
+          >
+            Rückmeldung speichern
+          </button>
+          @if (gespeichert()) {
+            <button type="button" class="knopf gefahr" (click)="loeschen()">
+              Rückmeldung löschen
+            </button>
+          }
+        </div>
+      </form>
+
+      <div aria-live="polite">
+        @if (meldung(); as m) {
+          <p [class]="'hinweis ' + m.art">{{ m.text }}</p>
+        }
+      </div>
+
+      @if (gespeichert() && profil(); as p) {
+        <section class="karte stapel" aria-labelledby="rm-fuer-dich">
+          <h2 id="rm-fuer-dich" #zusammenfassung tabindex="-1">Was das für dich heisst</h2>
+          <p class="klein leise">
+            {{ p.anzahl === 1 ? 'Deine Rückmeldung' : p.anzahl + ' Rückmeldungen' }} zu Prüfungen in
+            {{ p.fach }}:
+          </p>
+          <app-profil-kennzahlen [profil]="p" />
+          <ul class="tipps klein">
+            @for (t of tipps(); track $index) {
+              <li>{{ t }}</li>
+            }
+          </ul>
+          <div class="zeile">
+            @if (naechsteLektion(); as n) {
+              <a class="knopf primaer" [routerLink]="['/lektion', n.id, 'pruefung']"
+                >Probeprüfung {{ n.titel }}</a
+              >
+            } @else {
+              <a class="knopf primaer" routerLink="/neu" [queryParams]="{ fach: l.fach }"
+                >Nächste Lektion in {{ l.fach }} erstellen</a
+              >
+            }
+            <a class="knopf" routerLink="/rueckmeldungen" [queryParams]="{ fach: p.schluessel }"
+              >Zum Profil {{ p.fach }}</a
+            >
+            <a class="knopf" [routerLink]="['/lektion', l.id, 'pruefung']"
+              >Diese Probeprüfung wiederholen</a
+            >
+          </div>
+        </section>
+      }
+    }
+  } @else if (geladen()) {
+    <h1>Lektion nicht gefunden</h1>
+    <p class="leise">Diese Lektion gibt es nicht (mehr). Vielleicht wurde sie gelöscht.</p>
+    <div class="zeile">
+      <a class="knopf primaer" routerLink="/rueckmeldungen">Alle Rückmeldungen</a>
+      <a class="knopf" routerLink="/">Zur Startseite</a>
+    </div>
+  } @else {
+    <p class="leise" aria-live="polite">Lektion wird geladen …</p>
+  }
+</div>

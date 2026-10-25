@@ -1,0 +1,63 @@
+.kopf {
+  gap: 4px;
+}
+h1 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+h2 {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+h2:focus {
+  outline: none;
+}
+.zurueck {
+  align-self: flex-start;
+  margin-left: -8px;
+}
+.liste {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.liste-punkte {
+  margin: 0;
+  padding-left: 1.2em;
+}
+.liste-punkte li + li {
+  margin-top: 4px;
+}
+.vorformatiert {
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+.aufklappen summary {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+.aufklappen > :last-child {
+  margin-bottom: 8px;
+}
+.ueberschrift-klein {
+  margin: 8px 0 0;
+}
+.eintrag {
+  padding: 8px 0;
+  flex-wrap: nowrap;
+}
+.eintrag + .eintrag {
+  border-top: 1px solid var(--rand);
+}
+.eintrag-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.eintrag .knopf {
+  flex: none;
+}
