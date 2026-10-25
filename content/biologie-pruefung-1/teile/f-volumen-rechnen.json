@@ -927,6 +927,56 @@
       "einheit": "Atemzüge",
       "erklaerung": "Unterschied pro Minute: 36 − 15 = 21 Atemzüge. Pro Stunde: 21 × 60 = **1260 Atemzüge** mehr. (Oder: 36 × 60 = 2160 und 15 × 60 = 900; 2160 − 900 = 1260.) Je jünger, desto höher die Atemfrequenz – Säuglinge atmen in Ruhe 35–40-mal pro Minute.",
       "schwierigkeit": 2
+    },
+    {
+      "id": "f-vitalkapazitaet-23",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Worin unterscheiden sich das **inspiratorische Reservevolumen** und die **Inspirationskapazität**?",
+      "optionen": [
+        "Das inspiratorische Reservevolumen kann nach normaler Ausatmung eingeatmet werden, die Inspirationskapazität nach normaler Einatmung zusätzlich.",
+        "Beide bezeichnen dasselbe Volumen, nur einmal in Litern und einmal in Prozent.",
+        "Das inspiratorische Reservevolumen kann nach normaler Einatmung noch zusätzlich eingeatmet werden; die Inspirationskapazität (Atemzugvolumen + inspiratorisches Reservevolumen) kann nach normaler Ausatmung eingeatmet werden.",
+        "Das inspiratorische Reservevolumen bleibt nach maximaler Ausatmung in der Lunge, die Inspirationskapazität kann nach maximaler Ausatmung eingeatmet werden."
+      ],
+      "richtig": 2,
+      "erklaerung": "Das **Reservevolumen** ist das, was *zusätzlich* zur normalen Einatmung noch hineingeht (ca. 2,5–3 l). Die **Inspirationskapazität** zählt das Atemzugvolumen dazu: Sie beginnt nach normaler Ausatmung (ca. 0,5 l + 2,5 l = 3 l). Option 1 vertauscht die beiden, Option 4 beschreibt Residualvolumen und Vitalkapazität."
+    },
+    {
+      "id": "f-vitalkapazitaet-24",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 1,
+      "frage": "«Die **Vitalkapazität** ist das Luftvolumen, das man **nach maximaler Einatmung ausatmen** kann.»",
+      "richtig": true,
+      "erklaerung": "Wahr. Die Vitalkapazität ist das Luftvolumen, das nach maximaler Ausatmung eingeatmet werden kann – oder umgekehrt: das Luftvolumen, das nach maximaler Einatmung ausgeatmet werden kann (ca. 4,5 l). Beide Formulierungen beschreiben dieselbe Menge."
+    },
+    {
+      "id": "f-vitalkapazitaet-25",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "zahl",
+      "schwierigkeit": 2,
+      "frage": "Eine Person hat ein **Atemzugvolumen von 0,5 l** und ein **inspiratorisches Reservevolumen von 2,5 l**. Wie gross ist ihre **Inspirationskapazität**?",
+      "richtig": 3,
+      "einheit": "l",
+      "toleranz": 0,
+      "erklaerung": "Inspirationskapazität = Atemzugvolumen + inspiratorisches Reservevolumen = 0,5 l + 2,5 l = **3 l**. Das ist die gesamte Luftmenge, die nach normaler Ausatmung eingeatmet werden kann."
+    },
+    {
+      "id": "f-vitalkapazitaet-26",
+      "lernzielId": "lz-vitalkapazitaet",
+      "typ": "offen",
+      "schwierigkeit": 2,
+      "frage": "Erläutere die Begriffe **inspiratorisches Reservevolumen** und **Inspirationskapazität**. Wie hängen sie zusammen?",
+      "musterloesung": "**Inspiratorisches Reservevolumen:** Luftvolumen, das nach normaler Einatmung noch zusätzlich eingeatmet werden kann (ca. 2,5–3 l).\n\n**Inspirationskapazität:** gesamte Luftmenge (also Atemzugvolumen + inspiratorisches Reservevolumen), die nach normaler Ausatmung eingeatmet werden kann (ca. 3 l).\n\n**Zusammenhang:** Die Inspirationskapazität enthält das inspiratorische Reservevolumen und zusätzlich das Atemzugvolumen.",
+      "stichworte": [
+        "Reservevolumen: nach normaler Einatmung zusätzlich",
+        "Inspirationskapazität: nach normaler Ausatmung",
+        "Inspirationskapazität = Atemzugvolumen + inspiratorisches Reservevolumen",
+        "ca. 2,5–3 l bzw. ca. 3 l"
+      ],
+      "erklaerung": "Begriffe Spirometrie aus den Lösungen zu Teil 3. Merkhilfe: **Reservevolumen** = zusätzlich zur normalen Atmung, **Kapazität** = mehrere Volumen zusammen."
     }
   ]
 }

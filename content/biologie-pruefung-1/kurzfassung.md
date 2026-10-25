@@ -124,6 +124,8 @@ Die **Ventilation** beruht auf einer **Druckdifferenz** zwischen der Lunge und d
 
 Die Kette: Brustraum wird grösser → Lunge wird **gedehnt** → Druck in den Alveolen sinkt unter den Aussendruck → Luft strömt ein. Das Einströmen ist also die **Folge** der Dehnung, nicht ihre Ursache.
 
+Zwei Modelle zeigen das Prinzip: Drückt man eine **Luftpumpe** zusammen, wird ihr Volumen kleiner, der Druck steigt über den Aussendruck, und Luft strömt aus, bis zum Druckausgleich. Zieht man beim **Lungenmodell** den Gummi nach unten, blasen sich die Ballone auf; schiebt man ihn nach oben, geht die Luft hinaus. Dabei steht der **Gummi für das Zwerchfell** und die **Ballone für die Lungenflügel**.
+
 ### Ausatmung (Exspiration): in Ruhe passiv
 
 Die Muskeln entspannen sich, das Zwerchfell wölbt sich nach oben, der Brustkorb senkt sich, und die Lunge zieht sich durch ihre **Eigenelastizität** zusammen. Der Druck steigt über den Aussendruck, Luft strömt aus. Aktiv helfen können die **Bauchmuskeln** und die **inneren Zwischenrippenmuskeln**.
@@ -168,6 +170,8 @@ Gemessen wird mit der **Spirometrie** (Kurve: **Spirogramm**).
 |---|---|---|
 | **Atemzugvolumen (AZV)** | Luft pro Atemzug in Ruhe | ca. **0,5 l** |
 | **Atemfrequenz** | Atemzüge pro Minute, Erwachsene in Ruhe | **12–18** |
+| **Inspiratorisches Reservevolumen (IRV)** | kannst du nach normaler Einatmung noch zusätzlich einatmen | ca. **2,5–3 l** |
+| **Inspirationskapazität (IC)** | AZV + IRV: kannst du nach normaler Ausatmung insgesamt einatmen | ca. **3 l** |
 | **Vitalkapazität (VC)** | Luft, die du nach maximaler Ausatmung maximal einatmen kannst | ca. **4,5 l** |
 | **Residualvolumen (RV)** | bleibt nach maximaler Ausatmung in der Lunge | ca. **1–1,5 l** |
 | **Totalkapazität** | VC + RV | ca. **6 l** |

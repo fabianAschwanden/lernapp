@@ -1184,6 +1184,77 @@
       ],
       "erklaerung": "Die Gesamtfrage zum Lernziel (Teil 3, S. 2–3): Definition, Vorgänge im Körper und Hilfe gehören alle dazu.",
       "schwierigkeit": 3
+    },
+    {
+      "id": "f-ventilation-35",
+      "lernzielId": "lz-ventilation",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Beim **Lungenmodell** (Glockenmodell) ziehst du den Gummi unten an der Glocke **nach unten**. Was beobachtest du?",
+      "optionen": [
+        "Die Ballone fallen zusammen, die Luft entweicht durch das Röhrchen.",
+        "Die Ballone bleiben gleich gross, nur die Glocke wölbt sich nach aussen.",
+        "Die Ballone blasen sich auf.",
+        "Die Ballone pendeln hin und her, ohne ihre Grösse zu ändern."
+      ],
+      "richtig": 2,
+      "erklaerung": "Zieht man den Gummi nach unten, wird der Raum in der Glocke grösser, die Ballone werden mitgezogen und blasen sich auf. Im Körper: **Gummi = Zwerchfell**, **Ballone = Lungenflügel**. Spannt sich das Zwerchfell an, bewegt es sich nach unten, die Lungen werden mitgezogen, ihr Volumen vergrössert sich."
+    },
+    {
+      "id": "f-ventilation-36",
+      "lernzielId": "lz-ventilation",
+      "typ": "einfachwahl",
+      "schwierigkeit": 2,
+      "frage": "Beim **Lungenmodell** schiebst du den Gummi wieder **nach oben**. Was passiert, und welchem Vorgang im Körper entspricht das?",
+      "optionen": [
+        "Die Ballone blasen sich noch stärker auf – wie bei einer besonders tiefen Einatmung.",
+        "Die Luft geht aus den Ballonen hinaus – wie bei der Ausatmung, wenn sich das Zwerchfell entspannt und nach oben wölbt.",
+        "Die Ballone bleiben aufgeblasen, weil die Luft im Röhrchen gefangen ist – wie das Residualvolumen.",
+        "Die Luft geht aus den Ballonen hinaus – wie bei der Einatmung, wenn sich das Zwerchfell anspannt."
+      ],
+      "richtig": 1,
+      "erklaerung": "Schiebt man den Gummi nach oben, wird der Raum in der Glocke kleiner, die Luft geht aus den Ballonen hinaus. Das entspricht der **ruhigen Ausatmung**: Das Zwerchfell entspannt sich und wölbt sich wieder nach oben, die Lunge wird kleiner, der Druck steigt über den Aussendruck, und Luft strömt aus."
+    },
+    {
+      "id": "f-ventilation-37",
+      "lernzielId": "lz-ventilation",
+      "typ": "offen",
+      "schwierigkeit": 2,
+      "frage": "Beschreibe, was du beim **Lungenmodell** (Glockenmodell mit Ballonen und Gummi) beobachtest, und übertrage die Beobachtung auf den Körper.",
+      "musterloesung": "**Beobachtung:** Wenn man das gummige Teil nach unten zieht, blasen sich die Ballone auf. Wenn man es nach oben schiebt, geht die Luft aus den Ballonen hinaus.\n\n**Vergleich mit dem Körper:** Ballone = Lungenflügel, gummiges Teil = Zwerchfell. Wenn sich das Zwerchfell anspannt (sich zusammenzieht), bewegt es sich nach unten. Die Lungen werden mitgezogen, ihr Volumen vergrössert sich – dadurch sinkt der Druck in ihnen, und Luft strömt ein.",
+      "stichworte": [
+        "Gummi nach unten → Ballone blasen sich auf",
+        "Gummi nach oben → Luft geht hinaus",
+        "Ballone = Lungenflügel",
+        "Gummi = Zwerchfell",
+        "Zwerchfell spannt sich an, bewegt sich nach unten",
+        "Lungen werden mitgezogen, Volumen grösser"
+      ],
+      "erklaerung": "Aufgabe «Lungenmodell» aus Teil 2 (Lösung der Lehrperson). Grenze des Modells: Die Glocke ist starr – die Brustatmung (Rippen heben sich) zeigt es nicht."
+    },
+    {
+      "id": "f-ventilation-38",
+      "lernzielId": "lz-ventilation",
+      "typ": "wahrfalsch",
+      "schwierigkeit": 2,
+      "frage": "«Die Lunge wird beim Einatmen gedehnt, **weil** Luft in sie einströmt.»",
+      "richtig": false,
+      "erklaerung": "Falsch – Ursache und Wirkung sind vertauscht. Das Einströmen von Luft ist die **Folge** der Dehnung: Die Lungen müssen gedehnt werden, damit der Druck in der Lunge unter den Umgebungsdruck sinkt. Dann strömt Luft ein, bis zum Druckausgleich (Lernkontrolle 1, Teil 2)."
+    },
+    {
+      "id": "f-ventilation-39",
+      "lernzielId": "lz-ventilation",
+      "typ": "einfachwahl",
+      "schwierigkeit": 1,
+      "frage": "Du drückst eine **Luftpumpe** zusammen, und Luft strömt vorne aus. Warum?",
+      "optionen": [
+        "Das Volumen im Innenraum wird kleiner, der Druck steigt über den Aussendruck – Luft strömt aus, bis zum Druckausgleich.",
+        "Der Druck im Innenraum sinkt, und die Aussenluft schiebt die Luft aus der Pumpe hinaus.",
+        "Beim Zusammendrücken entstehen zusätzliche Luftteilchen, die keinen Platz mehr haben.",
+        "Die Luft wird beim Zusammendrücken leichter und entweicht deshalb nach vorne."
+      ],
+      "richtig": 0,
+      "erklaerung": "Durch das Zusammendrücken wird das Volumen im Innenraum kleiner, der Druck steigt («die gleiche Menge an Teilchen hat somit weniger Platz»). Sobald der Luftdruck im Innenraum höher ist als der Aussendruck, strömen Luftteilchen aus, bis zum Druckausgleich. Die Zahl der Teilchen bleibt dabei gleich."
     }
   ]
 }
