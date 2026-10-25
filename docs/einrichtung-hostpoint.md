@@ -6,7 +6,7 @@ nur über GitHub Actions (`.github/workflows/hostpoint-deploy.yml`), nie von Han
 
 ```
 https://lernapp.urinet.ch            Website «Apache mit PHP», PHP 8.3+
-  ~/www/lernapp.urinet.ch/            Webroot: Build + .htaccess (aus deploy/htaccess) + api/
+  ~/www/lernapp/            Webroot: Build + .htaccess (aus deploy/htaccess) + api/
   ~/private/lernapp/config.php        Konfiguration mit Geheimnissen (ausserhalb des Webroots)
   MariaDB aziwivac.mysql.db.internal  nur aus Hostpoint-Webprozessen erreichbar (nicht aus CI/SSH)
 ```
@@ -19,7 +19,7 @@ Diese Schritte machst Du einmal selbst. Danach deployt jeder Push auf `main`.
 ## 1. Hostpoint
 
 1. **Website anlegen** (Control Panel › Websites): Domain `lernapp.urinet.ch`, Verzeichnis
-   `www/lernapp.urinet.ch`, Typ **«Apache mit PHP»**, PHP **8.3 oder neuer**.
+   `www/lernapp`, Typ **«Apache mit PHP»**, PHP **8.3 oder neuer**.
    Eine reine nginx-Website wertet die `.htaccess` nicht aus: Dann gibt es kein `/api`, und die
    Sperren für Punktdateien und `api/lib` greifen nicht. Der Deploy prüft vor dem Upload, ob die
    Website als Apache antwortet (`Server`-Header), und bricht sonst ab — das greift schon beim
@@ -118,7 +118,7 @@ Push auf `main` oder `gh workflow run hostpoint-deploy.yml --ref main`. Der Work
    - Vor dem Upload prüfen, ob die Website per HTTPS erreichbar ist, als Apache antwortet
      (`Server`-Header, greift schon beim ersten Deploy) und bei Folgedeploys Punktdateien sperrt.
    - FTPS-Upload mit Zertifikatsprüfung (`security: strict`): `config.php` nach
-     `private/lernapp/`, das Paket nach `www/lernapp.urinet.ch/`.
+     `private/lernapp/`, das Paket nach `www/lernapp/`.
    - Migrationen über `POST /api/admin/migrieren` ausführen. Sie laufen nach dem Code-Upload,
      deshalb sind sie immer abwärtskompatibel (expand/contract, siehe `api/README.md`).
    - Live-Prüfung mit Cache-Buster. Hostpoint cached rund 60 s, deshalb wartet der Schritt bis zu

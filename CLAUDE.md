@@ -105,7 +105,7 @@ kopieren oder herunterladen. Lektionen haben dazu optional `lehrperson` (nur Anz
 
 ## Betrieb
 
-Hostpoint, Website `lernapp.urinet.ch` («Apache mit PHP»), Webroot `www/lernapp.urinet.ch/`, Konfiguration
+Hostpoint, Website `lernapp.urinet.ch` («Apache mit PHP»), Webroot `www/lernapp/`, Konfiguration
 `~/private/lernapp/config.php`. Deploy nur über GitHub Actions (`.github/workflows/hostpoint-deploy.yml`):
 Jobs `test` (Lektionen, Vitest, `php -l`, PHP-Tests, E2E mit PHP + MariaDB), `apache`
 (`scripts/apache-test.sh`) und `deploy` (nur `main`: Secrets prüfen, Build, `config.php` aus Secrets mit

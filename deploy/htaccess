@@ -1,4 +1,4 @@
-# Lernapp: Webroot auf Hostpoint (Apache 2.4 mit PHP-FPM), www/lernapp.urinet.ch/.
+# Lernapp: Webroot auf Hostpoint (Apache 2.4 mit PHP-FPM), www/lernapp/.
 # Der Deploy (.github/workflows/hostpoint-deploy.yml) kopiert diese Datei als .htaccess in den Webroot.
 # Lokal geprüft mit scripts/apache-test.sh (Docker: mod_php und PHP-FPM).
 #

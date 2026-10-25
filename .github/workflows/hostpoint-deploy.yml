@@ -89,6 +89,8 @@ jobs:
       FTP_SERVER: sl1819.web.hostpoint.ch
       FTP_USER: aziwivac
       TABELLEN_PRAEFIX: ${{ vars.TABELLEN_PRAEFIX || 'lernapp_' }}
+      # Verzeichnis der Website im Control Panel (relativ zum FTP-Home), mit / am Ende
+      WEBROOT: ${{ vars.WEBROOT || 'www/lernapp/' }}
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -242,7 +244,7 @@ jobs:
           # oder wechselt Hostpoint die Kette, bricht der Deploy ab — so gewollt.
           security: strict
           local-dir: hostpoint/www/
-          server-dir: www/lernapp.urinet.ch/
+          server-dir: ${{ env.WEBROOT }}
 
       - name: Datenbank migrieren
         env:

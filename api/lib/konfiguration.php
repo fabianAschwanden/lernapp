@@ -9,8 +9,8 @@ namespace Lernapp;
  *
  * Gesucht wird in dieser Reihenfolge:
  *   1. Umgebungsvariable LERNAPP_CONFIG (lokal, Tests, E2E)
- *   2. <Home>/private/lernapp/config.php — auf Hostpoint liegt die API unter
- *      /home/<konto>/www/<domain>/api, das Home ist also dirname(api, 3)
+ *   2. das erste private/lernapp/config.php oberhalb des Webroots — auf Hostpoint liegt die API
+ *      unter /home/<konto>/www/<verzeichnis>/api, die Konfiguration unter /home/<konto>/private/
  *   3. ${HOME}/private/lernapp/config.php
  */
 final class Konfiguration
@@ -45,7 +45,15 @@ final class Konfiguration
         if (is_string($env) && $env !== '') {
             return $env;
         }
-        $kandidaten = [dirname($apiVerzeichnis, 3) . '/private/lernapp/config.php'];
+        // Webroot kann beliebig tief unter www/ liegen (z. B. www/lernapp.urinet.ch oder
+        // www/urinet.ch/lernapp): aufwärts das erste private/lernapp/config.php suchen.
+        $kandidaten = [];
+        for ($ordner = dirname($apiVerzeichnis), $i = 0; $i < 6; $ordner = dirname($ordner), $i++) {
+            $kandidaten[] = $ordner . '/private/lernapp/config.php';
+            if (dirname($ordner) === $ordner) {
+                break;
+            }
+        }
         $home = getenv('HOME');
         if (is_string($home) && $home !== '') {
             $kandidaten[] = rtrim($home, '/') . '/private/lernapp/config.php';
