@@ -102,6 +102,33 @@ async function pruefeKurzfassung(page: Page, id: string, titel: string, kurzfass
   await expect(page).toHaveURL(`/lektion/${id}/kurzfassung`);
 }
 
+/**
+ * Jedes Thema hat einen gleichnamigen Abschnitt, der zu Beginn seine Lernziele im
+ * Wortlaut zeigt; die Links führen zum Lernzettel bzw. zum Üben dieses Lernziels.
+ */
+async function pruefeLernzielBezug(
+  page: Page,
+  id: string,
+  lernziele: { id: string; thema: string; text: string }[],
+) {
+  await oeffne(page, `/lektion/${id}/kurzfassung`);
+  for (const thema of new Set(lernziele.map((lz) => lz.thema))) {
+    const box = page.getByRole('complementary', { name: `Lernziele: ${thema}`, exact: true });
+    const ziele = lernziele.filter((lz) => lz.thema === thema);
+    await expect(box.getByRole('listitem')).toHaveCount(ziele.length);
+    for (const [i, lz] of ziele.entries()) {
+      await expect(box.getByRole('listitem').nth(i)).toContainText(lz.text);
+    }
+  }
+  const erstes = lernziele[0];
+  await expect(page.getByRole('link', { name: `Üben: ${erstes.text}`, exact: true })).toHaveAttribute(
+    'href',
+    `/lektion/${id}/lernen?modus=lernziel&lz=${erstes.id}`,
+  );
+  await page.getByRole('link', { name: `Lernzettel: ${erstes.text}`, exact: true }).click();
+  await expect(page).toHaveURL(`/lektion/${id}/lernzettel?lz=${erstes.id}`);
+}
+
 /** Lektion ohne Kurzfassung: Meldung mit Links statt Abschnitten, kein Eintrag in der Übersicht. */
 async function pruefeOhneKurzfassung(page: Page, id: string) {
   await oeffne(page, `/lektion/${id}`);
@@ -129,7 +156,7 @@ function inZehnTagen(): string {
 const FIXTURE_KURZFASSUNG = [
   'Alles Wichtige für die Prüfung auf einen Blick.',
   '',
-  '## EVA-Prinzip',
+  '## Grundlagen',
   'Jeder Computer arbeitet nach **Eingabe – Verarbeitung – Ausgabe**. Ein sehr langes Wort wie Datenverarbeitungsgeräteeingabeschnittstellenbeschreibung darf die Seite nicht verbreitern.',
   '',
   '> **Merke:**',
@@ -156,9 +183,14 @@ test.describe('Kurzfassung', () => {
       // Inhalt vom Server lesen: so stimmt der Test mit dem ausgelieferten Build überein
       const antwort = await page.request.get(`/lektionen/${id}.json`);
       expect(antwort.ok()).toBe(true);
-      const lektion = (await antwort.json()) as { titel: string; kurzfassung?: string };
+      const lektion = (await antwort.json()) as {
+        titel: string;
+        kurzfassung?: string;
+        lernziele: { id: string; thema: string; text: string }[];
+      };
       if (lektion.kurzfassung?.trim()) {
         await pruefeKurzfassung(page, id, lektion.titel, lektion.kurzfassung);
+        await pruefeLernzielBezug(page, id, lektion.lernziele);
       } else {
         await pruefeOhneKurzfassung(page, id);
       }
@@ -190,7 +222,14 @@ test.describe('Kurzfassung', () => {
     );
     await expect(page.getByText('Alles Wichtige für die Prüfung auf einen Blick.')).toBeVisible();
     // Merke-Kasten mit Liste, Tabelle scrollt in sich statt die Seite zu verbreitern
-    const eva = page.getByRole('region', { name: 'EVA-Prinzip', exact: true });
+    const eva = page.getByRole('region', { name: 'Grundlagen', exact: true });
+    // Abschnitt mit Thema-Titel zeigt sein Lernziel, andere Abschnitte keine
+    await expect(eva.getByRole('complementary', { name: 'Lernziele: Grundlagen' })).toContainText(
+      'Du kannst das EVA-Prinzip erklären.',
+    );
+    await expect(
+      page.getByRole('region', { name: 'Speichereinheiten', exact: true }).getByRole('complementary'),
+    ).toHaveCount(0);
     await expect(eva.getByRole('blockquote')).toContainText('Merke:');
     await expect(eva.getByRole('blockquote').getByRole('listitem')).toHaveCount(2);
     await expect(

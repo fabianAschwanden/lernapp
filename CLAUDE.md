@@ -52,7 +52,7 @@ material/            Unterrichtsmaterial (PDF) — gitignored, urheberrechtlich 
 
 Verbindlich ist `src/app/core/models/lektion.model.ts`; `validiereLektion()` prüft es. Jede Frage gehört zu genau einem Lernziel (`lernzielId`), hat eine `erklaerung` (warum die Lösung stimmt) und eine `schwierigkeit` 1–3. Fragetypen: `einfachwahl`, `mehrfachwahl`, `wahrfalsch`, `zuordnen` (rechts darf sich wiederholen → Kategorien), `reihenfolge`, `zahl` (mit `einheit`/`toleranz`), `kurzantwort` (`akzeptiert`, Vergleich ohne Gross-/Kleinschreibung und Sonderzeichen), `offen` (Musterlösung, Selbsteinschätzung).
 
-Optional `kurzfassung`: die ganze Lektion zum Durchlesen (Mini-Markdown, `## Thema` gliedert in Abschnitte = Karten mit Sprungmarke auf der Seite `lektion/:id/kurzfassung`, `> ` ergibt einen Merke-Kasten); bei mitgelieferten Lektionen aus `content/<id>/kurzfassung.md` (`scripts/lektion-bauen.mjs`).
+Optional `kurzfassung`: die ganze Lektion zum Durchlesen (Mini-Markdown, `## <Thema>` gliedert in Abschnitte = Karten mit Sprungmarke auf der Seite `lektion/:id/kurzfassung`; heisst der Abschnitt wie das Thema der Lernziele, zeigt die Seite dort deren Lernziele mit Links zu Lernzettel und Üben; darin je Lernziel ein `### ` als Leitfrage, `> ` ergibt einen Merke-Kasten); bei mitgelieferten Lektionen aus `content/<id>/kurzfassung.md` (`scripts/lektion-bauen.mjs`).
 
 Inhaltliche Regeln für Fragen: fachlich korrekt und am Material belegt; was nicht im Material steht, als `ergaenzt` markieren; Distraktoren plausibel, aber eindeutig falsch; keine «alle obigen»-Optionen; Rechenaufgaben ohne Taschenrechner lösbar, wenn die Prüfung keinen erlaubt.
 

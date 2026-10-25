@@ -1,4 +1,21 @@
-import { lesezeitMinuten, teileKurzfassung, zaehleWoerter } from './kurzfassung';
+import { lernzieleJeAbschnitt, lesezeitMinuten, teileKurzfassung, zaehleWoerter } from './kurzfassung';
+
+describe('lernzieleJeAbschnitt', () => {
+  it('ordnet Lernziele über das Thema zu, Reihenfolge wie in der Lektion', () => {
+    const { abschnitte } = teileKurzfassung('## Atmung: Zellatmung\nx\n## Bau der Lunge\ny\n## Prüfungs-Check\nz');
+    const lernziele = [
+      { id: 'a', thema: 'Bau der Lunge' },
+      { id: 'b', thema: 'atmung zellatmung' },
+      { id: 'c', thema: 'Bau der Lunge' },
+      { id: 'd', thema: 'Anderes Thema' },
+    ];
+    expect(lernzieleJeAbschnitt(abschnitte, lernziele).map((l) => l.map((lz) => lz.id))).toEqual([
+      ['b'],
+      ['a', 'c'],
+      [],
+    ]);
+  });
+});
 
 describe('teileKurzfassung', () => {
   it('teilt an «## »-Überschriften und behält die Einleitung', () => {

@@ -59,8 +59,8 @@ export function systemPrompt(): string {
 ## Kurzfassung
 - Im Feld «kurzfassung» schreibst du zusätzlich eine Kurzfassung der ganzen Lektion zum Durchlesen und Studieren am Stück, angelehnt an die Lernziele und die Lerninhalte. Umfang je nach Stoffmenge etwa 600–1500 Wörter.
 - ${KURZFASSUNG_SYNTAX}
-- Gliedere mit «## » nach Themen, in der Reihenfolge der Lernziele. Jeder Abschnitt wird in der App eine eigene Karte mit Sprungmarke; Text vor der ersten «## »-Überschrift erscheint als kurze Einleitung.
-- Je Thema: die Kernaussagen in ganzen, verständlichen Sätzen, wichtige Zahlen und Begriffe (fett) und ein Merke-Kasten mit «> » für das Wichtigste.
+- **Bezug auf die Lernziele:** Gliedere mit «## » nach den Themen der Lernziele, in ihrer Reihenfolge; der Titel ist **genau das Thema** (gleicher Wortlaut wie im Feld «thema»). Die App zeigt dann zu Beginn jedes Abschnitts die Lernziele dieses Themas mit Links zu Lernzettel und Üben. Jeder Abschnitt wird eine eigene Karte mit Sprungmarke; Text vor der ersten «## »-Überschrift erscheint als kurze Einleitung.
+- Im Abschnitt **je Lernziel ein «### »-Zwischentitel**, in der Reihenfolge der Lernziele, formuliert als Leitfrage zum Lernziel (z. B. Lernziel «Sie wissen, wozu die Zellatmung dient» → «### Wozu dient die Zellatmung?»). Darunter steht genau das, was das Lernziel verlangt: die Kernaussagen in ganzen, verständlichen Sätzen, wichtige Zahlen und Begriffe (fett). Am Ende des Abschnitts ein Merke-Kasten mit «> » für das Wichtigste.
 - Am Schluss ein Abschnitt «## Prüfungs-Check» mit typischen Fallen und Verwechslungen.
 - Es gelten dieselben Regeln wie für die Lernzettel: nur Stoff aus dem Material, Ergänzungen knapp und fachlich gesichert.
 
@@ -199,7 +199,7 @@ export const BEISPIEL_LEKTION: Omit<
     },
   ],
   kurzfassung:
-    'Wie ein Computer Daten verarbeitet.\n\n## EVA-Prinzip\nJeder Computer arbeitet nach **E**ingabe – **V**erarbeitung – **A**usgabe. Tastatur und Maus sind Eingabegeräte, die **CPU** verarbeitet, Bildschirm und Drucker geben aus.\n\n> **Merke:** Eingabe → Verarbeitung → Ausgabe\n\n## Prüfungs-Check\n- Der Drucker ist ein Ausgabe-, kein Eingabegerät.\n- 1 Byte = 8 Bit',
+    'Wie ein Computer Daten verarbeitet.\n\n## Grundlagen\n### Wie funktioniert das EVA-Prinzip?\nJeder Computer arbeitet nach **E**ingabe – **V**erarbeitung – **A**usgabe. Tastatur und Maus sind Eingabegeräte, die **CPU** verarbeitet, Bildschirm und Drucker geben aus.\n\n> **Merke:** Eingabe → Verarbeitung → Ausgabe\n\n## Prüfungs-Check\n- Der Drucker ist ein Ausgabe-, kein Eingabegerät.\n- 1 Byte = 8 Bit',
   fragen: [
     {
       id: 'f-eva-01',

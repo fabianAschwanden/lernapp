@@ -67,6 +67,24 @@
   color: var(--primaer);
   margin-bottom: 10px;
 }
+.lernziele {
+  margin: 0 0 14px;
+}
+.lz-titel {
+  margin: 0 0 4px;
+  font-weight: 700;
+}
+.lernziele ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+.lernziele li + li {
+  margin-top: 6px;
+}
+.lz-links {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
 @media (min-width: 560px) {
   .einleitung,
   .abschnitt .md {
@@ -90,7 +108,8 @@
 
 @media print {
   .sprungmarken,
-  .weiter {
+  .weiter,
+  .lz-links {
     display: none !important;
   }
   .abschnitt {

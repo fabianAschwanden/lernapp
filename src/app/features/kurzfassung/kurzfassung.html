@@ -55,6 +55,38 @@
       @for (a of gliederung().abschnitte; track $index) {
         <section class="karte abschnitt" [attr.aria-labelledby]="'abschnitt-' + $index">
           <h2 [id]="'abschnitt-' + $index" tabindex="-1">{{ a.titel }}</h2>
+          @if (lernziele()[$index]; as ziele) {
+            @if (ziele.length) {
+              <aside class="hinweis lernziele" [attr.aria-label]="'Lernziele: ' + a.titel">
+                <p class="lz-titel">{{ ziele.length === 1 ? 'Lernziel' : 'Lernziele' }}</p>
+                <ul>
+                  @for (z of ziele; track z.id) {
+                    <li>
+                      {{ z.text }}
+                      <span class="lz-links">
+                        <a
+                          class="knopf text"
+                          [routerLink]="['/lektion', l.id, 'lernzettel']"
+                          [queryParams]="{ lz: z.id }"
+                          [attr.aria-label]="'Lernzettel: ' + z.text"
+                          >Lernzettel</a
+                        >
+                        @if (hatFragen()) {
+                          <a
+                            class="knopf text"
+                            [routerLink]="['/lektion', l.id, 'lernen']"
+                            [queryParams]="{ modus: 'lernziel', lz: z.id }"
+                            [attr.aria-label]="'Üben: ' + z.text"
+                            >Üben</a
+                          >
+                        }
+                      </span>
+                    </li>
+                  }
+                </ul>
+              </aside>
+            }
+          }
           <div class="md" [innerHTML]="a.text | md"></div>
         </section>
       }

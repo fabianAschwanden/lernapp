@@ -97,7 +97,9 @@ describe('ki-prompt', () => {
 
   it('Beispiel-Kurzfassung nutzt Abschnitte, Merke-Kasten und Prüfungs-Check', () => {
     const k = BEISPIEL_LEKTION.kurzfassung ?? '';
-    expect(k).toMatch(/^## EVA-Prinzip$/m);
+    // Abschnitt = Thema der Lernziele, darin ein «### » je Lernziel
+    const themen = BEISPIEL_LEKTION.lernziele.map((lz) => lz.thema);
+    for (const thema of themen) expect(k).toContain(`## ${thema}\n### `);
     expect(k).toMatch(/^> /m);
     expect(k).toMatch(/^## Prüfungs-Check$/m);
     expect(k).not.toContain('ß');

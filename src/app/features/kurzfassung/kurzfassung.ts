@@ -2,14 +2,15 @@ import { DOCUMENT } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, inject, input } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
-import { lesezeitMinuten, teileKurzfassung } from '../../core/domain/kurzfassung';
+import { lernzieleJeAbschnitt, lesezeitMinuten, teileKurzfassung } from '../../core/domain/kurzfassung';
 import { LektionService } from '../../core/services/lektion.service';
 import { MdPipe } from '../../shared/md.pipe';
 import { countdownText, datumLang, tageBis } from '../lektion/lektion-anzeige';
 
 /**
  * Kurzfassung einer Lektion zum Durchlesen: Abschnitte an den «## »-Überschriften,
- * je als Karte mit Sprungmarke, dazu Lesezeit, Prüfungsdatum und Hinweise. Druckbar.
+ * je als Karte mit Sprungmarke und den Lernzielen des gleichnamigen Themas,
+ * dazu Lesezeit, Prüfungsdatum und Hinweise. Druckbar.
  */
 @Component({
   selector: 'app-kurzfassung',
@@ -35,6 +36,10 @@ export class Kurzfassung {
   });
 
   readonly gliederung = computed(() => teileKurzfassung(this.text()));
+  /** Lernziele, auf die sich jeder Abschnitt bezieht (über das gleichnamige Thema). */
+  readonly lernziele = computed(() =>
+    lernzieleJeAbschnitt(this.gliederung().abschnitte, this.lektion()?.lernziele ?? []),
+  );
   readonly lesezeit = computed(() => lesezeitMinuten(this.text()));
 
   readonly pruefung = computed(() => {

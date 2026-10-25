@@ -1,5 +1,7 @@
 /** Kurzfassung einer Lektion: Gliederung an den «## »-Überschriften und Lesezeit. */
 
+import { normalisiereText } from './text';
+
 export interface KurzfassungAbschnitt {
   /** Überschrift ohne Markdown-Zeichen. */
   titel: string;
@@ -39,6 +41,22 @@ export function teileKurzfassung(text: string | undefined): GegliederteKurzfassu
     einleitung: einleitung.join('\n').trim(),
     abschnitte: abschnitte.map((a) => ({ titel: a.titel, text: a.zeilen.join('\n').trim() })),
   };
+}
+
+/**
+ * Lernziele je Abschnitt: Ein Abschnitt gehört zu den Lernzielen, deren Thema
+ * gleich heisst wie seine Überschrift (Vergleich ohne Gross-/Kleinschreibung und
+ * Satzzeichen). Reihenfolge wie in der Lektion; Abschnitte ohne Thema (z. B.
+ * «Prüfungs-Check») bekommen eine leere Liste.
+ */
+export function lernzieleJeAbschnitt<T extends { thema: string }>(
+  abschnitte: KurzfassungAbschnitt[],
+  lernziele: readonly T[],
+): T[][] {
+  return abschnitte.map((a) => {
+    const titel = normalisiereText(a.titel);
+    return lernziele.filter((lz) => normalisiereText(lz.thema) === titel);
+  });
 }
 
 /** Anzahl Wörter ohne Markdown-Zeichen (Rauten, Listenzeichen, Tabellenstriche …). */

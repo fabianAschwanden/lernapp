@@ -48,6 +48,19 @@ function qualitaet(l) {
   }
   if (!l.kurzfassung?.trim()) w.push('Keine Kurzfassung (content/<id>/kurzfassung.md).');
   else if (!/^## /m.test(l.kurzfassung)) w.push('Kurzfassung ohne «## Abschnitte».');
+  else {
+    // Bezug auf die Lernziele: «## <Thema>» je Thema, darin ein «### » je Lernziel
+    const abschnitte = new Map(
+      l.kurzfassung.split(/^## /m).slice(1).map((a) => [a.split('\n')[0].trim(), a]),
+    );
+    for (const thema of new Set(l.lernziele.map((lz) => lz.thema))) {
+      const a = abschnitte.get(thema);
+      const n = l.lernziele.filter((lz) => lz.thema === thema).length;
+      if (!a) w.push(`Kurzfassung: kein Abschnitt «## ${thema}» (Titel = Thema der Lernziele).`);
+      else if ((a.match(/^### /gm) ?? []).length !== n)
+        w.push(`Kurzfassung «${thema}»: ${n} Lernziele, aber ${(a.match(/^### /gm) ?? []).length} «### »-Zwischentitel.`);
+    }
+  }
   const proLz = new Map();
   for (const f of l.fragen) proLz.set(f.lernzielId, (proLz.get(f.lernzielId) ?? 0) + 1);
   for (const lz of l.lernziele) {

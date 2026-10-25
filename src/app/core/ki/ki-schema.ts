@@ -145,7 +145,7 @@ export const LEKTION_SCHEMA: Schema = objekt({
   hinweise: textListe('Hinweise zur Prüfung, z. B. erlaubte Hilfsmittel'),
   lernziele: { type: 'array', items: LERNZIEL_SCHEMA },
   kurzfassung: text(
-    'Kurzfassung der ganzen Lektion zum Durchlesen (Mini-Markdown, mit «## Thema» gegliedert, «> » für Merke-Kästen, am Ende «## Prüfungs-Check»)',
+    'Kurzfassung der ganzen Lektion zum Durchlesen (Mini-Markdown; «## <Thema>» mit dem Thema der Lernziele als Titel, darin je Lernziel ein «### » mit einer Leitfrage; «> » für Merke-Kästen, am Ende «## Prüfungs-Check»)',
   ),
   fragen: { type: 'array', items: FRAGE_SCHEMA },
 });

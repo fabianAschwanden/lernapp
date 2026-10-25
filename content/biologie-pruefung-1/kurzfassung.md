@@ -1,10 +1,12 @@
-Der Prüfungsstoff kompakt. Die Prüfung ist am **29. Oktober 2026**: Fachbegriffe musst du **richtig schreiben** und dein Wissen auf neue Situationen anwenden können.
+Der Prüfungsstoff kompakt, geordnet nach den Lernzielen: Jeder Abschnitt beginnt mit seinen Lernzielen, und jeder Zwischentitel beantwortet eines davon. Die Prüfung ist am **29. Oktober 2026**: Fachbegriffe musst du **richtig schreiben** und dein Wissen auf neue Situationen anwenden können.
 
 ## Einführung Biologie
 
+### Was bedeutet «bios»?
+
 **Biologie** kommt aus dem Griechischen: **bíos** = Leben, **lógos** = Wort, Lehre – also die **Lehre vom Leben**.
 
-### Kennzeichen von Lebewesen
+### Woran erkennst du ein Lebewesen?
 
 Ob etwas lebt, prüfst du an sechs **Kennzeichen**:
 
@@ -17,9 +19,7 @@ Ob etwas lebt, prüfst du an sechs **Kennzeichen**:
 
 Nicht-Lebewesen zeigen höchstens einzelne Kennzeichen, oft nur scheinbar: Feuer «wächst» und verbraucht Sauerstoff, besteht aber nicht aus Zellen und gibt kein Erbgut weiter. Ein Kristall wächst nur durch Anlagerung und hat keinen Stoffwechsel. **Viren** haben weder Zellen noch eigenen Stoffwechsel und vermehren sich nur in lebenden Zellen, besitzen aber Erbgut und verändern sich durch Evolution: eine **«Grenzform des Lebens»**, die zu keinem der 5 Reiche gehört.
 
-Die **Zelle** ist die **kleinste Einheit von Leben**. Ein erwachsener Mensch besteht aus ca. **10^14 = 100 Billionen** Zellen.
-
-### Die 5 Reiche
+### In welche 5 Reiche teilt man Lebewesen ein?
 
 | Reich | Zellen | Ernährung | Beispiele |
 |---|---|---|---|
@@ -29,9 +29,13 @@ Die **Zelle** ist die **kleinste Einheit von Leben**. Ein erwachsener Mensch bes
 | **Pilze** | viele (Ausnahme: Backhefe) | heterotroph, verdauen **ausserhalb** | Fliegenpilz, Schimmelpilz |
 | **Tiere** | viele | heterotroph, verdauen **im Körper** | Fuchs, Forelle, Mensch |
 
-**Autotroph** heisst: stellt die Nährstoffe mit Lichtenergie selbst her (**Fotosynthese**). **Heterotroph** heisst: ist auf Nahrung aus anderen Lebewesen angewiesen.
+**Autotroph** heisst: stellt die Nährstoffe mit Lichtenergie selbst her (**Fotosynthese**). **Heterotroph** heisst: ist auf Nahrung aus anderen Lebewesen angewiesen. Unterschieden werden die Reiche also nach **Zellkern**, **Anzahl Zellen** und **Ernährung**.
 
-### Organisationsstufen
+### Was ist die kleinste Einheit von Leben?
+
+Die **Zelle** ist die **kleinste Einheit von Leben**. Ein erwachsener Mensch besteht aus ca. **10^14 = 100 Billionen** Zellen.
+
+### Was sind Gewebe, Organ und Organsystem?
 
 **Atom → Molekül → Zelle → Gewebe → Organ → Organsystem → Organismus**
 
@@ -44,7 +48,7 @@ Die **Zelle** ist die **kleinste Einheit von Leben**. Ein erwachsener Mensch bes
 
 ## Atmung: Zellatmung und Gasaustausch
 
-### Zellatmung
+### Wozu dient die Zellatmung, und wie lautet ihre Gleichung?
 
 Die **Zellatmung** dient der **Energiegewinnung**. In allen Zellen, genauer in den **Mitochondrien** («Kraftwerke der Zelle»), wird Traubenzucker mit Sauerstoff «verbrannt» – wie in einer Kerze, nur langsam und ohne Flamme. Ohne Sauerstoff fehlt der Zelle die Energie, und sie stirbt ab.
 
@@ -52,7 +56,7 @@ Die **Zellatmung** dient der **Energiegewinnung**. In allen Zellen, genauer in d
 
 In Worten: Ein Molekül **Traubenzucker (Glucose)** reagiert mit sechs Molekülen **Sauerstoff** zu je sechs Molekülen **Kohlenstoffdioxid** und **Wasser**. Dabei wird **Energie** frei.
 
-### Die Schritte der Atmung
+### In welche Schritte wird die Atmung unterteilt?
 
 1. **Austausch der Lungenluft** durch Ein- und Ausatmen (**Ventilation**)
 2. **Diffusion in der Lunge**: O2 ins Blut, CO2 aus dem Blut
@@ -61,7 +65,7 @@ In Worten: Ein Molekül **Traubenzucker (Glucose)** reagiert mit sechs Moleküle
 
 Diese Schritte bilden die **äussere Atmung**. Danach folgt in der Zelle die **Zellatmung** mit O2-Verbrauch und CO2-Bildung: die **innere Atmung**.
 
-### Gasaustausch
+### Was ist der Gasaustausch, und wo findet er statt?
 
 **Gasaustausch** ist der Austausch von **Sauerstoff** und **Kohlenstoffdioxid** durch **Diffusion**: Die Gase wandern von selbst dorthin, wo weniger von ihnen ist. Das geschieht in den Schritten 2 und 4: **in der Lunge** zwischen den **Alveolen** (Lungenbläschen) und den **Kapillaren** (feinste Blutgefässe) sowie **im Gewebe** zwischen Blut und Körperzellen.
 
@@ -70,39 +74,44 @@ Diese Schritte bilden die **äussere Atmung**. Danach folgt in der Zelle die **Z
 
 ## Bau der Atemwege und der Lunge
 
-### Weg der Luft
+### Wie beschriftest du Atemwege und Lunge?
 
-Nasenhöhle → Rachen → Kehlkopf → **Luftröhre** → **Hauptbronchien** → **Sekundärbronchien** → **Tertiärbronchien** → **Bronchiolen** → **Alveolargang** → **Alveolen** (Lungenbläschen)
+Folge dem Weg der Luft: Nasenhöhle → Rachen → Kehlkopf → **Luftröhre** → **Hauptbronchien** → **Sekundärbronchien** → **Tertiärbronchien** → **Bronchiolen** → **Alveolargang** → **Alveolen** (Lungenbläschen)
 
 Zum Beschriften gehören auch **sauerstoffarmes Blut** (blau, zu den Alveolen) und **sauerstoffreiches Blut** (rot, weg davon). Achtung: In der Ansicht von vorne liegt der **linke Lungenflügel rechts im Bild**. Es ist der kleinere.
 
-Die Verzweigung heisst **Bronchialbaum**: Stamm = Luftröhre, Äste = Bronchien, Zweige = Bronchiolen, Blätter = Alveolen. Luftröhre, Bronchien und Bronchiolen **leiten** die Luft nur. Gase tauscht erst die Alveole aus – wie beim Baum das Blatt.
+### Wie schwer ist die Lunge, wie gross ist ein Lungenflügel, und wie unterscheiden sich die beiden?
 
-### Zahlen zur Lunge
+Die Lunge wiegt ca. **1,1 kg**, ein Lungenflügel ist ca. **26 cm** lang (hoch). Der **rechte Lungenflügel** hat **3 Lappen**, der **linke** nur **2**: Er ist kleiner, weil das **Herz** links Platz braucht (**Herzbucht**).
+
+### Wie lang und wie dick ist die Luftröhre, und was ist besonders an ihr?
+
+Die Luftröhre ist ca. **10–12 cm** lang und hat einen Durchmesser von ca. **1,5–2 cm**. **Hufeisenförmige Knorpelspangen** halten sie offen, auch beim Unterdruck der Einatmung. Hinten sind sie offen: Dort liegt die **Speiseröhre**, die sich beim Schlucken ausdehnen kann. Die Luftröhre liegt also vorne, du ertastest sie an den Spangen. Auch die **Bronchien** haben Knorpel, die **Bronchiolen** nicht mehr.
+
+### Was ist der Bronchialbaum?
+
+Die Verzweigung der Atemwege heisst **Bronchialbaum**: Stamm = Luftröhre, Äste = Bronchien, Zweige = Bronchiolen, Blätter = Alveolen. Luftröhre, Bronchien und Bronchiolen **leiten** die Luft nur. Gase tauscht erst die Alveole aus – wie beim Baum das Blatt.
+
+### Wie reinigen sich die Atemwege selbst?
+
+Innen sind die Atemwege mit **Schleimhaut** und **Flimmerepithel** ausgekleidet. Staub und Krankheitserreger bleiben im **Schleim** kleben, die **Flimmerhärchen** schieben ihn wie ein Förderband zum Rachen, wo er verschluckt oder abgehustet wird. Bei einer **Infektion** entsteht mehr Schleim, so werden mehr Erreger abtransportiert. **Rauchen** lähmt die Flimmerhärchen: Der Schleim bleibt liegen und muss abgehustet werden (**Raucherhusten**).
+
+### Welche Aufgabe haben die Alveolen, wie viele gibt es, und wie gross sind sie?
+
+Die **Alveolen** sind der Ort des **Gasaustauschs**: Ihre hauchdünne Wand ist von **Kapillaren** umsponnen.
 
 | Grösse | Wert |
 |---|---|
-| Gewicht der Lunge | ca. **1,1 kg** |
-| Länge (Höhe) eines Lungenflügels | ca. **26 cm** |
-| Luftröhre: Länge / Durchmesser | ca. **10–12 cm** / ca. **1,5–2 cm** |
 | Anzahl Alveolen | ca. **400 Millionen** |
 | Grösse einer Alveole | ca. **0,2 mm** |
 | Gesamtoberfläche der Alveolen | rund **100 m^2** |
 | Wand einer Alveole | ca. **1 µm** |
 
-Der **rechte Lungenflügel** hat **3 Lappen**, der **linke** nur **2**: Er ist kleiner, weil das **Herz** links Platz braucht (**Herzbucht**).
+Eine Alveole ist 5- bis 10-mal kleiner als ein Stecknadelkopf, alle zusammen sind grösser als ein Schulzimmer (76,5 m^2).
 
-### Luftröhre und Selbstreinigung
+### Was besagt das Prinzip der Oberflächenvergrösserung?
 
-**Hufeisenförmige Knorpelspangen** halten die Luftröhre offen, auch beim Unterdruck der Einatmung. Hinten sind sie offen: Dort liegt die **Speiseröhre**, die sich beim Schlucken ausdehnen kann. Die Luftröhre liegt also vorne, du ertastest sie an den Spangen. Auch die **Bronchien** haben Knorpel, die **Bronchiolen** nicht mehr.
-
-Innen sind die Atemwege mit **Schleimhaut** und **Flimmerepithel** ausgekleidet. Staub und Krankheitserreger bleiben im **Schleim** kleben, die **Flimmerhärchen** schieben ihn wie ein Förderband zum Rachen, wo er verschluckt oder abgehustet wird. Bei einer **Infektion** entsteht mehr Schleim, so werden mehr Erreger abtransportiert. **Rauchen** lähmt die Flimmerhärchen: Der Schleim bleibt liegen und muss abgehustet werden (**Raucherhusten**).
-
-### Alveolen und Oberflächenvergrösserung
-
-Die **Alveolen** sind der Ort des **Gasaustauschs**: Ihre hauchdünne Wand ist von **Kapillaren** umsponnen. Eine Alveole ist 5- bis 10-mal kleiner als ein Stecknadelkopf, alle zusammen sind grösser als ein Schulzimmer (76,5 m^2).
-
-Das **Prinzip der Oberflächenvergrösserung** besagt: Ein Körper vergrössert seine Oberfläche, um den **Stoff- oder Energieaustausch** mit der Umgebung zu verbessern. Je grösser die Oberfläche im Verhältnis zum Volumen, desto besser und schneller der Austausch. Die Würfelrechnung zeigt es: Halbierst du die Kante, verdoppelt sich die Gesamtoberfläche bei gleichem Volumen (384 → 768 → 1536 cm^2).
+Ein Körper vergrössert seine Oberfläche, um den **Stoff- oder Energieaustausch** mit der Umgebung zu verbessern. Je grösser die Oberfläche im Verhältnis zum Volumen, desto besser und schneller der Austausch. Die Würfelrechnung zeigt es: Halbierst du die Kante, verdoppelt sich die Gesamtoberfläche bei gleichem Volumen (384 → 768 → 1536 cm^2).
 
 Erreicht wird das durch viele kleine Teile, **Faltungen**, **Ein- und Ausstülpungen** oder **Verzweigungen**: in der **Lunge** (Alveolen), im **Dünndarm** (Falten, **Zotten**, **Mikrozotten**) und bei **Pflanzenwurzeln** (**Wurzelhaare**).
 
@@ -111,34 +120,28 @@ Erreicht wird das durch viele kleine Teile, **Faltungen**, **Ein- und Ausstülpu
 
 ## Ventilation und Steuerung der Atmung
 
-### Warum strömt Luft?
+### Wie erfolgt die Ventilation der Lungen?
 
-Die **Ventilation** beruht auf einer **Druckdifferenz** zwischen der Lunge und der Umgebungsluft. Luft strömt immer vom höheren zum tieferen Druck, bis zum **Druckausgleich**. Nach dem **Boyle-Mariotte-Gesetz** gilt bei gleicher Temperatur p · V = konstant: Wird das Volumen grösser, sinkt der Druck.
+Das Lernziel verlangt drei Dinge: die Voraussetzungen für das Ein- und Ausströmen, die Atemmuskeln und die Pleura.
 
-### Einatmung (Inspiration): aktiv
+**Voraussetzung: eine Druckdifferenz.** Luft strömt immer vom höheren zum tieferen Druck, bis zum **Druckausgleich**. Nach dem **Boyle-Mariotte-Gesetz** gilt bei gleicher Temperatur p · V = konstant: Wird das Volumen grösser, sinkt der Druck. Drückt man eine **Luftpumpe** zusammen, wird ihr Volumen kleiner, der Druck steigt über den Aussendruck, und Luft strömt aus.
 
-**Die Lunge ist kein Muskel!** Andere Muskeln vergrössern den Brustraum:
+**Einatmung (Inspiration): aktiv.** **Die Lunge ist kein Muskel!** Andere Muskeln vergrössern den Brustraum:
 
 - Das **Zwerchfell**, der wichtigste Atemmuskel, spannt sich an und flacht nach unten ab (**Bauchatmung** oder Zwerchfellatmung). Es drückt die Bauchorgane nach unten, darum wölbt sich der Bauch vor.
 - Die **äusseren Zwischenrippenmuskeln** heben die Rippen nach oben aussen (**Brustatmung**).
 
-Die Kette: Brustraum wird grösser → Lunge wird **gedehnt** → Druck in den Alveolen sinkt unter den Aussendruck → Luft strömt ein. Das Einströmen ist also die **Folge** der Dehnung, nicht ihre Ursache.
+Die Kette: Brustraum wird grösser → Lunge wird **gedehnt** → Druck in den Alveolen sinkt unter den Aussendruck → Luft strömt ein. Das Einströmen ist also die **Folge** der Dehnung, nicht ihre Ursache. Das **Lungenmodell** zeigt es: Zieht man den Gummi (**Zwerchfell**) nach unten, blasen sich die Ballone (**Lungenflügel**) auf; schiebt man ihn nach oben, geht die Luft hinaus.
 
-Zwei Modelle zeigen das Prinzip: Drückt man eine **Luftpumpe** zusammen, wird ihr Volumen kleiner, der Druck steigt über den Aussendruck, und Luft strömt aus, bis zum Druckausgleich. Zieht man beim **Lungenmodell** den Gummi nach unten, blasen sich die Ballone auf; schiebt man ihn nach oben, geht die Luft hinaus. Dabei steht der **Gummi für das Zwerchfell** und die **Ballone für die Lungenflügel**.
+**Ausatmung (Exspiration): in Ruhe passiv.** Die Muskeln entspannen sich, das Zwerchfell wölbt sich nach oben, der Brustkorb senkt sich, und die Lunge zieht sich durch ihre **Eigenelastizität** zusammen. Der Druck steigt über den Aussendruck, Luft strömt aus. Aktiv helfen können die **Bauchmuskeln** und die **inneren Zwischenrippenmuskeln**.
 
-### Ausatmung (Exspiration): in Ruhe passiv
+**Pleura (Brustfell): Aufbau und Bedeutung.** Die **Pleura** besteht aus zwei Blättern: Das **Lungenfell** überzieht die Lunge, das **Rippenfell** kleidet die Brusthöhle aus. Im **Pleuraspalt** dazwischen liegt ein **Flüssigkeitsfilm**, aber keine Luft. Darum haften die Blätter aneinander, bleiben aber seitlich verschiebbar wie zwei nasse Glasplatten. So **folgt die Lunge** den Bewegungen von Brustkorb und Zwerchfell. Dringt bei einer **Stichverletzung** Luft in den Spalt, haften sie nicht mehr: Die Lunge wird nicht mehr gedehnt und **fällt zusammen**. Es strömt keine Luft mehr ein, und die Person kann **ersticken**, obwohl die Atembewegungen weitergehen.
 
-Die Muskeln entspannen sich, das Zwerchfell wölbt sich nach oben, der Brustkorb senkt sich, und die Lunge zieht sich durch ihre **Eigenelastizität** zusammen. Der Druck steigt über den Aussendruck, Luft strömt aus. Aktiv helfen können die **Bauchmuskeln** und die **inneren Zwischenrippenmuskeln**.
-
-### Pleura (Brustfell)
-
-Die **Pleura** besteht aus zwei Blättern: Das **Lungenfell** überzieht die Lunge, das **Rippenfell** kleidet die Brusthöhle aus. Im **Pleuraspalt** dazwischen liegt ein **Flüssigkeitsfilm**, aber keine Luft. Darum haften die Blätter aneinander, bleiben aber seitlich verschiebbar wie zwei nasse Glasplatten. So **folgt die Lunge** den Bewegungen von Brustkorb und Zwerchfell. Dringt bei einer **Stichverletzung** Luft in den Spalt, haften sie nicht mehr: Die Lunge wird nicht mehr gedehnt und **fällt zusammen**. Es strömt keine Luft mehr ein, und die Person kann **ersticken**, obwohl die Atembewegungen weitergehen.
-
-### Steuerung
+### Wie wird die Atmung gesteuert?
 
 Atemtiefe und Atemfrequenz steuert das **zentrale Nervensystem** unbewusst, vor allem über den **CO2-Gehalt des Blutes**: Steigt das CO2, wird die Atmung angeregt; sinkt es, wird sie gedämpft.
 
-### Hyperventilation
+### Was ist eine Hyperventilation, was passiert dabei, und wie hilfst du?
 
 **Hyperventilation** ist eine **unphysiologisch vertiefte und/oder beschleunigte Atmung**, meist ausgelöst durch Stress:
 
@@ -153,7 +156,7 @@ Die Angst vor den Symptomen verstärkt das Atmen weiter. **So hilfst du:** beruh
 
 ## Atemluft und Atemvolumen
 
-### Zusammensetzung der Luft
+### Wie viel Sauerstoff und CO2 enthalten Einatmungs- und Ausatmungsluft?
 
 | Gas | Einatmungsluft | Ausatmungsluft |
 |---|---|---|
@@ -162,21 +165,23 @@ Die Angst vor den Symptomen verstärkt das Atmen weiter. **So hilfst du:** beruh
 
 Der Körper nimmt nur **4 %** des eingeatmeten Luftvolumens als Sauerstoff auf. Deshalb ist **Beatmung** möglich: Die Ausatmungsluft enthält noch rund 17 % Sauerstoff.
 
-### Atemvolumen
+### Wie gross sind Atemzugvolumen und Atemfrequenz in Ruhe?
+
+Pro Atemzug atmest du in Ruhe ca. **0,5 l** ein und aus (**Atemzugvolumen**, AZV). Erwachsene atmen in Ruhe **12–18-mal pro Minute** (**Atemfrequenz**).
+
+### Was sind Vitalkapazität und Residualvolumen, und wie gross sind sie?
 
 Gemessen wird mit der **Spirometrie** (Kurve: **Spirogramm**).
 
 | Grösse | Bedeutung | Wert |
 |---|---|---|
-| **Atemzugvolumen (AZV)** | Luft pro Atemzug in Ruhe | ca. **0,5 l** |
-| **Atemfrequenz** | Atemzüge pro Minute, Erwachsene in Ruhe | **12–18** |
 | **Inspiratorisches Reservevolumen (IRV)** | kannst du nach normaler Einatmung noch zusätzlich einatmen | ca. **2,5–3 l** |
 | **Inspirationskapazität (IC)** | AZV + IRV: kannst du nach normaler Ausatmung insgesamt einatmen | ca. **3 l** |
 | **Vitalkapazität (VC)** | Luft, die du nach maximaler Ausatmung maximal einatmen kannst | ca. **4,5 l** |
 | **Residualvolumen (RV)** | bleibt nach maximaler Ausatmung in der Lunge | ca. **1–1,5 l** |
 | **Totalkapazität** | VC + RV | ca. **6 l** |
 
-### Rechnen
+### Wie rechnest du mit diesen Werten?
 
 Beispiel: Eine Buche liefert 1000 l Sauerstoff pro Stunde. Wie viele ruhende Menschen versorgt sie?
 
