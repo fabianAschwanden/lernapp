@@ -1,0 +1,237 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-bildung-medizin",
+      "thema": "Bildung und Medizin",
+      "text": "Du beschreibst humanistische Bildungsreformen und erklärst an Vesalius und Paracelsus den Bedeutungsgewinn eigener Beobachtung und praktischer Erfahrung.",
+      "zusammenfassung": "### Warum werden eigenes Denken und praktische Untersuchung wichtiger?\nNeue private und städtische Bildungsangebote erweitern eine zuvor stark kirchlich geprägte Bildungslandschaft. **Sprache, Literatur, Naturwissenschaften und Musik** gehören zu neuen Lehrplänen. Bildungsreform stärkt eine städtisch-bürgerliche Schicht. Das zentrale humanistische Ziel bleibt die Entwicklung des Menschen; es geht nicht ausschliesslich um technischen Fortschritt. Klosterschulen verlieren an Vorrang, verschwinden aber nicht schlagartig.\n\nIn der älteren medizinischen Lehre liest ein Professor aus den Werken antiker Autoritäten wie **Galen**, während ein Assistent am Körper arbeitet. Das veranschaulicht einen Vorrang überlieferter Texte vor der unmittelbaren Untersuchung durch den Lehrenden.\n\n**Andreas Vesalius** untersucht selbst menschliche Körper, auch durch Leichenöffnungen. Er prüft überlieferte Aussagen an eigener Beobachtung. Seine anatomischen Darstellungen von **1543** zeigen Organe genauer als das schematische Körperbild von **1504** im Material. **Anatomie** untersucht Gestalt und Aufbau des Körpers. Genauere Anschauung verbindet Medizin mit der Renaissancekunst: Auch Künstler interessieren sich für Proportionen, Muskeln und Bewegung. **Albrecht Dürer** beobachtet in der Abbildung einen Körper durch einen Rasterrahmen und überträgt die Verhältnisse auf eine gerasterte Zeichenfläche. So verbindet er Anschauung mit geometrischer Darstellung.\n\n**Paracelsus** betont Erfahrung mit Krankheiten und Heilmitteln. Er hinterfragt starre Lehrmeinungen und untersucht die Wirkung von Stoffen. Die **Dosierung** entscheidet wesentlich über schädliche oder mögliche heilende Wirkung. Historische Heilmittel und Methoden sind keine heutigen Behandlungsempfehlungen.\n\n> Autorität bleibt prüfbar: Lies überliefertes Wissen, beobachte selbst und vergleiche Aussagen mit Befunden.",
+      "merksaetze": [
+        "Neue Lehrpläne fördern vielseitige Bildung und eigenes Denken.",
+        "Vesalius: selbst untersuchen statt nur Autoritäten übernehmen.",
+        "Paracelsus betont Erfahrung und Dosierung; das ist keine Anleitung zur Selbstbehandlung."
+      ],
+      "bilder": [],
+      "quellenhinweis": "Schulbuch S. 18–19 (s-1378), Schwerpunkt handschriftliche Notizen und pinke Markierungen; S. 14–15 und 22–23 ergänzen den Zusammenhang innerhalb des Materials."
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-bildung-medizin-01",
+      "lernzielId": "lz-bildung-medizin",
+      "typ": "einfachwahl",
+      "frage": "Welche Entwicklung gehört zur humanistischen Bildungsreform?",
+      "erklaerung": "Neue Bildungsstätten und Lehrpläne erweiterten die kirchlich geprägte Bildungslandschaft.",
+      "schwierigkeit": 1,
+      "optionen": [
+        "Neue private und städtische Schulen",
+        "Neue Lehrpläne mit ausschliesslich Theologie",
+        "Abschaffung sprachlicher und literarischer Bildung",
+        "Verzicht auf die Ausbildung von Stadtbürgern"
+      ],
+      "richtig": 0
+    },
+    {
+      "id": "f-bildung-medizin-02",
+      "lernzielId": "lz-bildung-medizin",
+      "typ": "einfachwahl",
+      "frage": "Was verändert Vesalius gegenüber dem älteren Lehrmodell?",
+      "erklaerung": "Eigene praktische Untersuchung ermöglicht die Überprüfung überlieferter Aussagen.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Er überlässt jede Untersuchung einem Assistenten.",
+        "Er untersucht menschliche Körper selbst.",
+        "Er übernimmt alle Aussagen Galens unverändert.",
+        "Er ersetzt Anschauung durch ausschliessliches Lesen."
+      ],
+      "richtig": 1
+    },
+    {
+      "id": "f-bildung-medizin-03",
+      "lernzielId": "lz-bildung-medizin",
+      "typ": "einfachwahl",
+      "frage": "Welcher antike Arzt steht im Material für eine überlieferte medizinische Autorität?",
+      "erklaerung": "Schriften Galens wurden im älteren Lehrmodell vom Professor vorgelesen.",
+      "schwierigkeit": 1,
+      "optionen": [
+        "Vesalius",
+        "Paracelsus",
+        "Galen",
+        "Valverde"
+      ],
+      "richtig": 2
+    },
+    {
+      "id": "f-bildung-medizin-04",
+      "lernzielId": "lz-bildung-medizin",
+      "typ": "einfachwahl",
+      "frage": "Was untersucht die Anatomie?",
+      "erklaerung": "Anatomie beschreibt Strukturen des Körpers und ihre Lage.",
+      "schwierigkeit": 1,
+      "optionen": [
+        "Die Gültigkeit von religiösen Lehrmeinungen",
+        "Die ausschliessliche Wirkung chemischer Mittel",
+        "Die Vererbung von gesellschaftlichem Rang",
+        "Den Aufbau und die Gestalt des Körpers"
+      ],
+      "richtig": 3
+    },
+    {
+      "id": "f-bildung-medizin-05",
+      "lernzielId": "lz-bildung-medizin",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Inhalte nennt das Material für neue Lehrpläne?",
+      "erklaerung": "Die Lehrpläne werden vielseitiger; Theologie ist nicht mehr der einzige Schwerpunkt.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Sprache und Literatur",
+        "Naturwissenschaften",
+        "Musik",
+        "Ausschliesslich Theologie"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "f-bildung-medizin-06",
+      "lernzielId": "lz-bildung-medizin",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Verbindungen zwischen Renaissancekunst und Medizin sind sinnvoll?",
+      "erklaerung": "Körper, Beobachtung und Darstellung verbinden Kunst und Anatomie.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Beide können genaue Körperbeobachtung nutzen.",
+        "Anatomisches Wissen hilft beim Zeichnen von Bewegung.",
+        "Überlieferte Aussagen müssen ohne Prüfung gelten.",
+        "Proportionen werden genauer untersucht."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "f-bildung-medizin-07",
+      "lernzielId": "lz-bildung-medizin",
+      "typ": "wahrfalsch",
+      "frage": "Im älteren Lehrbild arbeitet der Professor selbst am Körper, während der Assistent ausschliesslich aus Galen vorliest.",
+      "erklaerung": "Das Material zeigt die umgekehrte Trennung: Der Professor liest, ein Assistent führt die Körperöffnung vor.",
+      "schwierigkeit": 2,
+      "richtig": false
+    },
+    {
+      "id": "f-bildung-medizin-08",
+      "lernzielId": "lz-bildung-medizin",
+      "typ": "wahrfalsch",
+      "frage": "Humanistische Bildung sollte nur technische Erfindungen hervorbringen.",
+      "erklaerung": "Sie sollte vor allem menschliche Fähigkeiten und Urteilskraft durch vielseitige Bildung entwickeln.",
+      "schwierigkeit": 2,
+      "richtig": false
+    },
+    {
+      "id": "f-bildung-medizin-09",
+      "lernzielId": "lz-bildung-medizin",
+      "typ": "wahrfalsch",
+      "frage": "Paracelsus hielt die Dosierung eines Stoffes für wichtig.",
+      "erklaerung": "Ein Stoff kann abhängig von Menge und Anwendung schädlich wirken; historische Mittel bleiben keine heutige Empfehlung.",
+      "schwierigkeit": 2,
+      "richtig": true
+    },
+    {
+      "id": "f-bildung-medizin-10",
+      "lernzielId": "lz-bildung-medizin",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst der Anatom, der laut Randnotiz Menschen selbst genauer untersucht?",
+      "erklaerung": "Vesalius vertiefte anatomisches Wissen durch eigene praktische Untersuchung.",
+      "schwierigkeit": 1,
+      "akzeptiert": [
+        "Andreas Vesalius",
+        "Vesalius",
+        "Vesal",
+        "Andreas Vesal"
+      ]
+    },
+    {
+      "id": "f-bildung-medizin-11",
+      "lernzielId": "lz-bildung-medizin",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst der Arzt, der praktische Erfahrung und die Bedeutung der Dosis betont?",
+      "erklaerung": "Paracelsus hinterfragte etablierte Lehrmeinungen durch Erfahrung mit Krankheiten und Mitteln.",
+      "schwierigkeit": 1,
+      "akzeptiert": [
+        "Paracelsus"
+      ]
+    },
+    {
+      "id": "f-bildung-medizin-12",
+      "lernzielId": "lz-bildung-medizin",
+      "typ": "zuordnen",
+      "frage": "Ordne Beispiel und Erkenntnisweg zu.",
+      "erklaerung": "Die Beispiele zeigen verschiedene Wege, Wissen zu erwerben oder darzustellen.",
+      "schwierigkeit": 2,
+      "paare": [
+        {
+          "links": "Professor liest aus Galen",
+          "rechts": "Überlieferte Autorität"
+        },
+        {
+          "links": "Vesalius öffnet selbst einen Körper",
+          "rechts": "Eigene anatomische Untersuchung"
+        },
+        {
+          "links": "Paracelsus beobachtet Heilmittelwirkungen",
+          "rechts": "Praktische Erfahrung"
+        },
+        {
+          "links": "Dürer zeichnet mit Raster",
+          "rechts": "Beobachtung und geometrische Darstellung"
+        }
+      ]
+    },
+    {
+      "id": "f-bildung-medizin-13",
+      "lernzielId": "lz-bildung-medizin",
+      "typ": "reihenfolge",
+      "frage": "Ordne diesen vereinfachten Weg einer überprüfenden Untersuchung.",
+      "erklaerung": "Der Ablauf veranschaulicht den Bedeutungsgewinn beobachtender und überprüfender Arbeit.",
+      "schwierigkeit": 2,
+      "elemente": [
+        "Eine überlieferte Aussage zum Körper lesen.",
+        "Den menschlichen Körper selbst untersuchen.",
+        "Beobachtung und überlieferte Aussage vergleichen.",
+        "Eine nicht passende Aussage überarbeiten."
+      ]
+    },
+    {
+      "id": "f-bildung-medizin-14",
+      "lernzielId": "lz-bildung-medizin",
+      "typ": "zahl",
+      "frage": "Aus welchem Jahr stammt die detaillierte Darstellung Vesals, die mit Reischs Körperbild von 1504 verglichen wird?",
+      "erklaerung": "Die Bildlegende datiert Vesals anatomische Darstellung auf 1543.",
+      "schwierigkeit": 1,
+      "richtig": 1543,
+      "toleranz": 0
+    },
+    {
+      "id": "f-bildung-medizin-15",
+      "lernzielId": "lz-bildung-medizin",
+      "typ": "offen",
+      "frage": "Vergleiche das ältere medizinische Lehrbild mit der Arbeitsweise von Vesalius. Warum ist der Unterschied wichtig?",
+      "erklaerung": "Die Rollenverteilung und ihre Bedeutung für die Erkenntnis sind zentral.",
+      "schwierigkeit": 3,
+      "musterloesung": "Im älteren Bild liest der Professor aus antiken Schriften, während ein Assistent den Körper öffnet. Vesalius untersucht selbst. Dadurch kann er überlieferte Aussagen direkt an menschlichen Körpern prüfen, Details genauer beschreiben und Fehler korrigieren. Der Schwerpunkt verschiebt sich von blosser Autoritätsübernahme zur eigenen Untersuchung."
+    },
+    {
+      "id": "f-bildung-medizin-16",
+      "lernzielId": "lz-bildung-medizin",
+      "typ": "offen",
+      "frage": "Du sollst erklären, wie Bildungsreform, Medizin und Kunst ein gemeinsames neues Denken zeigen. Nenne je ein Beispiel und vermeide die Behauptung, alles ältere Wissen sei wertlos.",
+      "erklaerung": "Die Antwort verbindet drei Bereiche und erkennt die fortbestehende Bedeutung der Antike.",
+      "schwierigkeit": 3,
+      "musterloesung": "Neue Schulen fördern vielseitige Bildung und selbstständiges Denken. Vesalius prüft anatomische Texte durch eigene Untersuchung. Künstler wie Dürer oder Leonardo beobachten Körper und Proportionen genauer. Gemeinsam ist die aktive Prüfung und Weiterentwicklung von Wissen. Antike Texte bleiben wichtige Anregungen, werden aber nicht unkritisch übernommen."
+    }
+  ]
+}

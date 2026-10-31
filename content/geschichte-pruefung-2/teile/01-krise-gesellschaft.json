@@ -1,0 +1,238 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-krise-gesellschaft",
+      "thema": "Klima, Pest und Gesellschaft",
+      "text": "Du erklärst, wie klimatische Abkühlung und Pest das Leben auf dem Land, in Städten und die Stellung des Bürgertums veränderten.",
+      "zusammenfassung": "### Wie entstehen Krisen und gesellschaftliche Veränderungen?\nDie **Kleine Eiszeit** brachte seit dem frühen 14. Jahrhundert kältere Winter und oft feuchte Sommer. Schlechte Ernten machten Lebensmittel knapp und teuer. Hunger schwächte Menschen; Krankheiten trafen eine bereits belastete Bevölkerung. Die **Rinderpest** betraf Nutztiere, die **Beulenpest** Menschen: Diese Krankheiten darfst Du nicht gleichsetzen.\n\nDie grosse Pestwelle **1347–1353** tötete nach der Schätzung im Material ungefähr ein Drittel der europäischen Bevölkerung. Handelswege erleichterten die Verbreitung; das Buch nennt Rattenflöhe als wichtige Überträger. Dichte Bebauung und schlechte hygienische Verhältnisse begünstigten Ansteckungen.\n\nAuf dem Land sank durch Bevölkerungsverluste die Nachfrage nach Agrarprodukten; Preise und Einkünfte konnten fallen. Manche Menschen verliessen ihre Landwirtschaft. In Städten boten frei gewordener Raum und Arbeitsplätze neue Möglichkeiten. Weil Arbeitskräfte fehlten, konnten Löhne steigen. **Uhrmacherei, Seidenweberei und Papierherstellung** entwickelten sich weiter.\n\nHandel und Gewerbe stärkten vermögende Stadtbürger. Das bedeutete keinen Wohlstand für alle: Bauern und viele abhängige Arbeitskräfte profitierten kaum. Auch ein Ritter konnte trotz Land und Burg wirtschaftlich bedrängt sein.\n\n### Wie liest Du eine historische Darstellung?\nEin Altersdiagramm zeigt die Zusammensetzung einer erfassten Bevölkerung, aber erklärt nicht von selbst die Todesursachen. Ein Bild eines Pestarztes um 1720 ist keine unmittelbare Darstellung der Pest von 1347.\n\n> Krise und Neubeginn gehören zusammen: Bevölkerungsverluste konnten neben Not auch neue wirtschaftliche Chancen schaffen.",
+      "merksaetze": [
+        "Kleine Eiszeit → Missernten → Hunger und grössere Verwundbarkeit.",
+        "Arbeitskräftemangel konnte städtische Löhne erhöhen.",
+        "Reichtum und Stand sagen nicht allein, wie gut jemand lebte."
+      ],
+      "bilder": [],
+      "quellenhinweis": "Schulbuch S. 10–11 (s-1374); Mindmap s-1394."
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-krise-gesellschaft-01",
+      "lernzielId": "lz-krise-gesellschaft",
+      "typ": "einfachwahl",
+      "frage": "Welche Folge feuchter Sommer belastete die Ernährung besonders?",
+      "erklaerung": "Feuchtigkeit schädigte Ernten und Vorräte; Nahrung wurde knapper.",
+      "schwierigkeit": 1,
+      "optionen": [
+        "Schlechte Getreideernten",
+        "Dauerhaft billigere Lebensmittel",
+        "Bessere Lagerung feuchten Korns",
+        "Stark steigende Getreidevorräte"
+      ],
+      "richtig": 0
+    },
+    {
+      "id": "f-krise-gesellschaft-02",
+      "lernzielId": "lz-krise-gesellschaft",
+      "typ": "einfachwahl",
+      "frage": "Welche Krankheit betraf im Material vor allem das Vieh?",
+      "erklaerung": "Rinderpest ist eine Tierkrankheit; Beulenpest betrifft Menschen.",
+      "schwierigkeit": 1,
+      "optionen": [
+        "Beulenpest",
+        "Rinderpest",
+        "Syphilis",
+        "Malaria"
+      ],
+      "richtig": 1
+    },
+    {
+      "id": "f-krise-gesellschaft-03",
+      "lernzielId": "lz-krise-gesellschaft",
+      "typ": "einfachwahl",
+      "frage": "Warum konnten städtische Löhne nach der Pest steigen?",
+      "erklaerung": "Weniger verfügbare Arbeitskräfte konnten bei fortbestehendem Bedarf höhere Löhne erzielen.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Bauern behielten höhere Agrarpreise.",
+        "Nahrung wurde in allen Städten billiger.",
+        "Arbeitskräfte waren knapper geworden.",
+        "Zünfte beendeten die Nachfrage nach Arbeit."
+      ],
+      "richtig": 2
+    },
+    {
+      "id": "f-krise-gesellschaft-04",
+      "lernzielId": "lz-krise-gesellschaft",
+      "typ": "einfachwahl",
+      "frage": "Welche Aussage über den gesellschaftlichen Wandel ist am treffendsten?",
+      "erklaerung": "Gewinne aus Handel und Gewerbe stärkten Besitzende in den Städten.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Bauern gewannen stets die grössten Gewinne.",
+        "Ritter waren durch Burgen stets wohlhabend.",
+        "Besitzende Bürger verloren ihren Einfluss.",
+        "Vermögende Stadtbürger gewannen Macht."
+      ],
+      "richtig": 3
+    },
+    {
+      "id": "f-krise-gesellschaft-05",
+      "lernzielId": "lz-krise-gesellschaft",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Zusammenhänge gehören zur Krisenkette?",
+      "erklaerung": "Missernten, Hunger und Tierkrankheiten belasteten die Versorgung. Die menschliche Pest verringerte die Zahl verfügbarer Arbeitskräfte.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Missernten verteuerten Nahrung.",
+        "Hunger schwächte Menschen.",
+        "Die Pest vermehrte die verfügbaren Arbeitskräfte.",
+        "Rinderpest konnte die Viehhaltung schädigen."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "f-krise-gesellschaft-06",
+      "lernzielId": "lz-krise-gesellschaft",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Gewerbe nennt das Material als neue städtische Möglichkeiten?",
+      "erklaerung": "Uhrmacherei, Seidenweberei und Papierherstellung sind die genannten neuen städtischen Gewerbe. Getreideanbau gehört dagegen zur Landwirtschaft.",
+      "schwierigkeit": 1,
+      "optionen": [
+        "Uhrmacherei",
+        "Seidenweberei",
+        "Papierherstellung",
+        "Getreideanbau"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "f-krise-gesellschaft-07",
+      "lernzielId": "lz-krise-gesellschaft",
+      "typ": "wahrfalsch",
+      "frage": "Die Pest konnte über Handelsverbindungen nach Europa gelangen.",
+      "erklaerung": "Menschen, Waren sowie mitreisende Tiere und Parasiten verbanden weit entfernte Räume.",
+      "schwierigkeit": 2,
+      "richtig": true
+    },
+    {
+      "id": "f-krise-gesellschaft-08",
+      "lernzielId": "lz-krise-gesellschaft",
+      "typ": "wahrfalsch",
+      "frage": "Alle gesellschaftlichen Gruppen profitierten gleich stark vom Stadtwachstum.",
+      "erklaerung": "Besitzende Bürger und Geldgeber profitierten stärker als viele Bauern und abhängige Arbeitskräfte.",
+      "schwierigkeit": 2,
+      "richtig": false
+    },
+    {
+      "id": "f-krise-gesellschaft-09",
+      "lernzielId": "lz-krise-gesellschaft",
+      "typ": "wahrfalsch",
+      "frage": "Ein Pestarztbild von etwa 1720 ist eine zeitgenössische Quelle zur Pestwelle 1347–1353.",
+      "erklaerung": "Zwischen Bild und Pestwelle liegen mehrere Jahrhunderte; die Entstehungszeit muss berücksichtigt werden.",
+      "schwierigkeit": 2,
+      "richtig": false
+    },
+    {
+      "id": "f-krise-gesellschaft-10",
+      "lernzielId": "lz-krise-gesellschaft",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die im Material beschriebene längerfristige klimatische Abkühlung?",
+      "erklaerung": "Der Begriff bezeichnet eine kühlere Klimaphase, nicht eine vollständige Vereisung Europas.",
+      "schwierigkeit": 1,
+      "akzeptiert": [
+        "Kleine Eiszeit",
+        "die Kleine Eiszeit"
+      ]
+    },
+    {
+      "id": "f-krise-gesellschaft-11",
+      "lernzielId": "lz-krise-gesellschaft",
+      "typ": "kurzantwort",
+      "frage": "Welche städtische Gruppe gewann durch Handel und Gewerbe an gesellschaftlichem Gewicht?",
+      "erklaerung": "Besitzende Stadtbürger entwickelten sich zu einer eigenständigen Macht.",
+      "schwierigkeit": 2,
+      "akzeptiert": [
+        "Bürgertum",
+        "städtisches Bürgertum",
+        "Stadtbürger",
+        "vermögende Stadtbürger"
+      ]
+    },
+    {
+      "id": "f-krise-gesellschaft-12",
+      "lernzielId": "lz-krise-gesellschaft",
+      "typ": "zuordnen",
+      "frage": "Ordne Erscheinung und unmittelbaren Zusammenhang zu.",
+      "erklaerung": "Die Zuordnung trennt Umweltfaktoren, wirtschaftliche Folgen und die Aussagekraft einer Darstellung.",
+      "schwierigkeit": 2,
+      "paare": [
+        {
+          "links": "Feuchte Sommer",
+          "rechts": "Ernten und Vorräte gefährdet"
+        },
+        {
+          "links": "Pestbedingte Bevölkerungsverluste",
+          "rechts": "Arbeitskräfte fehlen"
+        },
+        {
+          "links": "Gewinne aus Handel und Gewerbe",
+          "rechts": "Besitzende Stadtbürger erstarken"
+        },
+        {
+          "links": "Altersdiagramm",
+          "rechts": "Bevölkerungsstruktur sichtbar"
+        }
+      ]
+    },
+    {
+      "id": "f-krise-gesellschaft-13",
+      "lernzielId": "lz-krise-gesellschaft",
+      "typ": "reihenfolge",
+      "frage": "Ordne diese vereinfachte Wirkungskette von der Ursache zur Folge.",
+      "erklaerung": "Diese Kette erklärt einen Einfluss des Klimas, ohne alle historischen Entwicklungen darauf zu reduzieren.",
+      "schwierigkeit": 2,
+      "elemente": [
+        "Feuchtere Sommer beeinträchtigen Getreide.",
+        "Ernte und Vorräte fallen geringer aus.",
+        "Lebensmittel werden knapp und teuer.",
+        "Hunger schwächt die Bevölkerung."
+      ]
+    },
+    {
+      "id": "f-krise-gesellschaft-14",
+      "lernzielId": "lz-krise-gesellschaft",
+      "typ": "zahl",
+      "frage": "Wie viele Drittel der europäischen Bevölkerung starben nach der Schätzung des Materials in der Pestwelle 1347–1353?",
+      "erklaerung": "Die Schätzung lautet ungefähr ein Drittel; es handelt sich nicht um eine exakte Zählung.",
+      "schwierigkeit": 1,
+      "richtig": 1,
+      "toleranz": 0
+    },
+    {
+      "id": "f-krise-gesellschaft-15",
+      "lernzielId": "lz-krise-gesellschaft",
+      "typ": "offen",
+      "frage": "Erkläre, weshalb die Pest gleichzeitig Not verursachte und manchen Menschen neue Chancen eröffnete.",
+      "erklaerung": "Der Vergleich verbindet demografische, wirtschaftliche und soziale Folgen.",
+      "schwierigkeit": 3,
+      "musterloesung": "Die Pest tötete viele Menschen und zerstörte Familien und wirtschaftliche Existenzen. Auf dem Land sanken Nachfrage und teilweise Agrarpreise. In Städten wurden Raum und Arbeitsplätze frei; Arbeitskräftemangel konnte Löhne erhöhen. Überlebende fanden dort neue Möglichkeiten, aber die Vorteile waren ungleich verteilt."
+    },
+    {
+      "id": "f-krise-gesellschaft-16",
+      "lernzielId": "lz-krise-gesellschaft",
+      "typ": "offen",
+      "frage": "Du siehst ein Altersdiagramm mit vielen jungen und wenigen alten Menschen. Was kannst Du daraus ablesen, und was kannst Du ohne zusätzliche Quellen nicht sicher erklären?",
+      "erklaerung": "Eine Darstellung liefert Informationen, aber nicht automatisch die Erklärung ihrer Ursachen.",
+      "schwierigkeit": 3,
+      "musterloesung": "Du erkennst die Altersstruktur der erfassten Bevölkerung und einen kleinen Anteil älterer Menschen. Das kann zu hoher Sterblichkeit passen. Das Diagramm allein beweist aber weder Pest als Todesursache noch eine bestimmte Hungersnot; dafür sind weitere Quellen nötig."
+    }
+  ]
+}

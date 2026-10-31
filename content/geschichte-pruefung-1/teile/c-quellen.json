@@ -1,0 +1,820 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-quelle-darstellung",
+      "zusammenfassung": "In der Geschichte unterscheidet man **Quellen** und **Darstellungen**.\n\n### Quelle oder Darstellung?\n| | **Quelle** | **Darstellung** |\n|---|---|---|\n| Was ist es? | Text, Gegenstand oder Sachverhalt **aus der Vergangenheit**, aus dem man etwas über diese Zeit erfahren kann | **spätere** Untersuchung von Ereignissen, Texten oder Gegenständen |\n| Was leistet es? | Zeugnis, Rohmaterial | **deutet und erklärt**: nicht nur was und wann, sondern auch **warum** Menschen so handelten |\n| Beispiele | Bauwerke, Münzen, Schmuck, Gemälde, Skulpturen, Werkzeuge, Briefe, Urkunden, Gesetze, Landschaften | Studien, Forschungsarbeiten, Sachbücher, **Schulbücher** |\n\nEin **Schulbuch** ist für die darin erklärten Ereignisse eine Darstellung — es kann aber **Quellen enthalten** (z. B. einen abgedruckten Brief). Für die Erforschung früherer Geschichtsbilder kann auch das Schulbuch selbst eine Quelle sein.\n\n### Tradition und Überrest\n- **Tradition** (absichtliche Überlieferung): wurde **bewusst geschaffen**, um **der Nachwelt** etwas mitzuteilen — z. B. Chroniken (chronologische Berichte; **Annalen** = Jahrbücher, Präzisierung ergänzt), Biographien, Denkmäler mit Inschrift, Sagen und Lieder.\n- **Überrest** (unabsichtliche Überlieferung): ist **direkt aus dem damaligen Geschehen** erhalten, ohne die Absicht, später darüber zu informieren — z. B. Alltagsbriefe, Einkaufslisten, Werkzeuge, Kleidung, Bräuche.\n\n**Untergruppen** (Schaubild):\n- Tradition: **schriftlich** (Chronik, Biographie) und **mündlich** (Sage, Lied, Erzählung)\n- Überreste: **schriftlich** (Brief, Liste), **Sachüberreste** (Münze, Schuh, Bauwerk, Waffe, Löffel) und **abstrakte Überreste** (Bräuche, Sprache, Orts- und Strassennamen)\n\n**Prüffrage:** *Für wen und wozu ist das entstanden?* Für die Nachwelt → Tradition. Für den Gebrauch damals → Überrest.\n\n### Übung aus dem Unterricht\n| Beispiel | Zuordnung |\n|---|---|\n| Brief eines Auswanderers an seine Eltern (1892) | Überrest |\n| Ötzis mit Stroh gefüllte Winterschuhe (ca. 3000 v. Chr.) | Überrest (Sachüberrest) |\n| Tagebuch eines gefallenen Soldaten (Borodino 1812) | Überrest |\n| Brauch «Gansabhauet» in Sursee (11. November) | Überrest (abstrakt) |\n| Einkaufsliste für ein Geburtstagsfest (Manchester 1842) | Überrest |\n| Broschüre des EDA «Die Schweiz und die EU» | Darstellung |\n| Schenkungsurkunde (1432), Bundesbrief (1291), Protokolle (Bundesrat 1848, Wannseekonferenz 1942), Gesetz (1666), Telegramm (1941) | im Unterricht als **Tradition** eingetragen |\n| Zeitungsartikel (Der Bund 1914, NZZ 2025) | je nach Frage **Darstellung** oder **Quelle** |\n\n**Achtung, Grenzfälle:** Urkunden, Protokolle und Gesetze wurden bewusst festgehalten, damit etwas **gilt und nachweisbar bleibt** — deshalb hier Tradition. In vielen Fachbüchern zählen sie aber als **schriftliche Überreste**, weil sie für den Gebrauch ihrer Zeit entstanden. In der Prüfung zählt die **Begründung**. Ein Zeitungsartikel **deutet** ein Ereignis (Darstellung) — für die Frage, wie die Menschen **damals** darüber dachten, ist er eine **Quelle**. Gäbe eine Partei die EU-Broschüre heraus, könnte sie als Quelle für deren **Meinung** dienen. Auch eine EDA-Broschüre kann eine Quelle für die Sicht des EDA sein: Entscheidend ist die **Fragestellung**, nicht allein der Herausgeber.",
+      "merksaetze": [
+        "Quelle = Zeugnis aus der Vergangenheit; Darstellung = spätere Untersuchung und Deutung (z. B. Schulbuch).",
+        "Tradition = absichtlich für die Nachwelt überliefert (Chronik, Biographie, Sage).",
+        "Überrest = unabsichtlich aus dem damaligen Geschehen erhalten (Alltagsbrief, Werkzeug, Brauch).",
+        "Überreste: schriftlich, Sachüberreste, abstrakte Überreste; Tradition: schriftlich, mündlich.",
+        "Grenzfälle (Urkunde, Protokoll, Zeitungsartikel) immer mit Begründung zuordnen: Für wen und wozu entstanden?"
+      ],
+      "bilder": [
+        {
+          "src": "bilder/geschichte/p1-quellenarten.svg",
+          "alt": "Schaubild: Quellen teilen sich in Tradition (schriftlich, mündlich) und Überreste (schriftlich, Sachüberreste, abstrakte Überreste), mit Beispielen.",
+          "legende": "Quellen: Tradition ist absichtlich, Überreste sind unabsichtlich überliefert."
+        }
+      ]
+    },
+    {
+      "id": "lz-aqua",
+      "zusammenfassung": "Quellen sind die Grundlage unseres Wissens — aber sie sind **nicht automatisch wahr oder vollständig** und **erklären sich nicht selbst**. Erst die **Interpretation** zeigt, was eine Quelle aussagt.\n\n### Das AQUA-Schema (nach Pandel/Messmer)\n**Schritt 1: Untersuchen**\n- **A — Autor:** Wer spricht? Herkunft, gesellschaftliche Stellung, Partei. Welches **Interesse** hat er?\n- **QU — Quelle:** Was steht drin? **Wann** und in welchem **Zusammenhang** entstand sie? **Textart**, Sprache und Stil.\n- **A — Adressat:** An wen richtet sich der Text? **Warum** und **wozu** wird ihm etwas mitgeteilt (Aussageabsicht)?\n\n**Schritt 2: Beurteilen**\n- **Autor:** Aus welchem politischen und gesellschaftlichen **Blickwinkel** schreibt er?\n- **Quelle:** in den **historischen Zusammenhang** stellen, mit **anderen Quellen und Darstellungen vergleichen**, Aussagekraft und Probleme diskutieren.\n- **Absicht:** Will der Text **informieren**, **manipulieren** oder **Meinung bilden**?\n\nVorher: unbekannte Begriffe und schwierige Stellen klären.\n\n### Beispiel: Ulrich von Hutten an Willibald Pirckheimer\n- **Autor:** **Ulrich von Hutten** (1488–1523), Reichsritter und **Humanist** — schreibt über sein eigenes Leben.\n- **Quelle:** persönlicher **Brief**, Anfang 16. Jahrhundert. Inhalt: Leben auf der Burg — Gefahr durch **Fehden** und Überfälle (Entführung, Lösegeld), Abhängigkeit vom **Fürsten**, enge und dunkle **Burg** als Festung, Lärm und Schmutz, harte **Arbeit** und **wenig Ertrag**, Not bei Missernten.\n- **Adressat:** **Willibald Pirckheimer** (1470–1530), wohlhabender **Ratsherr in Nürnberg** und **Freund** Huttens.\n- **Beurteilung:** eine **Klage** — **einseitig; die Klage wirkt aufrichtig**. Der Brief zeigt die Sicht eines Betroffenen, keinen neutralen Bericht über alle Ritter. Unterton an den reichen Städter: «**Du hast es gut**» (Neid); Hutten sucht Bestätigung.\n- **Fazit:** Um 1500 ist eine **Zeit des Umbruchs**: Die Ritter verlieren an Bedeutung, die Städte gewinnen.\n\n**Humanismus:** Geistesbewegung ab dem 14. Jahrhundert; stellt den **Menschen** in den Mittelpunkt und betont Menschenwürde, **Bildung**, Vernunft, Wissenschaft, Toleranz und Offenheit.",
+      "merksaetze": [
+        "AQUA = Autor, Quelle, Adressat — zuerst untersuchen, dann beurteilen.",
+        "Quellen sind nicht automatisch wahr oder vollständig; sie müssen interpretiert werden.",
+        "Beurteilen heisst: Blickwinkel des Autors einschätzen, Quelle einordnen und vergleichen, Absicht klären (informieren, manipulieren, Meinung bilden).",
+        "Huttens Brief an Pirckheimer ist eine Klage: einseitig; die Klage wirkt aufrichtig — ein Zeugnis der Umbruchszeit um 1500."
+      ]
+    },
+    {
+      "id": "lz-karl",
+      "zusammenfassung": "### Karl der Grosse — die wichtigsten Daten\n| | |\n|---|---|\n| Familie | **Karolinger** |\n| Geburt | wahrscheinlich **2. April 747 oder 748** |\n| König der Franken | ab **9. Oktober 768** |\n| Kaiser | ab **25. Dezember 800** — erster römischer Kaiser im Westen seit dem Ende des antiken Reichs |\n| Tod | **28. Januar 814** in **Aachen** |\n\nEr gilt als einer der bedeutendsten und einflussreichsten Herrscher des europäischen Mittelalters.\n\n### Der Autor: Einhard\n- **Hofgelehrter** und **Vertrauter** Karls, adliger Herkunft, schon jung am Hof.\n- Künstlerisch begabt: leitete die **Werkstätten der Pfalz in Aachen**, auch **Baumeister**.\n- Diplomat: reiste **806 nach Rom**, um die Zustimmung des Papstes zu Karls geplanter **Reichsteilung** einzuholen.\n- Mit Karls Nachfolger **Ludwig dem Frommen** verstand er sich **weniger gut**.\n- Schrieb die Biographie ***Vita Caroli Magni*** zwischen **817 und 836** — also **nach Karls Tod**. Sie wurde schon im Mittelalter oft abgeschrieben und zitiert.\n\n### Was Einhard beschreibt\n- **Körper:** kräftig, gross, würdevoll; lebhafte Augen, graues Haar, freundliches Gesicht — aber eine eher **helle Stimme**, die nicht ganz zur Gestalt passt.\n- **Tätigkeiten:** regelmässig **Reiten und Jagen** — typisch fränkische Fähigkeiten.\n- **Kleidung:** im Alltag nach **fränkischer Tradition** und kaum anders als einfache Leute (Leinen, Wams, im Winter Pelz, blauer Mantel, Schwert); nur an **Festtagen** Gold, Edelsteine und Diadem.\n\n### Einordnen mit den Zeitumständen\n- **Ständegesellschaft** im Frühmittelalter; **lesen** konnten vor allem **Geistliche und hoher Adel** (andere liessen sich vorlesen) — sie sind die Leser und hatten politischen Einfluss.\n- Beim fränkischen Adel galten **Männlichkeit**, **Reiten und Jagen**, **Traditionsbewusstsein** und eine gewisse **Demut** als vorbildlich.\n\n### Beurteilung\nEinhards Karl erfüllt genau dieses **Ideal**: stark, ein Reiter und Jäger, traditionsbewusst und im Alltag bescheiden. Einhard war **Vertrauter** Karls und schrieb **nach dessen Tod** für gebildete Leser — die Vita ist **Tradition** (für die Nachwelt geschrieben) und zeichnet wohl ein **geschöntes Herrscherbild**. Kleine **ungünstige Details** (die helle Stimme) können sie glaubwürdiger wirken lassen, beweisen aber keine Zuverlässigkeit. Eine mögliche Deutung: Das Idealbild Karls konnte auch als Vorbild — oder stiller Vergleich — für den Nachfolger Ludwig dienen. Für ein verlässliches Bild braucht es **andere Quellen** zum Vergleich.",
+      "merksaetze": [
+        "Karl der Grosse: König der Franken ab 768, Kaiser ab 25. Dezember 800, gestorben 28. Januar 814 in Aachen.",
+        "Einhard war Hofgelehrter und Vertrauter Karls und schrieb die Vita Caroli Magni nach Karls Tod (zwischen 817 und 836).",
+        "Einhard zeigt Karl als ideales fränkisches Vorbild: stark, Reiter und Jäger, traditionsbewusst, im Alltag bescheiden.",
+        "Nähe zum Herrscher und Schreiben für die Nachwelt sprechen für ein geschöntes Bild — darum mit anderen Quellen vergleichen."
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-que-01",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "einfachwahl",
+      "frage": "Was ist eine **historische Quelle**?",
+      "optionen": [
+        "ein Zeugnis aus der Vergangenheit, aus dem man über sie etwas erfährt",
+        "jede spätere Untersuchung über ein Ereignis der Vergangenheit",
+        "ein Schulbuch, das die Vergangenheit ausführlich erklärt und deutet",
+        "eine Webseite, auf der man historische Jahreszahlen nachschlagen kann"
+      ],
+      "richtig": 0,
+      "erklaerung": "Quellen sind Zeugnisse aus der Vergangenheit selbst — Texte, Gegenstände oder Sachverhalte. Spätere Untersuchungen und Schulbücher sind Darstellungen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-que-02",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "zuordnen",
+      "frage": "Quelle oder Darstellung? Ordne im Hinblick auf die jeweils beschriebene Zeit bzw. das erklärte Thema zu.",
+      "paare": [
+        {
+          "links": "eine römische Münze",
+          "rechts": "Quelle"
+        },
+        {
+          "links": "dein Geschichtsschulbuch",
+          "rechts": "Darstellung"
+        },
+        {
+          "links": "eine Forschungsarbeit über die Kreuzzüge",
+          "rechts": "Darstellung"
+        },
+        {
+          "links": "eine mittelalterliche Burgruine",
+          "rechts": "Quelle"
+        },
+        {
+          "links": "ein Brief aus dem Jahr 1892",
+          "rechts": "Quelle"
+        },
+        {
+          "links": "die EDA-Broschüre «Die Schweiz und die EU»",
+          "rechts": "Darstellung"
+        }
+      ],
+      "erklaerung": "Quellen stammen aus der untersuchten Zeit selbst. Schulbuch, Forschungsarbeit und die erklärende Broschüre des EDA untersuchen und deuten — sie sind Darstellungen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-que-03",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "wahrfalsch",
+      "frage": "Ein Schulbuch ist eine Darstellung, kann aber selbst Quellen enthalten.",
+      "richtig": true,
+      "erklaerung": "Das Schulbuch deutet und erklärt (Darstellung). Abgedruckte Briefe, Bilder oder Urkunden darin sind Quellen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-que-04",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "einfachwahl",
+      "frage": "Was kennzeichnet eine Quelle als **Tradition**?",
+      "optionen": [
+        "Sie ist besonders alt, selten und deshalb wertvoll.",
+        "Sie ist zufällig aus dem Alltag der Menschen erhalten geblieben.",
+        "Sie wurde von Historikern viel später über die Zeit geschrieben.",
+        "Sie wurde bewusst geschaffen, um der Nachwelt etwas mitzuteilen."
+      ],
+      "richtig": 3,
+      "erklaerung": "Tradition = absichtliche Überlieferung: Sie wurde gemacht, damit spätere Generationen davon erfahren (z. B. Chronik, Biographie).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-que-05",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "zuordnen",
+      "frage": "Tradition oder Überrest? Ordne zu.",
+      "paare": [
+        {
+          "links": "Ötzis mit Stroh gefüllte Winterschuhe",
+          "rechts": "Überrest"
+        },
+        {
+          "links": "Einkaufsliste einer Frau für ein Geburtstagsfest (1842)",
+          "rechts": "Überrest"
+        },
+        {
+          "links": "Brief eines Auswanderers an seine Eltern (1892)",
+          "rechts": "Überrest"
+        },
+        {
+          "links": "Chronik eines Klosters, die die Ereignisse jedes Jahres festhält",
+          "rechts": "Tradition"
+        },
+        {
+          "links": "Biographie eines Herrschers, geschrieben für die Nachwelt",
+          "rechts": "Tradition"
+        }
+      ],
+      "erklaerung": "Schuhe, Einkaufsliste und Familienbrief entstanden für den Alltag damals — Überreste. Chronik und Biographie wurden geschrieben, damit Spätere davon erfahren — Tradition.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-que-06",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "zuordnen",
+      "frage": "Ordne die Überreste ihrer Untergruppe zu.",
+      "paare": [
+        {
+          "links": "eine Münze",
+          "rechts": "Sachüberrest"
+        },
+        {
+          "links": "ein Löffel aus dem Mittelalter",
+          "rechts": "Sachüberrest"
+        },
+        {
+          "links": "der Brauch «Gansabhauet»",
+          "rechts": "abstrakter Überrest"
+        },
+        {
+          "links": "ein alter Ortsname",
+          "rechts": "abstrakter Überrest"
+        },
+        {
+          "links": "eine Einkaufsliste",
+          "rechts": "schriftlicher Überrest"
+        },
+        {
+          "links": "ein privater Brief",
+          "rechts": "schriftlicher Überrest"
+        }
+      ],
+      "erklaerung": "Sachüberreste sind Gegenstände, abstrakte Überreste sind nicht greifbar (Bräuche, Sprache, Namen), schriftliche Überreste sind Alltagstexte.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-que-07",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "kurzantwort",
+      "frage": "Wie nennt man eine Quelle, die **unabsichtlich** überliefert ist, also nicht für die Nachwelt gemacht wurde?",
+      "akzeptiert": [
+        "Überrest",
+        "Überreste",
+        "Ueberrest",
+        "Ueberreste"
+      ],
+      "erklaerung": "Überreste sind direkt aus dem damaligen Geschehen erhalten — ohne Absicht, später zu informieren.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-que-08",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "einfachwahl",
+      "frage": "Zu welcher Untergruppe gehört der Brauch «Gansabhauet» in Sursee?",
+      "optionen": [
+        "mündliche Tradition",
+        "schriftlicher Überrest",
+        "Sachüberrest",
+        "abstrakter Überrest"
+      ],
+      "richtig": 3,
+      "erklaerung": "Ein Brauch ist kein Gegenstand und kein Text, sondern lebt in der Handlung weiter — ein abstrakter Überrest.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-que-09",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "wahrfalsch",
+      "frage": "Das private Tagebuch eines Soldaten, der nur für sich selbst schrieb, wurde nach seinem Tod in der Schlacht von Borodino (1812) gefunden. Ist es ein Überrest?",
+      "richtig": true,
+      "erklaerung": "Der Soldat schrieb für sich selbst, nicht für die Nachwelt; das Tagebuch ist zufällig erhalten — ein Überrest.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-que-10",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "mehrfachwahl",
+      "frage": "Welche mündlich weitergegebenen Beispiele gehören zur **mündlichen Tradition**?",
+      "optionen": [
+        "Sagen",
+        "Lieder",
+        "Erzählungen",
+        "Münzen",
+        "Gesetze"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Sagen, Lieder und Erzählungen wurden mündlich weitergegeben, um Wissen und Erinnerung zu bewahren. Münzen sind Sachüberreste.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-que-11",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "kurzantwort",
+      "frage": "Wie nennt man streng nach Jahren gegliederte Aufzeichnungen von Ereignissen (Jahrbücher)?",
+      "akzeptiert": [
+        "Annalen",
+        "Annale",
+        "die Annalen"
+      ],
+      "erklaerung": "Annalen sind Jahrbücher. Chroniken berichten ebenfalls chronologisch, sind aber nicht zwingend nach einzelnen Jahren gegliedert (Präzisierung ergänzt).",
+      "schwierigkeit": 1,
+      "ergaenzt": true
+    },
+    {
+      "id": "f-que-12",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "einfachwahl",
+      "frage": "Die Broschüre «Die Schweiz und die EU» wurde vom EDA herausgegeben und erklärt das Verhältnis. Wie wurde sie im Unterricht eingeordnet — und was wäre sie, wenn eine Partei sie herausgäbe?",
+      "optionen": [
+        "beide Male eine Darstellung, weil sie etwas erklärt",
+        "EDA: Quelle (Tradition); Partei: Darstellung",
+        "EDA: Darstellung; Partei: Quelle für deren Meinung",
+        "beide Male ein schriftlicher Überrest der Gegenwart"
+      ],
+      "richtig": 2,
+      "erklaerung": "Im Unterricht: EDA-Broschüre als Darstellung; Parteibroschüre als Quelle für die Meinung der Partei. Fachlich entscheidet aber die Fragestellung: Auch die EDA-Broschüre kann Quelle für die Sicht des Herausgebers sein, und eine Parteibroschüre kann ein Thema darstellen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-que-13",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Beispiele sind **Sachüberreste**?",
+      "optionen": [
+        "Kleidung",
+        "Waffen",
+        "Fahnen und Schilde mit Wappen",
+        "Sagen",
+        "Strassennamen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Kleidung, Waffen, Fahnen und Schilde mit Wappen sind Gegenstände. Das Wappen als Zeichen ist nicht selbst ein Gegenstand. Sagen sind mündliche Tradition, Strassennamen abstrakte Überreste.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-que-14",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "offen",
+      "frage": "Ein Artikel in der Zeitung «Der Bund» vom 30. Juni 1914 berichtet über das Attentat von Sarajewo. Ist er eine Quelle oder eine Darstellung? Begründe.",
+      "musterloesung": "Es kommt auf die Frage an. Der Artikel berichtet und deutet das Attentat nachträglich (zwei Tage später) — insofern ist er eine Darstellung des Ereignisses. Für die Frage, wie man 1914 in der Schweiz über das Attentat berichtete und dachte, ist er aber eine Quelle aus jener Zeit (ein Überrest, weil er für die Leser damals geschrieben wurde, nicht für die Nachwelt).",
+      "stichworte": [
+        "kommt auf die Frage an",
+        "deutet → Darstellung",
+        "Zeugnis aus 1914 → Quelle",
+        "für Leser damals"
+      ],
+      "erklaerung": "Zeitungsartikel sind Grenzfälle; im Unterricht wurden beide Zuordnungen notiert. Die Begründung zählt.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-que-15",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "offen",
+      "frage": "Der Bundesbrief von 1291 wurde im Unterricht als **Tradition** eingeordnet. Begründe diese Zuordnung — und erkläre, warum man ihn auch als Überrest sehen könnte.",
+      "musterloesung": "Tradition: Der Bundesbrief wurde bewusst schriftlich festgehalten, damit das Bündnis auch für spätere Generationen gilt und nachweisbar bleibt. Überrest: Er ist ein Vertrag, der für den Gebrauch seiner Zeit entstand — er sollte das Bündnis regeln, nicht Historikern berichten. In vielen Fachbüchern gelten Urkunden und Verträge deshalb als schriftliche Überreste. Entscheidend ist die Begründung: Für wen und wozu ist er entstanden?",
+      "stichworte": [
+        "bewusst festgehalten",
+        "für spätere Generationen gültig",
+        "Vertrag für damals",
+        "schriftlicher Überrest",
+        "für wen und wozu"
+      ],
+      "erklaerung": "Urkunden, Verträge und Protokolle sind Grenzfälle zwischen Tradition und Überrest.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-que-16",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "offen",
+      "frage": "Erkläre den Unterschied zwischen **Tradition** und **Überrest** an je einem eigenen Beispiel.",
+      "musterloesung": "Eine Tradition wurde absichtlich für die Nachwelt geschaffen, z. B. eine Chronik oder eine Biographie über einen Herrscher. Ein Überrest ist unabsichtlich aus dem damaligen Leben erhalten, z. B. eine Einkaufsliste, ein Werkzeug oder ein Brauch. Der Unterschied liegt in der Absicht: Wollte jemand späteren Generationen etwas mitteilen oder nicht?",
+      "stichworte": [
+        "Tradition: absichtlich, für die Nachwelt",
+        "Beispiel Chronik/Biographie",
+        "Überrest: unabsichtlich, aus dem Alltag",
+        "Beispiel Werkzeug/Liste/Brauch"
+      ],
+      "erklaerung": "Die Absicht entscheidet — nicht das Alter oder der Wert der Quelle.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-aqu-01",
+      "lernzielId": "lz-aqua",
+      "typ": "kurzantwort",
+      "frage": "Wofür stehen die Buchstaben A – QU – A im Analyseschema? (Drei Wörter, durch Kommas getrennt)",
+      "akzeptiert": [
+        "Autor, Quelle, Adressat",
+        "Autor Quelle Adressat",
+        "Autor-Quelle-Adressat",
+        "Autor, Quelle und Adressat"
+      ],
+      "erklaerung": "AQUA = Autor, Quelle, Adressat.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-aqu-02",
+      "lernzielId": "lz-aqua",
+      "typ": "zuordnen",
+      "frage": "Zu welchem Teil von AQUA gehört die Frage?",
+      "paare": [
+        {
+          "links": "Welche Stellung hat der Verfasser in der Gesellschaft?",
+          "rechts": "Autor"
+        },
+        {
+          "links": "Welches Interesse hat der Verfasser?",
+          "rechts": "Autor"
+        },
+        {
+          "links": "Wann und in welchem Zusammenhang entstand der Text?",
+          "rechts": "Quelle"
+        },
+        {
+          "links": "Um welche Textart handelt es sich?",
+          "rechts": "Quelle"
+        },
+        {
+          "links": "An wen richtet sich der Text?",
+          "rechts": "Adressat"
+        },
+        {
+          "links": "Wozu wird dem Empfänger etwas mitgeteilt?",
+          "rechts": "Adressat"
+        }
+      ],
+      "erklaerung": "Autor: wer spricht und mit welchem Interesse. Quelle: Inhalt, Zeit, Zusammenhang, Textart. Adressat: an wen und mit welcher Absicht.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-aqu-03",
+      "lernzielId": "lz-aqua",
+      "typ": "reihenfolge",
+      "frage": "In welcher Reihenfolge gehst du bei einer Quellenanalyse vor?",
+      "elemente": [
+        "unbekannte Begriffe und schwierige Stellen klären",
+        "Autor, Quelle und Adressat untersuchen",
+        "Autor, Quelle und Absicht beurteilen",
+        "ein Fazit formulieren"
+      ],
+      "erklaerung": "Zuerst den Text verstehen, dann untersuchen (A-QU-A), dann beurteilen und am Schluss ein Fazit ziehen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-aqu-04",
+      "lernzielId": "lz-aqua",
+      "typ": "wahrfalsch",
+      "frage": "Was in einer alten Quelle steht, ist wahr — schliesslich war der Autor dabei.",
+      "richtig": false,
+      "erklaerung": "Quellen sind nicht automatisch wahr oder vollständig. Sie können Lücken, Fehler oder Absichten enthalten und müssen geprüft werden.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-aqu-05",
+      "lernzielId": "lz-aqua",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Absichten unterscheidet man bei der Beurteilung einer Quelle?",
+      "optionen": [
+        "Information",
+        "Manipulation",
+        "Meinungsbildung",
+        "Datierung"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Bei der Absicht fragt man: Will der Text sachlich informieren, gezielt beeinflussen (manipulieren) oder eine Meinung bilden? Die Datierung gehört zur Untersuchung der Quelle.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-aqu-06",
+      "lernzielId": "lz-aqua",
+      "typ": "einfachwahl",
+      "frage": "Was gehört zur **Beurteilung der Quelle** (zweiter Schritt)?",
+      "optionen": [
+        "sie mit anderen Quellen und Darstellungen vergleichen",
+        "die Rechtschreibung des Textes sorgfältig korrigieren",
+        "die Quelle möglichst genau und wörtlich abschreiben",
+        "den vollständigen Namen des Autors herausfinden"
+      ],
+      "richtig": 0,
+      "erklaerung": "Beim Beurteilen wird die Quelle in den historischen Zusammenhang gestellt und mit anderen Quellen und Darstellungen verglichen. Der Name des Autors gehört schon zur Untersuchung.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-aqu-07",
+      "lernzielId": "lz-aqua",
+      "typ": "zuordnen",
+      "frage": "Huttens Brief nach AQUA: Ordne zu.",
+      "paare": [
+        {
+          "links": "Ulrich von Hutten, Reichsritter und Humanist",
+          "rechts": "Autor"
+        },
+        {
+          "links": "persönlicher Brief, Anfang 16. Jahrhundert",
+          "rechts": "Quelle"
+        },
+        {
+          "links": "Klage über Gefahren, Burg und Arbeit",
+          "rechts": "Quelle"
+        },
+        {
+          "links": "Willibald Pirckheimer, Ratsherr in Nürnberg",
+          "rechts": "Adressat"
+        }
+      ],
+      "erklaerung": "Autor ist Hutten, die Quelle ein Brief mit einer Klage über sein Leben, Adressat sein Freund Pirckheimer.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-aqu-08",
+      "lernzielId": "lz-aqua",
+      "typ": "einfachwahl",
+      "frage": "In welchem Verhältnis stand Willibald Pirckheimer zu Ulrich von Hutten?",
+      "optionen": [
+        "Er war sein Lehnsherr, dem Hutten Kriegsdienst schuldete.",
+        "Er war sein Gegner in einer langen Fehde um Land.",
+        "Er war sein Freund und ein reicher Ratsherr in Nürnberg.",
+        "Er war ein Bauer, der Huttens Land bewirtschaftete."
+      ],
+      "richtig": 2,
+      "erklaerung": "Pirckheimer war ein Freund Huttens und ein reicher Ratsherr in der Stadt Nürnberg — ein Kontrast zum Leben des Ritters auf der Burg.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-aqu-09",
+      "lernzielId": "lz-aqua",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Gefahren nennt Hutten in seinem Brief?",
+      "optionen": [
+        "Überfälle und Entführung mit Lösegeld",
+        "in Fehden und Kriege des Fürsten hineingezogen zu werden",
+        "Streit mit anderen Verwaltern, wenn man seine Rechte durchsetzt",
+        "Verfolgung durch die Kirche wegen seines Glaubens",
+        "Verarmung durch den Verlust städtischer Handelsprivilegien"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Hutten beschreibt Überfälle, Entführungen, Fehden und Streit mit Nachbarn — selbst kurze Wege macht man nur bewaffnet.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-aqu-10",
+      "lernzielId": "lz-aqua",
+      "typ": "einfachwahl",
+      "frage": "Wie beschreibt Hutten seine Burg?",
+      "optionen": [
+        "als prächtiges Schloss mit grossen, hellen Festsälen",
+        "als ruhigen, bequemen Wohnsitz weit weg von allem",
+        "als belebten Handelsplatz mit vielen Kaufleuten",
+        "als enge, dunkle Festung, gebaut zur Verteidigung"
+      ],
+      "richtig": 3,
+      "erklaerung": "Die Burg ist eine Festung mit Wall und Graben, engen Ställen, dunklen Räumen und Kriegsmaterial — kein bequemes Zuhause.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-aqu-11",
+      "lernzielId": "lz-aqua",
+      "typ": "wahrfalsch",
+      "frage": "Huttens Brief ist ein neutraler Bericht über das Leben aller Ritter um 1500.",
+      "richtig": false,
+      "erklaerung": "Der Brief schildert die persönliche Sicht eines Betroffenen — eine Klage, einseitig; die Klage wirkt aufrichtig. Für ein Gesamtbild braucht es weitere Quellen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-aqu-12",
+      "lernzielId": "lz-aqua",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die Geistesbewegung ab dem 14. Jahrhundert, die den Menschen, seine Würde und Bildung in den Mittelpunkt stellt — und zu der auch Hutten gehörte?",
+      "akzeptiert": [
+        "Humanismus",
+        "der Humanismus"
+      ],
+      "erklaerung": "Der Humanismus betont Menschenwürde, Bildung, Vernunft, Wissenschaft, Toleranz und Offenheit.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-aqu-13",
+      "lernzielId": "lz-aqua",
+      "typ": "einfachwahl",
+      "frage": "Welches Fazit über die Zeit um 1500 lässt Huttens Brief am ehesten zu?",
+      "optionen": [
+        "Eine Zeit des Umbruchs: Die Ritter verlieren an Bedeutung.",
+        "Das Rittertum stand um 1500 in seiner vollen Blüte.",
+        "Auf dem Land lebte man sicherer und ruhiger als in der Stadt.",
+        "Die Bauern hatten mehr Rechte und Besitz als die Ritter."
+      ],
+      "richtig": 0,
+      "erklaerung": "Huttens Klage zeigt eine Zeit des Umbruchs: Die Ritter verlieren an Bedeutung, während die Städte (wie Pirckheimers Nürnberg) aufblühen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-aqu-14",
+      "lernzielId": "lz-aqua",
+      "typ": "offen",
+      "frage": "**Arbeitsgrundlage — Huttens Brief in eigenen Worten, kein Originalzitat:** Ulrich von Hutten, Reichsritter und Humanist, schreibt Anfang des 16. Jahrhunderts an seinen Freund Willibald Pirckheimer, einen wohlhabenden Ratsherrn in Nürnberg. Er schildert Fehden, Überfälle und die Abhängigkeit vom Fürsten. Seine Burg sei eng und dunkel; die Arbeit bringe wenig Ertrag.\n\nBeurteile diese Klage: Wie glaubwürdig ist sie, welche Grenzen hat ihre Aussagekraft, und welche Absicht könnte Hutten gegenüber Pirckheimer gehabt haben? Unterscheide belegbare Angaben von begründeten Vermutungen.",
+      "musterloesung": "Hutten schreibt als Betroffener aus eigener Erfahrung; seine Klage wirkt aufrichtig und ist deshalb für den Alltag eines Ritters aussagekräftig. Sie ist aber einseitig: Er betont nur Gefahren, Enge, Arbeit und geringen Ertrag und spricht für sich, nicht für alle Ritter. Der Adressat ist ein reicher Städter und Freund — Hutten will vermutlich Verständnis und Bestätigung; zwischen den Zeilen steht «Du hast es gut» (Neid). Zur Absicherung müsste man den Brief mit anderen Quellen und Darstellungen vergleichen.",
+      "stichworte": [
+        "Betroffener, eigene Erfahrung",
+        "einseitig, aber aufrichtig",
+        "Klage",
+        "Adressat reicher Freund → Bestätigung/Neid",
+        "mit anderen Quellen vergleichen"
+      ],
+      "erklaerung": "Zur Beurteilung gehören Blickwinkel des Autors, Absicht gegenüber dem Adressaten und der Vergleich mit anderen Quellen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-aqu-15",
+      "lernzielId": "lz-aqua",
+      "typ": "offen",
+      "frage": "Pirckheimer erhält Huttens Brief. Wie könnte er reagiert haben? Begründe mit dem, was du über die beiden weisst.",
+      "musterloesung": "Pirckheimer ist ein wohlhabender Ratsherr in Nürnberg und Huttens Freund. Er könnte mitfühlend reagieren und Hutten trösten oder ihm raten, das unsichere Burgleben aufzugeben und in die Stadt zu kommen. Möglich ist auch, dass er die Klage als übertrieben empfindet oder sich durch den neidischen Unterton («Du hast es gut») angesprochen fühlt. Als Humanist teilt er mit Hutten das Interesse an Bildung — die Stadt bietet dafür mehr Möglichkeiten als die Burg.",
+      "stichworte": [
+        "Freund, Ratsherr in Nürnberg",
+        "Mitgefühl / Rat",
+        "Stadt sicherer und bequemer",
+        "Neid im Brief",
+        "begründete Vermutung"
+      ],
+      "erklaerung": "Hier gibt es keine einzige richtige Antwort — gut ist eine Vermutung, die mit der Beziehung der beiden und dem Inhalt des Briefs begründet ist.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-aqu-16",
+      "lernzielId": "lz-aqua",
+      "typ": "offen",
+      "frage": "Warum heisst es, Quellen «erklären sich nicht selbst»? Erkläre in zwei bis drei Sätzen.",
+      "musterloesung": "Eine Quelle liefert nur Material aus der Vergangenheit. Was sie aussagt, wie zuverlässig sie ist und welche Absicht dahintersteht, muss man erst herausfinden: Wer hat sie verfasst, für wen, wann und wozu? Erst durch diese Untersuchung und Beurteilung (Interpretation) wird aus der Quelle historisches Wissen.",
+      "stichworte": [
+        "Rohmaterial",
+        "Autor, Adressat, Zeit, Absicht klären",
+        "Lücken, Fehler möglich",
+        "Interpretation"
+      ],
+      "erklaerung": "Quellen sind Grundlage des Wissens, aber erst die Interpretation erschliesst ihren Aussagewert.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kar-01",
+      "lernzielId": "lz-karl",
+      "typ": "zahl",
+      "frage": "In welchem Jahr wurde Karl der Grosse zum Kaiser gekrönt?",
+      "richtig": 800,
+      "erklaerung": "Am 25. Dezember 800 wurde Karl Kaiser — der erste römische Kaiser im Westen seit dem Ende des antiken Reichs.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kar-02",
+      "lernzielId": "lz-karl",
+      "typ": "zahl",
+      "frage": "In welchem Jahr starb Karl der Grosse?",
+      "richtig": 814,
+      "erklaerung": "Karl starb am 28. Januar 814 in Aachen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kar-03",
+      "lernzielId": "lz-karl",
+      "typ": "kurzantwort",
+      "frage": "In welcher Stadt starb Karl der Grosse (dort lag auch seine Pfalz)?",
+      "akzeptiert": [
+        "Aachen",
+        "in Aachen"
+      ],
+      "erklaerung": "Aachen war Karls wichtigste Pfalz; dort starb er am 28. Januar 814.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kar-04",
+      "lernzielId": "lz-karl",
+      "typ": "reihenfolge",
+      "frage": "Bring die Ereignisse in die richtige Reihenfolge.",
+      "elemente": [
+        "Karl wird König der Franken (768)",
+        "Karl wird Kaiser (800)",
+        "Einhard reist nach Rom wegen der Reichsteilung (806)",
+        "Karl stirbt in Aachen (814)",
+        "Einhard schreibt die Vita Caroli Magni (817–836)"
+      ],
+      "erklaerung": "768 König, 800 Kaiser, 806 Einhards Reise nach Rom, 814 Tod, danach (817–836) die Biographie.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kar-05",
+      "lernzielId": "lz-karl",
+      "typ": "einfachwahl",
+      "frage": "Wer war Einhard?",
+      "optionen": [
+        "ein Gegner Karls aus dem Oströmischen Reich",
+        "ein Hofgelehrter und Vertrauter Karls",
+        "ein Bauer, der Karl auf der Jagd begegnete",
+        "ein Historiker aus dem 20. Jahrhundert"
+      ],
+      "richtig": 1,
+      "erklaerung": "Einhard war adliger Herkunft, Hofgelehrter und Vertrauter Karls, Leiter der Werkstätten der Aachener Pfalz, Baumeister und Diplomat.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kar-06",
+      "lernzielId": "lz-karl",
+      "typ": "wahrfalsch",
+      "frage": "Einhard schrieb die *Vita Caroli Magni* erst nach Karls Tod.",
+      "richtig": true,
+      "erklaerung": "Die Biographie entstand zwischen 817 und 836 — Karl war 814 gestorben.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kar-07",
+      "lernzielId": "lz-karl",
+      "typ": "einfachwahl",
+      "frage": "Ist Einhards *Vita Caroli Magni* eher Tradition oder Überrest?",
+      "optionen": [
+        "Überrest, weil sie aus dem frühen Mittelalter stammt",
+        "Darstellung, weil sie von einem Gelehrten verfasst wurde",
+        "Tradition, weil sie für die Nachwelt geschrieben wurde",
+        "Sachüberrest, weil sie auf Pergament erhalten ist"
+      ],
+      "richtig": 2,
+      "erklaerung": "Eine Biographie wird bewusst geschrieben, damit Spätere vom Leben eines Menschen erfahren — Tradition. Das Alter allein entscheidet nicht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kar-08",
+      "lernzielId": "lz-karl",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Eigenschaften schätzte der fränkische Adel laut Zusatzinformationen?",
+      "optionen": [
+        "Männlichkeit",
+        "Geschick im Reiten und Jagen",
+        "Traditionsbewusstsein",
+        "eine gewisse Demut",
+        "prunkvolle Kleidung im Alltag"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Männlichkeit, Reiten und Jagen, Traditionsbewusstsein und Demut galten als vorbildlich. Prunk im Alltag passte gerade nicht zu diesem Ideal.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kar-09",
+      "lernzielId": "lz-karl",
+      "typ": "zuordnen",
+      "frage": "Welche Angabe aus Einhards Beschreibung passt zu welchem Ideal des fränkischen Adels?",
+      "paare": [
+        {
+          "links": "kräftiger, grosser Körper",
+          "rechts": "Männlichkeit"
+        },
+        {
+          "links": "reitet und jagt regelmässig",
+          "rechts": "Reit- und Jagdgeschick"
+        },
+        {
+          "links": "kleidet sich nach fränkischer Sitte",
+          "rechts": "Traditionsbewusstsein"
+        },
+        {
+          "links": "im Alltag kaum anders gekleidet als einfache Leute",
+          "rechts": "Demut"
+        }
+      ],
+      "erklaerung": "Einhards Karl erfüllt Punkt für Punkt das Ideal des fränkischen Adels — ein Hinweis darauf, dass er ein Vorbild zeichnet.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kar-10",
+      "lernzielId": "lz-karl",
+      "typ": "einfachwahl",
+      "frage": "Wer konnte zur Zeit Karls laut Zusatzinformationen vor allem lesen — und war damit Leserschaft von Einhards Werk?",
+      "optionen": [
+        "die Bauern auf dem Land",
+        "Händler und Handwerker",
+        "alle Kinder ab sieben Jahren",
+        "Geistliche und hoher Adel"
+      ],
+      "richtig": 3,
+      "erklaerung": "Lesen konnten vor allem Geistliche und hoher Adel; andere liessen sich vorlesen. Diese Gruppen hatten auch politischen Einfluss.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kar-11",
+      "lernzielId": "lz-karl",
+      "typ": "wahrfalsch",
+      "frage": "Laut Einhard trug Karl jeden Tag Gold, Edelsteine und ein Diadem.",
+      "richtig": false,
+      "erklaerung": "Prachtkleidung trug Karl nur an Festtagen. Im Alltag kleidete er sich nach fränkischer Tradition, kaum anders als einfache Leute.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kar-12",
+      "lernzielId": "lz-karl",
+      "typ": "einfachwahl",
+      "frage": "Einhard erwähnt, dass Karls Stimme eher hell war und nicht ganz zu seinem Körper passte. Wie lässt sich dieses Detail bei der Beurteilung der Quelle deuten?",
+      "optionen": [
+        "Ein kleiner Makel kann das Lob glaubwürdiger wirken lassen.",
+        "Es beweist, dass Einhard Karl nie selbst gesehen hat.",
+        "Es zeigt, dass Einhard den Kaiser eigentlich hasste.",
+        "Es ist für die Beurteilung der Quelle ganz unwichtig."
+      ],
+      "richtig": 0,
+      "erklaerung": "Ein ungünstiges Detail kann das Lob glaubwürdiger wirken lassen. Es kann aber auch ein literarisches Mittel sein und beweist weder persönliche Kenntnis noch die Zuverlässigkeit aller Aussagen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-kar-13",
+      "lernzielId": "lz-karl",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Umstände sprechen dafür, dass Einhard ein **geschöntes** Bild von Karl zeichnet?",
+      "optionen": [
+        "Er war Karls Vertrauter und verdankte ihm seine Stellung.",
+        "Er schrieb die Biographie für die Nachwelt (Tradition).",
+        "Sein Karl entspricht genau dem Ideal des fränkischen Adels.",
+        "Er erwähnt auch ein ungünstiges Detail (die helle Stimme)."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Nähe zum Herrscher, Absicht für die Nachwelt und die Übereinstimmung mit dem Adelsideal deuten auf eine Idealisierung. Das ungünstige Detail spricht eher für Glaubwürdigkeit.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-kar-14",
+      "lernzielId": "lz-karl",
+      "typ": "offen",
+      "frage": "**Arbeitsgrundlage — Einhards Beschreibung in eigenen Worten, kein Originalzitat:** Karl sei gross und kräftig gewesen, habe oft geritten und gejagt und sich im Alltag schlicht nach fränkischer Sitte gekleidet. Prunk habe er nur an Festtagen getragen. Seine eher helle Stimme habe nicht ganz zu seiner Gestalt gepasst.\n\n**Zusatzinformationen:** Einhard war adliger Hofgelehrter und Vertrauter Karls. Er schrieb die Biographie *Vita Caroli Magni* zwischen 817 und 836, nach Karls Tod. Lesen konnten vor allem Geistliche und hoher Adel; dieser schätzte Reiten und Jagen, Tradition und Demut.\n\nUntersuche die Beschreibung nach AQUA (Autor, Quelle, Adressat). Schreibe zu jedem Punkt ein bis zwei Sätze und leite eine mögliche Absicht Einhards begründet ab.",
+      "musterloesung": "Autor: Einhard, adliger Hofgelehrter und Vertrauter Karls, leitete die Werkstätten der Aachener Pfalz und war Diplomat (806 in Rom); er kannte Karl persönlich und verdankte ihm viel. Quelle: Ausschnitt aus der Biographie Vita Caroli Magni, geschrieben zwischen 817 und 836, also nach Karls Tod; beschreibt Karls Aussehen, seine Vorliebe für Reiten und Jagen und seine meist schlichte fränkische Kleidung (Prunk nur an Festtagen). Adressat: die lesekundige Oberschicht — Geistliche und hoher Adel — sowie die Nachwelt; Einhard will das Andenken Karls als vorbildlichen Herrscher bewahren.",
+      "stichworte": [
+        "Einhard: Hofgelehrter, Vertrauter",
+        "Biographie, 817–836, nach Karls Tod",
+        "Aussehen, Reiten/Jagen, schlichte Kleidung",
+        "Geistliche und Adel, Nachwelt",
+        "Andenken bewahren"
+      ],
+      "erklaerung": "Eine vollständige Untersuchung behandelt alle drei Teile und nutzt die Zusatzinformationen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-kar-15",
+      "lernzielId": "lz-karl",
+      "typ": "offen",
+      "frage": "Beurteile: Wie verlässlich ist Einhards Bild von Karl dem Grossen? Nenne Argumente dafür und dagegen und ziehe ein Fazit.",
+      "musterloesung": "Dafür: Einhard kannte Karl persönlich und lange; er nennt auch ein ungünstiges Detail (die helle Stimme). Dagegen: Er war Karls Vertrauter und verdankte ihm seine Stellung; er schrieb nach Karls Tod für die Nachwelt (Tradition), und sein Karl entspricht genau dem Ideal des fränkischen Adels (Männlichkeit, Reiten und Jagen, Tradition, Demut). Vielleicht wollte er Karl auch als Vorbild darstellen — mit dessen Nachfolger Ludwig verstand er sich weniger gut. Fazit: wertvolle Quelle eines Augenzeugen, aber wohl ein geschöntes Herrscherbild; man muss sie mit anderen Quellen vergleichen.",
+      "stichworte": [
+        "kannte Karl persönlich",
+        "ungünstiges Detail",
+        "Vertrauter, Abhängigkeit",
+        "nach dem Tod, für die Nachwelt",
+        "Adelsideal",
+        "Vergleich mit anderen Quellen"
+      ],
+      "erklaerung": "Eine Beurteilung wägt ab und begründet ein Fazit — nicht nur «glaubwürdig» oder «unglaubwürdig».",
+      "schwierigkeit": 3
+    }
+  ]
+}

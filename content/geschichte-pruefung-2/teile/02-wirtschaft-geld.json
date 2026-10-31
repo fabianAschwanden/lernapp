@@ -1,0 +1,236 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-wirtschaft-geld",
+      "thema": "Wirtschaft und Geld",
+      "text": "Du beschreibst Handelshäuser und Wechselbriefe und erklärst am Beispiel der Fugger den Zusammenhang von Kredit, Monopolen und politischer Macht.",
+      "zusammenfassung": "### Wie werden Handel und Geld zu Macht?\n**Handelshäuser** verbanden Niederlassungen in verschiedenen Städten. Sie kauften Waren ein, organisierten Transporte und verkauften auf entfernten Märkten. Städte wie Venedig, Florenz, Augsburg und Antwerpen waren wichtige Knotenpunkte. Produktionsgewinne konnten in den Fernhandel fliessen.\n\nEin **Wechselbrief** dokumentierte eine Geldforderung, die an einem anderen Ort eingelöst werden konnte. Das erleichterte Zahlungen, ohne grosse Bargeldsummen auf unsicheren Wegen mitzunehmen. Banken verbanden Geldwechsel mit Kreditgeschäften.\n\n**Jakob Fugger** aus Augsburg wurde durch Handel, Bergbau und Bankgeschäfte reich. Er lieh Fürsten Geld. Als Gegenleistung konnte er Rechte an Bodenschätzen erhalten. Die Kontrolle über grosse Teile eines Warenangebots stärkte seine **Monopolstellung**: Konkurrenz wurde eingeschränkt und sein Einfluss wuchs.\n\nGeld war auch politisch wichtig. Fugger unterstützte die Wahl Karls V. **1519** finanziell und forderte in einem Brief **1523** die Rückzahlung von Schulden. Der Brief zeigt, wie ein Kaufmann Druck auf einen Herrscher ausüben konnte. Fuggers Behauptung, ohne ihn sei die Wahl nicht möglich gewesen, ist jedoch seine interessengeleitete Darstellung, kein neutraler Beweis.\n\n**Niklaus von Diesbach** steht im Material für sozialen Aufstieg durch Handel bis zu Grundbesitz und politischen Ämtern in Bern.\n\n> Kredit kann eine gegenseitige Abhängigkeit schaffen: Herrscher brauchen Geld, Kaufleute brauchen Rückzahlung und Rechte.",
+      "merksaetze": [
+        "Handelshäuser vernetzen Waren, Verkehrswege und Absatzmärkte.",
+        "Wechselbriefe vermindern gefährliche Bargeldtransporte.",
+        "Fugger verbindet Handel, Bergbau, Kredit und politischen Einfluss."
+      ],
+      "bilder": [],
+      "quellenhinweis": "Schulbuch S. 12–13 (s-1375)."
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-wirtschaft-geld-01",
+      "lernzielId": "lz-wirtschaft-geld",
+      "typ": "einfachwahl",
+      "frage": "Wozu diente ein Wechselbrief im Fernhandel?",
+      "erklaerung": "Ein Wechselbrief machte eine Zahlung an einem anderen Ort möglich, ohne alles Bargeld mitzuführen.",
+      "schwierigkeit": 1,
+      "optionen": [
+        "Eine Geldforderung andernorts einlösen",
+        "Eigentum an jeder transportierten Ware beweisen",
+        "Fürstliche Steuern vollständig abschaffen",
+        "Einen Kredit ohne Rückzahlung ermöglichen"
+      ],
+      "richtig": 0
+    },
+    {
+      "id": "f-wirtschaft-geld-02",
+      "lernzielId": "lz-wirtschaft-geld",
+      "typ": "einfachwahl",
+      "frage": "In welcher Stadt war Jakob Fugger als Kaufmann verwurzelt?",
+      "erklaerung": "Augsburg war ein bedeutender Handelsplatz nördlich der Alpen.",
+      "schwierigkeit": 1,
+      "optionen": [
+        "Basel",
+        "Augsburg",
+        "Florenz",
+        "Genua"
+      ],
+      "richtig": 1
+    },
+    {
+      "id": "f-wirtschaft-geld-03",
+      "lernzielId": "lz-wirtschaft-geld",
+      "typ": "einfachwahl",
+      "frage": "Was stärkte Fuggers Stellung gegenüber verschuldeten Fürsten?",
+      "erklaerung": "Kredite konnten ihm Rechte an Bodenschätzen und weiteren wirtschaftlichen Vorteilen verschaffen.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Er tauschte Schulden gegen gleiche Bürgerrechte.",
+        "Er teilte alle Gewinne gleich mit Bauern auf.",
+        "Er konnte Kredit mit Rechten verbinden.",
+        "Er erhielt automatisch den Titel des Herrschers."
+      ],
+      "richtig": 2
+    },
+    {
+      "id": "f-wirtschaft-geld-04",
+      "lernzielId": "lz-wirtschaft-geld",
+      "typ": "einfachwahl",
+      "frage": "Was bezeichnet eine Monopolstellung?",
+      "erklaerung": "Ein Monopol schränkt Konkurrenz ein und stärkt den Anbieter.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Die Verteilung des Handels auf gleiche Konkurrenten",
+        "Die vollständige Freiheit sämtlicher Marktanbieter",
+        "Die gemeinsame Kontrolle eines Angebots durch Käufer",
+        "Die beherrschende Kontrolle eines Angebots"
+      ],
+      "richtig": 3
+    },
+    {
+      "id": "f-wirtschaft-geld-05",
+      "lernzielId": "lz-wirtschaft-geld",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aufgaben konnten zu einem Handelshaus gehören?",
+      "erklaerung": "Handelshäuser verbanden Waren- und Geldgeschäfte.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Warenimport und Warenexport",
+        "Organisation von Transporten",
+        "Geldwechsel und Kredit",
+        "Festlegung kirchlicher Glaubenslehren"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "f-wirtschaft-geld-06",
+      "lernzielId": "lz-wirtschaft-geld",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aussagen über Fuggers Brief an Karl V. sind quellenkritisch sinnvoll?",
+      "erklaerung": "Die Rückzahlung ist Fuggers Interesse; seine Darstellung hebt den eigenen Beitrag hervor.",
+      "schwierigkeit": 3,
+      "optionen": [
+        "Fugger will seine Forderung durchsetzen.",
+        "Der Brief beweist allein Fuggers Unentbehrlichkeit.",
+        "Die frühere Wahlhilfe dient als Druckmittel.",
+        "Die Sicht des Gläubigers prägt den Inhalt."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "f-wirtschaft-geld-07",
+      "lernzielId": "lz-wirtschaft-geld",
+      "typ": "wahrfalsch",
+      "frage": "Niederlassungen in verschiedenen Städten erleichterten den Fernhandel.",
+      "erklaerung": "Sie verbesserten den Zugang zu Märkten, Informationen und Geschäftspartnern.",
+      "schwierigkeit": 2,
+      "richtig": true
+    },
+    {
+      "id": "f-wirtschaft-geld-08",
+      "lernzielId": "lz-wirtschaft-geld",
+      "typ": "wahrfalsch",
+      "frage": "Ein Wechselbrief machte Kaufleute automatisch unabhängig von jeder Zahlungspflicht.",
+      "erklaerung": "Er dokumentierte gerade eine Forderung; er ersetzte nicht die Verpflichtung zur Zahlung.",
+      "schwierigkeit": 2,
+      "richtig": false
+    },
+    {
+      "id": "f-wirtschaft-geld-09",
+      "lernzielId": "lz-wirtschaft-geld",
+      "typ": "wahrfalsch",
+      "frage": "Viel Geld konnte einem Kaufmann Einfluss auf politische Entscheidungen verschaffen.",
+      "erklaerung": "Herrscher waren für kostspielige Vorhaben und Wahlen auf Finanzierungen angewiesen.",
+      "schwierigkeit": 2,
+      "richtig": true
+    },
+    {
+      "id": "f-wirtschaft-geld-10",
+      "lernzielId": "lz-wirtschaft-geld",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die Urkunde, die im Material Zahlungen an einem anderen Ort erleichtert?",
+      "erklaerung": "Die schriftliche Forderung verringert den Bedarf an Bargeldtransporten.",
+      "schwierigkeit": 1,
+      "akzeptiert": [
+        "Wechselbrief",
+        "Wechselbriefe"
+      ]
+    },
+    {
+      "id": "f-wirtschaft-geld-11",
+      "lernzielId": "lz-wirtschaft-geld",
+      "typ": "kurzantwort",
+      "frage": "Welche Schweizer Handelsfamilie steht im Material für Niklaus’ Aufstieg in die Berner Politik?",
+      "erklaerung": "Der wirtschaftliche Erfolg von Niklaus von Diesbach ermöglichte Grundbesitz und gesellschaftlichen Aufstieg.",
+      "schwierigkeit": 2,
+      "akzeptiert": [
+        "Diesbach",
+        "von Diesbach"
+      ]
+    },
+    {
+      "id": "f-wirtschaft-geld-12",
+      "lernzielId": "lz-wirtschaft-geld",
+      "typ": "zuordnen",
+      "frage": "Ordne wirtschaftliche Begriffe ihrer Funktion zu.",
+      "erklaerung": "Die Begriffe beschreiben unterschiedliche Elemente desselben Wirtschaftsnetzes.",
+      "schwierigkeit": 2,
+      "paare": [
+        {
+          "links": "Handelshaus",
+          "rechts": "Geschäfte an mehreren Handelsplätzen koordinieren"
+        },
+        {
+          "links": "Wechselbrief",
+          "rechts": "Geldforderung andernorts einlösen"
+        },
+        {
+          "links": "Kredit",
+          "rechts": "Geld gegen spätere Rückzahlung bereitstellen"
+        },
+        {
+          "links": "Monopolstellung",
+          "rechts": "Konkurrenz bei einem Angebot stark einschränken"
+        }
+      ]
+    },
+    {
+      "id": "f-wirtschaft-geld-13",
+      "lernzielId": "lz-wirtschaft-geld",
+      "typ": "reihenfolge",
+      "frage": "Ordne diese mögliche Verbindung von Kredit und Macht.",
+      "erklaerung": "Die Kette erklärt einen Mechanismus, nicht den zwingenden Verlauf jedes Kreditgeschäfts.",
+      "schwierigkeit": 2,
+      "elemente": [
+        "Ein Fürst braucht Geld.",
+        "Ein Kaufmann gewährt einen Kredit.",
+        "Der Kaufmann erhält dafür wirtschaftliche Rechte.",
+        "Diese Rechte stärken seinen Einfluss auf den Markt."
+      ]
+    },
+    {
+      "id": "f-wirtschaft-geld-14",
+      "lernzielId": "lz-wirtschaft-geld",
+      "typ": "zahl",
+      "frage": "In welchem Jahr unterstützte Fugger die Wahl Karls V. finanziell?",
+      "erklaerung": "Die Wahlhilfe von 1519 ist vom späteren Forderungsbrief 1523 zu unterscheiden.",
+      "schwierigkeit": 1,
+      "richtig": 1519,
+      "toleranz": 0
+    },
+    {
+      "id": "f-wirtschaft-geld-15",
+      "lernzielId": "lz-wirtschaft-geld",
+      "typ": "offen",
+      "frage": "Erkläre an Fugger, wie wirtschaftliche und politische Macht einander verstärken konnten.",
+      "erklaerung": "Eine gute Erklärung zeigt die Rückkopplung zwischen Kapital, Rechten und Herrschaft.",
+      "schwierigkeit": 3,
+      "musterloesung": "Gewinne aus Handel, Bergbau und Bankgeschäften ermöglichten Kredite an Fürsten. Die Fürsten brauchten das Geld und konnten als Gegenleistung wirtschaftliche Rechte vergeben. Diese Rechte und Monopolstellungen vergrösserten wiederum Fuggers Gewinne und seine Möglichkeiten, politische Entscheidungen zu beeinflussen."
+    },
+    {
+      "id": "f-wirtschaft-geld-16",
+      "lernzielId": "lz-wirtschaft-geld",
+      "typ": "offen",
+      "frage": "Ein Kaufmann schreibt einem Herrscher: Ohne meine Finanzierung wäre Deine Wahl gescheitert. Wie untersuchst Du diese Behauptung?",
+      "erklaerung": "Interesse und Aussagekraft einer Quelle müssen auseinandergehalten werden.",
+      "schwierigkeit": 3,
+      "musterloesung": "Ich bestimme Autor, Empfänger, Zeitpunkt und Anlass. Der Kaufmann will Schulden zurückerhalten und betont seine eigene Bedeutung. Der Brief belegt seinen Anspruch und den politischen Einsatz von Geld, beweist aber nicht allein, dass die Wahl ohne ihn sicher gescheitert wäre. Ich würde weitere Quellen vergleichen."
+    }
+  ]
+}

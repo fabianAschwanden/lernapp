@@ -1,0 +1,236 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-seefahrt-entdeckungen",
+      "thema": "Seefahrt und europäische Expansion",
+      "text": "Du erklärst Motive und Voraussetzungen europäischer Seefahrten, vergleichst Kolumbus, da Gama und Magellans Expedition und analysierst die Aufteilung von Herrschaftsansprüchen.",
+      "zusammenfassung": "### Warum suchen europäische Mächte neue Seewege?\nGewürze und andere asiatische Waren waren begehrt. Handelsketten und Konkurrenz förderten die Suche nach direkteren Wegen. Die osmanische Einnahme **Konstantinopels 1453** erschwerte bestimmte Handelsverbindungen; sie unterband nicht den gesamten Osthandel. Nach dem Ende muslimischer Herrschaft in **Granada 1492** konnte sich die spanische Krone stärker der Expansion widmen. Wirtschaftliche Interessen verbanden sich mit Machtstreben und christlicher Missionierung.\n\n**Kolumbus** wollte auf westlichem Seeweg Asien erreichen. Er kannte die Kugelgestalt, unterschätzte aber Entfernungen und berücksichtigte Amerika nicht. Für die spanische Krone erreichte er **1492** die **Bahamas**, später Kuba und Hispaniola. Seine Bezeichnung der Bewohner als Indios beruht auf der falschen Annahme, bei Indien gelandet zu sein. In den Tagebuchauszügen treten **Goldsuche, Missionierung und Unterwerfungsinteressen** neben freundlich beschriebenem Tausch hervor. Die Gebiete waren bereits bewohnt: Entdeckung ist hier eine europäische Perspektive.\n\n**Vasco da Gama** erreichte **1498** Indien auf dem Weg um Afrika. **Magellans Expedition** brach **1519** auf, durchquerte die nach ihm benannte Meerenge und den Pazifik. Magellan starb **1521** auf den Philippinen; Überlebende beendeten **1522** die erste Weltumsegelung. Hunger, verdorbenes Wasser, Schiffverluste, Meutereien und Kämpfe belasteten die Fahrten.\n\nKaravellen, Karten, astronomische Orientierung sowie Kenntnisse von Winden und Strömungen erleichterten Navigation. Sie beseitigten die Gefahren nicht.\n\n**Tordesillas 1494** trennte portugiesische Ansprüche östlich und spanische westlich einer Atlantiklinie; ein Teil Brasiliens lag in Portugals Sphäre. **Saragossa 1529** ergänzte eine pazifische Abgrenzung. Der Papst begründete Herrschaft mit Missionierung. Andere europäische Mächte akzeptierten die Teilung nicht; indigene Gesellschaften hatten ihr nicht zugestimmt.\n\n> Gold, Glaube und Macht erklären Expansion besser als ein reines Abenteuerbild.",
+      "merksaetze": [
+        "Kolumbus 1492: Karibik statt Asien; da Gama 1498: Indien um Afrika.",
+        "Magellans Expedition, nicht Magellan selbst, vollendet 1522 die Weltumsegelung.",
+        "Tordesillas verteilt europäische Ansprüche, nicht das Einverständnis der Bevölkerung."
+      ],
+      "bilder": [],
+      "quellenhinweis": "Schulbuch S. 26–33 (s-1382–1385); Arbeitsblätter s-1389–1391, markierte Quellenanalyse auf s-1390."
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-seefahrt-entdeckungen-01",
+      "lernzielId": "lz-seefahrt-entdeckungen",
+      "typ": "einfachwahl",
+      "frage": "Welches Ziel verfolgte Kolumbus vor seiner ersten Atlantikfahrt?",
+      "erklaerung": "Kolumbus rechnete mit einem westlichen Zugang nach Asien und nicht mit Amerika dazwischen.",
+      "schwierigkeit": 1,
+      "optionen": [
+        "Asien auf westlicher Route erreichen",
+        "Asien über die Südspitze Afrikas erreichen",
+        "Amerika als bekannten Kontinent umsegeln",
+        "Eine östliche Landroute nach Indien finden"
+      ],
+      "richtig": 0
+    },
+    {
+      "id": "f-seefahrt-entdeckungen-02",
+      "lernzielId": "lz-seefahrt-entdeckungen",
+      "typ": "einfachwahl",
+      "frage": "Wo landete Kolumbus 1492 zuerst?",
+      "erklaerung": "Seine erste Landung lag in der Karibik, nicht in Asien.",
+      "schwierigkeit": 1,
+      "optionen": [
+        "An der Küste Indiens",
+        "Auf einer Insel der Bahamas",
+        "An der Küste Brasiliens",
+        "Am Kap der Guten Hoffnung"
+      ],
+      "richtig": 1
+    },
+    {
+      "id": "f-seefahrt-entdeckungen-03",
+      "lernzielId": "lz-seefahrt-entdeckungen",
+      "typ": "einfachwahl",
+      "frage": "Welche Route führte Vasco da Gama nach Indien?",
+      "erklaerung": "Da Gama erreichte Indien 1498 über den Atlantik und den Indischen Ozean.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Durch eine westliche Meerenge in Südamerika",
+        "Über die Karibik direkt nach Ostasien",
+        "Um die Südspitze Afrikas",
+        "Auf einer Landroute durch den Nahen Osten"
+      ],
+      "richtig": 2
+    },
+    {
+      "id": "f-seefahrt-entdeckungen-04",
+      "lernzielId": "lz-seefahrt-entdeckungen",
+      "typ": "einfachwahl",
+      "frage": "Wer beendete 1522 die erste Weltumsegelung?",
+      "erklaerung": "Magellan war bereits 1521 gestorben; das Unternehmen wurde von anderen vollendet.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Kolumbus nach seiner letzten Karibikreise",
+        "Da Gama nach seiner Indienfahrt um Afrika",
+        "Magellan persönlich nach seiner Rückkehr",
+        "Überlebende von Magellans Expedition"
+      ],
+      "richtig": 3
+    },
+    {
+      "id": "f-seefahrt-entdeckungen-05",
+      "lernzielId": "lz-seefahrt-entdeckungen",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Motive zeigt Kolumbus’ Tagebuch in den vorliegenden Auszügen?",
+      "erklaerung": "Die Auszüge verbinden Tauschkontakte mit wirtschaftlichen, religiösen und kolonialen Absichten.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Suche nach Gold",
+        "Christliche Missionierung",
+        "Nutzung von Menschen für europäische Ziele",
+        "Anerkennung vollständiger indigener Selbstbestimmung"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "f-seefahrt-entdeckungen-06",
+      "lernzielId": "lz-seefahrt-entdeckungen",
+      "typ": "mehrfachwahl",
+      "frage": "Was erleichterte lange Seefahrten?",
+      "erklaerung": "Schiffe, astronomische Orientierung sowie Wind- und Strömungswissen halfen bei der Navigation. Seekarten waren noch unvollständig und enthielten keine vollständig vermessenen Küsten.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Astronomische Orientierung",
+        "Kenntnis von Winden und Strömungen",
+        "Geeignete Schiffe und Seekarten",
+        "Seekarten mit bereits vollständig vermessenen Küsten"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "f-seefahrt-entdeckungen-07",
+      "lernzielId": "lz-seefahrt-entdeckungen",
+      "typ": "wahrfalsch",
+      "frage": "Tordesillas ordnete Portugal eine östliche und Spanien eine westliche Einflusssphäre zu.",
+      "erklaerung": "Die Atlantiklinie grenzte konkurrierende iberische Herrschaftsansprüche ab.",
+      "schwierigkeit": 2,
+      "richtig": true
+    },
+    {
+      "id": "f-seefahrt-entdeckungen-08",
+      "lernzielId": "lz-seefahrt-entdeckungen",
+      "typ": "wahrfalsch",
+      "frage": "Der Vertrag von Tordesillas wurde von allen betroffenen indigenen Gesellschaften freiwillig abgeschlossen.",
+      "erklaerung": "Spanien und Portugal verhandelten eigene Ansprüche, nicht mit den Bevölkerungen der beanspruchten Gebiete.",
+      "schwierigkeit": 2,
+      "richtig": false
+    },
+    {
+      "id": "f-seefahrt-entdeckungen-09",
+      "lernzielId": "lz-seefahrt-entdeckungen",
+      "typ": "wahrfalsch",
+      "frage": "Die Einnahme Konstantinopels 1453 erklärt allein und vollständig alle europäischen Seefahrten.",
+      "erklaerung": "Handelsinteressen, Konkurrenz, politische Macht und Missionierung waren weitere wichtige Faktoren.",
+      "schwierigkeit": 2,
+      "richtig": false
+    },
+    {
+      "id": "f-seefahrt-entdeckungen-10",
+      "lernzielId": "lz-seefahrt-entdeckungen",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst der spanisch-portugiesische Vertrag zur Atlantikgrenze von 1494?",
+      "erklaerung": "Die vertragliche Linie ist von der päpstlichen Regelung 1493 zu unterscheiden.",
+      "schwierigkeit": 1,
+      "akzeptiert": [
+        "Tordesillas",
+        "Vertrag von Tordesillas"
+      ]
+    },
+    {
+      "id": "f-seefahrt-entdeckungen-11",
+      "lernzielId": "lz-seefahrt-entdeckungen",
+      "typ": "kurzantwort",
+      "frage": "Welcher Seefahrer erreichte 1498 Indien um Afrika?",
+      "erklaerung": "Die Route um Afrika war eine Alternative zum westlichen Plan des Kolumbus.",
+      "schwierigkeit": 1,
+      "akzeptiert": [
+        "Vasco da Gama",
+        "da Gama"
+      ]
+    },
+    {
+      "id": "f-seefahrt-entdeckungen-12",
+      "lernzielId": "lz-seefahrt-entdeckungen",
+      "typ": "zuordnen",
+      "frage": "Ordne Ereignis und Datum zu.",
+      "erklaerung": "Die Zuordnung verbindet Seefahrten und Abgrenzung kolonialer Ansprüche.",
+      "schwierigkeit": 2,
+      "paare": [
+        {
+          "links": "Kolumbus erreicht die Bahamas",
+          "rechts": "1492"
+        },
+        {
+          "links": "Vertrag von Tordesillas",
+          "rechts": "1494"
+        },
+        {
+          "links": "Da Gama erreicht Indien",
+          "rechts": "1498"
+        },
+        {
+          "links": "Magellans Expedition vollendet die Weltumsegelung",
+          "rechts": "1522"
+        }
+      ]
+    },
+    {
+      "id": "f-seefahrt-entdeckungen-13",
+      "lernzielId": "lz-seefahrt-entdeckungen",
+      "typ": "reihenfolge",
+      "frage": "Ordne die Etappen der ersten Weltumsegelung zeitlich.",
+      "erklaerung": "Die Reise wurde trotz Magellans Tod von Überlebenden fortgesetzt.",
+      "schwierigkeit": 2,
+      "elemente": [
+        "1519: Die Expedition verlässt Spanien.",
+        "Die Schiffe passieren die Magellanstrasse.",
+        "1521: Magellan stirbt auf den Philippinen.",
+        "1522: Ein Schiff erreicht Spanien."
+      ]
+    },
+    {
+      "id": "f-seefahrt-entdeckungen-14",
+      "lernzielId": "lz-seefahrt-entdeckungen",
+      "typ": "zahl",
+      "frage": "In welchem Jahr wurde der Vertrag von Tordesillas geschlossen?",
+      "erklaerung": "Die Teilung im Atlantik von 1494 ist vom ergänzenden Vertrag von Saragossa 1529 zu trennen.",
+      "schwierigkeit": 1,
+      "richtig": 1494,
+      "toleranz": 0
+    },
+    {
+      "id": "f-seefahrt-entdeckungen-15",
+      "lernzielId": "lz-seefahrt-entdeckungen",
+      "typ": "offen",
+      "frage": "Vergleiche die Wege und Ergebnisse von Kolumbus, da Gama und Magellans Expedition.",
+      "erklaerung": "Weg, tatsächliches Ergebnis und beteiligte Personen dürfen nicht verwechselt werden.",
+      "schwierigkeit": 3,
+      "musterloesung": "Kolumbus suchte eine westliche Asienroute und erreichte 1492 die Karibik, ohne sie richtig einzuordnen. Da Gama gelangte 1498 um Afrika nach Indien. Magellans Expedition suchte eine westliche Durchfahrt nach Ostasien und vollendete 1522 die Weltumsegelung; Magellan selbst starb 1521. Gemeinsam sind wirtschaftliche und machtpolitische Interessen sowie riskante Fernfahrten."
+    },
+    {
+      "id": "f-seefahrt-entdeckungen-16",
+      "lernzielId": "lz-seefahrt-entdeckungen",
+      "typ": "offen",
+      "frage": "Analysiere die Verbindung von freundlichem Tausch, Goldsuche und Missionierung in Kolumbus’ Beschreibungen. Warum ist Entdeckung eine einseitige Bezeichnung?",
+      "erklaerung": "Eine Quellenanalyse verbindet beobachteten Kontakt, Absicht und Perspektive.",
+      "schwierigkeit": 3,
+      "musterloesung": "Kolumbus schildert zunächst Tausch und freundliche Begegnungen, bewertet Menschen aber nach europäischen Interessen. Er sucht Gold, denkt an Dienerschaft und will christliche Missionierung. Das zeigt bereits eine ungleiche Sicht auf Macht und Menschen. Die Gebiete waren bewohnt; für ihre Bevölkerung waren sie nicht neu entdeckt. Deshalb beschreibt der Begriff vor allem die europäische Perspektive."
+    }
+  ]
+}

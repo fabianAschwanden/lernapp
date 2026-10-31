@@ -1,0 +1,492 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-begriffe",
+      "zusammenfassung": "### Begriffe (aus dem Griechischen)\n| Begriff | Bedeutung |\n|---|---|\n| **Historie** | Geschichte bzw. Geschichtswissenschaft — alles, was die Vergangenheit betrifft |\n| **historisch** | geschichtlich |\n| **Historiker/in** | jemand, der Geschichte erforscht und kennt |\n| **Historiograph** | Geschichtsschreiber |\n\n### Geschichtsbild\nDie Geschichtswissenschaft will ein **möglichst umfassendes und verlässliches Bild der Vergangenheit** ermitteln. Ein **Geschichtsbild** ist die Vorstellung, mit der sich eine Gemeinschaft (z. B. ein Land) über ihre **eigene Vergangenheit** verständigt. Es entsteht durch immer neue **Forschungsarbeit**.\n\n### Wozu Geschichte?\n1. **Gegenwart verstehen:** Heutige Probleme haben **historische Ursachen** — z. B. politischer Radikalismus, der Nahostkonflikt oder der Krieg in der Ukraine.\n2. **Orientierung für Entscheidungen:** Wissen über früher hilft bei gesellschaftlichen und politischen Entscheidungen für **Gegenwart und Zukunft**.\n3. **Alternativen erkennen:** Frühere Formen des Zusammenlebens und Regierens zeigen, dass es auch anders ginge. Kritik daran kann Bestehendes **bestätigen** oder nötigen **Wandel** sichtbar machen.\n4. **Sich in der Welt zurechtfinden:** Geschichte und Staatskunde fördern das Verständnis für **Politik** und das Interesse daran.\n5. **Andere verstehen:** Wer europäische und aussereuropäische Kulturen kennt, versteht ihre Leistungen und baut **Vorurteile und Klischees** gegenüber Fremdem und Vergangenem ab.\n6. **Identität:** Gemeinsames Erinnern stärkt die **nationale Identität** — sichtbar an **Nationalfeiertagen** (in der Schweiz z. B. der 1. August).\n7. **Freude:** Geschichte kann auch **Hobby und Unterhaltung** sein.\n\n### Eine eigene Definition\nGeschichte ist die Erforschung der Vergangenheit anhand von **Belegen (Quellen)**, um ein möglichst wahres Bild zu gewinnen, **Veränderungen** aufzuzeigen und zu **erklären, warum** etwas geschah — mit **Offenheit** für neue Sichtweisen.",
+      "merksaetze": [
+        "Historie = Geschichte; historisch = geschichtlich; Historiker = Geschichtsforscher; Historiograph = Geschichtsschreiber.",
+        "Ein Geschichtsbild ist die Vorstellung einer Gemeinschaft von ihrer eigenen Vergangenheit; es entsteht durch Forschung.",
+        "Geschichte erklärt die Ursachen heutiger Probleme und gibt Orientierung für Entscheidungen.",
+        "Geschichte zeigt Alternativen, baut Vorurteile ab und stiftet Identität (z. B. Nationalfeiertag)."
+      ]
+    },
+    {
+      "id": "lz-historiker",
+      "zusammenfassung": "### Geschichtsschreiber früher — Historiker heute\n- **Antike:** Geschichtsschreibung (Historiographie) galt auch als **Literatur**. Die Autoren **bewerteten** Ereignisse oft ganz persönlich.\n- **Mittelalter:** **Chronisten** schrieben Ereignisse der Reihe nach (chronologisch) auf und kommentierten sie ebenfalls **subjektiv**.\n- **Heute:** Geschichtsforschung ist eine **kritische Wissenschaft** — die aber nie ganz frei von Subjektivität ist.\n\n### Die drei Aufgaben von Historikern\n1. **Fragen stellen:** eigene Fragen an die Vergangenheit entwickeln.\n2. **Quellen finden:** die passenden Zeugnisse suchen, die eine Antwort ermöglichen.\n3. **Quellen kritisch auswerten:** trotz **Lücken, Widersprüchen, Verzerrungen, Mehrdeutigkeit** und sogar **Lügen** zu zuverlässigen Aussagen kommen.\n\n### Grenzen: Quellen erforschen heisst deuten\n- Quellen müssen **ausgelegt (interpretiert)** werden. Dabei spielen der **Standort** der Forschenden eine Rolle: **politische Haltung, Religion/Konfession, Staatszugehörigkeit, Entstehungszeit**.\n- Aus denselben Quellen können deshalb **verschiedene, sogar widersprüchliche** Darstellungen entstehen.\n- **Was** geschah und **wann**, ist meist weniger umstritten als **warum** (Motive, Ursachen).\n- Gegen Einseitigkeit helfen **verschiedene Standpunkte**. Ergebnisse müssen **überprüfbar** sein.\n\n### Nie abgeschlossen\nForschung ist **vorläufig**: **Neue Quellen**, neu geöffnete **Archive** oder **neue Fragestellungen** führen zu Ergänzungen oder zu einer neuen Bewertung. Zu keinem Thema ist das letzte Wort gesprochen.",
+      "merksaetze": [
+        "Antike Geschichtsschreiber und mittelalterliche Chronisten bewerteten subjektiv; heutige Historiker arbeiten wissenschaftlich-kritisch.",
+        "Drei Aufgaben: Fragen stellen, Quellen finden, Quellen kritisch auswerten.",
+        "Quellen erforschen heisst deuten — Herkunft, Religion, Politik und Zeit der Forschenden prägen das Ergebnis.",
+        "Was und wann ist meist klar, warum ist oft umstritten.",
+        "Forschung ist nie abgeschlossen: neue Quellen, Archive und Fragen führen zu neuen Bewertungen."
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-beg-01",
+      "lernzielId": "lz-begriffe",
+      "typ": "zuordnen",
+      "frage": "Ordne die Begriffe ihrer Bedeutung zu.",
+      "paare": [
+        {
+          "links": "Historie",
+          "rechts": "Geschichte, Geschichtswissenschaft"
+        },
+        {
+          "links": "historisch",
+          "rechts": "geschichtlich"
+        },
+        {
+          "links": "Historiker",
+          "rechts": "erforscht die Geschichte"
+        },
+        {
+          "links": "Historiograph",
+          "rechts": "Geschichtsschreiber"
+        }
+      ],
+      "erklaerung": "Alle vier Wörter kommen aus dem Griechischen. Der Historiker erforscht, der Historiograph schreibt Geschichte.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-beg-02",
+      "lernzielId": "lz-begriffe",
+      "typ": "kurzantwort",
+      "frage": "Wie nennt man einen Geschichtsschreiber mit dem Fachwort aus dem Griechischen?",
+      "akzeptiert": [
+        "Historiograph",
+        "Historiograf",
+        "Historiographin",
+        "Historiografin"
+      ],
+      "erklaerung": "Historiograph = Geschichtsschreiber (Historiographie = Geschichtsschreibung).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-beg-03",
+      "lernzielId": "lz-begriffe",
+      "typ": "einfachwahl",
+      "frage": "Was ist ein **Geschichtsbild**?",
+      "optionen": [
+        "ein Gemälde, das ein bekanntes historisches Ereignis zeigt",
+        "eine Zeitleiste mit allen wichtigen Jahreszahlen eines Landes",
+        "die Vorstellung einer Gemeinschaft von ihrer Vergangenheit",
+        "ein altes Foto aus einem Archiv"
+      ],
+      "richtig": 2,
+      "erklaerung": "Mit einem Geschichtsbild verständigt sich eine Gemeinschaft gedanklich über ihre Vergangenheit. Es entsteht und verändert sich durch Forschung.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-beg-04",
+      "lernzielId": "lz-begriffe",
+      "typ": "einfachwahl",
+      "frage": "Welches Ziel verfolgt die Geschichtswissenschaft?",
+      "optionen": [
+        "die Vergangenheit möglichst spannend und unterhaltsam nachzuerzählen",
+        "die Leistungen des eigenen Landes besonders hervorzuheben",
+        "die Zukunft mit Hilfe der Vergangenheit genau vorherzusagen",
+        "ein umfassendes, verlässliches Bild der Vergangenheit zu ermitteln"
+      ],
+      "richtig": 3,
+      "erklaerung": "Ziel ist ein umfassendes und verlässliches Bild der Vergangenheit — erarbeitet mit Belegen, nicht als spannende Erzählung oder Lob des eigenen Landes.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-beg-05",
+      "lernzielId": "lz-begriffe",
+      "typ": "mehrfachwahl",
+      "frage": "Wozu beschäftigt man sich mit Geschichte? Wähle alle passenden Gründe.",
+      "optionen": [
+        "um Ursachen heutiger Probleme zu verstehen",
+        "um Orientierung für Entscheidungen zu gewinnen",
+        "um Vorurteile gegenüber anderen Kulturen abzubauen",
+        "um genau vorauszusagen, was nächstes Jahr passiert",
+        "zur Unterhaltung und als Hobby"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Geschichte erklärt die Gegenwart, gibt Orientierung, baut Vorurteile ab und kann auch Freizeitvergnügen sein. Genaue Voraussagen der Zukunft erlaubt sie nicht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-beg-06",
+      "lernzielId": "lz-begriffe",
+      "typ": "wahrfalsch",
+      "frage": "Nationalfeiertage zeigen, dass gemeinsames Erinnern an die Geschichte die Identität eines Landes stärken kann.",
+      "richtig": true,
+      "erklaerung": "Historisches Erinnern trägt zur nationalen Identität bei; Nationalfeiertage wie der 1. August in der Schweiz machen das sichtbar.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-beg-07",
+      "lernzielId": "lz-begriffe",
+      "typ": "einfachwahl",
+      "frage": "Was ist gemeint, wenn es heisst, Geschichte zeige **Alternativen**?",
+      "optionen": [
+        "Man kann die Vergangenheit im Nachhinein noch verändern und verbessern.",
+        "Frühere Formen des Zusammenlebens zeigen, dass es auch anders geht.",
+        "Jede Quelle hat genau zwei gleich gute Deutungen.",
+        "Es gibt zu jedem Ereignis mehrere Daten."
+      ],
+      "richtig": 1,
+      "erklaerung": "Wer weiss, wie Menschen früher zusammenlebten und regiert wurden, erkennt, dass die heutige Ordnung nicht selbstverständlich ist — und kann sie kritisch prüfen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-beg-08",
+      "lernzielId": "lz-begriffe",
+      "typ": "zuordnen",
+      "frage": "Welcher Nutzen von Geschichte passt zum Beispiel?",
+      "paare": [
+        {
+          "links": "Du liest über die Vorgeschichte des Nahostkonflikts, um die heutigen Nachrichten zu verstehen.",
+          "rechts": "Gegenwart verstehen"
+        },
+        {
+          "links": "Du erfährst, wie die Menschen in einer fremden Kultur lebten, und merkst, dass dein Bild ein Klischee war.",
+          "rechts": "Vorurteile abbauen"
+        },
+        {
+          "links": "Am 1. August feiert die Schweiz ihre Gründung.",
+          "rechts": "Identität stiften"
+        },
+        {
+          "links": "Du schaust in der Freizeit eine Dokumentation über die Ritter.",
+          "rechts": "Unterhaltung"
+        }
+      ],
+      "erklaerung": "Geschichte erklärt die Gegenwart, baut Vorurteile ab, stiftet Identität und kann einfach Freude machen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-beg-09",
+      "lernzielId": "lz-begriffe",
+      "typ": "wahrfalsch",
+      "frage": "Ein Geschichtsbild steht ein für alle Mal fest, sobald es einmal erforscht ist.",
+      "richtig": false,
+      "erklaerung": "Ein Geschichtsbild entsteht durch immer neue Forschung und kann sich mit neuen Quellen und Fragen verändern.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-beg-10",
+      "lernzielId": "lz-begriffe",
+      "typ": "kurzantwort",
+      "frage": "Ergänze: «historisch» bedeutet auf Deutsch …",
+      "akzeptiert": [
+        "geschichtlich"
+      ],
+      "erklaerung": "historisch = geschichtlich, also die Vergangenheit betreffend.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-beg-11",
+      "lernzielId": "lz-begriffe",
+      "typ": "mehrfachwahl",
+      "frage": "Für welche heutigen Probleme werden auf dem Arbeitsblatt historische Ursachen als Beispiel genannt?",
+      "optionen": [
+        "politischer Radikalismus",
+        "Nahostkonflikt",
+        "Krieg in der Ukraine",
+        "Erfindung des Smartphones"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Radikalismus, Nahostkonflikt und Ukrainekrieg lassen sich ohne ihre Vorgeschichte kaum verstehen. Das Smartphone ist eine technische Entwicklung, kein politisches Problem.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-beg-12",
+      "lernzielId": "lz-begriffe",
+      "typ": "einfachwahl",
+      "frage": "Welche Aussage beschreibt den Unterschied zwischen **Historiker** und **Historiograph** am besten?",
+      "optionen": [
+        "Der Historiker lebte in der Antike, der Historiograph lebt heute.",
+        "Der Historiker sammelt nur Gegenstände, der Historiograph nur alte Texte.",
+        "Der Historiograph schreibt Geschichte auf, der Historiker erforscht sie.",
+        "Es gibt keinen Unterschied, beide Wörter kommen aus dem Lateinischen."
+      ],
+      "richtig": 2,
+      "erklaerung": "Historiograph = Geschichtsschreiber; Historiker = jemand, der Geschichte erforscht und kennt. Beide Wörter stammen aus dem Griechischen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-beg-13",
+      "lernzielId": "lz-begriffe",
+      "typ": "wahrfalsch",
+      "frage": "Laut Arbeitsblatt hilft der Unterricht in Geschichte und Staatskunde, sich in der heutigen Welt zu orientieren und Politik besser zu verstehen.",
+      "richtig": true,
+      "erklaerung": "Geschichte und Staatskunde fördern die Orientierung in der Gegenwart, das Verständnis für Politik und das Interesse daran.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-beg-14",
+      "lernzielId": "lz-begriffe",
+      "typ": "offen",
+      "frage": "Eine Kollegin meint: «Geschichte ist vorbei — das bringt mir nichts.» Widerlege sie mit mindestens drei Gründen.",
+      "musterloesung": "Geschichte hilft, die Gegenwart zu verstehen, weil viele heutige Probleme historische Ursachen haben (z. B. Nahostkonflikt, Ukrainekrieg). Sie gibt Orientierung für politische und gesellschaftliche Entscheidungen. Sie zeigt Alternativen zur heutigen Ordnung und regt zu Kritik an. Sie baut Vorurteile gegenüber fremden Kulturen und vergangenen Zeiten ab. Sie stärkt die Identität (Nationalfeiertag). Und sie kann einfach Freude machen.",
+      "stichworte": [
+        "Ursachen heutiger Probleme",
+        "Orientierung",
+        "Alternativen",
+        "Vorurteile abbauen",
+        "Identität",
+        "Unterhaltung"
+      ],
+      "erklaerung": "Gute Antworten nennen Gründe mit Beispielen, nicht nur Stichworte.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-beg-15",
+      "lernzielId": "lz-begriffe",
+      "typ": "offen",
+      "frage": "Formuliere eine eigene, kurze Definition von **Geschichte** (zwei bis drei Sätze). Zeige anschliessend an einem eigenen Beispiel, wie Geschichtswissen beim Verstehen der Gegenwart hilft, und begründe den Zusammenhang.",
+      "musterloesung": "Geschichte ist die Erforschung der Vergangenheit mit Hilfe von Quellen (Belegen). Sie will ein möglichst wahres Bild der Vergangenheit gewinnen, Veränderungen aufzeigen und erklären, warum etwas geschah. Dabei bleibt sie offen für neue Quellen und Sichtweisen. Beispiel: Der Schweizer Nationalfeiertag am 1. August erinnert an den Bundesbrief von 1291. Wer diesen historischen Bezug kennt, versteht, wie gemeinsames Erinnern nationale Identität stiftet. Andere schlüssig begründete Beispiele sind ebenfalls richtig.",
+      "stichworte": [
+        "Vergangenheit erforschen",
+        "Quellen/Belege",
+        "Veränderungen",
+        "erklären warum",
+        "Offenheit",
+        "eigenes Beispiel mit begründetem Bezug zur Gegenwart"
+      ],
+      "erklaerung": "Eine gute Definition verbindet Gegenstand (Vergangenheit), Methode (Belege) und Ziel (erklären, warum). Beim Beispiel zählt der erklärte Zusammenhang, nicht die Übereinstimmung mit der Musterlösung.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-his-01",
+      "lernzielId": "lz-historiker",
+      "typ": "reihenfolge",
+      "frage": "Bring die drei Aufgaben von Historikern in eine sinnvolle Reihenfolge.",
+      "elemente": [
+        "eigene Fragen an die Vergangenheit stellen",
+        "passende Quellen finden",
+        "die Quellen kritisch auswerten"
+      ],
+      "erklaerung": "Zuerst kommt die Frage, dann die Suche nach Quellen, die eine Antwort ermöglichen, und schliesslich deren kritische Auswertung.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-his-02",
+      "lernzielId": "lz-historiker",
+      "typ": "einfachwahl",
+      "frage": "Wie arbeiteten die **Chronisten** im Mittelalter?",
+      "optionen": [
+        "Sie werteten Archive wissenschaftlich und völlig neutral aus.",
+        "Sie sammelten nur Gegenstände wie Münzen, Waffen und Schmuck.",
+        "Sie schrieben Geschichte ausschliesslich in Form von Gedichten.",
+        "Sie hielten Ereignisse der Reihe nach fest und urteilten subjektiv."
+      ],
+      "richtig": 3,
+      "erklaerung": "Chronisten hielten Ereignisse chronologisch fest und bewerteten sie dabei persönlich — anders als die kritische Wissenschaft heute.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-his-03",
+      "lernzielId": "lz-historiker",
+      "typ": "wahrfalsch",
+      "frage": "In der Antike galt Geschichtsschreibung auch als literarische Kunst, und die Autoren bewerteten die Ereignisse oft persönlich.",
+      "richtig": true,
+      "erklaerung": "Antike Historiographie war auch Literatur; die Darstellung war oft subjektiv gefärbt.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-his-04",
+      "lernzielId": "lz-historiker",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Schwierigkeiten können Quellen haben, mit denen Historiker umgehen müssen?",
+      "optionen": [
+        "Lücken",
+        "Widersprüche",
+        "Verzerrungen und Lügen",
+        "Mehrdeutigkeit",
+        "Sie sind immer vollständig und neutral."
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Quellen sind oft lückenhaft, widersprüchlich, verzerrt, mehrdeutig oder sogar gelogen — deshalb müssen sie kritisch ausgewertet werden.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-his-05",
+      "lernzielId": "lz-historiker",
+      "typ": "mehrfachwahl",
+      "frage": "Was kann beeinflussen, wie ein Historiker eine Quelle deutet?",
+      "optionen": [
+        "seine politische Haltung",
+        "seine Religion bzw. Konfession",
+        "sein Staat bzw. seine Nationalität",
+        "die Zeit, in der er lebt",
+        "nichts — Wissenschaft ist immer völlig objektiv"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Forschende sind standortgebunden: Politik, Religion, Staatszugehörigkeit und Entstehungszeit prägen ihre Deutung.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-his-06",
+      "lernzielId": "lz-historiker",
+      "typ": "einfachwahl",
+      "frage": "Worüber sind sich Historiker meist **am ehesten** einig?",
+      "optionen": [
+        "warum ein Krieg ausbrach",
+        "welche Motive ein Herrscher hatte",
+        "was geschah und wann es geschah",
+        "ob eine Entscheidung richtig war"
+      ],
+      "richtig": 2,
+      "erklaerung": "Grunddaten (was, wann) sind seltener umstritten als Erklärungen (warum, Motive, Ursachen) und Bewertungen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-his-07",
+      "lernzielId": "lz-historiker",
+      "typ": "wahrfalsch",
+      "frage": "Wenn zwei Historiker dieselben Quellen untersuchen, kommen sie zwingend zum gleichen Ergebnis.",
+      "richtig": false,
+      "erklaerung": "Quellen müssen gedeutet werden. Aus denselben Quellen können verschiedene, sogar widersprüchliche Darstellungen entstehen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-his-08",
+      "lernzielId": "lz-historiker",
+      "typ": "mehrfachwahl",
+      "frage": "Was kann dazu führen, dass ein Thema neu bewertet wird?",
+      "optionen": [
+        "neu entdeckte Quellen",
+        "neu zugängliche Archive",
+        "neue Fragestellungen",
+        "dass ein Buch schon alt ist"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Neue Quellen, geöffnete Archive und neue Fragen führen zu Ergänzungen oder Neubewertungen. Das Alter eines Buches allein ist kein Grund.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-his-09",
+      "lernzielId": "lz-historiker",
+      "typ": "einfachwahl",
+      "frage": "Was hilft am besten gegen eine einseitige Darstellung der Geschichte?",
+      "optionen": [
+        "nur eine einzige, gute Quelle lesen",
+        "verschiedene Standpunkte vergleichen",
+        "auf alle Deutungen verzichten",
+        "nur Darstellungen aus dem eigenen Land lesen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der Vergleich verschiedener Standpunkte macht Einseitigkeit sichtbar; Ergebnisse müssen zudem überprüfbar sein.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-his-10",
+      "lernzielId": "lz-historiker",
+      "typ": "zuordnen",
+      "frage": "Wer arbeitete wie? Ordne zu.",
+      "paare": [
+        {
+          "links": "antiker Geschichtsschreiber",
+          "rechts": "subjektiv, auch als Literatur"
+        },
+        {
+          "links": "mittelalterlicher Chronist",
+          "rechts": "subjektiv, der Reihe nach berichtend"
+        },
+        {
+          "links": "moderner Historiker",
+          "rechts": "kritisch-wissenschaftlich"
+        }
+      ],
+      "erklaerung": "Früher wurde Geschichte persönlich bewertet und erzählt; heute ist sie eine kritische Wissenschaft — die aber nie ganz frei von Subjektivität ist.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-his-11",
+      "lernzielId": "lz-historiker",
+      "typ": "kurzantwort",
+      "frage": "Ergänze das Fachwort: Quellen erforschen heisst, sie zu …",
+      "akzeptiert": [
+        "interpretieren",
+        "deuten",
+        "auslegen"
+      ],
+      "erklaerung": "Quellen sprechen nicht für sich selbst — sie müssen ausgelegt, gedeutet, interpretiert werden.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-his-12",
+      "lernzielId": "lz-historiker",
+      "typ": "wahrfalsch",
+      "frage": "Die Forschung zu einem Thema ist abgeschlossen, sobald ein umfassendes Buch dazu erschienen ist.",
+      "richtig": false,
+      "erklaerung": "Forschung ist nie endgültig: Neue Quellen, Archive und Fragen können jederzeit zu Ergänzungen oder neuen Bewertungen führen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-his-13",
+      "lernzielId": "lz-historiker",
+      "typ": "einfachwahl",
+      "frage": "Warum müssen die Ergebnisse von Historikern **überprüfbar** sein?",
+      "optionen": [
+        "damit andere die Belege nachprüfen und die Deutung kritisieren können",
+        "damit mehrere Darstellungen automatisch zur gleichen Bewertung kommen",
+        "damit die persönliche Nähe eines Autors zum Ereignis als Beweis genügt",
+        "damit eine einmal geprüfte Deutung dauerhaft unverändert gelten kann"
+      ],
+      "richtig": 0,
+      "erklaerung": "Wissenschaft lebt davon, dass andere die Belege prüfen und Deutungen widersprechen können. So werden Fehler und Einseitigkeit erkannt.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-his-14",
+      "lernzielId": "lz-historiker",
+      "typ": "offen",
+      "frage": "Ein Schweizer und ein österreichischer Historiker schreiben je ein Buch über dieselbe Schlacht und kommen zu unterschiedlichen Urteilen. Erkläre, wie das trotz gleicher Quellen möglich ist.",
+      "musterloesung": "Quellen müssen gedeutet werden. Historiker sind standortgebunden: Ihre Staatszugehörigkeit, politische Haltung, Religion und die Zeit, in der sie leben, beeinflussen, welche Fragen sie stellen und wie sie die Quellen auslegen. Ob etwas geschah und wann, ist meist unbestritten, die Gründe und Bewertungen aber oft nicht. Deshalb entstehen aus denselben Quellen unterschiedliche Darstellungen. Ein Vergleich beider Standpunkte hilft gegen Einseitigkeit.",
+      "stichworte": [
+        "Quellen deuten/interpretieren",
+        "Standort: Staat, Politik, Religion, Zeit",
+        "was/wann vs. warum",
+        "verschiedene Standpunkte vergleichen"
+      ],
+      "erklaerung": "Kern: Deutung ist standortgebunden — das Faktengerüst ist oft gleich, die Erklärung nicht.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-his-15",
+      "lernzielId": "lz-historiker",
+      "typ": "offen",
+      "frage": "Erkläre, warum die Erforschung eines Themas in der Geschichte nie endgültig abgeschlossen ist. Nenne zwei Gründe.",
+      "musterloesung": "Es können neue Quellen gefunden oder bisher verschlossene Archive geöffnet werden; dann müssen Darstellungen ergänzt oder korrigiert werden. Ausserdem stellt jede Generation neue Fragen an die Vergangenheit, und Forschende sehen die Quellen aus einem anderen Standort. Deshalb sind Ergebnisse vorläufig und werden immer wieder überprüft.",
+      "stichworte": [
+        "neue Quellen",
+        "Archive",
+        "neue Fragestellungen",
+        "vorläufig",
+        "überprüfbar"
+      ],
+      "erklaerung": "Geschichtswissenschaft liefert begründete, aber vorläufige Ergebnisse.",
+      "schwierigkeit": 2
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "geschichte-pruefung-1",
+  "format": 1,
+  "version": 1,
+  "fach": "Geschichte",
+  "titel": "Prüfung 1: Geschichtswissenschaft, Quellen und Mittelalter",
+  "beschreibung": "Mittelalter im Überblick (Epoche, Lehnswesen, Stände, Ritter, Städte), Begriffe und Aufgaben der Geschichtswissenschaft, Darstellung und Quelle, Tradition und Überrest, Quellenanalyse nach AQUA und Einhards Beschreibung Karls des Grossen.",
+  "klasse": "1. FMS",
+  "hinweise": [
+    "Es gab kein Lernziele-Blatt: Die Lernziele sind aus den Arbeitsblättern abgeleitet. Was im Unterricht zusätzlich angekündigt wird, gilt.",
+    "Rechne damit, eine kurze Textquelle selbst nach AQUA (Autor, Quelle, Adressat) zu untersuchen und zu beurteilen — übe das an den offenen Fragen.",
+    "Bei der Zuordnung Darstellung / Tradition / Überrest zählt die Begründung: Wozu und für wen ist das Zeugnis entstanden?"
+  ],
+  "quellen": [
+    {
+      "id": "mittelalter-ueberblick",
+      "titel": "Arbeitsblätter «Mittelalter im Überblick» mit Quelle M3 (Ulrich von Hutten an Willibald Pirckheimer)",
+      "umfang": "S. 2–4 von 4"
+    },
+    {
+      "id": "geschichte-begriffe",
+      "titel": "Arbeitsblätter «Was ist Geschichte?» — Begriffe, Bedeutung, Aufgaben und Grenzen der Geschichtswissenschaft",
+      "umfang": "S. 1–2 von 2"
+    },
+    {
+      "id": "quellen",
+      "titel": "Arbeitsblätter «Quellen» — Darstellung und Quelle, Tradition und Überrest, Zuordnungsübung, AQUA-Schema, Einhard über Karl den Grossen mit Zusatzinformationen",
+      "umfang": "S. 1–6 von 6"
+    },
+    {
+      "id": "ergaenzt",
+      "titel": "Ergänzt aus Allgemeinwissen: einzelne Angaben, im Lernzettel als «ergänzt» markiert (z. B. Datierung der Pest)."
+    }
+  ],
+  "lernziele": [
+    {
+      "id": "lz-epoche",
+      "thema": "Das Mittelalter im Überblick",
+      "text": "Du kannst das Mittelalter zeitlich einordnen und gliedern (Früh-, Hoch-, Spätmittelalter), die Übergänge von der Antike und zur Neuzeit erklären und das Bild vom «dunklen Mittelalter» beurteilen.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Mittelalter im Überblick, S. 2 (Epoche, Reich, Kurfürsten) und S. 3 (Kultur)"
+    },
+    {
+      "id": "lz-gesellschaft",
+      "thema": "Das Mittelalter im Überblick",
+      "text": "Du kannst Lehnswesen und Ständegesellschaft erklären und das Leben von Rittern, Bauern und Stadtbewohnern beschreiben.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Mittelalter im Überblick, S. 2 (Lehnspyramide) und S. 3–4 (Stände, Ritter, Städte, Quelle M3)"
+    },
+    {
+      "id": "lz-begriffe",
+      "thema": "Geschichte als Wissenschaft",
+      "text": "Du kannst die Begriffe Historie, historisch, Historiker, Historiograph und Geschichtsbild erklären und begründen, wozu man sich mit Geschichte beschäftigt.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Was ist Geschichte?, S. 1 (und S. 2: eigene Definition)"
+    },
+    {
+      "id": "lz-historiker",
+      "thema": "Geschichte als Wissenschaft",
+      "text": "Du kannst die Aufgaben und Grenzen der Geschichtswissenschaft erklären: Geschichtsschreibung früher und heute, die drei Aufgaben von Historikern, Standortgebundenheit und Vorläufigkeit der Ergebnisse.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Was ist Geschichte?, S. 2"
+    },
+    {
+      "id": "lz-quelle-darstellung",
+      "thema": "Quellen untersuchen",
+      "text": "Du kannst Darstellungen und Quellen unterscheiden und Quellen als Tradition oder Überrest (mit ihren Untergruppen) einordnen und begründen.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Quellen, S. 1–2, S. 4 (Quellenarten) und S. 6"
+    },
+    {
+      "id": "lz-aqua",
+      "thema": "Quellen untersuchen",
+      "text": "Du kannst eine schriftliche Quelle nach dem AQUA-Schema (Autor, Quelle, Adressat) untersuchen und beurteilen — zum Beispiel den Brief Ulrichs von Hutten über das Leben als Ritter.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Quellen, S. 3 (AQUA-Schema); Mittelalter im Überblick, S. 4 (Quelle M3)"
+    },
+    {
+      "id": "lz-karl",
+      "thema": "Quellen untersuchen",
+      "text": "Du kannst die wichtigsten Daten zu Karl dem Grossen nennen und Einhards Beschreibung Karls mit den Zusatzinformationen zu Autor und Zeit einordnen und kritisch beurteilen.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Quellen, S. 4 (Quelle Einhard) und S. 5 (Zusatzinformationen)"
+    }
+  ],
+  "fragen": [],
+  "herkunft": "mitgeliefert",
+  "erstelltAm": "2026-10-31T13:00:00.000Z"
+}

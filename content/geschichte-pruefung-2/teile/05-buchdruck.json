@@ -1,0 +1,237 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-buchdruck",
+      "thema": "Buchdruck und Wissensverbreitung",
+      "text": "Du erklärst Gutenbergs Verfahren mit beweglichen Metalllettern und beurteilst seine Folgen für Bildung, Humanismus und die Verbreitung von Ideen.",
+      "zusammenfassung": "### Warum gilt Buchdruck als Medienrevolution?\nVor dem Buchdruck mussten Bücher aufwendig von Hand abgeschrieben werden. Sie waren teuer und nur begrenzt verfügbar. Ein älteres Druckverfahren nutzte Holzblöcke für ganze Seiten. Drucktechniken existierten schon vor Gutenberg, unter anderem in Ostasien.\n\n**Johannes Gutenberg** aus **Mainz** entwickelte um **1450** ein für Europa entscheidendes Verfahren: gegossene, bewegliche **Metalllettern**. Einzelne Buchstaben werden zu Zeilen und Seiten zusammengesetzt, eingefärbt und mit einer Presse auf Papier gedruckt. Danach lassen sich die Lettern für neue Texte verwenden. Anders als beim Holzblock muss nicht für jede neue Seite eine ganze Platte geschnitten werden.\n\nDie **Gutenberg-Bibel erschien 1455**. Bücher und Flugblätter konnten nun schneller und in grösseren Auflagen hergestellt werden. Informationen wurden preiswerter und erreichten mehr Menschen. Druckereien breiteten sich besonders in Städten, Handelszentren und im Umfeld von Hochschulen aus.\n\nDer Druck erleichterte die Verbreitung antiker Texte, humanistischer Gedanken und später reformatorischer Schriften. Er verursachte diese Bewegungen nicht allein. Nicht alle konnten lesen; Bilder in Flugschriften und Vermittlung durch andere Menschen konnten dennoch Inhalte zugänglich machen. Der Humanist **Jakob Wimpfeling** lobte den Druck als Hilfe für christlichen Glauben und Wissenschaft.\n\n> Eine Medienrevolution verändert Herstellung, Reichweite und Preis von Information — nicht automatisch den Wahrheitsgehalt.",
+      "merksaetze": [
+        "Bewegliche Lettern lassen sich für neue Seiten wiederverwenden.",
+        "Gutenberg verbessert den europäischen Buchdruck; Druck existiert schon früher.",
+        "Mehr Verbreitung bedeutet weder allgemeine Lesefähigkeit noch automatisch wahre Inhalte."
+      ],
+      "bilder": [],
+      "quellenhinweis": "Schulbuch S. 20–21 (s-1379); korrigiertes Arbeitsblatt s-1392."
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-buchdruck-01",
+      "lernzielId": "lz-buchdruck",
+      "typ": "einfachwahl",
+      "frage": "Was ist das zentrale Merkmal von Gutenbergs Verfahren?",
+      "erklaerung": "Einzelne gegossene Zeichen konnten neu zusammengesetzt werden.",
+      "schwierigkeit": 1,
+      "optionen": [
+        "Wiederverwendbare Metalllettern",
+        "Handgeschriebene Einzelkopien jedes Buchs",
+        "Eine neue Holzplatte für jede Textseite",
+        "Dauerhaft fest verbundene Buchstaben jeder Seite"
+      ],
+      "richtig": 0
+    },
+    {
+      "id": "f-buchdruck-02",
+      "lernzielId": "lz-buchdruck",
+      "typ": "einfachwahl",
+      "frage": "In welcher Stadt entwickelte Gutenberg sein Druckverfahren?",
+      "erklaerung": "Mainz ist der Ausgangspunkt der im Material beschriebenen Druckentwicklung.",
+      "schwierigkeit": 1,
+      "optionen": [
+        "Venedig",
+        "Mainz",
+        "Basel",
+        "Florenz"
+      ],
+      "richtig": 1
+    },
+    {
+      "id": "f-buchdruck-03",
+      "lernzielId": "lz-buchdruck",
+      "typ": "einfachwahl",
+      "frage": "Was unterscheidet Metalllettern vom Holzblockdruck ganzer Seiten?",
+      "erklaerung": "Wiederverwendung einzelner Zeichen vereinfacht die Herstellung verschiedener Texte.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Jedes Zeichen darf nur einmal gedruckt werden.",
+        "Alle Buchstaben bleiben für immer fest verbunden.",
+        "Einzelne Zeichen lassen sich neu kombinieren.",
+        "Jede neue Seite verlangt ein neu geschnitztes Brett."
+      ],
+      "richtig": 2
+    },
+    {
+      "id": "f-buchdruck-04",
+      "lernzielId": "lz-buchdruck",
+      "typ": "einfachwahl",
+      "frage": "Welche Aussage beschreibt eine Grenze der Druckwirkung?",
+      "erklaerung": "Analphabetismus blieb verbreitet; Bildinhalte und Vermittlung konnten dennoch Wirkung entfalten.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Druck war stets teurer als einzelne Handschriften.",
+        "Bilder erreichten nur Menschen mit Lesekenntnissen.",
+        "Jeder neue Text benötigte handgeschriebene Kopien.",
+        "Nicht alle Menschen konnten selbst lesen."
+      ],
+      "richtig": 3
+    },
+    {
+      "id": "f-buchdruck-05",
+      "lernzielId": "lz-buchdruck",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Folgen erleichterte der Buchdruck?",
+      "erklaerung": "Die Produktionsweise verbesserte Zugang und Reichweite, ersetzte aber keine Bildung.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Grössere Auflagen",
+        "Schnellere Verbreitung von Ideen",
+        "Günstigere Herstellung vieler Exemplare",
+        "Gleiche Lesekenntnisse in allen Gesellschaftsschichten"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "f-buchdruck-06",
+      "lernzielId": "lz-buchdruck",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aussagen verhindern ein zu einfaches Erfinderbild?",
+      "erklaerung": "Technische Innovation knüpft an Vorläufer an und entfaltet sich in einem gesellschaftlichen Umfeld.",
+      "schwierigkeit": 3,
+      "optionen": [
+        "Drucktechniken gab es bereits vor Gutenberg.",
+        "Gutenbergs Verfahren wirkte in Europa stark.",
+        "Gutenberg erfand Druck unabhängig von allen Vorläufern.",
+        "Gesellschaftliche Bedingungen beeinflussten die Verbreitung."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "f-buchdruck-07",
+      "lernzielId": "lz-buchdruck",
+      "typ": "wahrfalsch",
+      "frage": "Die Lettern konnten nach einem Druckauftrag für einen anderen Text verwendet werden.",
+      "erklaerung": "Ihre Beweglichkeit und Wiederverwendbarkeit unterscheiden sie von einer ganzen geschnitzten Seite.",
+      "schwierigkeit": 2,
+      "richtig": true
+    },
+    {
+      "id": "f-buchdruck-08",
+      "lernzielId": "lz-buchdruck",
+      "typ": "wahrfalsch",
+      "frage": "Der Buchdruck war die einzige Ursache der Reformation.",
+      "erklaerung": "Er erleichterte die Verbreitung von Schriften; religiöse und gesellschaftliche Konflikte hatten weitere Ursachen.",
+      "schwierigkeit": 2,
+      "richtig": false
+    },
+    {
+      "id": "f-buchdruck-09",
+      "lernzielId": "lz-buchdruck",
+      "typ": "wahrfalsch",
+      "frage": "Bebilderte Flugschriften konnten auch Menschen erreichen, die nicht lesen konnten.",
+      "erklaerung": "Bilder konnten Inhalte vermitteln; fehlende Lesefähigkeit machte Druck nicht völlig wirkungslos.",
+      "schwierigkeit": 2,
+      "richtig": true
+    },
+    {
+      "id": "f-buchdruck-10",
+      "lernzielId": "lz-buchdruck",
+      "typ": "kurzantwort",
+      "frage": "Wie heissen die beweglichen einzelnen Druckzeichen?",
+      "erklaerung": "Die Zeichen werden zu Zeilen und Seiten zusammengesetzt.",
+      "schwierigkeit": 1,
+      "akzeptiert": [
+        "Lettern",
+        "Metalllettern",
+        "bewegliche Lettern"
+      ]
+    },
+    {
+      "id": "f-buchdruck-11",
+      "lernzielId": "lz-buchdruck",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst der Mainzer Entwickler des im Material beschriebenen Druckverfahrens?",
+      "erklaerung": "Gutenberg verband bewegliche Metallzeichen mit einem leistungsfähigen Druckverfahren.",
+      "schwierigkeit": 1,
+      "akzeptiert": [
+        "Johannes Gutenberg",
+        "Gutenberg"
+      ]
+    },
+    {
+      "id": "f-buchdruck-12",
+      "lernzielId": "lz-buchdruck",
+      "typ": "zuordnen",
+      "frage": "Ordne Verfahren oder Druckwerk und Kennzeichen zu.",
+      "erklaerung": "Der Vergleich zeigt Unterschiede bei Herstellung und Zugang.",
+      "schwierigkeit": 2,
+      "paare": [
+        {
+          "links": "Handschrift",
+          "rechts": "Jedes Exemplar einzeln abschreiben"
+        },
+        {
+          "links": "Holzblockdruck",
+          "rechts": "Ganze Seite aus einer Platte drucken"
+        },
+        {
+          "links": "Bewegliche Lettern",
+          "rechts": "Einzelzeichen zu neuen Texten zusammensetzen"
+        },
+        {
+          "links": "Bebilderte Flugschrift",
+          "rechts": "Auch mit Bildinhalten kommunizieren"
+        }
+      ]
+    },
+    {
+      "id": "f-buchdruck-13",
+      "lernzielId": "lz-buchdruck",
+      "typ": "reihenfolge",
+      "frage": "Ordne die Schritte eines vereinfachten Druckvorgangs.",
+      "erklaerung": "Die Metallzeichen bleiben erhalten und können erneut verwendet werden.",
+      "schwierigkeit": 2,
+      "elemente": [
+        "Lettern zu einer Seite zusammensetzen.",
+        "Die Druckform einfärben.",
+        "Papier mit der Presse bedrucken.",
+        "Nach dem Auftrag die Lettern für neue Seiten umsetzen."
+      ]
+    },
+    {
+      "id": "f-buchdruck-14",
+      "lernzielId": "lz-buchdruck",
+      "typ": "zahl",
+      "frage": "In welchem Jahr erschien die Gutenberg-Bibel?",
+      "erklaerung": "Das Material unterscheidet die Entwicklung um 1450 vom Bibeldruck 1455.",
+      "schwierigkeit": 1,
+      "richtig": 1455,
+      "toleranz": 0
+    },
+    {
+      "id": "f-buchdruck-15",
+      "lernzielId": "lz-buchdruck",
+      "typ": "offen",
+      "frage": "Erkläre anhand von Produktion, Kosten und Reichweite, weshalb der Buchdruck als Medienrevolution gilt.",
+      "erklaerung": "Eine Erklärung verbindet Technik mit wirtschaftlichen und gesellschaftlichen Folgen.",
+      "schwierigkeit": 3,
+      "musterloesung": "Mit wiederverwendbaren Lettern und einer Presse konnten viele Exemplare schneller als durch Abschreiben hergestellt werden. Bei grossen Auflagen sanken die Herstellungskosten pro Exemplar. Bücher und Flugschriften wurden erschwinglicher, Informationen und Ideen erreichten mehr Menschen und weitere Regionen. Das veränderte Bildung und öffentliche Kommunikation."
+    },
+    {
+      "id": "f-buchdruck-16",
+      "lernzielId": "lz-buchdruck",
+      "typ": "offen",
+      "frage": "Du liest: Druck half dem Humanismus, daher waren alle gedruckten Aussagen wahr. Beurteile diesen Schluss.",
+      "erklaerung": "Die Wirkung eines Mediums und die Verlässlichkeit seines Inhalts sind verschiedene Fragen.",
+      "schwierigkeit": 3,
+      "musterloesung": "Druck erleichterte die Verbreitung humanistischer Texte und den Zugang zu Wissen. Er vervielfältigt aber auch Irrtümer, einseitige Meinungen und Propaganda. Wahrheitsgehalt muss durch Prüfung der Aussagen, Quellen und Beobachtungen beurteilt werden; Auflagenhöhe allein ist kein Beweis."
+    }
+  ]
+}

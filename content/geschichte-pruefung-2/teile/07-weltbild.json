@@ -1,0 +1,238 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-weltbild",
+      "thema": "Wandel des Weltbilds",
+      "text": "Du unterscheidest geozentrisches und heliozentrisches Modell, erklärst Kopernikus’ und Galileis Beiträge und beurteilst den Konflikt zwischen Beobachtung und kirchlicher Autorität.",
+      "zusammenfassung": "### Was verändert sich an der Erklärung von Erde und Himmel?\nDie **Kugelgestalt der Erde** war schon antiken Gelehrten bekannt und wurde auch im Mittelalter nicht allgemein geleugnet. Der entscheidende Streit betraf die **Stellung der Erde**, nicht Kugel gegen Scheibe.\n\nIm **geozentrischen Modell**, verbunden mit **Ptolemäus**, steht die Erde im Zentrum. Sonne und Planeten kreisen im Modell um sie. Kirchliche Autoritäten verknüpften diese Vorstellung mit einer religiösen Ordnung, in der Erde und Mensch eine besondere Stellung hatten.\n\n**Nikolaus Kopernikus** veröffentlichte **1543** sein **heliozentrisches Modell**: Die Erde ist ein Planet, der um die Sonne kreist; sie dreht sich auch um die eigene Achse. Der Mond bleibt Begleiter der Erde. Die Sonne steht im Zentrum dieses historischen Planetensystemmodells, nicht nach heutigem Wissen im Mittelpunkt des gesamten Universums.\n\n**Galileo Galilei** nutzte Teleskopbeobachtungen. **Jupitermonde** zeigen, dass nicht alle Himmelskörper die Erde umkreisen; die **Venusphasen** stützen das neue Modell ebenfalls. Diese Befunde sind nicht mit einer vollständigen Bestätigung aller Annahmen des Kopernikus gleichzusetzen.\n\n**1633** zwang die Inquisition Galilei zum Widerruf; anschliessend lebte er unter Hausarrest. Der Konflikt betraf wissenschaftliche Deutung, religiöse Lehre und institutionelle Macht. Die Kirche anerkannte **1992** die ungerechte Verurteilung.\n\nHistorische Weltkarten zeigen zugleich wachsende geografische Kenntnisse: Amerika wird auf späteren Karten sichtbar. Kartenfortschritt und astronomische Modelle sind verschiedene Entwicklungen. Magellans Expedition änderte nicht erst die Erde von einer Scheibe in eine Kugel.\n\n> Bereits bekannte Kugelgestalt ≠ neues heliozentrisches Modell. Geografie und Astronomie nicht verwechseln.",
+      "merksaetze": [
+        "Geozentrisch: Erde im Zentrum; heliozentrisch: Sonne im Zentrum des historischen Modells.",
+        "Kopernikus 1543, Galileis Widerruf 1633.",
+        "Neue Beobachtungen können bestehende Erklärungen und Autoritäten herausfordern."
+      ],
+      "bilder": [],
+      "quellenhinweis": "Schulbuch S. 24–25 (s-1381), Arbeitsblätter s-1389 und s-1393; Korrekturhinweis zur Kugelgestalt auf s-1392."
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-weltbild-01",
+      "lernzielId": "lz-weltbild",
+      "typ": "einfachwahl",
+      "frage": "Was steht im geozentrischen Modell im Mittelpunkt?",
+      "erklaerung": "Geo verweist auf die Erde; Sonne und Planeten werden als umlaufend dargestellt.",
+      "schwierigkeit": 1,
+      "optionen": [
+        "Die Erde",
+        "Die Sonne",
+        "Der Jupiter",
+        "Die Venus"
+      ],
+      "richtig": 0
+    },
+    {
+      "id": "f-weltbild-02",
+      "lernzielId": "lz-weltbild",
+      "typ": "einfachwahl",
+      "frage": "Welche Aussage passt zum heliozentrischen Modell des Kopernikus?",
+      "erklaerung": "Kopernikus ordnet die Erde den um die Sonne laufenden Planeten zu.",
+      "schwierigkeit": 1,
+      "optionen": [
+        "Die Erde bleibt im Zentrum unbewegt.",
+        "Die Erde kreist um die Sonne.",
+        "Die Sonne umläuft die Erde mit den Planeten.",
+        "Alle Himmelskörper kreisen um den Mond."
+      ],
+      "richtig": 1
+    },
+    {
+      "id": "f-weltbild-03",
+      "lernzielId": "lz-weltbild",
+      "typ": "einfachwahl",
+      "frage": "Welche Beobachtung zeigte Galilei, dass nicht alles die Erde umkreist?",
+      "erklaerung": "Jupitermonde bewegen sich um Jupiter und widersprechen einem universellen Umlauf um die Erde.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Die tägliche scheinbare Bewegung der Sonne",
+        "Die Überlieferung des Ptolemäus ohne Prüfung",
+        "Die Monde des Jupiter",
+        "Eine Weltkarte ohne Amerika"
+      ],
+      "richtig": 2
+    },
+    {
+      "id": "f-weltbild-04",
+      "lernzielId": "lz-weltbild",
+      "typ": "einfachwahl",
+      "frage": "Welcher Gegensatz ist für den astronomischen Streit besonders wichtig?",
+      "erklaerung": "Neue Deutungen gerieten in Konflikt mit religiöser Autorität und einer anerkannten Weltordnung.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Neue Erkenntnis der Kugelgestalt gegen kirchliche Scheibenlehre",
+        "Unterstützung des Ptolemäus gegen kirchlich geforderte Heliozentrik",
+        "Der Mondumlauf gegen ein kirchliches Verbot aller Beobachtung",
+        "Beobachtung und kirchlich gestützte Lehre"
+      ],
+      "richtig": 3
+    },
+    {
+      "id": "f-weltbild-05",
+      "lernzielId": "lz-weltbild",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aussagen gehören zu Kopernikus’ Modell?",
+      "erklaerung": "Er erklärt eine bewegte kugelförmige Erde; die Kugelgestalt allein ist nicht seine neue Entdeckung.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Die Erde umläuft die Sonne.",
+        "Die Erde dreht sich um ihre Achse.",
+        "Der Mond umläuft die Erde.",
+        "Die Sonne umläuft weiterhin die ruhende Erde."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "f-weltbild-06",
+      "lernzielId": "lz-weltbild",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aussagen sind historisch differenziert?",
+      "erklaerung": "Die Quellen korrigieren den Mythos einer allgemein geglaubten flachen Erde.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Schon antike Gelehrte kannten die Kugelgestalt.",
+        "Alle mittelalterlichen Gelehrten hielten die Erde für flach.",
+        "Galileis Teleskopbeobachtungen stützten das neue Modell.",
+        "Wachsende Kartenkenntnis und Heliozentrik sind verschiedene Entwicklungen."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "f-weltbild-07",
+      "lernzielId": "lz-weltbild",
+      "typ": "wahrfalsch",
+      "frage": "Erst Kolumbus bewies allen Gelehrten, dass die Erde kugelförmig ist.",
+      "erklaerung": "Die Kugelgestalt war schon lange bekannt; Kolumbus irrte sich bei Entfernungen und Zielgebiet.",
+      "schwierigkeit": 2,
+      "richtig": false
+    },
+    {
+      "id": "f-weltbild-08",
+      "lernzielId": "lz-weltbild",
+      "typ": "wahrfalsch",
+      "frage": "Das heliozentrische Modell macht die Erde zu einem umlaufenden Planeten.",
+      "erklaerung": "Das verändert ihre Stellung gegenüber dem geozentrischen Modell.",
+      "schwierigkeit": 2,
+      "richtig": true
+    },
+    {
+      "id": "f-weltbild-09",
+      "lernzielId": "lz-weltbild",
+      "typ": "wahrfalsch",
+      "frage": "Galilei konnte 1633 seine Lehre vor der Inquisition ohne Folgen frei vertreten.",
+      "erklaerung": "Er wurde zum Widerruf gezwungen und stand anschliessend unter Hausarrest.",
+      "schwierigkeit": 2,
+      "richtig": false
+    },
+    {
+      "id": "f-weltbild-10",
+      "lernzielId": "lz-weltbild",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst das Modell mit der Erde im Zentrum?",
+      "erklaerung": "Die Bezeichnung benennt den Mittelpunkt der angenommenen Ordnung.",
+      "schwierigkeit": 1,
+      "akzeptiert": [
+        "geozentrisch",
+        "geozentrisches Modell",
+        "geozentrisches Weltbild"
+      ]
+    },
+    {
+      "id": "f-weltbild-11",
+      "lernzielId": "lz-weltbild",
+      "typ": "kurzantwort",
+      "frage": "Welcher Forscher veröffentlichte 1543 das heliozentrische Modell?",
+      "erklaerung": "Kopernikus stellte die Erde als Planeten unter andere Planeten.",
+      "schwierigkeit": 1,
+      "akzeptiert": [
+        "Nikolaus Kopernikus",
+        "Kopernikus",
+        "Nicolaus Copernicus"
+      ]
+    },
+    {
+      "id": "f-weltbild-12",
+      "lernzielId": "lz-weltbild",
+      "typ": "zuordnen",
+      "frage": "Ordne Person oder Datum und Beitrag zu.",
+      "erklaerung": "Das trennt überliefertes Modell, neue Theorie, Beobachtung und Verfolgung.",
+      "schwierigkeit": 2,
+      "paare": [
+        {
+          "links": "Ptolemäus",
+          "rechts": "Geozentrische Ordnung"
+        },
+        {
+          "links": "Kopernikus",
+          "rechts": "Heliozentrisches Modell veröffentlicht"
+        },
+        {
+          "links": "Galilei",
+          "rechts": "Teleskopbeobachtungen stützen das neue Modell"
+        },
+        {
+          "links": "1633",
+          "rechts": "Erzwungener Widerruf Galileis"
+        }
+      ]
+    },
+    {
+      "id": "f-weltbild-13",
+      "lernzielId": "lz-weltbild",
+      "typ": "reihenfolge",
+      "frage": "Ordne diese Ereignisse zeitlich, beginnend mit dem frühesten.",
+      "erklaerung": "Die lange Zeitfolge widerlegt die Vorstellung, die Kugelgestalt sei erst in der Renaissance entdeckt worden.",
+      "schwierigkeit": 2,
+      "elemente": [
+        "Antike Gelehrte kennen die Kugelgestalt.",
+        "Kopernikus veröffentlicht sein Modell 1543.",
+        "Galilei wird 1633 zum Widerruf gezwungen.",
+        "Die Kirche anerkennt 1992 die ungerechte Verurteilung."
+      ]
+    },
+    {
+      "id": "f-weltbild-14",
+      "lernzielId": "lz-weltbild",
+      "typ": "zahl",
+      "frage": "In welchem Jahr zwang die Inquisition Galilei zum Widerruf?",
+      "erklaerung": "Die Verurteilung von 1633 liegt nach Kopernikus’ Veröffentlichung 1543.",
+      "schwierigkeit": 1,
+      "richtig": 1633,
+      "toleranz": 0
+    },
+    {
+      "id": "f-weltbild-15",
+      "lernzielId": "lz-weltbild",
+      "typ": "offen",
+      "frage": "Erkläre den Unterschied zwischen geozentrischem und heliozentrischem Modell. Welche Rolle spielen Erde, Sonne und Mond jeweils?",
+      "erklaerung": "Eine gute Erklärung beschreibt die Bewegungen und verwechselt Heliozentrik nicht mit einer Form der Erde.",
+      "schwierigkeit": 3,
+      "musterloesung": "Geozentrisch steht die Erde im Zentrum; Sonne, Mond und Planeten werden als um sie kreisend gedacht. Im heliozentrischen Modell des Kopernikus steht die Sonne im Zentrum des Planetensystems. Die Erde umläuft sie und dreht sich um ihre Achse. Der Mond umläuft weiterhin die Erde. Beide Modelle sind von der Frage der Kugelgestalt zu trennen."
+    },
+    {
+      "id": "f-weltbild-16",
+      "lernzielId": "lz-weltbild",
+      "typ": "offen",
+      "frage": "Warum war Galileis Konflikt mehr als eine Meinungsverschiedenheit über eine Zeichnung des Himmels?",
+      "erklaerung": "Astronomischer Inhalt, religiöse Deutung und Machtmittel müssen zusammen betrachtet werden.",
+      "schwierigkeit": 3,
+      "musterloesung": "Das neue Modell veränderte die Stellung der Erde und stellte eine kirchlich gestützte Weltordnung infrage. Beobachtungen und Berechnungen gerieten mit religiösen Deutungen und institutioneller Autorität in Konflikt. Die Inquisition konnte mit Zwang und Strafen reagieren. Der Widerruf von 1633 zeigt deshalb auch einen Machtkonflikt um erlaubtes Wissen."
+    }
+  ]
+}

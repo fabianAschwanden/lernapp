@@ -1,0 +1,236 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-renaissancekunst",
+      "thema": "Renaissancekunst",
+      "text": "Du erkennst zentrale Merkmale der Renaissancekunst, erklärst Mäzenatentum und verbindest antike Vorbilder, Körperbeobachtung und Perspektive.",
+      "zusammenfassung": "### Wie verändern sich Darstellung und Stellung der Künstler?\nDie Renaissancekunst entwickelt sich besonders in norditalienischen Städten wie **Florenz**. Vermögende Bürger und Familien fördern Künstler, Wissenschaft und öffentliche Bauten. Ein **Mäzen** ist ein Kunstförderer. Die durch Bankgeschäfte reich gewordenen **Medici** stehen für dieses Mäzenatentum.\n\nKünstler greifen griechische und römische Vorbilder auf, entwickeln sie aber weiter. Sie beobachten Körper, **Proportionen**, Licht und Raum genauer. Geometrisch konstruierte **Perspektive** erzeugt Tiefenwirkung auf einer flachen Bildfläche. Individuelle **Porträts** zeigen das neue Interesse an der einzelnen Person.\n\n**Leonardo da Vinci** verbindet Malerei, Anatomie, Maschinenentwürfe und weitere Wissensgebiete. Das Ideal des **uomo universale** ist der vielseitig gebildete Mensch. Sein Vitruvianischer Mensch verbindet Körperproportionen mit geometrischen Formen nach einem antiken Vorbild. Die Mona Lisa ist ein Beispiel für ein individuelles Porträt.\n\n**Michelangelo** orientiert sich an antiker Körpergestaltung, etwa in der David-Statue. Sein Bild der Erschaffung Adams zeigt zugleich ein christliches Thema. Auch Renaissancekunst bleibt häufig religiös.\n\nBeim Vergleich zweier Marienbilder im Material zeigt das ältere Bild stärker stilisierte, frontale Figuren und wenig Raumtiefe. Bei **Filippo Lippi** wirken Körper, Bewegung und räumlicher Hintergrund natürlicher. Daraus folgt nicht, dass ältere Kunst wertlos ist: Gestaltung erfüllt unterschiedliche Zwecke. Kuppelbauten wie Pantheon und Petersdom zeigen antike architektonische Anregungen.\n\n> Renaissancekunst verbindet antike Anregung, genaue Beobachtung und neue räumliche Darstellung — auch bei christlichen Motiven.",
+      "merksaetze": [
+        "Florenz und die Medici: Reichtum kann Kunst und Wissenschaft fördern.",
+        "Perspektive erzeugt den Eindruck räumlicher Tiefe.",
+        "Uomo universale: vielseitige Verbindung von Kunst und Wissen."
+      ],
+      "bilder": [],
+      "quellenhinweis": "Schulbuch S. 14–15 und 22–23 (s-1376, s-1380); Arbeitsblätter s-1392–1393."
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-renaissancekunst-01",
+      "lernzielId": "lz-renaissancekunst",
+      "typ": "einfachwahl",
+      "frage": "Welche Stadt ist im Material ein besonderes Zentrum der Renaissancekunst?",
+      "erklaerung": "Reiche Bürger und Förderer machten Florenz zu einer wichtigen Kunstmetropole.",
+      "schwierigkeit": 1,
+      "optionen": [
+        "Florenz",
+        "Granada",
+        "Antwerpen",
+        "Lissabon"
+      ],
+      "richtig": 0
+    },
+    {
+      "id": "f-renaissancekunst-02",
+      "lernzielId": "lz-renaissancekunst",
+      "typ": "einfachwahl",
+      "frage": "Was ist ein Mäzen?",
+      "erklaerung": "Mäzene stellen Mittel für Kunst und oft auch für Wissenschaft bereit.",
+      "schwierigkeit": 1,
+      "optionen": [
+        "Ein ausschliesslich anatomisch arbeitender Arzt",
+        "Ein Förderer von Kunst",
+        "Ein Zeichner geometrischer Karten",
+        "Ein Hersteller beweglicher Druckzeichen"
+      ],
+      "richtig": 1
+    },
+    {
+      "id": "f-renaissancekunst-03",
+      "lernzielId": "lz-renaissancekunst",
+      "typ": "einfachwahl",
+      "frage": "Welche Technik erzeugt auf einer flachen Bildfläche räumliche Tiefe?",
+      "erklaerung": "Geometrische Konstruktion hilft, Körper und Raum mit Tiefenwirkung darzustellen.",
+      "schwierigkeit": 1,
+      "optionen": [
+        "Mäzenatentum",
+        "Holzblockdruck",
+        "Perspektive",
+        "Anatomie allein"
+      ],
+      "richtig": 2
+    },
+    {
+      "id": "f-renaissancekunst-04",
+      "lernzielId": "lz-renaissancekunst",
+      "typ": "einfachwahl",
+      "frage": "Wofür steht das Ideal des uomo universale?",
+      "erklaerung": "Leonardo verbindet verschiedene Künste und Wissensgebiete.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Für einen Künstler mit nur einer festgelegten Aufgabe",
+        "Für einen Menschen ohne Bezug zu antiken Vorbildern",
+        "Für einen Gelehrten mit ausschliesslich theologischer Bildung",
+        "Für einen vielseitig gebildeten Menschen"
+      ],
+      "richtig": 3
+    },
+    {
+      "id": "f-renaissancekunst-05",
+      "lernzielId": "lz-renaissancekunst",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Merkmale können auf Renaissancekunst hinweisen?",
+      "erklaerung": "Körper und Raum gewinnen an Bedeutung; religiöse Motive bleiben möglich.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Interesse an individuellen Porträts",
+        "Genauere Darstellung von Körperproportionen",
+        "Geometrische Raumkonstruktion",
+        "Die Rückkehr zu ausschliesslich flacher Raumdarstellung"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "f-renaissancekunst-06",
+      "lernzielId": "lz-renaissancekunst",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Bereiche verbindet Leonardo im Material?",
+      "erklaerung": "Leonardos Vielseitigkeit zeigt eine Verbindung von Kunst, Beobachtung und Technik.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Malerei",
+        "Anatomische Untersuchungen",
+        "Maschinenentwürfe",
+        "Entwicklung beweglicher Metalllettern für den Buchdruck"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "f-renaissancekunst-07",
+      "lernzielId": "lz-renaissancekunst",
+      "typ": "wahrfalsch",
+      "frage": "Die Medici förderten Kunst und Wissenschaft mit ihrem Reichtum.",
+      "erklaerung": "Bankgeschäfte schufen die finanziellen Mittel für umfangreiches Mäzenatentum.",
+      "schwierigkeit": 2,
+      "richtig": true
+    },
+    {
+      "id": "f-renaissancekunst-08",
+      "lernzielId": "lz-renaissancekunst",
+      "typ": "wahrfalsch",
+      "frage": "Renaissancekünstler verwendeten keine religiösen Bildthemen mehr.",
+      "erklaerung": "Michelangelos Erschaffung Adams und Lippis Marienbild verbinden neue Gestaltung mit christlichen Themen.",
+      "schwierigkeit": 2,
+      "richtig": false
+    },
+    {
+      "id": "f-renaissancekunst-09",
+      "lernzielId": "lz-renaissancekunst",
+      "typ": "wahrfalsch",
+      "frage": "Genaues Wissen über Muskeln und Gelenke konnte eine überzeugendere Darstellung von Bewegung ermöglichen.",
+      "erklaerung": "Leonardo verbindet anatomische Kenntnis mit glaubwürdiger Körperdarstellung.",
+      "schwierigkeit": 2,
+      "richtig": true
+    },
+    {
+      "id": "f-renaissancekunst-10",
+      "lernzielId": "lz-renaissancekunst",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die durch Bankgeschäfte reich gewordene Fördererfamilie in Florenz?",
+      "erklaerung": "Die Familie unterstützt Künstler und Gelehrte.",
+      "schwierigkeit": 1,
+      "akzeptiert": [
+        "Medici",
+        "die Medici"
+      ]
+    },
+    {
+      "id": "f-renaissancekunst-11",
+      "lernzielId": "lz-renaissancekunst",
+      "typ": "kurzantwort",
+      "frage": "Wer schuf im Material den Vitruvianischen Menschen?",
+      "erklaerung": "Leonardo untersucht menschliche Proportionen mit Bezug auf den antiken Vitruv.",
+      "schwierigkeit": 1,
+      "akzeptiert": [
+        "Leonardo da Vinci",
+        "Leonardo"
+      ]
+    },
+    {
+      "id": "f-renaissancekunst-12",
+      "lernzielId": "lz-renaissancekunst",
+      "typ": "zuordnen",
+      "frage": "Ordne Werk oder Begriff und Bezug zu.",
+      "erklaerung": "Die Beispiele verbinden Personen, Darstellungsweisen und gesellschaftliche Voraussetzungen.",
+      "schwierigkeit": 2,
+      "paare": [
+        {
+          "links": "Mona Lisa",
+          "rechts": "Individuelles Porträt von Leonardo"
+        },
+        {
+          "links": "David-Statue",
+          "rechts": "Körpergestaltung von Michelangelo"
+        },
+        {
+          "links": "Vitruvianischer Mensch",
+          "rechts": "Proportionen und geometrische Formen"
+        },
+        {
+          "links": "Mäzenatentum",
+          "rechts": "Finanzielle Förderung von Kunst"
+        }
+      ]
+    },
+    {
+      "id": "f-renaissancekunst-13",
+      "lernzielId": "lz-renaissancekunst",
+      "typ": "reihenfolge",
+      "frage": "Ordne die Arbeitsschritte einer vereinfachten beobachtenden Körperzeichnung.",
+      "erklaerung": "Das ist eine didaktische Arbeitsschrittfolge, keine Behauptung über den genauen Ablauf eines bestimmten Künstlers.",
+      "schwierigkeit": 2,
+      "elemente": [
+        "Körper und Haltung genau beobachten.",
+        "Proportionen und räumliche Lage untersuchen.",
+        "Die beobachteten Verhältnisse zeichnerisch übertragen.",
+        "Die Zeichnung mit der Beobachtung vergleichen."
+      ]
+    },
+    {
+      "id": "f-renaissancekunst-14",
+      "lernzielId": "lz-renaissancekunst",
+      "typ": "zahl",
+      "frage": "In welchem Jahrhundert begann nach dem Material die erneute Hinwendung zu antiken Vorbildern in Italien? Gib die Jahrhundertzahl an.",
+      "erklaerung": "Die Anfänge werden im 14. Jahrhundert verortet; der Höhepunkt liegt später.",
+      "schwierigkeit": 1,
+      "richtig": 14,
+      "toleranz": 0
+    },
+    {
+      "id": "f-renaissancekunst-15",
+      "lernzielId": "lz-renaissancekunst",
+      "typ": "offen",
+      "frage": "Vergleiche eine frontal-stilisierte Madonna mit Goldgrund und eine Madonna mit plastischen Körpern und Landschaft. Welche Merkmale sprechen beim zweiten Bild für Renaissancekunst?",
+      "erklaerung": "Begründe mit sichtbaren Merkmalen statt allein mit einem Werturteil.",
+      "schwierigkeit": 3,
+      "musterloesung": "Das zweite Bild zeigt stärker räumlich wirkende Körper, natürlichere Haltung und einen Hintergrund mit Tiefe. Genauere Beobachtung und Perspektive schaffen eine lebensnähere Wirkung. Das christliche Thema bleibt gleich; verändert wird die Gestaltung. Das ältere Bild ist dadurch nicht automatisch schlechter, sondern folgt anderen Darstellungszielen."
+    },
+    {
+      "id": "f-renaissancekunst-16",
+      "lernzielId": "lz-renaissancekunst",
+      "typ": "offen",
+      "frage": "Erkläre, wie Leonardos Vielseitigkeit und das Mäzenatentum zur Renaissance passen.",
+      "erklaerung": "Die Antwort verbindet das Menschenideal mit wirtschaftlichen Voraussetzungen.",
+      "schwierigkeit": 3,
+      "musterloesung": "Leonardo verbindet Kunst mit Anatomie, Proportionslehre und technischen Entwürfen. Das entspricht dem Ideal des vielseitig gebildeten Menschen und der Aufwertung eigener Beobachtung. Mäzene wie die Medici ermöglichen durch finanzielle Förderung Zeit, Aufträge und Arbeitsmöglichkeiten für Künstler und Gelehrte."
+    }
+  ]
+}

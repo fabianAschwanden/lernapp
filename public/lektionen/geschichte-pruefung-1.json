@@ -1,0 +1,1912 @@
+{
+  "id": "geschichte-pruefung-1",
+  "format": 1,
+  "version": 1,
+  "fach": "Geschichte",
+  "titel": "Prüfung 1: Geschichtswissenschaft, Quellen und Mittelalter",
+  "beschreibung": "Mittelalter im Überblick (Epoche, Lehnswesen, Stände, Ritter, Städte), Begriffe und Aufgaben der Geschichtswissenschaft, Darstellung und Quelle, Tradition und Überrest, Quellenanalyse nach AQUA und Einhards Beschreibung Karls des Grossen.",
+  "klasse": "1. FMS",
+  "hinweise": [
+    "Es gab kein Lernziele-Blatt: Die Lernziele sind aus den Arbeitsblättern abgeleitet. Was im Unterricht zusätzlich angekündigt wird, gilt.",
+    "Rechne damit, eine kurze Textquelle selbst nach AQUA (Autor, Quelle, Adressat) zu untersuchen und zu beurteilen — übe das an den offenen Fragen.",
+    "Bei der Zuordnung Darstellung / Tradition / Überrest zählt die Begründung: Wozu und für wen ist das Zeugnis entstanden?"
+  ],
+  "quellen": [
+    {
+      "id": "mittelalter-ueberblick",
+      "titel": "Arbeitsblätter «Mittelalter im Überblick» mit Quelle M3 (Ulrich von Hutten an Willibald Pirckheimer)",
+      "umfang": "S. 2–4 von 4"
+    },
+    {
+      "id": "geschichte-begriffe",
+      "titel": "Arbeitsblätter «Was ist Geschichte?» — Begriffe, Bedeutung, Aufgaben und Grenzen der Geschichtswissenschaft",
+      "umfang": "S. 1–2 von 2"
+    },
+    {
+      "id": "quellen",
+      "titel": "Arbeitsblätter «Quellen» — Darstellung und Quelle, Tradition und Überrest, Zuordnungsübung, AQUA-Schema, Einhard über Karl den Grossen mit Zusatzinformationen",
+      "umfang": "S. 1–6 von 6"
+    },
+    {
+      "id": "ergaenzt",
+      "titel": "Ergänzt aus Allgemeinwissen: einzelne Angaben, im Lernzettel als «ergänzt» markiert (z. B. Datierung der Pest)."
+    }
+  ],
+  "lernziele": [
+    {
+      "id": "lz-epoche",
+      "thema": "Das Mittelalter im Überblick",
+      "text": "Du kannst das Mittelalter zeitlich einordnen und gliedern (Früh-, Hoch-, Spätmittelalter), die Übergänge von der Antike und zur Neuzeit erklären und das Bild vom «dunklen Mittelalter» beurteilen.",
+      "zusammenfassung": "Das **Mittelalter** dauerte ungefähr von **500 bis 1500** — rund **tausend Jahre**. Den Namen gaben ihm die **Humanisten** des 15./16. Jahrhunderts: Für sie war es die «mittlere» Zeit zwischen der bewunderten **Antike** und ihrer eigenen Zeit, der **Renaissance** («Wiedergeburt» der Antike), die den angeblichen kulturellen Niedergang überwinden sollte.\n\n### Gliederung\n| Abschnitt | Zeit (ungefähr) | Stichworte |\n|---|---|---|\n| Frühmittelalter | ca. 500 – 1000 | Karl der Grosse |\n| Hochmittelalter | ca. 1000 – 1250 | Ritter, Kreuzzüge |\n| Spätmittelalter | ca. 1250 – 1500 | Übergang zur Neuzeit |\n\nDie Grenzen sind **umstritten**: Epochen beginnen und enden nicht an einem Tag.\n\n### Übergänge sind Prozesse\n- **Antike → Mittelalter:** Die **Völkerwanderung** setzt ab etwa **370 n. Chr.** ein, das **Weströmische Reich** endet **476**. Beides sind Orientierungspunkte eines langen Wandels.\n- **Mittelalter → Neuzeit:** um die Wende vom **15. zum 16. Jahrhundert**, ebenfalls kein einzelnes Ereignis.\n\n### «Finsteres Mittelalter»?\nDas Bild einer nur dunklen Zeit ist **zu einseitig**:\n- **Dunkle Seiten:** Hundertjähriger Krieg, Kreuzzüge, Pest (Mitte 14. Jahrhundert, um 1350 — Datierung ergänzt).\n- **Fortschritte:** erste **Universitäten** ab dem späten 11./12. Jahrhundert (Paris, Bologna, Oxford; oft aus Kloster- und Domschulen; Datierung präzisiert, ergänzt), **Städte** wachsen, **Handel und Handwerk** blühen auf, **Minnelieder** an Fürstenhöfen und in Städten.\n\nDie heutige Forschung sieht das Mittelalter **differenzierter** — den Namen hat man trotzdem behalten.\n\n### Das Reich und die Königswahl\n- Das **Heilige Römische Reich (Deutscher Nation)** ging aus dem **ostfränkischen Reich** hervor, das erst nach **Karls des Grossen** Tod durch die Teilung des Frankenreichs entstand; der lange Name wird ab Mitte des 15. Jahrhunderts gebraucht. Das antike Rom blieb das grosse Vorbild.\n- Es war **keine einheitliche Nation**: viele Völker und Sprachen, verschiedene Rechte und Währungen, wechselnde Grenzen. Gemeinsam war der **Kaiser**, der zugleich König war.\n- Den **römisch-deutschen König** wählten **sieben Kurfürsten** (*küren* = wählen): drei geistliche — die **Erzbischöfe von Mainz, Trier und Köln** — und vier weltliche — **König von Böhmen, Pfalzgraf bei Rhein, Herzog von Sachsen, Markgraf von Brandenburg**.\n\nIm Mittelalter folgte auf die Königswahl gewöhnlich erst später die **Kaiserkrönung durch den Papst** (Präzisierung ergänzt).",
+      "quellenhinweis": "Mittelalter im Überblick, S. 2 (Epoche, Reich, Kurfürsten) und S. 3 (Kultur)",
+      "merksaetze": [
+        "Mittelalter: ca. 500–1500; Frühmittelalter bis ca. 1000, Hochmittelalter ca. 1000–1250, dann Spätmittelalter.",
+        "Den Namen prägten die Humanisten: «mittlere», angeblich dunkle Zeit zwischen Antike und Renaissance.",
+        "Epochengrenzen sind Prozesse: Völkerwanderung ab etwa 370, Ende Westroms 476, Neuzeit um 1500.",
+        "Neben Krieg, Kreuzzügen und Pest gab es Fortschritte: Universitäten, Städte, Handel und Handwerk.",
+        "Sieben Kurfürsten wählten den römisch-deutschen König, den künftigen Kaiser: drei Erzbischöfe (Mainz, Trier, Köln) und vier weltliche Fürsten."
+      ]
+    },
+    {
+      "id": "lz-gesellschaft",
+      "thema": "Das Mittelalter im Überblick",
+      "text": "Du kannst Lehnswesen und Ständegesellschaft erklären und das Leben von Rittern, Bauern und Stadtbewohnern beschreiben.",
+      "zusammenfassung": "### Lehnswesen (Feudalismus)\n*Feudum* (lateinisch) heisst **Lehen**: ein Gut, das jemand zum **Besitz und zur Nutzung überlassen** bekommt, ohne es als freies Eigentum zu erhalten. Der **König** bzw. Kaiser übertrug **Fürsten und Bischöfen** Land, Ämter und Rechte. Sie wurden dadurch **Grundherren** und schuldeten ihm dafür **Treue** und im Krieg **Dienste**. Sie selbst gaben wiederum Land an **Vasallen** (Lehnsleute) weiter.\n\nDas Prinzip ist **gegenseitig**:\n- **nach unten:** Schutz und Lehen (Land)\n- **nach oben:** Treue, Rat und Hilfe, insbesondere Kriegsdienst; Bauern leisten ihren Grundherren Dienste und Abgaben\n\nDer Begriff «Lehnswesen» entstand erst **nach** dem Mittelalter — für die Menschen damals war diese Ordnung einfach Alltag.\n\n### Ständegesellschaft\nDie **Geburt** bestimmte den **Stand** und damit den Platz in der Gesellschaft; **Aufstieg war kaum möglich**. Rangfolge: **König** — **weltlicher Adel und hohe Geistlichkeit** — **Mönche und Ritter** — **Bauern**. Ein Bild von 1488 zeigt die Aufgaben: Der Geistliche **betet**, der Adlige **schützt/kämpft**, der Bauer **arbeitet**.\n\n### Ritter\n- Seit dem **9. Jahrhundert**, als Kämpfen zu **Pferd** wichtiger wurde. Pferd und Rüstung waren teuer und machten Ritter militärisch wertvoll → **Vorrechte**.\n- **Blüte im 12. Jahrhundert**, **Niedergang** etwa 200 Jahre später: **Söldnerheere** und neue Waffen (z. B. der englische **Langbogen**).\n- Um 1500 klagt der Reichsritter **Ulrich von Hutten** in einem Brief über sein Leben: Unsicherheit (Fehden, Überfälle, Lösegeld), eine enge, dunkle **Burg** als Festung statt als bequemes Zuhause, viel Arbeit und wenig Ertrag, Abhängigkeit vom **Fürsten**.\n\n### Bauern\nDie **grosse Mehrheit** der Bevölkerung, sozial am schwächsten. Es gab **freie und unfreie**, **reichere und sehr arme** Bauern.\n\n### Städte\n- Ab dem **12. Jahrhundert** wachsen die Städte; oft entstehen sie an **Märkten**.\n- **«Stadtluft macht frei»:** Ein unfreier Bauer, der in die Stadt floh und dessen Herr ihn **ein Jahr und einen Tag** nicht zurückforderte, konnte in vielen Städten **frei** werden (Präzisierung ergänzt).\n- Städte werden Zentren von **Handel und Handwerk**. Die **Hanse** war ein mächtiger **Städtebund** mit zeitweise rund **200 Städten** (14.–16. Jahrhundert), z. B. Lübeck, Hamburg, Köln.",
+      "quellenhinweis": "Mittelalter im Überblick, S. 2 (Lehnspyramide) und S. 3–4 (Stände, Ritter, Städte, Quelle M3)",
+      "merksaetze": [
+        "Lehen = überlassenes Gut: Der Herr gibt Land und Schutz, der Vasall schuldet Treue, Rat und Hilfe (z. B. Kriegsdienst). Bauern leisten dem Grundherrn Dienste und Abgaben.",
+        "In der Ständegesellschaft bestimmt die Geburt den Stand; Aufstieg ist kaum möglich.",
+        "Ritter: seit dem 9. Jahrhundert, Blüte im 12. Jahrhundert, Niedergang durch Söldnerheere und neue Waffen.",
+        "Bauern waren die grosse Mehrheit und sozial am schwächsten.",
+        "«Stadtluft macht frei»: in vielen Städten nach einem Jahr und einem Tag ohne Rückforderung durch den Herrn."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/geschichte/p1-lehnspyramide.svg",
+          "alt": "Lehnspyramide mit vier Stufen: König, Lehnsherren, Vasallen, Untertanen; nach unten Schutz und Land, nach oben Treue, Hilfe, Dienste und Abgaben.",
+          "legende": "Lehnspyramide: Vereinfachtes Unterrichtsmodell: Vasallen erhalten Lehen gegen Treue und Dienste; Bauern leisten Abgaben an Grundherren und sind nicht selbst Vasallen."
+        }
+      ]
+    },
+    {
+      "id": "lz-begriffe",
+      "thema": "Geschichte als Wissenschaft",
+      "text": "Du kannst die Begriffe Historie, historisch, Historiker, Historiograph und Geschichtsbild erklären und begründen, wozu man sich mit Geschichte beschäftigt.",
+      "zusammenfassung": "### Begriffe (aus dem Griechischen)\n| Begriff | Bedeutung |\n|---|---|\n| **Historie** | Geschichte bzw. Geschichtswissenschaft — alles, was die Vergangenheit betrifft |\n| **historisch** | geschichtlich |\n| **Historiker/in** | jemand, der Geschichte erforscht und kennt |\n| **Historiograph** | Geschichtsschreiber |\n\n### Geschichtsbild\nDie Geschichtswissenschaft will ein **möglichst umfassendes und verlässliches Bild der Vergangenheit** ermitteln. Ein **Geschichtsbild** ist die Vorstellung, mit der sich eine Gemeinschaft (z. B. ein Land) über ihre **eigene Vergangenheit** verständigt. Es entsteht durch immer neue **Forschungsarbeit**.\n\n### Wozu Geschichte?\n1. **Gegenwart verstehen:** Heutige Probleme haben **historische Ursachen** — z. B. politischer Radikalismus, der Nahostkonflikt oder der Krieg in der Ukraine.\n2. **Orientierung für Entscheidungen:** Wissen über früher hilft bei gesellschaftlichen und politischen Entscheidungen für **Gegenwart und Zukunft**.\n3. **Alternativen erkennen:** Frühere Formen des Zusammenlebens und Regierens zeigen, dass es auch anders ginge. Kritik daran kann Bestehendes **bestätigen** oder nötigen **Wandel** sichtbar machen.\n4. **Sich in der Welt zurechtfinden:** Geschichte und Staatskunde fördern das Verständnis für **Politik** und das Interesse daran.\n5. **Andere verstehen:** Wer europäische und aussereuropäische Kulturen kennt, versteht ihre Leistungen und baut **Vorurteile und Klischees** gegenüber Fremdem und Vergangenem ab.\n6. **Identität:** Gemeinsames Erinnern stärkt die **nationale Identität** — sichtbar an **Nationalfeiertagen** (in der Schweiz z. B. der 1. August).\n7. **Freude:** Geschichte kann auch **Hobby und Unterhaltung** sein.\n\n### Eine eigene Definition\nGeschichte ist die Erforschung der Vergangenheit anhand von **Belegen (Quellen)**, um ein möglichst wahres Bild zu gewinnen, **Veränderungen** aufzuzeigen und zu **erklären, warum** etwas geschah — mit **Offenheit** für neue Sichtweisen.",
+      "quellenhinweis": "Was ist Geschichte?, S. 1 (und S. 2: eigene Definition)",
+      "merksaetze": [
+        "Historie = Geschichte; historisch = geschichtlich; Historiker = Geschichtsforscher; Historiograph = Geschichtsschreiber.",
+        "Ein Geschichtsbild ist die Vorstellung einer Gemeinschaft von ihrer eigenen Vergangenheit; es entsteht durch Forschung.",
+        "Geschichte erklärt die Ursachen heutiger Probleme und gibt Orientierung für Entscheidungen.",
+        "Geschichte zeigt Alternativen, baut Vorurteile ab und stiftet Identität (z. B. Nationalfeiertag)."
+      ]
+    },
+    {
+      "id": "lz-historiker",
+      "thema": "Geschichte als Wissenschaft",
+      "text": "Du kannst die Aufgaben und Grenzen der Geschichtswissenschaft erklären: Geschichtsschreibung früher und heute, die drei Aufgaben von Historikern, Standortgebundenheit und Vorläufigkeit der Ergebnisse.",
+      "zusammenfassung": "### Geschichtsschreiber früher — Historiker heute\n- **Antike:** Geschichtsschreibung (Historiographie) galt auch als **Literatur**. Die Autoren **bewerteten** Ereignisse oft ganz persönlich.\n- **Mittelalter:** **Chronisten** schrieben Ereignisse der Reihe nach (chronologisch) auf und kommentierten sie ebenfalls **subjektiv**.\n- **Heute:** Geschichtsforschung ist eine **kritische Wissenschaft** — die aber nie ganz frei von Subjektivität ist.\n\n### Die drei Aufgaben von Historikern\n1. **Fragen stellen:** eigene Fragen an die Vergangenheit entwickeln.\n2. **Quellen finden:** die passenden Zeugnisse suchen, die eine Antwort ermöglichen.\n3. **Quellen kritisch auswerten:** trotz **Lücken, Widersprüchen, Verzerrungen, Mehrdeutigkeit** und sogar **Lügen** zu zuverlässigen Aussagen kommen.\n\n### Grenzen: Quellen erforschen heisst deuten\n- Quellen müssen **ausgelegt (interpretiert)** werden. Dabei spielen der **Standort** der Forschenden eine Rolle: **politische Haltung, Religion/Konfession, Staatszugehörigkeit, Entstehungszeit**.\n- Aus denselben Quellen können deshalb **verschiedene, sogar widersprüchliche** Darstellungen entstehen.\n- **Was** geschah und **wann**, ist meist weniger umstritten als **warum** (Motive, Ursachen).\n- Gegen Einseitigkeit helfen **verschiedene Standpunkte**. Ergebnisse müssen **überprüfbar** sein.\n\n### Nie abgeschlossen\nForschung ist **vorläufig**: **Neue Quellen**, neu geöffnete **Archive** oder **neue Fragestellungen** führen zu Ergänzungen oder zu einer neuen Bewertung. Zu keinem Thema ist das letzte Wort gesprochen.",
+      "quellenhinweis": "Was ist Geschichte?, S. 2",
+      "merksaetze": [
+        "Antike Geschichtsschreiber und mittelalterliche Chronisten bewerteten subjektiv; heutige Historiker arbeiten wissenschaftlich-kritisch.",
+        "Drei Aufgaben: Fragen stellen, Quellen finden, Quellen kritisch auswerten.",
+        "Quellen erforschen heisst deuten — Herkunft, Religion, Politik und Zeit der Forschenden prägen das Ergebnis.",
+        "Was und wann ist meist klar, warum ist oft umstritten.",
+        "Forschung ist nie abgeschlossen: neue Quellen, Archive und Fragen führen zu neuen Bewertungen."
+      ]
+    },
+    {
+      "id": "lz-quelle-darstellung",
+      "thema": "Quellen untersuchen",
+      "text": "Du kannst Darstellungen und Quellen unterscheiden und Quellen als Tradition oder Überrest (mit ihren Untergruppen) einordnen und begründen.",
+      "zusammenfassung": "In der Geschichte unterscheidet man **Quellen** und **Darstellungen**.\n\n### Quelle oder Darstellung?\n| | **Quelle** | **Darstellung** |\n|---|---|---|\n| Was ist es? | Text, Gegenstand oder Sachverhalt **aus der Vergangenheit**, aus dem man etwas über diese Zeit erfahren kann | **spätere** Untersuchung von Ereignissen, Texten oder Gegenständen |\n| Was leistet es? | Zeugnis, Rohmaterial | **deutet und erklärt**: nicht nur was und wann, sondern auch **warum** Menschen so handelten |\n| Beispiele | Bauwerke, Münzen, Schmuck, Gemälde, Skulpturen, Werkzeuge, Briefe, Urkunden, Gesetze, Landschaften | Studien, Forschungsarbeiten, Sachbücher, **Schulbücher** |\n\nEin **Schulbuch** ist für die darin erklärten Ereignisse eine Darstellung — es kann aber **Quellen enthalten** (z. B. einen abgedruckten Brief). Für die Erforschung früherer Geschichtsbilder kann auch das Schulbuch selbst eine Quelle sein.\n\n### Tradition und Überrest\n- **Tradition** (absichtliche Überlieferung): wurde **bewusst geschaffen**, um **der Nachwelt** etwas mitzuteilen — z. B. Chroniken (chronologische Berichte; **Annalen** = Jahrbücher, Präzisierung ergänzt), Biographien, Denkmäler mit Inschrift, Sagen und Lieder.\n- **Überrest** (unabsichtliche Überlieferung): ist **direkt aus dem damaligen Geschehen** erhalten, ohne die Absicht, später darüber zu informieren — z. B. Alltagsbriefe, Einkaufslisten, Werkzeuge, Kleidung, Bräuche.\n\n**Untergruppen** (Schaubild):\n- Tradition: **schriftlich** (Chronik, Biographie) und **mündlich** (Sage, Lied, Erzählung)\n- Überreste: **schriftlich** (Brief, Liste), **Sachüberreste** (Münze, Schuh, Bauwerk, Waffe, Löffel) und **abstrakte Überreste** (Bräuche, Sprache, Orts- und Strassennamen)\n\n**Prüffrage:** *Für wen und wozu ist das entstanden?* Für die Nachwelt → Tradition. Für den Gebrauch damals → Überrest.\n\n### Übung aus dem Unterricht\n| Beispiel | Zuordnung |\n|---|---|\n| Brief eines Auswanderers an seine Eltern (1892) | Überrest |\n| Ötzis mit Stroh gefüllte Winterschuhe (ca. 3000 v. Chr.) | Überrest (Sachüberrest) |\n| Tagebuch eines gefallenen Soldaten (Borodino 1812) | Überrest |\n| Brauch «Gansabhauet» in Sursee (11. November) | Überrest (abstrakt) |\n| Einkaufsliste für ein Geburtstagsfest (Manchester 1842) | Überrest |\n| Broschüre des EDA «Die Schweiz und die EU» | Darstellung |\n| Schenkungsurkunde (1432), Bundesbrief (1291), Protokolle (Bundesrat 1848, Wannseekonferenz 1942), Gesetz (1666), Telegramm (1941) | im Unterricht als **Tradition** eingetragen |\n| Zeitungsartikel (Der Bund 1914, NZZ 2025) | je nach Frage **Darstellung** oder **Quelle** |\n\n**Achtung, Grenzfälle:** Urkunden, Protokolle und Gesetze wurden bewusst festgehalten, damit etwas **gilt und nachweisbar bleibt** — deshalb hier Tradition. In vielen Fachbüchern zählen sie aber als **schriftliche Überreste**, weil sie für den Gebrauch ihrer Zeit entstanden. In der Prüfung zählt die **Begründung**. Ein Zeitungsartikel **deutet** ein Ereignis (Darstellung) — für die Frage, wie die Menschen **damals** darüber dachten, ist er eine **Quelle**. Gäbe eine Partei die EU-Broschüre heraus, könnte sie als Quelle für deren **Meinung** dienen. Auch eine EDA-Broschüre kann eine Quelle für die Sicht des EDA sein: Entscheidend ist die **Fragestellung**, nicht allein der Herausgeber.",
+      "quellenhinweis": "Quellen, S. 1–2, S. 4 (Quellenarten) und S. 6",
+      "merksaetze": [
+        "Quelle = Zeugnis aus der Vergangenheit; Darstellung = spätere Untersuchung und Deutung (z. B. Schulbuch).",
+        "Tradition = absichtlich für die Nachwelt überliefert (Chronik, Biographie, Sage).",
+        "Überrest = unabsichtlich aus dem damaligen Geschehen erhalten (Alltagsbrief, Werkzeug, Brauch).",
+        "Überreste: schriftlich, Sachüberreste, abstrakte Überreste; Tradition: schriftlich, mündlich.",
+        "Grenzfälle (Urkunde, Protokoll, Zeitungsartikel) immer mit Begründung zuordnen: Für wen und wozu entstanden?"
+      ],
+      "bilder": [
+        {
+          "src": "bilder/geschichte/p1-quellenarten.svg",
+          "alt": "Schaubild: Quellen teilen sich in Tradition (schriftlich, mündlich) und Überreste (schriftlich, Sachüberreste, abstrakte Überreste), mit Beispielen.",
+          "legende": "Quellen: Tradition ist absichtlich, Überreste sind unabsichtlich überliefert."
+        }
+      ]
+    },
+    {
+      "id": "lz-aqua",
+      "thema": "Quellen untersuchen",
+      "text": "Du kannst eine schriftliche Quelle nach dem AQUA-Schema (Autor, Quelle, Adressat) untersuchen und beurteilen — zum Beispiel den Brief Ulrichs von Hutten über das Leben als Ritter.",
+      "zusammenfassung": "Quellen sind die Grundlage unseres Wissens — aber sie sind **nicht automatisch wahr oder vollständig** und **erklären sich nicht selbst**. Erst die **Interpretation** zeigt, was eine Quelle aussagt.\n\n### Das AQUA-Schema (nach Pandel/Messmer)\n**Schritt 1: Untersuchen**\n- **A — Autor:** Wer spricht? Herkunft, gesellschaftliche Stellung, Partei. Welches **Interesse** hat er?\n- **QU — Quelle:** Was steht drin? **Wann** und in welchem **Zusammenhang** entstand sie? **Textart**, Sprache und Stil.\n- **A — Adressat:** An wen richtet sich der Text? **Warum** und **wozu** wird ihm etwas mitgeteilt (Aussageabsicht)?\n\n**Schritt 2: Beurteilen**\n- **Autor:** Aus welchem politischen und gesellschaftlichen **Blickwinkel** schreibt er?\n- **Quelle:** in den **historischen Zusammenhang** stellen, mit **anderen Quellen und Darstellungen vergleichen**, Aussagekraft und Probleme diskutieren.\n- **Absicht:** Will der Text **informieren**, **manipulieren** oder **Meinung bilden**?\n\nVorher: unbekannte Begriffe und schwierige Stellen klären.\n\n### Beispiel: Ulrich von Hutten an Willibald Pirckheimer\n- **Autor:** **Ulrich von Hutten** (1488–1523), Reichsritter und **Humanist** — schreibt über sein eigenes Leben.\n- **Quelle:** persönlicher **Brief**, Anfang 16. Jahrhundert. Inhalt: Leben auf der Burg — Gefahr durch **Fehden** und Überfälle (Entführung, Lösegeld), Abhängigkeit vom **Fürsten**, enge und dunkle **Burg** als Festung, Lärm und Schmutz, harte **Arbeit** und **wenig Ertrag**, Not bei Missernten.\n- **Adressat:** **Willibald Pirckheimer** (1470–1530), wohlhabender **Ratsherr in Nürnberg** und **Freund** Huttens.\n- **Beurteilung:** eine **Klage** — **einseitig; die Klage wirkt aufrichtig**. Der Brief zeigt die Sicht eines Betroffenen, keinen neutralen Bericht über alle Ritter. Unterton an den reichen Städter: «**Du hast es gut**» (Neid); Hutten sucht Bestätigung.\n- **Fazit:** Um 1500 ist eine **Zeit des Umbruchs**: Die Ritter verlieren an Bedeutung, die Städte gewinnen.\n\n**Humanismus:** Geistesbewegung ab dem 14. Jahrhundert; stellt den **Menschen** in den Mittelpunkt und betont Menschenwürde, **Bildung**, Vernunft, Wissenschaft, Toleranz und Offenheit.",
+      "quellenhinweis": "Quellen, S. 3 (AQUA-Schema); Mittelalter im Überblick, S. 4 (Quelle M3)",
+      "merksaetze": [
+        "AQUA = Autor, Quelle, Adressat — zuerst untersuchen, dann beurteilen.",
+        "Quellen sind nicht automatisch wahr oder vollständig; sie müssen interpretiert werden.",
+        "Beurteilen heisst: Blickwinkel des Autors einschätzen, Quelle einordnen und vergleichen, Absicht klären (informieren, manipulieren, Meinung bilden).",
+        "Huttens Brief an Pirckheimer ist eine Klage: einseitig; die Klage wirkt aufrichtig — ein Zeugnis der Umbruchszeit um 1500."
+      ]
+    },
+    {
+      "id": "lz-karl",
+      "thema": "Quellen untersuchen",
+      "text": "Du kannst die wichtigsten Daten zu Karl dem Grossen nennen und Einhards Beschreibung Karls mit den Zusatzinformationen zu Autor und Zeit einordnen und kritisch beurteilen.",
+      "zusammenfassung": "### Karl der Grosse — die wichtigsten Daten\n| | |\n|---|---|\n| Familie | **Karolinger** |\n| Geburt | wahrscheinlich **2. April 747 oder 748** |\n| König der Franken | ab **9. Oktober 768** |\n| Kaiser | ab **25. Dezember 800** — erster römischer Kaiser im Westen seit dem Ende des antiken Reichs |\n| Tod | **28. Januar 814** in **Aachen** |\n\nEr gilt als einer der bedeutendsten und einflussreichsten Herrscher des europäischen Mittelalters.\n\n### Der Autor: Einhard\n- **Hofgelehrter** und **Vertrauter** Karls, adliger Herkunft, schon jung am Hof.\n- Künstlerisch begabt: leitete die **Werkstätten der Pfalz in Aachen**, auch **Baumeister**.\n- Diplomat: reiste **806 nach Rom**, um die Zustimmung des Papstes zu Karls geplanter **Reichsteilung** einzuholen.\n- Mit Karls Nachfolger **Ludwig dem Frommen** verstand er sich **weniger gut**.\n- Schrieb die Biographie ***Vita Caroli Magni*** zwischen **817 und 836** — also **nach Karls Tod**. Sie wurde schon im Mittelalter oft abgeschrieben und zitiert.\n\n### Was Einhard beschreibt\n- **Körper:** kräftig, gross, würdevoll; lebhafte Augen, graues Haar, freundliches Gesicht — aber eine eher **helle Stimme**, die nicht ganz zur Gestalt passt.\n- **Tätigkeiten:** regelmässig **Reiten und Jagen** — typisch fränkische Fähigkeiten.\n- **Kleidung:** im Alltag nach **fränkischer Tradition** und kaum anders als einfache Leute (Leinen, Wams, im Winter Pelz, blauer Mantel, Schwert); nur an **Festtagen** Gold, Edelsteine und Diadem.\n\n### Einordnen mit den Zeitumständen\n- **Ständegesellschaft** im Frühmittelalter; **lesen** konnten vor allem **Geistliche und hoher Adel** (andere liessen sich vorlesen) — sie sind die Leser und hatten politischen Einfluss.\n- Beim fränkischen Adel galten **Männlichkeit**, **Reiten und Jagen**, **Traditionsbewusstsein** und eine gewisse **Demut** als vorbildlich.\n\n### Beurteilung\nEinhards Karl erfüllt genau dieses **Ideal**: stark, ein Reiter und Jäger, traditionsbewusst und im Alltag bescheiden. Einhard war **Vertrauter** Karls und schrieb **nach dessen Tod** für gebildete Leser — die Vita ist **Tradition** (für die Nachwelt geschrieben) und zeichnet wohl ein **geschöntes Herrscherbild**. Kleine **ungünstige Details** (die helle Stimme) können sie glaubwürdiger wirken lassen, beweisen aber keine Zuverlässigkeit. Eine mögliche Deutung: Das Idealbild Karls konnte auch als Vorbild — oder stiller Vergleich — für den Nachfolger Ludwig dienen. Für ein verlässliches Bild braucht es **andere Quellen** zum Vergleich.",
+      "quellenhinweis": "Quellen, S. 4 (Quelle Einhard) und S. 5 (Zusatzinformationen)",
+      "merksaetze": [
+        "Karl der Grosse: König der Franken ab 768, Kaiser ab 25. Dezember 800, gestorben 28. Januar 814 in Aachen.",
+        "Einhard war Hofgelehrter und Vertrauter Karls und schrieb die Vita Caroli Magni nach Karls Tod (zwischen 817 und 836).",
+        "Einhard zeigt Karl als ideales fränkisches Vorbild: stark, Reiter und Jäger, traditionsbewusst, im Alltag bescheiden.",
+        "Nähe zum Herrscher und Schreiben für die Nachwelt sprechen für ein geschöntes Bild — darum mit anderen Quellen vergleichen."
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-epo-01",
+      "lernzielId": "lz-epoche",
+      "typ": "einfachwahl",
+      "frage": "Welche Zeitspanne umfasst das Mittelalter ungefähr?",
+      "optionen": [
+        "300 bis 1300",
+        "500 bis 1500",
+        "800 bis 1800",
+        "1000 bis 1600"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das Mittelalter reicht ungefähr von 500 bis 1500, also rund tausend Jahre — zwischen Antike und Neuzeit.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-epo-02",
+      "lernzielId": "lz-epoche",
+      "typ": "reihenfolge",
+      "frage": "Bring die Abschnitte in die zeitliche Reihenfolge (älteste zuerst).",
+      "elemente": [
+        "Antike",
+        "Frühmittelalter",
+        "Hochmittelalter",
+        "Spätmittelalter",
+        "Neuzeit"
+      ],
+      "erklaerung": "Auf die Antike folgen Früh- (bis ca. 1000), Hoch- (ca. 1000–1250) und Spätmittelalter; um 1500 beginnt die Neuzeit.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-epo-03",
+      "lernzielId": "lz-epoche",
+      "typ": "zahl",
+      "frage": "In welchem Jahr endete das Weströmische Reich?",
+      "richtig": 476,
+      "einheit": "n. Chr.",
+      "erklaerung": "476 n. Chr. gilt als Ende des Weströmischen Reichs — ein wichtiger Orientierungspunkt für den Übergang zum Mittelalter.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-epo-04",
+      "lernzielId": "lz-epoche",
+      "typ": "zuordnen",
+      "frage": "Ordne zu: In welchen Abschnitt des Mittelalters gehört der Begriff?",
+      "paare": [
+        {
+          "links": "Karl der Grosse",
+          "rechts": "Frühmittelalter"
+        },
+        {
+          "links": "Blüte des Rittertums und Kreuzzüge",
+          "rechts": "Hochmittelalter"
+        },
+        {
+          "links": "Zeit um 1000 bis 1250",
+          "rechts": "Hochmittelalter"
+        },
+        {
+          "links": "Übergang zur Neuzeit um 1500",
+          "rechts": "Spätmittelalter"
+        },
+        {
+          "links": "Zeit nach dem Ende Westroms bis ca. 1000",
+          "rechts": "Frühmittelalter"
+        }
+      ],
+      "erklaerung": "Frühmittelalter: bis ca. 1000, mit Karl dem Grossen. Hochmittelalter: ca. 1000–1250, Ritter und Kreuzzüge. Spätmittelalter: ab ca. 1250 bis zum Übergang in die Neuzeit.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-epo-05",
+      "lernzielId": "lz-epoche",
+      "typ": "einfachwahl",
+      "frage": "Wer prägte die abwertende Sicht auf das Mittelalter als «dunkle» Zwischenzeit?",
+      "optionen": [
+        "die Mönche in den Klöstern",
+        "die Kurfürsten des Reichs",
+        "die Humanisten des 15./16. Jahrhunderts",
+        "die Geschichtsforscher des 20. Jahrhunderts"
+      ],
+      "richtig": 2,
+      "erklaerung": "Die Humanisten bewunderten die Antike und sahen die Zeit dazwischen als Niedergang, den ihre eigene Zeit (Renaissance) überwinden sollte.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-epo-06",
+      "lernzielId": "lz-epoche",
+      "typ": "wahrfalsch",
+      "frage": "Das Mittelalter begann an einem bestimmten Tag im Jahr 476 und endete an einem bestimmten Tag um 1500.",
+      "richtig": false,
+      "erklaerung": "Epochenübergänge sind lange Prozesse. 476 und die Völkerwanderung sind nur Orientierungspunkte; auch die Neuzeit beginnt allmählich um die Wende zum 16. Jahrhundert.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-epo-07",
+      "lernzielId": "lz-epoche",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Entwicklungen sprechen **gegen** das Bild eines nur «finsteren» Mittelalters?",
+      "optionen": [
+        "Gründung der ersten Universitäten",
+        "Wachstum der Städte",
+        "Aufschwung von Handel und Handwerk",
+        "der Hundertjährige Krieg",
+        "die Kreuzzüge"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Universitäten, Städte, Handel und Handwerk sind Fortschritte. Hundertjähriger Krieg und Kreuzzüge gehören zu den dunklen Seiten der Epoche.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-epo-08",
+      "lernzielId": "lz-epoche",
+      "typ": "kurzantwort",
+      "frage": "Wie hiessen die sieben Fürsten, die den römisch-deutschen König (den künftigen Kaiser) wählten?",
+      "akzeptiert": [
+        "Kurfürsten",
+        "Kurfürst",
+        "die Kurfürsten"
+      ],
+      "erklaerung": "Kurfürsten — von «küren» = wählen. Es waren drei Erzbischöfe und vier weltliche Fürsten.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-epo-09",
+      "lernzielId": "lz-epoche",
+      "typ": "mehrfachwahl",
+      "frage": "Wer gehörte zu den **geistlichen** Kurfürsten?",
+      "optionen": [
+        "Erzbischof von Mainz",
+        "Erzbischof von Trier",
+        "Erzbischof von Köln",
+        "König von Böhmen",
+        "Markgraf von Brandenburg"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Die drei geistlichen Kurfürsten waren die Erzbischöfe von Mainz, Trier und Köln. Der König von Böhmen, der Markgraf von Brandenburg, der Herzog von Sachsen und der Pfalzgraf waren weltlich.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-epo-10",
+      "lernzielId": "lz-epoche",
+      "typ": "einfachwahl",
+      "frage": "Aus welchem Reich ging das spätere Heilige Römische Reich hervor?",
+      "optionen": [
+        "aus dem ostfränkischen Reich",
+        "aus dem Oströmischen Reich",
+        "aus dem langobardischen Königreich",
+        "aus dem westfränkischen Königreich"
+      ],
+      "richtig": 0,
+      "erklaerung": "Das Heilige Römische Reich entstand aus dem ostfränkischen Reich, einem erst nach Karls Tod entstandenen Teilreich; das antike Rom blieb Vorbild für den Namen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-epo-11",
+      "lernzielId": "lz-epoche",
+      "typ": "wahrfalsch",
+      "frage": "Im Heiligen Römischen Reich galten überall dieselbe Sprache, dasselbe Recht und dieselbe Währung.",
+      "richtig": false,
+      "erklaerung": "Das Reich war keine einheitliche Nation: viele Völker und Sprachen, verschiedene Rechte und Währungen, wechselnde Grenzen. Gemeinsam war der Kaiser.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-epo-12",
+      "lernzielId": "lz-epoche",
+      "typ": "einfachwahl",
+      "frage": "Woraus entstanden die ersten Universitäten oft?",
+      "optionen": [
+        "aus Ritterburgen",
+        "aus Kaufmannsgilden der Hanse",
+        "aus Kloster- und Domschulen",
+        "aus Fürstenhöfen mit Minnesang"
+      ],
+      "richtig": 2,
+      "erklaerung": "Viele Universitäten (ab dem späten 11./12. Jahrhundert, z. B. Paris, Bologna, Oxford) gingen aus Kloster- und Domschulen hervor, die zuerst den eigenen Nachwuchs ausbildeten.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-epo-13",
+      "lernzielId": "lz-epoche",
+      "typ": "einfachwahl",
+      "frage": "Was bedeutet der Name «Renaissance», mit dem sich die Zeit nach dem Mittelalter selbst beschrieb?",
+      "optionen": [
+        "Wiedergeburt der Antike",
+        "Herrschaft der Kirche",
+        "Zeit der Entdeckungen",
+        "Ende des römischen Kaisertums"
+      ],
+      "richtig": 0,
+      "erklaerung": "Renaissance heisst Wiedergeburt: Die Humanisten wollten an die Antike anknüpfen — das Mittelalter erschien ihnen als Zwischenzeit des Niedergangs.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-epo-14",
+      "lernzielId": "lz-epoche",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Universitäten gehören zu den ersten in Europa (spätes 11./12. Jahrhundert)?",
+      "optionen": [
+        "Paris",
+        "Bologna",
+        "Oxford",
+        "Lübeck",
+        "Aachen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Paris, Bologna und Oxford gehören zu den frühesten Universitäten. Lübeck war eine Hansestadt, Aachen Karls Pfalz.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-epo-15",
+      "lernzielId": "lz-epoche",
+      "typ": "offen",
+      "frage": "Jemand sagt: «Das Mittelalter war eine finstere Zeit.» Nimm Stellung und begründe mit je zwei Beispielen für dunkle Seiten und für Fortschritte.",
+      "musterloesung": "Die Aussage ist zu einseitig. Es gab dunkle Seiten, z. B. den Hundertjährigen Krieg, die Kreuzzüge und die Pest. Gleichzeitig gab es Fortschritte: erste Universitäten (Paris, Bologna, Oxford), wachsende Städte und einen Aufschwung von Handel und Handwerk, dazu Kunst wie den Minnesang. Das negative Bild stammt von den Humanisten, die die Antike bewunderten. Die heutige Forschung beurteilt das Mittelalter differenzierter.",
+      "stichworte": [
+        "einseitig",
+        "Krieg / Kreuzzüge / Pest",
+        "Universitäten",
+        "Städte, Handel, Handwerk",
+        "Humanisten",
+        "differenziert"
+      ],
+      "erklaerung": "Eine gute Antwort zeigt beide Seiten und erklärt, woher das Bild vom «finsteren» Mittelalter kommt.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-epo-16",
+      "lernzielId": "lz-epoche",
+      "typ": "offen",
+      "frage": "Erkläre, warum Historikerinnen und Historiker für den Beginn des Mittelalters kein genaues Datum angeben, sondern von einem Übergang sprechen.",
+      "musterloesung": "Der Wandel von der Antike zum Mittelalter verlief allmählich über lange Zeit. Die Völkerwanderung (ab etwa 370) und das Ende des Weströmischen Reichs (476) sind nur Orientierungspunkte. Lebensweise, Herrschaft und Kultur änderten sich nicht an einem Tag und nicht überall gleichzeitig. Deshalb sind Epochengrenzen Festlegungen der Forschung und umstritten.",
+      "stichworte": [
+        "allmählich",
+        "Völkerwanderung",
+        "476",
+        "Orientierungspunkte",
+        "umstritten"
+      ],
+      "erklaerung": "Epochen sind Einteilungen im Nachhinein; Daten wie 476 helfen bei der Orientierung, markieren aber keinen plötzlichen Bruch.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ges-01",
+      "lernzielId": "lz-gesellschaft",
+      "typ": "kurzantwort",
+      "frage": "Lateinisch *feudum* bedeutet …?",
+      "akzeptiert": [
+        "Lehen",
+        "das Lehen",
+        "ein Lehen"
+      ],
+      "erklaerung": "*Feudum* = Lehen, ein überlassenes Gut. Davon kommt «Feudalismus» für das Lehnswesen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ges-02",
+      "lernzielId": "lz-gesellschaft",
+      "typ": "reihenfolge",
+      "frage": "Ordne die Stufen der Lehnspyramide von oben nach unten.",
+      "elemente": [
+        "König",
+        "Lehnsherren (Fürsten, Bischöfe)",
+        "Vasallen (Lehnsleute)",
+        "Untertanen (Bauern)"
+      ],
+      "erklaerung": "An der Spitze steht der König, darunter die Lehnsherren, dann die Vasallen; die breite Basis bilden die Untertanen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ges-03",
+      "lernzielId": "lz-gesellschaft",
+      "typ": "zuordnen",
+      "frage": "Lehnswesen: Was gibt der Herr, was schuldet der Vasall?",
+      "paare": [
+        {
+          "links": "Schutz",
+          "rechts": "gibt der Herr"
+        },
+        {
+          "links": "Land (Lehen)",
+          "rechts": "gibt der Herr"
+        },
+        {
+          "links": "Treue und Gehorsam",
+          "rechts": "schuldet der Vasall"
+        },
+        {
+          "links": "Kriegsdienst",
+          "rechts": "schuldet der Vasall"
+        },
+        {
+          "links": "Rat und Hilfe",
+          "rechts": "schuldet der Vasall"
+        }
+      ],
+      "erklaerung": "Das Lehnswesen beruht auf Gegenseitigkeit: Der Herr gewährt Land und Schutz, der Vasall leistet Treue, Rat und Hilfe, insbesondere Dienst im Krieg. Abgaben der Bauern gehören zur Grundherrschaft, nicht zum Vasallentum.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ges-04",
+      "lernzielId": "lz-gesellschaft",
+      "typ": "einfachwahl",
+      "frage": "Was bestimmte in der Ständegesellschaft vor allem, welche Stellung ein Mensch hatte?",
+      "optionen": [
+        "seine Leistung in der Schule",
+        "seine Geburt bzw. Herkunft",
+        "sein Vermögen in der Stadt",
+        "die Wahl durch die Kurfürsten"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der Stand ergab sich aus der Geburt. Ein Aufstieg in einen höheren Stand war kaum möglich.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ges-05",
+      "lernzielId": "lz-gesellschaft",
+      "typ": "zuordnen",
+      "frage": "Ein Bild von 1488 zeigt die Stände mit ihren Aufgaben. Ordne zu.",
+      "paare": [
+        {
+          "links": "Geistlicher",
+          "rechts": "betet"
+        },
+        {
+          "links": "Adliger / Ritter",
+          "rechts": "schützt und kämpft"
+        },
+        {
+          "links": "Bauer",
+          "rechts": "arbeitet und ernährt"
+        }
+      ],
+      "erklaerung": "Jeder Stand hatte seine Aufgabe: Die Geistlichen beten, der Adel schützt mit der Waffe, die Bauern arbeiten auf dem Feld.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ges-06",
+      "lernzielId": "lz-gesellschaft",
+      "typ": "wahrfalsch",
+      "frage": "Die Bauern bildeten im Mittelalter die grosse Mehrheit der Bevölkerung.",
+      "richtig": true,
+      "erklaerung": "Die meisten Menschen waren Bauern — und sie waren sozial am schwächsten. Es gab freie und unfreie, reichere und sehr arme Bauern.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ges-07",
+      "lernzielId": "lz-gesellschaft",
+      "typ": "einfachwahl",
+      "frage": "Warum wurden Ritter seit dem 9. Jahrhundert so wichtig?",
+      "optionen": [
+        "Sie konnten als Einzige im Reich lesen und schreiben.",
+        "Der Kampf zu Pferd wurde wichtiger, Ross und Rüstung waren teuer.",
+        "Sie wurden von den Kurfürsten zu Kaisern des Reichs gewählt.",
+        "Sie leiteten die neu gegründeten Universitäten und Domschulen."
+      ],
+      "richtig": 1,
+      "erklaerung": "Die berittene Kriegsführung gewann an Bedeutung. Schlachtross und Rüstung machten Ritter militärisch wertvoll und brachten ihnen Vorrechte.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ges-08",
+      "lernzielId": "lz-gesellschaft",
+      "typ": "mehrfachwahl",
+      "frage": "Was trug zum Niedergang des Rittertums bei?",
+      "optionen": [
+        "Söldnerheere",
+        "neue Waffen wie der englische Langbogen",
+        "die Gründung der Universitäten",
+        "das Verbot von Burgen durch die Kirche"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Söldnerheere und neue Fernwaffen (z. B. der Langbogen) machten die teuren Ritter weniger wichtig. Rund 200 Jahre nach der Blüte im 12. Jahrhundert war das Rittertum im Niedergang.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ges-09",
+      "lernzielId": "lz-gesellschaft",
+      "typ": "einfachwahl",
+      "frage": "In welchem Jahrhundert erlebte das Rittertum seine Blütezeit?",
+      "optionen": [
+        "im 9. Jahrhundert",
+        "im 10. Jahrhundert",
+        "im 12. Jahrhundert",
+        "im 15. Jahrhundert"
+      ],
+      "richtig": 2,
+      "erklaerung": "Ritter gibt es seit dem 9. Jahrhundert; ihre Blüte erlebten sie im 12. Jahrhundert, etwa 200 Jahre später begann der Niedergang.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ges-10",
+      "lernzielId": "lz-gesellschaft",
+      "typ": "einfachwahl",
+      "frage": "Was ist mit «Stadtluft macht frei» gemeint?",
+      "optionen": [
+        "In der Stadt durfte man ohne Abgaben Handel treiben.",
+        "Ein geflohener unfreier Bauer wurde frei, wenn ihn sein Herr ein Jahr und einen Tag nicht zurückforderte (in vielen Städten).",
+        "Wer in der Stadt geboren war, gehörte automatisch zum Adel.",
+        "Bürger mussten im Krieg keinen Dienst leisten."
+      ],
+      "richtig": 1,
+      "erklaerung": "Blieb ein unfreier Bauer ein Jahr und einen Tag in einer Stadt mit diesem Recht, ohne dass ihn sein Herr zurückforderte, konnte er frei werden. Darum zogen viele vom Land in die Städte.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ges-11",
+      "lernzielId": "lz-gesellschaft",
+      "typ": "kurzantwort",
+      "frage": "Wie hiess der mächtige Bund von Handelsstädten wie Lübeck, Hamburg und Köln?",
+      "akzeptiert": [
+        "Hanse",
+        "die Hanse"
+      ],
+      "erklaerung": "Die Hanse war ein Städtebund mit zeitweise rund 200 Mitgliedsstädten (14.–16. Jahrhundert).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ges-12",
+      "lernzielId": "lz-gesellschaft",
+      "typ": "zahl",
+      "frage": "Etwa wie viele Städte gehörten zeitweise zur Hanse?",
+      "richtig": 200,
+      "toleranz": 20,
+      "einheit": "Städte",
+      "erklaerung": "Zwischen dem 14. und 16. Jahrhundert waren es rund 200 Mitgliedsstädte.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ges-13",
+      "lernzielId": "lz-gesellschaft",
+      "typ": "wahrfalsch",
+      "frage": "Die Menschen im Mittelalter nannten ihre Ordnung selbst schon «Lehnswesen».",
+      "richtig": false,
+      "erklaerung": "Der Begriff entstand erst nach dem Mittelalter. Für die Menschen damals war diese Ordnung einfach ihr Alltag.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ges-14",
+      "lernzielId": "lz-gesellschaft",
+      "typ": "mehrfachwahl",
+      "frage": "Ulrich von Hutten schildert um 1500 sein Leben als Ritter. Was beschreibt er?",
+      "optionen": [
+        "ständige Gefahr durch Fehden und Überfälle",
+        "eine enge, dunkle Burg, gebaut zur Verteidigung",
+        "viel Arbeit und wenig Ertrag aus dem Land",
+        "ein ruhiges, bequemes Leben auf dem Land",
+        "Reichtum durch Handel in der Stadt"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Hutten klagt über Unsicherheit, eine unbequeme Burg und harte Arbeit bei geringem Ertrag — von Idylle keine Spur.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ges-15",
+      "lernzielId": "lz-gesellschaft",
+      "typ": "offen",
+      "frage": "Erkläre das Lehnswesen mit eigenen Worten: Wer gibt wem was, und warum profitieren beide Seiten?",
+      "musterloesung": "Der König kann sein grosses Reich nicht allein verwalten und schützen. Er überlässt Fürsten und Bischöfen Land, Ämter und Rechte als Lehen. Diese geben wiederum Land an Vasallen weiter. Wer ein Lehen erhält, bekommt Land und Schutz und schuldet dafür Treue, Rat und Hilfe, insbesondere Kriegsdienst. Der Herr gewinnt so Gefolgsleute und Krieger, der Vasall Land, Einkommen und Schutz. Ganz unten arbeiten die Bauern und leisten Dienste und Abgaben.",
+      "stichworte": [
+        "Lehen = überlassenes Land",
+        "König → Fürsten/Bischöfe → Vasallen",
+        "Schutz und Land",
+        "Vasallen: Treue und Dienste; Bauern: Abgaben",
+        "gegenseitig"
+      ],
+      "erklaerung": "Wichtig ist die Gegenseitigkeit: Leistung nach unten (Land, Schutz) gegen Leistung nach oben (Treue, Dienst).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ges-16",
+      "lernzielId": "lz-gesellschaft",
+      "typ": "offen",
+      "frage": "Warum zogen im Hoch- und Spätmittelalter viele Menschen vom Land in die Stadt? Nenne mindestens zwei Gründe.",
+      "musterloesung": "In der Stadt winkte Freiheit: Ein unfreier Bauer konnte in vielen Städten nach einem Jahr und einem Tag ohne Rückforderung durch seinen Herrn frei werden («Stadtluft macht frei»). Zudem boten Städte bessere wirtschaftliche Chancen, weil sie Zentren von Handel, Handwerk und Märkten waren. Auf dem Land waren die Bauern dagegen abhängig von ihren Herren und arm.",
+      "stichworte": [
+        "Freiheit",
+        "Stadtluft macht frei",
+        "ein Jahr und ein Tag",
+        "Handel und Handwerk",
+        "Chancen"
+      ],
+      "erklaerung": "Zwei Gründe stehen im Vordergrund: persönliche Freiheit und wirtschaftliche Möglichkeiten.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ges-17",
+      "lernzielId": "lz-gesellschaft",
+      "typ": "offen",
+      "frage": "Vergleiche die Lage eines Ritters und eines Bauern im Mittelalter. Was haben sie gemeinsam, was unterscheidet sie?",
+      "musterloesung": "Der Ritter gehört zum Adel bzw. zum Kriegerstand, hat Vorrechte, kämpft zu Pferd und lebt auf einer Burg; er bekommt Land als Lehen und lebt von den Abgaben der Bauern. Der Bauer gehört zum untersten Stand, arbeitet auf dem Feld, ist oft unfrei und muss Abgaben und Dienste leisten. Gemeinsam ist beiden, dass sie von einem Herrn abhängig sind und ihr Leben unsicher und hart sein konnte — Hutten klagt um 1500 über Gefahren, Arbeit und wenig Ertrag.",
+      "stichworte": [
+        "Stand durch Geburt",
+        "Ritter: Vorrechte, Kampf, Burg, Lehen",
+        "Bauer: Arbeit, Abgaben, oft unfrei",
+        "beide abhängig",
+        "unsicheres, hartes Leben"
+      ],
+      "erklaerung": "Ein Vergleich nennt Unterschiede (Stand, Aufgabe, Rechte) und Gemeinsamkeiten (Abhängigkeit, Unsicherheit).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-beg-01",
+      "lernzielId": "lz-begriffe",
+      "typ": "zuordnen",
+      "frage": "Ordne die Begriffe ihrer Bedeutung zu.",
+      "paare": [
+        {
+          "links": "Historie",
+          "rechts": "Geschichte, Geschichtswissenschaft"
+        },
+        {
+          "links": "historisch",
+          "rechts": "geschichtlich"
+        },
+        {
+          "links": "Historiker",
+          "rechts": "erforscht die Geschichte"
+        },
+        {
+          "links": "Historiograph",
+          "rechts": "Geschichtsschreiber"
+        }
+      ],
+      "erklaerung": "Alle vier Wörter kommen aus dem Griechischen. Der Historiker erforscht, der Historiograph schreibt Geschichte.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-beg-02",
+      "lernzielId": "lz-begriffe",
+      "typ": "kurzantwort",
+      "frage": "Wie nennt man einen Geschichtsschreiber mit dem Fachwort aus dem Griechischen?",
+      "akzeptiert": [
+        "Historiograph",
+        "Historiograf",
+        "Historiographin",
+        "Historiografin"
+      ],
+      "erklaerung": "Historiograph = Geschichtsschreiber (Historiographie = Geschichtsschreibung).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-beg-03",
+      "lernzielId": "lz-begriffe",
+      "typ": "einfachwahl",
+      "frage": "Was ist ein **Geschichtsbild**?",
+      "optionen": [
+        "ein Gemälde, das ein bekanntes historisches Ereignis zeigt",
+        "eine Zeitleiste mit allen wichtigen Jahreszahlen eines Landes",
+        "die Vorstellung einer Gemeinschaft von ihrer Vergangenheit",
+        "ein altes Foto aus einem Archiv"
+      ],
+      "richtig": 2,
+      "erklaerung": "Mit einem Geschichtsbild verständigt sich eine Gemeinschaft gedanklich über ihre Vergangenheit. Es entsteht und verändert sich durch Forschung.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-beg-04",
+      "lernzielId": "lz-begriffe",
+      "typ": "einfachwahl",
+      "frage": "Welches Ziel verfolgt die Geschichtswissenschaft?",
+      "optionen": [
+        "die Vergangenheit möglichst spannend und unterhaltsam nachzuerzählen",
+        "die Leistungen des eigenen Landes besonders hervorzuheben",
+        "die Zukunft mit Hilfe der Vergangenheit genau vorherzusagen",
+        "ein umfassendes, verlässliches Bild der Vergangenheit zu ermitteln"
+      ],
+      "richtig": 3,
+      "erklaerung": "Ziel ist ein umfassendes und verlässliches Bild der Vergangenheit — erarbeitet mit Belegen, nicht als spannende Erzählung oder Lob des eigenen Landes.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-beg-05",
+      "lernzielId": "lz-begriffe",
+      "typ": "mehrfachwahl",
+      "frage": "Wozu beschäftigt man sich mit Geschichte? Wähle alle passenden Gründe.",
+      "optionen": [
+        "um Ursachen heutiger Probleme zu verstehen",
+        "um Orientierung für Entscheidungen zu gewinnen",
+        "um Vorurteile gegenüber anderen Kulturen abzubauen",
+        "um genau vorauszusagen, was nächstes Jahr passiert",
+        "zur Unterhaltung und als Hobby"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Geschichte erklärt die Gegenwart, gibt Orientierung, baut Vorurteile ab und kann auch Freizeitvergnügen sein. Genaue Voraussagen der Zukunft erlaubt sie nicht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-beg-06",
+      "lernzielId": "lz-begriffe",
+      "typ": "wahrfalsch",
+      "frage": "Nationalfeiertage zeigen, dass gemeinsames Erinnern an die Geschichte die Identität eines Landes stärken kann.",
+      "richtig": true,
+      "erklaerung": "Historisches Erinnern trägt zur nationalen Identität bei; Nationalfeiertage wie der 1. August in der Schweiz machen das sichtbar.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-beg-07",
+      "lernzielId": "lz-begriffe",
+      "typ": "einfachwahl",
+      "frage": "Was ist gemeint, wenn es heisst, Geschichte zeige **Alternativen**?",
+      "optionen": [
+        "Man kann die Vergangenheit im Nachhinein noch verändern und verbessern.",
+        "Frühere Formen des Zusammenlebens zeigen, dass es auch anders geht.",
+        "Jede Quelle hat genau zwei gleich gute Deutungen.",
+        "Es gibt zu jedem Ereignis mehrere Daten."
+      ],
+      "richtig": 1,
+      "erklaerung": "Wer weiss, wie Menschen früher zusammenlebten und regiert wurden, erkennt, dass die heutige Ordnung nicht selbstverständlich ist — und kann sie kritisch prüfen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-beg-08",
+      "lernzielId": "lz-begriffe",
+      "typ": "zuordnen",
+      "frage": "Welcher Nutzen von Geschichte passt zum Beispiel?",
+      "paare": [
+        {
+          "links": "Du liest über die Vorgeschichte des Nahostkonflikts, um die heutigen Nachrichten zu verstehen.",
+          "rechts": "Gegenwart verstehen"
+        },
+        {
+          "links": "Du erfährst, wie die Menschen in einer fremden Kultur lebten, und merkst, dass dein Bild ein Klischee war.",
+          "rechts": "Vorurteile abbauen"
+        },
+        {
+          "links": "Am 1. August feiert die Schweiz ihre Gründung.",
+          "rechts": "Identität stiften"
+        },
+        {
+          "links": "Du schaust in der Freizeit eine Dokumentation über die Ritter.",
+          "rechts": "Unterhaltung"
+        }
+      ],
+      "erklaerung": "Geschichte erklärt die Gegenwart, baut Vorurteile ab, stiftet Identität und kann einfach Freude machen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-beg-09",
+      "lernzielId": "lz-begriffe",
+      "typ": "wahrfalsch",
+      "frage": "Ein Geschichtsbild steht ein für alle Mal fest, sobald es einmal erforscht ist.",
+      "richtig": false,
+      "erklaerung": "Ein Geschichtsbild entsteht durch immer neue Forschung und kann sich mit neuen Quellen und Fragen verändern.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-beg-10",
+      "lernzielId": "lz-begriffe",
+      "typ": "kurzantwort",
+      "frage": "Ergänze: «historisch» bedeutet auf Deutsch …",
+      "akzeptiert": [
+        "geschichtlich"
+      ],
+      "erklaerung": "historisch = geschichtlich, also die Vergangenheit betreffend.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-beg-11",
+      "lernzielId": "lz-begriffe",
+      "typ": "mehrfachwahl",
+      "frage": "Für welche heutigen Probleme werden auf dem Arbeitsblatt historische Ursachen als Beispiel genannt?",
+      "optionen": [
+        "politischer Radikalismus",
+        "Nahostkonflikt",
+        "Krieg in der Ukraine",
+        "Erfindung des Smartphones"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Radikalismus, Nahostkonflikt und Ukrainekrieg lassen sich ohne ihre Vorgeschichte kaum verstehen. Das Smartphone ist eine technische Entwicklung, kein politisches Problem.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-beg-12",
+      "lernzielId": "lz-begriffe",
+      "typ": "einfachwahl",
+      "frage": "Welche Aussage beschreibt den Unterschied zwischen **Historiker** und **Historiograph** am besten?",
+      "optionen": [
+        "Der Historiker lebte in der Antike, der Historiograph lebt heute.",
+        "Der Historiker sammelt nur Gegenstände, der Historiograph nur alte Texte.",
+        "Der Historiograph schreibt Geschichte auf, der Historiker erforscht sie.",
+        "Es gibt keinen Unterschied, beide Wörter kommen aus dem Lateinischen."
+      ],
+      "richtig": 2,
+      "erklaerung": "Historiograph = Geschichtsschreiber; Historiker = jemand, der Geschichte erforscht und kennt. Beide Wörter stammen aus dem Griechischen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-beg-13",
+      "lernzielId": "lz-begriffe",
+      "typ": "wahrfalsch",
+      "frage": "Laut Arbeitsblatt hilft der Unterricht in Geschichte und Staatskunde, sich in der heutigen Welt zu orientieren und Politik besser zu verstehen.",
+      "richtig": true,
+      "erklaerung": "Geschichte und Staatskunde fördern die Orientierung in der Gegenwart, das Verständnis für Politik und das Interesse daran.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-beg-14",
+      "lernzielId": "lz-begriffe",
+      "typ": "offen",
+      "frage": "Eine Kollegin meint: «Geschichte ist vorbei — das bringt mir nichts.» Widerlege sie mit mindestens drei Gründen.",
+      "musterloesung": "Geschichte hilft, die Gegenwart zu verstehen, weil viele heutige Probleme historische Ursachen haben (z. B. Nahostkonflikt, Ukrainekrieg). Sie gibt Orientierung für politische und gesellschaftliche Entscheidungen. Sie zeigt Alternativen zur heutigen Ordnung und regt zu Kritik an. Sie baut Vorurteile gegenüber fremden Kulturen und vergangenen Zeiten ab. Sie stärkt die Identität (Nationalfeiertag). Und sie kann einfach Freude machen.",
+      "stichworte": [
+        "Ursachen heutiger Probleme",
+        "Orientierung",
+        "Alternativen",
+        "Vorurteile abbauen",
+        "Identität",
+        "Unterhaltung"
+      ],
+      "erklaerung": "Gute Antworten nennen Gründe mit Beispielen, nicht nur Stichworte.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-beg-15",
+      "lernzielId": "lz-begriffe",
+      "typ": "offen",
+      "frage": "Formuliere eine eigene, kurze Definition von **Geschichte** (zwei bis drei Sätze). Zeige anschliessend an einem eigenen Beispiel, wie Geschichtswissen beim Verstehen der Gegenwart hilft, und begründe den Zusammenhang.",
+      "musterloesung": "Geschichte ist die Erforschung der Vergangenheit mit Hilfe von Quellen (Belegen). Sie will ein möglichst wahres Bild der Vergangenheit gewinnen, Veränderungen aufzeigen und erklären, warum etwas geschah. Dabei bleibt sie offen für neue Quellen und Sichtweisen. Beispiel: Der Schweizer Nationalfeiertag am 1. August erinnert an den Bundesbrief von 1291. Wer diesen historischen Bezug kennt, versteht, wie gemeinsames Erinnern nationale Identität stiftet. Andere schlüssig begründete Beispiele sind ebenfalls richtig.",
+      "stichworte": [
+        "Vergangenheit erforschen",
+        "Quellen/Belege",
+        "Veränderungen",
+        "erklären warum",
+        "Offenheit",
+        "eigenes Beispiel mit begründetem Bezug zur Gegenwart"
+      ],
+      "erklaerung": "Eine gute Definition verbindet Gegenstand (Vergangenheit), Methode (Belege) und Ziel (erklären, warum). Beim Beispiel zählt der erklärte Zusammenhang, nicht die Übereinstimmung mit der Musterlösung.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-his-01",
+      "lernzielId": "lz-historiker",
+      "typ": "reihenfolge",
+      "frage": "Bring die drei Aufgaben von Historikern in eine sinnvolle Reihenfolge.",
+      "elemente": [
+        "eigene Fragen an die Vergangenheit stellen",
+        "passende Quellen finden",
+        "die Quellen kritisch auswerten"
+      ],
+      "erklaerung": "Zuerst kommt die Frage, dann die Suche nach Quellen, die eine Antwort ermöglichen, und schliesslich deren kritische Auswertung.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-his-02",
+      "lernzielId": "lz-historiker",
+      "typ": "einfachwahl",
+      "frage": "Wie arbeiteten die **Chronisten** im Mittelalter?",
+      "optionen": [
+        "Sie werteten Archive wissenschaftlich und völlig neutral aus.",
+        "Sie sammelten nur Gegenstände wie Münzen, Waffen und Schmuck.",
+        "Sie schrieben Geschichte ausschliesslich in Form von Gedichten.",
+        "Sie hielten Ereignisse der Reihe nach fest und urteilten subjektiv."
+      ],
+      "richtig": 3,
+      "erklaerung": "Chronisten hielten Ereignisse chronologisch fest und bewerteten sie dabei persönlich — anders als die kritische Wissenschaft heute.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-his-03",
+      "lernzielId": "lz-historiker",
+      "typ": "wahrfalsch",
+      "frage": "In der Antike galt Geschichtsschreibung auch als literarische Kunst, und die Autoren bewerteten die Ereignisse oft persönlich.",
+      "richtig": true,
+      "erklaerung": "Antike Historiographie war auch Literatur; die Darstellung war oft subjektiv gefärbt.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-his-04",
+      "lernzielId": "lz-historiker",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Schwierigkeiten können Quellen haben, mit denen Historiker umgehen müssen?",
+      "optionen": [
+        "Lücken",
+        "Widersprüche",
+        "Verzerrungen und Lügen",
+        "Mehrdeutigkeit",
+        "Sie sind immer vollständig und neutral."
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Quellen sind oft lückenhaft, widersprüchlich, verzerrt, mehrdeutig oder sogar gelogen — deshalb müssen sie kritisch ausgewertet werden.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-his-05",
+      "lernzielId": "lz-historiker",
+      "typ": "mehrfachwahl",
+      "frage": "Was kann beeinflussen, wie ein Historiker eine Quelle deutet?",
+      "optionen": [
+        "seine politische Haltung",
+        "seine Religion bzw. Konfession",
+        "sein Staat bzw. seine Nationalität",
+        "die Zeit, in der er lebt",
+        "nichts — Wissenschaft ist immer völlig objektiv"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Forschende sind standortgebunden: Politik, Religion, Staatszugehörigkeit und Entstehungszeit prägen ihre Deutung.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-his-06",
+      "lernzielId": "lz-historiker",
+      "typ": "einfachwahl",
+      "frage": "Worüber sind sich Historiker meist **am ehesten** einig?",
+      "optionen": [
+        "warum ein Krieg ausbrach",
+        "welche Motive ein Herrscher hatte",
+        "was geschah und wann es geschah",
+        "ob eine Entscheidung richtig war"
+      ],
+      "richtig": 2,
+      "erklaerung": "Grunddaten (was, wann) sind seltener umstritten als Erklärungen (warum, Motive, Ursachen) und Bewertungen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-his-07",
+      "lernzielId": "lz-historiker",
+      "typ": "wahrfalsch",
+      "frage": "Wenn zwei Historiker dieselben Quellen untersuchen, kommen sie zwingend zum gleichen Ergebnis.",
+      "richtig": false,
+      "erklaerung": "Quellen müssen gedeutet werden. Aus denselben Quellen können verschiedene, sogar widersprüchliche Darstellungen entstehen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-his-08",
+      "lernzielId": "lz-historiker",
+      "typ": "mehrfachwahl",
+      "frage": "Was kann dazu führen, dass ein Thema neu bewertet wird?",
+      "optionen": [
+        "neu entdeckte Quellen",
+        "neu zugängliche Archive",
+        "neue Fragestellungen",
+        "dass ein Buch schon alt ist"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Neue Quellen, geöffnete Archive und neue Fragen führen zu Ergänzungen oder Neubewertungen. Das Alter eines Buches allein ist kein Grund.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-his-09",
+      "lernzielId": "lz-historiker",
+      "typ": "einfachwahl",
+      "frage": "Was hilft am besten gegen eine einseitige Darstellung der Geschichte?",
+      "optionen": [
+        "nur eine einzige, gute Quelle lesen",
+        "verschiedene Standpunkte vergleichen",
+        "auf alle Deutungen verzichten",
+        "nur Darstellungen aus dem eigenen Land lesen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der Vergleich verschiedener Standpunkte macht Einseitigkeit sichtbar; Ergebnisse müssen zudem überprüfbar sein.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-his-10",
+      "lernzielId": "lz-historiker",
+      "typ": "zuordnen",
+      "frage": "Wer arbeitete wie? Ordne zu.",
+      "paare": [
+        {
+          "links": "antiker Geschichtsschreiber",
+          "rechts": "subjektiv, auch als Literatur"
+        },
+        {
+          "links": "mittelalterlicher Chronist",
+          "rechts": "subjektiv, der Reihe nach berichtend"
+        },
+        {
+          "links": "moderner Historiker",
+          "rechts": "kritisch-wissenschaftlich"
+        }
+      ],
+      "erklaerung": "Früher wurde Geschichte persönlich bewertet und erzählt; heute ist sie eine kritische Wissenschaft — die aber nie ganz frei von Subjektivität ist.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-his-11",
+      "lernzielId": "lz-historiker",
+      "typ": "kurzantwort",
+      "frage": "Ergänze das Fachwort: Quellen erforschen heisst, sie zu …",
+      "akzeptiert": [
+        "interpretieren",
+        "deuten",
+        "auslegen"
+      ],
+      "erklaerung": "Quellen sprechen nicht für sich selbst — sie müssen ausgelegt, gedeutet, interpretiert werden.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-his-12",
+      "lernzielId": "lz-historiker",
+      "typ": "wahrfalsch",
+      "frage": "Die Forschung zu einem Thema ist abgeschlossen, sobald ein umfassendes Buch dazu erschienen ist.",
+      "richtig": false,
+      "erklaerung": "Forschung ist nie endgültig: Neue Quellen, Archive und Fragen können jederzeit zu Ergänzungen oder neuen Bewertungen führen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-his-13",
+      "lernzielId": "lz-historiker",
+      "typ": "einfachwahl",
+      "frage": "Warum müssen die Ergebnisse von Historikern **überprüfbar** sein?",
+      "optionen": [
+        "damit andere die Belege nachprüfen und die Deutung kritisieren können",
+        "damit mehrere Darstellungen automatisch zur gleichen Bewertung kommen",
+        "damit die persönliche Nähe eines Autors zum Ereignis als Beweis genügt",
+        "damit eine einmal geprüfte Deutung dauerhaft unverändert gelten kann"
+      ],
+      "richtig": 0,
+      "erklaerung": "Wissenschaft lebt davon, dass andere die Belege prüfen und Deutungen widersprechen können. So werden Fehler und Einseitigkeit erkannt.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-his-14",
+      "lernzielId": "lz-historiker",
+      "typ": "offen",
+      "frage": "Ein Schweizer und ein österreichischer Historiker schreiben je ein Buch über dieselbe Schlacht und kommen zu unterschiedlichen Urteilen. Erkläre, wie das trotz gleicher Quellen möglich ist.",
+      "musterloesung": "Quellen müssen gedeutet werden. Historiker sind standortgebunden: Ihre Staatszugehörigkeit, politische Haltung, Religion und die Zeit, in der sie leben, beeinflussen, welche Fragen sie stellen und wie sie die Quellen auslegen. Ob etwas geschah und wann, ist meist unbestritten, die Gründe und Bewertungen aber oft nicht. Deshalb entstehen aus denselben Quellen unterschiedliche Darstellungen. Ein Vergleich beider Standpunkte hilft gegen Einseitigkeit.",
+      "stichworte": [
+        "Quellen deuten/interpretieren",
+        "Standort: Staat, Politik, Religion, Zeit",
+        "was/wann vs. warum",
+        "verschiedene Standpunkte vergleichen"
+      ],
+      "erklaerung": "Kern: Deutung ist standortgebunden — das Faktengerüst ist oft gleich, die Erklärung nicht.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-his-15",
+      "lernzielId": "lz-historiker",
+      "typ": "offen",
+      "frage": "Erkläre, warum die Erforschung eines Themas in der Geschichte nie endgültig abgeschlossen ist. Nenne zwei Gründe.",
+      "musterloesung": "Es können neue Quellen gefunden oder bisher verschlossene Archive geöffnet werden; dann müssen Darstellungen ergänzt oder korrigiert werden. Ausserdem stellt jede Generation neue Fragen an die Vergangenheit, und Forschende sehen die Quellen aus einem anderen Standort. Deshalb sind Ergebnisse vorläufig und werden immer wieder überprüft.",
+      "stichworte": [
+        "neue Quellen",
+        "Archive",
+        "neue Fragestellungen",
+        "vorläufig",
+        "überprüfbar"
+      ],
+      "erklaerung": "Geschichtswissenschaft liefert begründete, aber vorläufige Ergebnisse.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-que-01",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "einfachwahl",
+      "frage": "Was ist eine **historische Quelle**?",
+      "optionen": [
+        "ein Zeugnis aus der Vergangenheit, aus dem man über sie etwas erfährt",
+        "jede spätere Untersuchung über ein Ereignis der Vergangenheit",
+        "ein Schulbuch, das die Vergangenheit ausführlich erklärt und deutet",
+        "eine Webseite, auf der man historische Jahreszahlen nachschlagen kann"
+      ],
+      "richtig": 0,
+      "erklaerung": "Quellen sind Zeugnisse aus der Vergangenheit selbst — Texte, Gegenstände oder Sachverhalte. Spätere Untersuchungen und Schulbücher sind Darstellungen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-que-02",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "zuordnen",
+      "frage": "Quelle oder Darstellung? Ordne im Hinblick auf die jeweils beschriebene Zeit bzw. das erklärte Thema zu.",
+      "paare": [
+        {
+          "links": "eine römische Münze",
+          "rechts": "Quelle"
+        },
+        {
+          "links": "dein Geschichtsschulbuch",
+          "rechts": "Darstellung"
+        },
+        {
+          "links": "eine Forschungsarbeit über die Kreuzzüge",
+          "rechts": "Darstellung"
+        },
+        {
+          "links": "eine mittelalterliche Burgruine",
+          "rechts": "Quelle"
+        },
+        {
+          "links": "ein Brief aus dem Jahr 1892",
+          "rechts": "Quelle"
+        },
+        {
+          "links": "die EDA-Broschüre «Die Schweiz und die EU»",
+          "rechts": "Darstellung"
+        }
+      ],
+      "erklaerung": "Quellen stammen aus der untersuchten Zeit selbst. Schulbuch, Forschungsarbeit und die erklärende Broschüre des EDA untersuchen und deuten — sie sind Darstellungen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-que-03",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "wahrfalsch",
+      "frage": "Ein Schulbuch ist eine Darstellung, kann aber selbst Quellen enthalten.",
+      "richtig": true,
+      "erklaerung": "Das Schulbuch deutet und erklärt (Darstellung). Abgedruckte Briefe, Bilder oder Urkunden darin sind Quellen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-que-04",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "einfachwahl",
+      "frage": "Was kennzeichnet eine Quelle als **Tradition**?",
+      "optionen": [
+        "Sie ist besonders alt, selten und deshalb wertvoll.",
+        "Sie ist zufällig aus dem Alltag der Menschen erhalten geblieben.",
+        "Sie wurde von Historikern viel später über die Zeit geschrieben.",
+        "Sie wurde bewusst geschaffen, um der Nachwelt etwas mitzuteilen."
+      ],
+      "richtig": 3,
+      "erklaerung": "Tradition = absichtliche Überlieferung: Sie wurde gemacht, damit spätere Generationen davon erfahren (z. B. Chronik, Biographie).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-que-05",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "zuordnen",
+      "frage": "Tradition oder Überrest? Ordne zu.",
+      "paare": [
+        {
+          "links": "Ötzis mit Stroh gefüllte Winterschuhe",
+          "rechts": "Überrest"
+        },
+        {
+          "links": "Einkaufsliste einer Frau für ein Geburtstagsfest (1842)",
+          "rechts": "Überrest"
+        },
+        {
+          "links": "Brief eines Auswanderers an seine Eltern (1892)",
+          "rechts": "Überrest"
+        },
+        {
+          "links": "Chronik eines Klosters, die die Ereignisse jedes Jahres festhält",
+          "rechts": "Tradition"
+        },
+        {
+          "links": "Biographie eines Herrschers, geschrieben für die Nachwelt",
+          "rechts": "Tradition"
+        }
+      ],
+      "erklaerung": "Schuhe, Einkaufsliste und Familienbrief entstanden für den Alltag damals — Überreste. Chronik und Biographie wurden geschrieben, damit Spätere davon erfahren — Tradition.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-que-06",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "zuordnen",
+      "frage": "Ordne die Überreste ihrer Untergruppe zu.",
+      "paare": [
+        {
+          "links": "eine Münze",
+          "rechts": "Sachüberrest"
+        },
+        {
+          "links": "ein Löffel aus dem Mittelalter",
+          "rechts": "Sachüberrest"
+        },
+        {
+          "links": "der Brauch «Gansabhauet»",
+          "rechts": "abstrakter Überrest"
+        },
+        {
+          "links": "ein alter Ortsname",
+          "rechts": "abstrakter Überrest"
+        },
+        {
+          "links": "eine Einkaufsliste",
+          "rechts": "schriftlicher Überrest"
+        },
+        {
+          "links": "ein privater Brief",
+          "rechts": "schriftlicher Überrest"
+        }
+      ],
+      "erklaerung": "Sachüberreste sind Gegenstände, abstrakte Überreste sind nicht greifbar (Bräuche, Sprache, Namen), schriftliche Überreste sind Alltagstexte.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-que-07",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "kurzantwort",
+      "frage": "Wie nennt man eine Quelle, die **unabsichtlich** überliefert ist, also nicht für die Nachwelt gemacht wurde?",
+      "akzeptiert": [
+        "Überrest",
+        "Überreste",
+        "Ueberrest",
+        "Ueberreste"
+      ],
+      "erklaerung": "Überreste sind direkt aus dem damaligen Geschehen erhalten — ohne Absicht, später zu informieren.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-que-08",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "einfachwahl",
+      "frage": "Zu welcher Untergruppe gehört der Brauch «Gansabhauet» in Sursee?",
+      "optionen": [
+        "mündliche Tradition",
+        "schriftlicher Überrest",
+        "Sachüberrest",
+        "abstrakter Überrest"
+      ],
+      "richtig": 3,
+      "erklaerung": "Ein Brauch ist kein Gegenstand und kein Text, sondern lebt in der Handlung weiter — ein abstrakter Überrest.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-que-09",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "wahrfalsch",
+      "frage": "Das private Tagebuch eines Soldaten, der nur für sich selbst schrieb, wurde nach seinem Tod in der Schlacht von Borodino (1812) gefunden. Ist es ein Überrest?",
+      "richtig": true,
+      "erklaerung": "Der Soldat schrieb für sich selbst, nicht für die Nachwelt; das Tagebuch ist zufällig erhalten — ein Überrest.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-que-10",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "mehrfachwahl",
+      "frage": "Welche mündlich weitergegebenen Beispiele gehören zur **mündlichen Tradition**?",
+      "optionen": [
+        "Sagen",
+        "Lieder",
+        "Erzählungen",
+        "Münzen",
+        "Gesetze"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Sagen, Lieder und Erzählungen wurden mündlich weitergegeben, um Wissen und Erinnerung zu bewahren. Münzen sind Sachüberreste.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-que-11",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "kurzantwort",
+      "frage": "Wie nennt man streng nach Jahren gegliederte Aufzeichnungen von Ereignissen (Jahrbücher)?",
+      "akzeptiert": [
+        "Annalen",
+        "Annale",
+        "die Annalen"
+      ],
+      "erklaerung": "Annalen sind Jahrbücher. Chroniken berichten ebenfalls chronologisch, sind aber nicht zwingend nach einzelnen Jahren gegliedert (Präzisierung ergänzt).",
+      "schwierigkeit": 1,
+      "ergaenzt": true
+    },
+    {
+      "id": "f-que-12",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "einfachwahl",
+      "frage": "Die Broschüre «Die Schweiz und die EU» wurde vom EDA herausgegeben und erklärt das Verhältnis. Wie wurde sie im Unterricht eingeordnet — und was wäre sie, wenn eine Partei sie herausgäbe?",
+      "optionen": [
+        "beide Male eine Darstellung, weil sie etwas erklärt",
+        "EDA: Quelle (Tradition); Partei: Darstellung",
+        "EDA: Darstellung; Partei: Quelle für deren Meinung",
+        "beide Male ein schriftlicher Überrest der Gegenwart"
+      ],
+      "richtig": 2,
+      "erklaerung": "Im Unterricht: EDA-Broschüre als Darstellung; Parteibroschüre als Quelle für die Meinung der Partei. Fachlich entscheidet aber die Fragestellung: Auch die EDA-Broschüre kann Quelle für die Sicht des Herausgebers sein, und eine Parteibroschüre kann ein Thema darstellen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-que-13",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Beispiele sind **Sachüberreste**?",
+      "optionen": [
+        "Kleidung",
+        "Waffen",
+        "Fahnen und Schilde mit Wappen",
+        "Sagen",
+        "Strassennamen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Kleidung, Waffen, Fahnen und Schilde mit Wappen sind Gegenstände. Das Wappen als Zeichen ist nicht selbst ein Gegenstand. Sagen sind mündliche Tradition, Strassennamen abstrakte Überreste.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-que-14",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "offen",
+      "frage": "Ein Artikel in der Zeitung «Der Bund» vom 30. Juni 1914 berichtet über das Attentat von Sarajewo. Ist er eine Quelle oder eine Darstellung? Begründe.",
+      "musterloesung": "Es kommt auf die Frage an. Der Artikel berichtet und deutet das Attentat nachträglich (zwei Tage später) — insofern ist er eine Darstellung des Ereignisses. Für die Frage, wie man 1914 in der Schweiz über das Attentat berichtete und dachte, ist er aber eine Quelle aus jener Zeit (ein Überrest, weil er für die Leser damals geschrieben wurde, nicht für die Nachwelt).",
+      "stichworte": [
+        "kommt auf die Frage an",
+        "deutet → Darstellung",
+        "Zeugnis aus 1914 → Quelle",
+        "für Leser damals"
+      ],
+      "erklaerung": "Zeitungsartikel sind Grenzfälle; im Unterricht wurden beide Zuordnungen notiert. Die Begründung zählt.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-que-15",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "offen",
+      "frage": "Der Bundesbrief von 1291 wurde im Unterricht als **Tradition** eingeordnet. Begründe diese Zuordnung — und erkläre, warum man ihn auch als Überrest sehen könnte.",
+      "musterloesung": "Tradition: Der Bundesbrief wurde bewusst schriftlich festgehalten, damit das Bündnis auch für spätere Generationen gilt und nachweisbar bleibt. Überrest: Er ist ein Vertrag, der für den Gebrauch seiner Zeit entstand — er sollte das Bündnis regeln, nicht Historikern berichten. In vielen Fachbüchern gelten Urkunden und Verträge deshalb als schriftliche Überreste. Entscheidend ist die Begründung: Für wen und wozu ist er entstanden?",
+      "stichworte": [
+        "bewusst festgehalten",
+        "für spätere Generationen gültig",
+        "Vertrag für damals",
+        "schriftlicher Überrest",
+        "für wen und wozu"
+      ],
+      "erklaerung": "Urkunden, Verträge und Protokolle sind Grenzfälle zwischen Tradition und Überrest.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-que-16",
+      "lernzielId": "lz-quelle-darstellung",
+      "typ": "offen",
+      "frage": "Erkläre den Unterschied zwischen **Tradition** und **Überrest** an je einem eigenen Beispiel.",
+      "musterloesung": "Eine Tradition wurde absichtlich für die Nachwelt geschaffen, z. B. eine Chronik oder eine Biographie über einen Herrscher. Ein Überrest ist unabsichtlich aus dem damaligen Leben erhalten, z. B. eine Einkaufsliste, ein Werkzeug oder ein Brauch. Der Unterschied liegt in der Absicht: Wollte jemand späteren Generationen etwas mitteilen oder nicht?",
+      "stichworte": [
+        "Tradition: absichtlich, für die Nachwelt",
+        "Beispiel Chronik/Biographie",
+        "Überrest: unabsichtlich, aus dem Alltag",
+        "Beispiel Werkzeug/Liste/Brauch"
+      ],
+      "erklaerung": "Die Absicht entscheidet — nicht das Alter oder der Wert der Quelle.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-aqu-01",
+      "lernzielId": "lz-aqua",
+      "typ": "kurzantwort",
+      "frage": "Wofür stehen die Buchstaben A – QU – A im Analyseschema? (Drei Wörter, durch Kommas getrennt)",
+      "akzeptiert": [
+        "Autor, Quelle, Adressat",
+        "Autor Quelle Adressat",
+        "Autor-Quelle-Adressat",
+        "Autor, Quelle und Adressat"
+      ],
+      "erklaerung": "AQUA = Autor, Quelle, Adressat.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-aqu-02",
+      "lernzielId": "lz-aqua",
+      "typ": "zuordnen",
+      "frage": "Zu welchem Teil von AQUA gehört die Frage?",
+      "paare": [
+        {
+          "links": "Welche Stellung hat der Verfasser in der Gesellschaft?",
+          "rechts": "Autor"
+        },
+        {
+          "links": "Welches Interesse hat der Verfasser?",
+          "rechts": "Autor"
+        },
+        {
+          "links": "Wann und in welchem Zusammenhang entstand der Text?",
+          "rechts": "Quelle"
+        },
+        {
+          "links": "Um welche Textart handelt es sich?",
+          "rechts": "Quelle"
+        },
+        {
+          "links": "An wen richtet sich der Text?",
+          "rechts": "Adressat"
+        },
+        {
+          "links": "Wozu wird dem Empfänger etwas mitgeteilt?",
+          "rechts": "Adressat"
+        }
+      ],
+      "erklaerung": "Autor: wer spricht und mit welchem Interesse. Quelle: Inhalt, Zeit, Zusammenhang, Textart. Adressat: an wen und mit welcher Absicht.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-aqu-03",
+      "lernzielId": "lz-aqua",
+      "typ": "reihenfolge",
+      "frage": "In welcher Reihenfolge gehst du bei einer Quellenanalyse vor?",
+      "elemente": [
+        "unbekannte Begriffe und schwierige Stellen klären",
+        "Autor, Quelle und Adressat untersuchen",
+        "Autor, Quelle und Absicht beurteilen",
+        "ein Fazit formulieren"
+      ],
+      "erklaerung": "Zuerst den Text verstehen, dann untersuchen (A-QU-A), dann beurteilen und am Schluss ein Fazit ziehen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-aqu-04",
+      "lernzielId": "lz-aqua",
+      "typ": "wahrfalsch",
+      "frage": "Was in einer alten Quelle steht, ist wahr — schliesslich war der Autor dabei.",
+      "richtig": false,
+      "erklaerung": "Quellen sind nicht automatisch wahr oder vollständig. Sie können Lücken, Fehler oder Absichten enthalten und müssen geprüft werden.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-aqu-05",
+      "lernzielId": "lz-aqua",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Absichten unterscheidet man bei der Beurteilung einer Quelle?",
+      "optionen": [
+        "Information",
+        "Manipulation",
+        "Meinungsbildung",
+        "Datierung"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Bei der Absicht fragt man: Will der Text sachlich informieren, gezielt beeinflussen (manipulieren) oder eine Meinung bilden? Die Datierung gehört zur Untersuchung der Quelle.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-aqu-06",
+      "lernzielId": "lz-aqua",
+      "typ": "einfachwahl",
+      "frage": "Was gehört zur **Beurteilung der Quelle** (zweiter Schritt)?",
+      "optionen": [
+        "sie mit anderen Quellen und Darstellungen vergleichen",
+        "die Rechtschreibung des Textes sorgfältig korrigieren",
+        "die Quelle möglichst genau und wörtlich abschreiben",
+        "den vollständigen Namen des Autors herausfinden"
+      ],
+      "richtig": 0,
+      "erklaerung": "Beim Beurteilen wird die Quelle in den historischen Zusammenhang gestellt und mit anderen Quellen und Darstellungen verglichen. Der Name des Autors gehört schon zur Untersuchung.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-aqu-07",
+      "lernzielId": "lz-aqua",
+      "typ": "zuordnen",
+      "frage": "Huttens Brief nach AQUA: Ordne zu.",
+      "paare": [
+        {
+          "links": "Ulrich von Hutten, Reichsritter und Humanist",
+          "rechts": "Autor"
+        },
+        {
+          "links": "persönlicher Brief, Anfang 16. Jahrhundert",
+          "rechts": "Quelle"
+        },
+        {
+          "links": "Klage über Gefahren, Burg und Arbeit",
+          "rechts": "Quelle"
+        },
+        {
+          "links": "Willibald Pirckheimer, Ratsherr in Nürnberg",
+          "rechts": "Adressat"
+        }
+      ],
+      "erklaerung": "Autor ist Hutten, die Quelle ein Brief mit einer Klage über sein Leben, Adressat sein Freund Pirckheimer.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-aqu-08",
+      "lernzielId": "lz-aqua",
+      "typ": "einfachwahl",
+      "frage": "In welchem Verhältnis stand Willibald Pirckheimer zu Ulrich von Hutten?",
+      "optionen": [
+        "Er war sein Lehnsherr, dem Hutten Kriegsdienst schuldete.",
+        "Er war sein Gegner in einer langen Fehde um Land.",
+        "Er war sein Freund und ein reicher Ratsherr in Nürnberg.",
+        "Er war ein Bauer, der Huttens Land bewirtschaftete."
+      ],
+      "richtig": 2,
+      "erklaerung": "Pirckheimer war ein Freund Huttens und ein reicher Ratsherr in der Stadt Nürnberg — ein Kontrast zum Leben des Ritters auf der Burg.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-aqu-09",
+      "lernzielId": "lz-aqua",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Gefahren nennt Hutten in seinem Brief?",
+      "optionen": [
+        "Überfälle und Entführung mit Lösegeld",
+        "in Fehden und Kriege des Fürsten hineingezogen zu werden",
+        "Streit mit anderen Verwaltern, wenn man seine Rechte durchsetzt",
+        "Verfolgung durch die Kirche wegen seines Glaubens",
+        "Verarmung durch den Verlust städtischer Handelsprivilegien"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Hutten beschreibt Überfälle, Entführungen, Fehden und Streit mit Nachbarn — selbst kurze Wege macht man nur bewaffnet.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-aqu-10",
+      "lernzielId": "lz-aqua",
+      "typ": "einfachwahl",
+      "frage": "Wie beschreibt Hutten seine Burg?",
+      "optionen": [
+        "als prächtiges Schloss mit grossen, hellen Festsälen",
+        "als ruhigen, bequemen Wohnsitz weit weg von allem",
+        "als belebten Handelsplatz mit vielen Kaufleuten",
+        "als enge, dunkle Festung, gebaut zur Verteidigung"
+      ],
+      "richtig": 3,
+      "erklaerung": "Die Burg ist eine Festung mit Wall und Graben, engen Ställen, dunklen Räumen und Kriegsmaterial — kein bequemes Zuhause.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-aqu-11",
+      "lernzielId": "lz-aqua",
+      "typ": "wahrfalsch",
+      "frage": "Huttens Brief ist ein neutraler Bericht über das Leben aller Ritter um 1500.",
+      "richtig": false,
+      "erklaerung": "Der Brief schildert die persönliche Sicht eines Betroffenen — eine Klage, einseitig; die Klage wirkt aufrichtig. Für ein Gesamtbild braucht es weitere Quellen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-aqu-12",
+      "lernzielId": "lz-aqua",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die Geistesbewegung ab dem 14. Jahrhundert, die den Menschen, seine Würde und Bildung in den Mittelpunkt stellt — und zu der auch Hutten gehörte?",
+      "akzeptiert": [
+        "Humanismus",
+        "der Humanismus"
+      ],
+      "erklaerung": "Der Humanismus betont Menschenwürde, Bildung, Vernunft, Wissenschaft, Toleranz und Offenheit.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-aqu-13",
+      "lernzielId": "lz-aqua",
+      "typ": "einfachwahl",
+      "frage": "Welches Fazit über die Zeit um 1500 lässt Huttens Brief am ehesten zu?",
+      "optionen": [
+        "Eine Zeit des Umbruchs: Die Ritter verlieren an Bedeutung.",
+        "Das Rittertum stand um 1500 in seiner vollen Blüte.",
+        "Auf dem Land lebte man sicherer und ruhiger als in der Stadt.",
+        "Die Bauern hatten mehr Rechte und Besitz als die Ritter."
+      ],
+      "richtig": 0,
+      "erklaerung": "Huttens Klage zeigt eine Zeit des Umbruchs: Die Ritter verlieren an Bedeutung, während die Städte (wie Pirckheimers Nürnberg) aufblühen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-aqu-14",
+      "lernzielId": "lz-aqua",
+      "typ": "offen",
+      "frage": "**Arbeitsgrundlage — Huttens Brief in eigenen Worten, kein Originalzitat:** Ulrich von Hutten, Reichsritter und Humanist, schreibt Anfang des 16. Jahrhunderts an seinen Freund Willibald Pirckheimer, einen wohlhabenden Ratsherrn in Nürnberg. Er schildert Fehden, Überfälle und die Abhängigkeit vom Fürsten. Seine Burg sei eng und dunkel; die Arbeit bringe wenig Ertrag.\n\nBeurteile diese Klage: Wie glaubwürdig ist sie, welche Grenzen hat ihre Aussagekraft, und welche Absicht könnte Hutten gegenüber Pirckheimer gehabt haben? Unterscheide belegbare Angaben von begründeten Vermutungen.",
+      "musterloesung": "Hutten schreibt als Betroffener aus eigener Erfahrung; seine Klage wirkt aufrichtig und ist deshalb für den Alltag eines Ritters aussagekräftig. Sie ist aber einseitig: Er betont nur Gefahren, Enge, Arbeit und geringen Ertrag und spricht für sich, nicht für alle Ritter. Der Adressat ist ein reicher Städter und Freund — Hutten will vermutlich Verständnis und Bestätigung; zwischen den Zeilen steht «Du hast es gut» (Neid). Zur Absicherung müsste man den Brief mit anderen Quellen und Darstellungen vergleichen.",
+      "stichworte": [
+        "Betroffener, eigene Erfahrung",
+        "einseitig, aber aufrichtig",
+        "Klage",
+        "Adressat reicher Freund → Bestätigung/Neid",
+        "mit anderen Quellen vergleichen"
+      ],
+      "erklaerung": "Zur Beurteilung gehören Blickwinkel des Autors, Absicht gegenüber dem Adressaten und der Vergleich mit anderen Quellen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-aqu-15",
+      "lernzielId": "lz-aqua",
+      "typ": "offen",
+      "frage": "Pirckheimer erhält Huttens Brief. Wie könnte er reagiert haben? Begründe mit dem, was du über die beiden weisst.",
+      "musterloesung": "Pirckheimer ist ein wohlhabender Ratsherr in Nürnberg und Huttens Freund. Er könnte mitfühlend reagieren und Hutten trösten oder ihm raten, das unsichere Burgleben aufzugeben und in die Stadt zu kommen. Möglich ist auch, dass er die Klage als übertrieben empfindet oder sich durch den neidischen Unterton («Du hast es gut») angesprochen fühlt. Als Humanist teilt er mit Hutten das Interesse an Bildung — die Stadt bietet dafür mehr Möglichkeiten als die Burg.",
+      "stichworte": [
+        "Freund, Ratsherr in Nürnberg",
+        "Mitgefühl / Rat",
+        "Stadt sicherer und bequemer",
+        "Neid im Brief",
+        "begründete Vermutung"
+      ],
+      "erklaerung": "Hier gibt es keine einzige richtige Antwort — gut ist eine Vermutung, die mit der Beziehung der beiden und dem Inhalt des Briefs begründet ist.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-aqu-16",
+      "lernzielId": "lz-aqua",
+      "typ": "offen",
+      "frage": "Warum heisst es, Quellen «erklären sich nicht selbst»? Erkläre in zwei bis drei Sätzen.",
+      "musterloesung": "Eine Quelle liefert nur Material aus der Vergangenheit. Was sie aussagt, wie zuverlässig sie ist und welche Absicht dahintersteht, muss man erst herausfinden: Wer hat sie verfasst, für wen, wann und wozu? Erst durch diese Untersuchung und Beurteilung (Interpretation) wird aus der Quelle historisches Wissen.",
+      "stichworte": [
+        "Rohmaterial",
+        "Autor, Adressat, Zeit, Absicht klären",
+        "Lücken, Fehler möglich",
+        "Interpretation"
+      ],
+      "erklaerung": "Quellen sind Grundlage des Wissens, aber erst die Interpretation erschliesst ihren Aussagewert.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kar-01",
+      "lernzielId": "lz-karl",
+      "typ": "zahl",
+      "frage": "In welchem Jahr wurde Karl der Grosse zum Kaiser gekrönt?",
+      "richtig": 800,
+      "erklaerung": "Am 25. Dezember 800 wurde Karl Kaiser — der erste römische Kaiser im Westen seit dem Ende des antiken Reichs.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kar-02",
+      "lernzielId": "lz-karl",
+      "typ": "zahl",
+      "frage": "In welchem Jahr starb Karl der Grosse?",
+      "richtig": 814,
+      "erklaerung": "Karl starb am 28. Januar 814 in Aachen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kar-03",
+      "lernzielId": "lz-karl",
+      "typ": "kurzantwort",
+      "frage": "In welcher Stadt starb Karl der Grosse (dort lag auch seine Pfalz)?",
+      "akzeptiert": [
+        "Aachen",
+        "in Aachen"
+      ],
+      "erklaerung": "Aachen war Karls wichtigste Pfalz; dort starb er am 28. Januar 814.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kar-04",
+      "lernzielId": "lz-karl",
+      "typ": "reihenfolge",
+      "frage": "Bring die Ereignisse in die richtige Reihenfolge.",
+      "elemente": [
+        "Karl wird König der Franken (768)",
+        "Karl wird Kaiser (800)",
+        "Einhard reist nach Rom wegen der Reichsteilung (806)",
+        "Karl stirbt in Aachen (814)",
+        "Einhard schreibt die Vita Caroli Magni (817–836)"
+      ],
+      "erklaerung": "768 König, 800 Kaiser, 806 Einhards Reise nach Rom, 814 Tod, danach (817–836) die Biographie.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kar-05",
+      "lernzielId": "lz-karl",
+      "typ": "einfachwahl",
+      "frage": "Wer war Einhard?",
+      "optionen": [
+        "ein Gegner Karls aus dem Oströmischen Reich",
+        "ein Hofgelehrter und Vertrauter Karls",
+        "ein Bauer, der Karl auf der Jagd begegnete",
+        "ein Historiker aus dem 20. Jahrhundert"
+      ],
+      "richtig": 1,
+      "erklaerung": "Einhard war adliger Herkunft, Hofgelehrter und Vertrauter Karls, Leiter der Werkstätten der Aachener Pfalz, Baumeister und Diplomat.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kar-06",
+      "lernzielId": "lz-karl",
+      "typ": "wahrfalsch",
+      "frage": "Einhard schrieb die *Vita Caroli Magni* erst nach Karls Tod.",
+      "richtig": true,
+      "erklaerung": "Die Biographie entstand zwischen 817 und 836 — Karl war 814 gestorben.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kar-07",
+      "lernzielId": "lz-karl",
+      "typ": "einfachwahl",
+      "frage": "Ist Einhards *Vita Caroli Magni* eher Tradition oder Überrest?",
+      "optionen": [
+        "Überrest, weil sie aus dem frühen Mittelalter stammt",
+        "Darstellung, weil sie von einem Gelehrten verfasst wurde",
+        "Tradition, weil sie für die Nachwelt geschrieben wurde",
+        "Sachüberrest, weil sie auf Pergament erhalten ist"
+      ],
+      "richtig": 2,
+      "erklaerung": "Eine Biographie wird bewusst geschrieben, damit Spätere vom Leben eines Menschen erfahren — Tradition. Das Alter allein entscheidet nicht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kar-08",
+      "lernzielId": "lz-karl",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Eigenschaften schätzte der fränkische Adel laut Zusatzinformationen?",
+      "optionen": [
+        "Männlichkeit",
+        "Geschick im Reiten und Jagen",
+        "Traditionsbewusstsein",
+        "eine gewisse Demut",
+        "prunkvolle Kleidung im Alltag"
+      ],
+      "richtig": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Männlichkeit, Reiten und Jagen, Traditionsbewusstsein und Demut galten als vorbildlich. Prunk im Alltag passte gerade nicht zu diesem Ideal.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kar-09",
+      "lernzielId": "lz-karl",
+      "typ": "zuordnen",
+      "frage": "Welche Angabe aus Einhards Beschreibung passt zu welchem Ideal des fränkischen Adels?",
+      "paare": [
+        {
+          "links": "kräftiger, grosser Körper",
+          "rechts": "Männlichkeit"
+        },
+        {
+          "links": "reitet und jagt regelmässig",
+          "rechts": "Reit- und Jagdgeschick"
+        },
+        {
+          "links": "kleidet sich nach fränkischer Sitte",
+          "rechts": "Traditionsbewusstsein"
+        },
+        {
+          "links": "im Alltag kaum anders gekleidet als einfache Leute",
+          "rechts": "Demut"
+        }
+      ],
+      "erklaerung": "Einhards Karl erfüllt Punkt für Punkt das Ideal des fränkischen Adels — ein Hinweis darauf, dass er ein Vorbild zeichnet.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kar-10",
+      "lernzielId": "lz-karl",
+      "typ": "einfachwahl",
+      "frage": "Wer konnte zur Zeit Karls laut Zusatzinformationen vor allem lesen — und war damit Leserschaft von Einhards Werk?",
+      "optionen": [
+        "die Bauern auf dem Land",
+        "Händler und Handwerker",
+        "alle Kinder ab sieben Jahren",
+        "Geistliche und hoher Adel"
+      ],
+      "richtig": 3,
+      "erklaerung": "Lesen konnten vor allem Geistliche und hoher Adel; andere liessen sich vorlesen. Diese Gruppen hatten auch politischen Einfluss.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-kar-11",
+      "lernzielId": "lz-karl",
+      "typ": "wahrfalsch",
+      "frage": "Laut Einhard trug Karl jeden Tag Gold, Edelsteine und ein Diadem.",
+      "richtig": false,
+      "erklaerung": "Prachtkleidung trug Karl nur an Festtagen. Im Alltag kleidete er sich nach fränkischer Tradition, kaum anders als einfache Leute.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-kar-12",
+      "lernzielId": "lz-karl",
+      "typ": "einfachwahl",
+      "frage": "Einhard erwähnt, dass Karls Stimme eher hell war und nicht ganz zu seinem Körper passte. Wie lässt sich dieses Detail bei der Beurteilung der Quelle deuten?",
+      "optionen": [
+        "Ein kleiner Makel kann das Lob glaubwürdiger wirken lassen.",
+        "Es beweist, dass Einhard Karl nie selbst gesehen hat.",
+        "Es zeigt, dass Einhard den Kaiser eigentlich hasste.",
+        "Es ist für die Beurteilung der Quelle ganz unwichtig."
+      ],
+      "richtig": 0,
+      "erklaerung": "Ein ungünstiges Detail kann das Lob glaubwürdiger wirken lassen. Es kann aber auch ein literarisches Mittel sein und beweist weder persönliche Kenntnis noch die Zuverlässigkeit aller Aussagen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-kar-13",
+      "lernzielId": "lz-karl",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Umstände sprechen dafür, dass Einhard ein **geschöntes** Bild von Karl zeichnet?",
+      "optionen": [
+        "Er war Karls Vertrauter und verdankte ihm seine Stellung.",
+        "Er schrieb die Biographie für die Nachwelt (Tradition).",
+        "Sein Karl entspricht genau dem Ideal des fränkischen Adels.",
+        "Er erwähnt auch ein ungünstiges Detail (die helle Stimme)."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Nähe zum Herrscher, Absicht für die Nachwelt und die Übereinstimmung mit dem Adelsideal deuten auf eine Idealisierung. Das ungünstige Detail spricht eher für Glaubwürdigkeit.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-kar-14",
+      "lernzielId": "lz-karl",
+      "typ": "offen",
+      "frage": "**Arbeitsgrundlage — Einhards Beschreibung in eigenen Worten, kein Originalzitat:** Karl sei gross und kräftig gewesen, habe oft geritten und gejagt und sich im Alltag schlicht nach fränkischer Sitte gekleidet. Prunk habe er nur an Festtagen getragen. Seine eher helle Stimme habe nicht ganz zu seiner Gestalt gepasst.\n\n**Zusatzinformationen:** Einhard war adliger Hofgelehrter und Vertrauter Karls. Er schrieb die Biographie *Vita Caroli Magni* zwischen 817 und 836, nach Karls Tod. Lesen konnten vor allem Geistliche und hoher Adel; dieser schätzte Reiten und Jagen, Tradition und Demut.\n\nUntersuche die Beschreibung nach AQUA (Autor, Quelle, Adressat). Schreibe zu jedem Punkt ein bis zwei Sätze und leite eine mögliche Absicht Einhards begründet ab.",
+      "musterloesung": "Autor: Einhard, adliger Hofgelehrter und Vertrauter Karls, leitete die Werkstätten der Aachener Pfalz und war Diplomat (806 in Rom); er kannte Karl persönlich und verdankte ihm viel. Quelle: Ausschnitt aus der Biographie Vita Caroli Magni, geschrieben zwischen 817 und 836, also nach Karls Tod; beschreibt Karls Aussehen, seine Vorliebe für Reiten und Jagen und seine meist schlichte fränkische Kleidung (Prunk nur an Festtagen). Adressat: die lesekundige Oberschicht — Geistliche und hoher Adel — sowie die Nachwelt; Einhard will das Andenken Karls als vorbildlichen Herrscher bewahren.",
+      "stichworte": [
+        "Einhard: Hofgelehrter, Vertrauter",
+        "Biographie, 817–836, nach Karls Tod",
+        "Aussehen, Reiten/Jagen, schlichte Kleidung",
+        "Geistliche und Adel, Nachwelt",
+        "Andenken bewahren"
+      ],
+      "erklaerung": "Eine vollständige Untersuchung behandelt alle drei Teile und nutzt die Zusatzinformationen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-kar-15",
+      "lernzielId": "lz-karl",
+      "typ": "offen",
+      "frage": "Beurteile: Wie verlässlich ist Einhards Bild von Karl dem Grossen? Nenne Argumente dafür und dagegen und ziehe ein Fazit.",
+      "musterloesung": "Dafür: Einhard kannte Karl persönlich und lange; er nennt auch ein ungünstiges Detail (die helle Stimme). Dagegen: Er war Karls Vertrauter und verdankte ihm seine Stellung; er schrieb nach Karls Tod für die Nachwelt (Tradition), und sein Karl entspricht genau dem Ideal des fränkischen Adels (Männlichkeit, Reiten und Jagen, Tradition, Demut). Vielleicht wollte er Karl auch als Vorbild darstellen — mit dessen Nachfolger Ludwig verstand er sich weniger gut. Fazit: wertvolle Quelle eines Augenzeugen, aber wohl ein geschöntes Herrscherbild; man muss sie mit anderen Quellen vergleichen.",
+      "stichworte": [
+        "kannte Karl persönlich",
+        "ungünstiges Detail",
+        "Vertrauter, Abhängigkeit",
+        "nach dem Tod, für die Nachwelt",
+        "Adelsideal",
+        "Vergleich mit anderen Quellen"
+      ],
+      "erklaerung": "Eine Beurteilung wägt ab und begründet ein Fazit — nicht nur «glaubwürdig» oder «unglaubwürdig».",
+      "schwierigkeit": 3
+    }
+  ],
+  "herkunft": "mitgeliefert",
+  "erstelltAm": "2026-10-31T13:00:00.000Z",
+  "kurzfassung": "Der Prüfungsstoff kompakt, geordnet nach den Lernzielen: Jeder Abschnitt beginnt mit seinen Lernzielen, und jeder Zwischentitel beantwortet eines davon. Die Lernziele sind aus den Arbeitsblättern abgeleitet — was im Unterricht zusätzlich angekündigt wird, gilt. Rechne damit, eine kurze Textquelle selbst **nach AQUA** untersuchen und beurteilen zu müssen.\n\n## Das Mittelalter im Überblick\n\n### Wann war das Mittelalter, und war es wirklich «finster»?\n\nDas **Mittelalter** dauerte ungefähr von **500 bis 1500**, also rund tausend Jahre.\n\n| Abschnitt | Zeit (ungefähr) | Stichworte |\n|---|---|---|\n| Frühmittelalter | ca. 500 – 1000 | Karl der Grosse |\n| Hochmittelalter | ca. 1000 – 1250 | Ritter, Kreuzzüge |\n| Spätmittelalter | ca. 1250 – 1500 | Übergang zur Neuzeit |\n\nDie Übergänge sind **Prozesse**, keine Stichtage: Die **Völkerwanderung** beginnt ab etwa **370 n. Chr.**, das **Weströmische Reich** endet **476**; die Neuzeit beginnt allmählich um die Wende vom **15. zum 16. Jahrhundert**. Die Grenzen sind umstritten.\n\nDen Namen prägten die **Humanisten** des 15./16. Jahrhunderts: Für sie war es eine «mittlere», dunkle Zeit zwischen der bewunderten **Antike** und ihrer eigenen **Renaissance** («Wiedergeburt»). Dieses Bild ist **zu einseitig**:\n\n- **Dunkle Seiten:** Hundertjähriger Krieg, Kreuzzüge, Pest.\n- **Fortschritte:** erste **Universitäten** ab dem späten 11./12. Jahrhundert (Paris, Bologna, Oxford — oft aus Kloster- und Domschulen; Datierung präzisiert, ergänzt), wachsende **Städte**, Aufschwung von **Handel und Handwerk**, Minnesang.\n\nDas **Heilige Römische Reich** ging aus dem **ostfränkischen Reich** hervor, das erst nach Karls Tod durch Teilung des Frankenreichs entstand. Es war keine einheitliche Nation (viele Sprachen, Rechte, Währungen). Den **römisch-deutschen König** (den künftigen Kaiser) wählten **sieben Kurfürsten**: die **Erzbischöfe von Mainz, Trier und Köln** sowie **König von Böhmen, Pfalzgraf bei Rhein, Herzog von Sachsen, Markgraf von Brandenburg**. Die Kaiserkrönung durch den Papst folgte im Mittelalter gewöhnlich erst später (Präzisierung ergänzt).\n\n> Mittelalter ca. 500–1500. «Finster» stimmt nur zur Hälfte: Neben Krieg und Pest gab es Universitäten, Städte und Handel.\n\n### Wie war die mittelalterliche Gesellschaft geordnet?\n\n**Lehnswesen:** *Feudum* = **Lehen**, ein überlassenes Gut. Der **König** gibt Fürsten und Bischöfen Land, Ämter und Rechte; diese geben Land an **Vasallen** weiter. Es gilt Gegenseitigkeit: **nach unten Schutz und Land**, **nach oben Treue, Rat und Hilfe** (z. B. Kriegsdienst). Die Bauern sind **keine Vasallen**; ihre Dienste und Abgaben gehören zur **Grundherrschaft**. Ganz unten stehen die **Untertanen** (Bauern). Den Begriff «Lehnswesen» gab es damals noch nicht.\n\n**Ständegesellschaft:** Die **Geburt** bestimmt den Stand; Aufstieg ist kaum möglich. Rangfolge: König — Adel und hohe Geistlichkeit — Mönche und Ritter — Bauern. Ein Bild von 1488 zeigt: Der Geistliche **betet**, der Adlige **schützt**, der Bauer **arbeitet**.\n\n- **Ritter:** seit dem **9. Jahrhundert** (Kampf zu Pferd, teure Rüstung → Vorrechte), **Blüte im 12. Jahrhundert**, rund 200 Jahre später **Niedergang** durch **Söldnerheere** und neue Waffen (englischer **Langbogen**).\n- **Bauern:** die **grosse Mehrheit**, sozial am schwächsten; freie und unfreie, reichere und sehr arme.\n- **Städte:** wachsen ab dem 12. Jahrhundert, oft an Märkten. **«Stadtluft macht frei»:** Ein geflohener unfreier Bauer, den sein Herr **ein Jahr und einen Tag** nicht zurückforderte, konnte in vielen Städten frei werden (Präzisierung ergänzt). Die **Hanse** war ein Städtebund mit zeitweise rund **200 Städten** (Lübeck, Hamburg, Köln …).\n\n> Lehen gegen Treue: Schutz und Land nach unten, Treue und Dienst nach oben; Bauern leisten Abgaben an Grundherren. Der Stand kommt von der Geburt.\n\n## Geschichte als Wissenschaft\n\n### Was bedeuten die Fachbegriffe, und wozu dient Geschichte?\n\n| Begriff | Bedeutung |\n|---|---|\n| Historie | Geschichte, Geschichtswissenschaft |\n| historisch | geschichtlich |\n| Historiker/in | erforscht die Geschichte |\n| Historiograph | Geschichtsschreiber |\n\nDie Geschichtswissenschaft will ein **möglichst umfassendes und verlässliches Bild der Vergangenheit** gewinnen. Ein **Geschichtsbild** ist die Vorstellung, mit der eine Gemeinschaft ihre **eigene Vergangenheit** versteht; es entsteht und ändert sich durch Forschung.\n\nWozu Geschichte?\n- **Gegenwart verstehen:** Heutige Probleme haben historische Ursachen (Radikalismus, Nahostkonflikt, Ukrainekrieg).\n- **Orientierung** für politische und gesellschaftliche Entscheidungen.\n- **Alternativen** erkennen: Früher lebte und regierte man anders — das regt zu Kritik an.\n- **Vorurteile abbauen** gegenüber fremden Kulturen und vergangenen Zeiten.\n- **Identität** stiften (Nationalfeiertag) — und einfach **Freude** machen.\n\nEigene Definition: Geschichte erforscht die Vergangenheit mit **Belegen**, zeigt **Veränderungen** und erklärt, **warum** etwas geschah — offen für neue Sichtweisen.\n\n### Wie arbeiten Historiker, und wo liegen ihre Grenzen?\n\n- **Früher:** Antike Geschichtsschreiber (auch Literatur) und mittelalterliche **Chronisten** (der Reihe nach) bewerteten **subjektiv**. **Heute:** kritische Wissenschaft.\n- **Drei Aufgaben:** 1. **Fragen** an die Vergangenheit stellen, 2. passende **Quellen finden**, 3. Quellen **kritisch auswerten** — trotz Lücken, Widersprüchen, Verzerrungen, Mehrdeutigkeit und Lügen.\n- **Quellen erforschen heisst deuten.** Politische Haltung, Religion, Staat und Zeit der Forschenden prägen das Ergebnis. Aus denselben Quellen entstehen so verschiedene Darstellungen. **Was und wann** ist meist klar, **warum** oft umstritten.\n- Gegen Einseitigkeit helfen **verschiedene Standpunkte**; Ergebnisse müssen **überprüfbar** sein.\n- Forschung ist **nie abgeschlossen**: neue Quellen, geöffnete Archive, neue Fragen.\n\n> Fragen — Quellen finden — kritisch auswerten. Jede Deutung ist standortgebunden und vorläufig.\n\n## Quellen untersuchen\n\n### Quelle oder Darstellung — Tradition oder Überrest?\n\n- **Quelle:** Text, Gegenstand oder Sachverhalt **aus der Vergangenheit** (Bauwerk, Münze, Brief, Urkunde, Brauch …).\n- **Darstellung:** **spätere** Untersuchung, die deutet und erklärt (Studie, Forschungsarbeit, **Schulbuch** — das aber Quellen enthalten und für die Erforschung früherer Geschichtsbilder selbst Quelle sein kann).\n\nQuellen teilen sich in:\n- **Tradition** (absichtlich, **für die Nachwelt**): schriftlich (Chronik = chronologischer Bericht; Annalen = Jahrbücher, Biographie) und mündlich (Sage, Lied).\n- **Überreste** (unabsichtlich, **aus dem Alltag damals**): schriftlich (Brief, Einkaufsliste), **Sachüberreste** (Münze, Kleidung, Waffe, Ötzis Schuhe) und **abstrakte Überreste** (Bräuche wie die Gansabhauet, Sprache, Orts- und Strassennamen).\n\nAus der Übung sicher: Auswandererbrief, Ötzis Schuhe, Soldatentagebuch, Gansabhauet, Einkaufsliste = **Überreste**; EDA-Broschüre = im Unterricht **Darstellung** (von einer Partei: Quelle für deren Meinung). Fachlich kann auch die EDA-Broschüre Quelle für die Sicht des Herausgebers sein; entscheidend ist die **Fragestellung**. **Grenzfälle:** Urkunde, Bundesbrief, Protokolle, Gesetz und Telegramm wurden im Unterricht als **Tradition** eingetragen (bewusst festgehalten, damit es gilt) — viele Fachbücher zählen sie zu den schriftlichen Überresten. Zeitungsartikel sind je nach Frage **Darstellung** oder **Quelle**. Immer **begründen**.\n\n> Prüffrage: Für wen und wozu ist es entstanden? Für die Nachwelt → Tradition; für damals → Überrest; später deutend → Darstellung.\n\n### Wie untersuchst und beurteilst du eine Textquelle nach AQUA?\n\nQuellen sind **nicht automatisch wahr** und **erklären sich nicht selbst**. Zuerst unbekannte Begriffe klären, dann:\n\n1. **Untersuchen:** **A**utor (wer, Stellung, Interesse) — **QU**elle (Inhalt, Zeit, Zusammenhang, Textart) — **A**dressat (an wen, warum, wozu).\n2. **Beurteilen:** Blickwinkel des **Autors**; **Quelle** einordnen und **mit anderen vergleichen**; **Absicht**: informieren, manipulieren oder Meinung bilden?\n\n**Beispiel Hutten:** Der Reichsritter und Humanist **Ulrich von Hutten** (1488–1523) schreibt Anfang des 16. Jahrhunderts einen **Brief** an seinen Freund **Willibald Pirckheimer**, einen reichen **Ratsherrn in Nürnberg**. Er **klagt** über Fehden und Überfälle, die Abhängigkeit vom Fürsten, eine enge, dunkle Burg, harte Arbeit und wenig Ertrag. Beurteilung: **einseitig; die Klage wirkt aufrichtig**; unterschwellig «Du hast es gut» (Neid). Fazit: um 1500 eine **Zeit des Umbruchs**.\n\n> AQUA: Autor — Quelle — Adressat untersuchen, dann Autor — Quelle — Absicht beurteilen.\n\n### Was erzählt Einhard über Karl den Grossen, und wie glaubwürdig ist es?\n\n**Karl der Grosse** (Karolinger): geboren wohl am 2. April **747 oder 748**, **König** der Franken ab **768**, **Kaiser** ab dem **25. Dezember 800**, gestorben am **28. Januar 814 in Aachen**.\n\n**Einhard:** adliger **Hofgelehrter und Vertrauter** Karls, Leiter der Werkstätten der Aachener Pfalz, Baumeister, **806** Gesandter in Rom; mit Nachfolger **Ludwig dem Frommen** weniger gut. Er schrieb die ***Vita Caroli Magni*** zwischen **817 und 836**, also **nach Karls Tod** (eine **Tradition**).\n\nEinhards Karl: gross, kräftig, würdevoll, aber mit **heller Stimme**; reitet und jagt; im Alltag **schlicht fränkisch** gekleidet, Prunk nur an Festtagen. Lesen konnten vor allem **Geistliche und hoher Adel** — und der fränkische Adel schätzte **Männlichkeit, Reiten und Jagen, Tradition und Demut**. Genau so zeichnet Einhard Karl.\n\n**Beurteilung:** Einhard kannte Karl persönlich, und das ungünstige Detail kann ihn glaubwürdiger wirken lassen. Aber als Vertrauter, der nach Karls Tod für die Nachwelt schrieb, zeichnet er wohl ein **geschöntes Idealbild**. Darum mit **anderen Quellen vergleichen**.\n\n> Karl: 768 König, 800 Kaiser, 814 tot in Aachen. Einhards Vita: nah dran, aber idealisiert.\n\n## Prüfungs-Check\n\n- Zeitraum und Gliederung des Mittelalters nennen; erklären, warum Epochengrenzen Prozesse sind (370, 476, um 1500).\n- Das Bild vom «finsteren Mittelalter» mit Beispielen beider Seiten beurteilen.\n- Lehnspyramide zeichnen und die gegenseitigen Pflichten erklären; Ständegesellschaft, Ritter, Bauern, «Stadtluft macht frei», Hanse.\n- Historie, historisch, Historiker, Historiograph, Geschichtsbild erklären; mindestens drei Gründe für Geschichte nennen.\n- Die drei Aufgaben von Historikern nennen; erklären, warum Deutungen verschieden ausfallen und nie abgeschlossen sind.\n- Quelle und Darstellung unterscheiden; Beispiele als Tradition oder Überrest (mit Untergruppe) **begründet** zuordnen.\n- Eine Textquelle nach AQUA untersuchen und beurteilen (Hutten, Einhard).\n- Daten zu Karl dem Grossen und Einhard kennen und Einhards Bild kritisch einordnen."
+}

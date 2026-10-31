@@ -1,0 +1,238 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-kolonialismus",
+      "thema": "Eroberung, Ausbeutung und Kolonialherrschaft",
+      "text": "Du erklärst die spanischen Eroberungen, vergleichst koloniale Rechtsansprüche mit der Praxis und beschreibst den Aufstieg von Handelskompanien zu Kolonialmächten.",
+      "zusammenfassung": "### Wie wird aus Expansion gewaltsame Herrschaft?\n**Hernán Cortés** besiegte mit spanischen Truppen und wichtigen **indigenen Verbündeten** das Aztekenreich; **1521** fiel Tenochtitlán. Konflikte zwischen indigenen Gruppen halfen den Eroberern. Die Behauptung, wenige Spanier hätten völlig allein eine riesige Bevölkerung besiegt, lässt die Verbündeten weg. **Francisco Pizarro** eroberte das Inkareich. Er nahm **Atahualpa** gefangen; trotz eines Lösegelds wurde der Herrscher **1533** getötet. Wirtschaftlicher Gewinn und Macht standen im Vordergrund.\n\nBerichte und Bilder zeigen unterschiedliche Perspektiven: Der Teilnehmer Díaz del Castillo schildert die grosse, geordnete Stadt Tenochtitlán. Sahagúns auf Gesprächen mit Indigenen beruhender Bericht und Ayalas Zeichnung kritisieren spanische Goldgier. Herkunft, Entstehungszeit und Absicht sind für die Auswertung wichtig.\n\nIm **Encomienda-System** wurden Indigene zur Arbeit für spanische Begünstigte verpflichtet. Isabellas Verordnung **1503** verlangte Missionierung, Bezahlung und den rechtlichen Status freier Personen. **Bartolomé de Las Casas** beschreibt dagegen Zwang, Gewalt, Überlastung und fehlende Versorgung. Norm und Wirklichkeit widersprachen sich. Verschleppung aus Gemeinschaften, Zwangsarbeit und eingeschleppte Krankheiten verursachten massive Bevölkerungsverluste.\n\nDie Silberminen von **Potosí** im heutigen Bolivien brachten Spanien grossen Reichtum; die Arbeit war gefährlich und ausbeuterisch. Exakte Opferzahlen sind unsicher. Das **Requerimiento von 1513** verlangte Anerkennung spanisch-kirchlicher Autorität und drohte bei Ablehnung Gewalt und Versklavung an. Ein solcher europäischer Herrschaftsanspruch beweist keine Zustimmung oder Berechtigung gegenüber den Betroffenen.\n\nSpäter verbanden **Handelskompanien** privates Kapital mit staatlichen Privilegien. Die englische **EIC (1600)** und die niederländische **VOC (1602)** beteiligten mehrere Geldgeber an kostspieligem Asienhandel. Niederlassungen, Monopole, Festungen und eigene Streitkräfte ermöglichten schrittweise politische Herrschaft. Handelsgewinn und staatliche Macht verstärkten sich.\n\n> Prüfe immer: Wer profitiert, wer trägt die Kosten, wessen Stimme fehlt und wie unterscheidet sich die Regel von ihrer Umsetzung?",
+      "merksaetze": [
+        "Spanische Eroberungen beruhen auch auf indigenen Bündnissen und Konflikten.",
+        "Encomienda: rechtliche Freiheitsversprechen und tatsächlicher Arbeitszwang unterscheiden.",
+        "Handelskompanien verbinden Unternehmensinteressen mit kolonialer Macht."
+      ],
+      "bilder": [],
+      "quellenhinweis": "Schulbuch S. 34–39 (s-1386–1388); Requerimiento auf Arbeitsblatt s-1391."
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-kolonialismus-01",
+      "lernzielId": "lz-kolonialismus",
+      "typ": "einfachwahl",
+      "frage": "Welche Unterstützung war für Cortés’ Erfolg besonders wichtig?",
+      "erklaerung": "Die Eroberung beruhte nicht nur auf einer kleinen spanischen Truppe.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Indigene Verbündete gegen die Azteken",
+        "Die Unterstützung des Inka-Herrschers Atahualpa",
+        "Die freiwillige Entwaffnung aller Azteken",
+        "Die vollständige Einigkeit aller indigenen Reiche"
+      ],
+      "richtig": 0
+    },
+    {
+      "id": "f-kolonialismus-02",
+      "lernzielId": "lz-kolonialismus",
+      "typ": "einfachwahl",
+      "frage": "Wer eroberte das Inkareich?",
+      "erklaerung": "Pizarro nahm Atahualpa gefangen und setzte die Eroberung fort.",
+      "schwierigkeit": 1,
+      "optionen": [
+        "Hernán Cortés",
+        "Francisco Pizarro",
+        "Christoph Kolumbus",
+        "Ferdinand Magellan"
+      ],
+      "richtig": 1
+    },
+    {
+      "id": "f-kolonialismus-03",
+      "lernzielId": "lz-kolonialismus",
+      "typ": "einfachwahl",
+      "frage": "Wofür war Potosí besonders bedeutend?",
+      "erklaerung": "Silber bereicherte die spanische Krone, während die Minenarbeit viele Menschen gefährdete.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Für den kolonialen Gewürzhandel mit Indien",
+        "Für das politische Zentrum des Aztekenreichs",
+        "Für den kolonialen Silberabbau",
+        "Für das europäische Handelshaus der Fugger"
+      ],
+      "richtig": 2
+    },
+    {
+      "id": "f-kolonialismus-04",
+      "lernzielId": "lz-kolonialismus",
+      "typ": "einfachwahl",
+      "frage": "Welcher Gegensatz ist beim Encomienda-System zentral?",
+      "erklaerung": "Die Verordnung spricht von freien und bezahlten Personen; Las Casas beschreibt eine gewaltsame Praxis.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Wirtschaftliche Freiheit gegen fehlendes spanisches Interesse",
+        "Spanischer Arbeitszwang gegen ein Verbot der Missionierung",
+        "Rechtlicher Sklavenstatus gegen rein freiwillige Arbeit",
+        "Versprochene Freiheit gegen erzwungene Arbeit"
+      ],
+      "richtig": 3
+    },
+    {
+      "id": "f-kolonialismus-05",
+      "lernzielId": "lz-kolonialismus",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Folgen kolonialer Ausbeutung beschreibt das Material?",
+      "erklaerung": "Die koloniale Ordnung verteilte Nutzen und Leid sehr ungleich.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Zwangsarbeit und Überlastung",
+        "Zerstörung oder Trennung von Gemeinschaften",
+        "Massives Sterben durch Gewalt und Krankheiten",
+        "Indigene Selbstbestimmung über ihre Arbeitsleistungen"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "f-kolonialismus-06",
+      "lernzielId": "lz-kolonialismus",
+      "typ": "mehrfachwahl",
+      "frage": "Wie konnten Handelskompanien politische Macht ausbauen?",
+      "erklaerung": "Die Kompanien wurden von Handelsunternehmen zu Instrumenten kolonialer Herrschaft.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Staatlich gewährte Privilegien nutzen",
+        "Festungen und Streitkräfte einsetzen",
+        "Handel und Monopole kontrollieren",
+        "Verzicht auf Monopole zugunsten freien Wettbewerbs"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "f-kolonialismus-07",
+      "lernzielId": "lz-kolonialismus",
+      "typ": "wahrfalsch",
+      "frage": "Atahualpa wurde nach Zahlung des Lösegelds sicher freigelassen.",
+      "erklaerung": "Pizarros Seite liess den gefangenen Inka-Herrscher trotzdem töten.",
+      "schwierigkeit": 2,
+      "richtig": false
+    },
+    {
+      "id": "f-kolonialismus-08",
+      "lernzielId": "lz-kolonialismus",
+      "typ": "wahrfalsch",
+      "frage": "Las Casas’ Kritik zeigt einen Widerspruch zwischen der königlichen Regelung und der kolonialen Praxis.",
+      "erklaerung": "Missionierung, Freiheit und Bezahlung wurden versprochen; Zwang und Gewalt prägten nach seinem Bericht die Umsetzung.",
+      "schwierigkeit": 2,
+      "richtig": true
+    },
+    {
+      "id": "f-kolonialismus-09",
+      "lernzielId": "lz-kolonialismus",
+      "typ": "wahrfalsch",
+      "frage": "Das Requerimiento versprach bei Ablehnung spanischer Autorität eine friedliche Trennung ohne Drohungen.",
+      "erklaerung": "Es drohte Krieg, gewaltsame Unterwerfung, Enteignung und Versklavung an.",
+      "schwierigkeit": 2,
+      "richtig": false
+    },
+    {
+      "id": "f-kolonialismus-10",
+      "lernzielId": "lz-kolonialismus",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst das System, das im Material Indigene zu Arbeit für spanische Begünstigte verpflichtete?",
+      "erklaerung": "Der Anspruch auf Unterweisung wurde mit der Verfügung über Arbeitsleistung verbunden.",
+      "schwierigkeit": 1,
+      "akzeptiert": [
+        "Encomienda",
+        "Encomienda-System"
+      ]
+    },
+    {
+      "id": "f-kolonialismus-11",
+      "lernzielId": "lz-kolonialismus",
+      "typ": "kurzantwort",
+      "frage": "Welcher Kirchenmann kritisierte Gewalt und Ausbeutung der Indigenen?",
+      "erklaerung": "Seine Kritik machte den Gegensatz zwischen rechtlichen Vorgaben und tatsächlicher Behandlung sichtbar.",
+      "schwierigkeit": 1,
+      "akzeptiert": [
+        "Bartolomé de Las Casas",
+        "Bartolome de Las Casas",
+        "Las Casas",
+        "de Las Casas"
+      ]
+    },
+    {
+      "id": "f-kolonialismus-12",
+      "lernzielId": "lz-kolonialismus",
+      "typ": "zuordnen",
+      "frage": "Ordne Akteur oder Ort und Zusammenhang zu.",
+      "erklaerung": "Die Beispiele unterscheiden Eroberer, Rohstoffzentrum und spätere Form kolonialer Macht.",
+      "schwierigkeit": 2,
+      "paare": [
+        {
+          "links": "Cortés",
+          "rechts": "Eroberung des Aztekenreichs"
+        },
+        {
+          "links": "Pizarro",
+          "rechts": "Eroberung des Inkareichs"
+        },
+        {
+          "links": "Potosí",
+          "rechts": "Silberminen im heutigen Bolivien"
+        },
+        {
+          "links": "VOC",
+          "rechts": "Niederländische Handelskompanie"
+        }
+      ]
+    },
+    {
+      "id": "f-kolonialismus-13",
+      "lernzielId": "lz-kolonialismus",
+      "typ": "reihenfolge",
+      "frage": "Ordne die aufsteigende Machtausweitung einer Handelskompanie, wie sie der Fürstenbrief im Material beschreibt.",
+      "erklaerung": "Der Brief aus indigener Sicht zeigt die schrittweise Verwandlung von Handel in Macht.",
+      "schwierigkeit": 2,
+      "elemente": [
+        "Um Land für ein Handelshaus bitten.",
+        "Die Niederlassung befestigen.",
+        "Weitere Händler unter den eigenen Schutz ziehen.",
+        "Gegenüber lokalen Herrschern mit wachsender Macht auftreten."
+      ]
+    },
+    {
+      "id": "f-kolonialismus-14",
+      "lernzielId": "lz-kolonialismus",
+      "typ": "zahl",
+      "frage": "In welchem Jahr fiel Tenochtitlán an Cortés und seine Verbündeten?",
+      "erklaerung": "Die Eroberung 1521 ist von der spanischen Flucht im Jahr 1520 zu unterscheiden.",
+      "schwierigkeit": 1,
+      "richtig": 1521,
+      "toleranz": 0
+    },
+    {
+      "id": "f-kolonialismus-15",
+      "lernzielId": "lz-kolonialismus",
+      "typ": "offen",
+      "frage": "Vergleiche Isabellas Regelung mit Las Casas’ Kritik. Warum darfst Du eine Verordnung nicht einfach als Beschreibung des Alltags lesen?",
+      "erklaerung": "Normative Quellen und Berichte über Praxis haben unterschiedliche Aussagekraft.",
+      "schwierigkeit": 3,
+      "musterloesung": "Die Verordnung verlangt Missionierung, Lohn und die Behandlung als freie Personen. Las Casas beschreibt dagegen erzwungene Arbeit, Gewalt, Überlastung und ausbleibende Versorgung. Eine Verordnung zeigt, was vorgeschrieben oder gerechtfertigt werden sollte. Sie belegt nicht, dass die Regeln umgesetzt wurden. Für den Alltag müssen weitere Berichte und Perspektiven untersucht werden."
+    },
+    {
+      "id": "f-kolonialismus-16",
+      "lernzielId": "lz-kolonialismus",
+      "typ": "offen",
+      "frage": "Erkläre, wie Eroberung, Rohstoffausbeutung und Handelskompanien verschiedene Formen kolonialer Macht zeigen. Berücksichtige die Betroffenen.",
+      "erklaerung": "Die Erklärung muss europäische Gewinne mit den Kosten und Perspektiven der kolonisierten Bevölkerung verbinden.",
+      "schwierigkeit": 3,
+      "musterloesung": "Cortés und Pizarro gewinnen Gebiete mit Gewalt und unter Nutzung bestehender Konflikte. Arbeitszwang und Silberabbau übertragen Reichtum an Kolonialherren, während Indigene schwere Belastungen und Verluste tragen. Handelskompanien verbinden später private Finanzierung mit Privilegien, Monopolen und Waffen. Unterschiedliche Organisationsformen führen so zu ungleicher Herrschaft und wirtschaftlicher Ausbeutung."
+    }
+  ]
+}

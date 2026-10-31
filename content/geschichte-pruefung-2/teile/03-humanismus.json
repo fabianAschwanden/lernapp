@@ -1,0 +1,237 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-humanismus",
+      "thema": "Humanismus: Mensch, Politik und Religion",
+      "text": "Du erklärst das humanistische Menschenbild und vergleichst Erasmus’ Bildungs- und Kirchenkritik mit Machiavellis Verständnis von Politik und Macht.",
+      "zusammenfassung": "### Was verbindet Humanisten und worin unterscheiden sie sich?\n**Renaissance** bezeichnet die kulturelle Erneuerung nach antiken Vorbildern, die im 14./15. Jahrhundert von Italien ausging. **Humanismus** betont die Bildung und Entwicklung menschlicher Fähigkeiten, besonders durch antike Sprachen, Literatur und Philosophie. Selbstständiges Denken, Urteilskraft und die Beteiligung am öffentlichen Leben gewinnen an Bedeutung. Antikes Wissen war im Mittelalter jedoch nicht völlig verschwunden. **Leon Battista Alberti** fordert Bildung in Sprache, Geschichte, Politik und Redekunst, die zur Beteiligung am Gemeinwesen befähigt.\n\nBei **Pico della Mirandola** kann der Mensch sein Leben mitgestalten. Freiheit verlangt Verantwortung: Geistige Entwicklung ist möglich, aber nicht automatisch gegeben. Humanismus bedeutete nicht pauschal die Ablehnung von Religion; viele Humanisten waren Christen.\n\n**Niccolò Machiavelli** untersucht tatsächliches politisches Handeln und die Sicherung von Macht. In seiner Fürstenschrift von **1513** kann ein Herrscher zur Herrschaftssicherung Täuschung oder Gewalt einsetzen. Entscheidend ist für diese Betrachtung nicht nur moralisches Vorbildverhalten. Trotzdem empfiehlt Machiavelli nicht beliebige Grausamkeit: Ein Fürst soll Hass und Verachtung vermeiden. Er schätzt auch Republiken und antike politische Vorbilder.\n\n**Erasmus von Rotterdam** verlangt Bildung und selbstständiges Denken, ausdrücklich auch für Mädchen. Seine Kirchenkritik richtet sich gegen Machtgier, äusseren Prunk, Aberglauben und gedankenlose Frömmigkeit. Im **Lob der Torheit** von **1509** nutzt er Satire: Übertreibung und Ironie decken den Abstand zwischen christlichem Ideal und Wirklichkeit auf. Er will eine innere Erneuerung der Kirche, keine konfessionelle Spaltung. Herrscher sollen moralisch und christlich erzogen werden.\n\n> Erasmus fragt nach christlicher Erneuerung und verantwortlicher Bildung; Machiavelli nach wirksamer Politik. Beide setzen sich kritisch mit bestehenden Autoritäten auseinander.",
+      "merksaetze": [
+        "Humanismus: den Menschen durch Bildung zu selbstständigem Urteil befähigen.",
+        "Erasmus kritisiert die Kirche, ohne eine neue Konfession anzustreben.",
+        "Machiavelli untersucht Herrschaftssicherung statt nur moralischer Ideale."
+      ],
+      "bilder": [],
+      "quellenhinweis": "Schulbuch S. 14–17 (s-1376–1377), Schwerpunkt Markierungen S. 16–17; korrigiertes Arbeitsblatt s-1392; Mindmap s-1394."
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-humanismus-01",
+      "lernzielId": "lz-humanismus",
+      "typ": "einfachwahl",
+      "frage": "Welche Aussage trifft das humanistische Bildungsziel?",
+      "erklaerung": "Humanisten wollen menschliche Fähigkeiten durch Bildung entfalten.",
+      "schwierigkeit": 1,
+      "optionen": [
+        "Selbstständige Urteilskraft entwickeln",
+        "Überlieferte Texte ohne Prüfung übernehmen",
+        "Jede Ausbildung auf Abstammung begrenzen",
+        "Antike Literatur aus den Schulen entfernen"
+      ],
+      "richtig": 0
+    },
+    {
+      "id": "f-humanismus-02",
+      "lernzielId": "lz-humanismus",
+      "typ": "einfachwahl",
+      "frage": "Welche Veränderung wollte Erasmus erreichen?",
+      "erklaerung": "Seine Kritik bleibt auf christliche Ideale bezogen; er lehnt konfessionelle Spaltung ab.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Eine neue Konfession ohne gemeinsame Kirche",
+        "Eine Erneuerung innerhalb der Kirche",
+        "Eine politische Abschaffung aller Kirchen",
+        "Eine Erziehung allein nach äusserem Rang"
+      ],
+      "richtig": 1
+    },
+    {
+      "id": "f-humanismus-03",
+      "lernzielId": "lz-humanismus",
+      "typ": "einfachwahl",
+      "frage": "Welche Frage steht bei Machiavellis Fürstenschrift im Vordergrund?",
+      "erklaerung": "Machiavelli untersucht wirksames Herrschen und tatsächliches politisches Verhalten.",
+      "schwierigkeit": 1,
+      "optionen": [
+        "Wie folgt ein Fürst stets jeder moralischen Pflicht?",
+        "Wie vermeidet ein Fürst jede List gegenüber Rivalen?",
+        "Wie sichert ein Herrscher seine Macht?",
+        "Wie ordnet ein Fürst Politik nur der Theologie unter?"
+      ],
+      "richtig": 2
+    },
+    {
+      "id": "f-humanismus-04",
+      "lernzielId": "lz-humanismus",
+      "typ": "einfachwahl",
+      "frage": "Wozu nutzt Erasmus Satire?",
+      "erklaerung": "Die satirische Übertreibung zeigt den Widerspruch zwischen christlichen Idealen und kirchlicher Praxis.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Um geistliche Titel als wichtigstes Ideal zu feiern",
+        "Um Besitz und Prunk als Seelsorge zu rechtfertigen",
+        "Um Gehorsam ohne eigenes Urteil als Ziel zu loben",
+        "Um Missstände durch Ironie sichtbar zu machen"
+      ],
+      "richtig": 3
+    },
+    {
+      "id": "f-humanismus-05",
+      "lernzielId": "lz-humanismus",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Gedanken gehören zum Humanismus?",
+      "erklaerung": "Antikenbezug und Bildung sind zentral; viele Humanisten sind christlich geprägt.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Antike Texte erschliessen",
+        "Menschliche Fähigkeiten entwickeln",
+        "Selbstständiges Denken fördern",
+        "Alle Humanisten streben den Austritt aus der Kirche an."
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "f-humanismus-06",
+      "lernzielId": "lz-humanismus",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aussagen über Machiavelli sind differenziert?",
+      "erklaerung": "Politischer Realismus ist nicht mit wahlloser Gewalt oder ausschliesslicher Fürstenverehrung gleichzusetzen.",
+      "schwierigkeit": 2,
+      "optionen": [
+        "Er untersucht politisches Handeln realistisch.",
+        "Er hält jede Grausamkeit immer für politisch nützlich.",
+        "Er schätzt auch Republiken.",
+        "Er hält die Vermeidung von Hass für wichtig."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "f-humanismus-07",
+      "lernzielId": "lz-humanismus",
+      "typ": "wahrfalsch",
+      "frage": "Für Erasmus ist Bildung auch für Mädchen wichtig.",
+      "erklaerung": "Im Material richtet sich sein christliches Bildungsprogramm ausdrücklich an Mädchen und Jungen.",
+      "schwierigkeit": 2,
+      "richtig": true
+    },
+    {
+      "id": "f-humanismus-08",
+      "lernzielId": "lz-humanismus",
+      "typ": "wahrfalsch",
+      "frage": "Alle Humanisten wollten aus der katholischen Kirche austreten.",
+      "erklaerung": "Erasmus wollte innerkirchliche Reform; auch andere Humanisten arbeiteten im kirchlichen Umfeld.",
+      "schwierigkeit": 2,
+      "richtig": false
+    },
+    {
+      "id": "f-humanismus-09",
+      "lernzielId": "lz-humanismus",
+      "typ": "wahrfalsch",
+      "frage": "Nach Pico bedeutet menschliche Freiheit, dass Entwicklung und Verantwortung möglich sind.",
+      "erklaerung": "Menschen können ihr Leben gestalten; daraus folgen Möglichkeiten und Verantwortung.",
+      "schwierigkeit": 2,
+      "richtig": true
+    },
+    {
+      "id": "f-humanismus-10",
+      "lernzielId": "lz-humanismus",
+      "typ": "kurzantwort",
+      "frage": "Welcher Humanist kritisiert im Lob der Torheit kirchliche Missstände?",
+      "erklaerung": "Erasmus nutzt die Satire zur Kritik an der Entfernung von christlichen Idealen.",
+      "schwierigkeit": 1,
+      "akzeptiert": [
+        "Erasmus",
+        "Erasmus von Rotterdam"
+      ]
+    },
+    {
+      "id": "f-humanismus-11",
+      "lernzielId": "lz-humanismus",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst der Florentiner Denker, der Politik und Herrschaftssicherung untersucht?",
+      "erklaerung": "Machiavelli verbindet Antikenbezug mit einer realistischen Betrachtung von Macht.",
+      "schwierigkeit": 1,
+      "akzeptiert": [
+        "Machiavelli",
+        "Niccolò Machiavelli",
+        "Niccolo Machiavelli"
+      ]
+    },
+    {
+      "id": "f-humanismus-12",
+      "lernzielId": "lz-humanismus",
+      "typ": "zuordnen",
+      "frage": "Ordne Person und Schwerpunkt zu.",
+      "erklaerung": "Die Personen teilen humanistische Interessen, setzen aber unterschiedliche Schwerpunkte.",
+      "schwierigkeit": 2,
+      "paare": [
+        {
+          "links": "Pico della Mirandola",
+          "rechts": "Menschliche Selbstgestaltung und Verantwortung"
+        },
+        {
+          "links": "Erasmus von Rotterdam",
+          "rechts": "Christliche Bildung und innere Kirchenreform"
+        },
+        {
+          "links": "Niccolò Machiavelli",
+          "rechts": "Tatsächliches politisches Handeln und Macht"
+        },
+        {
+          "links": "Leon Battista Alberti",
+          "rechts": "Bildung für die Beteiligung am Gemeinwesen"
+        }
+      ]
+    },
+    {
+      "id": "f-humanismus-13",
+      "lernzielId": "lz-humanismus",
+      "typ": "reihenfolge",
+      "frage": "Ordne die ausdrücklich angegebenen Ereignisse zeitlich: zuerst das früheste.",
+      "erklaerung": "Die Daten zeigen, dass Erasmus’ Kritik der Basler Reformation vorausgeht.",
+      "schwierigkeit": 2,
+      "elemente": [
+        "Beginn der Renaissance in Italien im 14./15. Jahrhundert",
+        "Erasmus veröffentlicht 1509 das Lob der Torheit.",
+        "Machiavelli verfasst 1513 seine Fürstenschrift.",
+        "Erasmus verlässt 1529 das reformierte Basel."
+      ]
+    },
+    {
+      "id": "f-humanismus-14",
+      "lernzielId": "lz-humanismus",
+      "typ": "zahl",
+      "frage": "In welchem Jahr verfasste Machiavelli seine Schrift über den Fürsten?",
+      "erklaerung": "Das Material datiert die Fürstenschrift auf 1513.",
+      "schwierigkeit": 1,
+      "richtig": 1513,
+      "toleranz": 0
+    },
+    {
+      "id": "f-humanismus-15",
+      "lernzielId": "lz-humanismus",
+      "typ": "offen",
+      "frage": "Vergleiche Erasmus und Machiavelli: Was verbindet sie, und wie unterscheiden sich ihre Erwartungen an Herrscher?",
+      "erklaerung": "Der Vergleich braucht Gemeinsamkeiten und Unterschiede, nicht nur zwei Namen.",
+      "schwierigkeit": 3,
+      "musterloesung": "Beide setzen sich kritisch mit bestehenden Vorstellungen auseinander und greifen antike Bildung auf. Erasmus fordert moralisch-christliche Erziehung, selbstständiges Denken und innere Kirchenreform. Machiavelli untersucht die tatsächliche Sicherung von Herrschaft; dafür können auch Täuschung und Gewalt infrage kommen. Er verlangt nicht bloss moralisches Vorbildverhalten."
+    },
+    {
+      "id": "f-humanismus-16",
+      "lernzielId": "lz-humanismus",
+      "typ": "offen",
+      "frage": "Beurteile die Aussage: Humanismus ist einfach eine Bewegung gegen Religion.",
+      "erklaerung": "Erasmus bietet einen gesicherten Gegenbeleg zur pauschalen Aussage.",
+      "schwierigkeit": 3,
+      "musterloesung": "Die Aussage ist zu pauschal. Humanisten kritisieren Dogmatismus und Aberglauben und betonen eigene Urteilskraft. Erasmus bleibt jedoch christlich geprägt und will die Kirche erneuern. Auch humanistische Kunst kann christliche Themen behandeln. Kritik an religiösen Institutionen ist nicht automatisch Ablehnung jedes Glaubens."
+    }
+  ]
+}
