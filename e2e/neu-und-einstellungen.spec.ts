@@ -322,7 +322,10 @@ test.describe('Einstellungen', () => {
     await expect(page.getByText('Backup importiert.')).toBeVisible();
     await expect(page.getByText('Rückmeldungen zu Prüfungen: 1')).toBeVisible();
 
-    await oeffne(page, `/lektion/${LEKTION.id}`);
+    // Ohne Neuladen navigieren: Ein neuer App-Start würde sofort synchronisieren, und der
+    // Grabstein vom Löschen gewinnt gegen den alten Stand des Backups.
+    await page.getByRole('link', { name: 'Lernapp – zur Startseite' }).click();
+    await page.getByRole('link', { name: new RegExp(LEKTION.titel) }).first().click();
     await expect(page.getByRole('link', { name: /Rückmeldung bearbeiten/ })).toBeVisible();
   });
 
