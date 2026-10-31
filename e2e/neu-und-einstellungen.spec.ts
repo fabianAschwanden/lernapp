@@ -214,13 +214,13 @@ test.describe('Neue Lektion', () => {
     await page.getByRole('button', { name: /Leere Lektion anlegen/ }).click();
     await page.getByRole('button', { name: 'Anlegen und bearbeiten' }).click();
     await expect(page.getByRole('alert')).toHaveText('Gib Fach und Titel an.');
-    await page.getByRole('combobox', { name: 'Fach' }).fill('Geschichte');
+    await page.getByRole('combobox', { name: 'Fach' }).fill('Latein');
     await page.getByRole('textbox', { name: 'Titel' }).fill('Römer');
     await page.getByRole('button', { name: 'Anlegen und bearbeiten' }).click();
 
     await expect(page).toHaveURL('/lektion/roemer/bearbeiten');
     await expect(page.getByRole('heading', { level: 1, name: 'Lektion bearbeiten' })).toBeVisible();
-    await expect(page.getByText('Geschichte · Römer')).toBeVisible();
+    await expect(page.getByText('Latein · Römer')).toBeVisible();
     await expect(page.getByRole('textbox', { name: 'Titel' })).toHaveValue('Römer');
 
     await page.getByRole('link', { name: '← Zur Lektion' }).click();
@@ -230,7 +230,7 @@ test.describe('Neue Lektion', () => {
     page.once('dialog', (d) => void d.accept());
     await page.getByRole('button', { name: 'Löschen', exact: true }).click();
     await expect(page).toHaveURL('/');
-    await expect(page.getByRole('heading', { level: 2, name: 'Geschichte' })).toHaveCount(0);
+    await expect(page.getByRole('heading', { level: 2, name: 'Latein' })).toHaveCount(0);
   });
 });
 
