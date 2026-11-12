@@ -1,0 +1,909 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-naturwissenschaften",
+      "zusammenfassung": "### Drei Naturwissenschaften\n| Fach | Wortherkunft | befasst sich mit … |\n|---|---|---|\n| **Biologie** | *bios* (gr.) = **Leben** | den **Lebewesen** (Lehre der Lebewesen): Pflanzen, Tiere, Menschen |\n| **Physik** | *physis* (gr.) = **Natur** | im Unterricht: Lehre der **Kräfte und Körper**, der **unbelebten Materie** – z. B. Bewegung, Fallen, Magnetkraft |\n| **Chemie** | – | den **Stoffen** (dem Material), ihren **Reaktionen** und ihren **Eigenschaften** |\n\n### So grenzt du ab\nFrag dich, **was genau untersucht wird**:\n- Geht es um ein **Lebewesen** und seine Lebensvorgänge (wachsen, atmen, sich vermehren)? → **Biologie**\n- Geht es um **Kräfte, Bewegung und Körper**, ohne dass sich der Stoff verändert? → **Physik**\n- Geht es darum, **woraus** etwas besteht, welche **Eigenschaften** ein Stoff hat oder wie er sich in einen **neuen Stoff** umwandelt? → **Chemie**\n\n| Untersuchung | Wissenschaft |\n|---|---|\n| Wie schnell wächst eine Bohnenpflanze? | Biologie |\n| Wie schnell fällt ein Stein zu Boden? | Physik |\n| Was geschieht, wenn ein Eisennagel rostet? | Chemie – Rost ist ein neuer Stoff |\n\n### Die Frage entscheidet, nicht der Gegenstand\nZum selben Apfel stellen alle drei Fächer Fragen: Die **Biologie** fragt, wie er reif wird, die **Physik**, wie schnell er vom Baum fällt, und die **Chemie**, welcher Stoff ihn sauer macht. Auch ein Stein ist nicht «nur Physik»: Woraus er besteht, untersucht die Chemie.\n\n### Grenzfälle (*ergänzt*)\nDie Fächer überschneiden sich. Die **Biochemie** zum Beispiel untersucht Stoffe und ihre Umwandlungen in Lebewesen, etwa bei der Verdauung – sie gehört zur Biologie **und** zur Chemie.\n\n> **Biologie** = Lebewesen. **Physik** = Kräfte und Körper. **Chemie** = Stoffe, ihre Reaktionen und Eigenschaften.",
+      "merksaetze": [
+        "Biologie (gr. bios = Leben) ist die Lehre der Lebewesen.",
+        "Physik (gr. physis = Natur) ist die Lehre der Kräfte und Körper, der unbelebten Materie.",
+        "Chemie ist die Lehre der Stoffe, ihrer Reaktionen und ihrer Eigenschaften.",
+        "Die Frage entscheidet, nicht der Gegenstand: Lebensvorgang → Biologie, Kraft/Bewegung → Physik, Stoff/neuer Stoff → Chemie."
+      ]
+    },
+    {
+      "id": "lz-eigenschaften",
+      "zusammenfassung": "### Generell gilt\n- **Physikalische Eigenschaften** sind **messbar** und/oder mit den **Sinnesorganen** erkennbar. Sie sind **objektiv**. Die Messung **verändert den Stoff nicht**.\n- **Chemische Eigenschaften** sind **experimentell** bestimmbar: Man prüft das **Reaktionsverhalten**. Auch sie sind **objektiv**. Die Messung verändert den Stoff – **es entsteht ein neuer Stoff**.\n\nFrag dich: **Ist nachher noch derselbe Stoff da?** Eis schmilzt – es bleibt Wasser (physikalisch). Holz verbrennt – Gase und Asche entstehen (chemisch).\n\n### Woran erkennen wir Stoffe?\n| Spalte auf dem Blatt | Eigenschaften | Art |\n|---|---|---|\n| **mit den Sinnesorganen** | Aggregatzustand, Farbe, Geruch, Geschmack, Verformbarkeit, Wärmeleitfähigkeit, metallischer Glanz | alle **physikalisch** |\n| **mit Messgeräten** | elektrische Leitfähigkeit, Magnetismus, Dichte, Gefrier-, Schmelz-, Siedetemperatur | **physikalisch** |\n| | Radioaktivität | **beides** |\n| **weitere Merkmale** | Löslichkeit | **beides** |\n| | Brennbarkeit, Explosivität, Giftigkeit, Reaktionsvermögen, pH-Wert (sauer/basisch), Rosten/Korrosion | **chemisch** |\n\n### Die zwei Fälle «beides»\n- **Löslichkeit:** Zucker löst sich in Wasser und bleibt Zucker (physikalisch). Zink löst sich in Salzsäure und bildet dabei einen neuen Stoff (chemisch).\n- **Radioaktivität:** Die Messung mit dem **Zählrohr** verändert das Präparat nicht (physikalisch). Trotzdem wandelt sich der Stoff **von selbst** in ein anderes Element um (chemisch).\n\n### Achtung, Fallen\n- **Farbe ist physikalisch.** Wird ein Kupferdach grün, zeigt die neue Farbe nur, dass ein neuer Stoff entstanden ist.\n- Die **Wärmeleitfähigkeit** spürst du mit der Hand, die **elektrische** Leitfähigkeit misst du.\n- **Dichte = Masse / Volumen** (g/cm³) ist physikalisch.\n- *Ergänzt:* **Grösse** und **Form** gehören zum **Gegenstand**, nicht zum Stoff – Eisennagel und Eisenpulver sind derselbe Stoff.\n\n> Sinnesorgane → physikalisch. Messgeräte → physikalisch, ausser **Radioaktivität (beides)**. Weitere Merkmale → chemisch, ausser **Löslichkeit (beides)**.",
+      "merksaetze": [
+        "Physikalische Eigenschaft: messbar oder mit den Sinnesorganen erkennbar, die Messung verändert den Stoff nicht (z. B. Farbe, Dichte, Siedetemperatur).",
+        "Chemische Eigenschaft: experimentell bestimmbar (Reaktionsverhalten), die Messung verändert den Stoff – es entsteht ein neuer Stoff (z. B. Brennbarkeit, Rosten).",
+        "«Beides» sind nur Löslichkeit und Radioaktivität. Physikalische und chemische Eigenschaften sind beide objektiv.",
+        "Die Farbe ist eine physikalische Eigenschaft, keine chemische."
+      ]
+    },
+    {
+      "id": "lz-stoffe-erkennen",
+      "zusammenfassung": "### Eine Eigenschaft reicht nie\nViele Stoffe teilen einzelne Eigenschaften: Kalk, Kochsalz und Zucker sind alle **weiss** und **fest**. Erst wenn du **mehrere Eigenschaften** zusammen betrachtest, wird ein Stoff eindeutig erkennbar.\n\n> Jeder Stoff hat eine **charakteristische Kombination von Eigenschaften**. Eine einzelne Eigenschaft genügt nie zur Identifikation.\n\n### Praktikum: Versuch «Beobachtungen»\n| Stoff | Farbe | Aggregatzustand | Löslichkeit in Wasser | Leitfähigkeit Feststoff | Leitfähigkeit Lösung | Reaktion mit Salzsäure (1 %) |\n|---|---|---|---|---|---|---|\n| Eisenpulver | dunkelgrau | fest | schlecht | ✗ | ✗ | beginnt zu sprudeln und sinkt gleichzeitig ab |\n| Zinkpulver | hellgrau | fest | bisschen | ✗ | ✗ | wird ein Klumpen mit Bläschen |\n| Kalk (Calciumcarbonat) | weiss | fest | schlecht | ✗ | ✗ | beginnt zu sprudeln |\n| Kochsalz | weiss | fest | sehr gut | ✗ | ✓ | löst sich gut auf |\n| Zucker | weiss | fest | gut | ✗ | ✗ | löst sich sehr gut auf |\n\n✓ = leitet, ✗ = leitet nicht. Ein **Zinkstück** und ein **Eisennagel** haben geleitet – das **Pulver** nicht, weil sich die Pulverkörner kaum berühren.\n\n### Was du daraus folgerst\n- **Kochsalz oder Zucker?** Beide sind weiss und lösen sich gut. Die **Kochsalzlösung leitet** den Strom, die Zuckerlösung nicht.\n- **Kalk oder Kochsalz?** Kalk löst sich schlecht und **sprudelt** mit Salzsäure; Kochsalz löst sich sehr gut, und seine Lösung leitet.\n- **Sprudeln** heisst: Es entsteht ein **Gas** – ein neuer Stoff, also eine **chemische Reaktion** (Eisen, Zink, Kalk). Kochsalz und Zucker **lösen sich nur** auf, es entstehen keine neuen Stoffe. *Ergänzt:* Eisen und Zink bilden mit Salzsäure Wasserstoff, Kalk bildet Kohlenstoffdioxid (CO₂).\n- **Eisen oder Zink?** Farbe (dunkel- oder hellgrau) und – *ergänzt* – ein **Magnet**: Eisen ist magnetisch, Zink nicht.\n\n### Auch die Dichte hilft\nDie **Dichte** (Masse / Volumen) hängt nicht von der Grösse des Stücks ab, sondern nur vom Stoff. Zwei gleich grosse Würfel (je 10 cm³) mit 27 g und 79 g haben 2,7 g/cm³ und 7,9 g/cm³ – es sind also verschiedene Stoffe (*ergänzt:* Aluminium und Eisen).\n\n### So gehst du vor\nSuche die Eigenschaft, in der sich die Stoffe **unterscheiden**. Eine Eigenschaft, die bei beiden gleich ist (z. B. Leitfähigkeit des Feststoffs bei Kalk und Kochsalz), hilft nicht weiter. Im Labor wird nie probiert (*ergänzt*) – den Geschmack prüfst du nicht.",
+      "merksaetze": [
+        "Jeder Stoff hat eine charakteristische Kombination von Eigenschaften – eine einzelne Eigenschaft genügt nie.",
+        "Kochsalz und Zucker unterscheidest du an der Leitfähigkeit der Lösung: Kochsalzlösung leitet, Zuckerlösung nicht.",
+        "Sprudeln mit Salzsäure (Eisen, Zink, Kalk) = Gasbildung = neuer Stoff = chemische Reaktion.",
+        "Metallpulver leitet kaum (Körner berühren sich kaum), ein Zinkstück oder Eisennagel leitet."
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-chem-01",
+      "lernzielId": "lz-naturwissenschaften",
+      "typ": "einfachwahl",
+      "frage": "Womit befasst sich die **Chemie**?",
+      "optionen": [
+        "mit den Lebewesen, ihrem Aufbau und ihrer Entwicklung",
+        "mit den Stoffen, ihren Reaktionen und Eigenschaften",
+        "mit den Kräften und Körpern der unbelebten Materie",
+        "mit den Sternen, Planeten und dem Weltall"
+      ],
+      "richtig": 1,
+      "erklaerung": "Chemie ist die **Lehre der Stoffe**, ihrer **Reaktionen** und ihrer **Eigenschaften**. Lebewesen sind das Gebiet der Biologie, Kräfte und Körper das der Physik.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-chem-02",
+      "lernzielId": "lz-naturwissenschaften",
+      "typ": "zuordnen",
+      "frage": "Ordne jeder Naturwissenschaft zu, womit sie sich befasst.",
+      "paare": [
+        {
+          "links": "Biologie",
+          "rechts": "Lehre der Lebewesen"
+        },
+        {
+          "links": "Physik",
+          "rechts": "Lehre der Kräfte und Körper, der unbelebten Materie"
+        },
+        {
+          "links": "Chemie",
+          "rechts": "Lehre der Stoffe, ihrer Reaktionen und Eigenschaften"
+        }
+      ],
+      "erklaerung": "Biologie (*bios* = Leben) ist die Lehre der Lebewesen. Physik (*physis* = Natur) ist im Unterricht die Lehre der Kräfte und Körper, der unbelebten Materie. Chemie ist die Lehre der Stoffe, ihrer Reaktionen und Eigenschaften.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-chem-03",
+      "lernzielId": "lz-naturwissenschaften",
+      "typ": "kurzantwort",
+      "frage": "Welches griechische Wort steckt in «Biologie» und bedeutet **Leben**?",
+      "akzeptiert": [
+        "bios",
+        "bíos"
+      ],
+      "erklaerung": "*bios* heisst Leben. Darum ist die Biologie die Lehre der Lebewesen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-chem-09",
+      "lernzielId": "lz-naturwissenschaften",
+      "typ": "einfachwahl",
+      "frage": "Jemand untersucht, wie schnell sich Blattläuse auf einer Rosenpflanze vermehren. Zu welcher Naturwissenschaft gehört das am ehesten?",
+      "optionen": [
+        "Physik",
+        "Chemie",
+        "Biologie",
+        "Geografie"
+      ],
+      "richtig": 2,
+      "erklaerung": "Blattläuse und Rosen sind **Lebewesen**, Vermehrung ist ein Vorgang des Lebens. Das gehört zur **Biologie** (*bios* = Leben).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-chem-10",
+      "lernzielId": "lz-naturwissenschaften",
+      "typ": "einfachwahl",
+      "frage": "Welche Untersuchung gehört am ehesten zur **Chemie**?",
+      "optionen": [
+        "Welche neuen Stoffe entstehen, wenn Holz verbrennt?",
+        "Wie schnell rollt eine Kugel eine schiefe Ebene hinunter?",
+        "Wie viele Junge bekommt eine Katze im Jahr?",
+        "Wie stark zieht ein Magnet einen Nagel an?"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Chemie fragt nach Stoffen und ihren Reaktionen – etwa, welche **neuen Stoffe** beim Verbrennen entstehen. Rollende Kugeln und Magnetkraft sind Physik, Katzenjunge Biologie.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-nawi-01",
+      "lernzielId": "lz-naturwissenschaften",
+      "typ": "mehrfachwahl",
+      "frage": "Biologie, Physik und Chemie. Kreuze alle richtigen Aussagen an (mindestens eine ist richtig).",
+      "optionen": [
+        "«Biologie» kommt vom griechischen *bios* = Leben.",
+        "Die Physik ist die Lehre der Lebewesen.",
+        "Die Chemie befasst sich mit den Stoffen, ihren Reaktionen und ihren Eigenschaften.",
+        "Das griechische Wort *physis* bedeutet «Stoff»."
+      ],
+      "richtig": [
+        0,
+        2
+      ],
+      "erklaerung": "*bios* heisst Leben, darum ist die Biologie die Lehre der Lebewesen – nicht die Physik. Die Physik (*physis* = Natur) ist im Unterricht die Lehre der Kräfte und Körper, der unbelebten Materie. Mit den Stoffen befasst sich die Chemie.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-nawi-02",
+      "lernzielId": "lz-naturwissenschaften",
+      "typ": "zuordnen",
+      "frage": "Welche Naturwissenschaft untersucht diese Frage hauptsächlich?",
+      "paare": [
+        {
+          "links": "Wie schnell wächst eine Bohnenpflanze am Fenster?",
+          "rechts": "Biologie"
+        },
+        {
+          "links": "Wie schnell fällt ein Stein zu Boden?",
+          "rechts": "Physik"
+        },
+        {
+          "links": "Was geschieht mit dem Eisen, wenn ein Nagel rostet?",
+          "rechts": "Chemie"
+        },
+        {
+          "links": "Wie schnell schlägt das Herz eines Pferdes nach dem Rennen?",
+          "rechts": "Biologie"
+        },
+        {
+          "links": "Welche Stoffe entstehen, wenn Kerzenwachs verbrennt?",
+          "rechts": "Chemie"
+        }
+      ],
+      "erklaerung": "Wachstum und Herzschlag sind Lebensvorgänge → Biologie. Das Fallen eines Steins ist eine Bewegung durch eine Kraft → Physik. Beim Rosten und Verbrennen entstehen neue Stoffe → Chemie.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-nawi-03",
+      "lernzielId": "lz-naturwissenschaften",
+      "typ": "kurzantwort",
+      "frage": "Welche Naturwissenschaft untersucht, wie schnell ein Stein zu Boden fällt?",
+      "akzeptiert": [
+        "Physik",
+        "die Physik"
+      ],
+      "erklaerung": "Fallen ist eine **Bewegung**, die durch eine **Kraft** (die Anziehung der Erde) entsteht. Der Stein bleibt dabei derselbe Stoff. Kräfte und Körper sind das Gebiet der **Physik**.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-nawi-04",
+      "lernzielId": "lz-naturwissenschaften",
+      "typ": "einfachwahl",
+      "frage": "Ein Eisennagel rostet im Regen. Welche Naturwissenschaft untersucht, was dabei mit dem Eisen geschieht?",
+      "optionen": [
+        "die Biologie, weil der Regen aus der Natur kommt",
+        "die Physik, weil der Nagel ein Körper ist",
+        "die Geografie, weil es ums Wetter geht",
+        "die Chemie, weil aus dem Eisen ein neuer Stoff entsteht"
+      ],
+      "richtig": 3,
+      "erklaerung": "Rost ist ein **neuer Stoff**. Stoffe und ihre Umwandlungen (Reaktionen) untersucht die **Chemie**. Der Nagel ist zwar ein Körper, aber hier geht es nicht um Kräfte oder Bewegung, sondern um den Stoff.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-nawi-05",
+      "lernzielId": "lz-naturwissenschaften",
+      "typ": "wahrfalsch",
+      "frage": "Die Physik untersucht vor allem, wie sich Stoffe in neue Stoffe umwandeln.",
+      "richtig": false,
+      "erklaerung": "Stoffumwandlungen (Reaktionen) sind das Gebiet der **Chemie**. Die Physik ist im Unterricht die Lehre der **Kräfte und Körper**, der unbelebten Materie.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-nawi-06",
+      "lernzielId": "lz-naturwissenschaften",
+      "typ": "wahrfalsch",
+      "frage": "Ein Stein ist unbelebte Materie. Darum untersucht die Physik, aus welchen Stoffen ein Stein besteht.",
+      "richtig": false,
+      "erklaerung": "Entscheidend ist die **Frage**, nicht der Gegenstand. Die Physik fragt z. B., wie schnell der Stein fällt. Die Chemie fragt, **aus welchen Stoffen** er besteht und welche Eigenschaften sie haben.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-nawi-07",
+      "lernzielId": "lz-naturwissenschaften",
+      "typ": "einfachwahl",
+      "frage": "Woran erkennst du am besten, ob eine Untersuchung zur **Physik** oder zur **Chemie** gehört?",
+      "optionen": [
+        "Physik: Messungen mit Geräten – Chemie: Beobachtungen ohne Geräte.",
+        "Physik: Kräfte, Bewegung, Körper – Chemie: Stoffe und ihre Umwandlungen.",
+        "Physik: Vorgänge draussen in der Natur – Chemie: Versuche im Labor.",
+        "Physik: feste Körper – Chemie: Flüssigkeiten und Gase."
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Physik ist die Lehre der **Kräfte und Körper**, die Chemie die Lehre der **Stoffe**, ihrer **Reaktionen** und **Eigenschaften**. Messgeräte und Labor brauchen beide, und beide untersuchen feste, flüssige und gasförmige Materie.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-nawi-08",
+      "lernzielId": "lz-naturwissenschaften",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Fragen gehören zur **Biologie**? Kreuze alle richtigen Aussagen an (mindestens eine ist richtig).",
+      "optionen": [
+        "Wie wächst eine Sonnenblume zum Licht hin?",
+        "Wie atmen Fische unter Wasser?",
+        "Wie schnell fällt ein Apfel vom Baum?",
+        "Welche Stoffe entstehen, wenn ein Streichholz brennt?",
+        "Wie viele Eier legt ein Huhn pro Woche?"
+      ],
+      "richtig": [
+        0,
+        1,
+        4
+      ],
+      "erklaerung": "Wachsen, Atmen und Eierlegen sind Lebensvorgänge → **Biologie**. Der fallende Apfel ist zwar Teil einer Pflanze, aber das Fallen ist eine Bewegung durch eine Kraft → Physik. Beim brennenden Streichholz entstehen neue Stoffe → Chemie.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-nawi-09",
+      "lernzielId": "lz-naturwissenschaften",
+      "typ": "einfachwahl",
+      "frage": "Zu einem Apfel kann man viele Fragen stellen. Welche gehört zur **Physik**?",
+      "optionen": [
+        "Warum wird der Apfel im Herbst reif?",
+        "Welcher Stoff macht den Apfel sauer?",
+        "Wie schnell wird der Apfel, wenn er vom Baum fällt?",
+        "Wie viele Kerne hat ein Apfel dieser Sorte?"
+      ],
+      "richtig": 2,
+      "erklaerung": "Derselbe Gegenstand, verschiedene Wissenschaften: Das Fallen ist eine **Bewegung** durch eine **Kraft** → Physik. Reifen und Kerne betreffen das Lebewesen → Biologie. Die Frage nach dem Stoff, der sauer macht, gehört zur Chemie.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-nawi-10",
+      "lernzielId": "lz-naturwissenschaften",
+      "typ": "offen",
+      "frage": "Grenze die drei Naturwissenschaften **Biologie**, **Physik** und **Chemie** in ganzen Sätzen voneinander ab und nenne zu jeder ein Beispiel für eine Untersuchung.",
+      "musterloesung": "Die Biologie (gr. bios = Leben) ist die Lehre der Lebewesen, z. B. wie schnell eine Pflanze wächst. Die Physik (gr. physis = Natur) ist die Lehre der Kräfte und Körper, der unbelebten Materie, z. B. wie schnell ein Stein zu Boden fällt. Die Chemie ist die Lehre der Stoffe, ihrer Reaktionen und ihrer Eigenschaften, z. B. was beim Rosten eines Eisennagels entsteht.",
+      "stichworte": [
+        "Biologie: Lebewesen",
+        "Physik: Kräfte und Körper",
+        "Chemie: Stoffe, Reaktionen, Eigenschaften",
+        "je ein passendes Beispiel"
+      ],
+      "erklaerung": "Für jede Wissenschaft gehören der Gegenstand und ein passendes Beispiel in die Antwort.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-nawi-11",
+      "lernzielId": "lz-naturwissenschaften",
+      "typ": "offen",
+      "frage": "Die **Biochemie** untersucht, welche Stoffe in Lebewesen umgewandelt werden, zum Beispiel bei der Verdauung. Erkläre, warum sie zwischen zwei Naturwissenschaften liegt.",
+      "musterloesung": "Die Biochemie untersucht Lebewesen, das ist das Gebiet der Biologie. Sie fragt aber nach Stoffen und ihren Umwandlungen in neue Stoffe, und das ist das Gebiet der Chemie. Darum gehört sie zu beiden: Die Naturwissenschaften lassen sich nicht immer scharf trennen.",
+      "stichworte": [
+        "Lebewesen → Biologie",
+        "Stoffe / Umwandlung → Chemie",
+        "Überschneidung",
+        "Grenzen nicht scharf"
+      ],
+      "erklaerung": "Grenzfall (*ergänzt*): Gegenstand aus der Biologie, Fragestellung aus der Chemie.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-nawi-12",
+      "lernzielId": "lz-naturwissenschaften",
+      "typ": "kurzantwort",
+      "frage": "Was bedeutet das griechische Wort *physis*, das im Wort «Physik» steckt?",
+      "akzeptiert": [
+        "Natur",
+        "die Natur",
+        "Kraft"
+      ],
+      "erklaerung": "*physis* heisst wörtlich **Natur** (im Heft steht «Kraft»). Im Unterricht ist die Physik die Lehre der Kräfte und Körper, der unbelebten Materie.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-eig-01",
+      "lernzielId": "lz-eigenschaften",
+      "typ": "mehrfachwahl",
+      "frage": "Stoffeigenschaften. Kreuze alle richtigen Aussagen an (mindestens eine ist richtig).",
+      "optionen": [
+        "Die Farbe ist eine chemische Eigenschaft.",
+        "Die Brennbarkeit ist eine chemische Eigenschaft.",
+        "Der pH-Wert (sauer/basisch) ist eine physikalische Eigenschaft.",
+        "Die Siedetemperatur ist eine physikalische Eigenschaft."
+      ],
+      "richtig": [
+        1,
+        3
+      ],
+      "erklaerung": "Die **Farbe** erfasst du mit den Augen, der Stoff verändert sich dabei nicht → **physikalisch**. Die Siedetemperatur misst du mit dem Thermometer → physikalisch. Brennbarkeit und pH-Wert stehen unter «weitere Merkmale» und sind **chemisch**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-chem-04",
+      "lernzielId": "lz-eigenschaften",
+      "typ": "einfachwahl",
+      "frage": "Was gilt für eine **physikalische** Eigenschaft?",
+      "optionen": [
+        "Bei der Messung entsteht ein neuer Stoff.",
+        "Sie ist subjektiv: Jede Person beurteilt sie anders.",
+        "Die Messung verändert den Stoff nicht.",
+        "Man kann sie nur durch Verbrennen bestimmen."
+      ],
+      "richtig": 2,
+      "erklaerung": "Physikalische Eigenschaften sind messbar oder mit den Sinnesorganen erkennbar, und die Messung **verändert den Stoff nicht**. Dass ein neuer Stoff entsteht, kennzeichnet chemische Eigenschaften.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-chem-06",
+      "lernzielId": "lz-eigenschaften",
+      "typ": "wahrfalsch",
+      "frage": "Chemische Eigenschaften sind **subjektiv**, weil jede Person das Ergebnis eines Experiments anders beurteilt.",
+      "richtig": false,
+      "erklaerung": "Physikalische **und** chemische Eigenschaften sind **objektiv**: Wer das Experiment gleich durchführt, erhält dasselbe Ergebnis. Der Unterschied liegt nur darin, ob ein neuer Stoff entsteht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-chem-07",
+      "lernzielId": "lz-eigenschaften",
+      "typ": "mehrfachwahl",
+      "frage": "Bei welchen Vorgängen entsteht ein **neuer Stoff** (chemisch)?",
+      "optionen": [
+        "Holz verbrennt.",
+        "Eis schmilzt.",
+        "Eisen rostet.",
+        "Zucker löst sich in Wasser.",
+        "Zink löst sich in Salzsäure und sprudelt.",
+        "Die Dichte eines Steins wird gemessen."
+      ],
+      "richtig": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "Beim Verbrennen von Holz, beim Rosten von Eisen und beim Auflösen von Zink in Salzsäure entstehen neue Stoffe. Beim Schmelzen von Eis, beim Lösen von Zucker in Wasser und beim Messen der Dichte bleibt der Stoff derselbe – das ist physikalisch.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-chem-08",
+      "lernzielId": "lz-eigenschaften",
+      "typ": "zuordnen",
+      "frage": "Ordne jeden Vorgang zu: **physikalisch** oder **chemisch**?",
+      "paare": [
+        {
+          "links": "Wasser siedet.",
+          "rechts": "physikalisch"
+        },
+        {
+          "links": "Eine Kerze verbrennt.",
+          "rechts": "chemisch"
+        },
+        {
+          "links": "Ein Kupferdraht leitet Strom.",
+          "rechts": "physikalisch"
+        },
+        {
+          "links": "Ein Eisennagel rostet.",
+          "rechts": "chemisch"
+        },
+        {
+          "links": "Schokolade schmilzt in der Hand.",
+          "rechts": "physikalisch"
+        }
+      ],
+      "erklaerung": "Sieden, Schmelzen und Strom leiten verändern den Stoff nicht (physikalisch). Beim Verbrennen und beim Rosten entstehen neue Stoffe (chemisch).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-chem-11",
+      "lernzielId": "lz-eigenschaften",
+      "typ": "einfachwahl",
+      "frage": "Warum ist die **Brennbarkeit** eine chemische Eigenschaft?",
+      "optionen": [
+        "Weil man dazu ein besonderes Messgerät braucht.",
+        "Weil man sie ohne Hilfsmittel mit den Augen sehen kann.",
+        "Weil man sie bei jedem Stoff gleich messen kann.",
+        "Weil dabei neue Stoffe entstehen."
+      ],
+      "richtig": 3,
+      "erklaerung": "Um die Brennbarkeit zu prüfen, zündet man den Stoff an. Er verbrennt, und es entstehen **neue Stoffe** (z. B. Gase, Asche). Genau das kennzeichnet eine chemische Eigenschaft.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-chem-12",
+      "lernzielId": "lz-eigenschaften",
+      "typ": "wahrfalsch",
+      "frage": "Nach dem Messen der Schmelztemperatur von Eis hast du flüssiges Wasser. Weil sich dabei etwas verändert hat, ist die Schmelztemperatur eine **chemische** Eigenschaft.",
+      "richtig": false,
+      "erklaerung": "Beim Schmelzen ändert sich nur der **Aggregatzustand**. Es ist immer noch Wasser – du kannst es wieder gefrieren lassen. Es entsteht kein neuer Stoff, die Schmelztemperatur ist also **physikalisch**.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-chem-14",
+      "lernzielId": "lz-eigenschaften",
+      "typ": "offen",
+      "frage": "Erkläre den Unterschied zwischen **physikalischen** und **chemischen** Eigenschaften und gib je ein Beispiel.",
+      "musterloesung": "Physikalische Eigenschaften sind messbar oder mit den Sinnesorganen erkennbar; die Messung verändert den Stoff nicht (z. B. Farbe, Dichte, Schmelztemperatur). Chemische Eigenschaften bestimmt man experimentell über das Reaktionsverhalten; dabei entsteht ein neuer Stoff (z. B. Brennbarkeit, Rosten). Beide sind objektiv.",
+      "stichworte": [
+        "Stoff bleibt gleich",
+        "neuer Stoff",
+        "messbar / Sinnesorgane",
+        "Reaktionsverhalten",
+        "objektiv",
+        "Beispiel"
+      ],
+      "erklaerung": "Entscheidend ist, ob bei der Bestimmung ein neuer Stoff entsteht. Beide Arten sind objektiv.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-chem-15",
+      "lernzielId": "lz-eigenschaften",
+      "typ": "offen",
+      "frage": "Zucker «löst sich» in Wasser, Zink «löst sich» in Salzsäure. Erkläre, warum das eine **physikalisch** und das andere **chemisch** ist.",
+      "musterloesung": "Der Zucker verändert sich im Wasser nicht: Er ist nur fein verteilt, das Wasser schmeckt süss – es ist immer noch Zucker (physikalisch). Das Zink reagiert mit der Salzsäure: Es sprudelt, ein Gas entsteht, es bildet sich ein neuer Stoff (chemisch).",
+      "stichworte": [
+        "Zucker bleibt Zucker",
+        "kein neuer Stoff",
+        "Zink reagiert",
+        "Sprudeln / Gas",
+        "neuer Stoff"
+      ],
+      "erklaerung": "Darum steht die Löslichkeit auf dem Blatt als «beides».",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-chem-17",
+      "lernzielId": "lz-eigenschaften",
+      "typ": "einfachwahl",
+      "frage": "Ein Kupferdach wird über die Jahre an der Oberfläche grün. Wie ordnest du diesen Vorgang ein?",
+      "optionen": [
+        "physikalisch, weil sich nur die Farbe ändert",
+        "chemisch, weil ein neuer Stoff entsteht (Korrosion)",
+        "physikalisch, weil Kupfer ein Metall ist und Metalle sich nicht verändern",
+        "gar keine Veränderung des Kupfers, nur Schmutz aus der Luft"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die grüne Schicht ist ein **neuer Stoff**, der aus dem Kupfer entsteht – wie Rost beim Eisen. Das ist **Korrosion** und damit chemisch. Die Farbe selbst bleibt eine physikalische Eigenschaft; ihre Änderung ist nur das Zeichen dafür, dass ein neuer Stoff entstanden ist. (Beispiel Kupferdach ergänzt.)",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-einteil-01",
+      "lernzielId": "lz-eigenschaften",
+      "typ": "zuordnen",
+      "frage": "In welche Spalte des Blatts «Woran erkennen wir Stoffe?» gehört jede Eigenschaft?",
+      "paare": [
+        {
+          "links": "Farbe",
+          "rechts": "mit den Sinnesorganen"
+        },
+        {
+          "links": "Geruch",
+          "rechts": "mit den Sinnesorganen"
+        },
+        {
+          "links": "elektrische Leitfähigkeit",
+          "rechts": "mit Messgeräten"
+        },
+        {
+          "links": "Siedetemperatur",
+          "rechts": "mit Messgeräten"
+        },
+        {
+          "links": "Brennbarkeit",
+          "rechts": "weitere Merkmale"
+        },
+        {
+          "links": "pH-Wert (sauer/basisch)",
+          "rechts": "weitere Merkmale"
+        }
+      ],
+      "erklaerung": "Farbe und Geruch nimmst du mit den Sinnesorganen wahr. Elektrische Leitfähigkeit und Siedetemperatur brauchen ein Messgerät. Brennbarkeit und pH-Wert stehen unter «weitere Merkmale».",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-einteil-02",
+      "lernzielId": "lz-eigenschaften",
+      "typ": "zuordnen",
+      "frage": "Ordne jede Eigenschaft zu: **physikalisch**, **chemisch** oder **beides**?",
+      "paare": [
+        {
+          "links": "Dichte",
+          "rechts": "physikalisch"
+        },
+        {
+          "links": "Giftigkeit",
+          "rechts": "chemisch"
+        },
+        {
+          "links": "Löslichkeit",
+          "rechts": "beides"
+        },
+        {
+          "links": "Magnetismus",
+          "rechts": "physikalisch"
+        },
+        {
+          "links": "Radioaktivität",
+          "rechts": "beides"
+        },
+        {
+          "links": "Rosten/Korrosion",
+          "rechts": "chemisch"
+        },
+        {
+          "links": "Explosivität",
+          "rechts": "chemisch"
+        }
+      ],
+      "erklaerung": "Dichte und Magnetismus sind physikalisch. Giftigkeit, Rosten/Korrosion und Explosivität sind chemisch. «Beides» sind nur **Löslichkeit** und **Radioaktivität**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-einteil-07",
+      "lernzielId": "lz-eigenschaften",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Eigenschaften kannst du laut Blatt **mit den Sinnesorganen** erfassen?",
+      "optionen": [
+        "Farbe",
+        "Magnetismus",
+        "Geruch",
+        "Siedetemperatur",
+        "metallischer Glanz",
+        "Radioaktivität"
+      ],
+      "richtig": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "Farbe, Geruch und metallischer Glanz nimmst du direkt wahr. Für Magnetismus, Siedetemperatur und Radioaktivität brauchst du Messgeräte.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-einteil-09",
+      "lernzielId": "lz-eigenschaften",
+      "typ": "offen",
+      "frage": "Erkläre, warum die **Radioaktivität** auf dem Blatt als «beides» eingeteilt ist.",
+      "musterloesung": "Die Messung mit dem Zählrohr verändert das radioaktive Präparat nicht – das spricht für eine physikalische Eigenschaft. Trotzdem wandelt sich der Stoff von selbst in ein anderes Element um, es entsteht also ein neuer Stoff – das spricht für eine chemische Eigenschaft.",
+      "stichworte": [
+        "Zählrohr",
+        "Messung verändert nicht",
+        "physikalisch",
+        "wandelt sich von selbst um",
+        "anderes Element / neuer Stoff",
+        "chemisch"
+      ],
+      "erklaerung": "Physikalisch ist die Messung, chemisch die Umwandlung in ein anderes Element.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-einteil-12",
+      "lernzielId": "lz-eigenschaften",
+      "typ": "einfachwahl",
+      "frage": "Ein Eisennagel und ein Häufchen Eisenpulver haben eine ganz andere **Grösse** und **Form**. Was folgt daraus?",
+      "optionen": [
+        "Es sind zwei verschiedene Stoffe, weil sie verschieden aussehen.",
+        "Grösse und Form sind chemische Eigenschaften.",
+        "Derselbe Stoff: Grösse und Form gehören zum Gegenstand.",
+        "Das Pulver hat eine grössere Dichte, weil seine Körner so klein sind."
+      ],
+      "richtig": 2,
+      "erklaerung": "Grösse und Form beschreiben den **Gegenstand**, nicht den Stoff. Nagel und Pulver bestehen beide aus **Eisen** – derselbe Stoff mit derselben Dichte und Schmelztemperatur.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-einteil-13",
+      "lernzielId": "lz-eigenschaften",
+      "typ": "kurzantwort",
+      "frage": "Welche Stoffeigenschaft berechnest du mit **Masse / Volumen**?",
+      "akzeptiert": [
+        "Dichte",
+        "die Dichte"
+      ],
+      "erklaerung": "Masse geteilt durch Volumen ergibt die **Dichte**, z. B. in g/cm³.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-einteil-14",
+      "lernzielId": "lz-eigenschaften",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Eigenschaften sind laut Blatt **chemisch**?",
+      "optionen": [
+        "Brennbarkeit",
+        "Wärmeleitfähigkeit",
+        "Reaktionsvermögen",
+        "Schmelztemperatur",
+        "Giftigkeit",
+        "Verformbarkeit"
+      ],
+      "richtig": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "Brennbarkeit, Reaktionsvermögen und Giftigkeit gehören zu den chemischen «weiteren Merkmalen». Wärmeleitfähigkeit und Verformbarkeit (Sinnesorgane) sowie die Schmelztemperatur (Messgerät) sind physikalisch.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-einteil-18",
+      "lernzielId": "lz-eigenschaften",
+      "typ": "wahrfalsch",
+      "frage": "Die **Wärmeleitfähigkeit** steht auf dem Blatt in der Spalte «mit Messgeräten erfassbar».",
+      "richtig": false,
+      "erklaerung": "Die Wärmeleitfähigkeit steht bei den **Sinnesorganen**: Du spürst, ob sich ein Stoff kalt anfühlt, weil er die Wärme schnell von der Hand wegleitet. Bei den Messgeräten steht die **elektrische** Leitfähigkeit.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-erkennen-01",
+      "lernzielId": "lz-stoffe-erkennen",
+      "typ": "einfachwahl",
+      "frage": "Warum genügt eine **einzelne** Eigenschaft nie, um einen Stoff zu erkennen?",
+      "optionen": [
+        "Weil sich die Eigenschaften eines Stoffes ständig ändern.",
+        "Weil man Eigenschaften nie genau messen kann.",
+        "Weil viele Stoffe einzelne Eigenschaften teilen.",
+        "Weil jeder Stoff nur eine einzige Eigenschaft hat."
+      ],
+      "richtig": 2,
+      "erklaerung": "Viele Stoffe teilen einzelne Eigenschaften – Kalk, Kochsalz und Zucker sind z. B. alle weiss und fest. Erst die **charakteristische Kombination** mehrerer Eigenschaften macht einen Stoff eindeutig erkennbar.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-erkennen-02",
+      "lernzielId": "lz-stoffe-erkennen",
+      "typ": "kurzantwort",
+      "frage": "Ergänze den Merksatz: Jeder Stoff hat eine charakteristische ___ von Eigenschaften.",
+      "akzeptiert": [
+        "Kombination",
+        "Kombinationen"
+      ],
+      "erklaerung": "Jeder Stoff hat eine charakteristische **Kombination** von Eigenschaften.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-erkennen-03",
+      "lernzielId": "lz-stoffe-erkennen",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Stoffe aus dem Versuch «Beobachtungen» waren **weiss**?",
+      "optionen": [
+        "Eisenpulver",
+        "Zinkpulver",
+        "Kalk",
+        "Kochsalz",
+        "Zucker"
+      ],
+      "richtig": [
+        2,
+        3,
+        4
+      ],
+      "erklaerung": "Kalk, Kochsalz und Zucker sind weiss. Eisenpulver ist dunkelgrau, Zinkpulver hellgrau. Darum braucht es für die drei weissen Stoffe weitere Eigenschaften.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-erkennen-04",
+      "lernzielId": "lz-stoffe-erkennen",
+      "typ": "einfachwahl",
+      "frage": "Kochsalz und Zucker sind beide weiss, fest und lösen sich gut in Wasser. Mit welcher Beobachtung aus dem Versuch unterscheidest du sie?",
+      "optionen": [
+        "an der Farbe der beiden Pulver",
+        "am Aggregatzustand bei Raumtemperatur",
+        "an der Leitfähigkeit des trockenen Feststoffs",
+        "an der Leitfähigkeit der Lösung"
+      ],
+      "richtig": 3,
+      "erklaerung": "Die **Kochsalzlösung leitet** den Strom, die Zuckerlösung nicht. Farbe, Aggregatzustand und Leitfähigkeit des Feststoffs (beide ✗) sind bei beiden gleich.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-erkennen-05",
+      "lernzielId": "lz-stoffe-erkennen",
+      "typ": "wahrfalsch",
+      "frage": "Im Versuch hat die **Zuckerlösung** den Strom geleitet.",
+      "richtig": false,
+      "erklaerung": "Von den fünf Stoffen hat nur die **Kochsalzlösung** geleitet. Die Zuckerlösung leitet nicht – so unterscheidet man die beiden weissen Stoffe.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-erkennen-06",
+      "lernzielId": "lz-stoffe-erkennen",
+      "typ": "wahrfalsch",
+      "frage": "Das Eisenpulver hat den Strom nicht geleitet, ein Eisennagel aber schon.",
+      "richtig": true,
+      "erklaerung": "So steht es im Protokoll: Pulver ✗, aber «Zinkstück und Eisennagel haben geleitet». Eisen leitet also – nur berühren sich die Pulverkörner kaum.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-erkennen-07",
+      "lernzielId": "lz-stoffe-erkennen",
+      "typ": "einfachwahl",
+      "frage": "Warum hat das **Eisenpulver** im Versuch nicht geleitet, obwohl Eisen ein Metall ist?",
+      "optionen": [
+        "Weil Eisen gar kein Metall ist.",
+        "Weil sich die Pulverkörner kaum berühren.",
+        "Weil das Pulver mit Salzsäure reagiert hat.",
+        "Weil nur flüssige Stoffe Strom leiten."
+      ],
+      "richtig": 1,
+      "erklaerung": "Im Pulver **berühren sich die Körner kaum**, darum findet der Strom keinen durchgehenden Weg. Ein Eisennagel aus einem Stück leitet dagegen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-erkennen-08",
+      "lernzielId": "lz-stoffe-erkennen",
+      "typ": "mehrfachwahl",
+      "frage": "Bei welchen Stoffen bildeten sich mit Salzsäure **Bläschen** bzw. begann es zu **sprudeln**?",
+      "optionen": [
+        "Eisenpulver",
+        "Zinkpulver",
+        "Kalk",
+        "Kochsalz",
+        "Zucker"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Eisenpulver sprudelte und sank ab, Zinkpulver wurde ein Klumpen mit Bläschen, Kalk sprudelte. Kochsalz und Zucker lösten sich nur auf.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-erkennen-09",
+      "lernzielId": "lz-stoffe-erkennen",
+      "typ": "einfachwahl",
+      "frage": "Was zeigt das **Sprudeln**, wenn du Salzsäure auf Kalk giesst?",
+      "optionen": [
+        "Der Kalk löst sich nur auf, ohne sich zu verändern.",
+        "Ein Gas entsteht – eine chemische Reaktion.",
+        "Der Kalk schmilzt in der warmen Säure.",
+        "Die Salzsäure siedet und verdampft."
+      ],
+      "richtig": 1,
+      "erklaerung": "Bläschen bedeuten: Es entsteht ein **Gas** – also ein neuer Stoff. Das ist eine **chemische Reaktion**. *Ergänzt:* Beim Kalk ist das Gas Kohlenstoffdioxid (CO₂).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-erkennen-10",
+      "lernzielId": "lz-stoffe-erkennen",
+      "typ": "einfachwahl",
+      "frage": "Du hast zwei weisse Pulver: **Kalk** und **Kochsalz**. Welcher Test hilft dir **nicht**, sie zu unterscheiden?",
+      "optionen": [
+        "Löslichkeit in Wasser",
+        "Reaktion mit Salzsäure",
+        "Leitfähigkeit des Feststoffs",
+        "Leitfähigkeit der Lösung"
+      ],
+      "richtig": 2,
+      "erklaerung": "Beide Feststoffe leiten nicht (✗) – die Leitfähigkeit des Feststoffs ist gleich. Unterscheiden kannst du sie an der Löslichkeit (Kalk schlecht, Kochsalz sehr gut), an der Reaktion mit Salzsäure (Kalk sprudelt) und an der Leitfähigkeit der Lösung (nur Kochsalz leitet).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-erkennen-11",
+      "lernzielId": "lz-stoffe-erkennen",
+      "typ": "zuordnen",
+      "frage": "Ordne jedem Stoff seine Beobachtungen aus dem Versuch zu.",
+      "paare": [
+        {
+          "links": "Eisenpulver",
+          "rechts": "dunkelgrau, sprudelt mit Salzsäure und sinkt ab"
+        },
+        {
+          "links": "Zinkpulver",
+          "rechts": "hellgrau, wird mit Salzsäure ein Klumpen mit Bläschen"
+        },
+        {
+          "links": "Kalk",
+          "rechts": "weiss, schlecht löslich, sprudelt mit Salzsäure"
+        },
+        {
+          "links": "Kochsalz",
+          "rechts": "weiss, sehr gut löslich, Lösung leitet"
+        },
+        {
+          "links": "Zucker",
+          "rechts": "weiss, gut löslich, Lösung leitet nicht"
+        }
+      ],
+      "erklaerung": "Eisen: dunkelgrau, sprudelt und sinkt ab. Zink: hellgrau, Klumpen mit Bläschen. Kalk: weiss, schlecht löslich, sprudelt. Kochsalz: sehr gut löslich, Lösung leitet. Zucker: gut löslich, Lösung leitet nicht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-erkennen-12",
+      "lernzielId": "lz-stoffe-erkennen",
+      "typ": "einfachwahl",
+      "frage": "Welche Eigenschaft prüfst du als Nächstes, um **Eisenpulver** und **Zinkpulver** ohne Chemikalien sicher zu unterscheiden?",
+      "optionen": [
+        "den Aggregatzustand",
+        "den Magnetismus",
+        "die Leitfähigkeit des Pulvers",
+        "den Geruch"
+      ],
+      "richtig": 1,
+      "erklaerung": "Eisen ist **magnetisch** (Metall-Tabelle), Zink nicht (*ergänzt*). Mit einem Magneten trennst du die beiden sofort. Beide sind fest, beide Pulver leiten nicht, und riechen tun sie nicht.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-erkennen-13",
+      "lernzielId": "lz-stoffe-erkennen",
+      "typ": "offen",
+      "frage": "Ein unbekanntes weisses Pulver löst sich sehr gut in Wasser, die Lösung leitet den Strom, und mit Salzsäure sprudelt nichts. Welcher Stoff aus dem Versuch ist es wahrscheinlich? Begründe – und erkläre, warum du trotzdem nicht ganz sicher sein kannst.",
+      "musterloesung": "Wahrscheinlich Kochsalz: Es ist weiss, löst sich sehr gut, nur seine Lösung leitet, und es sprudelt nicht (Kalk würde sprudeln, Zuckerlösung würde nicht leiten). Ganz sicher ist das nicht, weil auch andere, nicht getestete Stoffe diese Kombination haben könnten. Um sicher zu sein, prüft man weitere Eigenschaften, z. B. die Schmelztemperatur.",
+      "stichworte": [
+        "Kochsalz",
+        "Lösung leitet",
+        "kein Sprudeln",
+        "Kombination von Eigenschaften",
+        "andere Stoffe möglich",
+        "weitere Eigenschaft prüfen"
+      ],
+      "erklaerung": "Die Kombination passt zu Kochsalz. Für Gewissheit braucht es weitere Eigenschaften.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-erkennen-14",
+      "lernzielId": "lz-stoffe-erkennen",
+      "typ": "offen",
+      "frage": "Beschreibe, wie du **Kochsalz** und **Zucker** mit dem Versuchsaufbau unterscheidest: Vorgehen und erwartete Beobachtung.",
+      "musterloesung": "Beide Stoffe in Wasser lösen und mit dem Stromkreis (Leitfähigkeitsprüfer) testen, ob die Lösung den Strom leitet. Die Kochsalzlösung leitet, die Zuckerlösung nicht. Farbe, Aggregatzustand und gute Löslichkeit sind bei beiden gleich und helfen nicht.",
+      "stichworte": [
+        "in Wasser lösen",
+        "Leitfähigkeit der Lösung prüfen",
+        "Kochsalzlösung leitet",
+        "Zuckerlösung leitet nicht"
+      ],
+      "erklaerung": "Geschmack ist im Labor tabu (*ergänzt*) – die Leitfähigkeit der Lösung ist der sichere Weg.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-erkennen-15",
+      "lernzielId": "lz-stoffe-erkennen",
+      "typ": "wahrfalsch",
+      "frage": "Kochsalz und Zucker haben sich in der Salzsäure aufgelöst. Das ist – genau wie beim Kalk – eine chemische Reaktion.",
+      "richtig": false,
+      "erklaerung": "Beim Kalk sprudelt es: Ein Gas, also ein neuer Stoff, entsteht. Kochsalz und Zucker **lösen sich nur**, es gibt keine Bläschen und keinen neuen Stoff. Sich lösen allein ist noch keine chemische Reaktion.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-erkennen-16",
+      "lernzielId": "lz-stoffe-erkennen",
+      "typ": "kurzantwort",
+      "frage": "Welche Eigenschaft der Lösungen wurde im Versuch mit einem Stromkreis geprüft?",
+      "akzeptiert": [
+        "Leitfähigkeit",
+        "elektrische Leitfähigkeit",
+        "Stromleitfähigkeit",
+        "Stromleitung",
+        "Leitfaehigkeit"
+      ],
+      "erklaerung": "Geprüft wurde die **elektrische Leitfähigkeit** – des Feststoffs und der Lösung.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-erkennen-17",
+      "lernzielId": "lz-stoffe-erkennen",
+      "typ": "einfachwahl",
+      "frage": "Ein Mineral ist **weiss**, **fest** und **sprudelt** mit verdünnter Salzsäure. Welcher Stoff aus dem Versuch passt am besten?",
+      "optionen": [
+        "Zucker",
+        "Kochsalz",
+        "Zinkpulver",
+        "Kalk"
+      ],
+      "richtig": 3,
+      "erklaerung": "Weiss **und** sprudelnd – diese Kombination hat nur der **Kalk**. Eisen und Zink sprudeln zwar auch, sind aber grau. Kochsalz und Zucker sind weiss, sprudeln aber nicht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-einteil-15",
+      "lernzielId": "lz-stoffe-erkennen",
+      "typ": "einfachwahl",
+      "frage": "Zwei silbrige Würfel sind gleich gross (je **10 cm³**). Würfel A wiegt **27 g**, Würfel B **79 g**. Was schliesst du?",
+      "optionen": [
+        "Es sind verschiedene Stoffe, denn ihre Dichten sind verschieden.",
+        "Es ist derselbe Stoff, denn die Würfel sind gleich gross.",
+        "B muss grösser sein als A, sonst wäre er nicht schwerer.",
+        "Die Dichte lässt sich ohne Waage nicht bestimmen, also kann man nichts schliessen."
+      ],
+      "richtig": 0,
+      "erklaerung": "A hat 27 : 10 = 2,7 g/cm³, B hat 79 : 10 = 7,9 g/cm³. Die Dichte hängt nicht von der Grösse ab, sondern vom Stoff – verschiedene Dichten heissen also verschiedene Stoffe. *Ergänzt:* A passt zu Aluminium, B zu Eisen.",
+      "schwierigkeit": 3
+    }
+  ]
+}

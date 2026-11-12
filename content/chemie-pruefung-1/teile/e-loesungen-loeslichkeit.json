@@ -1,0 +1,861 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-loeslichkeit",
+      "zusammenfassung": "Gibst du Zucker in Wasser, verschwindet er scheinbar – er hat sich **gelöst**. Zucker ist der **gelöste Stoff**, Wasser das **Lösungsmittel**, Zuckerwasser die **Lösung**.\n\n### Was ist die Löslichkeit?\nDie **Löslichkeit** gibt an, **wie viel Gramm eines Stoffes sich höchstens in 100 g Wasser lösen**. Sie ist für jeden Stoff anders:\n\n| Stoff (bei 20 °C) | Löslichkeit in g pro 100 g Wasser |\n|---|---|\n| Zucker | 203,9 |\n| Kochsalz | 35,88 |\n| Kaliumnitrat | 31,66 |\n| Gips | 0,20 |\n| Sauerstoff | 0,0043 |\n\n- **leicht löslich:** Zucker, Kochsalz\n- **schwer löslich:** Gips, Kalk\n- **unlöslich:** Sand, Schwefel\n\n**Rühren** lässt Zucker nur **schneller** lösen – die Löslichkeit (die Höchstmenge) bleibt **gleich**.\n\n### Abhängigkeit von der Temperatur\n- **Feststoffe** lösen sich **meist in warmem Wasser besser**. Kaliumnitrat: bei 20 °C ≈ 32 g, bei 40 °C ≈ 65 g, bei 60 °C ≈ 108 g. Alaun steigt ab etwa 50 °C sehr steil.\n- **Kochsalz (Natriumchlorid)** ist die Ausnahme: Seine Löslichkeit hängt **kaum** von der Temperatur ab (≈ 36–38 g).\n- **Gase** verhalten sich **umgekehrt**: Sie lösen sich in **kaltem** Wasser besser (siehe Lernziel zu den Gasen).\n\n### Löslichkeitskurven lesen\nTemperatur auf der x-Achse suchen → senkrecht hoch bis zur Kurve → waagrecht nach links zur y-Achse. Je **steiler** die Kurve, desto stärker hängt die Löslichkeit von der Temperatur ab; eine fast **waagrechte** Kurve (Kochsalz) heisst: kaum abhängig. Wo sich zwei Kurven schneiden, lösen sich beide Stoffe gleich gut (Kaliumnitrat und Natriumchlorid bei ≈ 23 °C).\n\n### Mischbarkeit mit dem Teilchenmodell\nAlkohol und Wasser sind **mischbar**, Öl und Wasser **nicht** (es bilden sich zwei Schichten). Zwischen allen Teilchen wirken Anziehungskräfte:\n- Ziehen sich **gleiche Teilchen deutlich stärker an als verschiedene**, bleiben sie «unter sich» → **nicht mischbar** (Öl und Wasser).\n- Sind die Kräfte zwischen gleichen und verschiedenen Teilchen **ähnlich stark**, verteilen sich die Teilchen gleichmässig → **mischbar** (Alkohol und Wasser).\n\n> **Merke:** Die Löslichkeit gibt an, wie viel Gramm eines Stoffes sich höchstens in 100 g Wasser lösen. Feststoffe lösen sich meist in warmem Wasser besser (Kochsalz kaum), Gase dagegen in kaltem.",
+      "merksaetze": [
+        "Löslichkeit = wie viel Gramm eines Stoffes sich höchstens in 100 g Wasser lösen (bei einer bestimmten Temperatur); Rühren beschleunigt nur das Lösen.",
+        "Feststoffe lösen sich meist in warmem Wasser besser (Kaliumnitrat stark), bei Kochsalz ändert sich die Löslichkeit kaum; Gase lösen sich in kaltem Wasser besser.",
+        "Leicht löslich: Zucker, Kochsalz – schwer löslich: Gips, Kalk – unlöslich: Sand, Schwefel.",
+        "Ziehen sich gleiche Teilchen viel stärker an als verschiedene, sind zwei Flüssigkeiten nicht mischbar (Öl/Wasser); bei ähnlich starken Kräften sind sie mischbar (Alkohol/Wasser)."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/chemie/loeslichkeitskurven.svg",
+          "alt": "Löslichkeitskurven von 0 bis 80 °C, Löslichkeit in g pro 100 g Wasser von 0 bis 120: Natriumchlorid fast waagrecht bei etwa 36 bis 38 g; Kaliumnitrat steigt von 13 g bei 0 °C auf 65 g bei 40 °C und 108 g bei 60 °C; Alaun steigt zuerst langsam und ab 50 °C sehr steil",
+          "legende": "Löslichkeitskurven von Natriumchlorid, Kaliumnitrat und Alaun (vgl. Elemente S. 36–38)"
+        }
+      ]
+    },
+    {
+      "id": "lz-gesaettigt",
+      "zusammenfassung": "### Gesättigte Lösung und Bodenkörper\n- **Gesättigt** ist eine Lösung, in der sich **bei dieser Temperatur nichts mehr** vom Stoff auflöst.\n- **Bodenkörper** = ungelöster Rest eines Feststoffs am Gefässboden.\n- Gibst du **mehr Wasser** dazu, löst sich wieder etwas vom Bodenkörper.\n\n**Prüfen, ob eine Lösung gesättigt ist:** Etwas vom Stoff dazugeben. Löst er sich nicht mehr auf (Bodenkörper bleibt), ist die Lösung gesättigt.\n\n### Zu viel Stoff im Glas\nBeispiel aus dem Übungstest: **50 g Kaliumnitrat** in 100 g Wasser von 20 °C. Bei 20 °C lösen sich höchstens **32 g**, also bleiben **50 g − 32 g = 18 g** als Bodenkörper liegen. Erwärmst du auf 60 °C, löst sich der Rest vollständig: Bei 60 °C lösen sich bis **110 g** – mehr als die 50 g im Glas. Rechne mit den Werten aus der Aufgabe (im Diagramm liest du bei 60 °C etwa 108 g ab).\n\n### Rechnen mit der Wassermenge\nDie Löslichkeit gilt für **100 g Wasser**, für andere Wassermengen rechnest du im gleichen Verhältnis:\n\n| Wasser | Kaliumnitrat bei 40 °C (65 g pro 100 g) |\n|---|---|\n| 100 g | 65 g |\n| 50 g (Hälfte) | 65 g : 2 = 32,5 g |\n| 200 g (Doppelte) | 65 g · 2 = 130 g |\n\n### Auskristallisieren beim Abkühlen\nKühlt man eine heisse gesättigte Lösung ab, sinkt die Löslichkeit. Was zu viel ist, bildet **Kristalle** (regelmässig geformte Feststoffe mit glatten Flächen). Rechnung: Wert bei hoher Temperatur − Wert bei tiefer Temperatur.\n\n| Alaun | 20 °C | 30 °C | 40 °C | 50 °C | 60 °C | 70 °C | 80 °C |\n|---|---|---|---|---|---|---|---|\n| g pro 100 g Wasser | 12,0 | 18,5 | 25,0 | 36,8 | 58,5 | 94,4 | 195,0 |\n\nBeispiel: von 70 °C auf 30 °C → 94,4 g − 18,5 g = **75,9 g** Alaun kristallisieren aus.\n\n### Typische Fallen\nGelöstes Salz ist **nicht verschwunden** (Salzwasser schmeckt salzig), die **Masse bleibt gleich** (100 g Wasser + 10 g Salz = 110 g Lösung), und ein **Filter** hält es nicht zurück (*ergänzt:* zurückgewinnen durch Eindampfen).\n\n> **Merke:** Gesättigt = bei dieser Temperatur löst sich nichts mehr. Beim Abkühlen kristallisiert die Differenz der beiden Löslichkeiten aus.",
+      "merksaetze": [
+        "Gesättigte Lösung: Bei dieser Temperatur löst sich nichts mehr vom Stoff; der Rest bleibt als Bodenkörper liegen.",
+        "Mehr Stoff als die Löslichkeit: Menge im Glas − Löslichkeit = ungelöster Rest; Erwärmen löst ihn, wenn die Löslichkeit dann grösser ist als die Menge im Glas.",
+        "Halbe Wassermenge → halbe Menge löst sich; doppelte Wassermenge → doppelte Menge.",
+        "Beim Abkühlen kristallisiert aus: Löslichkeit (warm) − Löslichkeit (kalt), z. B. Alaun 70 °C → 30 °C: 94,4 g − 18,5 g = 75,9 g."
+      ]
+    },
+    {
+      "id": "lz-gase",
+      "zusammenfassung": "Auch **Gase** lösen sich in Wasser: Fische atmen den im Wasser gelösten **Sauerstoff (O₂)**, im Mineralwasser ist **Kohlenstoffdioxid (CO₂)** gelöst. Sauerstoff löst sich aber nur schlecht: Bei 20 °C lösen sich nur **0,0043 g** in 100 g Wasser (Kochsalz: 35,88 g).\n\n### Temperatur und Druck\n| | löst mehr Gas | löst weniger Gas |\n|---|---|---|\n| Temperatur | **kaltes** Wasser | **warmes** Wasser |\n| Druck | **hoher** Druck | **tiefer** Druck |\n\nBei Gasen ist es also umgekehrt als bei den meisten Feststoffen: Gase lösen sich in **kaltem** Wasser besser.\n\n*Ergänzt – Begründung mit dem Teilchenmodell:* In warmem Wasser bewegen sich die Teilchen schneller. Die Gasteilchen können dadurch leichter aus dem Wasser entweichen.\n\n### Beispiele aus dem Alltag\n- **Fischsterben im heissen Sommer:** Fische atmen den Sauerstoff, der im Wasser gelöst ist. Wenn das Wasser im Sommer warm wird, kann sich weniger Sauerstoff darin lösen. Deshalb bekommen die Fische zu wenig Sauerstoff und können sterben.\n- **Fische schwimmen im Sommer tiefer:** Tiefer unten ist das Wasser kälter – dort ist mehr Sauerstoff gelöst.\n- **Mineralwasser öffnen:** Beim Öffnen sinkt der Druck und das Kohlenstoffdioxid entweicht als Bläschen.\n- **Wasser erwärmen:** Lange vor dem Kochen bilden sich kleine Bläschen am Topfboden. Das ist **gelöste Luft**, die entweicht – **nicht** Wasserdampf.\n\n> **Merke:** Gase lösen sich in kaltem Wasser und bei hohem Druck besser. Warmes Wasser enthält weniger Sauerstoff – darum wird es für Fische im Sommer knapp.",
+      "merksaetze": [
+        "Gase lösen sich in kaltem Wasser besser als in warmem (umgekehrt als die meisten Feststoffe).",
+        "Bei höherem Druck löst sich mehr Gas; sinkt der Druck (Mineralwasser öffnen), entweicht CO₂ als Bläschen.",
+        "Im heissen Sommer enthält das Wasser weniger Sauerstoff – Fische bekommen zu wenig Sauerstoff und können sterben.",
+        "Bläschen beim Erwärmen vor dem Kochen sind gelöste Luft, nicht Wasserdampf."
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-loes-02",
+      "lernzielId": "lz-loeslichkeit",
+      "typ": "zuordnen",
+      "frage": "Du löst Kochsalz in Wasser und erhältst Salzwasser. Ordne die Fachbegriffe zu.",
+      "paare": [
+        {
+          "links": "Kochsalz",
+          "rechts": "gelöster Stoff"
+        },
+        {
+          "links": "Wasser",
+          "rechts": "Lösungsmittel"
+        },
+        {
+          "links": "Salzwasser",
+          "rechts": "Lösung"
+        }
+      ],
+      "erklaerung": "Der Stoff, der sich auflöst, ist der **gelöste Stoff** (Kochsalz). Die Flüssigkeit, in der er sich löst, ist das **Lösungsmittel** (Wasser). Zusammen ergeben sie die **Lösung** (Salzwasser) – genau wie beim Zuckerwasser.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-loes-05",
+      "lernzielId": "lz-loeslichkeit",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aussagen zur **Löslichkeit** stimmen? Kreuze alle richtigen Aussagen an.",
+      "optionen": [
+        "Sie gibt an, wie viel Gramm eines Stoffes sich höchstens in 100 g Wasser lösen.",
+        "Sie ist bei allen Stoffen gleich gross.",
+        "Sie hängt meistens von der Temperatur ab.",
+        "Sie gibt an, wie viele Minuten ein Stoff zum Auflösen braucht.",
+        "Durch Rühren ändert sie sich nicht."
+      ],
+      "richtig": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "Die Löslichkeit ist die **Höchstmenge in Gramm pro 100 g Wasser**. Sie ist **für jeden Stoff verschieden** (Zucker 203,9 g, Gips nur 0,20 g bei 20 °C) und hängt **meistens von der Temperatur** ab. Die Zeit zum Auflösen ist etwas anderes: Rühren macht das Lösen schneller, die Löslichkeit bleibt gleich.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-loes-06",
+      "lernzielId": "lz-loeslichkeit",
+      "typ": "einfachwahl",
+      "frage": "Du schüttelst Speiseöl kräftig mit Wasser und lässt das Glas dann stehen. Was beobachtest du nach einiger Zeit?",
+      "optionen": [
+        "Es entsteht eine klare, einheitliche Lösung.",
+        "Das Öl löst sich vollständig, wenn man lange genug schüttelt.",
+        "Es bilden sich wieder zwei Schichten, das Öl schwimmt oben.",
+        "Das Wasser löst sich im Öl auf und verschwindet."
+      ],
+      "richtig": 2,
+      "erklaerung": "Öl und Wasser sind **nicht mischbar**: Auch nach kräftigem Schütteln trennen sie sich wieder in zwei Schichten (das leichtere Öl oben). Alkohol und Wasser dagegen sind mischbar und bilden eine einheitliche Lösung.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-loes-08",
+      "lernzielId": "lz-loeslichkeit",
+      "typ": "einfachwahl",
+      "frage": "Welcher **Feststoff** löst sich bei 20 °C am schlechtesten in Wasser?\n\n| Stoff | Löslichkeit bei 20 °C (g pro 100 g Wasser) |\n|---|---|\n| Zucker | 203,9 |\n| Kochsalz | 35,88 |\n| Kaliumnitrat | 31,66 |\n| Gips | 0,20 |",
+      "optionen": [
+        "Zucker",
+        "Kochsalz",
+        "Kaliumnitrat",
+        "Gips"
+      ],
+      "richtig": 3,
+      "erklaerung": "**Gips** hat mit **0,20 g** pro 100 g Wasser die kleinste Löslichkeit: Er ist schwer löslich. Zucker löst sich am besten (203,9 g – mehr als das Doppelte der Wassermasse).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-loes-09",
+      "lernzielId": "lz-loeslichkeit",
+      "typ": "reihenfolge",
+      "frage": "Ordne die Stoffe nach ihrer Löslichkeit in Wasser bei 20 °C – **beginne mit der grössten**.",
+      "elemente": [
+        "Zucker",
+        "Kochsalz",
+        "Kaliumnitrat",
+        "Gips",
+        "Sauerstoff"
+      ],
+      "erklaerung": "Werte bei 20 °C in g pro 100 g Wasser: **Zucker 203,9** > **Kochsalz 35,88** > **Kaliumnitrat 31,66** > **Gips 0,20** > **Sauerstoff 0,0043**. Achtung beim Vergleichen von Dezimalzahlen: 0,20 ist viel grösser als 0,0043.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-loes-11",
+      "lernzielId": "lz-loeslichkeit",
+      "typ": "zahl",
+      "frage": "Lies aus dem Diagramm ab: Wie viel Gramm **Kaliumnitrat** lösen sich bei **50 °C** höchstens in 100 g Wasser?",
+      "bild": {
+        "src": "bilder/chemie/loeslichkeitskurven.svg",
+        "alt": "Löslichkeitskurven von Natriumchlorid, Kaliumnitrat und Alaun zwischen 0 und 80 °C; Löslichkeit in g pro 100 g Wasser von 0 bis 120, Gitterlinien alle 10"
+      },
+      "richtig": 85,
+      "toleranz": 3,
+      "einheit": "g",
+      "erklaerung": "Bei 50 °C senkrecht hoch bis zur grünen Kaliumnitrat-Kurve, dann waagrecht nach links: etwa **85 g** pro 100 g Wasser (zwischen den Gitterlinien 80 und 90). Zum Vergleich: bei 40 °C sind es ≈ 65 g.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-loes-12",
+      "lernzielId": "lz-loeslichkeit",
+      "typ": "zahl",
+      "frage": "Lies aus dem Diagramm ab: Wie viel Gramm **Alaun** lösen sich bei **60 °C** höchstens in 100 g Wasser?",
+      "bild": {
+        "src": "bilder/chemie/loeslichkeitskurven.svg",
+        "alt": "Löslichkeitskurven von Natriumchlorid, Kaliumnitrat und Alaun zwischen 0 und 80 °C; Löslichkeit in g pro 100 g Wasser von 0 bis 120, Gitterlinien alle 10"
+      },
+      "richtig": 58.5,
+      "toleranz": 3,
+      "einheit": "g",
+      "erklaerung": "Die rote Alaun-Kurve liegt bei 60 °C knapp unter der Gitterlinie 60: etwa **58,5 g** (Tabellenwert). Abgelesen ist alles zwischen etwa 56 und 61 g in Ordnung.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-loes-13",
+      "lernzielId": "lz-loeslichkeit",
+      "typ": "kurzantwort",
+      "frage": "Bei welchem Stoff im Diagramm hängt die Löslichkeit **am wenigsten** von der Temperatur ab? Gib den Namen an.",
+      "bild": {
+        "src": "bilder/chemie/loeslichkeitskurven.svg",
+        "alt": "Löslichkeitskurven von Natriumchlorid, Kaliumnitrat und Alaun zwischen 0 und 80 °C; Löslichkeit in g pro 100 g Wasser von 0 bis 120, Gitterlinien alle 10"
+      },
+      "akzeptiert": [
+        "Natriumchlorid",
+        "Kochsalz",
+        "NaCl",
+        "Natriumchlorid (Kochsalz)",
+        "Salz"
+      ],
+      "erklaerung": "Die Kurve von **Natriumchlorid (Kochsalz)** verläuft **fast waagrecht** (≈ 36 g bei 0 °C, ≈ 38 g bei 80 °C). Kaliumnitrat und vor allem Alaun (ganz rechts sehr steil) hängen stark von der Temperatur ab.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-loes-14",
+      "lernzielId": "lz-loeslichkeit",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aussagen kannst du aus dem Diagramm herauslesen? Kreuze alle richtigen Aussagen an.",
+      "bild": {
+        "src": "bilder/chemie/loeslichkeitskurven.svg",
+        "alt": "Löslichkeitskurven von Natriumchlorid, Kaliumnitrat und Alaun zwischen 0 und 80 °C; Löslichkeit in g pro 100 g Wasser von 0 bis 120, Gitterlinien alle 10"
+      },
+      "optionen": [
+        "Bei 60 °C löst sich mehr Kaliumnitrat als bei 20 °C.",
+        "Die Löslichkeit von Natriumchlorid steigt mit der Temperatur stark an.",
+        "Bei 20 °C löst sich mehr Kaliumnitrat als Alaun.",
+        "Bei 70 °C löst sich mehr Alaun als Natriumchlorid.",
+        "Bei 10 °C löst sich mehr Kaliumnitrat als Natriumchlorid."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Kaliumnitrat: 20 °C ≈ 32 g, 60 °C ≈ 108 g → stimmt. Natriumchlorid bleibt fast waagrecht (≈ 36–38 g) → steigt **nicht** stark. Bei 20 °C: Kaliumnitrat ≈ 32 g, Alaun 12 g → stimmt. Bei 70 °C: Alaun 94,4 g, Natriumchlorid ≈ 37 g → stimmt. Bei 10 °C: Kaliumnitrat ≈ 21 g, Natriumchlorid ≈ 36 g → falsch, erst ab ≈ 23 °C liegt Kaliumnitrat höher.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-loes-15",
+      "lernzielId": "lz-loeslichkeit",
+      "typ": "zahl",
+      "frage": "Bei welcher Temperatur lösen sich **Kaliumnitrat und Natriumchlorid gleich gut**? Lies den Schnittpunkt der beiden Kurven ab.",
+      "bild": {
+        "src": "bilder/chemie/loeslichkeitskurven.svg",
+        "alt": "Löslichkeitskurven von Natriumchlorid, Kaliumnitrat und Alaun zwischen 0 und 80 °C; Löslichkeit in g pro 100 g Wasser von 0 bis 120, Gitterlinien alle 10"
+      },
+      "richtig": 23,
+      "toleranz": 3,
+      "einheit": "°C",
+      "erklaerung": "Die grüne Kaliumnitrat-Kurve schneidet die fast waagrechte Natriumchlorid-Kurve bei etwa **23 °C** (beide ≈ 36 g). Darunter löst sich mehr Natriumchlorid, darüber mehr Kaliumnitrat.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-loes-16",
+      "lernzielId": "lz-loeslichkeit",
+      "typ": "wahrfalsch",
+      "frage": "Bei 20 °C löst sich etwas mehr Kochsalz als Kaliumnitrat in Wasser – bei 60 °C ist es umgekehrt, dann löst sich viel mehr Kaliumnitrat.",
+      "bild": {
+        "src": "bilder/chemie/loeslichkeitskurven.svg",
+        "alt": "Löslichkeitskurven von Natriumchlorid, Kaliumnitrat und Alaun zwischen 0 und 80 °C; Löslichkeit in g pro 100 g Wasser von 0 bis 120, Gitterlinien alle 10"
+      },
+      "richtig": true,
+      "erklaerung": "Bei 20 °C: Kochsalz 35,88 g, Kaliumnitrat 31,66 g. Bei 60 °C: Kochsalz ≈ 37 g, Kaliumnitrat ≈ 108 g. Die Reihenfolge kehrt sich am Schnittpunkt bei ≈ 23 °C um. Eine Löslichkeit gilt deshalb immer nur für eine bestimmte Temperatur.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-loes-17",
+      "lernzielId": "lz-loeslichkeit",
+      "typ": "offen",
+      "frage": "Erkläre den Begriff **Löslichkeit** mit eigenen Worten und am Beispiel: «Die Löslichkeit von Kochsalz bei 20 °C beträgt 35,88 g.»",
+      "musterloesung": "Die Löslichkeit gibt an, wie viel Gramm eines Stoffes sich höchstens in 100 g Wasser lösen. Bei 20 °C lösen sich also höchstens 35,88 g Kochsalz in 100 g Wasser. Gibt man mehr dazu, löst sich der Rest nicht mehr und bleibt als Bodenkörper liegen. Die Löslichkeit ist für jeden Stoff anders und hängt meistens von der Temperatur ab.",
+      "stichworte": [
+        "höchstens",
+        "Gramm",
+        "100 g Wasser",
+        "Temperatur",
+        "Bodenkörper"
+      ],
+      "erklaerung": "Wichtig sind drei Teile: **Höchstmenge** in Gramm, bezogen auf **100 g Wasser**, bei einer bestimmten **Temperatur**. Wer nur «wie gut sich ein Stoff löst» schreibt, hat die Definition nicht vollständig.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-loes-18",
+      "lernzielId": "lz-loeslichkeit",
+      "typ": "offen",
+      "frage": "Du willst möglichst viel Zucker in einem Glas Tee lösen. Deine Kollegin sagt: «Rühr einfach lange genug, dann löst sich beliebig viel.» Nimm Stellung: Was hilft wirklich, um **mehr** Zucker zu lösen, und was bewirkt das Rühren?",
+      "musterloesung": "Rühren lässt den Zucker nur schneller lösen, die Löslichkeit (Höchstmenge) ändert es nicht. Ist die Lösung gesättigt, bleibt der Rest als Bodenkörper liegen, egal wie lange man rührt. Mehr Zucker löst sich in heissem Tee, weil sich Feststoffe meist in warmem Wasser besser lösen, oder in mehr Flüssigkeit.",
+      "stichworte": [
+        "Rühren",
+        "schneller",
+        "Löslichkeit bleibt gleich",
+        "warm",
+        "mehr Wasser"
+      ],
+      "erklaerung": "Die Aussage ist falsch: Rühren beschleunigt nur das Lösen. Mehr löst sich nur bei **höherer Temperatur** (bei Feststoffen meist) oder in **mehr Lösungsmittel**.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-loes-19",
+      "lernzielId": "lz-loeslichkeit",
+      "typ": "zuordnen",
+      "frage": "Wie gut lösen sich diese Stoffe in Wasser? Ordne zu.",
+      "paare": [
+        {
+          "links": "Zucker",
+          "rechts": "leicht löslich"
+        },
+        {
+          "links": "Kochsalz",
+          "rechts": "leicht löslich"
+        },
+        {
+          "links": "Gips",
+          "rechts": "schwer löslich"
+        },
+        {
+          "links": "Kalk",
+          "rechts": "schwer löslich"
+        },
+        {
+          "links": "Sand",
+          "rechts": "unlöslich"
+        },
+        {
+          "links": "Schwefel",
+          "rechts": "unlöslich"
+        }
+      ],
+      "erklaerung": "**Leicht löslich** sind Zucker (203,9 g) und Kochsalz (35,88 g pro 100 g Wasser bei 20 °C). **Schwer löslich** sind Gips (nur 0,20 g) und Kalk – davon löst sich nur sehr wenig. Sand und Schwefel sind **unlöslich**: Sie bleiben im Wasser als Feststoff liegen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-loes-20",
+      "lernzielId": "lz-loeslichkeit",
+      "typ": "offen",
+      "frage": "Alkohol und Wasser lassen sich mischen, Öl und Wasser nicht. Erkläre das mit dem **Teilchenmodell** in ganzen Sätzen.",
+      "musterloesung": "Zwischen den Teilchen wirken Anziehungskräfte. Bei Öl und Wasser ziehen sich die gleichen Teilchen (Wasser mit Wasser, Öl mit Öl) deutlich stärker an als die verschiedenen Teilchen (Öl mit Wasser). Die Teilchen bleiben deshalb unter sich, und es bilden sich zwei Schichten: Öl und Wasser sind nicht mischbar. Bei Alkohol und Wasser sind die Anziehungskräfte zwischen gleichen und verschiedenen Teilchen ähnlich stark. Die Teilchen verteilen sich durch ihre Bewegung gleichmässig: Alkohol und Wasser sind mischbar.",
+      "stichworte": [
+        "Anziehungskräfte",
+        "gleiche Teilchen ziehen sich stärker an",
+        "bleiben unter sich",
+        "ähnlich starke Kräfte",
+        "verteilen sich gleichmässig"
+      ],
+      "erklaerung": "Entscheidend ist der **Vergleich der Anziehungskräfte**: gleiche Teilchen viel stärker als verschiedene → nicht mischbar; ähnlich stark → mischbar. Wer nur «Öl ist leichter» schreibt, beschreibt die Schichten, erklärt aber nicht, warum sie sich nicht mischen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-loes-21",
+      "lernzielId": "lz-loeslichkeit",
+      "typ": "mehrfachwahl",
+      "frage": "Wie hängt die Löslichkeit von der **Temperatur** ab? Kreuze alle richtigen Aussagen an.",
+      "optionen": [
+        "Gase lösen sich in warmem Wasser besser als in kaltem.",
+        "Die meisten Feststoffe lösen sich in warmem Wasser besser als in kaltem.",
+        "Die Löslichkeit von Kochsalz hängt kaum von der Temperatur ab.",
+        "Bei allen Feststoffen steigt die Löslichkeit gleich stark mit der Temperatur.",
+        "In heissem Wasser löst sich mehr Kaliumnitrat als in kaltem."
+      ],
+      "richtig": [
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "Feststoffe lösen sich **meist** in warmem Wasser besser – Kaliumnitrat stark (20 °C ≈ 32 g, 60 °C ≈ 108 g), Kochsalz kaum (≈ 36–38 g). Die Kurven sind also verschieden steil. **Gase** verhalten sich umgekehrt: Sie lösen sich in **kaltem** Wasser besser.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-loes-22",
+      "lernzielId": "lz-loeslichkeit",
+      "typ": "offen",
+      "frage": "Beschreibe, wie die Löslichkeit von **Kaliumnitrat**, von **Kochsalz** und von **Sauerstoff** von der Temperatur abhängt. Nutze für die beiden Feststoffe Werte aus dem Diagramm.",
+      "bild": {
+        "src": "bilder/chemie/loeslichkeitskurven.svg",
+        "alt": "Löslichkeitskurven von Natriumchlorid, Kaliumnitrat und Alaun zwischen 0 und 80 °C"
+      },
+      "musterloesung": "Kaliumnitrat löst sich in warmem Wasser viel besser als in kaltem: Bei 20 °C lösen sich etwa 32 g, bei 60 °C etwa 108 g in 100 g Wasser (steile Kurve). Bei Kochsalz hängt die Löslichkeit kaum von der Temperatur ab, sie bleibt bei etwa 36 bis 38 g (fast waagrechte Kurve). Bei Sauerstoff ist es umgekehrt: Wie alle Gase löst er sich in kaltem Wasser besser als in warmem.",
+      "stichworte": [
+        "Kaliumnitrat: warm viel besser",
+        "steile Kurve",
+        "Kochsalz: kaum abhängig",
+        "fast waagrecht",
+        "Sauerstoff: kalt besser"
+      ],
+      "erklaerung": "Drei verschiedene Fälle: **stark steigend** (Kaliumnitrat), **fast gleich bleibend** (Kochsalz) und **umgekehrt** (Gase wie Sauerstoff lösen sich kalt besser). Abgelesene Werte dürfen um einige Gramm abweichen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-loes-23",
+      "lernzielId": "lz-loeslichkeit",
+      "typ": "einfachwahl",
+      "frage": "Öl und Wasser mischen sich nicht. Wie erklärt das **Teilchenmodell** das?",
+      "optionen": [
+        "Die Ölteilchen sind zu gross, um in die Lücken zwischen den Wasserteilchen zu passen.",
+        "Gleiche Teilchen ziehen sich stärker an als Öl- und Wasserteilchen, darum bleiben sie unter sich.",
+        "Zwischen Öl- und Wasserteilchen gibt es keinen leeren Raum, in den sie sich schieben könnten.",
+        "Die Ölteilchen bewegen sich nicht, darum geraten sie nicht zwischen die Wasserteilchen."
+      ],
+      "richtig": 1,
+      "erklaerung": "Wasserteilchen ziehen sich untereinander (und Ölteilchen untereinander) **viel stärker an** als ein Wasser- und ein Ölteilchen. Darum bleiben die Teilchen «unter sich» und es bilden sich zwei Schichten. Alle Teilchen sind ständig in Bewegung, und zwischen allen Teilchen ist leerer Raum.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ges-01",
+      "lernzielId": "lz-gesaettigt",
+      "typ": "einfachwahl",
+      "frage": "Wann nennt man eine Lösung **gesättigt**?",
+      "optionen": [
+        "wenn sie mehr gelösten Stoff als Wasser enthält",
+        "wenn sie klar und durchsichtig ist",
+        "wenn sich bei dieser Temperatur nichts mehr vom Stoff darin auflöst",
+        "wenn sie gekocht wurde und abgekühlt ist"
+      ],
+      "richtig": 2,
+      "erklaerung": "**Gesättigt** ist eine Lösung, in der sich **bei gleicher Temperatur nichts mehr** vom Stoff auflöst. Wie viel das ist, hängt vom Stoff ab: Eine bei 20 °C gesättigte Gipslösung enthält nur 0,20 g Gips pro 100 g Wasser.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ges-02",
+      "lernzielId": "lz-gesaettigt",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst der ungelöste Rest eines Feststoffs, der am Boden des Gefässes liegen bleibt, wenn sich nichts mehr löst?",
+      "akzeptiert": [
+        "Bodenkörper",
+        "Bodenkoerper",
+        "der Bodenkörper",
+        "Bodenkörpers"
+      ],
+      "erklaerung": "Das ist der **Bodenkörper**. Liegt ein Bodenkörper in der Lösung, ist sie gesättigt.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ges-03",
+      "lernzielId": "lz-gesaettigt",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aussagen über eine **gesättigte Lösung** stimmen? Kreuze alle richtigen Aussagen an.",
+      "optionen": [
+        "Bei dieser Temperatur löst sich nichts mehr vom Stoff darin.",
+        "Sie ist immer farbig.",
+        "Am Boden kann ein Bodenkörper liegen.",
+        "Gibt man mehr Wasser dazu, löst sich wieder etwas vom Stoff.",
+        "Von jedem Stoff ist darin gleich viel gelöst."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Gesättigt heisst: **Es löst sich nichts mehr**, der Rest bleibt als **Bodenkörper** liegen. Mit **mehr Wasser** löst sich wieder etwas, weil die Löslichkeit pro 100 g Wasser gilt. Die Farbe hängt vom Stoff ab (Salzwasser ist farblos), und wie viel gelöst ist, ebenfalls (Gips: nur 0,20 g pro 100 g Wasser).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ges-04",
+      "lernzielId": "lz-gesaettigt",
+      "typ": "einfachwahl",
+      "frage": "Du hast eine klare Zuckerlösung. Wie findest du heraus, ob sie **gesättigt** ist?",
+      "optionen": [
+        "Ich koste sie: Ist sie sehr süss, ist sie gesättigt.",
+        "Ich filtere sie: Bleibt Zucker im Filter, ist sie gesättigt.",
+        "Ich erhitze sie: Kocht sie, ist sie gesättigt.",
+        "Ich gebe etwas Zucker dazu: Bleibt er als Bodenkörper liegen, ist sie gesättigt."
+      ],
+      "richtig": 3,
+      "erklaerung": "Man gibt **etwas vom Stoff dazu**. Löst er sich nicht mehr (Bodenkörper bleibt), ist die Lösung gesättigt; löst er sich noch, war sie es nicht. Der Geschmack sagt nichts Genaues, und ein Filter hält gelösten Zucker nicht zurück.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ges-05",
+      "lernzielId": "lz-gesaettigt",
+      "typ": "zahl",
+      "frage": "Bei 40 °C lösen sich **65 g Kaliumnitrat** in 100 g Wasser. Wie viel Gramm Kaliumnitrat lösen sich bei 40 °C höchstens in **200 g Wasser**?",
+      "richtig": 130,
+      "einheit": "g",
+      "erklaerung": "Doppelte Wassermenge → doppelte Menge: 65 g · 2 = **130 g**. Die Löslichkeit gilt immer für 100 g Wasser.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ges-07",
+      "lernzielId": "lz-gesaettigt",
+      "typ": "zahl",
+      "frage": "Lies im Diagramm die Löslichkeit von **Kaliumnitrat bei 50 °C** ab. Wie viel Gramm Kaliumnitrat lösen sich dann höchstens in **25 g Wasser**?",
+      "bild": {
+        "src": "bilder/chemie/loeslichkeitskurven.svg",
+        "alt": "Löslichkeitskurven von Natriumchlorid, Kaliumnitrat und Alaun zwischen 0 und 80 °C; Löslichkeit in g pro 100 g Wasser von 0 bis 120, Gitterlinien alle 10"
+      },
+      "richtig": 21.25,
+      "toleranz": 1.25,
+      "einheit": "g",
+      "erklaerung": "Abgelesen: ≈ **85 g** pro 100 g Wasser. 25 g Wasser ist ein Viertel davon: 85 g : 4 = **21,25 g** (rechne 85 : 2 = 42,5 und nochmals : 2 = 21,25). Wegen des Ablesens sind Werte zwischen 20 und 22,5 g in Ordnung.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ges-08",
+      "lernzielId": "lz-gesaettigt",
+      "typ": "zahl",
+      "frage": "Eine bei **60 °C** gesättigte Alaunlösung mit 100 g Wasser wird auf **20 °C** abgekühlt. Wie viel Gramm Alaun kristallisieren aus?\n\n| Temperatur | 20 °C | 40 °C | 60 °C | 80 °C |\n|---|---|---|---|---|\n| Alaun (g pro 100 g Wasser) | 12,0 | 25,0 | 58,5 | 195,0 |",
+      "richtig": 46.5,
+      "toleranz": 0.01,
+      "einheit": "g",
+      "erklaerung": "Bei 60 °C sind 58,5 g gelöst, bei 20 °C bleiben nur 12,0 g gelöst. Der Rest kristallisiert aus: 58,5 g − 12,0 g = **46,5 g**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ges-09",
+      "lernzielId": "lz-gesaettigt",
+      "typ": "zahl",
+      "frage": "Eine bei **80 °C** gesättigte Alaunlösung enthält nur **50 g Wasser**. Sie wird auf **40 °C** abgekühlt. Wie viel Gramm Alaun kristallisieren aus?\n\n| Temperatur | 20 °C | 40 °C | 60 °C | 80 °C |\n|---|---|---|---|---|\n| Alaun (g pro 100 g Wasser) | 12,0 | 25,0 | 58,5 | 195,0 |",
+      "richtig": 85,
+      "toleranz": 0.01,
+      "einheit": "g",
+      "erklaerung": "Für 100 g Wasser: 195,0 g − 25,0 g = 170 g. Es sind aber nur 50 g Wasser, also die Hälfte: 170 g : 2 = **85 g**. (Oder zuerst halbieren: 97,5 g − 12,5 g = 85 g.)",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-ges-10",
+      "lernzielId": "lz-gesaettigt",
+      "typ": "reihenfolge",
+      "frage": "Du willst Alaun-**Kristalle** wachsen lassen. Bringe die Schritte in die richtige Reihenfolge.",
+      "elemente": [
+        "Wasser erwärmen",
+        "So viel Alaun einrühren, bis sich nichts mehr löst (heisse gesättigte Lösung)",
+        "Die Lösung langsam abkühlen lassen",
+        "Die Löslichkeit sinkt, der überschüssige Alaun kristallisiert aus"
+      ],
+      "erklaerung": "In heissem Wasser löst sich viel mehr Alaun. Kühlt die **heisse gesättigte Lösung** langsam ab, sinkt die Löslichkeit, und was zu viel ist, bildet **Kristalle** – regelmässig geformte Feststoffe mit glatten Flächen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ges-11",
+      "lernzielId": "lz-gesaettigt",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst ein regelmässig geformter Feststoff mit glatten Flächen, der z. B. beim langsamen Abkühlen einer heissen Salzlösung wächst?",
+      "akzeptiert": [
+        "Kristall",
+        "Kristalle",
+        "der Kristall",
+        "ein Kristall"
+      ],
+      "erklaerung": "Das ist ein **Kristall**. Kristalle wachsen, wenn eine heisse gesättigte Lösung langsam abkühlt und sich der überschüssige Stoff regelmässig anordnet.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ges-13",
+      "lernzielId": "lz-gesaettigt",
+      "typ": "einfachwahl",
+      "frage": "Du löst **15 g Zucker** vollständig in **200 g Wasser**. Wie schwer ist die Lösung?",
+      "optionen": [
+        "200 g, weil der Zucker verschwindet",
+        "215 g",
+        "weniger als 215 g, weil sich der Zucker auflöst",
+        "mehr als 215 g, weil eine neue Flüssigkeit entsteht"
+      ],
+      "richtig": 1,
+      "erklaerung": "Beim Lösen geht nichts verloren und es kommt nichts dazu: Die **Masse bleibt gleich**. 200 g Wasser + 15 g Zucker = **215 g** Lösung.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ges-14",
+      "lernzielId": "lz-gesaettigt",
+      "typ": "wahrfalsch",
+      "frage": "Mit einem Kaffeefilter kannst du das gelöste Kochsalz wieder aus dem Salzwasser abtrennen.",
+      "richtig": false,
+      "erklaerung": "Ein Filter hält nur ungelöste Teilchen zurück, z. B. einen Bodenkörper. **Gelöstes Salz geht durch den Filter.** Zurückgewinnen kann man es durch Eindampfen (das Wasser verdunsten lassen).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ges-15",
+      "lernzielId": "lz-gesaettigt",
+      "typ": "einfachwahl",
+      "frage": "Du gibst bei 20 °C **50 g Kaliumnitrat** in 100 g Wasser und rührst gut. Die Löslichkeit beträgt bei 20 °C rund 32 g. Was passiert?",
+      "optionen": [
+        "Rund 32 g lösen sich, rund 18 g bleiben als Bodenkörper liegen.",
+        "Alles löst sich, wenn man lange genug rührt.",
+        "Nichts löst sich, weil zu viel Kaliumnitrat im Wasser ist.",
+        "Alles löst sich, die Lösung ist danach ungesättigt."
+      ],
+      "richtig": 0,
+      "erklaerung": "Höchstens **32 g** lösen sich in 100 g Wasser bei 20 °C. Der Rest, 50 g − 32 g = **18 g**, bleibt als **Bodenkörper** liegen; die Lösung ist gesättigt. Längeres Rühren ändert daran nichts.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-ges-16",
+      "lernzielId": "lz-gesaettigt",
+      "typ": "einfachwahl",
+      "frage": "Zwei bei **60 °C** gesättigte Lösungen mit je 100 g Wasser werden auf **20 °C** abgekühlt: eine Kochsalzlösung (Natriumchlorid) und eine Kaliumnitratlösung. Was beobachtest du?",
+      "bild": {
+        "src": "bilder/chemie/loeslichkeitskurven.svg",
+        "alt": "Löslichkeitskurven von Natriumchlorid, Kaliumnitrat und Alaun zwischen 0 und 80 °C; Löslichkeit in g pro 100 g Wasser von 0 bis 120, Gitterlinien alle 10"
+      },
+      "optionen": [
+        "In beiden Gläsern bilden sich etwa gleich viele Kristalle.",
+        "Im Kochsalz-Glas bilden sich viele Kristalle, im Kaliumnitrat-Glas kaum welche.",
+        "In keinem Glas bilden sich Kristalle, weil beide gesättigt waren.",
+        "Im Kaliumnitrat-Glas bilden sich viele Kristalle, im Kochsalz-Glas kaum welche."
+      ],
+      "richtig": 3,
+      "erklaerung": "Kaliumnitrat: ≈ 108 g − ≈ 32 g = **≈ 76 g** kristallisieren aus. Natriumchlorid: Die Kurve ist fast waagrecht, ≈ 37 g − ≈ 36 g ≈ **1 g**. Je steiler die Kurve, desto mehr kristallisiert beim Abkühlen aus.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-ges-17",
+      "lernzielId": "lz-gesaettigt",
+      "typ": "offen",
+      "frage": "Eine bei **60 °C** gesättigte Kaliumnitratlösung mit 100 g Wasser wird auf **20 °C** abgekühlt. Berechne mit Werten aus dem Diagramm, wie viel Kaliumnitrat auskristallisiert, und erkläre, warum das passiert.",
+      "bild": {
+        "src": "bilder/chemie/loeslichkeitskurven.svg",
+        "alt": "Löslichkeitskurven von Natriumchlorid, Kaliumnitrat und Alaun zwischen 0 und 80 °C; Löslichkeit in g pro 100 g Wasser von 0 bis 120, Gitterlinien alle 10"
+      },
+      "musterloesung": "Bei 60 °C sind etwa 108 g Kaliumnitrat in 100 g Wasser gelöst. Bei 20 °C lösen sich nur noch etwa 32 g. 108 g − 32 g = 76 g Kaliumnitrat kristallisieren aus. Grund: Die Löslichkeit von Kaliumnitrat sinkt beim Abkühlen stark; was nicht mehr gelöst bleiben kann, bildet Kristalle.",
+      "stichworte": [
+        "108 g",
+        "32 g",
+        "76 g",
+        "Löslichkeit sinkt",
+        "Kristalle"
+      ],
+      "erklaerung": "Vorgehen wie bei der Alaun-Aufgabe: **Wert bei hoher Temperatur − Wert bei tiefer Temperatur**. Weil die Werte abgelesen sind, ist ein Ergebnis von etwa 73 bis 79 g in Ordnung.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ges-18",
+      "lernzielId": "lz-gesaettigt",
+      "typ": "offen",
+      "frage": "In einem Glas liegt unter einer gesättigten **Kochsalzlösung** ein Bodenkörper aus Salz. Jemand will ihn auflösen, indem er das Glas von 20 °C auf 60 °C erwärmt. Ist das eine gute Idee? Was würdest du stattdessen tun? Begründe.",
+      "musterloesung": "Erwärmen bringt bei Kochsalz kaum etwas, weil seine Löslichkeit fast nicht von der Temperatur abhängt (Kurve fast waagrecht: etwa 36 g bei 20 °C, etwa 37 g bei 60 °C). Besser gibt man mehr Wasser dazu: Die Löslichkeit gilt pro 100 g Wasser, mit mehr Wasser löst sich der Bodenkörper wieder.",
+      "stichworte": [
+        "Kochsalz",
+        "fast waagrecht",
+        "kaum temperaturabhängig",
+        "mehr Wasser"
+      ],
+      "erklaerung": "Die Regel «Feststoffe lösen sich in warmem Wasser besser» gilt nur **meistens**. Kochsalz ist die Ausnahme im Diagramm. Mehr **Wasser** hilft dagegen immer.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-ges-19",
+      "lernzielId": "lz-gesaettigt",
+      "typ": "zahl",
+      "frage": "Bei 20 °C lösen sich höchstens **32 g Kaliumnitrat** in 100 g Wasser, bei 40 °C höchstens **65 g**. Du gibst **70 g Kaliumnitrat** in 100 g Wasser von 20 °C und erwärmst dann auf **40 °C**. Wie viel Gramm Kaliumnitrat bleiben bei 40 °C noch ungelöst am Boden?",
+      "richtig": 5,
+      "einheit": "g",
+      "erklaerung": "Bei 20 °C lösen sich 32 g, 70 g − 32 g = 38 g liegen am Boden. Bei 40 °C lösen sich höchstens 65 g – weniger als die 70 g im Glas. Also bleiben 70 g − 65 g = **5 g** als Bodenkörper liegen, die Lösung ist auch bei 40 °C gesättigt. Erwärmen löst den Rest nur, wenn die Löslichkeit dann **grösser** ist als die Menge im Glas.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-ges-20",
+      "lernzielId": "lz-gesaettigt",
+      "typ": "offen",
+      "frage": "Du gibst **40 g Alaun** in 100 g Wasser von **20 °C** und rührst gut. Bei 20 °C lösen sich höchstens **12,0 g**, bei 60 °C höchstens **58,5 g** Alaun in 100 g Wasser.\n\na) Was beobachtest du bei 20 °C? Rechne.\n\nb) Du erwärmst das Glas auf 60 °C. Was passiert jetzt? Begründe.",
+      "musterloesung": "a) Bei 20 °C lösen sich nur 12 g Alaun in 100 g Wasser. 40 g − 12 g = 28 g bleiben ungelöst als Bodenkörper am Boden liegen; die Lösung ist gesättigt. b) Beim Erwärmen auf 60 °C löst sich der Rest vollständig auf, weil sich bei 60 °C bis zu 58,5 g Alaun lösen – mehr als die 40 g im Glas. Die Lösung ist dann nicht mehr gesättigt.",
+      "stichworte": [
+        "12 g lösen sich",
+        "28 g Bodenkörper",
+        "gesättigt",
+        "bei 60 °C bis 58,5 g",
+        "Rest löst sich vollständig"
+      ],
+      "erklaerung": "Gleiches Vorgehen wie im Übungstest: zuerst **Menge im Glas − Löslichkeit** = ungelöster Rest (40 g − 12 g = 28 g). Dann vergleichen: Ist die Löslichkeit bei der neuen Temperatur **grösser** als die Menge im Glas (58,5 g > 40 g), löst sich alles.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-gas-01",
+      "lernzielId": "lz-gase",
+      "typ": "einfachwahl",
+      "frage": "In welchem Wasser löst sich **Sauerstoff** besser?",
+      "optionen": [
+        "in warmem Wasser",
+        "in kaltem Wasser",
+        "Die Temperatur spielt bei Gasen keine Rolle."
+      ],
+      "richtig": 1,
+      "erklaerung": "Gase lösen sich in **kaltem Wasser besser** – anders als die meisten Feststoffe, die sich in warmem Wasser besser lösen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-gas-02",
+      "lernzielId": "lz-gase",
+      "typ": "wahrfalsch",
+      "frage": "Bei höherem Druck löst sich mehr Gas in Wasser.",
+      "richtig": true,
+      "erklaerung": "Mit **höherem Druck** löst sich **mehr Gas**. Darum wird Mineralwasser unter Druck abgefüllt; beim Öffnen sinkt der Druck und das Gas entweicht.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-gas-03",
+      "lernzielId": "lz-gase",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aussagen zur Löslichkeit von **Gasen** in Wasser stimmen? Kreuze alle richtigen Aussagen an.",
+      "optionen": [
+        "In warmem Wasser löst sich weniger Gas als in kaltem.",
+        "Bei höherem Druck löst sich mehr Gas.",
+        "Die Bläschen, die beim Erwärmen lange vor dem Kochen entstehen, sind Wasserdampf.",
+        "Ein warmer See enthält mehr gelösten Sauerstoff als ein kalter.",
+        "Gase lösen sich – anders als die meisten Feststoffe – in kaltem Wasser besser."
+      ],
+      "richtig": [
+        0,
+        1,
+        4
+      ],
+      "erklaerung": "Gase lösen sich **kalt** und bei **hohem Druck** besser. Die frühen Bläschen beim Erwärmen sind **gelöste Luft**, die entweicht, kein Wasserdampf. Ein warmer See enthält **weniger** Sauerstoff als ein kalter.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gas-04",
+      "lernzielId": "lz-gase",
+      "typ": "kurzantwort",
+      "frage": "Welches Gas ist im **Mineralwasser** gelöst und entweicht beim Öffnen als Bläschen?",
+      "akzeptiert": [
+        "Kohlenstoffdioxid",
+        "Kohlendioxid",
+        "CO2",
+        "Kohlenstoffdioxyd"
+      ],
+      "erklaerung": "Im Mineralwasser ist **Kohlenstoffdioxid (CO₂)** gelöst – eine Lösung von einem Gas in einer Flüssigkeit (g/l). *Ergänzt:* Im Alltag sagt man «Kohlensäure», das Gas in den Bläschen ist aber Kohlenstoffdioxid.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-gas-05",
+      "lernzielId": "lz-gase",
+      "typ": "kurzantwort",
+      "frage": "Welches im Wasser gelöste Gas brauchen Fische zum Atmen?",
+      "akzeptiert": [
+        "Sauerstoff",
+        "O2",
+        "Sauerstoffgas"
+      ],
+      "erklaerung": "Fische atmen mit den Kiemen den **Sauerstoff (O₂)**, der im Wasser **gelöst** ist.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-gas-06",
+      "lernzielId": "lz-gase",
+      "typ": "einfachwahl",
+      "frage": "Warum sprudelt Mineralwasser, sobald du die Flasche öffnest?",
+      "optionen": [
+        "Das Wasser beginnt beim Öffnen zu sieden.",
+        "Beim Öffnen dringt Luft ein und bildet Bläschen.",
+        "Beim Öffnen entsteht durch eine Reaktion neuer Sauerstoff.",
+        "Beim Öffnen sinkt der Druck, und gelöstes CO₂ entweicht."
+      ],
+      "richtig": 3,
+      "erklaerung": "In der geschlossenen Flasche steht das Wasser unter **höherem Druck**, dort ist viel CO₂ gelöst. Beim Öffnen **sinkt der Druck**, es kann sich weniger Gas lösen, und das **Kohlenstoffdioxid entweicht als Bläschen**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gas-07",
+      "lernzielId": "lz-gase",
+      "typ": "einfachwahl",
+      "frage": "Du erwärmst Wasser in einem Kochtopf. Schon lange bevor es kocht, bilden sich kleine Bläschen am Topfboden. Was ist in diesen Bläschen?",
+      "optionen": [
+        "Wasserdampf",
+        "gelöste Luft, die aus dem warmen Wasser entweicht",
+        "Wasserstoff und Sauerstoff, in die sich das Wasser zerlegt",
+        "Kalk, der sich aus dem Wasser abscheidet"
+      ],
+      "richtig": 1,
+      "erklaerung": "Im kalten Leitungswasser ist **Luft gelöst**. Beim Erwärmen kann sich weniger Gas lösen, deshalb entweicht die Luft als kleine Bläschen. Wasserdampf-Blasen entstehen erst beim Sieden (bei 100 °C).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gas-08",
+      "lernzielId": "lz-gase",
+      "typ": "reihenfolge",
+      "frage": "Bringe die Erklärung für das **Fischsterben im heissen Sommer** in die richtige Reihenfolge.",
+      "elemente": [
+        "Im Sommer wird das Wasser im Teich warm.",
+        "Im warmen Wasser kann sich weniger Sauerstoff lösen.",
+        "Die Fische bekommen zu wenig Sauerstoff.",
+        "Die Fische können sterben."
+      ],
+      "erklaerung": "Fische atmen den **im Wasser gelösten Sauerstoff**. Warmes Wasser kann weniger Sauerstoff lösen → zu wenig Sauerstoff für die Fische → Fischsterben.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gas-09",
+      "lernzielId": "lz-gase",
+      "typ": "kurzantwort",
+      "frage": "Wie nennt man es, wenn in einem heissen Sommer in einem See viele Fische wegen Sauerstoffmangel sterben? (ein Wort)",
+      "akzeptiert": [
+        "Fischsterben",
+        "das Fischsterben"
+      ],
+      "erklaerung": "Man spricht von **Fischsterben**: Im warmen Wasser ist weniger Sauerstoff gelöst, die Fische ersticken.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-gas-10",
+      "lernzielId": "lz-gase",
+      "typ": "zahl",
+      "frage": "Bei 20 °C lösen sich höchstens **0,0043 g Sauerstoff** in 100 g Wasser. Wie viel Gramm Sauerstoff lösen sich höchstens in **1 kg Wasser**?",
+      "richtig": 0.043,
+      "toleranz": 0.0001,
+      "einheit": "g",
+      "erklaerung": "1 kg = 1000 g Wasser = 10-mal 100 g. Also 0,0043 g · 10 = **0,043 g**. Zum Vergleich: Kochsalz 35,88 g in nur 100 g Wasser – Sauerstoff ist sehr schlecht löslich.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gas-11",
+      "lernzielId": "lz-gase",
+      "typ": "zuordnen",
+      "frage": "Weshalb löst sich hier **weniger Gas**? Ordne zu.",
+      "paare": [
+        {
+          "links": "Eine Getränkedose wird geöffnet, Bläschen steigen auf.",
+          "rechts": "Der Druck sinkt."
+        },
+        {
+          "links": "Im heissen Sommer sterben in einem Teich viele Fische.",
+          "rechts": "Die Temperatur steigt."
+        },
+        {
+          "links": "Beim Erwärmen bilden sich lange vor dem Kochen Bläschen im Topf.",
+          "rechts": "Die Temperatur steigt."
+        },
+        {
+          "links": "Mineralwasser im offenen Glas an der Sonne wird schneller schal als im Kühlschrank.",
+          "rechts": "Die Temperatur steigt."
+        },
+        {
+          "links": "Eine Mineralwasserflasche zischt beim Aufdrehen.",
+          "rechts": "Der Druck sinkt."
+        }
+      ],
+      "erklaerung": "Gase lösen sich schlechter, wenn **die Temperatur steigt** oder **der Druck sinkt**. Beim Öffnen von Flaschen und Dosen sinkt der Druck; Sommerhitze, Erwärmen im Topf und Sonne erhöhen die Temperatur.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gas-12",
+      "lernzielId": "lz-gase",
+      "typ": "offen",
+      "frage": "Erkläre, warum es im heissen Sommer in einem Teich zu einem **Fischsterben** kommen kann.",
+      "musterloesung": "Fische atmen den Sauerstoff, der im Wasser gelöst ist. Wenn das Wasser im Sommer warm wird, kann sich weniger Sauerstoff darin lösen. Deshalb bekommen die Fische zu wenig Sauerstoff und können sterben.",
+      "stichworte": [
+        "gelöster Sauerstoff",
+        "warmes Wasser",
+        "weniger Sauerstoff löst sich",
+        "zu wenig Sauerstoff"
+      ],
+      "erklaerung": "Die Erklärung braucht drei Schritte: Fische atmen **gelösten Sauerstoff** → im **warmen** Wasser löst sich **weniger** Sauerstoff → die Fische bekommen **zu wenig** Sauerstoff.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gas-13",
+      "lernzielId": "lz-gase",
+      "typ": "offen",
+      "frage": "Begründe mit dem **Teilchenmodell**, warum sich Gase in warmem Wasser schlechter lösen als in kaltem.",
+      "musterloesung": "Je höher die Temperatur, desto schneller bewegen sich die Teilchen. In warmem Wasser bewegen sich die Wasserteilchen und die gelösten Gasteilchen schneller, deshalb können die Gasteilchen leichter aus dem Wasser entweichen. Es bleibt weniger Gas gelöst.",
+      "stichworte": [
+        "Teilchen bewegen sich schneller",
+        "höhere Temperatur",
+        "Gasteilchen entweichen"
+      ],
+      "erklaerung": "Aus dem Teilchenmodell: Die Teilchen sind ständig in Bewegung, **je höher die Temperatur, desto schneller**. Schnelle Gasteilchen **entweichen leichter** aus dem Wasser. (Diese Begründung ist im Lernzettel als ergänzt markiert.)",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-gas-14",
+      "lernzielId": "lz-gase",
+      "typ": "einfachwahl",
+      "frage": "Im Hochsommer halten sich viele Fische in einem See eher in der **Tiefe** auf. Was ist die Erklärung aus dem Unterricht?",
+      "optionen": [
+        "In der Tiefe ist das Wasser kälter, dort ist mehr Sauerstoff gelöst.",
+        "In der Tiefe ist das Wasser wärmer, dort ist mehr Sauerstoff gelöst.",
+        "In der Tiefe gibt es kein gelöstes Kohlenstoffdioxid.",
+        "An der Oberfläche ist kein Sauerstoff mehr gelöst, weil er verdampft."
+      ],
+      "richtig": 0,
+      "erklaerung": "Tiefer unten ist das Wasser **kälter**, und im kälteren Wasser löst sich **Sauerstoff besser**. Die Fische finden dort mehr Sauerstoff zum Atmen. Wärmeres Wasser enthält weniger Sauerstoff, nicht mehr.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-gas-15",
+      "lernzielId": "lz-gase",
+      "typ": "einfachwahl",
+      "frage": "Du lässt zwei offene Gläser mit demselben Mineralwasser stehen: eines im Kühlschrank, eines an der Sonne. Welches Glas sprudelt nach einer Stunde noch mehr?",
+      "optionen": [
+        "das Glas an der Sonne, weil Wärme die Bläschen antreibt",
+        "beide gleich, weil beide offen sind",
+        "das Glas im Kühlschrank, weil kaltes Wasser mehr CO₂ gelöst halten kann",
+        "keines, weil Kohlenstoffdioxid sich nur bei hohem Druck löst"
+      ],
+      "richtig": 2,
+      "erklaerung": "Kaltes Wasser kann mehr **Kohlenstoffdioxid** gelöst halten. An der Sonne wird das Wasser warm, das CO₂ entweicht schneller, das Wasser wird schal. Druck spielt auch eine Rolle, aber bei beiden offenen Gläsern ist der Druck gleich – der Unterschied kommt von der Temperatur.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-gas-16",
+      "lernzielId": "lz-gase",
+      "typ": "wahrfalsch",
+      "frage": "Man bringt Wasser zum Kochen und lässt es sofort wieder abkühlen. Direkt danach enthält es weniger gelöste Luft als vorher.",
+      "richtig": true,
+      "erklaerung": "Beim Erwärmen ist die **gelöste Luft** als Bläschen entwichen. Beim Abkühlen könnte sich wieder mehr Luft lösen, sie muss aber erst langsam von der Oberfläche her ins Wasser gelangen. Direkt nach dem Abkühlen ist deshalb weniger Luft gelöst als vorher.",
+      "schwierigkeit": 3
+    }
+  ]
+}

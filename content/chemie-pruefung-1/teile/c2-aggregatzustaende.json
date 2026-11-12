@@ -1,0 +1,953 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-aggregatzustaende",
+      "zusammenfassung": "### Drei Aggregatzustände\nEin Stoff kann **fest (s)**, **flüssig (l)** oder **gasförmig (g)** sein (s = solid, l = liquid, g = gas). Das Teilchenmodell erklärt die Unterschiede mit Anordnung, Abständen, Bewegung und Anziehungskräften der Teilchen:\n\n| | fest (s) | flüssig (l) | gasförmig (g) |\n| --- | --- | --- | --- |\n| Anordnung | geordnet, regelmässig nebeneinander | ungeordnet | ungeordnet, im ganzen Raum verteilt |\n| Abstände | berühren sich | berühren sich | berühren sich nicht, sehr grosse Abstände |\n| Bewegung | zittern auf ihren Gitterplätzen | bewegen sich, gegeneinander verschiebbar | bewegen sich schnell und frei |\n| Anziehungskräfte | stark | mässig | gering (praktisch keine) |\n\n### Was man daraus erklären kann (ergänzt)\n- **Feststoffe behalten ihre Form:** Starke Anziehungskräfte halten die Teilchen auf festen Plätzen.\n- **Flüssigkeiten fliessen** und nehmen die Form des Gefässes an: Die Teilchen sind verschiebbar. Weil sie sich berühren, lässt sich Wasser kaum zusammendrücken.\n- **Gase füllen jeden Raum aus** und lassen sich zusammendrücken: Zwischen den Teilchen ist viel leerer Raum.\n\n### Volumen beim Verdampfen (Elemente A18)\nEis und flüssiges Wasser haben ein ähnliches Volumen. Verdampft das Wasser, braucht es **über tausendmal mehr Platz**. Im Feststoff und in der Flüssigkeit sind die Abstände klein und die Anziehungskräfte stark. Im Gas wirken praktisch keine Anziehungskräfte, die Abstände sind sehr gross. Die Teilchen selbst werden **nicht** grösser.\n\n### Ein Teilchen allein (Elemente A19)\nEin **einzelnes Teilchen hat keinen Aggregatzustand**. Fest, flüssig oder gasförmig ergibt sich erst aus der Anordnung und den Anziehungskräften **vieler** Teilchen. Ein Wasserteilchen im Eis ist dasselbe wie eines im Wasserdampf.\n\n> Von fest über flüssig zu gasförmig: Die Teilchen bewegen sich schneller, die Abstände werden grösser und die Anziehungskräfte kleiner.",
+      "merksaetze": [
+        "fest: geordnet, berühren sich, zittern auf ihren Plätzen, starke Anziehung · flüssig: berühren sich, ungeordnet, verschiebbar, mässige Anziehung · gasförmig: berühren sich nicht, grosse Abstände, schnell und frei, geringe Anziehung.",
+        "Beim Verdampfen wird das Volumen über tausendmal grösser, weil die Abstände wachsen – nicht die Teilchen.",
+        "Ein einzelnes Teilchen hat keinen Aggregatzustand; er ergibt sich erst aus vielen Teilchen."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/chemie/teilchen-s-l-g.svg",
+          "alt": "Drei Kästchen mit Teilchen: A – Kugeln berühren sich, liegen aber ungeordnet am Boden; B – wenige Kugeln weit auseinander mit Bewegungsstrichen; C – Kugeln dicht und regelmässig in Reihen und Spalten.",
+          "legende": "Teilchen im Modell in drei Aggregatzuständen. Welches Kästchen ist fest, flüssig, gasförmig? Vergleiche mit der Tabelle."
+        }
+      ]
+    },
+    {
+      "id": "lz-uebergaenge",
+      "zusammenfassung": "### Sechs Übergänge (Stoffebene)\n| Übergang | Name | Wärme |\n| --- | --- | --- |\n| s → l | **Schmelzen** | zuführen |\n| l → s | **Erstarren** (bei Wasser: Gefrieren) | entziehen |\n| l → g | **Verdampfen** | zuführen |\n| g → l | **Kondensieren** | entziehen |\n| s → g | **Sublimieren** | zuführen |\n| g → s | **Resublimieren** | entziehen |\n\nBei einem Übergang entsteht **kein neuer Stoff**: Eis, Wasser und Wasserdampf bestehen aus denselben Wasserteilchen. Wasser schmilzt bei 0 °C und siedet bei 100 °C (Normaldruck).\n\n### Was die Teilchen tun (Teilchenebene)\n- **Wärme zuführen** (Schmelzen, Verdampfen, Sublimieren): Die Teilchen bewegen sich schneller, bis die Anziehungskräfte sie nicht mehr festhalten. Sie verlassen ihre Plätze oder lösen sich ganz voneinander.\n- **Wärme entziehen** (Elemente Ü5): Die Bewegungsenergie nimmt ab. Beim **Erstarren** werden die Teilchen so langsam, dass die Anziehungskräfte sie festhalten – sie ordnen sich zu einem Gitter. Beim **Kondensieren** treffen Gasteilchen auf die Flüssigkeitsoberfläche, geben Bewegungsenergie ab und werden von den Anziehungskräften festgehalten.\n\n### Verdampfen, Verdunsten, Sieden (Elemente A21)\n- **Verdampfen:** allgemeiner Begriff für flüssig → gasförmig.\n- **Verdunsten:** Verdampfen **unterhalb** der Siedetemperatur (z. B. eine Pfütze trocknet; Beispiel ergänzt).\n- **Sieden:** schnelles Verdampfen **bei** der Siedetemperatur.\n\n«Kochen» ist mehrdeutig (heisst auch Garen) – in der Chemie sagt man Sieden.\n\n### Direkt zwischen fest und gasförmig\n- Schnee verschwindet an sonnigen Wintertagen auch unter 0 °C: Er **sublimiert** an trockener Luft, Wind fördert das (A20).\n- **Gefriertrocknung:** Gefrorene Lebensmittel kommen ins Vakuum, das Eis sublimiert (A20).\n- **Raureif:** Wasserdampf wird direkt zu Eis – er **resublimiert** (Übungstest).\n\n> Wärme zuführen: Teilchen schneller, die Anziehungskräfte werden überwunden. Wärme entziehen: Teilchen langsamer, die Anziehungskräfte halten sie fest.",
+      "merksaetze": [
+        "s → l Schmelzen, l → s Erstarren, l → g Verdampfen, g → l Kondensieren, s → g Sublimieren, g → s Resublimieren.",
+        "Wärme zuführen macht die Teilchen schneller, bis die Anziehungskräfte sie nicht mehr halten; Wärme entziehen macht sie langsamer, bis die Anziehungskräfte sie festhalten.",
+        "Verdunsten = Verdampfen unterhalb der Siedetemperatur; Sieden = schnelles Verdampfen bei der Siedetemperatur."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/chemie/aggregatzustaende-beschriftet.svg",
+          "alt": "Dreieck mit den Aggregatzuständen fest (unten links, Teilchen geordnet), flüssig (unten rechts, Teilchen ungeordnet, berühren sich) und gasförmig (oben, Teilchen weit auseinander). Pfeile: Schmelzen von fest zu flüssig, Erstarren zurück, Verdampfen von flüssig zu gasförmig, Kondensieren zurück, Sublimieren von fest zu gasförmig, Resublimieren zurück. Rote Pfeile: Wärme zuführen, blaue: Wärme abgeben.",
+          "legende": "Die sechs Übergänge zwischen den Aggregatzuständen (vgl. Heft «Das Teilchenmodell»)"
+        }
+      ]
+    },
+    {
+      "id": "lz-schmelz-siedetemperatur",
+      "zusammenfassung": "### Die Regel\nJeder Reinstoff hat seine eigene **Schmelztemperatur (Smp)** und **Siedetemperatur (Sdp)**. Damit bestimmst du den Aggregatzustand bei jeder Temperatur T:\n- T **tiefer** als die Schmelztemperatur → **fest (s)**\n- T **zwischen** Schmelz- und Siedetemperatur → **flüssig (l)**\n- T **höher** als die Siedetemperatur → **gasförmig (g)**\n\n### Typische Prüfungsaufgabe (Elemente S. 26, A22)\n| Stoff | Smp (°C) | Sdp (°C) | bei 0 °C | bei 20 °C | bei 100 °C |\n| --- | --- | --- | --- | --- | --- |\n| Quecksilber | −39 | 357 | l | l | l |\n| Butan | −139 | −1 | g | g | g |\n| Sauerstoff | −219 | −183 | g | g | g |\n| Ether | −116 | 34 | l | l | g |\n| Alkohol | −115 | 78 | l | l | g |\n| Glycerin | 18 | 290 | s | l | l |\n| Naphthalin | 80 | 218 | s | s | l |\n| Schwefel | 119 | 444 | s | s | s |\n| Blei | 327 | 1740 | s | s | s |\n| Kochsalz | 800 | 1460 | s | s | s |\n| Eisen | 1535 | 2750 | s | s | s |\n\nIm Übungstest (B2) kamen dazu: **Brom** (Smp −7 °C, Sdp 59 °C) ist bei 20 °C flüssig, bei 80 °C gasförmig. **Paraffin** (Kerzenwachs, Smp 55 °C, Sdp 350 °C) ist bei 20 °C fest, bei 80 °C flüssig.\n\n### Vorsicht bei Minusgraden\n−183 °C ist **kälter** als −1 °C, und 0 °C ist **wärmer** als −39 °C. Ein Zahlenstrahl hilft: Je weiter links, desto kälter.\n\n### Thermometer in den Polargebieten (Elemente A23)\nEin Flüssigkeitsthermometer misst nur, solange die Flüssigkeit flüssig bleibt. Quecksilber erstarrt schon bei **−39 °C** – bei grosser Kälte ist das Thermometer unbrauchbar. Alkohol erstarrt erst bei **−115 °C**, darum nimmt man dort Alkoholthermometer.\n\n> Unter dem Schmelzpunkt fest, über dem Siedepunkt gasförmig, dazwischen flüssig. Bei Minuszahlen genau hinschauen!",
+      "merksaetze": [
+        "T tiefer als Schmelztemperatur → fest; zwischen Schmelz- und Siedetemperatur → flüssig; T höher als Siedetemperatur → gasförmig.",
+        "Bei Minusgraden gilt: Je grösser die Zahl nach dem Minus, desto kälter (−183 °C ist kälter als −1 °C).",
+        "Schmelz- und Siedetemperatur sind physikalische Stoffeigenschaften."
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-az-05",
+      "lernzielId": "lz-aggregatzustaende",
+      "typ": "zuordnen",
+      "frage": "Ordne jede Beschreibung der Teilchen dem passenden Aggregatzustand zu.",
+      "paare": [
+        {
+          "links": "Teilchen berühren sich und liegen geordnet nebeneinander.",
+          "rechts": "fest"
+        },
+        {
+          "links": "Teilchen zittern nur auf ihren Plätzen.",
+          "rechts": "fest"
+        },
+        {
+          "links": "Teilchen berühren sich, sind aber gegeneinander verschiebbar.",
+          "rechts": "flüssig"
+        },
+        {
+          "links": "Mässige Anziehungskräfte",
+          "rechts": "flüssig"
+        },
+        {
+          "links": "Teilchen berühren sich nicht und bewegen sich schnell und frei.",
+          "rechts": "gasförmig"
+        },
+        {
+          "links": "Geringe Anziehungskräfte",
+          "rechts": "gasförmig"
+        }
+      ],
+      "erklaerung": "**Fest:** geordnet, zittern, starke Anziehungskräfte. **Flüssig:** berühren sich, verschiebbar, mässige Anziehungskräfte. **Gasförmig:** berühren sich nicht, schnell und frei, geringe Anziehungskräfte.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-az-06",
+      "lernzielId": "lz-aggregatzustaende",
+      "typ": "zuordnen",
+      "frage": "Das Bild zeigt die Teilchen eines Stoffes in drei Aggregatzuständen. Ordne zu.",
+      "paare": [
+        {
+          "links": "Bild A",
+          "rechts": "flüssig"
+        },
+        {
+          "links": "Bild B",
+          "rechts": "gasförmig"
+        },
+        {
+          "links": "Bild C",
+          "rechts": "fest"
+        }
+      ],
+      "erklaerung": "In **C** liegen die Teilchen dicht und geordnet in Reihen – fest. In **A** berühren sie sich auch, liegen aber ungeordnet und verschiebbar – flüssig. In **B** sind sie weit auseinander und fliegen frei herum (Bewegungsstriche) – gasförmig.",
+      "schwierigkeit": 2,
+      "bild": {
+        "src": "bilder/chemie/teilchen-s-l-g.svg",
+        "alt": "Drei Kästchen mit Teilchen: A – Kugeln berühren sich, liegen aber ungeordnet am Boden; B – wenige Kugeln weit auseinander mit Bewegungsstrichen; C – Kugeln dicht und regelmässig in Reihen und Spalten."
+      }
+    },
+    {
+      "id": "f-az-12",
+      "lernzielId": "lz-aggregatzustaende",
+      "typ": "wahrfalsch",
+      "frage": "In einer Flüssigkeit berühren sich die Teilchen nicht.",
+      "richtig": false,
+      "erklaerung": "In einer Flüssigkeit **berühren** sich die Teilchen, sind aber gegeneinander verschiebbar. Nur im **Gas** berühren sich die Teilchen nicht.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-az-14",
+      "lernzielId": "lz-aggregatzustaende",
+      "typ": "reihenfolge",
+      "frage": "Ordne die Aggregatzustände nach der Stärke der Anziehungskräfte zwischen den Teilchen – von stark nach gering.",
+      "elemente": [
+        "fest",
+        "flüssig",
+        "gasförmig"
+      ],
+      "erklaerung": "Fest: **starke**, flüssig: **mässige**, gasförmig: **geringe** Anziehungskräfte. Je weiter die Teilchen voneinander entfernt sind, desto schwächer ziehen sie sich an.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-az-16",
+      "lernzielId": "lz-aggregatzustaende",
+      "typ": "offen",
+      "frage": "Beschreibe, was mit den Teilchen passiert, wenn Eis schmilzt. Gehe auf Anordnung, Bewegung und Anziehungskräfte ein.",
+      "musterloesung": "Im Eis liegen die Wasserteilchen geordnet nebeneinander und zittern nur auf ihren Plätzen; starke Anziehungskräfte halten sie fest. Beim Erwärmen bewegen sie sich immer stärker. Beim Schmelzen verlassen sie ihre festen Plätze: Sie berühren sich zwar noch, sind aber ungeordnet und gegeneinander verschiebbar. Die Anziehungskräfte sind nur noch mässig.",
+      "stichworte": [
+        "geordnet",
+        "zittern",
+        "verschiebbar",
+        "Anziehungskräfte",
+        "Wärme",
+        "schneller"
+      ],
+      "erklaerung": "Eine gute Antwort vergleicht vorher (fest) und nachher (flüssig) in allen drei Punkten: **Anordnung**, **Bewegung**, **Anziehungskräfte**. Die Teilchen selbst bleiben Wasserteilchen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-az-19",
+      "lernzielId": "lz-aggregatzustaende",
+      "typ": "offen",
+      "frage": "Wasser hat als Eis und als Flüssigkeit ein ähnliches Volumen. Beim Verdampfen wird das Volumen aber über tausendmal grösser. Erkläre diese Beobachtung mit dem Teilchenmodell.",
+      "musterloesung": "Im Eis und im flüssigen Wasser liegen die Wasserteilchen sehr nahe beieinander und berühren sich. Starke Anziehungskräfte halten sie zusammen, deshalb sind die Abstände klein und das Volumen ist ähnlich. Im Wasserdampf wirken zwischen den Teilchen praktisch keine Anziehungskräfte mehr. Die Teilchen bewegen sich frei, und die Abstände zwischen ihnen sind sehr gross. Darum braucht dieselbe Menge Wasser als Gas über tausendmal mehr Platz. Die Teilchen selbst werden dabei nicht grösser.",
+      "stichworte": [
+        "kleine Abstände",
+        "starke Anziehungskräfte",
+        "praktisch keine Anziehungskräfte",
+        "sehr grosse Abstände",
+        "Teilchen nicht grösser"
+      ],
+      "erklaerung": "Entscheidend sind die **Abstände** und die **Anziehungskräfte** – nicht die Grösse der Teilchen. Die Wasserteilchen sind im Dampf genau gleich gross wie im Eis (Elemente A18).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-az-20",
+      "lernzielId": "lz-aggregatzustaende",
+      "typ": "offen",
+      "frage": "Ist ein einzelnes Wasserteilchen fest, flüssig oder gasförmig? Begründe deine Antwort.",
+      "musterloesung": "Weder noch: Ein einzelnes Teilchen hat keinen Aggregatzustand. Der Aggregatzustand ergibt sich erst aus vielen Teilchen – daraus, wie sie angeordnet sind, wie gross ihre Abstände sind und wie stark sie sich gegenseitig anziehen. Ein Wasserteilchen im Eis ist genau gleich wie ein Wasserteilchen im Wasserdampf.",
+      "stichworte": [
+        "kein Aggregatzustand",
+        "viele Teilchen",
+        "Anordnung",
+        "Anziehungskräfte",
+        "gleiche Teilchen"
+      ],
+      "erklaerung": "Der Aggregatzustand ist eine Eigenschaft eines **Stoffes**, also vieler Teilchen zusammen. Ein einzelnes Teilchen hat weder Nachbarn noch Abstände – darum keinen Aggregatzustand (Elemente A19).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-az-21",
+      "lernzielId": "lz-aggregatzustaende",
+      "typ": "mehrfachwahl",
+      "frage": "Teilchen in den Aggregatzuständen: Kreuze alle richtigen Aussagen an (mindestens eine ist richtig).",
+      "optionen": [
+        "Im Feststoff stehen die Teilchen völlig still.",
+        "Im Feststoff sind die Teilchen regelmässig angeordnet.",
+        "In einer Flüssigkeit sind die Abstände zwischen den Teilchen grösser als in einem Gas.",
+        "In einem Gas ist zwischen den Teilchen viel leerer Raum.",
+        "In einer Flüssigkeit lassen sich die Teilchen gegeneinander verschieben."
+      ],
+      "richtig": [
+        1,
+        3,
+        4
+      ],
+      "erklaerung": "Im Feststoff liegen die Teilchen **regelmässig** angeordnet, stehen aber nicht still: Sie zittern auf ihren Plätzen. Flüssigkeitsteilchen berühren sich und sind **verschiebbar**. Im Gas sind die Abstände am grössten – dazwischen ist **leerer Raum**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-az-22",
+      "lernzielId": "lz-aggregatzustaende",
+      "typ": "einfachwahl",
+      "frage": "Eine Spritze wird vorne zugehalten. Ist sie mit Luft gefüllt, kann man den Kolben weit hineindrücken. Ist sie mit Wasser gefüllt, geht das fast gar nicht. Welche Erklärung passt zum Teilchenmodell?",
+      "optionen": [
+        "Luftteilchen sind weich und lassen sich zusammenquetschen, Wasserteilchen nicht.",
+        "Zwischen den Luftteilchen ist viel leerer Raum; im Wasser berühren sich die Teilchen bereits.",
+        "Wasser ist schwerer als Luft und drückt deshalb gegen den Kolben.",
+        "Zwischen den Wasserteilchen wirken keine Anziehungskräfte, deshalb stossen sie sich ab."
+      ],
+      "richtig": 1,
+      "erklaerung": "Zwischen Gasteilchen ist viel **leerer Raum** – beim Drücken rücken die Teilchen näher zusammen. Im Wasser **berühren** sich die Teilchen schon, da gibt es kaum Platz zum Zusammenrücken. Die Teilchen selbst lassen sich nicht zusammenquetschen (Beispiel ergänzt).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-az-23",
+      "lernzielId": "lz-aggregatzustaende",
+      "typ": "einfachwahl",
+      "frage": "Ein Stein behält seine Form. Wasser nimmt dagegen die Form jedes Gefässes an. Welche Erklärung passt zum Teilchenmodell?",
+      "optionen": [
+        "Die Teilchen im Stein sind eckig und verhaken sich, die Wasserteilchen sind rund.",
+        "Die Teilchen im Stein sind grösser und schwerer als die Wasserteilchen.",
+        "Im Stein halten starke Anziehungskräfte die Teilchen fest, im Wasser sind sie verschiebbar.",
+        "Im Stein berühren sich die Teilchen, im Wasser berühren sie sich nicht."
+      ],
+      "richtig": 2,
+      "erklaerung": "Im Feststoff halten **starke Anziehungskräfte** die Teilchen auf festen Plätzen – die Form bleibt. In der Flüssigkeit sind die Kräfte nur mässig, die Teilchen sind **verschiebbar** und das Wasser fliesst. Alle Teilchen sind im Modell kugelförmig, und auch im Wasser berühren sie sich (Beispiel ergänzt).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-az-24",
+      "lernzielId": "lz-aggregatzustaende",
+      "typ": "wahrfalsch",
+      "frage": "Zwischen den Teilchen eines Gases wirken nur sehr geringe (praktisch keine) Anziehungskräfte.",
+      "richtig": true,
+      "erklaerung": "Gasteilchen sind weit voneinander entfernt, und die Anziehungskräfte werden mit dem Abstand schnell kleiner. Darum wirken im Gas nur **geringe**, praktisch **keine** Anziehungskräfte.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-az-25",
+      "lernzielId": "lz-aggregatzustaende",
+      "typ": "kurzantwort",
+      "frage": "In welchem Aggregatzustand berühren sich die Teilchen nicht und bewegen sich schnell und frei?",
+      "akzeptiert": [
+        "gasförmig",
+        "gasfoermig",
+        "gasformig",
+        "g",
+        "gasförmig (g)",
+        "Gas",
+        "im gasförmigen Zustand"
+      ],
+      "erklaerung": "Nur im **gasförmigen** Zustand berühren sich die Teilchen nicht. In festen Stoffen und Flüssigkeiten berühren sie sich.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-az-26",
+      "lernzielId": "lz-aggregatzustaende",
+      "typ": "zuordnen",
+      "frage": "Wofür stehen die Abkürzungen der Aggregatzustände?",
+      "paare": [
+        {
+          "links": "s",
+          "rechts": "fest"
+        },
+        {
+          "links": "l",
+          "rechts": "flüssig"
+        },
+        {
+          "links": "g",
+          "rechts": "gasförmig"
+        }
+      ],
+      "erklaerung": "Die Abkürzungen kommen aus dem Englischen: **s** = solid (fest), **l** = liquid (flüssig), **g** = gas (gasförmig).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-az-27",
+      "lernzielId": "lz-aggregatzustaende",
+      "typ": "einfachwahl",
+      "frage": "Ein Löffel voll Wasser wird vollständig verdampft. Wie verändert sich das Volumen ungefähr?",
+      "optionen": [
+        "Es bleibt etwa gleich.",
+        "Es wird etwa zehnmal grösser.",
+        "Es wird über tausendmal grösser.",
+        "Es wird kleiner, weil Dampf leichter ist."
+      ],
+      "richtig": 2,
+      "erklaerung": "Beim Verdampfen wird das Volumen **über tausendmal grösser** (Elemente A18). Die Teilchen bleiben gleich gross; nur die Abstände zwischen ihnen werden riesig.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-az-01",
+      "lernzielId": "lz-uebergaenge",
+      "typ": "zuordnen",
+      "frage": "Ordne jedem Übergang den richtigen Namen zu (s = fest, l = flüssig, g = gasförmig).",
+      "paare": [
+        {
+          "links": "s → l",
+          "rechts": "Schmelzen"
+        },
+        {
+          "links": "l → s",
+          "rechts": "Erstarren"
+        },
+        {
+          "links": "l → g",
+          "rechts": "Verdampfen"
+        },
+        {
+          "links": "g → l",
+          "rechts": "Kondensieren"
+        },
+        {
+          "links": "s → g",
+          "rechts": "Sublimieren"
+        },
+        {
+          "links": "g → s",
+          "rechts": "Resublimieren"
+        }
+      ],
+      "erklaerung": "Paare merken: **Schmelzen ↔ Erstarren**, **Verdampfen ↔ Kondensieren**, **Sublimieren ↔ Resublimieren**. Das «Re-» bedeutet «zurück»: Resublimieren ist der Rückweg vom Gas direkt zum Feststoff.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-az-02",
+      "lernzielId": "lz-uebergaenge",
+      "typ": "zuordnen",
+      "frage": "Ordne den Nummern im Bild die Übergänge zu.",
+      "paare": [
+        {
+          "links": "Nummer 1",
+          "rechts": "Schmelzen"
+        },
+        {
+          "links": "Nummer 2",
+          "rechts": "Erstarren"
+        },
+        {
+          "links": "Nummer 3",
+          "rechts": "Verdampfen"
+        },
+        {
+          "links": "Nummer 4",
+          "rechts": "Kondensieren"
+        },
+        {
+          "links": "Nummer 5",
+          "rechts": "Sublimieren"
+        },
+        {
+          "links": "Nummer 6",
+          "rechts": "Resublimieren"
+        }
+      ],
+      "erklaerung": "1 führt von fest nach flüssig (**Schmelzen**), 2 zurück (**Erstarren**). 3 führt von flüssig nach gasförmig (**Verdampfen**), 4 zurück (**Kondensieren**). 5 geht direkt von fest nach gasförmig (**Sublimieren**), 6 zurück (**Resublimieren**). Rote Pfeile brauchen Wärme, blaue geben Wärme ab.",
+      "schwierigkeit": 2,
+      "bild": {
+        "src": "bilder/chemie/aggregatzustaende-nummeriert.svg",
+        "alt": "Dreieck mit fest unten links, flüssig unten rechts und gasförmig oben. Sechs Pfeile mit den Nummern 1 bis 6: 1 von fest nach flüssig, 2 von flüssig nach fest, 3 von flüssig nach gasförmig, 4 von gasförmig nach flüssig, 5 von fest nach gasförmig, 6 von gasförmig nach fest."
+      }
+    },
+    {
+      "id": "f-az-08",
+      "lernzielId": "lz-uebergaenge",
+      "typ": "einfachwahl",
+      "frage": "Nach dem Duschen ist der Badezimmerspiegel beschlagen. Welcher Übergang findet am Spiegel statt?",
+      "optionen": [
+        "Verdampfen",
+        "Schmelzen",
+        "Resublimieren",
+        "Kondensieren"
+      ],
+      "richtig": 3,
+      "erklaerung": "Warmer Wasserdampf trifft auf den kühleren Spiegel und wird wieder flüssig: Gas → Flüssigkeit = **Kondensieren**. Die feinen Tröpfchen sieht man als Beschlag (Beispiel ergänzt).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-az-09",
+      "lernzielId": "lz-uebergaenge",
+      "typ": "einfachwahl",
+      "frage": "An einem kalten Wintermorgen sind die Gräser mit Raureif überzogen: Wasserdampf aus der Luft wurde direkt zu Eiskristallen. Wie heisst dieser Übergang?",
+      "optionen": [
+        "Resublimieren",
+        "Erstarren",
+        "Kondensieren",
+        "Sublimieren"
+      ],
+      "richtig": 0,
+      "erklaerung": "Direkt von gasförmig zu fest heisst **Resublimieren** (so auch im Übungstest). Erstarren wäre flüssig → fest, Kondensieren gasförmig → flüssig, Sublimieren die Gegenrichtung fest → gasförmig.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-az-10",
+      "lernzielId": "lz-uebergaenge",
+      "typ": "einfachwahl",
+      "frage": "Trockeneis ist festes Kohlenstoffdioxid (CO₂). An der Luft wird ein Stück Trockeneis immer kleiner, aber es entsteht keine Pfütze. Was passiert?",
+      "optionen": [
+        "Es schmilzt.",
+        "Es sublimiert.",
+        "Es kondensiert.",
+        "Es resublimiert."
+      ],
+      "richtig": 1,
+      "erklaerung": "Es entsteht keine Flüssigkeit – das feste CO₂ wird **direkt gasförmig**. Das ist **Sublimieren** (Beispiel ergänzt). Schmelzen würde eine Pfütze ergeben.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-az-11",
+      "lernzielId": "lz-uebergaenge",
+      "typ": "mehrfachwahl",
+      "frage": "Bei welchen Übergängen muss man dem Stoff Wärme zuführen?",
+      "optionen": [
+        "Schmelzen",
+        "Erstarren",
+        "Verdampfen",
+        "Kondensieren",
+        "Sublimieren",
+        "Resublimieren"
+      ],
+      "richtig": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "Wärme macht die Teilchen schneller, bis die Anziehungskräfte sie nicht mehr festhalten: von fest zu flüssig (**Schmelzen**), von flüssig zu gasförmig (**Verdampfen**) und von fest zu gasförmig (**Sublimieren**). Bei den Gegenrichtungen wird dem Stoff Wärme entzogen, die Teilchen werden langsamer (Elemente Ü5).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-az-13",
+      "lernzielId": "lz-uebergaenge",
+      "typ": "wahrfalsch",
+      "frage": "Wenn Wasser gefriert, entstehen andere Teilchen als im flüssigen Wasser.",
+      "richtig": false,
+      "erklaerung": "Eis, Wasser und Wasserdampf bestehen aus denselben **Wasserteilchen** – es entsteht **kein neuer Stoff**. Beim Gefrieren ändern sich nur Anordnung und Bewegung: Die Teilchen ordnen sich und zittern nur noch auf ihren Plätzen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-az-15",
+      "lernzielId": "lz-uebergaenge",
+      "typ": "reihenfolge",
+      "frage": "Ein Eiswürfel von −10 °C wird in einem Topf erhitzt, bis nur noch Wasserdampf übrig ist. Bringe die Vorgänge in die richtige Reihenfolge.",
+      "elemente": [
+        "Das Eis erwärmt sich auf 0 °C.",
+        "Das Eis schmilzt.",
+        "Das Schmelzwasser erwärmt sich auf 100 °C.",
+        "Das Wasser siedet und verdampft."
+      ],
+      "erklaerung": "Erst muss das Eis seine **Schmelztemperatur 0 °C** erreichen, dann schmilzt es. Das Wasser wird weiter erwärmt, bis es bei **100 °C** siedet und verdampft.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-az-17",
+      "lernzielId": "lz-uebergaenge",
+      "typ": "offen",
+      "frage": "Echter Wasserdampf ist unsichtbar. Trotzdem sieht man über einem Topf mit kochendem Wasser eine weisse Wolke. Erkläre mit den Fachbegriffen der Übergänge, woraus diese Wolke besteht.",
+      "musterloesung": "Im Topf verdampft das Wasser: Es entsteht unsichtbarer, gasförmiger Wasserdampf. Über dem Topf trifft er auf kühlere Luft und kondensiert zu winzigen Wassertröpfchen. Diese flüssigen Tröpfchen sieht man als weisse Wolke. Weiter oben verdampfen sie wieder und die Wolke verschwindet.",
+      "stichworte": [
+        "Verdampfen",
+        "Kondensieren",
+        "Tröpfchen",
+        "flüssig",
+        "kühlere Luft"
+      ],
+      "erklaerung": "Die sichtbare «Dampfwolke» ist eigentlich **flüssiges** Wasser in Form feiner Tröpfchen – entstanden durch **Kondensieren**. Gasförmiges Wasser sieht man nicht (Beispiel ergänzt).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-az-18",
+      "lernzielId": "lz-uebergaenge",
+      "typ": "kurzantwort",
+      "frage": "Wie nennt man das Erstarren bei Wasser im Alltag?",
+      "akzeptiert": [
+        "Gefrieren",
+        "gefrieren",
+        "Gefrierung",
+        "gefriert"
+      ],
+      "erklaerung": "Erstarren (flüssig → fest) heisst bei Wasser **Gefrieren**. Wasser gefriert bei 0 °C.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ueb-01",
+      "lernzielId": "lz-uebergaenge",
+      "typ": "offen",
+      "frage": "Beschreibe auf der Teilchenebene, was beim **Erstarren** und beim **Kondensieren** passiert.",
+      "musterloesung": "Bei beiden Vorgängen wird dem Stoff Wärme entzogen, die Bewegungsenergie der Teilchen nimmt ab. Beim Erstarren bewegen sich die Teilchen bei der Erstarrungstemperatur so langsam, dass die Anziehungskräfte sie festhalten. Sie ordnen sich zu einem regelmässigen Gitter und zittern nur noch auf ihren Plätzen. Beim Kondensieren treffen Gasteilchen auf die Oberfläche der Flüssigkeit, geben Bewegungsenergie ab und werden von den Anziehungskräften festgehalten.",
+      "stichworte": [
+        "Wärme entzogen",
+        "Bewegungsenergie nimmt ab",
+        "Anziehungskräfte halten fest",
+        "regelmässiges Gitter",
+        "Flüssigkeitsoberfläche"
+      ],
+      "erklaerung": "Bei beiden Vorgängen wird Wärme **entzogen**: Die Teilchen werden langsamer, bis die **Anziehungskräfte** sie festhalten. Beim Erstarren entsteht ein geordnetes Gitter, beim Kondensieren eine Flüssigkeit (Elemente Ü5).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-ueb-02",
+      "lernzielId": "lz-uebergaenge",
+      "typ": "zuordnen",
+      "frage": "Ordne die Begriffe für den Übergang zwischen flüssig und gasförmig der passenden Beschreibung zu.",
+      "paare": [
+        {
+          "links": "Verdampfen",
+          "rechts": "allgemeiner Begriff für flüssig → gasförmig"
+        },
+        {
+          "links": "Verdunsten",
+          "rechts": "Verdampfen unterhalb der Siedetemperatur"
+        },
+        {
+          "links": "Sieden",
+          "rechts": "schnelles Verdampfen bei der Siedetemperatur"
+        },
+        {
+          "links": "Kondensieren",
+          "rechts": "Übergang von gasförmig zu flüssig"
+        }
+      ],
+      "erklaerung": "**Verdampfen** ist der Oberbegriff für flüssig → gasförmig. **Verdunsten** geschieht unterhalb, **Sieden** bei der Siedetemperatur (Elemente A21). «Kochen» ist mehrdeutig, weil es auch Garen heisst.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ueb-03",
+      "lernzielId": "lz-uebergaenge",
+      "typ": "einfachwahl",
+      "frage": "Nach einem Regenschauer ist eine Pfütze bei 20 °C nach einigen Stunden verschwunden. Welcher Begriff beschreibt diesen Vorgang am genausten?",
+      "optionen": [
+        "Sieden",
+        "Verdunsten",
+        "Kondensieren",
+        "Sublimieren"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das Wasser wird gasförmig, aber weit **unter** seiner Siedetemperatur von 100 °C. Verdampfen unterhalb der Siedetemperatur heisst **Verdunsten** (Elemente A21). Sieden gibt es erst bei 100 °C.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ueb-04",
+      "lernzielId": "lz-uebergaenge",
+      "typ": "offen",
+      "frage": "An einem sonnigen, trockenen Wintertag bleibt die Temperatur den ganzen Tag unter 0 °C. Trotzdem wird die Schneeschicht dünner, und es entsteht kein Schmelzwasser. Erkläre.",
+      "musterloesung": "Der Schnee schmilzt nicht, denn es ist kälter als 0 °C. Er sublimiert: Das Eis geht an der trockenen Luft direkt vom festen in den gasförmigen Zustand über, ohne flüssig zu werden. Dabei lösen sich Wasserteilchen aus dem Eisgitter und gelangen als Wasserdampf in die Luft. Wind fördert das.",
+      "stichworte": [
+        "kälter als 0 °C",
+        "kein Schmelzen",
+        "Sublimieren",
+        "fest → gasförmig",
+        "trockene Luft"
+      ],
+      "erklaerung": "Unter 0 °C kann Schnee nicht schmelzen. Er geht **direkt** vom festen in den gasförmigen Zustand über: **Sublimieren** (Elemente A20). Dasselbe nutzt die Gefriertrocknung im Vakuum.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-ueb-05",
+      "lernzielId": "lz-uebergaenge",
+      "typ": "einfachwahl",
+      "frage": "Bei der **Gefriertrocknung** werden Lebensmittel tiefgefroren und dann in ein Vakuum gebracht. Das Eis darin verschwindet, ohne zu schmelzen. Wie heisst dieser Übergang?",
+      "optionen": [
+        "Sublimieren",
+        "Verdunsten",
+        "Resublimieren",
+        "Schmelzen"
+      ],
+      "richtig": 0,
+      "erklaerung": "Das Eis wird direkt zu Wasserdampf, ohne flüssig zu werden: fest → gasförmig = **Sublimieren** (Elemente A20). Resublimieren wäre die Gegenrichtung.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ueb-06",
+      "lernzielId": "lz-uebergaenge",
+      "typ": "mehrfachwahl",
+      "frage": "Übergänge zwischen den Aggregatzuständen: Kreuze alle richtigen Aussagen an (mindestens eine ist richtig).",
+      "optionen": [
+        "Der Übergang von gasförmig zu flüssig heisst Verdampfen.",
+        "Beim Schmelzen muss man dem Stoff Wärme zuführen.",
+        "Wird Wasserdampf an einer eiskalten Scheibe direkt zu Eisblumen, resublimiert er.",
+        "Beim Verdampfen werden die Wasserteilchen grösser.",
+        "Beim Erstarren nimmt die Bewegungsenergie der Teilchen ab."
+      ],
+      "richtig": [
+        1,
+        2,
+        4
+      ],
+      "erklaerung": "g → l heisst **Kondensieren**, nicht Verdampfen. **Schmelzen** braucht Wärme. Eisblumen entstehen, wenn Wasserdampf direkt zu Eis wird – **Resublimieren** (wie Raureif). Beim Erstarren nimmt die **Bewegungsenergie ab**. Die Teilchen selbst werden bei keinem Übergang grösser.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ueb-07",
+      "lernzielId": "lz-uebergaenge",
+      "typ": "mehrfachwahl",
+      "frage": "Wasser wird erhitzt und verdampft. Welche Aussagen beschreiben richtig, was dabei mit den Wasserteilchen geschieht?",
+      "optionen": [
+        "Sie bewegen sich schneller.",
+        "Sie werden selbst grösser.",
+        "Sie lösen sich voneinander, weil die Anziehungskräfte sie nicht mehr festhalten können.",
+        "Ihr Abstand zueinander wird sehr viel grösser.",
+        "Sie verwandeln sich in Luftteilchen."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Durch die Wärme bewegen sich die Teilchen **schneller**, bis die **Anziehungskräfte** sie nicht mehr zusammenhalten. Im Dampf sind die **Abstände** riesig. Die Teilchen bleiben aber Wasserteilchen und werden nicht grösser.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ueb-08",
+      "lernzielId": "lz-uebergaenge",
+      "typ": "einfachwahl",
+      "frage": "Eine Flasche kommt aus dem Kühlschrank. Nach kurzer Zeit bilden sich an ihrer Aussenseite Wassertröpfchen. Was passiert dabei mit den Teilchen?",
+      "optionen": [
+        "Wasserteilchen aus der Flasche dringen durch winzige Poren im Glas nach aussen.",
+        "Die Kälte der Flasche verwandelt Luftteilchen in Wasserteilchen.",
+        "Wasserdampfteilchen aus der Luft werden an der kalten Flasche langsamer und halten zusammen.",
+        "Wasserteilchen aus der Flasche verdampfen durch das Glas und werden aussen wieder flüssig."
+      ],
+      "richtig": 2,
+      "erklaerung": "Die Tröpfchen kommen aus der **Luft**, nicht aus der Flasche: Wasserdampfteilchen treffen auf die kalte Oberfläche, geben Bewegungsenergie ab und werden von den Anziehungskräften festgehalten – sie **kondensieren** (Beispiel ergänzt).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ss-01",
+      "lernzielId": "lz-schmelz-siedetemperatur",
+      "typ": "einfachwahl",
+      "frage": "Die Temperatur eines Stoffes liegt **zwischen** seiner Schmelz- und seiner Siedetemperatur. In welchem Aggregatzustand ist er?",
+      "optionen": [
+        "fest",
+        "flüssig",
+        "gasförmig",
+        "Das kann man nicht sagen."
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Regel: tiefer als die Schmelztemperatur → fest; **zwischen** Schmelz- und Siedetemperatur → **flüssig**; höher als die Siedetemperatur → gasförmig.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ss-02",
+      "lernzielId": "lz-schmelz-siedetemperatur",
+      "typ": "kurzantwort",
+      "frage": "Quecksilber: Schmelztemperatur −39 °C, Siedetemperatur 357 °C. In welchem Aggregatzustand ist Quecksilber bei 20 °C?\n\nAntworte mit *fest*, *flüssig* oder *gasförmig* (oder s, l, g).",
+      "akzeptiert": [
+        "flüssig",
+        "fluessig",
+        "flussig",
+        "l",
+        "flüssig (l)"
+      ],
+      "erklaerung": "20 °C ist wärmer als −39 °C, aber viel kälter als 357 °C – also liegt die Temperatur dazwischen: **flüssig**. Quecksilber ist das einzige Metall, das bei Raumtemperatur flüssig ist.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ss-03",
+      "lernzielId": "lz-schmelz-siedetemperatur",
+      "typ": "kurzantwort",
+      "frage": "Glycerin: Schmelztemperatur 18 °C, Siedetemperatur 290 °C. In welchem Aggregatzustand ist Glycerin bei 0 °C?\n\nAntworte mit *fest*, *flüssig* oder *gasförmig* (oder s, l, g).",
+      "akzeptiert": [
+        "fest",
+        "s",
+        "fest (s)"
+      ],
+      "erklaerung": "0 °C ist **kälter** als die Schmelztemperatur 18 °C – Glycerin ist also **fest**. Bei 20 °C wäre es knapp über 18 °C und damit flüssig.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ss-04",
+      "lernzielId": "lz-schmelz-siedetemperatur",
+      "typ": "kurzantwort",
+      "frage": "Naphthalin: Schmelztemperatur 80 °C, Siedetemperatur 218 °C. In welchem Aggregatzustand ist Naphthalin bei 100 °C?\n\nAntworte mit *fest*, *flüssig* oder *gasförmig* (oder s, l, g).",
+      "akzeptiert": [
+        "flüssig",
+        "fluessig",
+        "flussig",
+        "l",
+        "flüssig (l)"
+      ],
+      "erklaerung": "100 °C liegt zwischen 80 °C und 218 °C → **flüssig**. Bei 0 °C und 20 °C ist Naphthalin noch fest.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-ss-06",
+      "lernzielId": "lz-schmelz-siedetemperatur",
+      "typ": "zuordnen",
+      "frage": "Ordne jedem Stoff seinen Aggregatzustand bei **20 °C** zu. In Klammern: Schmelztemperatur / Siedetemperatur.",
+      "paare": [
+        {
+          "links": "Butan (−139 °C / −1 °C)",
+          "rechts": "gasförmig"
+        },
+        {
+          "links": "Alkohol (−115 °C / 78 °C)",
+          "rechts": "flüssig"
+        },
+        {
+          "links": "Glycerin (18 °C / 290 °C)",
+          "rechts": "flüssig"
+        },
+        {
+          "links": "Schwefel (119 °C / 444 °C)",
+          "rechts": "fest"
+        },
+        {
+          "links": "Sauerstoff (−219 °C / −183 °C)",
+          "rechts": "gasförmig"
+        },
+        {
+          "links": "Naphthalin (80 °C / 218 °C)",
+          "rechts": "fest"
+        }
+      ],
+      "erklaerung": "Butan und Sauerstoff sieden schon unter 0 °C → bei 20 °C **gasförmig**. Alkohol und Glycerin haben 20 °C zwischen Schmelz- und Siedetemperatur → **flüssig**. Schwefel und Naphthalin schmelzen erst über 20 °C → **fest**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ss-07",
+      "lernzielId": "lz-schmelz-siedetemperatur",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Stoffe sind bei **100 °C** gasförmig? (Schmelztemperatur / Siedetemperatur)",
+      "optionen": [
+        "Ether (−116 °C / 34 °C)",
+        "Alkohol (−115 °C / 78 °C)",
+        "Quecksilber (−39 °C / 357 °C)",
+        "Butan (−139 °C / −1 °C)",
+        "Naphthalin (80 °C / 218 °C)",
+        "Glycerin (18 °C / 290 °C)"
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Gasförmig ist ein Stoff, wenn 100 °C **über seiner Siedetemperatur** liegt: Ether (34 °C), Alkohol (78 °C) und Butan (−1 °C). Quecksilber, Naphthalin und Glycerin sieden erst über 100 °C und sind bei 100 °C flüssig.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ss-08",
+      "lernzielId": "lz-schmelz-siedetemperatur",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Stoffe sind bei **0 °C** fest? (Schmelztemperatur / Siedetemperatur)",
+      "optionen": [
+        "Glycerin (18 °C / 290 °C)",
+        "Quecksilber (−39 °C / 357 °C)",
+        "Schwefel (119 °C / 444 °C)",
+        "Alkohol (−115 °C / 78 °C)",
+        "Blei (327 °C / 1740 °C)",
+        "Ether (−116 °C / 34 °C)"
+      ],
+      "richtig": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "Fest ist ein Stoff, wenn 0 °C **unter seiner Schmelztemperatur** liegt: Glycerin (18 °C), Schwefel (119 °C) und Blei (327 °C). Quecksilber, Alkohol und Ether schmelzen schon unter 0 °C – bei 0 °C sind sie flüssig.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ss-09",
+      "lernzielId": "lz-schmelz-siedetemperatur",
+      "typ": "einfachwahl",
+      "frage": "Welcher Stoff ist bei 0 °C, bei 20 °C **und** bei 100 °C flüssig?\n\n| Stoff | Smp | Sdp |\n| --- | --- | --- |\n| Alkohol | −115 °C | 78 °C |\n| Glycerin | 18 °C | 290 °C |\n| Quecksilber | −39 °C | 357 °C |\n| Ether | −116 °C | 34 °C |",
+      "optionen": [
+        "Alkohol",
+        "Glycerin",
+        "Quecksilber",
+        "Ether"
+      ],
+      "richtig": 2,
+      "erklaerung": "Alle drei Temperaturen müssen zwischen Smp und Sdp liegen. Das gilt nur für **Quecksilber** (−39 °C bis 357 °C). Alkohol und Ether sind bei 100 °C schon gasförmig, Glycerin ist bei 0 °C noch fest.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ss-10",
+      "lernzielId": "lz-schmelz-siedetemperatur",
+      "typ": "zuordnen",
+      "frage": "Glycerin schmilzt bei 18 °C und siedet bei 290 °C. Ordne jeder Temperatur den Aggregatzustand zu.",
+      "paare": [
+        {
+          "links": "0 °C",
+          "rechts": "fest"
+        },
+        {
+          "links": "20 °C",
+          "rechts": "flüssig"
+        },
+        {
+          "links": "100 °C",
+          "rechts": "flüssig"
+        },
+        {
+          "links": "300 °C",
+          "rechts": "gasförmig"
+        }
+      ],
+      "erklaerung": "Unter 18 °C fest, zwischen 18 °C und 290 °C flüssig, über 290 °C gasförmig. 0 °C → **fest**, 20 °C und 100 °C → **flüssig**, 300 °C → **gasförmig**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ss-12",
+      "lernzielId": "lz-schmelz-siedetemperatur",
+      "typ": "zuordnen",
+      "frage": "Ordne jedem Stoff seinen Aggregatzustand bei **−50 °C** zu. In Klammern: Schmelztemperatur / Siedetemperatur.",
+      "paare": [
+        {
+          "links": "Sauerstoff (−219 °C / −183 °C)",
+          "rechts": "gasförmig"
+        },
+        {
+          "links": "Butan (−139 °C / −1 °C)",
+          "rechts": "flüssig"
+        },
+        {
+          "links": "Quecksilber (−39 °C / 357 °C)",
+          "rechts": "fest"
+        },
+        {
+          "links": "Ether (−116 °C / 34 °C)",
+          "rechts": "flüssig"
+        },
+        {
+          "links": "Glycerin (18 °C / 290 °C)",
+          "rechts": "fest"
+        }
+      ],
+      "erklaerung": "Sauerstoff siedet schon bei −183 °C → **gasförmig**. Butan und Ether: −50 °C liegt zwischen Smp und Sdp → **flüssig**. Quecksilber schmilzt erst bei −39 °C, und −50 °C ist kälter → **fest**. Glycerin ist erst recht **fest**.",
+      "schwierigkeit": 3,
+      "tipp": "Zeichne einen Zahlenstrahl: Je weiter links, desto kälter. −50 °C liegt links von −39 °C."
+    },
+    {
+      "id": "f-ss-13",
+      "lernzielId": "lz-schmelz-siedetemperatur",
+      "typ": "zahl",
+      "frage": "Wie viele dieser Stoffe sind bei **500 °C** gasförmig?\n\n- Schwefel (Smp 119 °C, Sdp 444 °C)\n- Blei (Smp 327 °C, Sdp 1740 °C)\n- Kochsalz (Smp 800 °C, Sdp 1460 °C)\n- Quecksilber (Smp −39 °C, Sdp 357 °C)\n- Eisen (Smp 1535 °C, Sdp 2750 °C)",
+      "richtig": 2,
+      "toleranz": 0,
+      "einheit": "Stoffe",
+      "erklaerung": "Gasförmig sind nur Stoffe mit einer Siedetemperatur unter 500 °C: **Schwefel** (444 °C) und **Quecksilber** (357 °C) – also **2**. Blei ist bei 500 °C flüssig, Kochsalz und Eisen sind noch fest.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-ss-14",
+      "lernzielId": "lz-schmelz-siedetemperatur",
+      "typ": "einfachwahl",
+      "frage": "Ein unbekannter Stoff schmilzt bei 44 °C und siedet bei 280 °C. In welchem Aggregatzustand ist er an einem heissen Sommertag (35 °C) – und in einem Glas mit 60 °C heissem Wasser?",
+      "optionen": [
+        "fest – flüssig",
+        "flüssig – flüssig",
+        "fest – fest",
+        "flüssig – gasförmig"
+      ],
+      "richtig": 0,
+      "erklaerung": "35 °C ist **kälter** als die Schmelztemperatur 44 °C → **fest**. 60 °C liegt zwischen 44 °C und 280 °C → **flüssig**. Dieselbe Regel gilt für jeden Stoff, auch für unbekannte.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-ss-15",
+      "lernzielId": "lz-schmelz-siedetemperatur",
+      "typ": "wahrfalsch",
+      "frage": "Blei (Schmelztemperatur 327 °C, Siedetemperatur 1740 °C) ist bei 500 °C flüssig.",
+      "richtig": true,
+      "erklaerung": "500 °C liegt zwischen 327 °C und 1740 °C → **flüssig**. Bei 0 °C, 20 °C und 100 °C ist Blei dagegen fest.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ss-17",
+      "lernzielId": "lz-schmelz-siedetemperatur",
+      "typ": "offen",
+      "frage": "Ether schmilzt bei −116 °C und siedet bei 34 °C. Gib an, in welchem Aggregatzustand Ether bei 20 °C und bei 100 °C ist, und begründe mit der Regel.",
+      "musterloesung": "Bei 20 °C ist Ether flüssig, denn 20 °C liegt zwischen der Schmelztemperatur (−116 °C) und der Siedetemperatur (34 °C). Bei 100 °C ist Ether gasförmig, denn 100 °C liegt über der Siedetemperatur von 34 °C.",
+      "stichworte": [
+        "20 °C flüssig",
+        "zwischen Smp und Sdp",
+        "100 °C gasförmig",
+        "über der Siedetemperatur"
+      ],
+      "erklaerung": "Eine vollständige Antwort nennt **beide** Zustände und vergleicht jedes Mal mit Schmelz- und Siedetemperatur.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ss-18",
+      "lernzielId": "lz-schmelz-siedetemperatur",
+      "typ": "offen",
+      "frage": "Eisen schmilzt bei 1535 °C, Ether schon bei −116 °C. Erkläre mit dem Teilchenmodell, warum man Eisen viel stärker erhitzen muss, bis es schmilzt.",
+      "musterloesung": "Beim Schmelzen müssen sich die Teilchen von ihren festen Plätzen lösen. Dazu müssen sie sich so schnell bewegen, dass die Anziehungskräfte sie nicht mehr festhalten können. Zwischen den Eisenteilchen wirken viel stärkere Anziehungskräfte als zwischen den Etherteilchen. Darum müssen sich die Eisenteilchen viel schneller bewegen – und das heisst: eine viel höhere Temperatur.",
+      "stichworte": [
+        "Anziehungskräfte",
+        "stärker",
+        "schneller bewegen",
+        "höhere Temperatur",
+        "feste Plätze verlassen"
+      ],
+      "erklaerung": "Höhere Temperatur = schnellere Teilchen (Aussage 5). Eine hohe Schmelztemperatur zeigt, dass die Teilchen eines Stoffes sich **stark anziehen**. Diese Verknüpfung ist ergänzt.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-ss-19",
+      "lernzielId": "lz-schmelz-siedetemperatur",
+      "typ": "zuordnen",
+      "frage": "Bestimme den Aggregatzustand bei Normaldruck.\n\n- **Brom:** Schmelztemperatur −7 °C, Siedetemperatur 59 °C\n- **Paraffin** (Kerzenwachs): Schmelztemperatur 55 °C, Siedetemperatur 350 °C",
+      "paare": [
+        {
+          "links": "Brom bei 20 °C",
+          "rechts": "flüssig"
+        },
+        {
+          "links": "Brom bei 80 °C",
+          "rechts": "gasförmig"
+        },
+        {
+          "links": "Paraffin bei 20 °C",
+          "rechts": "fest"
+        },
+        {
+          "links": "Paraffin bei 80 °C",
+          "rechts": "flüssig"
+        }
+      ],
+      "erklaerung": "Brom: 20 °C liegt zwischen −7 °C und 59 °C → **flüssig**; 80 °C liegt über 59 °C → **gasförmig**. Paraffin: 20 °C liegt unter 55 °C → **fest**; 80 °C liegt zwischen 55 °C und 350 °C → **flüssig** (Übungstest B2).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-ss-20",
+      "lernzielId": "lz-schmelz-siedetemperatur",
+      "typ": "offen",
+      "frage": "In den Polargebieten wird es oft kälter als −40 °C. Erkläre, warum man dort ein Alkoholthermometer und kein Quecksilberthermometer verwendet.\n\n(Quecksilber: Smp −39 °C, Sdp 357 °C · Alkohol: Smp −115 °C, Sdp 78 °C)",
+      "musterloesung": "Ein Flüssigkeitsthermometer funktioniert nur, solange die Flüssigkeit im Röhrchen flüssig bleibt. Quecksilber erstarrt schon bei −39 °C. Bei −50 °C wäre es fest, und das Thermometer würde nichts mehr anzeigen. Alkohol erstarrt erst bei −115 °C und bleibt deshalb auch bei sehr tiefen Temperaturen flüssig.",
+      "stichworte": [
+        "Quecksilber erstarrt bei −39 °C",
+        "fest",
+        "Alkohol erst bei −115 °C",
+        "bleibt flüssig"
+      ],
+      "erklaerung": "Entscheidend ist die **Schmelz- bzw. Erstarrungstemperatur**: Unter −39 °C ist Quecksilber fest, Alkohol bleibt bis −115 °C flüssig (Elemente A23).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-ss-21",
+      "lernzielId": "lz-schmelz-siedetemperatur",
+      "typ": "einfachwahl",
+      "frage": "Welche Thermometerflüssigkeit bleibt im ganzen Bereich von 20 °C bis 250 °C flüssig?\n\n(Schmelztemperatur / Siedetemperatur)",
+      "optionen": [
+        "Alkohol (−115 °C / 78 °C)",
+        "Quecksilber (−39 °C / 357 °C)",
+        "beide",
+        "keine der beiden"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Flüssigkeit muss bis 250 °C unter ihrer Siedetemperatur bleiben. **Quecksilber** siedet erst bei 357 °C. Alkohol würde schon bei 78 °C sieden. Für die Kälte ist es umgekehrt: Dort ist Alkohol besser.",
+      "schwierigkeit": 2
+    }
+  ]
+}
