@@ -1,0 +1,554 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-brennerflammen",
+      "zusammenfassung": "### Die zwei Flammen benennen\nMit der **Luftregulierung** stellst du ein, ob zusätzlich Luft (und damit Sauerstoff) ins Brennerrohr strömt.\n\n| Luftzufuhr | geschlossen | offen |\n|---|---|---|\n| Name | leuchtende Flamme | nicht leuchtende, rauschende Flamme |\n| Farbe | gelb | blau |\n| Temperatur | ca. 1000 °C | ca. 1500 °C |\n| es brennt | nur Gas | Gas-Luft-Gemisch |\n\n**Warum ist die blaue Flamme heisser?** Durch das offene Luftloch kommt mehr Sauerstoff dazu. Das Gas verbrennt **vollständig** und gibt mehr Wärme ab. *(Ergänzt:)* Die gelbe Flamme verbrennt unvollständig und russt. Weil man sie gut sieht, dient sie in Pausen als **Ruheflamme**; die blaue Flamme sieht man bei Tageslicht kaum.\n\n### Beschriften *(ergänzt, nicht im Heft)*\nBauteile von unten nach oben:\n\n1. **Fuss**: Der Brenner steht damit sicher auf dem Tisch.\n2. **Gaszufuhr**: Anschluss für den Gasschlauch. Die Gasmenge stellst du am **Gashahn** ein.\n3. **Luftregulierung**: drehbare Hülse mit **Luftloch**.\n4. **Brennerrohr**: Hier mischen sich Gas und Luft.\n\nZonen der blauen Flamme:\n\n- **innerer Kegel**: kleiner, dunkelblauer Kegel direkt über dem Rohr\n- **äusserer Kegel**: hellblau, umhüllt den inneren Kegel\n- **heisseste Stelle**: knapp **über der Spitze des inneren Kegels**. Dorthin hältst du ein Reagenzglas, das du erhitzen willst.\n\n### Zeichnen\n- Brenner mit Fuss, Gaszufuhr, Luftregulierung und Rohr zeichnen.\n- Gelbe Flamme: gross, flackernd, ohne Kegel, Luftloch zu.\n- Blaue Flamme: schmaler, mit innerem und äusserem Kegel, Luftloch offen.\n- Jede Flamme benennen und die Temperatur dazuschreiben.\n\nManche Lehrmittel unterscheiden drei Flammen (leuchtend, nicht leuchtend, rauschend). Im Heft stehen zwei.\n\n> Luftzufuhr zu: leuchtende, gelbe Flamme, ca. 1000 °C. Luftzufuhr offen: blaue, rauschende Flamme, ca. 1500 °C. Die heisseste Stelle liegt knapp über der Spitze des inneren Kegels.",
+      "merksaetze": [
+        "Luftzufuhr geschlossen → leuchtende, gelbe Flamme, ca. 1000 °C, es brennt nur Gas. Luftzufuhr offen → nicht leuchtende, blaue, rauschende Flamme, ca. 1500 °C, es brennt ein Gas-Luft-Gemisch.",
+        "Die blaue Flamme ist heisser, weil durch das Luftloch mehr Sauerstoff dazukommt und das Gas vollständig verbrennt.",
+        "Beschriftung (ergänzt): Fuss, Gaszufuhr, Luftregulierung (Luftloch), Brennerrohr; innerer Kegel, äusserer Kegel, heisseste Stelle knapp über der Spitze des inneren Kegels."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/chemie/bunsenbrenner.svg",
+          "alt": "Zwei Bunsenbrenner nebeneinander. Links ist das Luftloch zu, es brennt eine gelbe, leuchtende Flamme mit ca. 1000 °C. Rechts ist das Luftloch offen, Luft strömt hinein, es brennt eine blaue Flamme mit innerem Kegel und ca. 1500 °C; die heisseste Stelle liegt über der Spitze des inneren Kegels.",
+          "legende": "Bunsenbrenner: Luftzufuhr geschlossen (gelbe Flamme) und offen (blaue Flamme)"
+        }
+      ]
+    },
+    {
+      "id": "lz-verbrennung",
+      "zusammenfassung": "### Verbrennung ist eine chemische Reaktion\nBei einer Verbrennung reagiert ein brennbarer Stoff mit **Sauerstoff** aus der Luft:\n\n**brennbarer Stoff + Sauerstoff (O₂) → Kohlenstoffdioxid (CO₂) + Wasser (H₂O) (+ Asche)**\n\n- Es entstehen **neue Stoffe mit neuen Eigenschaften**. Die Ausgangsstoffe sind danach weg: Aus verbranntem Holz werden Asche, Kohlenstoffdioxid und Wasserdampf, kein Holz mehr. Eine solche **Stoffumwandlung** ist eine **chemische Reaktion**.\n- **Ohne Sauerstoff keine Verbrennung.** *(Beispiele ergänzt:)* Eine Kerze unter einem Glas erlischt. Eine Löschdecke erstickt ein Feuer.\n\n*Ergänzt (Elemente Kap. 3):*\n\n- Die Stoffe links vom Pfeil heissen **Ausgangsstoffe** (Edukte), die Stoffe rechts **Produkte**.\n- Bei der Verbrennung wird **Energie frei**: Die Flamme gibt **Wärme und Licht** ab.\n\n### Chemisch oder physikalisch?\n| Vorgang | Entsteht ein neuer Stoff? | Art |\n|---|---|---|\n| Kerzenwachs schmilzt | nein, es bleibt Wachs | physikalisch |\n| Kerzenwachs verbrennt | ja: CO₂ und Wasser | chemisch |\n\nDarum ist **Brennbarkeit** eine **chemische Eigenschaft**: Wer sie prüft, verbrennt den Stoff und verändert ihn.\n\n### Kohlenstoff\n**C** steht für *Carbon* = **Kohlenstoff**. Kohle besteht vor allem aus Kohlenstoff, ein Diamant ganz. Holz, Kerzenwachs und Erdgas enthalten Kohlenstoff (*ergänzt*). Deshalb entsteht beim Verbrennen Kohlenstoffdioxid.\n\n> Verbrennung: brennbarer Stoff + Sauerstoff → Kohlenstoffdioxid + Wasser (+ Asche). Es entstehen neue Stoffe, und Energie wird frei (Wärme, Licht) → chemische Reaktion.",
+      "merksaetze": [
+        "Verbrennung: brennbarer Stoff + Sauerstoff (O₂) → Kohlenstoffdioxid (CO₂) + Wasser (H₂O) (+ Asche). Ohne Sauerstoff keine Verbrennung.",
+        "Es entstehen neue Stoffe mit neuen Eigenschaften (Stoffumwandlung) → chemische Reaktion; Brennbarkeit ist eine chemische Eigenschaft. Dabei wird Energie als Wärme und Licht frei.",
+        "C = Carbon = Kohlenstoff (Kohle, Diamant)."
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-verb-06",
+      "lernzielId": "lz-brennerflammen",
+      "typ": "zuordnen",
+      "frage": "Ordne jedes Merkmal der passenden Flamme des Bunsenbrenners zu.",
+      "paare": [
+        {
+          "links": "Luftzufuhr geschlossen",
+          "rechts": "gelbe Flamme"
+        },
+        {
+          "links": "leuchtet stark",
+          "rechts": "gelbe Flamme"
+        },
+        {
+          "links": "ca. 1000 °C",
+          "rechts": "gelbe Flamme"
+        },
+        {
+          "links": "es brennt nur Gas",
+          "rechts": "gelbe Flamme"
+        },
+        {
+          "links": "Luftzufuhr offen",
+          "rechts": "blaue Flamme"
+        },
+        {
+          "links": "rauscht",
+          "rechts": "blaue Flamme"
+        },
+        {
+          "links": "ca. 1500 °C",
+          "rechts": "blaue Flamme"
+        },
+        {
+          "links": "es brennt ein Gas-Luft-Gemisch",
+          "rechts": "blaue Flamme"
+        }
+      ],
+      "erklaerung": "Luftzufuhr **geschlossen** → **gelbe, leuchtende** Flamme, ca. **1000 °C**, nur Gas. Luftzufuhr **offen** → **blaue, rauschende** Flamme, ca. **1500 °C**, Gas-Luft-Gemisch.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-verb-07",
+      "lernzielId": "lz-brennerflammen",
+      "typ": "zahl",
+      "frage": "Wie heiss ist die **blaue, rauschende Flamme** des Bunsenbrenners ungefähr?",
+      "richtig": 1500,
+      "toleranz": 100,
+      "einheit": "°C",
+      "erklaerung": "Die blaue Flamme (Luftzufuhr offen) erreicht ca. **1500 °C**. Die gelbe Flamme (Luftzufuhr geschlossen) nur ca. 1000 °C.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-verb-08",
+      "lernzielId": "lz-brennerflammen",
+      "typ": "zahl",
+      "frage": "Um wie viele Grad ist die blaue Flamme des Bunsenbrenners ungefähr **heisser** als die gelbe?",
+      "richtig": 500,
+      "toleranz": 50,
+      "einheit": "°C",
+      "erklaerung": "Blaue Flamme ca. 1500 °C − gelbe Flamme ca. 1000 °C = ca. **500 °C** Unterschied.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-verb-09",
+      "lernzielId": "lz-brennerflammen",
+      "typ": "einfachwahl",
+      "frage": "Schau dir die beiden Bunsenbrenner an. Bei welchem ist die **Luftzufuhr offen**?",
+      "bild": {
+        "src": "bilder/chemie/bunsenbrenner-ohne-text.svg",
+        "alt": "Zwei Bunsenbrenner mit verschiedenen Flammen, bezeichnet mit A und B."
+      },
+      "optionen": [
+        "Brenner A",
+        "Brenner B"
+      ],
+      "richtig": 0,
+      "erklaerung": "Brenner **A** hat eine **blaue** Flamme mit innerem Kegel, und an der Hülse ist das Luftloch offen. Bei Brenner B ist das Luftloch zu, darum brennt nur Gas mit gelber, leuchtender Flamme.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-verb-10",
+      "lernzielId": "lz-brennerflammen",
+      "typ": "mehrfachwahl",
+      "frage": "Kreuze alle richtigen Aussagen zur Flamme von **Brenner B** an (mindestens eine ist richtig).",
+      "bild": {
+        "src": "bilder/chemie/bunsenbrenner-ohne-text.svg",
+        "alt": "Zwei Bunsenbrenner mit verschiedenen Flammen, bezeichnet mit A und B."
+      },
+      "optionen": [
+        "Sie ist gut sichtbar, weil sie gelb leuchtet.",
+        "Sie ist ca. 1000 °C heiss.",
+        "Sie ist ca. 1500 °C heiss.",
+        "In ihr brennt ein Gas-Luft-Gemisch.",
+        "Sie russt, weil das Gas unvollständig verbrennt."
+      ],
+      "richtig": [
+        0,
+        1,
+        4
+      ],
+      "erklaerung": "Brenner B hat die **gelbe, leuchtende** Flamme (Luftloch zu): ca. **1000 °C**, es brennt nur Gas. Weil zu wenig Sauerstoff da ist, verbrennt das Gas unvollständig, und die Flamme **russt** (ergänzt). 1500 °C und das Gas-Luft-Gemisch gehören zur blauen Flamme A.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-verb-11",
+      "lernzielId": "lz-brennerflammen",
+      "typ": "reihenfolge",
+      "frage": "Bringe die Schritte beim **Anzünden des Bunsenbrenners** in die richtige Reihenfolge.",
+      "elemente": [
+        "Schutzbrille anziehen und lange Haare zusammenbinden",
+        "Luftzufuhr schliessen und ein brennendes Streichholz über die Brenneröffnung halten",
+        "Gashahn öffnen",
+        "Luftzufuhr langsam öffnen, bis die Flamme blau rauscht"
+      ],
+      "erklaerung": "Zuerst die **Sicherheit** (Schutzbrille, Haare). Mit **geschlossener** Luftzufuhr lässt sich der Brenner sicher anzünden. **Zuerst das Streichholz, dann das Gas**, sonst strömt unverbranntes Gas aus. Erst wenn die gelbe Flamme brennt, öffnest du die Luftzufuhr für die heisse blaue Flamme. (Ablauf ergänzt, nicht im Heft.)",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-verb-12",
+      "lernzielId": "lz-brennerflammen",
+      "typ": "einfachwahl",
+      "frage": "Warum ist die blaue Flamme des Bunsenbrenners **heisser** als die gelbe?",
+      "optionen": [
+        "Bei offener Luftzufuhr strömt mehr Gas aus dem Rohr.",
+        "Blaues Licht ist heisser als gelbes Licht.",
+        "Die Luft wärmt das Gas vor, bevor es brennt.",
+        "Durch das Luftloch kommt mehr Sauerstoff dazu, so verbrennt das Gas vollständig."
+      ],
+      "richtig": 3,
+      "erklaerung": "Die Luft bringt **Sauerstoff** in das Brennerrohr. Mit genug Sauerstoff verbrennt das Gas **vollständig** und gibt mehr Wärme ab. Die Gasmenge stellst du am Gashahn ein, nicht am Luftloch. Die Farbe ist eine Folge der Verbrennung, nicht die Ursache der Hitze.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-verb-16",
+      "lernzielId": "lz-brennerflammen",
+      "typ": "einfachwahl",
+      "frage": "Du unterbrichst deinen Versuch für einen Moment, ohne den Brenner abzustellen. Welche Flamme solltest du einstellen und warum?",
+      "optionen": [
+        "Die blaue Flamme, weil sie sauberer verbrennt und nicht russt.",
+        "Die blaue Flamme, weil sie mit Luft sicherer brennt.",
+        "Die gelbe Flamme, weil man sie gut sieht und sich nicht aus Versehen daran verbrennt.",
+        "Die gelbe Flamme, weil sie heisser ist und nicht so leicht ausgeht."
+      ],
+      "richtig": 2,
+      "erklaerung": "Die gelbe, leuchtende Flamme ist **gut sichtbar** und dient als **Ruheflamme** (ergänzt). Die blaue Flamme sieht man bei Tageslicht kaum, man könnte unbemerkt hineingreifen. Die gelbe Flamme ist zudem kühler (ca. 1000 °C), nicht heisser.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-flam-01",
+      "lernzielId": "lz-brennerflammen",
+      "typ": "zuordnen",
+      "frage": "Ordne den Nummern in der Zeichnung die richtigen Begriffe zu.",
+      "bild": {
+        "src": "bilder/chemie/bunsenbrenner-nummeriert.svg",
+        "alt": "Bunsenbrenner mit blauer Flamme. Sieben Stellen sind mit den Nummern 1 bis 7 markiert."
+      },
+      "paare": [
+        {
+          "links": "Nummer 1",
+          "rechts": "innerer Kegel"
+        },
+        {
+          "links": "Nummer 2",
+          "rechts": "äusserer Kegel"
+        },
+        {
+          "links": "Nummer 3",
+          "rechts": "heisseste Stelle"
+        },
+        {
+          "links": "Nummer 4",
+          "rechts": "Brennerrohr"
+        },
+        {
+          "links": "Nummer 5",
+          "rechts": "Luftregulierung (Luftloch)"
+        },
+        {
+          "links": "Nummer 6",
+          "rechts": "Gaszufuhr (Anschluss für den Gasschlauch)"
+        },
+        {
+          "links": "Nummer 7",
+          "rechts": "Fuss"
+        }
+      ],
+      "erklaerung": "In der Flamme: **1** dunkelblauer innerer Kegel, **2** hellblauer äusserer Kegel, **3** heisseste Stelle knapp über der Spitze des inneren Kegels. Am Brenner: **4** Brennerrohr, **5** Hülse mit Luftloch zur Luftregulierung, **6** Anschluss für den Gasschlauch, **7** Fuss. (Beschriftung ergänzt, nicht im Heft.)",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-flam-02",
+      "lernzielId": "lz-brennerflammen",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst das Bauteil des Bunsenbrenners, mit dem du die **Luftzufuhr** einstellst?",
+      "akzeptiert": [
+        "Luftregulierung",
+        "Luftregler",
+        "Luftloch",
+        "Hülse",
+        "Huelse",
+        "Luftregulierungshülse",
+        "Luftregulierungshuelse",
+        "Luftregulierungsring"
+      ],
+      "erklaerung": "Die **Luftregulierung** ist eine drehbare Hülse mit einem **Luftloch**. Ist das Loch offen, strömt Luft ins Brennerrohr, und die Flamme wird blau. Die Gasmenge stellst du dagegen am Gashahn ein. (ergänzt)",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-flam-03",
+      "lernzielId": "lz-brennerflammen",
+      "typ": "einfachwahl",
+      "frage": "Wo liegt bei der blauen, rauschenden Flamme die **heisseste Stelle**?",
+      "optionen": [
+        "direkt an der Öffnung des Brennerrohrs, wo das Gas austritt",
+        "mitten im inneren, dunkelblauen Kegel",
+        "knapp über der Spitze des inneren Kegels",
+        "ganz oben an der Spitze der Flamme"
+      ],
+      "richtig": 2,
+      "erklaerung": "Die heisseste Stelle liegt **knapp über der Spitze des inneren Kegels** (ergänzt). Dorthin hältst du ein Reagenzglas, das schnell heiss werden soll. Ganz oben ist die Flamme schon wieder kühler.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-flam-04",
+      "lernzielId": "lz-brennerflammen",
+      "typ": "offen",
+      "frage": "Zeichne auf ein Blatt zwei Bunsenbrenner nebeneinander: einen mit **geschlossener** und einen mit **offener** Luftzufuhr. Beschrifte die Bauteile und die Flammenzonen und benenne jede Flamme mit ihrer Temperatur. Vergleiche danach deine Zeichnung mit der Musterlösung.",
+      "musterloesung": "Beide Brenner: Fuss, Gaszufuhr (Gasschlauch-Anschluss), Luftregulierung mit Luftloch, Brennerrohr.\n\nZeichnung 1 (Luftzufuhr geschlossen): Luftloch zu; darüber eine grosse, gelbe, flackernde Flamme ohne Kegel. Beschriftung: leuchtende (gelbe) Flamme, ca. 1000 °C.\n\nZeichnung 2 (Luftzufuhr offen): Luftloch offen, ein Pfeil zeigt, dass Luft hineinströmt; darüber eine schmalere, blaue Flamme mit dunkelblauem innerem Kegel und hellblauem äusserem Kegel. Beschriftung: innerer Kegel, äusserer Kegel, heisseste Stelle knapp über der Spitze des inneren Kegels; nicht leuchtende, rauschende (blaue) Flamme, ca. 1500 °C.",
+      "stichworte": [
+        "Luftloch zu / offen",
+        "leuchtende, gelbe Flamme, ca. 1000 °C",
+        "blaue, rauschende Flamme, ca. 1500 °C",
+        "innerer und äusserer Kegel",
+        "heisseste Stelle über dem inneren Kegel",
+        "Fuss, Gaszufuhr, Luftregulierung, Brennerrohr"
+      ],
+      "erklaerung": "Eine vollständige Zeichnung zeigt beide Flammen mit **Namen** und **Temperatur** und beschriftet die Bauteile. Nur die blaue Flamme hat zwei Kegel. (Bauteile und Flammenzonen ergänzt, nicht im Heft.)",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-flam-05",
+      "lernzielId": "lz-brennerflammen",
+      "typ": "offen",
+      "frage": "Du sollst Wasser in einem Reagenzglas **möglichst schnell** erhitzen. Welche Flamme stellst du ein, wie machst du das, und wo hältst du das Reagenzglas hin? Begründe in ganzen Sätzen.",
+      "musterloesung": "Ich stelle die blaue, rauschende Flamme ein, indem ich die Luftzufuhr öffne. Durch das Luftloch kommt mehr Sauerstoff zum Gas, das Gas verbrennt vollständig, und die Flamme wird mit ca. 1500 °C heisser als die gelbe Flamme mit ca. 1000 °C. Ich halte das Reagenzglas knapp über die Spitze des inneren Kegels, denn dort ist die Flamme am heissesten. Die gelbe Flamme würde zudem russen und das Glas schwärzen.",
+      "stichworte": [
+        "Luftzufuhr öffnen",
+        "blaue, rauschende Flamme",
+        "ca. 1500 °C statt ca. 1000 °C",
+        "mehr Sauerstoff, vollständige Verbrennung",
+        "knapp über dem inneren Kegel"
+      ],
+      "erklaerung": "Am heissesten ist die **blaue Flamme** (Luftzufuhr offen) an ihrer **heissesten Stelle** knapp über dem inneren Kegel. Die gelbe Flamme ist kühler und russt (ergänzt).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-flam-06",
+      "lernzielId": "lz-brennerflammen",
+      "typ": "mehrfachwahl",
+      "frage": "Kreuze alle richtigen Aussagen zur **blauen, rauschenden Flamme** an (mindestens eine ist richtig).",
+      "optionen": [
+        "Sie brennt, wenn die Luftzufuhr offen ist.",
+        "Sie hat einen inneren und einen äusseren Kegel.",
+        "Sie ist ca. 1000 °C heiss.",
+        "Man sieht sie bei Tageslicht besonders gut."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Die blaue Flamme entsteht bei **offener** Luftzufuhr und hat einen **inneren und einen äusseren Kegel**. Sie ist ca. **1500 °C** heiss, nicht 1000 °C. Bei Tageslicht sieht man sie kaum; gut sichtbar ist die gelbe, leuchtende Flamme.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-flam-07",
+      "lernzielId": "lz-brennerflammen",
+      "typ": "wahrfalsch",
+      "frage": "«Die leuchtende Flamme heisst so, weil sie die heisseste Flamme des Bunsenbrenners ist.»",
+      "richtig": false,
+      "erklaerung": "Die leuchtende Flamme heisst so, weil sie **gelb leuchtet** und gut sichtbar ist. Sie ist mit ca. 1000 °C sogar die **kühlere** Flamme; die blaue, rauschende Flamme erreicht ca. 1500 °C.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-flam-08",
+      "lernzielId": "lz-brennerflammen",
+      "typ": "einfachwahl",
+      "frage": "Bei geschlossenem Luftloch brennt am Bunsenbrenner eine gelbe Flamme. Wie heisst sie?",
+      "optionen": [
+        "rauschende Flamme",
+        "leuchtende Flamme",
+        "nicht leuchtende Flamme",
+        "Stichflamme"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die gelbe Flamme bei geschlossener Luftzufuhr ist die **leuchtende Flamme** (ca. 1000 °C). Rauschend und nicht leuchtend ist die blaue Flamme bei offener Luftzufuhr.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-verb-01",
+      "lernzielId": "lz-verbrennung",
+      "typ": "kurzantwort",
+      "frage": "Welches Gas aus der Luft braucht jede Verbrennung? (ein Wort oder die Formel)",
+      "akzeptiert": [
+        "Sauerstoff",
+        "O2",
+        "Sauerstoffgas"
+      ],
+      "erklaerung": "Eine Verbrennung ist eine Reaktion eines brennbaren Stoffes mit **Sauerstoff (O₂)**. Ohne Sauerstoff brennt nichts.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-verb-02",
+      "lernzielId": "lz-verbrennung",
+      "typ": "mehrfachwahl",
+      "frage": "Ein Holzscheit verbrennt im Cheminée. Kreuze alle Stoffe an, die dabei **entstehen** (mindestens einer ist richtig).",
+      "optionen": [
+        "Kohlenstoffdioxid (CO₂)",
+        "Wasser (H₂O)",
+        "Asche",
+        "Sauerstoff (O₂)",
+        "Stickstoff (N₂)"
+      ],
+      "richtig": [
+        0,
+        1,
+        2
+      ],
+      "erklaerung": "Brennbarer Stoff + Sauerstoff → **Kohlenstoffdioxid + Wasser (+ Asche)**. Sauerstoff entsteht nicht, er wird **verbraucht**. Stickstoff ist zwar in der Luft, entsteht aber nicht bei der Verbrennung.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-verb-03",
+      "lernzielId": "lz-verbrennung",
+      "typ": "einfachwahl",
+      "frage": "Wofür steht das chemische Zeichen **C**?",
+      "optionen": [
+        "Calcium",
+        "Kupfer",
+        "Kohlenstoff",
+        "Chlor"
+      ],
+      "richtig": 2,
+      "erklaerung": "**C** kommt von *Carbon* = **Kohlenstoff**. Calcium hat das Zeichen Ca, Kupfer Cu und Chlor Cl.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-verb-04",
+      "lernzielId": "lz-verbrennung",
+      "typ": "wahrfalsch",
+      "frage": "«Brennbarkeit ist eine physikalische Eigenschaft, denn man sieht ja mit den Augen, ob etwas brennt.»",
+      "richtig": false,
+      "erklaerung": "Brennbarkeit ist eine **chemische Eigenschaft**: Um sie zu prüfen, muss man den Stoff verbrennen. Dabei entstehen **neue Stoffe** (CO₂, Wasser, Asche), der ursprüngliche Stoff ist weg. Dass man die Flamme sieht, ändert daran nichts.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-verb-05",
+      "lernzielId": "lz-verbrennung",
+      "typ": "einfachwahl",
+      "frage": "Woran erkennst du, dass eine Verbrennung eine **chemische Reaktion** ist?",
+      "optionen": [
+        "Es wird dabei heiss.",
+        "Es entstehen neue Stoffe.",
+        "Der Stoff wechselt den Aggregatzustand.",
+        "Es entsteht Licht."
+      ],
+      "richtig": 1,
+      "erklaerung": "Bei einer chemischen Reaktion **entstehen neue Stoffe**, hier Kohlenstoffdioxid, Wasser und Asche. Wärme und Licht treten auch bei anderen Vorgängen auf (z. B. heisse Herdplatte, Glühbirne), und ein Wechsel des Aggregatzustands wie beim Schmelzen von Eis ist ein physikalischer Vorgang.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-verb-13",
+      "lernzielId": "lz-verbrennung",
+      "typ": "wahrfalsch",
+      "frage": "Du stülpst ein Glas über eine brennende Kerze. Die Kerze brennt weiter, solange noch Wachs vorhanden ist.",
+      "richtig": false,
+      "erklaerung": "Unter dem Glas kommt keine frische Luft mehr dazu. Die Flamme verbraucht den **Sauerstoff**, und **ohne Sauerstoff gibt es keine Verbrennung**. Die Kerze erlischt nach kurzer Zeit, obwohl noch Wachs da ist.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-verb-14",
+      "lernzielId": "lz-verbrennung",
+      "typ": "offen",
+      "frage": "Beim Kochen fängt Öl in einer Pfanne Feuer. Jemand legt eine **Löschdecke** über die Pfanne, und das Feuer geht aus. Erkläre mit dem, was du über die Verbrennung weisst, warum das funktioniert.",
+      "musterloesung": "Für eine Verbrennung braucht es einen brennbaren Stoff und Sauerstoff. Die Löschdecke deckt die Pfanne luftdicht ab, so kommt kein Sauerstoff aus der Luft mehr an das brennende Öl. Ohne Sauerstoff kann das Öl nicht weiterbrennen, das Feuer erstickt.",
+      "stichworte": [
+        "Sauerstoff",
+        "abdecken / keine Luft",
+        "ohne Sauerstoff keine Verbrennung",
+        "Feuer erstickt"
+      ],
+      "erklaerung": "Verbrennung = brennbarer Stoff + **Sauerstoff**. Nimmt man einen der beiden weg, hört die Verbrennung auf. Die Decke trennt das Feuer von der Luft. (Beispiel ergänzt; Wasser darf man auf brennendes Öl nie giessen.)",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-verb-15",
+      "lernzielId": "lz-verbrennung",
+      "typ": "offen",
+      "frage": "Eine Kerze brennt ab. Erkläre, warum das Verbrennen der Kerze eine **chemische Reaktion** ist und warum **Brennbarkeit** deshalb eine **chemische Eigenschaft** ist.",
+      "musterloesung": "Das Kerzenwachs reagiert mit Sauerstoff aus der Luft. Dabei entstehen neue Stoffe: Kohlenstoffdioxid und Wasser(dampf). Weil neue Stoffe entstehen, ist es eine chemische Reaktion. Um zu prüfen, ob ein Stoff brennbar ist, muss man ihn verbrennen; dabei verändert er sich und ist danach nicht mehr da. Eine Eigenschaft, bei deren Prüfung ein neuer Stoff entsteht, ist eine chemische Eigenschaft.",
+      "stichworte": [
+        "Sauerstoff",
+        "neue Stoffe",
+        "Kohlenstoffdioxid und Wasser",
+        "Stoff wird verändert",
+        "chemische Eigenschaft"
+      ],
+      "erklaerung": "Wachs + Sauerstoff → Kohlenstoffdioxid + Wasser: Es entstehen **neue Stoffe** → chemische Reaktion. Bei chemischen Eigenschaften verändert die Prüfung den Stoff, bei physikalischen (z. B. Farbe, Schmelztemperatur) nicht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-verb-17",
+      "lernzielId": "lz-verbrennung",
+      "typ": "kurzantwort",
+      "frage": "Kohle besteht vor allem aus einem bestimmten chemischen Element, ein Diamant sogar ganz (Zeichen C). Wie heisst dieses Element auf Deutsch?",
+      "akzeptiert": [
+        "Kohlenstoff",
+        "Kohlenstoff (C)"
+      ],
+      "erklaerung": "Beide sind aus **Kohlenstoff** (Zeichen **C**, von *Carbon*) aufgebaut: Kohle vor allem, ein Diamant ganz. So verschieden sie aussehen – sie enthalten dasselbe Element. *Ergänzt:* Trotzdem sind Kohle und Diamant nicht derselbe Stoff, denn ihre Eigenschaften (Härte, Farbe, Dichte) sind ganz verschieden.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-verb-18",
+      "lernzielId": "lz-verbrennung",
+      "typ": "zuordnen",
+      "frage": "Eine Kerze brennt. Ordne zu: Wird der Stoff bei der Verbrennung **verbraucht** oder **entsteht** er?",
+      "paare": [
+        {
+          "links": "Kerzenwachs",
+          "rechts": "wird verbraucht"
+        },
+        {
+          "links": "Sauerstoff (O₂)",
+          "rechts": "wird verbraucht"
+        },
+        {
+          "links": "Kohlenstoffdioxid (CO₂)",
+          "rechts": "entsteht"
+        },
+        {
+          "links": "Wasser (H₂O)",
+          "rechts": "entsteht"
+        }
+      ],
+      "erklaerung": "Brennbarer Stoff (**Wachs**) + **Sauerstoff** → **Kohlenstoffdioxid** + **Wasser**. Links vom Pfeil stehen die Stoffe, die verbraucht werden, rechts die neuen Stoffe, die entstehen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-verb-19",
+      "lernzielId": "lz-verbrennung",
+      "typ": "mehrfachwahl",
+      "frage": "Kreuze alle richtigen Aussagen zur Verbrennung an (mindestens eine ist richtig).",
+      "optionen": [
+        "Bei einer Verbrennung entstehen neue Stoffe mit neuen Eigenschaften.",
+        "Bei einer Verbrennung wird Energie frei, zum Beispiel als Wärme und Licht.",
+        "Eine Verbrennung ist ein physikalischer Vorgang wie das Schmelzen.",
+        "Kohlenstoffdioxid und Wasser sind die Ausgangsstoffe einer Verbrennung."
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Bei der Verbrennung entstehen **neue Stoffe** (Stoffumwandlung) und es wird **Energie frei** (Wärme, Licht). Darum ist sie ein **chemischer** Vorgang, kein physikalischer wie das Schmelzen. Kohlenstoffdioxid und Wasser sind die **Produkte**; Ausgangsstoffe sind der brennbare Stoff und Sauerstoff. (Energie und Fachbegriffe ergänzt, Elemente Kap. 3)",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-verb-20",
+      "lernzielId": "lz-verbrennung",
+      "typ": "kurzantwort",
+      "frage": "Wie nennt man die Stoffe, die bei einer chemischen Reaktion **neu entstehen** (in der Wortgleichung rechts vom Pfeil)?",
+      "akzeptiert": [
+        "Produkte",
+        "Produkt",
+        "Reaktionsprodukte",
+        "Reaktionsprodukt",
+        "Endprodukte",
+        "Endstoffe"
+      ],
+      "erklaerung": "Links vom Pfeil stehen die **Ausgangsstoffe** (Edukte), rechts die **Produkte**. Bei der Verbrennung sind Kohlenstoffdioxid und Wasser die Produkte. (Begriffe ergänzt, Elemente Kap. 3)",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-verb-21",
+      "lernzielId": "lz-verbrennung",
+      "typ": "wahrfalsch",
+      "frage": "«Wenn Kerzenwachs schmilzt, ist das eine chemische Reaktion, denn das Wachs verändert sich dabei.»",
+      "richtig": false,
+      "erklaerung": "Beim Schmelzen ändert sich nur der **Aggregatzustand**. Das flüssige Wachs ist immer noch Wachs und wird beim Abkühlen wieder fest. Es entsteht **kein neuer Stoff**, darum ist Schmelzen ein physikalischer Vorgang. Erst beim **Verbrennen** entstehen neue Stoffe (CO₂ und Wasser).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-verb-22",
+      "lernzielId": "lz-verbrennung",
+      "typ": "einfachwahl",
+      "frage": "Woran merkst du bei einem Lagerfeuer, dass bei der Verbrennung **Energie frei wird**?",
+      "optionen": [
+        "Am Schluss bleibt Asche übrig.",
+        "Das Holz wird immer kleiner.",
+        "Es braucht Sauerstoff aus der Luft.",
+        "Das Feuer wärmt und leuchtet."
+      ],
+      "richtig": 3,
+      "erklaerung": "Die frei werdende Energie spürst und siehst du als **Wärme und Licht**. Asche, das Kleinerwerden des Holzes und der Sauerstoffverbrauch zeigen, dass Stoffe umgewandelt werden, aber nicht die Energie. (Ergänzt, Elemente Kap. 3)",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-verb-23",
+      "lernzielId": "lz-verbrennung",
+      "typ": "offen",
+      "frage": "Auf einem Gasherd verbrennt Erdgas. Nenne die Ausgangsstoffe und die Produkte dieser Verbrennung in Worten und erkläre in ganzen Sätzen, woran man erkennt, dass es sich um eine chemische Reaktion handelt.",
+      "musterloesung": "Ausgangsstoffe sind Erdgas und Sauerstoff aus der Luft. Produkte sind Kohlenstoffdioxid und Wasser(dampf). Es ist eine chemische Reaktion, weil neue Stoffe mit neuen Eigenschaften entstehen: Das Erdgas ist danach nicht mehr da. Zudem wird Energie als Wärme und Licht frei, mit der Wärme kocht man.",
+      "stichworte": [
+        "Erdgas + Sauerstoff",
+        "Kohlenstoffdioxid + Wasser",
+        "neue Stoffe",
+        "Stoffumwandlung",
+        "Energie: Wärme und Licht"
+      ],
+      "erklaerung": "Erdgas + Sauerstoff → Kohlenstoffdioxid + Wasser. Die **neuen Stoffe** zeigen die chemische Reaktion; die frei werdende **Energie** (Wärme) nutzt man zum Kochen. (Beispiel ergänzt)",
+      "schwierigkeit": 3
+    }
+  ]
+}

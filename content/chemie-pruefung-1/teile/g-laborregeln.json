@@ -1,0 +1,244 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-laborregeln",
+      "zusammenfassung": "### Warum Regeln im Labor?\nIm Chemielabor arbeitest du mit Feuer, heissen Geräten und Stoffen, die giftig, ätzend oder brennbar sein können. Die Regeln schützen dich und die anderen.\n\n*Ergänzt: Das Arbeitsblatt zu den Laborregeln lag nicht vor. Die Liste unten enthält die üblichen Regeln; dein Arbeitsblatt kann weitere Regeln enthalten.*\n\n### Die wichtigsten Regeln und warum\n1. **Schutzbrille tragen.** Spritzer können die Augen verletzen.\n2. **Lange Haare zusammenbinden.** Sonst können sie in die Brennerflamme oder in Chemikalien geraten.\n3. **Im Labor nicht essen und nicht trinken.** Essen und Getränke können mit Chemikalien verunreinigt werden.\n4. **Nie eine Geschmacksprobe nehmen.** Viele Stoffe sind giftig oder ätzend, auch wenn sie harmlos aussehen.\n5. **Geruchsprobe nur durch Zufächeln.** Mit der Hand die Dämpfe vorsichtig zur Nase fächeln, nie direkt an der Öffnung einatmen. So gelangt nur wenig von einem Gas in die Nase.\n6. **Nur auf Anweisung experimentieren und die Anleitung vorher ganz lesen.** Unbekannte Mischungen können heftig reagieren.\n7. **Gefahrensymbole beachten.** Sie zeigen, ob ein Stoff zum Beispiel giftig, ätzend oder entzündlich ist.\n8. **Beim Erhitzen die Öffnung des Reagenzglases nie auf Personen richten.** Heisse Flüssigkeit kann plötzlich herausspritzen.\n9. **Chemikalien nie in die Vorratsflasche zurückgiessen.** Ein verunreinigter Rest würde den ganzen Vorrat verderben.\n10. **Den Brenner nie unbeaufsichtigt brennen lassen.** Die blaue Flamme sieht man kaum, jemand könnte sich verbrennen.\n11. **Unfälle und Schäden sofort melden**, auch kleine. Nur so kann rasch geholfen werden.\n12. **Arbeitsplatz aufräumen** und Geräte reinigen. Die nächste Klasse soll sauber und sicher arbeiten können.\n13. **Nach der Arbeit Hände waschen.** Sonst gelangen Chemikalienreste in den Mund oder in die Augen.\n\n> Im Labor gilt: Augen und Haare schützen, nichts in den Mund, nur zufächeln, nur auf Anweisung arbeiten, alles sofort melden.",
+      "merksaetze": [
+        "Schutzbrille tragen, lange Haare zusammenbinden, nicht essen und trinken, nie eine Geschmacksprobe, Geruchsprobe nur durch Zufächeln.",
+        "Nur auf Anweisung experimentieren, Gefahrensymbole beachten, die Reagenzglasöffnung beim Erhitzen nie auf Personen richten, Chemikalien nie in die Vorratsflasche zurückgiessen.",
+        "Brenner nie unbeaufsichtigt lassen, Unfälle sofort melden, Arbeitsplatz aufräumen, Hände waschen."
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-labor-01",
+      "lernzielId": "lz-laborregeln",
+      "typ": "wahrfalsch",
+      "frage": "«Im Labor darf ich eine kleine Geschmacksprobe nehmen, wenn der Stoff wie Zucker aussieht.»",
+      "richtig": false,
+      "erklaerung": "Im Labor gilt: **nie eine Geschmacksprobe**. Viele weisse Pulver sehen gleich aus, können aber giftig oder ätzend sein. Zudem können Laborgeräte mit Chemikalien verunreinigt sein.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-labor-02",
+      "lernzielId": "lz-laborregeln",
+      "typ": "einfachwahl",
+      "frage": "Wie prüfst du im Labor den **Geruch** eines Stoffes richtig?",
+      "optionen": [
+        "Ich halte die Nase direkt an die Öffnung und atme kräftig ein.",
+        "Ich fächle die Dämpfe mit der Hand vorsichtig zur Nase.",
+        "Ich gebe einen Tropfen auf die Hand und rieche daran.",
+        "Ich rieche am Deckel, nachdem ich ihn abgeschraubt habe."
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Geruchsprobe macht man nur durch **Zufächeln**: So gelangt nur eine kleine Menge des Gases in die Nase. Direkt einatmen kann die Atemwege reizen oder vergiften. Chemikalien gehören nie auf die Haut.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-labor-03",
+      "lernzielId": "lz-laborregeln",
+      "typ": "mehrfachwahl",
+      "frage": "Kreuze alle Situationen an, in denen **gegen eine Laborregel verstossen** wird (mindestens eine ist richtig).",
+      "optionen": [
+        "Jemand trinkt am Arbeitsplatz aus der eigenen Wasserflasche.",
+        "Jemand trägt beim Erhitzen eine Schutzbrille.",
+        "Übrig gebliebene Salzlösung wird in die Vorratsflasche zurückgegossen.",
+        "Nach dem Versuch werden die Hände gewaschen.",
+        "Beim Erhitzen zeigt die Öffnung des Reagenzglases zum Nachbarn."
+      ],
+      "richtig": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "Verstösse: **trinken** im Labor, Reste **in die Vorratsflasche zurückgiessen** und die **Reagenzglasöffnung auf eine Person richten**. Schutzbrille tragen und Hände waschen sind dagegen genau richtig.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-labor-04",
+      "lernzielId": "lz-laborregeln",
+      "typ": "offen",
+      "frage": "Erkläre in ganzen Sätzen, warum man übrig gebliebene Chemikalien **nie in die Vorratsflasche zurückgiessen** darf.",
+      "musterloesung": "Der Rest kann verunreinigt sein, zum Beispiel durch ein nicht ganz sauberes Reagenzglas, einen Spatel oder einen anderen Stoff. Giesst man ihn zurück, ist der ganze Vorrat in der Flasche verunreinigt. Spätere Versuche gehen dann schief oder können sogar gefährlich werden, weil unerwartete Stoffe miteinander reagieren.",
+      "stichworte": [
+        "Rest kann verunreinigt sein",
+        "ganzer Vorrat verunreinigt",
+        "spätere Versuche falsch oder gefährlich"
+      ],
+      "erklaerung": "Ein einziger verunreinigter Rest verdirbt den **ganzen Vorrat**. Darum entsorgt man Reste so, wie es die Lehrperson angibt. (Regeln ergänzt)",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-labor-05",
+      "lernzielId": "lz-laborregeln",
+      "typ": "offen",
+      "frage": "Erkläre, warum du beim Erhitzen die **Öffnung des Reagenzglases** nie auf dich oder andere Personen richten darfst.",
+      "musterloesung": "Beim Erhitzen kann die Flüssigkeit im Reagenzglas plötzlich aufsieden und herausspritzen. Zeigt die Öffnung auf eine Person, wird sie von heisser Flüssigkeit oder von Chemikalien getroffen und kann sich verbrühen oder verätzen, besonders an den Augen. Darum zeigt die Öffnung immer zur Seite, weg von allen Personen.",
+      "stichworte": [
+        "plötzlich herausspritzen",
+        "heisse Flüssigkeit / Chemikalien",
+        "Verbrühung oder Verätzung",
+        "Öffnung von Personen weg"
+      ],
+      "erklaerung": "Heisse Flüssigkeit kann ohne Vorwarnung **herausspritzen**. Die Öffnung zeigt deshalb immer von allen Personen weg. (Regeln ergänzt)",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-labor-06",
+      "lernzielId": "lz-laborregeln",
+      "typ": "einfachwahl",
+      "frage": "Warum bindest du im Labor **lange Haare zusammen**?",
+      "optionen": [
+        "Damit die Schutzbrille besser sitzt.",
+        "Damit keine Haare in die Messung geraten und die Werte verfälschen.",
+        "Weil es unter der Schutzbrille sonst zu warm wird.",
+        "Damit sie nicht in die Brennerflamme oder in Chemikalien hängen."
+      ],
+      "richtig": 3,
+      "erklaerung": "Offene lange Haare können **Feuer fangen**, wenn sie in die Brennerflamme geraten, oder in Chemikalien hängen. Zusammengebunden bleiben sie weg vom Versuch.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-labor-07",
+      "lernzielId": "lz-laborregeln",
+      "typ": "wahrfalsch",
+      "frage": "«Wenn ein Reagenzglas zerbricht und ich mich nur leicht schneide, muss ich das nicht melden.»",
+      "richtig": false,
+      "erklaerung": "**Jeder Unfall und jeder Schaden wird sofort gemeldet**, auch ein kleiner. Die Wunde könnte mit Chemikalien in Kontakt gekommen sein, und die Scherben müssen sicher entsorgt werden.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-labor-08",
+      "lernzielId": "lz-laborregeln",
+      "typ": "einfachwahl",
+      "frage": "Was ist hier falsch? Jemand zündet den Bunsenbrenner an, holt dann rasch beim Pult ein neues Reagenzglas und lässt den Brenner weiterbrennen.",
+      "optionen": [
+        "Die Luftzufuhr hätte vorher ganz geöffnet werden müssen.",
+        "Das Streichholz hätte erst nach dem Öffnen des Gashahns angezündet werden sollen.",
+        "Der brennende Brenner bleibt unbeaufsichtigt.",
+        "Nichts, denn der Brenner darf kurz allein brennen, wenn die Flamme gelb ist."
+      ],
+      "richtig": 2,
+      "erklaerung": "Ein brennender Brenner wird **nie unbeaufsichtigt** gelassen. Wer kurz weg muss, stellt den Gashahn ab. Zuerst das Streichholz, dann das Gas ist richtig, und auch eine gelbe Flamme darf nicht allein brennen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-labor-09",
+      "lernzielId": "lz-laborregeln",
+      "typ": "zuordnen",
+      "frage": "Ordne jeder Laborregel die passende Begründung zu.",
+      "paare": [
+        {
+          "links": "Schutzbrille tragen",
+          "rechts": "Spritzer können die Augen verletzen."
+        },
+        {
+          "links": "Nie eine Geschmacksprobe nehmen",
+          "rechts": "Viele Stoffe sind giftig oder ätzend."
+        },
+        {
+          "links": "Im Labor nicht essen und trinken",
+          "rechts": "Lebensmittel können mit Chemikalien verunreinigt werden."
+        },
+        {
+          "links": "Nach der Arbeit Hände waschen",
+          "rechts": "Chemikalienreste gelangen sonst später in den Mund oder die Augen."
+        }
+      ],
+      "erklaerung": "Jede Regel schützt vor einer bestimmten Gefahr: die **Brille** die Augen vor Spritzern, das **Geschmacksverbot** vor Gift, das **Ess- und Trinkverbot** vor verunreinigten Lebensmitteln und das **Händewaschen** vor Resten, die man sonst mitnimmt.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-labor-10",
+      "lernzielId": "lz-laborregeln",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die Bewegung, mit der du bei einer Geruchsprobe die Dämpfe mit der Hand vorsichtig zur Nase bewegst? (ein Wort)",
+      "akzeptiert": [
+        "Zufächeln",
+        "zufaecheln",
+        "Fächeln",
+        "faecheln"
+      ],
+      "erklaerung": "Man **fächelt** die Dämpfe mit der Hand zur Nase (**Zufächeln**). So riecht man nur eine kleine Menge.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-labor-11",
+      "lernzielId": "lz-laborregeln",
+      "typ": "wahrfalsch",
+      "frage": "«Gefahrensymbole auf einer Chemikalienflasche muss ich nur beachten, wenn die Lehrperson extra darauf hinweist.»",
+      "richtig": false,
+      "erklaerung": "**Gefahrensymbole beachtest du immer** selbst. Sie zeigen auf einen Blick, ob ein Stoff zum Beispiel giftig, ätzend oder entzündlich ist und wie vorsichtig du damit umgehen musst.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-labor-12",
+      "lernzielId": "lz-laborregeln",
+      "typ": "mehrfachwahl",
+      "frage": "Dein Versuch ist fertig. Kreuze alles an, was du jetzt noch tun musst (mindestens eine Aussage ist richtig).",
+      "optionen": [
+        "den Gashahn des Brenners schliessen",
+        "den Arbeitsplatz aufräumen und die Geräte reinigen",
+        "übrige Chemikalien in die Vorratsflasche zurückgiessen",
+        "die Hände waschen"
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Am Schluss: **Gas abstellen**, **aufräumen und reinigen**, **Hände waschen**. Reste gehören nie in die Vorratsflasche, sie könnten den ganzen Vorrat verunreinigen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-labor-13",
+      "lernzielId": "lz-laborregeln",
+      "typ": "offen",
+      "frage": "Was ist hier falsch? Eine Person kommt ins Labor, legt ihr Sandwich neben den Bunsenbrenner, beginnt ohne Schutzbrille und ohne die Anleitung zu lesen mit dem Versuch und riecht dann direkt an der offenen Flasche mit verdünnter Salzsäure. Nenne mindestens **drei Fehler** und erkläre jeweils, warum die Regel wichtig ist.",
+      "musterloesung": "1. Das Sandwich gehört nicht ins Labor: Im Labor isst und trinkt man nicht, weil Lebensmittel mit Chemikalien verunreinigt werden können.\n2. Keine Schutzbrille: Spritzer können die Augen verletzen.\n3. Die Anleitung nicht gelesen: Man experimentiert nur nach Anweisung, sonst macht man Fehler, die gefährlich werden können.\n4. Direkt an der Flasche gerochen: Geruchsproben nur durch Zufächeln, sonst atmet man zu viel von den reizenden Dämpfen ein.",
+      "stichworte": [
+        "kein Essen im Labor",
+        "Schutzbrille",
+        "Anleitung lesen / nur auf Anweisung",
+        "Zufächeln statt direkt riechen",
+        "Begründung zu jeder Regel"
+      ],
+      "erklaerung": "In der Situation stecken vier Verstösse: **Essen** im Labor, **keine Schutzbrille**, **Anleitung nicht gelesen** und **direkt gerochen**. Zu jeder Regel gehört eine Begründung, die zeigt, wovor sie schützt.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-labor-14",
+      "lernzielId": "lz-laborregeln",
+      "typ": "mehrfachwahl",
+      "frage": "Beim Erhitzen spritzt plötzlich heisse Flüssigkeit aus einem Reagenzglas. Kreuze alle Regeln an, die in dieser Situation **Verletzungen verhindern** (mindestens eine ist richtig).",
+      "optionen": [
+        "Schutzbrille tragen",
+        "die Öffnung des Reagenzglases nie auf Personen richten",
+        "Chemikalien nie in die Vorratsflasche zurückgiessen",
+        "den Arbeitsplatz nach dem Versuch aufräumen"
+      ],
+      "richtig": [
+        0,
+        1
+      ],
+      "erklaerung": "Die **Schutzbrille** schützt die Augen, und weil die **Öffnung von Personen weg** zeigt, trifft der Spritzer niemanden. Die beiden anderen Regeln sind auch wichtig, verhindern aber in diesem Moment keine Verletzung.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-labor-15",
+      "lernzielId": "lz-laborregeln",
+      "typ": "einfachwahl",
+      "frage": "Du möchtest ausprobieren, was passiert, wenn du zwei Chemikalien aus dem Regal mischst. Was tust du?",
+      "optionen": [
+        "Ich frage vorher die Lehrperson um Erlaubnis.",
+        "Ich mische sie, nehme aber nur ganz kleine Mengen.",
+        "Ich mische sie, aber erst mit Schutzbrille und Handschuhen.",
+        "Ich mische sie in einem Reagenzglas, das ich von mir weghalte."
+      ],
+      "richtig": 0,
+      "erklaerung": "Im Labor experimentierst du **nur auf Anweisung**. Manche Stoffe reagieren heftig miteinander, auch in kleinen Mengen, und weder Schutzkleidung noch Abstand verhindern das. Erst die Lehrperson weiss, ob die Mischung ungefährlich ist.",
+      "schwierigkeit": 2
+    }
+  ]
+}

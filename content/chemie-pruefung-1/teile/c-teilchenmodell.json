@@ -1,0 +1,874 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-teilchenmodell",
+      "zusammenfassung": "### Was ist das Teilchenmodell?\nEin Stück Eisen oder ein Glas Wasser sieht aus, als wäre es «aus einem Guss». Das **Teilchenmodell** ist eine vereinfachte Vorstellung davon, wie Stoffe im Kleinsten aufgebaut sind. Die Teilchen selbst kann man nicht sehen – aber mit dem Modell lassen sich viele Beobachtungen erklären.\n\n### Die fünf Aussagen\n1. Alle Stoffe bestehen aus kleinsten, kugelförmigen Teilchen.\n2. Zwischen den Teilchen ist leerer Raum.\n3. Die Teilchen eines Reinstoffs sind unter sich gleich, Gemische bestehen aus verschiedenen Teilchenarten.\n4. Zwischen den Teilchen sind Anziehungskräfte, die mit dem Abstand schnell kleiner werden.\n5. Die Teilchen sind ständig in Bewegung. Je höher die Temperatur eines Stoffes ist, desto schneller bewegen sie sich.\n\n### Beispiele erklären\n| Beobachtung | passende Aussage |\n| --- | --- |\n| Luft in einer verschlossenen Spritze lässt sich zusammendrücken. | 2: viel leerer Raum zwischen den Teilchen |\n| Duft oder Tinte verteilen sich von selbst. | 5: Teilchen sind ständig in Bewegung |\n| In heissem Wasser verteilt sich Tee schneller. | 5: wärmer = schnellere Teilchen |\n| Reines Wasser hat eine Teilchenart, Salzwasser zwei. | 3: Reinstoff gegenüber Gemisch |\n| Ein Feststoff hält zusammen, ein Gas verteilt sich. | 4: nahe Teilchen ziehen sich stark an, weit entfernte kaum |\n\n### So schreibst du eine Erklärung\nBeispiel aus dem Übungstest: Parfumduft verteilt sich in einem ruhigen Zimmer. Die Duftteilchen bewegen sich **von selbst** zwischen den Luftteilchen hindurch (Aussage 5), denn zwischen Luft- und Duftteilchen ist **leerer Raum** (Aussage 2). In einem kalten Zimmer ginge es **langsamer**, und die Duftteilchen werden dabei **nicht kleiner**.\n\nNenne also die Beobachtung, dann die passende Aussage und verbinde beides mit «weil» oder «denn». Die Beispiele in der Tabelle sind teils ergänzt. Weitere Phänomene (Wärmeausdehnung, Volumenkontraktion …) findest du beim nächsten Lernziel.\n\n> **Kurz gemerkt:** Teilchen – leerer Raum – gleiche oder verschiedene Teilchen – Anziehungskräfte – ständige Bewegung.",
+      "merksaetze": [
+        "Alle Stoffe bestehen aus kleinsten, kugelförmigen Teilchen; zwischen den Teilchen ist leerer Raum.",
+        "Reinstoff: lauter gleiche Teilchen – Gemisch: verschiedene Teilchenarten.",
+        "Die Anziehungskräfte zwischen den Teilchen werden mit dem Abstand schnell kleiner.",
+        "Die Teilchen sind ständig in Bewegung – je höher die Temperatur, desto schneller."
+      ]
+    },
+    {
+      "id": "lz-phaenomene",
+      "zusammenfassung": "Alle diese Phänomene erklärst du mit denselben Aussagen: **leerer Raum** zwischen den Teilchen und **ständige Bewegung**, die mit der Temperatur zunimmt.\n\n### Volumenkontraktion\n50 ml Alkohol + 50 ml Wasser ergeben **weniger als 100 ml** (etwa 96–97 ml). Die verschieden grossen Teilchen schieben sich ineinander: Kleinere füllen Lücken zwischen grösseren, und die verschiedenen Teilchen ziehen sich an. Die **Masse bleibt gleich** – es geht kein Teilchen verloren. Modellversuch: Erbsen und Senfkörner mischen.\n\n### Wärmeausdehnung\nBeim Erwärmen schwingen die Teilchen eines Feststoffs heftiger um ihre Plätze und «schubsen» ihre Nachbarn weg. Sie brauchen mehr Platz, die Abstände werden grösser – der Körper dehnt sich aus. Die Teilchen selbst werden **nicht grösser**. Beispiele: Stromleitungen hängen im Sommer stärker durch; ergänzt: Dehnfugen bei Brücken, steigende Flüssigkeit im Thermometer.\n\n### Wärmeleitung\nErhitzt man einen Metallstab an einem Ende, schwingen die Teilchen dort stärker. Durch **Zusammenstösse** geben sie Bewegungsenergie an ihre Nachbarn weiter – Schritt für Schritt bis ans andere Ende. Wärme fliesst immer zur **tieferen Temperatur**; Energie geht dabei nicht verloren.\n\n### Brownsche Bewegung\nIn Milch unter dem Mikroskop zittern die Fetttröpfchen ständig. Die unsichtbaren Wasserteilchen sind in ständiger Bewegung und stossen von allen Seiten gegen die Tröpfchen. Benannt nach Robert Brown, der 1827 zitternde Blütenpollen in Wasser sah. Unterscheide: Die ständige Eigenbewegung der Teilchen selbst heisst im Lehrmittel **thermische Bewegung** (im Heft Brown'sche Molekularbewegung) – sie ist auch die Ursache der Diffusion. Die Brownsche Bewegung ist das **sichtbare Zittern** der Körnchen, das sie verursacht.\n\n### Diffusion\nGase und Flüssigkeiten durchmischen sich von selbst, weil sich ihre Teilchen ständig bewegen (mehr dazu beim nächsten Lernziel).\n\n### Absoluter Nullpunkt\nJe kälter, desto langsamer die Teilchen. Bei **−273,15 °C = 0 K** kämen sie zum Stillstand – tiefer geht es nicht.\n\n> **Erklären im Test:** Beobachtung → was die Teilchen tun (schneller, stärker schwingen, Lücken füllen, anstossen) → Folge für den Stoff.",
+      "merksaetze": [
+        "Volumenkontraktion: Verschieden grosse Teilchen schieben sich ineinander – das Volumen nimmt ab, die Masse bleibt gleich.",
+        "Wärmeausdehnung: Wärmere Teilchen schwingen stärker und brauchen mehr Platz – die Teilchen selbst werden nicht grösser.",
+        "Wärmeleitung: Teilchen geben ihre Bewegungsenergie durch Zusammenstösse an die Nachbarn weiter; Wärme fliesst zur tieferen Temperatur.",
+        "Brownsche Bewegung: Unsichtbare Wasserteilchen stossen sichtbare Körnchen an, die darum zittern."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/chemie/waermeausdehnung.svg",
+          "alt": "Teilchen eines Feststoffs bei drei Temperaturen: kalt dicht gepackt, wärmer und heiss mit grösseren Abständen und Schwingungsstrichen",
+          "legende": "Wärmeausdehnung: Die Teilchen bleiben gleich gross, schwingen aber stärker und halten mehr Abstand."
+        }
+      ]
+    },
+    {
+      "id": "lz-diffusion",
+      "zusammenfassung": "### Was ist Diffusion?\n**Diffusion** ist die selbstständige Durchmischung zweier oder mehrerer Gase bzw. Flüssigkeiten. Niemand muss rühren oder schütteln – die Stoffe verteilen sich von allein.\n\n### Die Ursache: Teilchen in Bewegung\nIm flüssigen und im gasförmigen Zustand sind die Teilchen in **ständiger und chaotischer Bewegung** – das Lehrmittel nennt das **thermische Bewegung**, im Heft heisst sie Brown'sche Molekularbewegung. Die Teilchen stossen dauernd zusammen und geraten so mit der Zeit zwischen die Teilchen des anderen Stoffes. Wie schnell das geht, hängt von der **Teilchengeschwindigkeit** ab.\n\n### a) Warum hängt sie von der Temperatur ab?\nJe höher die Temperatur, desto schneller bewegen sich die Teilchen im Durchschnitt. Schnellere Teilchen geraten schneller zwischen die anderen Teilchen – die Diffusion läuft **schneller** ab. Ergänzt: Ein Teebeutel färbt heisses Wasser viel schneller als kaltes.\n\n### b) Warum hängt sie von der Art des Gases ab?\nBei **gleicher Temperatur** bewegen sich kleinere bzw. leichtere Teilchen schneller als grosse, schwere. Darum diffundiert ein Gas mit leichten Teilchen schneller. Ergänzt: Wasserstoff hat die leichtesten Teilchen und verteilt sich sehr schnell; **Bromdampf** hat schwere Teilchen und breitet sich nur langsam aus (Video).\n\n| Bedingung | Teilchen | Diffusion |\n| --- | --- | --- |\n| höhere Temperatur | schneller | schneller |\n| tiefere Temperatur | langsamer | langsamer |\n| gleiche Temperatur, leichtere Teilchen | schneller | schneller |\n| gleiche Temperatur, schwerere Teilchen | langsamer | langsamer |\n\n### Und in Feststoffen?\nIm Feststoff zittern die Teilchen nur auf ihren Plätzen; starke Anziehungskräfte halten sie fest. Darum gibt es dort **praktisch keine Diffusion**.\n\n> **Begründen in zwei Schritten:** Temperatur ↑ oder Teilchen leichter → Teilchen schneller → Diffusion schneller.",
+      "merksaetze": [
+        "Diffusion: die selbstständige Durchmischung zweier oder mehrerer Gase bzw. Flüssigkeiten – Ursache ist die ständige Bewegung der Teilchen.",
+        "a) Je höher die Temperatur, desto schneller bewegen sich die Teilchen – desto schneller die Diffusion.",
+        "b) Bei gleicher Temperatur sind leichtere (kleinere) Teilchen schneller – leichte Gase diffundieren schneller als schwere (Bromdampf: langsam)."
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-tm-01",
+      "lernzielId": "lz-teilchenmodell",
+      "typ": "reihenfolge",
+      "frage": "Bringe die fünf Aussagen des Teilchenmodells in die Reihenfolge, wie sie im Heft nummeriert sind.",
+      "elemente": [
+        "Alle Stoffe bestehen aus kleinsten, kugelförmigen Teilchen.",
+        "Zwischen den Teilchen ist leerer Raum.",
+        "Die Teilchen eines Reinstoffs sind unter sich gleich, Gemische bestehen aus verschiedenen Teilchenarten.",
+        "Zwischen den Teilchen sind Anziehungskräfte, die mit dem Abstand schnell kleiner werden.",
+        "Die Teilchen sind ständig in Bewegung, umso schneller, je höher die Temperatur."
+      ],
+      "erklaerung": "Die Aussagen bauen aufeinander auf: zuerst **was** es gibt (Teilchen), dann **dazwischen** (leerer Raum), dann **welche** Teilchen (gleich oder verschieden), dann **Kräfte** zwischen ihnen und zuletzt die **Bewegung**.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-tm-02",
+      "lernzielId": "lz-teilchenmodell",
+      "typ": "zuordnen",
+      "frage": "Ordne jeder Beobachtung die Aussage des Teilchenmodells zu, die sie erklärt.",
+      "paare": [
+        {
+          "links": "Luft in einer verschlossenen Spritze lässt sich zusammendrücken.",
+          "rechts": "Aussage 2: leerer Raum zwischen den Teilchen"
+        },
+        {
+          "links": "Ein Tropfen Tinte färbt mit der Zeit das ganze Wasser im Glas.",
+          "rechts": "Aussage 5: Teilchen sind ständig in Bewegung"
+        },
+        {
+          "links": "Salzwasser enthält Wasserteilchen und Salzteilchen.",
+          "rechts": "Aussage 3: Gemische bestehen aus verschiedenen Teilchenarten"
+        },
+        {
+          "links": "Ein Eisenstab hält fest zusammen, ein Gas verteilt sich im ganzen Raum.",
+          "rechts": "Aussage 4: Anziehungskräfte werden mit dem Abstand kleiner"
+        }
+      ],
+      "erklaerung": "Zusammendrücken geht nur, wo **leerer Raum** ist. Die Tinte verteilt sich, weil die Teilchen sich **ständig bewegen**. Salzwasser ist ein Gemisch, also **verschiedene Teilchenarten**. Im Eisen liegen die Teilchen nah beieinander und ziehen sich stark an, im Gas sind sie weit auseinander – die **Anziehungskräfte** sind dort fast weg.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-tm-03",
+      "lernzielId": "lz-teilchenmodell",
+      "typ": "einfachwahl",
+      "frage": "Welche Aussage gehört **nicht** zum Teilchenmodell?",
+      "optionen": [
+        "Die Teilchen sind ständig in Bewegung.",
+        "Zwischen den Teilchen ist leerer Raum.",
+        "Beim Erwärmen werden die Teilchen grösser.",
+        "Alle Stoffe bestehen aus kleinsten, kugelförmigen Teilchen."
+      ],
+      "richtig": 2,
+      "erklaerung": "Die Teilchen behalten ihre Grösse. Beim Erwärmen bewegen sie sich **schneller** (Aussage 5) und brauchen dadurch mehr Platz – deshalb dehnt sich ein Stoff aus, nicht weil die Teilchen wachsen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-tm-04",
+      "lernzielId": "lz-teilchenmodell",
+      "typ": "kurzantwort",
+      "frage": "Ergänze Aussage 2 des Teilchenmodells: Zwischen den Teilchen ist …",
+      "akzeptiert": [
+        "leerer Raum",
+        "ein leerer Raum",
+        "leerer Raum.",
+        "leere Raum",
+        "nichts",
+        "Vakuum"
+      ],
+      "erklaerung": "Aussage 2 lautet: «Zwischen den Teilchen ist **leerer Raum**.» Dort ist also wirklich nichts – auch keine Luft, denn Luft besteht selbst aus Teilchen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-tm-05",
+      "lernzielId": "lz-teilchenmodell",
+      "typ": "wahrfalsch",
+      "frage": "Laut Teilchenmodell bewegen sich die Teilchen nur in Gasen; in Feststoffen stehen sie still.",
+      "richtig": false,
+      "erklaerung": "Aussage 5 sagt: Die Teilchen sind **ständig** in Bewegung – in jedem Stoff. In einem Feststoff zittern sie auf ihren Plätzen, in Flüssigkeiten verschieben sie sich, in Gasen fliegen sie frei herum.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-tm-06",
+      "lernzielId": "lz-teilchenmodell",
+      "typ": "einfachwahl",
+      "frage": "Warum lässt sich Luft in einer verschlossenen Spritze zusammendrücken, Wasser aber kaum?",
+      "optionen": [
+        "Luftteilchen sind kleiner als Wasserteilchen.",
+        "Zwischen den Luftteilchen ist viel leerer Raum, im Wasser berühren sich die Teilchen.",
+        "Luftteilchen werden beim Drücken zusammengepresst und dadurch kleiner, Wasserteilchen dagegen nicht.",
+        "Wasserteilchen bewegen sich nicht."
+      ],
+      "richtig": 1,
+      "erklaerung": "In einem Gas sind die Teilchen weit auseinander – dazwischen ist viel **leerer Raum**, den man «zusammenschieben» kann. In einer Flüssigkeit berühren sich die Teilchen schon; es bleibt kaum Platz. Die Teilchen selbst lassen sich nicht zusammenpressen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-tm-07",
+      "lernzielId": "lz-teilchenmodell",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Beobachtungen erklärt Aussage 5 (die Teilchen sind ständig in Bewegung, schneller bei höherer Temperatur)?",
+      "optionen": [
+        "Parfumduft verteilt sich im ganzen Zimmer.",
+        "Ein Teebeutel färbt heisses Wasser schneller als kaltes.",
+        "Luft lässt sich in einer Spritze zusammendrücken.",
+        "Zuckerwasser besteht aus zwei Teilchenarten.",
+        "Nasse Wäsche trocknet an einem warmen Tag schneller als an einem kühlen."
+      ],
+      "richtig": [
+        0,
+        1,
+        4
+      ],
+      "erklaerung": "Duft, Tee und trocknende Wäsche haben mit der **Bewegung** der Teilchen zu tun – und Wärme macht sie schneller. Das Zusammendrücken erklärt der **leere Raum** (Aussage 2), die zwei Teilchenarten im Zuckerwasser erklärt Aussage 3 (Gemisch). Die Beispiele sind ergänzt.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-tm-08",
+      "lernzielId": "lz-teilchenmodell",
+      "typ": "wahrfalsch",
+      "frage": "Die Anziehungskräfte zwischen zwei Teilchen werden grösser, wenn sich die Teilchen voneinander entfernen.",
+      "richtig": false,
+      "erklaerung": "Aussage 4: Die Anziehungskräfte werden mit dem Abstand **schnell kleiner**. Nahe Teilchen (Feststoff) ziehen sich stark an, weit entfernte (Gas) kaum noch.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-tm-09",
+      "lernzielId": "lz-teilchenmodell",
+      "typ": "einfachwahl",
+      "frage": "Wie unterscheiden sich ein Reinstoff und ein Gemisch im Teilchenmodell?",
+      "optionen": [
+        "Reinstoff: Teilchen in Bewegung – Gemisch: Teilchen in Ruhe.",
+        "Reinstoff: kein leerer Raum – Gemisch: viel leerer Raum.",
+        "Reinstoff: grosse Teilchen – Gemisch: kleine Teilchen.",
+        "Reinstoff: lauter gleiche Teilchen – Gemisch: verschiedene Teilchenarten."
+      ],
+      "richtig": 3,
+      "erklaerung": "Aussage 3: Die Teilchen eines **Reinstoffs** sind unter sich gleich, **Gemische** bestehen aus verschiedenen Teilchenarten. Bewegung und leerer Raum gibt es in beiden.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-tm-10",
+      "lernzielId": "lz-teilchenmodell",
+      "typ": "zuordnen",
+      "frage": "Ordne zu: Reinstoff oder Gemisch?",
+      "paare": [
+        {
+          "links": "Lauter gleiche Kugeln im Teilchenbild",
+          "rechts": "Reinstoff"
+        },
+        {
+          "links": "Zwei verschiedene Sorten Kugeln durcheinander",
+          "rechts": "Gemisch"
+        },
+        {
+          "links": "Destilliertes Wasser",
+          "rechts": "Reinstoff"
+        },
+        {
+          "links": "Salzwasser",
+          "rechts": "Gemisch"
+        },
+        {
+          "links": "Luft",
+          "rechts": "Gemisch"
+        },
+        {
+          "links": "Sauerstoff (O₂)",
+          "rechts": "Reinstoff"
+        }
+      ],
+      "erklaerung": "Ein **Reinstoff** besteht aus einer einzigen Teilchenart: destilliertes Wasser nur aus Wasserteilchen, Sauerstoff nur aus Sauerstoffteilchen. Salzwasser (Wasser + Salz) und Luft (Stickstoff, Sauerstoff, Argon, CO₂ …) enthalten **verschiedene Teilchenarten** – also Gemische.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-tm-12",
+      "lernzielId": "lz-teilchenmodell",
+      "typ": "offen",
+      "frage": "Erkläre mit dem Teilchenmodell, warum sich Gase leicht zusammendrücken lassen, Feststoffe aber kaum.",
+      "musterloesung": "In einem Gas sind die Teilchen weit voneinander entfernt; zwischen ihnen ist viel leerer Raum. Beim Zusammendrücken rücken die Teilchen näher zusammen. In einem Feststoff berühren sich die Teilchen schon – es gibt keinen Platz mehr, um sie näher zusammenzuschieben.",
+      "stichworte": [
+        "leerer Raum",
+        "Abstand",
+        "Teilchen berühren sich",
+        "Feststoff"
+      ],
+      "erklaerung": "Der Schlüssel ist Aussage 2 (**leerer Raum**). Wie viel davon vorhanden ist, hängt vom Aggregatzustand ab: im Gas sehr viel, im Feststoff fast keiner.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-tm-13",
+      "lernzielId": "lz-teilchenmodell",
+      "typ": "offen",
+      "frage": "Erkläre mit dem Teilchenmodell, warum ein Feststoff seine Form behält, während sich ein Gas im ganzen Raum verteilt. Verwende dabei Aussage 4.",
+      "musterloesung": "Aussage 4: Zwischen den Teilchen wirken Anziehungskräfte, die mit dem Abstand schnell kleiner werden. Im Feststoff liegen die Teilchen dicht beieinander, darum halten starke Anziehungskräfte sie an ihren Plätzen fest – die Form bleibt. Im Gas sind die Teilchen weit auseinander, die Anziehungskräfte sind dort sehr gering. Die schnellen Teilchen fliegen frei und verteilen sich im ganzen Raum.",
+      "stichworte": [
+        "Anziehungskräfte",
+        "Abstand",
+        "dicht beieinander",
+        "weit auseinander",
+        "Bewegung"
+      ],
+      "erklaerung": "Zwei Dinge wirken gegeneinander: die **Anziehungskräfte** (halten zusammen) und die **Bewegung** (treibt auseinander). Im Feststoff gewinnen die Anziehungskräfte, im Gas die Bewegung.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-tm-14",
+      "lernzielId": "lz-teilchenmodell",
+      "typ": "wahrfalsch",
+      "frage": "Im Teilchenmodell stellt man sich die kleinsten Teilchen als Kugeln vor.",
+      "richtig": true,
+      "erklaerung": "Aussage 1: Alle Stoffe bestehen aus kleinsten, **kugelförmigen** Teilchen. Das ist ein Modell – eine vereinfachte Vorstellung, mit der man Beobachtungen erklären kann.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-tm-16",
+      "lernzielId": "lz-teilchenmodell",
+      "typ": "kurzantwort",
+      "frage": "Ergänze Aussage 5: Je höher die Temperatur eines Stoffes ist, desto … bewegen sich seine Teilchen.",
+      "akzeptiert": [
+        "schneller",
+        "rascher",
+        "schneller bewegen sie sich"
+      ],
+      "erklaerung": "Wärmer heisst **schneller**: Die Temperatur ist ein Mass dafür, wie schnell sich die Teilchen bewegen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-tm-17",
+      "lernzielId": "lz-teilchenmodell",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aussagen gehören zum Teilchenmodell?",
+      "optionen": [
+        "Zwischen den Teilchen sind Anziehungskräfte.",
+        "Die Teilchen eines Reinstoffs sind unter sich gleich.",
+        "Zwischen den Teilchen befindet sich Luft.",
+        "Die Teilchen sind ständig in Bewegung.",
+        "Die Teilchen sind würfelförmig und lückenlos aufeinandergestapelt."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Zwischen den Teilchen ist **leerer Raum**, keine Luft – Luft besteht ja selbst aus Teilchen. Die Teilchen sind im Modell **kugelförmig**, und zwischen ihnen gibt es Lücken.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-tm-19",
+      "lernzielId": "lz-teilchenmodell",
+      "typ": "mehrfachwahl",
+      "frage": "In der Küche wird Kaffee gekocht. Kurz darauf riecht man den Kaffee auch im Wohnzimmer, obwohl kein Luftzug herrscht und alle still sitzen. Kreuze **alle** richtigen Aussagen an (mindestens eine ist richtig).",
+      "optionen": [
+        "Die Duftteilchen bewegen sich von selbst zwischen den Luftteilchen hindurch.",
+        "In einem kalten Zimmer würden sich die Duftteilchen schneller verteilen.",
+        "Zwischen den Luftteilchen und den Duftteilchen ist leerer Raum.",
+        "Die Duftteilchen werden beim Verteilen immer kleiner.",
+        "Luft mit Kaffeeduft ist ein Gemisch aus verschiedenen Teilchenarten."
+      ],
+      "richtig": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "Die Duftteilchen sind **ständig in Bewegung** (Aussage 5) und können sich zwischen die Luftteilchen schieben, weil dazwischen **leerer Raum** ist (Aussage 2). Luft und Duft sind verschiedene Teilchenarten, also ein **Gemisch** (Aussage 3). In der Kälte wären die Teilchen **langsamer**, und Teilchen werden nie kleiner.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-tm-20",
+      "lernzielId": "lz-teilchenmodell",
+      "typ": "offen",
+      "frage": "Nenne die fünf Aussagen des Teilchenmodells.",
+      "musterloesung": "1. Alle Stoffe bestehen aus kleinsten, kugelförmigen Teilchen. 2. Zwischen den Teilchen ist leerer Raum. 3. Die Teilchen eines Reinstoffs sind unter sich gleich, Gemische bestehen aus verschiedenen Teilchenarten. 4. Zwischen den Teilchen sind Anziehungskräfte, die mit dem Abstand schnell kleiner werden. 5. Die Teilchen sind ständig in Bewegung. Je höher die Temperatur eines Stoffes ist, desto schneller bewegen sie sich.",
+      "stichworte": [
+        "kugelförmige Teilchen",
+        "leerer Raum",
+        "Reinstoff gleiche Teilchen",
+        "Anziehungskräfte",
+        "ständig in Bewegung",
+        "Temperatur"
+      ],
+      "erklaerung": "Merkhilfe: **Teilchen – leerer Raum – gleich oder verschieden – Anziehungskräfte – Bewegung**. Bei Aussage 4 gehört «werden mit dem Abstand schnell kleiner» dazu, bei Aussage 5 «je höher die Temperatur, desto schneller».",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-tm-21",
+      "lernzielId": "lz-teilchenmodell",
+      "typ": "offen",
+      "frage": "Du legst vorsichtig einen Würfelzucker in ein Glas Wasser und rührst nicht. Nach einigen Tagen ist der Würfel verschwunden, und das Wasser schmeckt oben wie unten süss. Erkläre mit **mindestens zwei** Aussagen des Teilchenmodells.",
+      "musterloesung": "Der Zucker besteht aus kleinsten Teilchen (Aussage 1). Die Wasser- und die Zuckerteilchen sind ständig in Bewegung (Aussage 5). Dadurch lösen sich Zuckerteilchen vom Würfel und bewegen sich zwischen die Wasserteilchen, weil zwischen den Teilchen leerer Raum ist (Aussage 2). Mit der Zeit sind die Zuckerteilchen im ganzen Glas verteilt. Das Zuckerwasser ist ein Gemisch aus zwei Teilchenarten (Aussage 3).",
+      "stichworte": [
+        "Teilchen",
+        "ständig in Bewegung",
+        "leerer Raum",
+        "verteilen sich",
+        "Gemisch"
+      ],
+      "erklaerung": "Der Zucker ist nicht weg, er ist nur in einzelne, unsichtbar kleine Teilchen zerlegt und verteilt. Den Antrieb liefert die **ständige Bewegung** der Teilchen; Platz finden sie dank dem **leeren Raum** (Beispiel ergänzt).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-diff-03",
+      "lernzielId": "lz-phaenomene",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die ständige und chaotische Bewegung der Teilchen in Flüssigkeiten und Gasen?",
+      "akzeptiert": [
+        "Brown'sche Molekularbewegung",
+        "Brownsche Molekularbewegung",
+        "Brown'sche Bewegung",
+        "Brownsche Bewegung",
+        "Molekularbewegung",
+        "thermische Bewegung",
+        "Wärmebewegung"
+      ],
+      "erklaerung": "Im Heft heisst sie **Brown'sche Molekularbewegung**, im Lehrmittel **thermische Bewegung**. Sie ist die Ursache der Diffusion: Die Teilchen bewegen sich dauernd kreuz und quer und geraten so zwischen die Teilchen des anderen Stoffes. Die Teilchen selbst sieht man nicht. Das Lehrmittel nennt **Brownsche Bewegung** das sichtbare Zittern grösserer Körnchen (z. B. Fetttröpfchen in Milch) unter dem Mikroskop – es entsteht, weil die unsichtbaren Teilchen ständig dagegen stossen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-diff-07",
+      "lernzielId": "lz-phaenomene",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Beispiele beruhen auf Diffusion?",
+      "optionen": [
+        "Parfumduft verteilt sich im ganzen Zimmer.",
+        "Ein Teebeutel färbt das Wasser in der Tasse, ohne dass man rührt.",
+        "Ein Eiswürfel schmilzt in der Sonne.",
+        "Der Geruch von frisch gebackenem Brot zieht durch die Wohnung.",
+        "Sand sinkt in einem Glas Wasser auf den Boden."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Duft, Tee und Brotgeruch: Zwei Stoffe (Gase bzw. Flüssigkeiten) mischen sich **von selbst** – das ist **Diffusion**. Das Schmelzen ist ein Übergang des Aggregatzustands, und das Absinken von Sand hat mit der Schwere der Körner zu tun (Beispiele ergänzt).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-diff-12",
+      "lernzielId": "lz-phaenomene",
+      "typ": "offen",
+      "frage": "Erkläre mit dem Teilchenmodell, warum sich ein Tropfen Tinte in einem Glas Wasser verteilt, ohne dass man rührt.",
+      "musterloesung": "Im flüssigen Wasser sind die Teilchen in ständiger, chaotischer Bewegung (thermische Bewegung, im Heft Brown'sche Molekularbewegung). Auch die Tintenteilchen bewegen sich ständig. Durch die vielen Zusammenstösse geraten die Tintenteilchen mit der Zeit zwischen die Wasserteilchen und umgekehrt. So mischen sich die beiden Flüssigkeiten von selbst – das ist Diffusion.",
+      "stichworte": [
+        "ständige Bewegung",
+        "chaotisch",
+        "thermische Bewegung (Heft: Brown'sche Molekularbewegung)",
+        "von selbst",
+        "Diffusion"
+      ],
+      "erklaerung": "Wichtig sind drei Teile: Die Teilchen bewegen sich **ständig und chaotisch**; dadurch geraten sie **zwischen** die anderen Teilchen; das Ergebnis heisst **Diffusion**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-phaen-01",
+      "lernzielId": "lz-phaenomene",
+      "typ": "zahl",
+      "frage": "Du mischst 50 g Alkohol und 50 g Wasser. Das Volumen des Gemischs ist kleiner als die Summe der beiden Volumen. Welche **Masse** hat das Gemisch?",
+      "richtig": 100,
+      "toleranz": 0,
+      "einheit": "g",
+      "erklaerung": "Bei der Volumenkontraktion geht **kein Teilchen verloren** – die Teilchen schieben sich nur ineinander. Darum bleibt die Masse gleich: 50 g + 50 g = **100 g**. Nur das Volumen wird kleiner.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-phaen-02",
+      "lernzielId": "lz-phaenomene",
+      "typ": "mehrfachwahl",
+      "frage": "50 ml Alkohol und 50 ml Wasser werden gemischt. Kreuze **alle** richtigen Aussagen an (mindestens eine ist richtig).",
+      "optionen": [
+        "Das Gemisch hat ein Volumen von weniger als 100 ml.",
+        "Die verschieden grossen Teilchen schieben sich ineinander.",
+        "Das Gemisch ist leichter als Alkohol und Wasser zusammen vor dem Mischen.",
+        "Mischt man Erbsen und Senfkörner, ist das Gesamtvolumen ebenfalls kleiner als die Summe der Einzelvolumen.",
+        "Die Teilchen werden beim Mischen kleiner."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Das Volumen nimmt ab (**Volumenkontraktion**), weil sich kleinere Teilchen in die Lücken zwischen grösseren schieben – genau das zeigt der Modellversuch mit Erbsen und Senfkörnern. Die Teilchen bleiben gleich gross und gehen nicht verloren, darum bleibt die **Masse gleich**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-phaen-03",
+      "lernzielId": "lz-phaenomene",
+      "typ": "offen",
+      "frage": "Erkläre mit dem Teilchenmodell, warum 50 ml Alkohol und 50 ml Wasser zusammen weniger als 100 ml ergeben, die Masse aber gleich bleibt.",
+      "musterloesung": "Alkohol- und Wasserteilchen sind verschieden gross, und zwischen den Teilchen ist leerer Raum. Beim Mischen schieben sich die kleineren Teilchen in die Lücken zwischen den grösseren; ausserdem ziehen sich die verschiedenen Teilchen an. Darum brauchen die Teilchen zusammen weniger Platz, das Volumen wird kleiner (Volumenkontraktion). Es gehen aber keine Teilchen verloren und sie werden nicht kleiner, deshalb bleibt die Masse gleich.",
+      "stichworte": [
+        "verschieden grosse Teilchen",
+        "Lücken",
+        "leerer Raum",
+        "ineinanderschieben",
+        "Masse gleich",
+        "Volumenkontraktion"
+      ],
+      "erklaerung": "Wie bei Erbsen und Senfkörnern: Die kleinen Körner rieseln in die Lücken zwischen den grossen. Das Volumen sinkt, die Anzahl Teilchen – und damit die Masse – bleibt.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-phaen-04",
+      "lernzielId": "lz-phaenomene",
+      "typ": "offen",
+      "frage": "Im Winter hängen Stromleitungen zwischen den Masten straffer als im Sommer. Erkläre diese Beobachtung mit dem Teilchenmodell.",
+      "musterloesung": "Im Winter ist es kälter. Die Teilchen im Metall der Leitung schwingen weniger stark um ihre Plätze und brauchen weniger Platz. Der Abstand zwischen den Teilchen wird kleiner, die Leitung zieht sich zusammen, wird kürzer und hängt deshalb weniger durch – sie ist straffer. Im Sommer ist es umgekehrt: Die Teilchen schwingen stärker, die Leitung dehnt sich aus und hängt stärker durch.",
+      "stichworte": [
+        "Temperatur",
+        "Teilchen schwingen",
+        "Platz",
+        "Abstand",
+        "zieht sich zusammen",
+        "kürzer"
+      ],
+      "erklaerung": "Das ist die **Wärmeausdehnung**, hier rückwärts gedacht: weniger Wärme → schwächere Schwingungen → kleinere Abstände → kürzerer Draht. Die Teilchen selbst bleiben gleich gross.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-phaen-05",
+      "lernzielId": "lz-phaenomene",
+      "typ": "einfachwahl",
+      "frage": "Das Bild zeigt die Teilchen eines Feststoffs bei drei Temperaturen. Welche Aussage beschreibt, was beim Erwärmen geschieht?",
+      "bild": {
+        "src": "bilder/chemie/waermeausdehnung.svg",
+        "alt": "Drei Kästchen mit Teilchen eines Feststoffs bei steigender Temperatur"
+      },
+      "optionen": [
+        "Die Teilchen werden grösser und brauchen deshalb mehr Platz.",
+        "Es kommen neue Teilchen dazu, darum wird der Körper grösser.",
+        "Die Teilchen verlassen ihre Plätze und fliegen frei herum.",
+        "Die Teilchen schwingen stärker um ihre Plätze, die Abstände werden grösser."
+      ],
+      "richtig": 3,
+      "erklaerung": "Im Bild sind die Teilchen überall **gleich gross** und gleich viele. Beim Erwärmen schwingen sie heftiger um ihre Gitterplätze und «schubsen» die Nachbarn weg – die **Abstände** werden grösser, der Körper dehnt sich aus. Frei herumfliegen würden sie erst als Gas.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-phaen-06",
+      "lernzielId": "lz-phaenomene",
+      "typ": "offen",
+      "frage": "Du hältst einen Metallstab an einem Ende in eine Flamme. Nach kurzer Zeit wird auch das andere Ende in deiner Hand warm. Erkläre die Wärmeleitung mit dem Teilchenmodell.",
+      "musterloesung": "An der erwärmten Stelle schwingen die Teilchen des Metalls stärker. Durch Zusammenstösse geben sie einen Teil ihrer Bewegungsenergie an die benachbarten Teilchen weiter. Diese schwingen nun ebenfalls stärker und stossen ihre Nachbarn an – so wird die Energie Schritt für Schritt durch den ganzen Stab bis zum anderen Ende weitergegeben. Die Wärme fliesst dabei immer von der höheren zur tieferen Temperatur.",
+      "stichworte": [
+        "Teilchen schwingen stärker",
+        "Zusammenstösse",
+        "Bewegungsenergie weitergeben",
+        "Nachbarteilchen",
+        "höhere zu tieferer Temperatur"
+      ],
+      "erklaerung": "Wärmeleitung ist eine **Weitergabe von Bewegungsenergie** von Teilchen zu Teilchen. Die Teilchen selbst wandern nicht durch den Stab – nur ihre stärkere Bewegung wird weitergereicht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-phaen-07",
+      "lernzielId": "lz-phaenomene",
+      "typ": "mehrfachwahl",
+      "frage": "Unter dem Mikroskop siehst du in einem Tropfen Milch winzige Fetttröpfchen, die ständig zittern. Kreuze **alle** richtigen Aussagen an (mindestens eine ist richtig).",
+      "optionen": [
+        "Diese Zitterbewegung heisst Brownsche Bewegung.",
+        "Die unsichtbaren Wasserteilchen sind ständig in Bewegung und stossen von allen Seiten gegen die Fetttröpfchen.",
+        "Die Fetttröpfchen zittern, weil sie Lebewesen sind.",
+        "Unter dem Mikroskop sieht man die einzelnen Wasserteilchen herumfliegen.",
+        "Robert Brown beobachtete diese Bewegung 1827 bei Blütenpollen in Wasser."
+      ],
+      "richtig": [
+        0,
+        1,
+        4
+      ],
+      "erklaerung": "Das Zittern heisst **Brownsche Bewegung**, nach dem Botaniker Robert Brown (1827, Blütenpollen in Wasser). Sichtbar sind nur die Fetttröpfchen; die viel kleineren **Wasserteilchen** sieht man nicht – man sieht nur, dass sie die Tröpfchen ständig unregelmässig anstossen. Mit Leben hat das nichts zu tun.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-phaen-08",
+      "lernzielId": "lz-phaenomene",
+      "typ": "zahl",
+      "frage": "Bei welcher Temperatur liegt der absolute Nullpunkt (0 K)? Gib den Wert in °C an.",
+      "richtig": -273.15,
+      "toleranz": 0.2,
+      "einheit": "°C",
+      "erklaerung": "Der **absolute Nullpunkt** liegt bei **−273,15 °C** (= 0 Kelvin). Dort kämen die Teilchen zum Stillstand – langsamer als stillstehen geht nicht, darum gibt es keine tiefere Temperatur. Nach oben ist die Temperaturskala offen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-phaen-09",
+      "lernzielId": "lz-phaenomene",
+      "typ": "zuordnen",
+      "frage": "Ordne jedem Phänomen die passende Erklärung im Teilchenmodell zu.",
+      "paare": [
+        {
+          "links": "Volumenkontraktion",
+          "rechts": "Kleinere Teilchen schieben sich in die Lücken zwischen grösseren."
+        },
+        {
+          "links": "Wärmeausdehnung",
+          "rechts": "Die Teilchen schwingen stärker und brauchen mehr Platz."
+        },
+        {
+          "links": "Wärmeleitung",
+          "rechts": "Teilchen geben Bewegungsenergie durch Zusammenstösse an ihre Nachbarn weiter."
+        },
+        {
+          "links": "Brownsche Bewegung",
+          "rechts": "Unsichtbare Wasserteilchen stossen gegen sichtbare Körnchen und bringen sie zum Zittern."
+        },
+        {
+          "links": "Diffusion",
+          "rechts": "Die Teilchen zweier Stoffe mischen sich durch ihre ständige Eigenbewegung von selbst."
+        }
+      ],
+      "erklaerung": "Alle fünf Phänomene beruhen auf denselben Aussagen: **leerer Raum** zwischen den Teilchen (Volumenkontraktion, Diffusion) und **ständige Bewegung**, die mit der Temperatur zunimmt (Wärmeausdehnung, Wärmeleitung, Brownsche Bewegung, Diffusion).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-phaen-10",
+      "lernzielId": "lz-phaenomene",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Beobachtungen sind Beispiele für **Wärmeausdehnung**? Kreuze alle richtigen an (mindestens eine ist richtig).",
+      "optionen": [
+        "Lange Brücken haben Dehnfugen, damit sie sich im Sommer verlängern können.",
+        "Stromleitungen hängen im Sommer stärker durch als im Winter.",
+        "Ein Tropfen Tinte färbt nach und nach das ganze Wasser im Glas.",
+        "Der Griff eines Metalllöffels im heissen Tee wird warm.",
+        "Die Flüssigkeit in einem Thermometer steigt, wenn es wärmer wird."
+      ],
+      "richtig": [
+        0,
+        1,
+        4
+      ],
+      "erklaerung": "Brücke, Stromleitung und Thermometer dehnen sich beim Erwärmen aus: Die Teilchen schwingen stärker und brauchen mehr Platz. Die Tinte zeigt **Diffusion**, der warme Löffelgriff **Wärmeleitung** (Brücke und Thermometer sind ergänzte Beispiele).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-tm-11",
+      "lernzielId": "lz-phaenomene",
+      "typ": "einfachwahl",
+      "frage": "Ein aufgeblasener Ballon wird aus dem warmen Zimmer in die Winterkälte gebracht und schrumpft etwas. Welche Erklärung passt zum Teilchenmodell?",
+      "optionen": [
+        "Die Teilchen werden in der Kälte kleiner und rücken deshalb enger zusammen.",
+        "In der Kälte verschwinden die Anziehungskräfte.",
+        "Die Teilchen bewegen sich langsamer und brauchen weniger Platz.",
+        "Ein Teil der Luft entweicht in der Kälte durch die Ballonhülle."
+      ],
+      "richtig": 2,
+      "erklaerung": "Aussage 5: Je tiefer die Temperatur, desto **langsamer** bewegen sich die Teilchen. Sie prallen weniger heftig gegen die Ballonhülle und brauchen weniger Platz – die Luft zieht sich zusammen. Das ist die Umkehrung der **Wärmeausdehnung**. Die Teilchen selbst bleiben gleich gross und gehen nicht verloren (Beispiel ergänzt).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-tm-15",
+      "lernzielId": "lz-phaenomene",
+      "typ": "einfachwahl",
+      "frage": "Mischt man 50 ml Wasser und 50 ml Alkohol, erhält man **weniger** als 100 ml Gemisch. Welche Erklärung passt zum Teilchenmodell?",
+      "optionen": [
+        "Kleinere Teilchen schieben sich in die Lücken zwischen den grösseren.",
+        "Die Teilchen bewegen sich beim Mischen langsamer und brauchen deshalb weniger Platz.",
+        "Ein Teil der Alkoholteilchen verdunstet beim Mischen sofort.",
+        "Die Teilchen werden beim Mischen etwas kleiner."
+      ],
+      "richtig": 0,
+      "erklaerung": "Das ist die **Volumenkontraktion**. Teilchen verschwinden nicht und schrumpfen nicht. Alkohol- und Wasserteilchen sind verschieden gross, und zwischen den Teilchen ist **leerer Raum**: Die kleineren Teilchen finden Platz in den Lücken zwischen den grösseren – wie im Modellversuch, wenn man Erbsen und Senfkörner mischt. Zudem ziehen sich die verschiedenen Teilchen an.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-tm-18",
+      "lernzielId": "lz-phaenomene",
+      "typ": "wahrfalsch",
+      "frage": "In einem Thermometer steigt die Flüssigkeit, wenn es wärmer wird. Das liegt daran, dass jedes Flüssigkeitsteilchen beim Erwärmen grösser wird.",
+      "richtig": false,
+      "erklaerung": "Die Teilchen bleiben gleich gross. Sie bewegen sich beim Erwärmen schneller (Aussage 5) und halten dadurch mehr **Abstand** zueinander – die Flüssigkeit dehnt sich aus und steigt im engen Röhrchen hoch (**Wärmeausdehnung**, Beispiel ergänzt).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-diff-01",
+      "lernzielId": "lz-diffusion",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die selbstständige Durchmischung zweier oder mehrerer Gase bzw. Flüssigkeiten?",
+      "akzeptiert": [
+        "Diffusion",
+        "Diffusionen",
+        "Diffundieren"
+      ],
+      "erklaerung": "Das ist die Definition der **Diffusion**: Die Stoffe mischen sich von allein, ohne Rühren oder Schütteln.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-diff-02",
+      "lernzielId": "lz-diffusion",
+      "typ": "einfachwahl",
+      "frage": "Was versteht man unter Diffusion?",
+      "optionen": [
+        "Das Auflösen eines Feststoffs in einer Flüssigkeit durch kräftiges Rühren oder Schütteln.",
+        "Die selbstständige Durchmischung zweier oder mehrerer Gase bzw. Flüssigkeiten.",
+        "Den Übergang von flüssig zu gasförmig.",
+        "Das Trennen eines Gemischs mit einem Filter."
+      ],
+      "richtig": 1,
+      "erklaerung": "Diffusion ist die **selbstständige** Durchmischung – ohne Rühren. Flüssig → gasförmig ist Verdampfen, Filtern ist ein Trennverfahren.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-diff-04",
+      "lernzielId": "lz-diffusion",
+      "typ": "wahrfalsch",
+      "frage": "Je höher die Temperatur, desto schneller bewegen sich die Teilchen – und desto schneller läuft die Diffusion ab.",
+      "richtig": true,
+      "erklaerung": "Die Teilchengeschwindigkeit und damit die Diffusion ist umso **grösser**, je höher die Temperatur ist.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-diff-05",
+      "lernzielId": "lz-diffusion",
+      "typ": "einfachwahl",
+      "frage": "Du gibst gleichzeitig je einen Tropfen Tinte in ein Glas mit kaltem und in ein Glas mit heissem Wasser. Was beobachtest du?",
+      "optionen": [
+        "In beiden Gläsern verteilt sich die Tinte gleich schnell.",
+        "Im kalten Wasser verteilt sich die Tinte schneller.",
+        "Im heissen Wasser verteilt sich die Tinte schneller.",
+        "Im heissen Wasser verteilt sich die Tinte gar nicht."
+      ],
+      "richtig": 2,
+      "erklaerung": "Im heissen Wasser bewegen sich die Teilchen **schneller**, darum mischen sich Tinte und Wasser dort schneller (Versuch ergänzt). Auch im kalten Wasser verteilt sich die Tinte – nur langsamer.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-diff-06",
+      "lernzielId": "lz-diffusion",
+      "typ": "einfachwahl",
+      "frage": "Bei gleicher Temperatur: Welche Teilchen bewegen sich am schnellsten?",
+      "optionen": [
+        "Alle Teilchen sind gleich schnell.",
+        "Die grössten und schwersten Teilchen.",
+        "Die Teilchen in Feststoffen.",
+        "Die kleinsten und leichtesten Teilchen."
+      ],
+      "richtig": 3,
+      "erklaerung": "Bei gleicher Temperatur ist die Teilchengeschwindigkeit umso grösser, je **kleiner** bzw. **leichter** die Teilchen sind. In Feststoffen zittern die Teilchen nur auf ihren Plätzen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-diff-09",
+      "lernzielId": "lz-diffusion",
+      "typ": "einfachwahl",
+      "frage": "Warum findet in Feststoffen praktisch keine Diffusion statt?",
+      "optionen": [
+        "Feststoffe bestehen nicht aus Teilchen.",
+        "Die Teilchen sitzen auf festen Plätzen und werden stark festgehalten.",
+        "Die Teilchen in Feststoffen sind zu klein, um sich zwischen andere Teilchen zu schieben.",
+        "Feststoffe sind kälter als Flüssigkeiten, darum stehen ihre Teilchen still."
+      ],
+      "richtig": 1,
+      "erklaerung": "Diffusion braucht Teilchen, die sich **frei** bewegen und zwischen andere Teilchen geraten können. Im Feststoff liegen die Teilchen geordnet und werden von **starken Anziehungskräften** auf ihren Plätzen gehalten.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-diff-10",
+      "lernzielId": "lz-diffusion",
+      "typ": "reihenfolge",
+      "frage": "Ein Tropfen Tinte fällt in Wasser. Ordne von der **langsamsten** zur **schnellsten** Durchmischung.",
+      "elemente": [
+        "Wasser mit 5 °C",
+        "Wasser mit 20 °C",
+        "Wasser mit 50 °C",
+        "Wasser mit 80 °C"
+      ],
+      "erklaerung": "Je **wärmer** das Wasser, desto schneller bewegen sich die Teilchen – und desto schneller verteilt sich die Tinte.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-diff-11",
+      "lernzielId": "lz-diffusion",
+      "typ": "zuordnen",
+      "frage": "Wie verändert sich die Teilchengeschwindigkeit? Ordne zu.",
+      "paare": [
+        {
+          "links": "Temperatur erhöhen",
+          "rechts": "schneller"
+        },
+        {
+          "links": "Temperatur senken",
+          "rechts": "langsamer"
+        },
+        {
+          "links": "kleinere, leichtere Teilchen (gleiche Temperatur)",
+          "rechts": "schneller"
+        },
+        {
+          "links": "grössere, schwerere Teilchen (gleiche Temperatur)",
+          "rechts": "langsamer"
+        }
+      ],
+      "erklaerung": "Zwei Regeln: **Höhere Temperatur** → schnellere Teilchen. Bei gleicher Temperatur: **kleinere bzw. leichtere** Teilchen → schneller.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-diff-13",
+      "lernzielId": "lz-diffusion",
+      "typ": "offen",
+      "frage": "Jemand öffnet in einem Zimmer eine Flasche Parfum. Erkläre, warum man den Duft in einem warmen Zimmer schneller riecht als in einem kalten – und warum es trotzdem eine Weile dauert, obwohl Gasteilchen sehr schnell sind.",
+      "musterloesung": "Im warmen Zimmer bewegen sich die Teilchen schneller, darum verteilt sich der Duft schneller (Diffusion). Es dauert trotzdem eine Weile, weil die Duftteilchen dauernd mit den Luftteilchen zusammenstossen. Sie fliegen deshalb nicht geradeaus zur Nase, sondern chaotisch im Zickzack hin und her.",
+      "stichworte": [
+        "höhere Temperatur",
+        "schnellere Teilchen",
+        "Zusammenstösse",
+        "chaotisch",
+        "Zickzack"
+      ],
+      "erklaerung": "Der erste Teil folgt direkt aus der Regel «wärmer = schneller». Der zweite Teil kommt von der **chaotischen** Bewegung: Die vielen Zusammenstösse bremsen die Ausbreitung (Beispiel ergänzt).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-diff-14",
+      "lernzielId": "lz-diffusion",
+      "typ": "einfachwahl",
+      "frage": "Wasserstoff hat die kleinsten und leichtesten Teilchen aller Gase. Ein Ballon mit Wasserstoff und ein gleicher Ballon mit Luft liegen einen Tag im selben Raum. Danach ist der Wasserstoffballon deutlich schlaffer. Welche Erklärung passt?",
+      "optionen": [
+        "Kleine, leichte Teilchen sind schneller und entweichen eher durch winzige Lücken der Hülle.",
+        "Wasserstoffteilchen werden mit der Zeit kleiner.",
+        "Luftteilchen bewegen sich bei gleicher Temperatur schneller als Wasserstoffteilchen und drücken stärker.",
+        "Der Wasserstoff kondensiert im Ballon zu einer Flüssigkeit."
+      ],
+      "richtig": 0,
+      "erklaerung": "Bei gleicher Temperatur bewegen sich **kleinere, leichtere** Teilchen schneller. Die Wasserstoffteilchen treffen darum öfter auf die Ballonhülle und entweichen schneller durch winzige Lücken (Beispiel ergänzt).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-diff-15",
+      "lernzielId": "lz-diffusion",
+      "typ": "wahrfalsch",
+      "frage": "Bei gleicher Temperatur bewegen sich alle Teilchen gleich schnell, egal wie schwer sie sind.",
+      "richtig": false,
+      "erklaerung": "Bei gleicher Temperatur hängt die Geschwindigkeit von der **Masse** ab: Je leichter bzw. kleiner die Teilchen, desto schneller sind sie.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-diff-16",
+      "lernzielId": "lz-diffusion",
+      "typ": "kurzantwort",
+      "frage": "Ergänze: Bei gleicher Temperatur ist die Teilchengeschwindigkeit umso grösser, je … die Teilchen sind.",
+      "akzeptiert": [
+        "kleiner",
+        "leichter",
+        "kleiner bzw. leichter",
+        "kleiner und leichter",
+        "kleiner oder leichter",
+        "leichter und kleiner"
+      ],
+      "erklaerung": "Kleinere bzw. leichtere Teilchen sind bei gleicher Temperatur **schneller** – und diffundieren deshalb schneller.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-diff-17",
+      "lernzielId": "lz-diffusion",
+      "typ": "offen",
+      "frage": "Erkläre mit dem Teilchenmodell, warum die Diffusion schneller abläuft, wenn die Temperatur steigt.",
+      "musterloesung": "Die Ursache der Diffusion ist die selbstständige, ständige Bewegung der Teilchen (thermische Bewegung). Je höher die Temperatur ist, desto schneller bewegen sich die Teilchen im Durchschnitt. Darum geraten die Teilchen des einen Stoffes schneller zwischen die Teilchen des anderen Stoffes, und die beiden Stoffe durchmischen sich schneller.",
+      "stichworte": [
+        "thermische Bewegung",
+        "Teilchen bewegen sich selbstständig",
+        "höhere Temperatur",
+        "schneller",
+        "durchmischen sich schneller"
+      ],
+      "erklaerung": "Die Begründung hat immer zwei Schritte: **Temperatur ↑ → Teilchen schneller** und **Teilchen schneller → Durchmischung schneller**. Nur «weil es wärmer ist» genügt nicht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-diff-18",
+      "lernzielId": "lz-diffusion",
+      "typ": "offen",
+      "frage": "Im Unterrichtsvideo breitet sich brauner Bromdampf in einem Glaszylinder voller Luft nur langsam aus. Wasserstoff würde sich bei gleicher Temperatur viel schneller verteilen. Erkläre den Unterschied mit dem Teilchenmodell.",
+      "musterloesung": "Die Bromteilchen sind viel grösser und schwerer als die Wasserstoffteilchen. Bei gleicher Temperatur bewegen sich schwere Teilchen langsamer als leichte. Darum geraten die Bromteilchen langsamer zwischen die Luftteilchen, und der Bromdampf diffundiert langsamer. Die leichten Wasserstoffteilchen sind schneller und verteilen sich deshalb schneller.",
+      "stichworte": [
+        "schwere Teilchen",
+        "leichte Teilchen",
+        "gleiche Temperatur",
+        "langsamer",
+        "Art des Gases"
+      ],
+      "erklaerung": "Bei **gleicher Temperatur** entscheidet die **Art des Gases**: Je kleiner bzw. leichter die Teilchen, desto schneller bewegen sie sich und desto schneller diffundiert das Gas. Dass Bromteilchen schwer und Wasserstoffteilchen die leichtesten sind, ist ergänzt.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-diff-19",
+      "lernzielId": "lz-diffusion",
+      "typ": "mehrfachwahl",
+      "frage": "Zwei verschiedene Gase haben beide 20 °C. Gas A hat leichte Teilchen, Gas B schwere. Kreuze **alle** richtigen Aussagen an (mindestens eine ist richtig).",
+      "optionen": [
+        "Die Teilchen von Gas A bewegen sich im Durchschnitt schneller als die von Gas B.",
+        "Die Teilchen von Gas B stehen still, weil sie zu schwer sind.",
+        "Gas B diffundiert langsamer als Gas A.",
+        "Wird Gas B erwärmt, diffundiert es schneller als vorher bei 20 °C.",
+        "Bei gleicher Temperatur spielt die Art des Gases keine Rolle."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Bei gleicher Temperatur sind **leichtere** Teilchen schneller – darum diffundiert Gas A schneller. Auch die schweren Teilchen sind ständig in Bewegung, nur langsamer. Erwärmen macht **jedes** Gas schneller.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-diff-20",
+      "lernzielId": "lz-diffusion",
+      "typ": "einfachwahl",
+      "frage": "Warum färbt ein Teebeutel heisses Wasser schneller als kaltes Wasser?",
+      "optionen": [
+        "Im heissen Wasser sind die Anziehungskräfte zwischen Tee- und Wasserteilchen stärker.",
+        "Im heissen Wasser bewegen sich die Teilchen schneller und geraten darum schneller zwischeneinander.",
+        "Im heissen Wasser werden die Teeteilchen kleiner und passen besser in die Lücken.",
+        "Im heissen Wasser bewegen sich nur die Teeteilchen schneller, die Wasserteilchen nicht."
+      ],
+      "richtig": 1,
+      "erklaerung": "Höhere Temperatur → **schnellere Teilchen** (thermische Bewegung) → schnellere Durchmischung. Die Wärme macht **alle** Teilchen schneller, Tee- und Wasserteilchen; und Teilchen ändern ihre Grösse nicht.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-diff-21",
+      "lernzielId": "lz-diffusion",
+      "typ": "reihenfolge",
+      "frage": "Alle Gase haben dieselbe Temperatur. In Klammern steht, wie schwer ein Teilchen im Vergleich ist. Ordne vom **schnellsten** zum **langsamsten** diffundierenden Gas.",
+      "elemente": [
+        "Wasserstoff (2)",
+        "Stickstoff (28)",
+        "Kohlenstoffdioxid (44)",
+        "Bromdampf (160)"
+      ],
+      "erklaerung": "Bei gleicher Temperatur gilt: **je leichter** die Teilchen, desto schneller bewegen sie sich und desto schneller diffundiert das Gas. Wasserstoff ist am schnellsten, Bromdampf am langsamsten (Massenangaben ergänzt).",
+      "schwierigkeit": 3
+    }
+  ]
+}

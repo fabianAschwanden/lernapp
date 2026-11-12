@@ -1,0 +1,971 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-luft",
+      "zusammenfassung": "### Luft ist ein Stoffgemisch\nLuft ist kein Reinstoff, sondern ein **Gemisch aus mehreren Gasen** – sie enthält also verschiedene Teilchenarten. Trockene Luft (ohne Wasserdampf) setzt sich so zusammen:\n\n| Bestandteil | Anteil |\n|---|---|\n| Stickstoff N₂ | **78 %** |\n| Sauerstoff O₂ | **21 %** |\n| Argon (Edelgase) | **0,96 %** |\n| Kohlenstoffdioxid CO₂ | **0,04 %** |\n\nMerkhilfe: Stickstoff und Sauerstoff machen zusammen **99 %** aus. Das restliche 1 % ist fast nur Argon; CO₂ ist nur ein winziger Rest.\n\n### Wasserdampf und Luftfeuchtigkeit\nDazu kommt **Wasserdampf**. Die **Luftfeuchtigkeit** (in %) gibt an, wie viel Wasser(dampf) in der Luft ist. Im Sommer enthält die Luft meist mehr Wasserdampf als im Winter – warme Luft kann mehr Wasserdampf aufnehmen als kalte (*ergänzt*).\n\n### Warum ist Luft homogen?\nLuft ist ein **homogenes Gasgemisch (g/g)**: Man sieht keine Phasen, auch nicht unter dem Mikroskop. Der Grund liegt im Teilchenmodell: Zwischen Gasteilchen wirken praktisch **keine Anziehungskräfte**. Die Teilchen bewegen sich ständig und frei und verteilen sich durch ihre zufälligen Bewegungen **gleichmässig**. Deshalb gilt: **Gasgemische sind immer homogen.**\n\n### Rechnen mit Prozent – im Kopf\n- 1 % von 100 L = 1 L → in **100 L** Luft sind **21 L** Sauerstoff.\n- 1 % von 1000 L = 10 L → in **1000 L** Luft sind 0,04 · 10 L = **0,4 L** CO₂.\n- Für **50 L** halbierst du den Wert für 100 L: 78 L : 2 = **39 L** Stickstoff.\n\n> Luft = homogenes Gasgemisch: Stickstoff N₂ 78 %, Sauerstoff O₂ 21 %, Argon (Edelgase) 0,96 %, Kohlenstoffdioxid CO₂ 0,04 % – dazu Wasserdampf (Luftfeuchtigkeit).",
+      "merksaetze": [
+        "Luft ist ein homogenes Gasgemisch: 78 % Stickstoff N₂, 21 % Sauerstoff O₂, 0,96 % Argon (Edelgase), 0,04 % Kohlenstoffdioxid CO₂.",
+        "Dazu kommt Wasserdampf: Die Luftfeuchtigkeit (in %) gibt an, wie viel Wasser(dampf) in der Luft ist.",
+        "Gasgemische sind immer homogen: Gasteilchen ziehen sich praktisch nicht an, bewegen sich frei und verteilen sich gleichmässig."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/chemie/luft-zusammensetzung.svg",
+          "alt": "Kreisdiagramm der Luft: Stickstoff N₂ 78 %, Sauerstoff O₂ 21 %, Argon (Edelgase) 0,96 %, Kohlenstoffdioxid CO₂ 0,04 %. Eine Lupe vergrössert das restliche Prozent: fast alles Argon, ein schmaler Rest CO₂.",
+          "legende": "Zusammensetzung der Luft (ohne Wasserdampf). Argon und CO₂ machen zusammen nur 1 % aus."
+        }
+      ]
+    },
+    {
+      "id": "lz-homogen-heterogen",
+      "zusammenfassung": "### Reinstoff oder Stoffgemisch?\n- Ein **Reinstoff** besteht aus einem **einheitlichen Stoff**. Im Teilchenmodell heisst das: Alle Teilchen sind unter sich gleich. Beispiele: Kupfer, Aluminium, Schwefel, Kochsalz, Zucker, destilliertes Wasser.\n- Ein **Stoffgemisch** besteht aus **mehreren verschiedenen Stoffen** – also aus verschiedenen Teilchenarten. Beispiele: Holz, Papier, Meerwasser, Leitungswasser, Sirup, Tee, Milch, Luft.\n\n### Homogen oder heterogen?\n| | **homogen** | **heterogen** |\n|---|---|---|\n| Phasen | eine (einphasig) | mehrere |\n| Aussehen | einheitlich, oft klar | uneinheitlich, oft trüb |\n| unter dem Mikroskop | nicht von einem Reinstoff zu unterscheiden | Bestandteile erkennbar |\n| Beispiele | Salzwasser, Leitungswasser, Luft | Sandwasser, Granit, Milch |\n\n**Achtung:** Klar heisst nicht rein! Salzwasser oder Leitungswasser sind klar und trotzdem Gemische. Nur destilliertes Wasser ist reines Wasser.\n\n### Genau hinschauen: das Mikroskop\nMilch sieht mit blossem Auge einheitlich aus. Unter dem Mikroskop erkennt man aber viele **Fetttröpfchen** – Milch ist **heterogen**. Bei **homogenisierter Milch** werden die Fetttröpfchen unter hohem Druck stark verkleinert, darum rahmt sie nicht auf. Sie bleibt trotzdem ein **heterogenes Gemisch**: Die Tröpfchen sind nur kleiner und unter dem Mikroskop weiterhin sichtbar.\n\n### Gasgemische sind immer homogen\nZwischen Gasteilchen wirken praktisch keine Anziehungskräfte. Sie bewegen sich frei und verteilen sich durch zufällige Bewegungen gleichmässig – es entsteht immer nur eine Phase (Beispiel: Luft).\n\n### Faustregeln aus dem Heft\n- «Wenn etwas **trüb** ist, ist es **nicht löslich**!» – Ungelöste Teilchen schweben herum → heterogen.\n- «In **Alkohol** löst sich fast alles.» *Ergänzt:* Das stimmt nur bedingt. Alkohol löst viele Stoffe, die sich in Wasser nicht lösen (z. B. Harz), Kochsalz dagegen kaum.\n\n> Reinstoff = eine Teilchenart, Gemisch = mehrere Teilchenarten.\n> Homogen = eine Phase (auch unter dem Mikroskop), heterogen = mehrere Phasen.",
+      "merksaetze": [
+        "Reinstoffe bestehen aus einem einheitlichen Stoff (alle Teilchen gleich), Stoffgemische aus mehreren verschiedenen Stoffen (verschiedene Teilchenarten).",
+        "Homogene Gemische sind einphasig und lassen sich auch unter dem Mikroskop nicht von einem Reinstoff unterscheiden; heterogene Gemische bestehen aus mehreren Phasen – manchmal sieht man sie erst unter dem Mikroskop (Milch).",
+        "Homogenisierte Milch bleibt heterogen: Die Fetttröpfchen sind nur kleiner.",
+        "Gasgemische sind immer homogen, weil sich Gasteilchen frei bewegen und gleichmässig verteilen."
+      ]
+    },
+    {
+      "id": "lz-gemischarten",
+      "zusammenfassung": "Gemische werden nach den **Aggregatzuständen** ihrer Bestandteile benannt: **s** = fest, **l** = flüssig, **g** = gasförmig. Zuerst steht der verteilte Stoff, dann der Stoff, in dem er verteilt ist: «s/l» heisst also «fest in flüssig».\n\n### Heterogene Gemische (mehrere Phasen)\n| Art | Zustände | Beispiele |\n|---|---|---|\n| **Gemenge** | s/s | Granit, Beton, Blumenerde |\n| **Suspension** | s/l | naturtrüber Orangensaft, Ketchup, Sand in Wasser |\n| **Emulsion** | l/l | Milch, Benzin in Wasser geschüttelt, Mayonnaise *(ergänzt)* |\n| **Nebel** (Aerosol) | l/g | Wolken, Nebel |\n| **Rauch** (Aerosol) | s/g | Russ, Rauch |\n| **Schaum** | g/l | Seifenblasen, Rasierschaum |\n\nIm Heft heissen Nebel und Rauch beide **Aerosol**: winzige Tröpfchen bzw. feste Teilchen, verteilt in einem Gas. Die Fachbegriffe Nebel (l/g) und Rauch (s/g) sind *ergänzt*.\n\n### Homogene Gemische (eine Phase)\n| Art | Zustände | Beispiele |\n|---|---|---|\n| **Legierung** | s/s | Messing, Chromstahl, Münzen |\n| **Lösung** | s/l | Salzwasser, Zuckerwasser, Tinte |\n| **Lösung** | l/l | Wodka (Alkohol in Wasser) |\n| **Lösung** | g/l | Sauerstoff in Wasser, Mineral- und Sodawasser (CO₂ in Wasser) |\n| **Gasgemisch** | g/g | Luft |\n\n**Achtung bei g/l:** Ist das Gas **gelöst** (Mineralwasser), ist es eine homogene **Lösung**. Bildet es **Bläschen** (Rasierschaum), ist es ein heterogener **Schaum**.\n\n### So ordnest du ein Gemisch ein\n1. Siehst du mehrere Phasen (trüb, Körner, Tröpfchen, Bläschen)? → **heterogen**, sonst **homogen**.\n2. Bestimme die Aggregatzustände: Was ist verteilt, und worin?\n3. Benenne die Gemischart.\n\nBeispiele mit Wasser verrührt: Mehl, feiner Sand oder Holzkohlepulver ergeben eine **Suspension**; Zucker, Kochsalz oder Spülmittel eine **Lösung**. Aufgerührtes Sandwasser bleibt heterogen, auch wenn sich der Sand absetzt. Benzin oder Öl mit Wasser geschüttelt ergibt eine **Emulsion**, die sich rasch wieder entmischt.\n\n> **Heterogen:** Gemenge (s/s), Suspension (s/l), Emulsion (l/l), Nebel (l/g), Rauch (s/g), Schaum (g/l).\n> **Homogen:** Legierung (s/s), Lösung (s/l, l/l, g/l), Gasgemisch (g/g).",
+      "merksaetze": [
+        "Heterogene Gemische: Gemenge (s/s), Suspension (s/l), Emulsion (l/l), Nebel (l/g), Rauch (s/g) und Schaum (g/l) – Nebel und Rauch sind Aerosole.",
+        "Homogene Gemische: Legierung (s/s), Lösungen (s/l, l/l, g/l) und Gasgemisch (g/g).",
+        "s = fest, l = flüssig, g = gasförmig; zuerst kommt der verteilte Stoff, dann der Stoff, in dem er verteilt ist.",
+        "g/l gibt es zweimal: Gas gelöst = Lösung (homogen, Mineralwasser), Gas in Bläschen = Schaum (heterogen, Rasierschaum)."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/chemie/gemische-uebersicht.svg",
+          "alt": "Baumdiagramm: Stoffe teilen sich in Reinstoffe und Stoffgemische. Stoffgemische sind homogen (Legierung s/s – Messing, Lösung s/l – Salzwasser, Lösung l/l – Wodka, Lösung g/l – Mineralwasser, Gasgemisch g/g – Luft) oder heterogen (Gemenge s/s – Granit, Suspension s/l – trüber Orangensaft, Emulsion l/l – Milch, Nebel l/g – Wolken, Rauch s/g – Russ, Schaum g/l – Seifenblasen).",
+          "legende": "Übersicht der Stoffgemische mit Aggregatzuständen und je einem Beispiel."
+        }
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-rein-05",
+      "lernzielId": "lz-luft",
+      "typ": "kurzantwort",
+      "frage": "Welches Gas macht mit **78 %** den grössten Anteil der Luft aus?",
+      "akzeptiert": [
+        "Stickstoff",
+        "N2",
+        "Stickstoff N2",
+        "Stickstoffgas"
+      ],
+      "erklaerung": "**Stickstoff N₂** ist mit 78 % der Hauptbestandteil der Luft. Sauerstoff O₂ folgt mit 21 %.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-rein-06",
+      "lernzielId": "lz-luft",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst der Anteil an Wasser(dampf) in der Luft, der in Prozent angegeben wird?",
+      "akzeptiert": [
+        "Luftfeuchtigkeit",
+        "Luftfeuchte",
+        "Feuchtigkeit",
+        "Luftfeuchtigkeit in Prozent"
+      ],
+      "erklaerung": "Die **Luftfeuchtigkeit** gibt in Prozent an, wie viel Wasser(dampf) in der Luft ist. Im Sommer enthält die Luft meist mehr Wasserdampf als im Winter.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-rein-07",
+      "lernzielId": "lz-luft",
+      "typ": "reihenfolge",
+      "frage": "Ordne die Bestandteile der (trockenen) Luft nach ihrem Anteil – vom **grössten** zum **kleinsten**.",
+      "elemente": [
+        "Stickstoff N₂",
+        "Sauerstoff O₂",
+        "Argon (Edelgase)",
+        "Kohlenstoffdioxid CO₂"
+      ],
+      "erklaerung": "Stickstoff N₂ 78 % > Sauerstoff O₂ 21 % > Argon (Edelgase) 0,96 % > Kohlenstoffdioxid CO₂ 0,04 %. Zusammen ergibt das 100 %.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-rein-08",
+      "lernzielId": "lz-luft",
+      "typ": "einfachwahl",
+      "frage": "Welcher Bestandteil der Luft hat einen Anteil von **0,96 %**?",
+      "optionen": [
+        "Argon (Edelgase)",
+        "Kohlenstoffdioxid CO₂",
+        "Wasserstoff",
+        "Sauerstoff O₂"
+      ],
+      "richtig": 0,
+      "erklaerung": "**Argon** (zusammen mit Spuren anderer Edelgase) macht 0,96 % der Luft aus. Kohlenstoffdioxid hat nur 0,04 %, Sauerstoff 21 %. Wasserstoff kommt in der Liste der Luftbestandteile gar nicht vor.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-rein-09",
+      "lernzielId": "lz-luft",
+      "typ": "zahl",
+      "frage": "Wie viele Liter **Sauerstoff** sind in **100 L** Luft enthalten?",
+      "richtig": 21,
+      "toleranz": 0,
+      "einheit": "L",
+      "erklaerung": "Luft enthält 21 % Sauerstoff. 21 % von 100 L = **21 L**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-rein-10",
+      "lernzielId": "lz-luft",
+      "typ": "zahl",
+      "frage": "Wie viele Liter **Kohlenstoffdioxid** sind in **1000 L** Luft enthalten?",
+      "richtig": 0.4,
+      "toleranz": 0,
+      "einheit": "L",
+      "tipp": "1 % von 1000 L sind 10 L.",
+      "erklaerung": "CO₂ hat einen Anteil von 0,04 %. 1 % von 1000 L sind 10 L, also sind 0,04 % davon 0,04 · 10 L = **0,4 L**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-rein-11",
+      "lernzielId": "lz-luft",
+      "typ": "zahl",
+      "frage": "Ein Schulzimmer enthält **200 m³** Luft. Wie viele m³ davon sind **Sauerstoff**?",
+      "richtig": 42,
+      "toleranz": 0,
+      "einheit": "m³",
+      "erklaerung": "Sauerstoff macht 21 % der Luft aus. 1 % von 200 m³ = 2 m³, also 21 · 2 m³ = **42 m³**.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-rein-12",
+      "lernzielId": "lz-luft",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aussagen zur **Luft** stimmen? Kreuze alle richtigen an.",
+      "optionen": [
+        "Luft ist ein Stoffgemisch.",
+        "Luft ist ein homogenes Gemisch (Gasgemisch).",
+        "Luft besteht zum grössten Teil aus Sauerstoff.",
+        "Die Luftfeuchtigkeit gibt an, wie viel Wasserdampf in der Luft ist.",
+        "Kohlenstoffdioxid ist nach Stickstoff der grösste Anteil der Luft."
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "erklaerung": "Luft ist ein **homogenes Stoffgemisch** aus Gasen (Gasgemisch g/g). Der grösste Teil ist **Stickstoff** (78 %), nicht Sauerstoff (21 %). Die Luftfeuchtigkeit gibt an, wie viel Wasserdampf in der Luft ist. Nach Stickstoff kommt **Sauerstoff** (21 %); CO₂ macht nur 0,04 % aus.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-luft-01",
+      "lernzielId": "lz-luft",
+      "typ": "zuordnen",
+      "frage": "Ordne jedem Bestandteil der (trockenen) Luft seinen Anteil zu.",
+      "paare": [
+        {
+          "links": "Stickstoff N₂",
+          "rechts": "78 %"
+        },
+        {
+          "links": "Sauerstoff O₂",
+          "rechts": "21 %"
+        },
+        {
+          "links": "Argon (Edelgase)",
+          "rechts": "0,96 %"
+        },
+        {
+          "links": "Kohlenstoffdioxid CO₂",
+          "rechts": "0,04 %"
+        }
+      ],
+      "erklaerung": "Stickstoff N₂ 78 %, Sauerstoff O₂ 21 %, Argon (Edelgase) 0,96 %, Kohlenstoffdioxid CO₂ 0,04 %. Zusammen ergibt das 100 %.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-luft-02",
+      "lernzielId": "lz-luft",
+      "typ": "einfachwahl",
+      "frage": "Welche Angabe zur Luft ist **korrekt**?",
+      "optionen": [
+        "Sauerstoff N₂ – 21 %",
+        "Stickstoff N₂ – 78 %",
+        "Kohlenstoffdioxid CO₂ – 0,96 %",
+        "Argon O₂ – 0,04 %"
+      ],
+      "richtig": 1,
+      "erklaerung": "Stickstoff hat die Formel **N₂** und macht **78 %** der Luft aus. Sauerstoff ist **O₂** (nicht N₂), CO₂ hat nur 0,04 %, und Argon ist ein Edelgas mit 0,96 % – O₂ ist die Formel von Sauerstoff.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-luft-03",
+      "lernzielId": "lz-luft",
+      "typ": "zahl",
+      "frage": "Wie viel Prozent der Luft machen **Stickstoff und Sauerstoff zusammen** aus?",
+      "richtig": 99,
+      "toleranz": 0,
+      "einheit": "%",
+      "erklaerung": "78 % Stickstoff + 21 % Sauerstoff = **99 %**. Für Argon (0,96 %) und CO₂ (0,04 %) bleibt zusammen nur 1 %.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-luft-04",
+      "lernzielId": "lz-luft",
+      "typ": "zahl",
+      "frage": "Ein Ballon enthält **50 L** Luft. Wie viele Liter davon sind **Stickstoff**?",
+      "richtig": 39,
+      "toleranz": 0,
+      "einheit": "L",
+      "tipp": "50 L sind die Hälfte von 100 L.",
+      "erklaerung": "Stickstoff macht 78 % aus. In 100 L wären es 78 L, in 50 L die Hälfte: 78 L : 2 = **39 L**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-luft-05",
+      "lernzielId": "lz-homogen-heterogen",
+      "typ": "einfachwahl",
+      "frage": "Ein Glaszylinder enthält unten **Kohlenstoffdioxid** und darüber **Luft**. Er ist verschlossen und steht ruhig. Was findest du nach einem Tag?",
+      "optionen": [
+        "Die beiden Gase liegen weiterhin als zwei getrennte Phasen übereinander.",
+        "Das Kohlenstoffdioxid hat sich in Sauerstoff verwandelt.",
+        "Die Gase haben sich von selbst gleichmässig durchmischt – ein homogenes Gasgemisch.",
+        "Das Kohlenstoffdioxid ist verschwunden, weil es sich in der Luft gelöst hat wie Zucker im Wasser."
+      ],
+      "richtig": 2,
+      "erklaerung": "Gasteilchen bewegen sich ständig und frei, zwischen ihnen wirken praktisch keine Anziehungskräfte. Darum verteilen sie sich durch ihre zufälligen Bewegungen von selbst gleichmässig (Diffusion). **Gasgemische sind deshalb immer homogen** – auch die Luft. Es entsteht kein neuer Stoff, und es verschwindet auch keiner.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-luft-06",
+      "lernzielId": "lz-luft",
+      "typ": "mehrfachwahl",
+      "frage": "Kreuze alle richtigen Aussagen zur **Zusammensetzung der Luft** an (mindestens eine ist richtig).",
+      "optionen": [
+        "Luft ist ein Reinstoff, weil sie farblos und überall gleich ist.",
+        "Gasgemische wie Luft sind immer homogen.",
+        "Argon gehört zu den Edelgasen.",
+        "In 100 L Luft ist weniger als 1 L Kohlenstoffdioxid.",
+        "Unter dem Mikroskop erkennt man in der Luft Bläschen aus Stickstoff und Sauerstoff."
+      ],
+      "richtig": [
+        1,
+        2,
+        3
+      ],
+      "erklaerung": "Luft besteht aus mehreren Gasen (verschiedene Teilchenarten) und ist darum ein **Stoffgemisch**, kein Reinstoff. Gasgemische sind immer **homogen** – auch unter dem Mikroskop sieht man keine Phasen. Argon ist ein Edelgas. CO₂ hat 0,04 %: In 100 L Luft sind nur 0,04 L, also weniger als 1 L.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-luft-07",
+      "lernzielId": "lz-luft",
+      "typ": "wahrfalsch",
+      "frage": "Im Sommer enthält die Luft meist **mehr Wasserdampf** als im Winter.",
+      "richtig": true,
+      "erklaerung": "Wasserdampf ist ein weiterer Bestandteil der Luft; die **Luftfeuchtigkeit** gibt an, wie viel davon in der Luft ist. Warme Luft kann mehr Wasserdampf aufnehmen als kalte (*ergänzt*) – darum enthält die Luft im Sommer meist mehr Wasserdampf.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-luft-08",
+      "lernzielId": "lz-luft",
+      "typ": "offen",
+      "frage": "Gib die **Zusammensetzung der Luft** an: alle vier Gase mit Namen, Formel bzw. Gruppe und Anteil in Prozent. Was gibt die **Luftfeuchtigkeit** an?",
+      "musterloesung": "Trockene Luft besteht aus\n- **Stickstoff N₂: 78 %**\n- **Sauerstoff O₂: 21 %**\n- **Argon (Edelgase): 0,96 %**\n- **Kohlenstoffdioxid CO₂: 0,04 %**\n\nDazu kommt **Wasserdampf**. Die **Luftfeuchtigkeit** (in %) gibt an, wie viel Wasser(dampf) in der Luft ist. Im Sommer enthält die Luft meist mehr Wasserdampf als im Winter.",
+      "stichworte": [
+        "Stickstoff N₂ 78 %",
+        "Sauerstoff O₂ 21 %",
+        "Argon/Edelgase 0,96 %",
+        "Kohlenstoffdioxid CO₂ 0,04 %",
+        "Luftfeuchtigkeit = Wasserdampf in der Luft"
+      ],
+      "erklaerung": "Die vier Anteile ergeben zusammen 100 % (trockene Luft). Wasserdampf wird separat als Luftfeuchtigkeit angegeben, weil sein Anteil stark schwankt.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-luft-09",
+      "lernzielId": "lz-luft",
+      "typ": "offen",
+      "frage": "Luft ist farblos und sieht überall gleich aus. Erkläre mit dem Teilchenmodell, warum Luft trotzdem ein **Stoffgemisch** ist und warum sie **homogen** ist.",
+      "musterloesung": "Luft besteht aus mehreren Gasen – vor allem Stickstoff (78 %) und Sauerstoff (21 %), dazu Argon und Kohlenstoffdioxid. Sie enthält also **verschiedene Teilchenarten**. Bei einem Reinstoff wären alle Teilchen gleich; Luft ist deshalb ein **Stoffgemisch**.\n\nZwischen den Gasteilchen wirken praktisch **keine Anziehungskräfte**. Die Teilchen bewegen sich **frei und ständig** und verteilen sich durch ihre zufälligen Bewegungen **gleichmässig**. Darum bildet Luft nur **eine Phase**: Sie ist ein **homogenes Gasgemisch** (g/g).",
+      "stichworte": [
+        "mehrere Gase",
+        "verschiedene Teilchenarten → Gemisch",
+        "keine Anziehungskräfte zwischen Gasteilchen",
+        "freie, ständige Bewegung",
+        "gleichmässig verteilt → eine Phase, homogen",
+        "Gasgemisch g/g"
+      ],
+      "erklaerung": "Gemisch oder Reinstoff hängt von der Zahl der Teilchenarten ab, homogen oder heterogen von der Zahl der Phasen. Gase mischen sich immer gleichmässig – Gasgemische sind immer homogen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-rein-01",
+      "lernzielId": "lz-homogen-heterogen",
+      "typ": "einfachwahl",
+      "frage": "Was ist ein **Reinstoff**?",
+      "optionen": [
+        "Ein Stoff, der besonders sauber ist und keinerlei Schmutz oder Staub enthält",
+        "Ein einheitlicher Stoff – alle seine Teilchen sind gleich",
+        "Ein Gemisch, das klar und durchsichtig ist",
+        "Ein Stoff, der sich gut in Wasser löst"
+      ],
+      "richtig": 1,
+      "erklaerung": "Ein Reinstoff besteht aus **einem einheitlichen Stoff** – im Teilchenmodell sind alle seine Teilchen gleich. «Rein» hat nichts mit sauber zu tun, und auch klare Flüssigkeiten können Gemische sein (Salzwasser).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-rein-02",
+      "lernzielId": "lz-homogen-heterogen",
+      "typ": "wahrfalsch",
+      "frage": "Ein Stoffgemisch besteht aus mehreren verschiedenen Stoffen und damit aus verschiedenen Teilchenarten.",
+      "richtig": true,
+      "erklaerung": "Genau so lautet die Definition: Stoffgemische bestehen aus mehreren Stoffen. Nach dem Teilchenmodell sind die Teilchen eines Reinstoffs unter sich gleich, Gemische bestehen aus verschiedenen Teilchenarten.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-rein-03",
+      "lernzielId": "lz-homogen-heterogen",
+      "typ": "zuordnen",
+      "frage": "Ordne jedem Begriff die passende Beschreibung zu.",
+      "paare": [
+        {
+          "links": "Reinstoff",
+          "rechts": "besteht aus einem einheitlichen Stoff"
+        },
+        {
+          "links": "Stoffgemisch",
+          "rechts": "besteht aus mehreren verschiedenen Stoffen"
+        },
+        {
+          "links": "homogenes Gemisch",
+          "rechts": "einphasig, auch unter dem Mikroskop nicht von einem Reinstoff zu unterscheiden"
+        },
+        {
+          "links": "heterogenes Gemisch",
+          "rechts": "besteht aus mehreren Phasen"
+        }
+      ],
+      "erklaerung": "Reinstoff = ein einheitlicher Stoff; Stoffgemisch = mehrere Stoffe. Bei den Gemischen entscheidet die Zahl der Phasen: homogen = eine Phase (sieht aus wie ein Reinstoff), heterogen = mehrere Phasen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-rein-04",
+      "lernzielId": "lz-homogen-heterogen",
+      "typ": "einfachwahl",
+      "frage": "Welche Aussage beschreibt ein **homogenes** Gemisch?",
+      "optionen": [
+        "Man erkennt mit blossem Auge mehrere Phasen, z. B. Körner oder Tröpfchen.",
+        "Es besteht nur aus einer einzigen Teilchenart.",
+        "Es ist einphasig und sieht auch unter dem Mikroskop aus wie ein Reinstoff.",
+        "Es ist trüb, weil kleine ungelöste Teilchen darin schweben."
+      ],
+      "richtig": 2,
+      "erklaerung": "Homogen heisst **einphasig**: Ein homogenes Gemisch lässt sich optisch – auch unter dem Mikroskop – nicht von einem Reinstoff unterscheiden. Es besteht aber aus mehreren Teilchenarten (sonst wäre es ein Reinstoff). Mehrere Phasen und Trübung gehören zu heterogenen Gemischen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-rein-13",
+      "lernzielId": "lz-homogen-heterogen",
+      "typ": "wahrfalsch",
+      "frage": "Salzwasser ist klar und durchsichtig – also ist es ein Reinstoff.",
+      "richtig": false,
+      "erklaerung": "Klar heisst nicht rein: **Salzwasser** oder **Zuckerwasser** sind klar und trotzdem Gemische. Sie sind **homogen** – darum sehen sie aus wie ein Reinstoff, bestehen aber aus mehreren Stoffen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-rein-14",
+      "lernzielId": "lz-homogen-heterogen",
+      "typ": "zuordnen",
+      "frage": "Ist das Gemisch **homogen** oder **heterogen**?",
+      "paare": [
+        {
+          "links": "Salzwasser",
+          "rechts": "homogen"
+        },
+        {
+          "links": "Luft",
+          "rechts": "homogen"
+        },
+        {
+          "links": "Wodka",
+          "rechts": "homogen"
+        },
+        {
+          "links": "Messing",
+          "rechts": "homogen"
+        },
+        {
+          "links": "aufgerührtes Sandwasser",
+          "rechts": "heterogen"
+        },
+        {
+          "links": "Granit",
+          "rechts": "heterogen"
+        },
+        {
+          "links": "naturtrüber Orangensaft",
+          "rechts": "heterogen"
+        }
+      ],
+      "erklaerung": "Homogen (eine Phase, sieht aus wie ein Reinstoff): Salzwasser, Wodka, Luft, Messing. Heterogen (mehrere Phasen): Sandwasser, Granit (verschiedene Körner sichtbar) und naturtrüber Orangensaft – trüb heisst: nicht gelöst.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-rein-15",
+      "lernzielId": "lz-homogen-heterogen",
+      "typ": "zuordnen",
+      "frage": "**Reinstoff** oder **Stoffgemisch**? Ordne zu.",
+      "paare": [
+        {
+          "links": "destilliertes Wasser",
+          "rechts": "Reinstoff"
+        },
+        {
+          "links": "Zucker",
+          "rechts": "Reinstoff"
+        },
+        {
+          "links": "Eisen",
+          "rechts": "Reinstoff"
+        },
+        {
+          "links": "Leitungswasser",
+          "rechts": "Stoffgemisch"
+        },
+        {
+          "links": "Mineralwasser",
+          "rechts": "Stoffgemisch"
+        },
+        {
+          "links": "Luft",
+          "rechts": "Stoffgemisch"
+        },
+        {
+          "links": "Messing",
+          "rechts": "Stoffgemisch"
+        }
+      ],
+      "erklaerung": "Reinstoffe bestehen aus einem einzigen Stoff: destilliertes Wasser, Zucker, Eisen. Leitungs- und Mineralwasser enthalten neben Wasser gelöste Stoffe (Mineralstoffe, beim Mineralwasser auch CO₂) – sie sind Gemische, auch wenn sie klar sind. Luft ist ein Gasgemisch, Messing eine Legierung aus Kupfer und Zink.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-rein-16",
+      "lernzielId": "lz-homogen-heterogen",
+      "typ": "einfachwahl",
+      "frage": "Du rührst ein weisses Pulver in Wasser. Die Flüssigkeit wird **trüb** und bleibt auch nach längerem Rühren trüb. Was schliesst du daraus?",
+      "optionen": [
+        "Das Pulver hat sich vollständig gelöst; es ist ein homogenes Gemisch entstanden.",
+        "Pulver und Wasser sind zu einem Reinstoff geworden.",
+        "Das Wasser ist zum Teil verdampft.",
+        "Das Pulver hat sich nicht (vollständig) gelöst – ein heterogenes Gemisch."
+      ],
+      "richtig": 3,
+      "erklaerung": "Nach der Faustregel aus dem Heft gilt: «Wenn etwas trüb ist, ist es nicht löslich!» Die ungelösten Teilchen schweben im Wasser – man hat mehrere Phasen, also ein **heterogenes** Gemisch. Eine echte Lösung wäre klar (homogen). Ein Reinstoff kann es nicht sein, denn Pulver und Wasser sind zwei Stoffe.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-rein-17",
+      "lernzielId": "lz-homogen-heterogen",
+      "typ": "offen",
+      "frage": "Erkläre den Unterschied zwischen einem **homogenen** und einem **heterogenen** Gemisch. Nenne zu beiden ein Beispiel.",
+      "musterloesung": "Beide sind **Stoffgemische**, bestehen also aus mehreren verschiedenen Stoffen.\n- **Homogen:** Das Gemisch ist **einphasig**. Man kann es optisch – auch unter dem Mikroskop – nicht von einem Reinstoff unterscheiden. Beispiele: Salzwasser, Luft, Messing.\n- **Heterogen:** Das Gemisch besteht aus **mehreren Phasen**, man erkennt die Bestandteile (oft ist es trüb). Beispiele: Sandwasser, Granit, naturtrüber Orangensaft.",
+      "stichworte": [
+        "Stoffgemisch aus mehreren Stoffen",
+        "homogen: eine Phase",
+        "nicht von Reinstoff unterscheidbar (Mikroskop)",
+        "heterogen: mehrere Phasen",
+        "Beispiel homogen",
+        "Beispiel heterogen"
+      ],
+      "erklaerung": "Entscheidend ist die Zahl der **Phasen**: homogen = eine Phase (wie ein Reinstoff), heterogen = mehrere Phasen. Beide sind Gemische, bestehen also aus mehreren Stoffen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-rein-18",
+      "lernzielId": "lz-homogen-heterogen",
+      "typ": "offen",
+      "frage": "Eine Kollegin sagt: «Mineralwasser ist klar, also ist es ein Reinstoff.» Stimmt das? Begründe mit dem Teilchenmodell und ordne Mineralwasser genau ein.",
+      "musterloesung": "Nein. Mineralwasser enthält neben Wasser auch **gelöstes Kohlenstoffdioxid** (CO₂) und gelöste Mineralstoffe. Es besteht also aus **verschiedenen Teilchenarten** – nach dem Teilchenmodell sind aber nur die Teilchen eines **Reinstoffs** unter sich gleich. Mineralwasser ist deshalb ein **Stoffgemisch**.\n\nWeil es klar und einphasig ist, ist es ein **homogenes** Gemisch, genauer eine **Lösung** (CO₂ in Wasser: g/l). «Klar» heisst also nur «homogen», nicht «rein». Ein Reinstoff wäre z. B. destilliertes Wasser.",
+      "stichworte": [
+        "nein, Stoffgemisch",
+        "gelöstes CO₂ / Mineralstoffe",
+        "verschiedene Teilchenarten",
+        "Reinstoff: alle Teilchen gleich",
+        "homogen, Lösung (g/l)",
+        "klar ≠ rein"
+      ],
+      "erklaerung": "Klar bedeutet nur **einphasig** (homogen), nicht rein. Mineralwasser enthält mehrere Stoffe und damit mehrere Teilchenarten.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-hh-01",
+      "lernzielId": "lz-homogen-heterogen",
+      "typ": "mehrfachwahl",
+      "frage": "Kreuze alle **Reinstoffe** an (mindestens einer ist dabei).",
+      "optionen": [
+        "Kupfer",
+        "Holz",
+        "Kochsalz",
+        "Meerwasser",
+        "Schwefel",
+        "Sirup",
+        "Papier"
+      ],
+      "richtig": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "Kupfer, Kochsalz und Schwefel bestehen je aus einem einheitlichen Stoff – es sind **Reinstoffe**. Holz und Papier bestehen aus vielen verschiedenen Stoffen, Meerwasser enthält gelöste Salze, Sirup ist Zucker und Aromastoffe in Wasser: alles **Stoffgemische**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-hh-02",
+      "lernzielId": "lz-homogen-heterogen",
+      "typ": "einfachwahl",
+      "frage": "Homogenisierte Milch rahmt nicht mehr auf, weil ihre Fetttröpfchen unter hohem Druck stark verkleinert wurden. Was für ein Gemisch ist sie?",
+      "optionen": [
+        "Ein homogenes Gemisch, weil das Fett jetzt gleichmässig verteilt ist.",
+        "Ein Reinstoff, weil das Fett nicht mehr aufsteigt.",
+        "Ein heterogenes Gemisch, weil die Fetttröpfchen nur kleiner geworden sind.",
+        "Eine Lösung, weil sich das Fett im Wasser aufgelöst hat."
+      ],
+      "richtig": 2,
+      "erklaerung": "Beim Homogenisieren werden die Fetttröpfchen nur **verkleinert**, nicht gelöst. Unter dem Mikroskop sieht man sie weiterhin – die Milch hat also mehrere Phasen und bleibt ein **heterogenes Gemisch**. «Homogenisiert» heisst hier nur: gleichmässiger verteilt.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-hh-03",
+      "lernzielId": "lz-homogen-heterogen",
+      "typ": "wahrfalsch",
+      "frage": "Ein Gemisch, das mit blossem Auge ganz einheitlich aussieht, ist ein homogenes Gemisch.",
+      "richtig": false,
+      "erklaerung": "Manche heterogenen Gemische sehen mit blossem Auge einheitlich aus, z. B. Milch. Erst **unter dem Mikroskop** sieht man die Fetttröpfchen. Entscheidend ist, ob das Gemisch – auch unter dem Mikroskop – aus mehreren Phasen besteht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-hh-04",
+      "lernzielId": "lz-homogen-heterogen",
+      "typ": "mehrfachwahl",
+      "frage": "Kreuze alle richtigen Aussagen an (mindestens eine ist richtig).",
+      "optionen": [
+        "Ein homogenes Gemisch besteht aus einer einzigen Phase.",
+        "Ein homogenes Gemisch besteht aus einer einzigen Teilchenart.",
+        "In Milch kann man unter dem Mikroskop Fetttröpfchen erkennen.",
+        "Gasgemische sind immer homogen.",
+        "Eine klare Flüssigkeit ist immer ein Reinstoff."
+      ],
+      "richtig": [
+        0,
+        2,
+        3
+      ],
+      "erklaerung": "Homogen heisst **einphasig** – ein homogenes Gemisch besteht aber aus mehreren Teilchenarten, sonst wäre es ein Reinstoff. Milch ist heterogen: Unter dem Mikroskop sieht man Fetttröpfchen. Gasgemische sind immer homogen. Klar heisst nicht rein: Salzwasser ist klar und trotzdem ein Gemisch.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-hh-05",
+      "lernzielId": "lz-homogen-heterogen",
+      "typ": "offen",
+      "frage": "Gasgemische sind **immer homogen**. Erkläre das mit dem Teilchenmodell.",
+      "musterloesung": "Gasteilchen berühren sich nicht, und zwischen ihnen wirken **praktisch keine Anziehungskräfte**. Die Teilchen sind **ständig in Bewegung** und bewegen sich frei durch den ganzen Raum. Durch diese zufälligen Bewegungen **verteilen sich die verschiedenen Gasteilchen gleichmässig**. Es können sich darum keine getrennten Bereiche (Phasen) bilden – das Gasgemisch ist einphasig, also **homogen**. Beispiel: Luft.",
+      "stichworte": [
+        "keine/kaum Anziehungskräfte zwischen Gasteilchen",
+        "Teilchen ständig und frei in Bewegung",
+        "verteilen sich gleichmässig",
+        "eine Phase → homogen",
+        "Beispiel Luft"
+      ],
+      "erklaerung": "Weil nichts die Gasteilchen zusammenhält, mischen sich verschiedene Gase immer vollständig – anders als z. B. Öl und Wasser, die getrennte Phasen bilden.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-hh-06",
+      "lernzielId": "lz-homogen-heterogen",
+      "typ": "einfachwahl",
+      "frage": "Ein Gemisch sieht mit blossem Auge ganz einheitlich aus. Wie prüfst du am besten, ob es wirklich **homogen** ist?",
+      "optionen": [
+        "Ich schaue, ob es farblos ist.",
+        "Ich messe seine Temperatur.",
+        "Ich wiege es.",
+        "Ich betrachte es unter dem Mikroskop."
+      ],
+      "richtig": 3,
+      "erklaerung": "Ein homogenes Gemisch lässt sich **auch unter dem Mikroskop** nicht von einem Reinstoff unterscheiden. Sieht man unter dem Mikroskop Tröpfchen oder Körner (z. B. bei Milch), ist es heterogen. Farbe, Temperatur und Masse sagen darüber nichts aus.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-gart-01",
+      "lernzielId": "lz-gemischarten",
+      "typ": "zuordnen",
+      "frage": "Ordne jedem **heterogenen** Gemisch die Aggregatzustände seiner Bestandteile zu (s = fest, l = flüssig, g = gasförmig).",
+      "paare": [
+        {
+          "links": "Gemenge",
+          "rechts": "s/s"
+        },
+        {
+          "links": "Suspension",
+          "rechts": "s/l"
+        },
+        {
+          "links": "Emulsion",
+          "rechts": "l/l"
+        },
+        {
+          "links": "Nebel (Aerosol)",
+          "rechts": "l/g"
+        },
+        {
+          "links": "Rauch (Aerosol)",
+          "rechts": "s/g"
+        },
+        {
+          "links": "Schaum",
+          "rechts": "g/l"
+        }
+      ],
+      "erklaerung": "Gemenge = fest in fest (s/s), Suspension = fest in flüssig (s/l), Emulsion = flüssig in flüssig (l/l), Nebel = flüssig in gasförmig (l/g), Rauch = fest in gasförmig (s/g), Schaum = gasförmig in flüssig (g/l). Nebel und Rauch sind Aerosole.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-gart-02",
+      "lernzielId": "lz-gemischarten",
+      "typ": "zuordnen",
+      "frage": "Ordne jedem **homogenen** Gemisch die Aggregatzustände zu.",
+      "paare": [
+        {
+          "links": "Legierung (z. B. Messing)",
+          "rechts": "s/s"
+        },
+        {
+          "links": "Lösung wie Salzwasser",
+          "rechts": "s/l"
+        },
+        {
+          "links": "Lösung wie Wodka",
+          "rechts": "l/l"
+        },
+        {
+          "links": "Lösung wie Mineralwasser",
+          "rechts": "g/l"
+        },
+        {
+          "links": "Gasgemisch wie Luft",
+          "rechts": "g/g"
+        }
+      ],
+      "erklaerung": "Legierung = fest in fest (s/s), Salzwasser = fest in flüssig (s/l), Wodka = flüssig in flüssig (l/l), Mineralwasser = gasförmig in flüssig (g/l), Luft = gasförmig in gasförmig (g/g).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-gart-03",
+      "lernzielId": "lz-gemischarten",
+      "typ": "zuordnen",
+      "frage": "Zu welcher **heterogenen** Gemischart gehört das Beispiel?",
+      "paare": [
+        {
+          "links": "Granit",
+          "rechts": "Gemenge"
+        },
+        {
+          "links": "naturtrüber Orangensaft",
+          "rechts": "Suspension"
+        },
+        {
+          "links": "Mayonnaise",
+          "rechts": "Emulsion"
+        },
+        {
+          "links": "Wolken",
+          "rechts": "Nebel"
+        },
+        {
+          "links": "Russ in der Luft",
+          "rechts": "Rauch"
+        },
+        {
+          "links": "Rasierschaum",
+          "rechts": "Schaum"
+        }
+      ],
+      "erklaerung": "Granit: verschiedene feste Körner → Gemenge (s/s). Naturtrüber Orangensaft: feste Fruchtteilchen in Flüssigkeit → Suspension (s/l). Mayonnaise: Tröpfchen einer Flüssigkeit in einer anderen → Emulsion (l/l). Wolken: Wassertröpfchen in Luft → Nebel (l/g). Russ: feste Teilchen in Luft → Rauch (s/g). Rasierschaum: Gasbläschen in Flüssigkeit → Schaum (g/l).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gart-08",
+      "lernzielId": "lz-gemischarten",
+      "typ": "einfachwahl",
+      "frage": "Mit welchem Begriff fasst das Heft **Nebel** und **Rauch** zusammen?",
+      "optionen": [
+        "Aerosol",
+        "Suspension",
+        "Gasgemisch",
+        "Emulsion"
+      ],
+      "richtig": 0,
+      "erklaerung": "Nebel (l/g) und Rauch (s/g) sind beide **Aerosole**: feinste Tröpfchen bzw. feste Teilchen, verteilt in einem Gas. Eine Suspension ist s/l, eine Emulsion l/l, ein Gasgemisch (g/g) ist homogen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-gart-09",
+      "lernzielId": "lz-gemischarten",
+      "typ": "mehrfachwahl",
+      "frage": "Welche dieser Gemische sind **homogen**? Kreuze alle richtigen an.",
+      "optionen": [
+        "Messing",
+        "Granit",
+        "Wodka",
+        "Mayonnaise",
+        "Luft",
+        "naturtrüber Orangensaft"
+      ],
+      "richtig": [
+        0,
+        2,
+        4
+      ],
+      "erklaerung": "Homogen sind Messing (Legierung s/s), Wodka (Lösung l/l) und Luft (Gasgemisch g/g). Granit (Gemenge), Mayonnaise (Emulsion) und naturtrüber Orangensaft (Suspension) bestehen aus mehreren Phasen – sie sind heterogen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gart-10",
+      "lernzielId": "lz-gemischarten",
+      "typ": "wahrfalsch",
+      "frage": "**Rauch** ist ein Aerosol aus feinen **Flüssigkeitströpfchen** in einem Gas.",
+      "richtig": false,
+      "erklaerung": "Das beschreibt den **Nebel** (l/g). Rauch besteht aus **festen** Teilchen (z. B. Russ) in einem Gas – er ist ein Aerosol s/g.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gart-11",
+      "lernzielId": "lz-gemischarten",
+      "typ": "wahrfalsch",
+      "frage": "Mineralwasser mit Kohlensäure ist eine Lösung eines **Gases** in einer **Flüssigkeit** (g/l).",
+      "richtig": true,
+      "erklaerung": "Im Mineralwasser ist das Gas **Kohlenstoffdioxid** (CO₂) im Wasser gelöst – eine homogene Lösung g/l, wie auch Sauerstoff in Wasser.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gart-12",
+      "lernzielId": "lz-gemischarten",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Paare «Gemischart – Aggregatzustände» stimmen? Kreuze alle richtigen an.",
+      "optionen": [
+        "Gemenge – s/s",
+        "Emulsion – s/l",
+        "Nebel – l/g",
+        "Legierung – s/s",
+        "Rauch – l/g",
+        "Gasgemisch – g/g",
+        "Schaum – g/l"
+      ],
+      "richtig": [
+        0,
+        2,
+        3,
+        5,
+        6
+      ],
+      "erklaerung": "Richtig sind Gemenge s/s, Nebel l/g, Legierung s/s, Gasgemisch g/g und Schaum g/l. Eine Emulsion ist l/l (nicht s/l – das wäre eine Suspension), und Rauch ist s/g (l/g ist Nebel).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gart-13",
+      "lernzielId": "lz-gemischarten",
+      "typ": "reihenfolge",
+      "frage": "In welcher Reihenfolge gehst du vor, um ein unbekanntes Gemisch einzuordnen?",
+      "elemente": [
+        "Genau hinschauen: Sind mehrere Phasen zu sehen (trüb, Körner, Tröpfchen)?",
+        "Entscheiden: homogen oder heterogen",
+        "Aggregatzustände bestimmen: Was ist worin verteilt (s, l, g)?",
+        "Gemischart benennen, z. B. Suspension oder Lösung"
+      ],
+      "erklaerung": "Zuerst schaust du, ob man mehrere Phasen sieht (trüb, Körner, Tröpfchen). Daraus folgt homogen oder heterogen. Dann bestimmst du die Aggregatzustände der Bestandteile (was ist worin verteilt?) und kannst die Gemischart benennen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gart-14",
+      "lernzielId": "lz-gemischarten",
+      "typ": "einfachwahl",
+      "frage": "Aufgerührtes Sandwasser lässt du eine Stunde stehen. Danach liegt der Sand am Boden, darüber ist klares Wasser. Was stimmt?",
+      "optionen": [
+        "Jetzt ist es ein homogenes Gemisch, weil das Wasser oben klar ist.",
+        "Es bleibt heterogen – die Phasen liegen nur übereinander.",
+        "Der Sand hat sich im Wasser gelöst.",
+        "Es ist ein Reinstoff entstanden."
+      ],
+      "richtig": 1,
+      "erklaerung": "Der Sand hat sich nicht gelöst, er hat sich nur **abgesetzt**. Das Gemisch besteht weiterhin aus zwei Phasen (Sand und Wasser) – es bleibt **heterogen**, die Phasen liegen jetzt nur übereinander. Homogen wäre es nur, wenn der Sand gelöst und das Ganze einphasig wäre.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-gart-15",
+      "lernzielId": "lz-gemischarten",
+      "typ": "einfachwahl",
+      "frage": "Du schüttelst eine Salatsauce aus **Öl und Essig** kräftig. Für kurze Zeit ist sie trüb und gleichmässig. Was für ein Gemisch ist das?",
+      "optionen": [
+        "Eine Lösung (l/l), wie Wodka",
+        "Eine Suspension (s/l)",
+        "Eine Legierung",
+        "Eine Emulsion (l/l)"
+      ],
+      "richtig": 3,
+      "erklaerung": "Öl löst sich nicht im (wässrigen) Essig. Beim Schütteln entstehen feine Öltröpfchen im Essig – zwei Flüssigkeiten, die sich nicht mischen: eine **Emulsion** (l/l), also heterogen. Darum trennt sie sich nach einer Weile wieder. Wodka ist dagegen eine echte Lösung l/l, weil sich Alkohol und Wasser mischen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-gart-16",
+      "lernzielId": "lz-gemischarten",
+      "typ": "zuordnen",
+      "frage": "Ordne diese **Alltagsbeispiele** der passenden Gemischart zu.",
+      "paare": [
+        {
+          "links": "Zuckerwasser",
+          "rechts": "Lösung"
+        },
+        {
+          "links": "Müesli",
+          "rechts": "Gemenge"
+        },
+        {
+          "links": "Schlammwasser",
+          "rechts": "Suspension"
+        },
+        {
+          "links": "Sprühnebel aus einer Spraydose",
+          "rechts": "Nebel"
+        },
+        {
+          "links": "Rauch eines Lagerfeuers",
+          "rechts": "Rauch"
+        },
+        {
+          "links": "Bronze",
+          "rechts": "Legierung"
+        }
+      ],
+      "erklaerung": "Zuckerwasser: Zucker gelöst in Wasser → Lösung (s/l). Müesli: verschiedene feste Teile → Gemenge (s/s). Schlammwasser: feste Erdteilchen ungelöst im Wasser → Suspension (s/l). Sprühnebel aus einer Spraydose: feine Tröpfchen in Luft → Nebel (l/g). Rauch eines Lagerfeuers: Russteilchen in Luft → Rauch (s/g). Bronze (Kupfer + Zinn) → Legierung (s/s).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-gart-17",
+      "lernzielId": "lz-gemischarten",
+      "typ": "offen",
+      "frage": "Erkläre den Unterschied zwischen einer **Suspension** und einer **Lösung** am Beispiel von naturtrübem Orangensaft und Salzwasser.",
+      "musterloesung": "Beide sind Gemische aus einem **Feststoff in einer Flüssigkeit (s/l)**.\n- **Naturtrüber Orangensaft** ist eine **Suspension**: Die festen Fruchtteilchen sind **nicht gelöst**, sie schweben im Saft. Darum ist er **trüb** und **heterogen** (mehrere Phasen); lässt man ihn stehen, setzen sich die Teilchen ab.\n- **Salzwasser** ist eine **Lösung**: Das Salz ist vollständig **gelöst**. Das Gemisch ist **klar** und **homogen** (eine Phase) und lässt sich auch unter dem Mikroskop nicht von einem Reinstoff unterscheiden.",
+      "stichworte": [
+        "beide s/l",
+        "Suspension: Feststoff ungelöst",
+        "trüb, heterogen",
+        "Lösung: Feststoff gelöst",
+        "klar, homogen / eine Phase"
+      ],
+      "erklaerung": "Beide enthalten einen Feststoff in einer Flüssigkeit (s/l). Der Unterschied: In der Suspension bleibt der Feststoff ungelöst (trüb, heterogen), in der Lösung ist er gelöst (klar, homogen).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gart-18",
+      "lernzielId": "lz-gemischarten",
+      "typ": "offen",
+      "frage": "**Klarer Apfelsaft** und **naturtrüber Orangensaft**: Ordne beide Säfte einer Gemischart zu und begründe deine Einteilung.",
+      "musterloesung": "- **Klarer Apfelsaft** ist **homogen**, eine **Lösung (s/l)**: Zucker und die anderen Inhaltsstoffe sind im Wasser gelöst, der Saft ist klar und einphasig. (Ergänzt: Die festen Fruchtteilchen wurden bei der Herstellung abgefiltert.)\n- **Naturtrüber Orangensaft** ist **heterogen**, eine **Suspension (s/l)**: Feste Fruchtteilchen schweben ungelöst im Saft – «Wenn etwas trüb ist, ist es nicht löslich.» Lässt man ihn stehen, setzen sie sich ab; darum schüttelt man ihn vor dem Trinken.\n\nBeide Säfte sind also Gemische s/l, unterscheiden sich aber darin, ob der Feststoff gelöst ist.",
+      "stichworte": [
+        "Apfelsaft: homogen, Lösung",
+        "gelöst, klar, einphasig",
+        "Orangensaft: heterogen, Suspension",
+        "ungelöste Teilchen, trüb",
+        "beide s/l"
+      ],
+      "erklaerung": "Der Schlüssel ist die Faustregel «trüb = nicht gelöst». Klarer Saft ist einphasig (homogen), trüber Saft hat ungelöste Teilchen (heterogen).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-gart-19",
+      "lernzielId": "lz-gemischarten",
+      "typ": "zuordnen",
+      "frage": "Zu welcher **Gemischart** gehört das Beispiel?",
+      "paare": [
+        {
+          "links": "Beton",
+          "rechts": "Gemenge"
+        },
+        {
+          "links": "Blumenerde",
+          "rechts": "Gemenge"
+        },
+        {
+          "links": "Ketchup",
+          "rechts": "Suspension"
+        },
+        {
+          "links": "Tinte",
+          "rechts": "Lösung"
+        },
+        {
+          "links": "Sodawasser",
+          "rechts": "Lösung"
+        },
+        {
+          "links": "Seifenblasen",
+          "rechts": "Schaum"
+        },
+        {
+          "links": "Chromstahl",
+          "rechts": "Legierung"
+        }
+      ],
+      "erklaerung": "Beton und Blumenerde: verschiedene feste Bestandteile → Gemenge (s/s). Ketchup: feste Tomatenteilchen in Flüssigkeit → Suspension (s/l). Tinte: Farbstoff gelöst in Wasser → Lösung. Sodawasser: CO₂ gelöst in Wasser → Lösung (g/l). Seifenblasen: Luft in Seifenwasser eingeschlossen → Schaum (g/l). Chromstahl → Legierung (s/s).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gart-20",
+      "lernzielId": "lz-gemischarten",
+      "typ": "mehrfachwahl",
+      "frage": "Du verrührst je einen Stoff mit Wasser. Bei welchen entsteht eine **Suspension**? Kreuze alle richtigen an.",
+      "optionen": [
+        "Mehl",
+        "feiner Sand",
+        "Zucker",
+        "Spülmittel",
+        "Kochsalz",
+        "Holzkohlepulver"
+      ],
+      "richtig": [
+        0,
+        1,
+        5
+      ],
+      "erklaerung": "Mehl, feiner Sand und Holzkohlepulver lösen sich nicht in Wasser: Die festen Teilchen schweben ungelöst darin, das Wasser wird trüb → **Suspension** (s/l, heterogen). Zucker, Kochsalz und Spülmittel lösen sich – es entsteht eine **Lösung** (homogen).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-gart-21",
+      "lernzielId": "lz-gemischarten",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst ein heterogenes Gemisch aus **Gasbläschen in einer Flüssigkeit** (g/l), z. B. Rasierschaum oder Seifenblasen?",
+      "akzeptiert": [
+        "Schaum",
+        "Schäume",
+        "Schaeume",
+        "ein Schaum"
+      ],
+      "erklaerung": "Das ist ein **Schaum** (g/l): Gasbläschen sind in einer Flüssigkeit eingeschlossen – mehrere Phasen, also heterogen. Ist das Gas dagegen gelöst wie CO₂ im Mineralwasser, entsteht eine homogene **Lösung** (g/l).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-gart-22",
+      "lernzielId": "lz-gemischarten",
+      "typ": "einfachwahl",
+      "frage": "**Mineralwasser** und **Rasierschaum** enthalten beide ein Gas in einer Flüssigkeit (g/l). Was unterscheidet sie?",
+      "optionen": [
+        "Nichts – beide sind Lösungen.",
+        "Im Mineralwasser ist das Gas gelöst (homogen, Lösung), im Rasierschaum bildet es Bläschen (heterogen, Schaum).",
+        "Mineralwasser ist ein Reinstoff, Rasierschaum ein Gemisch.",
+        "Im Rasierschaum ist das Gas gelöst, im Mineralwasser bildet es eine eigene Phase."
+      ],
+      "richtig": 1,
+      "erklaerung": "Entscheidend ist, ob das Gas **gelöst** ist. Im geschlossenen Mineralwasser ist das CO₂ gelöst – es ist klar und einphasig: eine **Lösung** (homogen). Im Rasierschaum ist das Gas in vielen Bläschen eingeschlossen – mehrere Phasen: ein **Schaum** (heterogen).",
+      "schwierigkeit": 3
+    }
+  ]
+}

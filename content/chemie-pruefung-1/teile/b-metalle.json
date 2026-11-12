@@ -1,0 +1,556 @@
+{
+  "lernziele": [
+    {
+      "id": "lz-metalle",
+      "zusammenfassung": "### Eine grosse Stoffgruppe\nRund **80 %** aller chemischen Elemente sind **Metalle**. Sie bilden eine **Stoffgruppe**, weil alle Metalle in vier **Haupteigenschaften** übereinstimmen.\n\n### Die vier Haupteigenschaften\n| Haupteigenschaft | Was heisst das? Beispiele |\n| --- | --- |\n| 1. wärmeleitend | leitet Wärme schnell weiter: Pfanne, Kühlkörper, Lötkolben |\n| 2. elektrisch leitfähig | Strom fliesst schon im **festen** Zustand: Kabel, Kontakte |\n| 3. verformbar | lässt sich hämmern, walzen und zu Draht ziehen, **ohne zu zerbrechen** |\n| 4. metallischer Glanz | die Oberfläche reflektiert das Licht **spiegelnd** |\n\nAlle vier sind **physikalische** Eigenschaften: Beim Prüfen entsteht kein neuer Stoff. Die Ursache ist bei allen dieselbe: In Metallen gibt es **frei bewegliche Elektronen**, das sogenannte **«Elektronengas»**.\n\n### Weitere typische Merkmale\n- hohe **Dichte**\n- hohe **Schmelztemperatur**\n- bei Raumtemperatur **fest** – einzige Ausnahme: **Quecksilber** ist flüssig.\n\n«Typisch» heisst nicht «immer gleich»: Lithium zum Beispiel ist das leichteste aller Metalle.\n\n### Gleich und doch verschieden\nMit den vier Haupteigenschaften erkennst du: «Das ist ein Metall.» **Welches** Metall es ist, zeigen die übrigen Eigenschaften: **Dichte, Farbe, Schmelztemperatur, Reaktionsvermögen**. Magnetisch ist zum Beispiel in der Tabelle der gängigsten Metalle nur das **Eisen** – darum gehört Magnetismus **nicht** zu den Haupteigenschaften.\n\nPraktisch: Eine Pfanne ist aus Metall, damit die Wärme schnell zum Essen gelangt. Der Griff ist oft aus Holz oder Kunststoff, weil diese Stoffe Wärme schlecht leiten (*ergänzt*).\n\n> **Merke:** Wärmeleitend, elektrisch leitfähig, verformbar, glänzend – das haben **alle** Metalle gemeinsam (Elektronengas). Unterscheiden lassen sie sich über Dichte, Farbe, Schmelztemperatur und Reaktionsvermögen.",
+      "merksaetze": [
+        "Vier Haupteigenschaften aller Metalle: wärmeleitend, elektrisch leitfähig, verformbar, metallischer Glanz – alle physikalisch.",
+        "Ursache der Haupteigenschaften sind frei bewegliche Elektronen («Elektronengas»).",
+        "Rund 80 % aller Elemente sind Metalle; bei Raumtemperatur sind sie fest – ausser Quecksilber (flüssig).",
+        "Metalle unterscheiden sich in Dichte, Farbe, Schmelztemperatur und Reaktionsvermögen."
+      ],
+      "bilder": [
+        {
+          "src": "bilder/chemie/metalle-eigenschaften.svg",
+          "alt": "Vier Felder: 1 wärmeleitend – Pfanne über einer Flamme mit Wärmewellen; 2 elektrisch leitfähig – Batterie, Kupferkabel mit Elektronen und leuchtende Glühbirne; 3 verformbar – Hammer schlägt auf ein Blech auf dem Amboss, daneben aufgewickelter Draht; 4 metallischer Glanz – Sonnenstrahl wird von einer glänzenden Metallfläche gespiegelt. Darunter: Alle vier sind physikalische Eigenschaften, Ursache sind frei bewegliche Elektronen (Elektronengas).",
+          "legende": "Die vier Haupteigenschaften aller Metalle"
+        }
+      ]
+    },
+    {
+      "id": "lz-metalle-steckbrief",
+      "zusammenfassung": "### Die gängigsten Metalle\n| Metall | Symbol | Typisch für |\n| --- | --- | --- |\n| Eisen | **Fe** | häufigstes Gebrauchsmetall, magnetisch, rostet an feuchter Luft |\n| Lithium | **Li** | leichtestes aller Metalle, mit dem Messer schneidbar, reagiert heftig mit Wasser |\n| Kupfer | **Cu** | rötlich, sehr guter Stromleiter – Kabel, Rohre, Dächer |\n| Zink | **Zn** | schützt Eisen vor Rost (Verzinken), Bestandteil von Batterien |\n| Aluminium | **Al** | sehr leicht, schützt sich selbst durch eine dünne Oxidschicht |\n| Gold | **Au** | gelb glänzend, reagiert mit fast nichts, extrem dehnbar |\n| Silber | **Ag** | bester Strom- und Wärmeleiter überhaupt, läuft an der Luft dunkel an |\n| Platin | **Pt** | reaktionsträge und hitzebeständig – Katalysatoren, Laborgeräte |\n| Quecksilber | **Hg** | einziges Metall, das bei Raumtemperatur flüssig ist (Symbol *ergänzt*) |\n\n### Woher kommen die Symbole?\nViele Symbole kommen aus dem Lateinischen: **Fe** von *Ferrum* = Eisen. Darum heisst ein Blutwert, der bei der Blutabnahme das gespeicherte Eisen anzeigt, **Ferritin**. *Ergänzt:* **Au** von *aurum* (Gold), **Ag** von *argentum* (Silber).\n\n### Verwechslungsgefahr\n- **Au = Gold**, **Ag = Silber.** Eselsbrücke (*ergänzt*): **Ag** wie **Ar**gentinien, das «Silberland».\n- **Zn = Zink.** Nicht verwechseln mit **Zinn** (Symbol Sn, *ergänzt*) – Zink steckt im Messing, Zinn in der Bronze.\n- **Silber** ist der beste Strom- und Wärmeleiter, **Kupfer** ein sehr guter – und das typische Kabelmetall.\n\n> **Merke:** Fe Eisen · Li Lithium · Cu Kupfer · Zn Zink · Al Aluminium · Au Gold · Ag Silber · Pt Platin · Hg Quecksilber.",
+      "merksaetze": [
+        "Fe Eisen (lat. Ferrum), Li Lithium, Cu Kupfer, Zn Zink, Al Aluminium, Au Gold, Ag Silber, Pt Platin, Hg Quecksilber.",
+        "Eisen ist das häufigste Gebrauchsmetall, magnetisch und rostet; Lithium ist das leichteste Metall.",
+        "Silber ist der beste Strom- und Wärmeleiter; Gold reagiert mit fast nichts; Platin ist reaktionsträge und hitzebeständig."
+      ]
+    },
+    {
+      "id": "lz-legierungen",
+      "zusammenfassung": "### Was ist eine Legierung?\nEine **Legierung** ist ein **Gemisch aus mehreren Metallen** – oder aus einem **Metall und Kohlenstoff**. Legierungen sind meist **härter und widerstandsfähiger** als das reine Metall. Man stellt sie her, indem man die Bestandteile schmilzt und vermischt (*ergänzt*).\n\n### Drei wichtige Legierungen\n| Legierung | Bestandteile | Verwendung |\n| --- | --- | --- |\n| **Stahl** | Eisen + Kohlenstoff (weniger als 2 %) | Werkzeuge, Bau, Fahrzeuge |\n| **Bronze** | Kupfer + Zinn | Glocken, Statuen, Münzen |\n| **Messing** | Kupfer + Zink | Blasinstrumente, Armaturen, Schrauben |\n\nStahl ist **härter als reines Eisen**. Bronze und Messing enthalten beide **Kupfer**. Eselsbrücke (*ergänzt*): Bronze klingt (Glocke), Messing bläst (Trompete).\n\n### Weitere Legierungen aus dem Heft\n- **Chromstahl**: Stahl mit Chrom; rostet kaum (*ergänzt*).\n- **Amalgam**: eine Legierung von **Quecksilber** mit anderen Metallen, früher für Zahnfüllungen (*ergänzt*).\n- **Münzen** bestehen aus Legierungen.\n\n### Legierung = homogenes Gemisch\nEine Legierung ist ein **homogenes Gemisch** aus festen Stoffen (**s/s**): Du siehst – auch unter dem Mikroskop – keine einzelnen Bestandteile, sie sieht aus wie ein Reinstoff. Trotzdem ist sie **kein Reinstoff**, denn sie besteht aus mehreren Stoffen. Ein **Gemenge** wie Granit ist ebenfalls s/s, aber **heterogen**: Dort erkennst du die verschiedenen Körner.\n\n> **Merke:** Legierung = homogenes Gemisch (s/s). Stahl = Eisen + Kohlenstoff (< 2 %), Bronze = Kupfer + Zinn, Messing = Kupfer + Zink.",
+      "merksaetze": [
+        "Eine Legierung ist ein Gemisch aus mehreren Metallen (oder aus Metall und Kohlenstoff) und meist härter und widerstandsfähiger als das reine Metall.",
+        "Stahl = Eisen + Kohlenstoff (< 2 %), Bronze = Kupfer + Zinn, Messing = Kupfer + Zink.",
+        "Legierungen sind homogene Gemische (s/s) – keine Reinstoffe."
+      ]
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f-met-01",
+      "lernzielId": "lz-metalle",
+      "typ": "einfachwahl",
+      "frage": "Wie gross ist ungefähr der Anteil der **Metalle** an allen chemischen Elementen?",
+      "optionen": ["rund 20 %", "rund 50 %", "rund 80 %", "fast 100 %"],
+      "richtig": 2,
+      "erklaerung": "Rund **80 %** aller chemischen Elemente sind Metalle. Metalle sind also die grösste Stoffgruppe unter den Elementen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-met-02",
+      "lernzielId": "lz-metalle",
+      "typ": "mehrfachwahl",
+      "frage": "Welche gehören zu den **vier Haupteigenschaften**, die **alle** Metalle gemeinsam haben?",
+      "optionen": ["wärmeleitend", "magnetisch", "elektrisch leitfähig", "brennbar", "verformbar", "metallischer Glanz"],
+      "richtig": [0, 2, 4, 5],
+      "erklaerung": "Die vier Haupteigenschaften sind **wärmeleitend, elektrisch leitfähig, verformbar** und **metallischer Glanz**. Magnetisch ist nur ein Teil der Metalle (in der Tabelle nur Eisen), und Brennbarkeit ist eine chemische Eigenschaft, die nicht alle Metalle teilen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-met-03",
+      "lernzielId": "lz-metalle",
+      "typ": "zuordnen",
+      "frage": "Welche Haupteigenschaft der Metalle wird hier genutzt? Ordne zu.",
+      "paare": [
+        { "links": "Pfanne", "rechts": "wärmeleitend" },
+        { "links": "Kühlkörper", "rechts": "wärmeleitend" },
+        { "links": "Kabel", "rechts": "elektrisch leitfähig" },
+        { "links": "Kontakte", "rechts": "elektrisch leitfähig" },
+        { "links": "zu Draht ziehen", "rechts": "verformbar" },
+        { "links": "Blech walzen", "rechts": "verformbar" },
+        { "links": "spiegelnde Oberfläche", "rechts": "metallischer Glanz" }
+      ],
+      "erklaerung": "Pfanne und Kühlkörper leiten **Wärme** weiter, Kabel und Kontakte leiten **Strom**. Hämmern, walzen und Draht ziehen klappt, weil Metalle **verformbar** sind, ohne zu zerbrechen. Die spiegelnde Oberfläche ist der **metallische Glanz**.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-met-04",
+      "lernzielId": "lz-metalle",
+      "typ": "wahrfalsch",
+      "frage": "Bei Raumtemperatur sind **alle** Metalle fest.",
+      "richtig": false,
+      "erklaerung": "Fast alle Metalle sind bei Raumtemperatur fest – die einzige Ausnahme ist **Quecksilber**, es ist flüssig.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-met-05",
+      "lernzielId": "lz-metalle",
+      "typ": "kurzantwort",
+      "frage": "Welches Metall ist bei Raumtemperatur **flüssig**?",
+      "akzeptiert": ["Quecksilber", "Hg"],
+      "erklaerung": "**Quecksilber** (Symbol Hg) ist das einzige Metall, das bei Raumtemperatur flüssig ist. Alle anderen Metalle sind fest.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-met-06",
+      "lernzielId": "lz-metalle",
+      "typ": "einfachwahl",
+      "frage": "Was ist die gemeinsame **Ursache** der vier Haupteigenschaften der Metalle?",
+      "optionen": ["ihre hohe Dichte", "frei bewegliche Elektronen («Elektronengas»)", "eine dünne Oxidschicht an der Oberfläche", "der Kohlenstoff, der in jedem Metall steckt"],
+      "richtig": 1,
+      "erklaerung": "In Metallen gibt es **frei bewegliche Elektronen**, das «Elektronengas». Sie sind der Grund für Wärme- und Stromleitung, Verformbarkeit und Glanz. Die Oxidschicht gibt es nur bei einzelnen Metallen (z. B. Aluminium), und Kohlenstoff steckt im Stahl, nicht in jedem Metall.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-met-07",
+      "lernzielId": "lz-metalle",
+      "typ": "kurzantwort",
+      "frage": "Wie nennt man die frei beweglichen Elektronen in einem Metall mit **einem** Wort?",
+      "akzeptiert": ["Elektronengas", "das Elektronengas", "Elektronen-Gas"],
+      "erklaerung": "Die frei beweglichen Elektronen bilden das **Elektronengas**. Sie bewegen sich zwischen den Metallteilchen hin und her – wie die Teilchen eines Gases.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-met-08",
+      "lernzielId": "lz-metalle",
+      "typ": "wahrfalsch",
+      "frage": "Die vier Haupteigenschaften der Metalle sind **chemische** Eigenschaften.",
+      "richtig": false,
+      "erklaerung": "Alle vier sind **physikalische** Eigenschaften: Wenn du prüfst, ob ein Metall Strom leitet oder glänzt, verändert sich der Stoff nicht – es entsteht kein neuer Stoff.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-met-09",
+      "lernzielId": "lz-metalle",
+      "typ": "einfachwahl",
+      "frage": "In welchem Zustand leitet ein Metall den elektrischen Strom?",
+      "optionen": ["schon im festen Zustand", "erst wenn es geschmolzen ist", "nur wenn es in Wasser gelöst ist", "nur bei sehr hohen Temperaturen"],
+      "richtig": 0,
+      "erklaerung": "Bei Metallen fliesst der Strom **schon im festen Zustand** – darum funktionieren Kabel und Kontakte aus festem Kupfer.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-met-10",
+      "lernzielId": "lz-metalle",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Merkmale sind – neben den vier Haupteigenschaften – **typisch** für Metalle?",
+      "optionen": ["hohe Dichte", "niedrige Schmelztemperatur", "hohe Schmelztemperatur", "bei Raumtemperatur fest", "bei Raumtemperatur gasförmig"],
+      "richtig": [0, 2, 3],
+      "erklaerung": "Typisch sind **hohe Dichte**, **hohe Schmelztemperatur** und **fest bei Raumtemperatur** (Ausnahme Quecksilber). Gasförmige Metalle bei Raumtemperatur gibt es nicht.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-met-11",
+      "lernzielId": "lz-metalle",
+      "typ": "einfachwahl",
+      "frage": "Alle Metalle teilen die vier Haupteigenschaften. Mit welchen Eigenschaften kannst du **verschiedene Metalle voneinander unterscheiden**?",
+      "optionen": ["mit Wärme- und Stromleitfähigkeit", "mit Verformbarkeit und Glanz", "nur mit der Form des Gegenstands", "mit Dichte, Farbe, Schmelztemperatur und Reaktionsvermögen"],
+      "richtig": 3,
+      "erklaerung": "Die Haupteigenschaften haben alle Metalle gemeinsam – damit erkennst du nur «Metall oder nicht». Unterscheiden lassen sich Metalle über **Dichte, Farbe, Schmelztemperatur und Reaktionsvermögen**. Die Form gehört zum Gegenstand, nicht zum Stoff.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-met-12",
+      "lernzielId": "lz-metalle",
+      "typ": "zahl",
+      "frage": "Du ziehst blind **10** chemische Elemente aus einer grossen Lostrommel mit allen Elementen. Wie viele davon sind im Durchschnitt **Metalle**?",
+      "richtig": 8,
+      "toleranz": 0,
+      "einheit": "Elemente",
+      "erklaerung": "Rund **80 %** der Elemente sind Metalle. 80 % von 10 sind **8**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-met-13",
+      "lernzielId": "lz-metalle",
+      "typ": "offen",
+      "frage": "Ein Magnet zieht einen Eisennagel an. Erkläre, warum **Magnetismus** trotzdem **keine** Haupteigenschaft der Metalle ist.",
+      "musterloesung": "Eine Haupteigenschaft müssen **alle** Metalle haben. In der Tabelle der gängigsten Metalle ist aber nur **Eisen** magnetisch – Kupfer, Aluminium oder Gold zum Beispiel werden von einem Magneten nicht angezogen. Magnetismus ist darum eine Eigenschaft, mit der man einzelne Metalle **unterscheiden** kann (z. B. Eisen von Aluminium), und keine gemeinsame Eigenschaft der ganzen Stoffgruppe.",
+      "stichworte": ["alle Metalle", "nur Eisen magnetisch", "andere Metalle nicht", "zum Unterscheiden"],
+      "erklaerung": "Haupteigenschaften = Gemeinsamkeiten der ganzen Stoffgruppe (wärmeleitend, elektrisch leitfähig, verformbar, Glanz). Eine Eigenschaft, die nur einzelne Metalle zeigen, eignet sich zum Unterscheiden, nicht zum Zusammenfassen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-met-14",
+      "lernzielId": "lz-metalle",
+      "typ": "offen",
+      "frage": "Eine Bratpfanne ist aus Metall, ihr Griff aber oft aus **Holz oder Kunststoff**. Erkläre beides mit den Eigenschaften der Stoffe.",
+      "musterloesung": "Metalle sind **wärmeleitend**: Der Pfannenboden aus Metall leitet die Wärme der Herdplatte schnell zum Essen. Ein Griff aus Metall würde deshalb ebenfalls schnell **heiss**, und man könnte sich verbrennen. Holz und Kunststoff sind keine Metalle und **leiten Wärme schlecht** – der Griff bleibt kühl genug zum Anfassen.",
+      "stichworte": ["Metall leitet Wärme gut", "Boden: Wärme schnell zum Essen", "Metallgriff würde heiss", "Holz/Kunststoff leiten Wärme schlecht"],
+      "erklaerung": "Hier wird dieselbe Eigenschaft – die Wärmeleitfähigkeit – einmal genutzt (Boden) und einmal vermieden (Griff). Dass Holz und Kunststoff Wärme schlecht leiten, ist Allgemeinwissen (ergänzt).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-met-15",
+      "lernzielId": "lz-metalle",
+      "typ": "einfachwahl",
+      "frage": "Ein unbekannter Stoff **glänzt**, zerspringt aber beim Hämmern in Stücke und **leitet keinen Strom**. Was kannst du daraus schliessen?",
+      "optionen": ["Er ist ein Metall, weil er glänzt.", "Er ist ein Metall, falls er eine hohe Dichte hat.", "Er ist kein Metall, weil ihm Haupteigenschaften der Metalle fehlen.", "Das lässt sich nur über seine Farbe entscheiden."],
+      "richtig": 2,
+      "erklaerung": "Ein Metall muss **alle vier** Haupteigenschaften zeigen. Dieser Stoff ist nicht verformbar und leitet keinen Strom – also ist er **kein Metall**, auch wenn er glänzt. Eine einzelne Eigenschaft (Glanz, Dichte, Farbe) reicht nie zur Einordnung.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-met-16",
+      "lernzielId": "lz-metalle",
+      "typ": "wahrfalsch",
+      "frage": "Ein Stoff, der elektrischen Strom leitet, ist **sicher** ein Metall.",
+      "richtig": false,
+      "erklaerung": "Stromleitung allein genügt nicht: Ein Stoff ist erst durch die **Kombination** mehrerer Eigenschaften eindeutig erkennbar. Ein Metall braucht alle vier Haupteigenschaften. Beispiel (ergänzt): Die Bleistiftmine aus Graphit (Kohlenstoff) leitet Strom, ist aber kein Metall – sie lässt sich nicht hämmern, sondern bricht.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-steck-01",
+      "lernzielId": "lz-metalle-steckbrief",
+      "typ": "zuordnen",
+      "frage": "Ordne jedem Metall sein **Symbol** zu.",
+      "paare": [
+        { "links": "Eisen", "rechts": "Fe" },
+        { "links": "Kupfer", "rechts": "Cu" },
+        { "links": "Zink", "rechts": "Zn" },
+        { "links": "Aluminium", "rechts": "Al" },
+        { "links": "Gold", "rechts": "Au" },
+        { "links": "Silber", "rechts": "Ag" }
+      ],
+      "erklaerung": "Eisen **Fe** (lat. Ferrum), Kupfer **Cu**, Zink **Zn**, Aluminium **Al**, Gold **Au**, Silber **Ag**. Achtung bei Au und Ag: Au ist Gold, Ag ist Silber.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-steck-02",
+      "lernzielId": "lz-metalle-steckbrief",
+      "typ": "zuordnen",
+      "frage": "Welches Metall ist das? Ordne jedem Steckbrief das passende Metall zu.",
+      "paare": [
+        { "links": "leichtestes aller Metalle, mit dem Messer schneidbar", "rechts": "Lithium" },
+        { "links": "rötlich, für Kabel, Rohre und Dächer", "rechts": "Kupfer" },
+        { "links": "schützt Eisen vor Rost, Bestandteil von Batterien", "rechts": "Zink" },
+        { "links": "sehr leicht, schützt sich durch eine dünne Oxidschicht", "rechts": "Aluminium" },
+        { "links": "reaktionsträge und hitzebeständig – Katalysatoren, Laborgeräte", "rechts": "Platin" },
+        { "links": "läuft an der Luft dunkel an", "rechts": "Silber" }
+      ],
+      "erklaerung": "So steht es in der Tabelle der gängigsten Metalle: Lithium ist das leichteste, Kupfer rötlich und das Kabelmetall, Zink schützt Eisen (Verzinken), Aluminium schützt sich selbst durch eine Oxidschicht, Platin ist reaktionsträge und hitzebeständig, Silber läuft dunkel an.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-steck-03",
+      "lernzielId": "lz-metalle-steckbrief",
+      "typ": "kurzantwort",
+      "frage": "Wie lautet das chemische **Symbol** von Eisen?",
+      "akzeptiert": ["Fe"],
+      "erklaerung": "Eisen hat das Symbol **Fe**, vom lateinischen Wort *Ferrum* (Eisen).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-steck-04",
+      "lernzielId": "lz-metalle-steckbrief",
+      "typ": "einfachwahl",
+      "frage": "Für welches Metall steht das Symbol **Ag**?",
+      "optionen": ["Gold", "Aluminium", "Silber", "Quecksilber"],
+      "richtig": 2,
+      "erklaerung": "**Ag** steht für **Silber** (lat. *argentum*). Gold ist **Au**, Aluminium **Al**, Quecksilber **Hg**.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-steck-05",
+      "lernzielId": "lz-metalle-steckbrief",
+      "typ": "einfachwahl",
+      "frage": "Welches der gängigsten Metalle ist laut Tabelle **magnetisch**?",
+      "optionen": ["Kupfer", "Eisen", "Aluminium", "Gold"],
+      "richtig": 1,
+      "erklaerung": "In der Tabelle ist nur **Eisen** als magnetisch beschrieben. Mit einem Magneten kannst du Eisen deshalb von Kupfer, Aluminium oder Gold unterscheiden.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-steck-06",
+      "lernzielId": "lz-metalle-steckbrief",
+      "typ": "kurzantwort",
+      "frage": "Von welchem **lateinischen** Wort stammt das Symbol **Fe**?",
+      "akzeptiert": ["Ferrum"],
+      "erklaerung": "**Fe** kommt von lat. **Ferrum** = Eisen. Dasselbe Wort steckt im Blutwert **Ferritin**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-steck-07",
+      "lernzielId": "lz-metalle-steckbrief",
+      "typ": "einfachwahl",
+      "frage": "Bei einer Blutabnahme wird der Wert **Ferritin** bestimmt. Um welches Metall geht es dabei?",
+      "optionen": ["Kupfer", "Silber", "Platin", "Eisen"],
+      "richtig": 3,
+      "erklaerung": "In «Ferritin» steckt lat. *Ferrum* = **Eisen** (Symbol Fe). Der Wert zeigt, wie viel Eisen der Körper gespeichert hat.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-steck-08",
+      "lernzielId": "lz-metalle-steckbrief",
+      "typ": "wahrfalsch",
+      "frage": "Gold reagiert mit fast nichts – darum glänzt Goldschmuck auch nach vielen Jahren noch.",
+      "richtig": true,
+      "erklaerung": "Gold (**Au**) ist gelb glänzend und reagiert mit fast nichts. Darum läuft es nicht an und rostet nicht – anders als Silber (läuft dunkel an) oder Eisen (rostet).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-steck-09",
+      "lernzielId": "lz-metalle-steckbrief",
+      "typ": "wahrfalsch",
+      "frage": "Kupfer ist der beste Stromleiter überhaupt.",
+      "richtig": false,
+      "erklaerung": "Kupfer ist ein **sehr guter** Stromleiter und wird für Kabel verwendet. Der **beste** Strom- und Wärmeleiter überhaupt ist aber **Silber**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-steck-10",
+      "lernzielId": "lz-metalle-steckbrief",
+      "typ": "mehrfachwahl",
+      "frage": "Welche Aussagen über **Aluminium** stimmen?",
+      "optionen": ["Es ist sehr leicht.", "Es schützt sich selbst durch eine dünne Oxidschicht.", "Es rostet an feuchter Luft.", "Es ist magnetisch.", "Sein Symbol ist Al."],
+      "richtig": [0, 1, 4],
+      "erklaerung": "Aluminium (**Al**) ist sehr leicht und schützt sich selbst durch eine dünne Oxidschicht. Rosten und magnetisch sein – das steht in der Tabelle beim **Eisen**.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-steck-11",
+      "lernzielId": "lz-metalle-steckbrief",
+      "typ": "kurzantwort",
+      "frage": "Welches ist das **leichteste** aller Metalle?",
+      "akzeptiert": ["Lithium", "Li"],
+      "erklaerung": "**Lithium** (Li) ist das leichteste aller Metalle. Es ist so weich, dass man es mit dem Messer schneiden kann, und reagiert heftig mit Wasser.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-steck-12",
+      "lernzielId": "lz-metalle-steckbrief",
+      "typ": "einfachwahl",
+      "frage": "Ein Gartenzaun aus Eisen wird mit einem anderen Metall überzogen, damit er nicht rostet. Welches Metall wird dafür typischerweise verwendet?",
+      "optionen": ["Lithium", "Silber", "Zink", "Quecksilber"],
+      "richtig": 2,
+      "erklaerung": "**Zink** schützt Eisen vor Rost – das nennt man **Verzinken**. Lithium reagiert heftig mit Wasser, Silber läuft an, Quecksilber ist flüssig.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-steck-13",
+      "lernzielId": "lz-metalle-steckbrief",
+      "typ": "einfachwahl",
+      "frage": "Ein kleines Gefäss im Labor soll in der heissen Flamme weder schmelzen noch mit anderen Stoffen reagieren. Welches Metall aus der Tabelle eignet sich am besten?",
+      "optionen": ["Lithium", "Zink", "Quecksilber", "Platin"],
+      "richtig": 3,
+      "erklaerung": "**Platin** ist reaktionsträge und hitzebeständig – genau darum wird es für Laborgeräte und Katalysatoren verwendet. Lithium reagiert heftig, Quecksilber ist schon bei Raumtemperatur flüssig, und Zink ist laut Tabelle weder reaktionsträge noch hitzebeständig (*ergänzt:* es schmilzt schon bei rund 420 °C).",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-steck-14",
+      "lernzielId": "lz-metalle-steckbrief",
+      "typ": "offen",
+      "frage": "Warum könnte man ein **Wasserrohr** nicht aus Lithium bauen? Welches Metall aus der Tabelle nimmt man stattdessen? Begründe mit den Steckbriefen.",
+      "musterloesung": "Lithium **reagiert heftig mit Wasser** – ein Rohr daraus würde vom Wasser zerstört. Ausserdem ist es so weich, dass man es **mit dem Messer schneiden** kann; es wäre also nicht stabil. Für Rohre verwendet man **Kupfer**, das laut Tabelle für Kabel, Rohre und Dächer gebraucht wird.",
+      "stichworte": ["reagiert heftig mit Wasser", "weich, mit Messer schneidbar", "Kupfer für Rohre"],
+      "erklaerung": "Für die Verwendung eines Metalls zählen seine besonderen Eigenschaften: Reaktionsvermögen (Lithium mit Wasser) und Festigkeit. Kupfer wird laut Tabelle für Rohre verwendet.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-steck-15",
+      "lernzielId": "lz-metalle-steckbrief",
+      "typ": "offen",
+      "frage": "Du hast zwei gleich grosse, silbrig glänzende Metallwürfel: einer ist aus **Eisen**, einer aus **Aluminium**. Wie findest du ohne Labor heraus, welcher welcher ist? Nenne zwei Möglichkeiten.",
+      "musterloesung": "1. **Magnet:** Eisen wird von einem Magneten angezogen, Aluminium nicht. 2. **Gewicht (Dichte):** Aluminium ist sehr leicht – der Aluminiumwürfel ist bei gleicher Grösse deutlich leichter als der Eisenwürfel. (3. An feuchter Luft rostet mit der Zeit nur das Eisen.)",
+      "stichworte": ["Magnet zieht Eisen an", "Aluminium leichter (Dichte)", "Eisen rostet"],
+      "erklaerung": "Beide sind Metalle und haben die vier Haupteigenschaften gemeinsam – unterscheiden kannst du sie über die **übrigen** Eigenschaften: Magnetismus, Dichte, Rosten.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-steck-16",
+      "lernzielId": "lz-metalle-steckbrief",
+      "typ": "wahrfalsch",
+      "frage": "Zink und Zinn sind zwei Namen für dasselbe Metall.",
+      "richtig": false,
+      "erklaerung": "Das sind zwei verschiedene Metalle: **Zink** hat das Symbol **Zn** und steckt im Messing, **Zinn** (Symbol Sn, ergänzt) steckt in der Bronze.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-steck-17",
+      "lernzielId": "lz-metalle-steckbrief",
+      "typ": "einfachwahl",
+      "frage": "Für einen Bilderrahmen braucht man ein Metall, das sich **hauchdünn** hämmern lässt und auch nach Jahren **nicht anläuft**. Welches passt laut Tabelle?",
+      "optionen": ["Gold", "Silber", "Eisen", "Lithium"],
+      "richtig": 0,
+      "erklaerung": "**Gold** ist extrem dehnbar und reagiert mit fast nichts – darum läuft es nicht an. Silber läuft an der Luft dunkel an, Eisen rostet, Lithium reagiert heftig mit Wasser.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-leg-01",
+      "lernzielId": "lz-legierungen",
+      "typ": "einfachwahl",
+      "frage": "Was ist eine **Legierung**?",
+      "optionen": ["ein Reinstoff aus einem einzigen Metall", "ein Gemisch aus mehreren Metallen oder aus Metall und Kohlenstoff", "ein Metall, das mit Sauerstoff reagiert hat", "ein Metall, das in Wasser gelöst ist"],
+      "richtig": 1,
+      "erklaerung": "Eine Legierung ist ein **Gemisch aus mehreren Metallen** (oder aus Metall und Kohlenstoff). Sie ist meist härter und widerstandsfähiger als das reine Metall.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-leg-02",
+      "lernzielId": "lz-legierungen",
+      "typ": "zuordnen",
+      "frage": "Ordne jeder Legierung ihre **Bestandteile** zu.",
+      "paare": [
+        { "links": "Stahl", "rechts": "Eisen + Kohlenstoff" },
+        { "links": "Bronze", "rechts": "Kupfer + Zinn" },
+        { "links": "Messing", "rechts": "Kupfer + Zink" },
+        { "links": "Amalgam", "rechts": "Quecksilber + andere Metalle" }
+      ],
+      "erklaerung": "Stahl = **Eisen + Kohlenstoff** (< 2 %), Bronze = **Kupfer + Zinn**, Messing = **Kupfer + Zink**, Amalgam = **Quecksilber** mit anderen Metallen (ergänzt).",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-leg-03",
+      "lernzielId": "lz-legierungen",
+      "typ": "zuordnen",
+      "frage": "Aus welcher Legierung ist das typischerweise? Ordne zu.",
+      "paare": [
+        { "links": "Kirchenglocke", "rechts": "Bronze" },
+        { "links": "Statue", "rechts": "Bronze" },
+        { "links": "Trompete", "rechts": "Messing" },
+        { "links": "Armatur (Wasserhahn)", "rechts": "Messing" },
+        { "links": "Werkzeug", "rechts": "Stahl" },
+        { "links": "Träger einer Brücke", "rechts": "Stahl" }
+      ],
+      "erklaerung": "Bronze: Glocken, Statuen, Münzen. Messing: Blasinstrumente (z. B. Trompete), Armaturen, Schrauben. Stahl: Werkzeuge, Bau, Fahrzeuge.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-leg-04",
+      "lernzielId": "lz-legierungen",
+      "typ": "wahrfalsch",
+      "frage": "Legierungen sind meist **härter und widerstandsfähiger** als das reine Metall.",
+      "richtig": true,
+      "erklaerung": "Genau deshalb stellt man Legierungen her: Stahl zum Beispiel ist härter als reines Eisen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-leg-05",
+      "lernzielId": "lz-legierungen",
+      "typ": "kurzantwort",
+      "frage": "Welches Metall steckt **sowohl** in Bronze **als auch** in Messing?",
+      "akzeptiert": ["Kupfer", "Cu"],
+      "erklaerung": "Beide enthalten **Kupfer**: Bronze = Kupfer + Zinn, Messing = Kupfer + Zink.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-leg-06",
+      "lernzielId": "lz-legierungen",
+      "typ": "zahl",
+      "frage": "Stahl ist Eisen mit etwas Kohlenstoff. Der Kohlenstoffanteil liegt **unter** wie viel Prozent?",
+      "richtig": 2,
+      "toleranz": 0,
+      "einheit": "%",
+      "erklaerung": "Stahl = Eisen + Kohlenstoff mit **weniger als 2 %** Kohlenstoff. Schon diese kleine Menge macht Stahl härter als reines Eisen.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-leg-07",
+      "lernzielId": "lz-legierungen",
+      "typ": "einfachwahl",
+      "frage": "Zu welcher Art von Stoffen gehört eine Legierung?",
+      "optionen": ["heterogenes Gemisch (Gemenge)", "Suspension", "homogenes Gemisch (fest/fest)", "Reinstoff"],
+      "richtig": 2,
+      "erklaerung": "Eine Legierung ist ein **homogenes Gemisch s/s**: Sie besteht aus mehreren Stoffen (kein Reinstoff), aber man sieht keine einzelnen Bestandteile (nicht heterogen).",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-leg-08",
+      "lernzielId": "lz-legierungen",
+      "typ": "wahrfalsch",
+      "frage": "Weil man in einem Stück Messing auch unter dem Mikroskop keine einzelnen Bestandteile sieht, ist Messing ein **Reinstoff**.",
+      "richtig": false,
+      "erklaerung": "Messing besteht aus **Kupfer und Zink**, ist also ein **Gemisch**. Weil es einheitlich aussieht, ist es ein **homogenes** Gemisch – es sieht nur aus wie ein Reinstoff.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-leg-09",
+      "lernzielId": "lz-legierungen",
+      "typ": "mehrfachwahl",
+      "frage": "Welche dieser Stoffe sind **Legierungen**?",
+      "optionen": ["Stahl", "reines Kupfer", "Bronze", "Granit", "Messing", "Amalgam"],
+      "richtig": [0, 2, 4, 5],
+      "erklaerung": "Stahl, Bronze, Messing und Amalgam sind Legierungen. Reines Kupfer ist ein Reinstoff (ein einziges Metall), Granit ist ein heterogenes Gemenge aus verschiedenen Körnern.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-leg-10",
+      "lernzielId": "lz-legierungen",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die Legierung aus **Kupfer und Zinn**?",
+      "akzeptiert": ["Bronze"],
+      "erklaerung": "Kupfer + Zinn = **Bronze**. Aus Bronze sind Glocken, Statuen und Münzen.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-leg-11",
+      "lernzielId": "lz-legierungen",
+      "typ": "kurzantwort",
+      "frage": "Wie heisst die Legierung aus **Kupfer und Zink**?",
+      "akzeptiert": ["Messing"],
+      "erklaerung": "Kupfer + Zink = **Messing**. Daraus sind Blasinstrumente, Armaturen und Schrauben. Nicht verwechseln: Zinn statt Zink ergibt Bronze.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-leg-12",
+      "lernzielId": "lz-legierungen",
+      "typ": "einfachwahl",
+      "frage": "Wie unterscheidet sich **Stahl** von reinem Eisen?",
+      "optionen": ["Stahl ist härter.", "Stahl ist weicher und lässt sich leichter biegen.", "Stahl ist bei Raumtemperatur flüssig.", "Stahl enthält kein Eisen mehr."],
+      "richtig": 0,
+      "erklaerung": "Stahl ist eine Legierung aus Eisen und wenig Kohlenstoff und **härter als reines Eisen**. Darum macht man Werkzeuge, Bauteile und Fahrzeuge aus Stahl.",
+      "schwierigkeit": 1
+    },
+    {
+      "id": "f-leg-13",
+      "lernzielId": "lz-legierungen",
+      "typ": "einfachwahl",
+      "frage": "Eine Giesserei soll eine neue **Kirchenglocke** giessen. Welche Metalle braucht sie dafür?",
+      "optionen": ["Eisen und Kohlenstoff", "Kupfer und Zink", "Quecksilber und Silber", "Kupfer und Zinn"],
+      "richtig": 3,
+      "erklaerung": "Glocken sind aus **Bronze**, und Bronze besteht aus **Kupfer und Zinn**. Kupfer und Zink ergäben Messing, Eisen und Kohlenstoff Stahl.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-leg-14",
+      "lernzielId": "lz-legierungen",
+      "typ": "offen",
+      "frage": "Warum stellt man Werkzeuge wie Hammer oder Schraubenzieher aus **Stahl** her und nicht aus reinem Eisen?",
+      "musterloesung": "Stahl ist eine **Legierung** aus Eisen und wenig **Kohlenstoff** (weniger als 2 %). Wie die meisten Legierungen ist er **härter und widerstandsfähiger** als das reine Metall. Ein Werkzeug muss hart sein: Es darf sich bei der Arbeit nicht verbiegen oder schnell abnutzen. Reines Eisen wäre dafür zu weich.",
+      "stichworte": ["Legierung", "Eisen + Kohlenstoff", "härter", "widerstandsfähiger", "verbiegt sich nicht"],
+      "erklaerung": "Der Grund für Legierungen: Durch das Mischen werden Metalle meist härter und widerstandsfähiger – beim Stahl genügt dafür schon wenig Kohlenstoff.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-leg-15",
+      "lernzielId": "lz-legierungen",
+      "typ": "offen",
+      "frage": "Erkläre, warum **Messing** ein **homogenes Gemisch** und kein Reinstoff ist. Wie unterscheidet es sich von **Granit**, der auch aus festen Bestandteilen besteht?",
+      "musterloesung": "Messing besteht aus **zwei Stoffen**, Kupfer und Zink – darum ist es ein **Gemisch** und kein Reinstoff. Es ist **homogen**, weil es überall gleich aussieht: Man sieht auch unter dem Mikroskop keine einzelnen Bestandteile (einphasig). Granit ist ebenfalls ein Gemisch fester Stoffe (s/s), aber **heterogen** (ein Gemenge): Man erkennt die verschiedenen Körner mit blossem Auge.",
+      "stichworte": ["Kupfer + Zink", "Gemisch, kein Reinstoff", "homogen: keine Bestandteile sichtbar", "Granit: Gemenge, heterogen, Körner sichtbar"],
+      "erklaerung": "Homogen oder heterogen hängt davon ab, ob man die Bestandteile unterscheiden kann. Legierung und Gemenge sind beide s/s – die Legierung ist homogen, das Gemenge heterogen.",
+      "schwierigkeit": 3
+    },
+    {
+      "id": "f-leg-16",
+      "lernzielId": "lz-legierungen",
+      "typ": "einfachwahl",
+      "frage": "Spülbecken und Besteck bestehen meist aus einer **eisenhaltigen** Legierung, die **kaum rostet**. Welche ist es?",
+      "optionen": ["gewöhnlicher Stahl (Eisen + Kohlenstoff)", "Chromstahl", "Bronze", "reines Eisen"],
+      "richtig": 1,
+      "erklaerung": "**Chromstahl** (Stahl mit Chrom) rostet kaum – darum ist er typisch für Spülbecken und Besteck (ergänzt). Gewöhnlicher Stahl rostet an feuchter Luft wie Eisen. Bronze (Kupfer + Zinn) enthält kein Eisen, und reines Eisen rostet und ist zudem keine Legierung.",
+      "schwierigkeit": 2
+    },
+    {
+      "id": "f-leg-17",
+      "lernzielId": "lz-legierungen",
+      "typ": "mehrfachwahl",
+      "frage": "Eine **Bronzestatue** und ein **Wasserhahn aus Messing**: Welche Aussagen stimmen?",
+      "optionen": ["Beide enthalten Kupfer.", "Beide sind homogene Gemische (s/s).", "Beide enthalten Zinn.", "Nur die Statue ist aus einer Legierung.", "Die Statue enthält Zink, der Wasserhahn Zinn."],
+      "richtig": [0, 1],
+      "erklaerung": "Bronze (Kupfer + Zinn) und Messing (Kupfer + Zink) sind **beide Legierungen** mit **Kupfer** und damit homogene Gemische s/s. Zinn steckt nur in der Bronze, Zink nur im Messing – die letzte Aussage vertauscht die beiden.",
+      "schwierigkeit": 3
+    }
+  ]
+}

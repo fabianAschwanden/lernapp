@@ -1,0 +1,206 @@
+{
+  "id": "chemie-pruefung-1",
+  "format": 1,
+  "version": 2,
+  "fach": "Chemie",
+  "titel": "Test 1: Stoffe, Teilchenmodell und Stoffgemische",
+  "beschreibung": "Labor und Brennerflammen, Luft, Stoffeigenschaften, Metalle, Teilchenmodell, Aggregatzustände, Stoffgemische und Löslichkeit sowie Verbrennung.",
+  "klasse": "FMS1A",
+  "hinweise": [
+    "Test 1 von 4, Montag, 16. November 2026. Prüfungsstoff: «Elemente» Kapitel 1.1–1.3, 2.1–2.2 und 3.1–3.3, Tafelaufschriebe, ausgeteilte Arbeitsblätter und Übungsaufgaben mit Lösungen.",
+    "Wie im Übungstest: Bei Multiple Choice kreuzt du alle richtigen Aussagen an (mindestens eine ist richtig). Beobachtungen erklärst du in ganzen Sätzen mit dem Teilchenmodell.",
+    "Typische Prüfungsaufgabe: aus Schmelz- und Siedetemperatur den Aggregatzustand bei einer Temperatur bestimmen (Elemente A22, Übungstest B2).",
+    "Zu Kapitel 3 (chemische Reaktionen, Elemente und Verbindungen, Energie) nennt das Lernziele-Blatt keine Lernziele, und es lag kein Material vor. Die Lektion deckt davon nur die Verbrennung aus dem Heft ab.",
+    "Das Arbeitsblatt zu den Laborregeln lag nicht vor; die Regeln sind ergänzt. Gleiche sie mit deinem Blatt ab."
+  ],
+  "quellen": [
+    {
+      "id": "lernziele",
+      "titel": "Lernziele FMS 1A, Test 1 (16. November 2026)"
+    },
+    {
+      "id": "heft",
+      "titel": "Heftnotizen Chemie (Tafelaufschriebe)"
+    },
+    {
+      "id": "blatt-stoffe",
+      "titel": "Arbeitsblatt «Woran erkennen wir Stoffe?» und «Die grosse Stoffgruppe der Metalle»",
+      "umfang": "2 Seiten"
+    },
+    {
+      "id": "versuch",
+      "titel": "Praktikum «Beobachtungen» (Eisen, Zink, Kalk, Kochsalz, Zucker)"
+    },
+    {
+      "id": "ab-loeslichkeit",
+      "titel": "Arbeitsblatt «Lösungen und Löslichkeit» (Elemente S. 36–38)",
+      "umfang": "Teil A–C"
+    },
+    {
+      "id": "elemente-aufgaben",
+      "titel": "Elemente: Aufgaben und Lösungen zu Stoffen und Stoffgemischen",
+      "umfang": "A11–A23, Ü5, Ü6, A1–A9"
+    },
+    {
+      "id": "uebungstest",
+      "titel": "Mini-Übungstest Teilchenmodell, Aggregatzustände, Löslichkeit (mit Lösung)"
+    },
+    {
+      "id": "ergaenzt",
+      "titel": "Ergänzt aus Allgemeinwissen: Laborregeln, Bauteile des Bunsenbrenners, Fachbegriffe Nebel/Rauch, einzelne Alltagsbeispiele."
+    }
+  ],
+  "lernziele": [
+    {
+      "id": "lz-naturwissenschaften",
+      "thema": "Grundlagen und Arbeiten im Labor",
+      "text": "Du kannst die Naturwissenschaften Biologie, Physik und Chemie voneinander abgrenzen.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Lernziele-Blatt; Heft (Biologie, Physik, Chemie)"
+    },
+    {
+      "id": "lz-laborregeln",
+      "thema": "Grundlagen und Arbeiten im Labor",
+      "text": "Du kannst die Verhaltensregeln im Chemielabor nennen (siehe Arbeitsblatt).",
+      "zusammenfassung": "",
+      "quellenhinweis": "Lernziele-Blatt; Arbeitsblatt lag nicht vor (Regeln ergänzt)",
+      "ergaenzt": true
+    },
+    {
+      "id": "lz-brennerflammen",
+      "thema": "Grundlagen und Arbeiten im Labor",
+      "text": "Du kannst die verschiedenen Brennerflammen zeichnen, beschriften und benennen.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Lernziele-Blatt; Heft «Bunsenbrenner»"
+    },
+    {
+      "id": "lz-luft",
+      "thema": "Grundlagen und Arbeiten im Labor",
+      "text": "Du kannst die Zusammensetzung der Luft angeben.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Lernziele-Blatt; Heft «Luftzusammensetzung»"
+    },
+    {
+      "id": "lz-eigenschaften",
+      "thema": "Stoffe und Stoffeigenschaften",
+      "text": "Du kannst physikalische und chemische Stoffeigenschaften nennen und voneinander unterscheiden.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Lernziele-Blatt; Blatt «Woran erkennen wir Stoffe?»; Heft «Stoffeigenschaften»"
+    },
+    {
+      "id": "lz-stoffe-erkennen",
+      "thema": "Stoffe und Stoffeigenschaften",
+      "text": "Du kannst Stoffe anhand ihrer Eigenschaften identifizieren und unterscheiden (siehe auch Praktikum).",
+      "zusammenfassung": "",
+      "quellenhinweis": "Lernziele-Blatt; Blatt «Woran erkennen wir Stoffe?», Merke; Praktikum «Beobachtungen»"
+    },
+    {
+      "id": "lz-metalle",
+      "thema": "Metalle und Legierungen",
+      "text": "Du nennst und erklärst die vier Haupteigenschaften aller Metalle und weitere typische Merkmale von Metallen.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Arbeitsblatt «Die grosse Stoffgruppe der Metalle» (nicht auf dem Lernziele-Blatt); Heft «Metalle»"
+    },
+    {
+      "id": "lz-metalle-steckbrief",
+      "thema": "Metalle und Legierungen",
+      "text": "Du kennst die gängigsten Metalle mit ihrem Symbol und typischen Eigenschaften und Verwendungen.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Arbeitsblatt S. 2, «Die gängigsten Metalle» (nicht auf dem Lernziele-Blatt)"
+    },
+    {
+      "id": "lz-legierungen",
+      "thema": "Metalle und Legierungen",
+      "text": "Du erklärst, was eine Legierung ist, und kennst Stahl, Bronze und Messing mit Bestandteilen und Verwendung.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Arbeitsblatt S. 2, «Drei wichtige Legierungen»; Heft «Homogene Gemische»"
+    },
+    {
+      "id": "lz-teilchenmodell",
+      "thema": "Das Teilchenmodell",
+      "text": "Du kannst die Aussagen des Teilchenmodells nennen und an Beispielen erklären.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Lernziele-Blatt; Heft «Das Teilchenmodell»; Übungstest A1"
+    },
+    {
+      "id": "lz-phaenomene",
+      "thema": "Das Teilchenmodell",
+      "text": "Du kannst folgende Phänomene mit dem Teilchenmodell erklären: Volumenkontraktion (beim Mischen von Alkohol und Wasser), Wärmeausdehnung, Wärmeleitung, Brownsche Bewegung und Diffusion.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Lernziele-Blatt; Elemente A12, A14, A15, Ü6; Heft «Brown'sche Molekularbewegung»; Übungstest B1"
+    },
+    {
+      "id": "lz-diffusion",
+      "thema": "Das Teilchenmodell",
+      "text": "Du kannst erklären, warum die Diffusionsgeschwindigkeit a) von der Temperatur und b) von der Art des Gases abhängt.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Lernziele-Blatt; Heft «Die Diffusion»; Elemente A11; Übungstest A1"
+    },
+    {
+      "id": "lz-aggregatzustaende",
+      "thema": "Aggregatzustände",
+      "text": "Du kannst die drei Aggregatzustände mit dem Teilchenmodell erklären.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Lernziele-Blatt; Heft «Die Diffusion» (Teilchen in g, l, s); Elemente A18, A19"
+    },
+    {
+      "id": "lz-uebergaenge",
+      "thema": "Aggregatzustände",
+      "text": "Du kannst die Übergänge zwischen den Aggregatzuständen auf Stoff- und Teilchenebene beschreiben.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Lernziele-Blatt; Heft «Das Teilchenmodell» (Dreieck); Elemente A20, A21, Ü5; Übungstest A2"
+    },
+    {
+      "id": "lz-schmelz-siedetemperatur",
+      "thema": "Aggregatzustände",
+      "text": "Du bestimmst aus Schmelz- und Siedetemperatur den Aggregatzustand eines Stoffes bei einer bestimmten Temperatur.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Elemente A22, A23; Übungstest B2; im Heft als typische Prüfungsaufgabe markiert"
+    },
+    {
+      "id": "lz-homogen-heterogen",
+      "thema": "Stoffgemische und Stofftrennung",
+      "text": "Du kannst homogene und heterogene Gemische auf Stoffebene beschreiben und unterscheiden.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Lernziele-Blatt; Heft «Stoffgemische»; Elemente A1, A5, A6"
+    },
+    {
+      "id": "lz-gemischarten",
+      "thema": "Stoffgemische und Stofftrennung",
+      "text": "Du kannst Gemische nach den Aggregatzuständen ihrer Bestandteile einteilen und Beispiele nennen.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Lernziele-Blatt; Heft «Heterogene/Homogene Gemische»; Elemente A2–A4"
+    },
+    {
+      "id": "lz-loeslichkeit",
+      "thema": "Stoffgemische und Stofftrennung",
+      "text": "Du kannst beschreiben, wie die Löslichkeit eines Stoffes von der Temperatur abhängt, und mit Tabellen und Löslichkeitskurven arbeiten.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Lernziele-Blatt; Arbeitsblatt «Lösungen und Löslichkeit» (Merke, A1, A3, A4, B1, B2); Elemente A8, A9"
+    },
+    {
+      "id": "lz-gesaettigt",
+      "thema": "Stoffgemische und Stofftrennung",
+      "text": "Ich kann erklären, was eine gesättigte Lösung ist, und einfache Werte aus einer Tabelle oder Kurve berechnen.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Arbeitsblatt «Lösungen und Löslichkeit» (A2, A6, B2 b, B3, B4); Übungstest B3"
+    },
+    {
+      "id": "lz-gase",
+      "thema": "Stoffgemische und Stofftrennung",
+      "text": "Ich kann erklären, warum sich Gase in warmem Wasser schlechter lösen.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Arbeitsblatt «Lösungen und Löslichkeit» (A5, B5, B6); Heft «Wissen!»"
+    },
+    {
+      "id": "lz-verbrennung",
+      "thema": "Chemische Reaktion: Verbrennung",
+      "text": "Du beschreibst die Verbrennung als chemische Reaktion mit Sauerstoff, bei der neue Stoffe entstehen.",
+      "zusammenfassung": "",
+      "quellenhinweis": "Heft «Verbrennung in der Chemie» (Elemente Kap. 3, ohne eigene Lernziele)"
+    }
+  ],
+  "herkunft": "mitgeliefert",
+  "erstelltAm": "2026-11-12T20:00:00.000Z",
+  "pruefungsdatum": "2026-11-16"
+}
